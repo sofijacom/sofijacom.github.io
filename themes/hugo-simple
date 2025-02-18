@@ -1,4 +1,1 @@
-# Git Submodule (recommend)
-git submodule add https://github.com/maolonglong/hugo-simple.git themes/hugo-simple
-# Hugo Modules
-hugo mod get github.com/maolonglong/hugo-simple
+
