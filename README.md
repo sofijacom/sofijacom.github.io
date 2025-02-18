@@ -1,6 +1,7 @@
 # ***Kennel Linux***
 
-![2025-02-17_22-59](https://github.com/user-attachments/assets/78bc834b-7a26-4648-918f-0e4603aa6e58)
+![2025-02-19_02-21](https://github.com/user-attachments/assets/cd869edf-11d9-4e83-9f2d-6dae8b35d5fa)
+
 
 - [Main forum](https://forum.puppylinux.com/viewforum.php?f=228)
 - [Another KL forum](https://kennel-linux.rockedge.org/)
