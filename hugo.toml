@@ -1,4 +1,4 @@
-baseURL = 'https://KLlinux.github.io/'
+baseURL = 'https://sofijacom.github.io/KLlinux.github.io/'
 languageCode = 'en-us'
 title = 'Kennel Linux'
 theme = 'jekyll-theme-minimal'
