@@ -1,7 +1,7 @@
 baseURL = 'https://KLlinux.github.io/'
 languageCode = 'en-us'
 title = 'Kennel Linux'
-theme = 'jekyll-theme-minimal'
+theme = 'pages-themes'
 
 [params]
 hideRSSLink = true
