@@ -1,6 +1,6 @@
 baseURL = 'https://kllinux.github.io/'
 languageCode = 'en-us'
-title = 'Kennel Linux'
+title = 'Kl Linux'
 theme = 'hugo-simple'
 
 [params]
