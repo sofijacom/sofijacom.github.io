@@ -3,6 +3,17 @@ languageCode = 'en-us'
 title = 'Kl Linux'
 theme = 'hugo-simple'
 
+[markup.goldmark.renderer]
+unsafe = true
+[markup.tableOfContents]
+startLevel = 2
+endLevel = 3
+[markup.highlight]
+lineNos = true
+lineNumbersInTable = false
+noClasses = true
+style = "catppuccin-mocha"
+
 [params]
 hideRSSLink = true
 
@@ -14,3 +25,9 @@ weight = 10
 name = "Links"
 pageRef = "/links"
 weight = 20
+
+[outputs]
+# Generate RSS for home only.
+section = ["html"]
+taxonomy = ["html"]
+term = ["html"]
