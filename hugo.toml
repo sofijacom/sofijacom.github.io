@@ -23,7 +23,7 @@ pageRef = "/"
 weight = 10
 [[menu.main]]
 name = "Links"
-pageRef = "/links"
+pageRef = "/content/links"
 weight = 20
 
 [outputs]
