@@ -1,7 +1,7 @@
-baseURL = 'https://sofijacom.github.io/KLlinux.github.io/'
+baseURL = 'https://sofijacom.github.io/'
 languageCode = 'en-us'
 title = 'Kennel Linux'
-theme = 'pages-themes'
+theme = 'hugo-simple'
 
 [params]
 hideRSSLink = true
