@@ -1,0 +1,15 @@
+/*catppuccin mocha*/
+:root {
+	--base00: #14141F; /*changed from mocha crust color*/
+	--base01: #181825; /*mantle*/
+	--base02: #1E1E2E; /*base*/
+
+	--base03: #6C7086; /*overlay0*/
+	--base04: #A6ADC8; /*subtext0*/
+	--base05: #BAC2DE; /*subtext1*/
+
+	--base0A: #F5E0DC; /*rosewater*/
+	--base0B: #89B4FA; /*blue*/
+	--base0C: #EBA0AC; /*maroon*/
+	--base0D: #A488C6; /*mauve*/
+}

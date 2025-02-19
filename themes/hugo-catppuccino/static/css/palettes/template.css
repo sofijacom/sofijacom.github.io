@@ -1,0 +1,15 @@
+/* base16 default dark template */
+:root {
+	--base00: #181818; /*page background*/
+	--base01: #282828; /*content background*/
+	--base02: #383838; /*<pre,code,kbd,samp> in text backgrounds*/
+
+	--base03: #585858; /*muted text, before,marker symbols*/
+	--base04: #b8b8b8; /*aside text*/
+	--base05: #d8d8d8; /*content text*/
+
+	--base0A: #f7ca88; /*selections*/
+	--base0B: #a1b56c; /*logo*/
+	--base0C: #86c1b9; /*active links*/
+	--base0D: #7cafc2; /*link*/
+}
