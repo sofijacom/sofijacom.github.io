@@ -23,7 +23,7 @@ layout: home
 - [FirstRib GitLab repo](https://gitlab.com/firstrib/firstrib)
 
 
-> ### **Distributions-assemblies from Sofiya**
+> ### Distributions-assemblies from Sofiya
 
 
 ####  _KLA 64 bit._
