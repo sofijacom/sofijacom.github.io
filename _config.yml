@@ -75,6 +75,11 @@ exclude:
   - /docs # ignore Basically Basic sample site
   - /example # ignore Basically Basic dev site
 
+# Sidebar settings
+sidebar: true # whether or not using Sidebar.
+sidebar-about-description: "Be a swag programmer <br> React Team @ Meta"
+sidebar-avatar: https://github.com/Huxpro.png # use absolute URL, seeing it's used in both `/` and `/about/`
+
 # Front Matter Defaults
 defaults:
   # _posts
