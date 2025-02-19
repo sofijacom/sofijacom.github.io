@@ -17,12 +17,12 @@ lang: en-US
 title: Kennel Linux
 email: sofija.p2018@gmail.com
 description: Bookmark this to keep an eye on my project updates!
-baseurl: # the optional subpath of your site, e.g. "/blog"
+baseurl: "/example" # the optional subpath of your site, e.g. "/blog"
 url: " " # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 author:
   name: Sofya S.V
   twitter:
-  picture: /assets/images/sofiya.png
+  picture: /example/assets/images/sofiya.png
 twitter_username:
 github_username: sofijacom
 logo: "/assets/images/logo.png" # path of site logo, e.g. "/assets/images/logo.png"
