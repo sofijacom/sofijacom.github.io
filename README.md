@@ -1,8 +1,4 @@
-<h3 align="center">
-  
-# ***Kennel Linux***
-
-</h3>
+  # ***Kennel Linux***
 
 
 <h3 align="center">
