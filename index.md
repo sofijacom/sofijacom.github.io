@@ -4,7 +4,7 @@ layout: home
 
 
 <h3 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Roboto+Slab&color=7D3ACC&size=30&center=true&vCenter=true&width=1600&height=70&duration=4000&lines=Hello+There!+I'm+Sofiya+" />
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Roboto+Slab&color=7D3ACC&size=35&center=true&vCenter=true&width=1600&height=70&duration=4000&lines=Hello+There!+I'm+Sofiya+" />
 </h3>
 
 
@@ -26,7 +26,7 @@ layout: home
 > ### ***Distributions-assemblies from Sofiya***
 
 
-//////////////  KLA 64 bit. ////////////
+  KLA 64 bit.
 
 
 - [KLA-OT2baseCE](https://github.com/sofijacom/KLA-OT2baseCE)
@@ -35,7 +35,7 @@ layout: home
 - [KLA-plasma-KDE-CE](https://github.com/sofijacom/KLA-plasma-KDE-CE)
 
 
-////////////  KLV 64 bit. /////////////
+  KLV 64 bit.
 
 
 - [KLV-Spectrwm-CE](https://github.com/sofijacom/KLV-Spectrwm-CE)
@@ -46,7 +46,7 @@ layout: home
 - [KLV-plasma-KDE-CE](https://github.com/sofijacom/KLV-plasma-KDE-CE)
 
 
-////////// KLF-Rawhide-CE ///////////
+ KLF-Rawhide-CE
 
 
 - [KLF-Rawhide-CE](https://github.com/sofijacom/KLF-Rawhide-CE)
