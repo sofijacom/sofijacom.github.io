@@ -75,9 +75,6 @@ exclude:
   - /docs # ignore Basically Basic sample site
   - /example # ignore Basically Basic dev site
 
-permalink: /portfolio/
-layout_front_matter: page
-
 # Front Matter Defaults
 defaults:
   # _posts
