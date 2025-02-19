@@ -20,7 +20,7 @@ description: Bookmark this to keep an eye on my project updates!
 baseurl: # the optional subpath of your site, e.g. "/blog"
 url: "https://sofijacom.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 author:
-  name: Sofya SV
+  name: Sofya Sofiya
   twitter:
   picture: "/assets/images/sofiya.png"
 twitter_username:
