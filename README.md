@@ -23,7 +23,6 @@
 - [FirstRib GitLab repo](https://gitlab.com/firstrib/firstrib)
 
 
-> [!NOTE]
 > Distributions-assemblies from Sofiya
 
 //////////////  KLA 64 bit. ////////////
