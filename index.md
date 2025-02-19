@@ -2,6 +2,7 @@
 layout: home
 ---
 
+<img src="https://github.com/sofijacom/sofijacom.github.io/blob/main/assets/images/amine-ounnas-180287.jpg" />
 
 <h3 align="center">
   <img src="https://readme-typing-svg.herokuapp.com/?font=Roboto+Slab&color=7D3ACC&size=35&center=true&vCenter=true&width=1600&height=70&duration=4000&lines=Hello+There!+I'm+Sofiya+" />
