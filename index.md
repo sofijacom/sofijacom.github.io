@@ -46,7 +46,7 @@ layout: home
 - [KLV-plasma-KDE-CE](https://github.com/sofijacom/KLV-plasma-KDE-CE)
 
 
- KLF-Rawhide-CE
+  KLF-Rawhide-CE
 
 
 - [KLF-Rawhide-CE](https://github.com/sofijacom/KLF-Rawhide-CE)
