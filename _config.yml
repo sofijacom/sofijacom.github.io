@@ -26,7 +26,7 @@ description: Bookmark this to keep an eye on my project updates!
 baseurl: # the optional subpath of your site, e.g. "/blog"
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 author: Sofiya
-  name: S.V
+  name:
   twitter:
   picture:
 twitter_username:
