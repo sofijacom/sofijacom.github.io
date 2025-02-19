@@ -15,9 +15,9 @@
 # in the templates via {{ site.myvariable }}.
 lang: en-US
 title: Kennel Linux
-email: "https:sofiya.p.78@bk.ru"
+email: sofija.p2018@gmail.com
 description: Bookmark this to keep an eye on my project updates!
-baseurl: # the optional subpath of your site, e.g. "/blog"
+baseurl: "https://forum.puppylinux.com/index.php" # the optional subpath of your site, e.g. "/blog"
 url: "https://sofijacom.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 author:
   name:
