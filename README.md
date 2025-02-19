@@ -24,7 +24,7 @@
 - [FirstRib GitLab repo](https://gitlab.com/firstrib/firstrib)
 
 
-> # ***Distributions-assemblies from Sofiya***
+> ### ***Distributions-assemblies from Sofiya***
 
 //////////////  KLA 64 bit. ////////////
 
@@ -48,6 +48,7 @@
  
 
 <p align="center">	
-  <img src="https://github.com/sofijacom/sofijacom/blob/49e18fe1d7c2223884efd95af9370dcb84697427/icons_line/gray0_ctp_on_line.svg?sanitize=true" />
+  <img src="https://github.com/user-attachments/assets/6c640e94-03b1-4425-8345-e8bde37252a5" />
+  
 </p>
 
