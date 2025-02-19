@@ -15,6 +15,7 @@
   <img src="https://github.com/user-attachments/assets/c4c688f3-93ca-47f4-8dcd-b95f86925991" /> 
 </p>
 
+<hr>
 
 - [Main forum](https://forum.puppylinux.com/viewforum.php?f=228)
 - [Another KL forum](https://kennel-linux.rockedge.org/)
