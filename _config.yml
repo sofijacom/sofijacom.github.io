@@ -13,16 +13,16 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-lang: en-US
+lang: en-US, ru-RU
 title: Kennel Linux
 email: sofija.p2018@gmail.com
 description: Bookmark this to keep an eye on my project updates!
-baseurl: "https://forum.puppylinux.com" # the optional subpath of your site, e.g. "/blog"
+baseurl: "/example" # the optional subpath of your site, e.g. "/blog"
 url: "https://sofijacom.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 author:
-  name:
+  name: Sofya SV
   twitter:
-  picture:
+  picture: /assets/images/Sofiya.png
 twitter_username:
 github_username: sofijacom
 logo: "/assets/images/logo.png" # path of site logo, e.g. "/assets/images/logo.png"
