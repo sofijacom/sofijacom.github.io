@@ -22,7 +22,7 @@ url: "" # the base hostname & protocol for your site e.g. "https://mmistakes.git
 author:
   name: Sofya S.V
   twitter:
-  picture: "/assets/images/amine-ounnas-180287.jpg"
+  picture: https://github.com/amine-ounnas-180287.jpg
 twitter_username:
 github_username: sofijacom
 logo: "/assets/images/logo.png" # path of site logo, e.g. "/assets/images/logo.png"
@@ -74,11 +74,6 @@ exclude:
   - vendor/ruby/
   - /docs # ignore Basically Basic sample site
   - /example # ignore Basically Basic dev site
-
-# Sidebar settings
-sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "Be a swag programmer <br> React Team @ Meta"
-sidebar-avatar: https://github.com/Huxpro.png # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Front Matter Defaults
 defaults:
