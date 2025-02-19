@@ -6,6 +6,7 @@ layout: home
 <p align="center">
   
   <img src="https://github.com/sofijacom/sofijacom.github.io/blob/main/assets/images/amine-ounnas-180287.jpg" />
+  
 </p>
 
 
