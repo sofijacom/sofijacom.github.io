@@ -24,7 +24,7 @@
 - [FirstRib GitLab repo](https://gitlab.com/firstrib/firstrib)
 
 
-> ### ***Distributions-assemblies from Sofiya***
+### ***Distributions-assemblies from Sofiya***
 
 //////////////  KLA 64 bit. ////////////
 
@@ -47,8 +47,9 @@
 - [KLF-Rawhide-CE](https://github.com/sofijacom/KLF-Rawhide-CE)
  
 
-<p align="center">	
-  <img src="https://github.com/user-attachments/assets/6c640e94-03b1-4425-8345-e8bde37252a5" />
+
+<p align="center">
   
+  <img src="https://github.com/user-attachments/assets/6c640e94-03b1-4425-8345-e8bde37252a5" />  
 </p>
 
