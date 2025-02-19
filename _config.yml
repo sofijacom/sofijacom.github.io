@@ -1,5 +1,5 @@
 baseURL: 'https://sofijacom.github.io/'
 languageCode: 'en-us'
-theme: "jekyll-theme-minimal"
-title: "Kennel Linux"
-description: "Bookmark this to keep an eye on my project updates!"
+theme: 'hugo-simple'
+title: 'Kennel Linux'
+description: 'Bookmark this to keep an eye on my project updates!'
