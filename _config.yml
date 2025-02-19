@@ -1,5 +1,6 @@
 baseURL: 'https://sofijacom.github.io/'
 languageCode: 'en-us'
-theme: 'hugo-simple'
+- theme: 'hugo-simple'
+remote_theme: pages-themes/merlot@v0.2.0
 title: 'Kennel Linux'
 description: 'Bookmark this to keep an eye on my project updates!'
