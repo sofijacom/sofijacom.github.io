@@ -2,12 +2,11 @@
 layout: home
 ---
 
+---
+layout: links
+---
 
-<p align="center">
-  
-  <img src="https://github.com/user-attachments/assets/3f466f87-ee23-49d9-8d06-4908dc80ad3a" />
-  
-</p>
+
 
 
 <h3 align="center">
