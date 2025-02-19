@@ -22,7 +22,7 @@ layout: home
 - [Kennel Linux development](https://forum.puppylinux.com/viewforum.php?f=194)
 - [FirstRib GitLab repo](https://gitlab.com/firstrib/firstrib)
 
-> [!NOTE]
+
 > ### ***Distributions-assemblies from Sofiya***
 
 
