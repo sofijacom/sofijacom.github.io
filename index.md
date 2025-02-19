@@ -4,7 +4,7 @@ layout: home
 
 
 <h3 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&color=7D3ACC&size=40&center=true&vCenter=true&width=1600&height=70&duration=4000&lines=Hello+There!+I'm+Sofiya+" />
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Roboto+Slab&color=7D3ACC&size=30&center=true&vCenter=true&width=1600&height=70&duration=4000&lines=Hello+There!+I'm+Sofiya+" />
 </h3>
 
 
