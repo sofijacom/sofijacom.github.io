@@ -2,6 +2,6 @@
 layout: page
 title: About
 ---
-# About page
+### _About page_
 
-This page tells you a little bit about me.
+_This page tells you a little bit about me._
