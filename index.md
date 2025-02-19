@@ -5,7 +5,7 @@ layout: home
 
 <p align="center">
   
-  <img src="https://github.com/sofijacom/sofijacom.github.io/blob/main/assets/images/amine-ounnas-180287.jpg" />
+  <img src="https://github.com/user-attachments/assets/3f466f87-ee23-49d9-8d06-4908dc80ad3a" />
   
 </p>
 
