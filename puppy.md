@@ -1,5 +1,5 @@
 ---
-title: Puppy Linux
+title: "Puppy Linux"
 layout: Puppy
 ---
 
