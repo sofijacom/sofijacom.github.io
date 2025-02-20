@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "PuppyLinux"
+title: Puppy Linux
 ---
 
 # Puppy Linux
