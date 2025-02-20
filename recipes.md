@@ -1,8 +1,8 @@
 ---
 title: Puppy Linux
 layout: collection
-permalink: /puppy/
-collection: puppy
+permalink: /recipes/
+collection: recipes
 entries_layout: grid
 ---
 
