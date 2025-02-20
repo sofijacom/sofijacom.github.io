@@ -22,7 +22,7 @@ url: "https://github.com/sofijacom/sofijacom.github.io" # the base hostname & pr
 author:
   name: Sofya S.V
   twitter:
-  picture: /assets/images/404-bg.png
+  picture:
 twitter_username:
 github_username: sofijacom
 logo: "/assets/images/logo.png" # path of site logo, e.g. "/assets/images/logo.png"
