@@ -12,7 +12,7 @@ jekyll-theme-basically-basic
 |  └── stylesheets
 |     └── main.scss
 ├── _config.yml                # sample configuration
-├── index.md                   # sample home page (all posts/not paginated)
-└── about.md                   # example of a company page 
+└── index.md                   # sample home page (all posts/not paginated)
+ 
 ```
 
