@@ -3,4 +3,5 @@ layout: cv
 title: Curriculum Vitæ
 ---
 
-[Jekyll theme](https://jekyllrb.com/docs/themes/) meant as a substitute for the default --- [Minima](https://github.com/jekyll/minima).
+
+![eder-oliveira-180877](https://github.com/user-attachments/assets/f7d2308e-6191-4b8c-9f3f-49565813ff2b)
