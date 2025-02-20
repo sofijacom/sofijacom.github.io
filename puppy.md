@@ -1,5 +1,5 @@
 ---
-layout: opt
+layout: collection
 title: Puppy Linux
 ---
 
