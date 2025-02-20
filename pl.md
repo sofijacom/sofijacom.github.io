@@ -1,4 +1,4 @@
 ---
-title: Puppy Linux
 layout: pl
+title: Puppy Linux
 ---
