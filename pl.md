@@ -1,6 +1,5 @@
 ---
-layout: pl
-title: Puppy Linux
+layout: Puppy Linux
 ---
 
 # Puppy Linux
