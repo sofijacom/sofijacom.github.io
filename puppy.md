@@ -1,5 +1,5 @@
 ---
-layout: pl
+layout: puppy
 title: Puppy Linux
 ---
 
