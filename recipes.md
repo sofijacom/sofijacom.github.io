@@ -1,6 +1,4 @@
 ---
-title: Recipes
+title: Plugins
 layout: collection
 ---
-
-Sample document listing for the collection `_recipes`.
