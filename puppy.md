@@ -1,5 +1,5 @@
 ---
-layout: collection
+layout: cv
 title: Puppy Linux
 ---
 
