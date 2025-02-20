@@ -1,5 +1,4 @@
 ---
-layout: cv
 title: Puppy Linux
 ---
 
