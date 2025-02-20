@@ -1,5 +1,4 @@
 ---
-layout: cv
 title: Curriculum Vitæ
 image: /assets/images/eder-oliveira-180877.jpg
 categories:
