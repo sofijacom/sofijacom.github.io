@@ -1,5 +1,5 @@
 ---
-layout: Puppy
+layout: page
 title: Puppy Linux
 ---
 
