@@ -1,5 +1,5 @@
 ---
-title: Curriculum Vitæ
+title: "Layout:Curriculum Vitæ"
 image: /assets/images/eder-oliveira-180877.jpg
 categories:
   - Layout
