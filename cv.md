@@ -1,7 +1,6 @@
 ---
 layout: cv
 title: Curriculum Vitæ
-
-image: 
-  path: /assets/images/eder-oliveira-180877.jpg
 ---
+
+[Jekyll theme](https://jekyllrb.com/docs/themes/) meant as a substitute for the default --- [Minima](https://github.com/jekyll/minima).
