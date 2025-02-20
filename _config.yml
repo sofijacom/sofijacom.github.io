@@ -15,10 +15,10 @@
 # in the templates via {{ site.myvariable }}.
 lang: en-US
 title: Kennel Linux
-email: sofija.p2018@gmail.com
+email:
 description: Bookmark this to keep an eye on my project updates!
 baseurl: "" # the optional subpath of your site, e.g. "/blog"
-url: "https://github.com/sofijacom/sofijacom.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: "" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 author:
   name: Sofya S.V
   twitter:
@@ -35,32 +35,8 @@ algolia:
   search_only_api_key: # YOUR_SEARCH_ONLY_API_KEY
   powered_by: # true (default), false
 
-
-# Conversion
-highlighter: rouge
-lsi: false
-incremental: false
-
-# Markdown Processing
-kramdown:
-  input: GFM
-  hard_wrap: false
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
-
-# Sass/SCSS
-sass:
-  sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
 # Outputting
-permalink: /:categories/:title/
 timezone: Europe/Moscow # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
 
 # Build settings
 markdown: kramdown
