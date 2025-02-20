@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: puppy
 title: Puppy Linux
+permalink: /puppy/
 ---
 
 # Puppy Linux
