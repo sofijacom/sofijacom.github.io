@@ -1,6 +1,6 @@
 ---
 title: Puppy Linux
-layout: collection
+layout: Puppy
 ---
 
 # Puppy Linux
