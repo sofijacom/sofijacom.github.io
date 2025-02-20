@@ -1,7 +1,12 @@
 ---
-layout: page
 title: Puppy Linux
+image: /assets/images/puppy.png
+categories:
+  - Layout
+tags:
+  - content
+  - image
+  - layout
+last_modified_at:  2025-02-17T10:46:49-04:00
 ---
 
-
-![2025-02-20_22-45](https://github.com/user-attachments/assets/02af22b5-8574-4fa2-a542-2cfc8f9a213a)
