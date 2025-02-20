@@ -5,4 +5,4 @@ layout: about
 
 ## _About page_
 
-_This page tells you a little bit about me._
+_This page will tell you a little about Kennel Linux._
