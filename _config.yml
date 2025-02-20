@@ -38,6 +38,12 @@ algolia:
 # Outputting
 timezone: Europe/Moscow # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
+# Collections
+collections:
+  recipes:
+    output: true
+    permalink: /:collection/:path/
+
 # Build settings
 markdown: kramdown
 remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
