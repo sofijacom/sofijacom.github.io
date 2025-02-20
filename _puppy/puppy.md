@@ -1,9 +1,8 @@
 ---
-title: "Puppy"
+title: "puppy"
 image: 
-  path: /assets/images/*.jpg
-  thumbnail: /assets/images/*.jpg
-  caption: "Photo from [Pexels](https://www.pexels.com)"
+  path: /assets/images/logo-kl.png
+  thumbnail: /assets/images/logo-kl.png
 ---
 
 # Puppy Linux
