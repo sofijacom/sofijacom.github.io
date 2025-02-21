@@ -2,8 +2,7 @@
 layout: page
 title: Blog
 description: Expand your knowledge and stay informed with our engaging blog posts.
-plugins:
-  - jekyll-seo-tag
 image: '/assets/images/blog-page.jpg'
+
 ---
 
