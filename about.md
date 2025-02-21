@@ -3,7 +3,7 @@ title: "About"
 layout: about
 ---
 
-{{ page.date }}
+page.date
 
 ## _About page_
 
