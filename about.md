@@ -3,7 +3,6 @@ title: "About"
 layout: about
 ---
 
-page.date
 
 ## _About page_
 
