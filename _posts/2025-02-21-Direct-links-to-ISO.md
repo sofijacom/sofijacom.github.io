@@ -5,7 +5,6 @@ summary: Here you can find direct links to ISO
 hn-discussion: http://
 ---
 
-Here you can find direct links to ISO
 
 ``` 
 # KLA-plasma-KDE-CE
