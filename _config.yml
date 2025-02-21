@@ -13,6 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+date: "%H:%M:%S"
 lang: en-US
 title: Kennel Linux
 email:
@@ -36,8 +37,7 @@ algolia:
   powered_by: # true (default), false
 
 # Outputting
-timezone: Europe/Moscow # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-date: "%H:%M:%S" 
+timezone: Europe/Moscow # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones 
 
 # Collections
 collections:
