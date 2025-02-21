@@ -1,6 +1,5 @@
 ---
 layout: home
-date: "%H:%M:%S  %B %d, %Y"
 ---
 
 
