@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-lang: en-US
+lang: en-US, ru-RU
 title: Kennel Linux
 email:
 description: Bookmark this to keep an eye on my project updates!
@@ -39,6 +39,7 @@ algolia:
 # Outputting
 timezone: Europe/Moscow # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones 
 date_format: "%A %-d %B %Y"
+date_time: "%H:%M:%S"
 
 # Collections
 collections:
