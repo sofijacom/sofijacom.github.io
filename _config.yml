@@ -38,8 +38,9 @@ algolia:
 
 # Outputting
 timezone: Europe/Moscow # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones 
-date_format: "%A %-d %B %Y"
-date_time: "%H:%M:%S"
+# date_format: "%A %-d %B %Y"
+date_format: "%D %M %Y"
+time: "%H:%M:%S"
 
 # Collections
 collections:
