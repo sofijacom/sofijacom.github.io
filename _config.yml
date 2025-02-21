@@ -37,6 +37,7 @@ algolia:
 
 # Outputting
 timezone: Europe/Moscow # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+date: 2017-06-16T16:28:40-04:100
 
 # Collections
 collections:
