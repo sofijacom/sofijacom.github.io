@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 # Bookmark this to keep an eye on my project updates!
 
-lang: en-US, ru-RU
+lang: en-US
 title: Kennel Linux
 email:
 description:
