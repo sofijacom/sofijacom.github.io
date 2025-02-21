@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-
+<yml_catalog date="2025-02-21T21:02:38+03:00">
 lang: en-US
 title: Kennel Linux
 email:
