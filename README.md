@@ -1,3 +1,5 @@
+This is the (official?) website for Kennel Linux built with the [Jekyll](https://jekyllrb.com/) static site generator.
+
 
 ```terminal
 jekyll-theme-basically-basic
