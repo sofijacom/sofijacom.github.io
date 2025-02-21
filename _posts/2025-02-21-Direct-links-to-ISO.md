@@ -3,7 +3,7 @@ layout: post
 title: Direct links to ISO
 ---
 
-### _URL: links_
+### URL: links
 
 
 ### _KLA-plasma-KDE-CE_
