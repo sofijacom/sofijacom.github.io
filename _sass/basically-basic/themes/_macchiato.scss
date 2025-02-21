@@ -1,0 +1,52 @@
+/* ==========================================================================
+ catppuccin them*e skin
+ ========================================================================== */
+
+/* Colors */
+
+@import "mocha";
+// sass is also part of the npm package:
+// @use "~@catppuccin/palette/scss/catppuccin/mocha";
+
+.my-mocha-class {
+    background: $base;
+    color: $text;
+}
+
+.my-mocha-class {
+    background: #1e1e2e;
+    color: #cdd6f4;
+}
+
+@use "catppuccin";
+// sass is also part of the npm package:
+// @use "~@catppuccin/palette/scss/catppuccin";
+
+@each $flavor, $color in catppuccin.$palette {
+    .my-#{flavor}-class {
+        // you need surround the catppuccin color names with quotes
+        background: map-get($color, 'base');
+        color: map-get($color, 'blue');
+    }
+}
+
+.my-mocha-class {
+    background: #1e1e2e;
+    color: #cdd6f4;
+}
+
+.my-macchiato-class {
+    background: #24273a;
+    color: #cad3f5;
+}
+
+.my-frappe-class {
+    background: #303446;
+    color: #c6d0f5;
+}
+
+.my-latte-class {
+    background: #eff1f5;
+    color: #4c4f69;
+}
+
