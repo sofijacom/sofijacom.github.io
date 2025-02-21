@@ -6,7 +6,7 @@ title: Direct links to ISO
 ### URL: links
 
 
-## KLA 64 bit. Arch-based distributions
+> ## KLA 64 bit. Arch-based distributions
 
 ### _KLA-OT2baseCE_
 URL: <https://github.com/sofijacom/KLA-OT2baseCE/releases/tag/v3.1>
@@ -23,7 +23,7 @@ URL: <https://github.com/sofijacom/KLA-Manjaro-Openbox/releases/tag/KLA-Manjaro-
 URL: <https://github.com/sofijacom/KLA-plasma-KDE-CE/releases/tag/KLA-plasma-KDE-CE-1.4>
 
 
-## KLV 64 bit. Void Linux based distributions
+> ## KLV 64 bit. Void Linux based distributions
 
 ### _KLV-Spectrwm-CE_
 URL: <https://github.com/sofijacom/KLV-Spectrwm-CE/releases/tag/KLV-Spectrwm-CE-2.0>
@@ -49,7 +49,7 @@ URL: <https://github.com/sofijacom/KLV-Hyprland-Sway-CE/releases/tag/Hyprland-Sw
 URL: <https://github.com/sofijacom/KLV-plasma-KDE-CE/releases/tag/KLV-plasma-KDE-CE-1.3>
 
 
-## KLF-Rawhide. Distributions based on Fedora linux
+> ## KLF-Rawhide. Distributions based on Fedora linux
 
 ### _KLF-Rawhide-CE_
 URL: <https://github.com/sofijacom/KLF-Rawhide-CE/releases/tag/KLF-Rawhide-CE-1.2>
