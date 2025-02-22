@@ -52,6 +52,7 @@ collections:
 # Build settings
 markdown: kramdown
 remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
+branch: "master" # "master"
 plugins: # previsously gems
   - jekyll-feed
   - jekyll-seo-tag
