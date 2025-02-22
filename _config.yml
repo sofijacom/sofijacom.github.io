@@ -18,7 +18,8 @@
 lang: en-US
 title: Kennel Linux
 email:
-description:
+description: "Expand your knowledge and stay informed with our engaging blog posts"
+excerpt: "Expand your knowledge and stay informed with our engaging blog posts"
 baseurl: "" # the optional subpath of your site, e.g. "/blog"
 url: "https://sofijacom.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 author:
