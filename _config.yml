@@ -41,7 +41,7 @@ algolia:
 # Build settings
 markdown: kramdown
 #remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
-remote_theme: pages-themes/primer@v0.2.0
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 
 plugins: # previsously gems
   - jekyll-feed
