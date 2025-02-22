@@ -2,7 +2,6 @@
 layout: page
 title: Blog
 excerpt: "Expand your knowledge and stay informed with our engaging blog posts"
-header:
   image: /assets/images/blog-page.jpg
   overlay_filter: rgba(255, 0, 0, 0.5)
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
