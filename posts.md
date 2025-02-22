@@ -7,5 +7,6 @@ image: '/assets/images/blog-page.jpg'
 header:
   actions:
     - label: "Download"
+    icon: download
       url: "https://github.com"
 ---
