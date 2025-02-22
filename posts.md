@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Blog
-excerpt_separator: "Expand your knowledge and stay informed with our engaging blog posts"
+descriptions: "Expand your knowledge and stay informed with our engaging blog posts"
+output: true
 image: '/assets/images/blog-page.jpg'
 ---
 
