@@ -1,6 +1,5 @@
 ---
 layout: home
-author_profile: true
 actions:
   - label: "Get Started"
     icon: github
