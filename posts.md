@@ -5,4 +5,4 @@ descriptions: 'Expand your knowledge and stay informed with our engaging blog po
 image: '/assets/images/blog-page.jpg'
 ---
 
-## Expand your knowledge and stay informed with our engaging blog posts
+## _Expand your knowledge and stay informed with our engaging blog posts_
