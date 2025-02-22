@@ -45,6 +45,8 @@ plugins: # previsously gems
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-include-cache
+  - jekyll-gist
 feed:
   path: atom.xml
 
