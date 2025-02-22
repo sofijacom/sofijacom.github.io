@@ -40,12 +40,15 @@ algolia:
 
 # Build settings
 markdown: kramdown
-remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
+#remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
+remote_theme: pages-themes/primer@v0.2.0
+
 plugins: # previsously gems
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-remote-theme
 feed:
   path: atom.xml
 
