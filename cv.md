@@ -1,12 +1,14 @@
 ---
 title: Curriculum Vitæ
 sub_title: "Contact / References"
-image: /assets/images/eder-oliveira-180877.jpg
+header:
+  video:
+    id: wWJK5I9HJKk
+    provider: youtube
 categories:
   - Layout
+  - Uncategorized
 tags:
-  - content
-  - image
+  - video
   - layout
-last_modified_at:  2025-02-17T10:46:49-03:00
 ---
