@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Blog
-description: &excerpt "Expand your knowledge and stay informed with our engaging blog posts"
-excerpt: *excerpt
+description: "Expand your knowledge and stay informed with our engaging blog posts"
+excerpt: "Expand your knowledge and stay informed with our engaging blog posts"
 image: '/assets/images/blog-page.jpg'
 ---
 
