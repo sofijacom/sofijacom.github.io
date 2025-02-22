@@ -1,6 +1,5 @@
 ---
-title: Curriculum Vitæ
-sub_title: "Contact / References"
+title: "Layout: Curriculum Vitæ"
 header:
   video:
     id: wWJK5I9HJKk
