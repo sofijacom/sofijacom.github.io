@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Blog
-excerpt: "This post should display a **header with an overlay image**, if the theme supports it."
 header:
-  overlay_image: /assets/images/blog-page.jpg
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+description: &description "Expand your knowledge and stay informed with our engaging blog posts"
+sub_title: "Expand your knowledge and stay informed with our engaging blog posts"
+image: '/assets/images/blog-page.jpg'
   actions:
     - label: "More Info"
       url: "https://unsplash.com"
