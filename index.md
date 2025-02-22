@@ -1,6 +1,6 @@
 ---
 layout: home
-paginate: true
+paginate: false
 actions:
   - label: "Get Started"
     icon: github
