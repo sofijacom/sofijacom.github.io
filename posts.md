@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Blog
-excerpt: ""Expand your knowledge and stay informed with our engaging blog posts"
+excerpt: "Expand your knowledge and stay informed with our engaging blog posts"
 header:
   overlay_image: /assets/images/blog-page.jpg
   overlay_filter: rgba(255, 0, 0, 0.5)
