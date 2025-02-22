@@ -1,5 +1,12 @@
 ---
 layout: home
+actions:
+  - label: "Get Started"
+    icon: github
+    url: "https://github.com/sofijacom/sofijacom.github.io"
+  - label: "Download"
+    icon: download
+    url: "https://github.com/sofijacom/sofijacom.github.io/archive/master.zip"
 ---
 
 
