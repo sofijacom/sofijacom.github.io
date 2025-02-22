@@ -1,11 +1,8 @@
 ---
 title: Plugins
+sub_title: "The plugin is a script with the possibility of expansion and further modification."
 layout: collection
 ---
-
-
-The plugin is a script with the possibility of expansion and further modification.
-
 
 _f_00_Void_KDE_plasma_no-kernel.plug_
 
