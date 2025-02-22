@@ -7,7 +7,7 @@ header:
   image: '/assets/images/blog-page.jpg'
   caption: "Photo credit: [**Unsplash**](https://github.com/sofijacom/sofijacom.github.io/blob/master/assets/images/blog-page.jpg?raw=true)"
   actions:
-    - label: "More Info"
-    url: "https://forum.puppylinux.com"
+   - label: "More Info"
+     url: "https://forum.puppylinux.com"
     
 ---
