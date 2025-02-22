@@ -1,5 +1,5 @@
 ---
-title: "Layout: Curriculum Vitæ"
+title: Curriculum Vitæ
 header:
   video:
     id: wWJK5I9HJKk
