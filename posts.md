@@ -5,7 +5,7 @@ description: "Expand your knowledge and stay informed with our engaging blog pos
 sub_title: "Expand your knowledge and stay informed with our engaging blog posts"
 image: '/assets/images/blog-page.jpg'
   actions:
-    - label: "Download"
-      icon: download
-      url: "https://github.com"
+  - label: "Download"
+    icon: download
+    url: "https://github.com"
 ---
