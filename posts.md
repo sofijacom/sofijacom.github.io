@@ -1,10 +1,12 @@
 ---
 layout: page
 title: Blog
-description: "Expand your knowledge and stay informed with our engaging blog posts"
-sub_title: "Expand your knowledge and stay informed with our engaging blog posts"
-image: '/assets/images/blog-page.jpg'
-actions:
-  - label: "Download"
-    url: "https://github.com/sofijacom/sofijacom.github.io/archive/master.zip"
+excerpt: "This post should [...]"
+header:
+  overlay_image: /assets/images/unsplash-image-1.jpg
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+  actions:
+    - label: "Download"
+      url: "https://github.com"
 ---
