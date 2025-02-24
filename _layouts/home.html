@@ -2,8 +2,6 @@
 layout: default
 ---
 
-{% include page-intro.html %}
-
 <script>
 function time () {
   date = new Date(),
@@ -27,9 +25,11 @@ function time () {
 </script>
 <script>setInterval(time, 1000);</script>
 
-<div id="time" style="font-weight: bold; font-size:36px;">
-  <span id="id_H" style="color: red;"></span> : <span id="id_M" style="color: green;"></span> : <span id="id_S" style="color:blue;" ></span>
+<div id="time" style="font-weight: bold; font-size:48px;">
+<span id="id_H" style="color: red;"></span> : <span id="id_M" style="color: green;"></span> : <span id="id_S" style="color:blue;" ></span>
 </div>
+
+{% include page-intro.html %}
 
 <main id="main" class="page-content" aria-label="Content">
   <div class="index inner">
