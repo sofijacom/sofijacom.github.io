@@ -2,32 +2,65 @@
 layout: default
 ---
 
-<script>
-function time () {
-  date = new Date(),
-  h = date.getHours(),
-  m = date.getMinutes(),
-  s = date.getSeconds(),
+<!-- ст-001 -->
+        <h1 class="center green">Часы для сайта</h1>
 
-  h = (h < 10) ? '0' + h : h,
-  m = (m < 10) ? '0' + m : m,
-  s = (s < 10) ? '0' + s : s;
+        <script>
+            function getRandom(number) {
+                return Math.round(number * Math.random());
+            };
 
-  hours  = document.getElementById("id_H");
-  minutes = document.getElementById("id_M");
-  seconds = document.getElementById("id_S");
+            function getRandomColor() {
 
-  hours.innerHTML = h;
-  minutes.innerHTML = m;
-  seconds.innerHTML = s;
-};
+                var red = getRandom(255);
+                var green = getRandom(255);
+                var blue = getRandom(255);
 
-</script>
-<script>setInterval(time, 1000);</script>
+                var color = "rgb(" + red + "," + green + "," + blue + ")";
 
-<div id="time" style="font-weight: normal; font-size: 40px; margin-bottom: 15px; border: 3px solid #d9dfda; border-radius: 40px; background: #3b424a; color: grey;">
-<span id="id_H" style="color: red;"></span> : <span id="id_M" style="color: green;"></span> : <span id="id_S" style="color:blue;" ></span>
-</div>
+                return color;
+            };
+
+            function clock33() {
+
+                var date = new Date();
+                var hours = date.getHours();
+                var minutes = date.getMinutes();
+                var seconds = date.getSeconds();
+
+                var clockHours = document.getElementById("clockHours");
+                var clockMinutes = document.getElementById("clockMinutes");
+                var clockSeconds = document.getElementById("clockSeconds");
+
+                if (hours < 10)
+                    hours = "0" + hours;
+                if (minutes < 10)
+                    minutes = "0" + minutes;
+                if (seconds < 10)
+                    seconds = "0" + seconds;
+
+                clockHours.innerHTML = hours;
+                clockMinutes.innerHTML = minutes;
+                clockSeconds.innerHTML = seconds;
+
+                clockHours.style.color = getRandomColor();
+                clockMinutes.style.color = getRandomColor();
+                clockSeconds.style.color = getRandomColor();
+
+                setTimeout("clock33()", 1000);
+            };
+        </script>
+
+        <div class="center" style="width: 250px;">
+            <div id="clock33" class="bg-3" style="font-weight: normal; font-size: 40px; margin-bottom: 15px; border: 3px solid #d9dfda;  border-radius: 40px; background: #3b424a; color: grey;">
+
+                <span id="clockHours"></span> : <span id="clockMinutes"></span> : <span id="clockSeconds"></span>
+
+            </div>
+        </div>
+        <script>
+            clock33();
+        </script>
 
 {% include page-intro.html %}
 
