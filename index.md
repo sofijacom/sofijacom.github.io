@@ -9,19 +9,6 @@ actions:
     url: "https://github.com/sofijacom/sofijacom.github.io/archive/master.zip"
 ---
 
-<script>
-setInterval(function () {
-    var now = new Date();
-    var clock = document.getElementById("clock");
-    clock.innerHTML = now.toLocaleTimeString();
-}, 1000);
-</script>
-
-<body
-<span id="clock"
-style="background-color: #2F4F4F; color: #00FF7F; border:4px outset #FFA500; padding:5px 20px;">
-</span>
-</body
 
 <h3 align="center">
   <img src="https://readme-typing-svg.herokuapp.com/?font=Roboto+Slab&color=7D3ACC&size=35&center=true&vCenter=true&width=1600&height=70&duration=4000&lines=Hello+There!+I'm+Sofiya+" />
