@@ -9,6 +9,14 @@ actions:
     url: "https://github.com/sofijacom/sofijacom.github.io/archive/master.zip"
 ---
 
+<script>
+setInterval(function () {
+    var now = new Date();
+    var clock = document.getElementById("clock");
+    clock.innerHTML = now.toLocaleTimeString();
+}, 1000);
+</script>
+
 <body
 <span id="clock"
 style="background-color: #2F4F4F; color: #00FF7F; border:4px outset #FFA500; padding:5px 20px;">
