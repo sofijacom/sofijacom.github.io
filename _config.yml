@@ -51,6 +51,11 @@ jekyll_admin:
     - configuration
   homepage: "pages"
 
+  collections:
+  posts:
+    output: true
+    sidebar_label: News
+
 plugins: # previsously gems
   - jekyll-feed
   - jekyll-seo-tag
