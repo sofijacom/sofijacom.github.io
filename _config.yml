@@ -42,6 +42,15 @@ algolia:
 markdown: kramdown
 remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
 
+jekyll_admin:
+  hidden_links:
+    - posts
+    - pages
+    - staticfiles
+    - datafiles
+    - configuration
+  homepage: "pages"
+
 plugins: # previsously gems
   - jekyll-feed
   - jekyll-seo-tag
