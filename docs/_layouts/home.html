@@ -12,6 +12,44 @@ layout: default
    top: 10px;
    left: 70px;
 }
+   .look-calendar {
+    width:240px; border:3px solid #cbcccc; padding:5px; 
+    background-color:#1c1d1b; margin: 0 auto;   
+  }
+  #calendar {
+    width: 100%;
+    line-height: 1.2em;
+    font-size: 14px;
+    text-align: center;
+    border-spacing:0px;
+    color: #cff8e4;
+  }
+  #calendar tr.dn td {
+    color: #cff8e4;
+  }
+  #calendar thead tr:last-child {
+    font-size: small;
+    color: #555555;
+  }
+  #calendar thead tr:nth-child(1) td:nth-child(2) {
+    color: #323232;
+    font-size: 18px;
+  }
+  #calendar thead tr:nth-child(1) td:nth-child(1):hover,
+  #calendar thead tr:nth-child(1) td:nth-child(3):hover {
+    cursor: pointer;
+  }
+  #calendar tbody td {
+    color: #69b0ee;
+  }
+  #calendar tbody td:nth-child(n+6),
+  #calendar .holiday {
+    color: #e78c5c;
+  }
+  #calendar tbody td.today {
+    background: #0051a8;
+    color: #fff;
+  }   
  </style>
     
 <script> 
@@ -73,7 +111,20 @@ layout: default
     
     </body>
 </html> 
-               
+
+<div class="look-calendar">
+<table id="calendar">
+  <thead>
+  <tr>
+  <td><b>‹</b>
+  <td colspan="5">
+  <td><b>›</b>
+  <tr class="dn"><td>Пн<td>Вт<td>Ср<td>Чт<td>Пт<td>Сб<td>Вс
+  </thead>
+  <tbody></tbody>
+</table>
+</div>
+
 {% include page-intro.html %}
 
 <main id="main" class="page-content" aria-label="Content">
