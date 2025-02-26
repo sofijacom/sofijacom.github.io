@@ -60,6 +60,7 @@ plugins: # previsously gems
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
+  # gems:
   - jekyll-remote-theme
 feed:
   path: atom.xml
