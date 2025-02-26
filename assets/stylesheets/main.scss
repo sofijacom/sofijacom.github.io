@@ -8,3 +8,11 @@
 @import "basically-basic/themes/{{ site.data.theme.skin | default: 'default' }}";
 
 @import "basically-basic";
+
+ <style>
+  .center {
+   position: relative; 
+   top: 10px;
+   left: 70px;
+}
+ </style>
