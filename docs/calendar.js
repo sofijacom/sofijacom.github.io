@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 <script>
 function calendar(id, year, month) {
     var Dlast = new Date(year, month + 1, 0).getDate(),
