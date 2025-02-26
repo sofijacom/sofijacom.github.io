@@ -84,6 +84,72 @@ html, body, #root, #App {
 </script>
 
 <div id="root"></div>
+<script>   
+const { DatePicker } = recal;
+
+const today = new Date();
+today.setHours(0);
+today.setMinutes(0);
+today.setSeconds(0);
+today.setMilliseconds(0);
+
+class App extends React.Component {
+  static defaultProps = {
+    // locale: 'es-MX'
+    locale: 'en-US'
+  };
+  state = {
+    date: null
+  };
+
+  onDateSelected = (date) => {
+    this.setState({ date });
+  };
+  onDateHovered = (hovered) => {
+    this.setState({ hovered })
+  }
+  
+  isDateEnabled = (date) => {
+    // Enable all days >= today.
+    return date >= today;
+  };
+  isDateHighlighted = (date) => {
+    // Highlight Sundays.
+    return date.getDay() == 0;
+  };
+
+  render() {    
+    return (
+      <div id="App">
+        <h2>✈️&nbsp;&nbsp;Find a Flight&nbsp;&nbsp;✈️</h2>
+        <DatePicker
+          date={ this.state.date }
+          onDateSelected={ this.onDateSelected }
+          onDateHovered={ this.onDateHovered }
+          isDateEnabled={ this.isDateEnabled }
+          isDateHighlighted={ this.isDateHighlighted }
+          locale={ this.props.locale } />
+        { this.state.hovered ? (
+          <p>
+            ⚡Flights as low as $200 on&nbsp;
+            { this.state.hovered.toDateString().slice(4) }
+          </p>
+        ) : null }
+        { this.state.date ? (
+          <p>
+            <b>
+              😈 Just kidding, there are no flights on&nbsp;
+              { this.state.date.toDateString().slice(4) }!
+            </b>
+          </p>
+        ) : null }
+      </div>
+    );
+  }
+}
+
+ReactDOM.render(<App />, document.getElementById('root'));
+</script>
    
     </body>
 </html> 
