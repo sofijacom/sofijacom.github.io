@@ -1,4 +1,5 @@
 ---
-title: "Calendar"
-layout: data
+title: Calendar
+layout: Calendar
+
 ---
