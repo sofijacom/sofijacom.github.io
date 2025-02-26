@@ -6,7 +6,7 @@ calendar_timezone_offset: -0800   # required
 calendar_csv: example/events.csv  # required. Path from base url
 event_date_format: M/D/YYYY H:mm A Z
 
-calendar_focus_date: 2016-01-06   # optional. YYYY-MM-DD. Without it, the default is today
+calendar_focus_date:   # optional. YYYY-MM-DD. Without it, the default is today - 2016-01-06
 calendar_caption: My calendar   # optional
 
 calendar_css: <link rel="stylesheet" href="!PATH_TO_COMPONENTS!/bootstrap-calendar/css/calendar.css">
