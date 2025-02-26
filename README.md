@@ -23,6 +23,6 @@ jekyll-theme-basically-basic
 </p>
 
 <p align="center">
-	<a href="https://github.com/sofijacom/sofijacom.github.io/blob/93080c0afdce2379be20ae0f2d0404f1081456f6/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=MIT&logoColor=d9e0ee&colorA=363a4f&colorB=b7bdf8"/></a>
+	<a href="https://github.com/sofijacom/sofijacom.github.io/blob/master/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=MIT&logoColor=d9e0ee&colorA=363a4f&colorB=b7bdf8"/></a>
 </p>
 
