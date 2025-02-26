@@ -71,6 +71,105 @@ layout: default
         clock33();
 </script>
 
+
+<style>
+  .look-calendar {
+    width:240px; border:3px solid #cbcccc; padding:5px; 
+    background-color:#1c1d1b; margin: 0 auto;   
+  }
+  #calendar {
+    width: 100%;
+    line-height: 1.2em;
+    font-size: 14px;
+    text-align: center;
+    border-spacing:0px;
+    color: #cff8e4;
+  }
+  #calendar tr.dn td {
+    color: #cff8e4;
+  }
+  #calendar thead tr:last-child {
+    font-size: small;
+    color: #555555;
+  }
+  #calendar thead tr:nth-child(1) td:nth-child(2) {
+    color: #323232;
+    font-size: 18px;
+  }
+  #calendar thead tr:nth-child(1) td:nth-child(1):hover,
+  #calendar thead tr:nth-child(1) td:nth-child(3):hover {
+    cursor: pointer;
+  }
+  #calendar tbody td {
+    color: #69b0ee;
+  }
+  #calendar tbody td:nth-child(n+6),
+  #calendar .holiday {
+    color: #e78c5c;
+  }
+  #calendar tbody td.today {
+    background: #0051a8;
+    color: #fff;
+  }
+</style>
+
+<script>
+  function calendar(id, year, month) {
+    var Dlast = new Date(year, month + 1, 0).getDate(),
+      D = new Date(year, month, Dlast),
+      DNlast = new Date(D.getFullYear(), D.getMonth(), Dlast).getDay(),
+      DNfirst = new Date(D.getFullYear(), D.getMonth(), 1).getDay(),
+      calendar = '<tr>',
+      month = ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь", "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"];
+    if (DNfirst != 0) {
+      for (var i = 1; i < DNfirst; i++) calendar += '<td>';
+    } else {
+       for (var i = 0; i < 6; i++) calendar += '<td>';
+    }
+    for (var i = 1; i <= Dlast; i++) {
+       if (i == new Date().getDate() && D.getFullYear() == new Date().getFullYear() && D.getMonth() == new Date().getMonth()) {
+        calendar += '<td class="today">' + i;
+       } else {
+         calendar += '<td>' + i;
+       }
+       if (new Date(D.getFullYear(), D.getMonth(), i).getDay() == 0) {
+         calendar += '<tr>';
+       }
+    }
+    for (var i = DNlast; i < 7; i++) calendar += '<td> ';
+    document.querySelector('#' + id + ' tbody').innerHTML = calendar;
+    document.querySelector('#' + id + ' thead td:nth-child(2)').innerHTML = month[D.getMonth()] + ' ' + D.getFullYear();
+    document.querySelector('#' + id + ' thead td:nth-child(2)').dataset.month = D.getMonth();
+    document.querySelector('#' + id + ' thead td:nth-child(2)').dataset.year = D.getFullYear();
+    if (document.querySelectorAll('#' + id + ' tbody tr').length < 6) { 
+        // чтобы при перелистывании месяцев не "подпрыгивала" вся страница, добавляется ряд пустых клеток. Итог: всегда 6 строк для цифр
+    document.querySelector('#' + id + ' tbody').innerHTML += '<tr><td> <td> <td> <td> <td> <td> <td> ';
+    }
+  }
+  calendar("calendar", new Date().getFullYear(), new Date().getMonth());
+        // переключатель минус месяц
+  document.querySelector('#calendar thead tr:nth-child(1) td:nth-child(1)').onclick = function() {
+    calendar("calendar", document.querySelector('#calendar thead td:nth-child(2)').dataset.year, parseFloat(document.querySelector('#calendar thead td:nth-child(2)').dataset.month) - 1);
+  }
+        // переключатель плюс месяц
+  document.querySelector('#calendar thead tr:nth-child(1) td:nth-child(3)').onclick = function() {
+    calendar("calendar", document.querySelector('#calendar thead td:nth-child(2)').dataset.year, parseFloat(document.querySelector('#calendar thead td:nth-child(2)').dataset.month) + 1);
+  }
+<script>
+   
+<div class="look-calendar">
+<table id="calendar">
+  <thead>
+  <tr>
+  <td><b>‹</b>
+  <td colspan="5">
+  <td><b>›</b>
+  <tr class="dn"><td>Пн<td>Вт<td>Ср<td>Чт<td>Пт<td>Сб<td>Вс
+  </thead>
+  <tbody></tbody>
+</table>
+</div>
+   
     </body>
 </html> 
                
