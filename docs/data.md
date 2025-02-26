@@ -1,4 +1,0 @@
----
-title: Calendar
-layout: Calendar
----
