@@ -12,7 +12,18 @@ layout: default
    top: 10px;
    left: 70px;
 }
-
+html, body, #root, #App {
+  width: 100vw;
+  height: 100vh;
+}
+#App {
+  padding: 20px;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+    
 </style>
   
 <script> 
@@ -71,6 +82,8 @@ layout: default
 <script>
         clock33();
 </script>
+
+<div id="root"></div>
    
     </body>
 </html> 
