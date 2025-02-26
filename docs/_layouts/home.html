@@ -12,11 +12,13 @@ layout: default
    top: 10px;
    left: 70px;
 }
-   .look-calendar {
+.look-calendar {
     width:240px; border:3px solid #cbcccc; padding:5px; 
-    background-color:#1c1d1b; margin: 0 auto;   
+    background-color:#1c1d1b; margin: 0 auto;
+   top: 100px;
+   left: 100px;
   }
-  #calendar {
+#calendar {
     width: 100%;
     line-height: 1.2em;
     font-size: 14px;
@@ -24,33 +26,33 @@ layout: default
     border-spacing:0px;
     color: #cff8e4;
   }
-  #calendar tr.dn td {
+#calendar tr.dn td {
     color: #cff8e4;
   }
-  #calendar thead tr:last-child {
+#calendar thead tr:last-child {
     font-size: small;
     color: #555555;
   }
-  #calendar thead tr:nth-child(1) td:nth-child(2) {
+#calendar thead tr:nth-child(1) td:nth-child(2) {
     color: #323232;
     font-size: 18px;
   }
-  #calendar thead tr:nth-child(1) td:nth-child(1):hover,
-  #calendar thead tr:nth-child(1) td:nth-child(3):hover {
-    cursor: pointer;
+#calendar thead tr:nth-child(1) td:nth-child(1):hover,
+#calendar thead tr:nth-child(1) td:nth-child(3):hover {
+   cursor: pointer;
   }
-  #calendar tbody td {
+#calendar tbody td {
     color: #69b0ee;
   }
-  #calendar tbody td:nth-child(n+6),
-  #calendar .holiday {
+#calendar tbody td:nth-child(n+6),
+#calendar .holiday {
     color: #e78c5c;
   }
-  #calendar tbody td.today {
+#calendar tbody td.today {
     background: #0051a8;
     color: #fff;
   }   
- </style>
+</style>
     
 <script> 
         function getRandom(number) {
@@ -108,11 +110,9 @@ layout: default
 <script>
         clock33();
 </script>
-    
-    </body>
-</html> 
 
-<div class="look-calendar">
+
+  <div class="look-calendar">
 <table id="calendar">
   <thead>
   <tr>
@@ -123,7 +123,10 @@ layout: default
   </thead>
   <tbody></tbody>
 </table>
-</div>
+</div> 
+   
+    </body>
+</html> 
 
 {% include page-intro.html %}
 
