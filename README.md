@@ -18,6 +18,11 @@ jekyll-theme-basically-basic
  
 ```
 
-<p align="center">
-	<a href="https://github.com/sofijacom/dotfiles-vim/blob/master/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=MIT&logoColor=d9e0ee&colorA=363a4f&colorB=b7bdf8"/></a>
+<p align="center">	
+  <img src="https://github.com/sofijacom/sofijacom/blob/49e18fe1d7c2223884efd95af9370dcb84697427/icons_line/gray0_ctp_on_line.svg?sanitize=true" />
 </p>
+
+<p align="center">
+	<a href="https://github.com/sofijacom/sofijacom.github.io/blob/master/README"><img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=MIT&logoColor=d9e0ee&colorA=363a4f&colorB=b7bdf8"/></a>
+</p>
+
