@@ -30,5 +30,5 @@ calendar_css: <link rel="stylesheet" href="!PATH_TO_COMPONENTS!/bootstrap-calend
   🦋 🦋 🦋 🦋 🦋 🦋 🦋 🦋 🦋 🦋 
 
 <div id="header" align="center">
-  <img src="https://github.com/sofijacom/sofijacom/blob/main/icons_line/undefined%20-%20Imgur.png" width="540"/>
+  <img src="https://github.com/sofijacom/sofijacom.github.io/blob/master/assets/icons/undefined%20-%20Imgur.png" width="540"/>
 </div>
