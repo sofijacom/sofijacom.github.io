@@ -13,7 +13,7 @@ calendar_css: <link rel="stylesheet" href="!PATH_TO_COMPONENTS!/bootstrap-calend
 ## _Introduction_
 
 <p align="center">	
-  <img src="https://github.com/sofijacom/sofijacom.github.io/blob/98f9d8e5f3441a1b7c3630822ae618ade48ae9f4/assets/icons/gray_line.svg" />
+  <img src="https://raw.githubusercontent.com/sofijacom/sofijacom.github.io/9c828822ff366f233c00d36dc8abd12381f64e2b/assets/icons/gray_line.svg" />
 </p>
 
 
