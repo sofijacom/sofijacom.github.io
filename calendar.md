@@ -12,6 +12,11 @@ calendar_css: <link rel="stylesheet" href="!PATH_TO_COMPONENTS!/bootstrap-calend
 
 ## _Introduction_
 
+<div id="header" align="center">
+ 
+  <img src="https://github.com/user-attachments/assets/664e4b50-bae1-440a-b037-80bc7899233b" width="540"/> 
+
+</div>
 
  - 🔭 _I’m currently working on ..._
  - 🌱 _I’m currently learning ..._
@@ -25,12 +30,4 @@ calendar_css: <link rel="stylesheet" href="!PATH_TO_COMPONENTS!/bootstrap-calend
 
 
    🦋 🦋 🦋 🦋 🦋 🦋 🦋 🦋 🦋 🦋 
-
-
-<div id="header" align="center">
- 
-  <img src="https://github.com/user-attachments/assets/664e4b50-bae1-440a-b037-80bc7899233b" width="540"/> 
-
-</div>
-
 
