@@ -41,7 +41,7 @@
 .calendar .calendar-inner .calendar-body {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    text-align: center;
+    text-align: left;
 }
 
 .calendar .calendar-inner .calendar-body div {
