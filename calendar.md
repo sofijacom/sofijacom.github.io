@@ -13,4 +13,4 @@ calendar_css: <link rel="stylesheet" href="!PATH_TO_COMPONENTS!/bootstrap-calend
 
 ---
 
-**Your post/page content** will be placed here.
+📝 **Your post/page content** will be placed here.
