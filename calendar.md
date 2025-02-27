@@ -29,6 +29,6 @@ calendar_css: <link rel="stylesheet" href="!PATH_TO_COMPONENTS!/bootstrap-calend
 
   🦋 🦋 🦋 🦋 🦋 🦋 🦋 🦋 🦋 🦋 
 
-
-  ![undefined - Imgur](https://github.com/user-attachments/assets/4ba67bc8-2190-4f6c-a9a6-ca800f9163a0)
-
+<div id="header" align="center">
+  <img src="https://github.com/sofijacom/sofijacom/blob/main/icons_line/undefined%20-%20Imgur.png" width="540"/>
+</div>
