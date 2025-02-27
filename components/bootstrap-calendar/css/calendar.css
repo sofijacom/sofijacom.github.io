@@ -23,7 +23,7 @@
     font-family: 'IBM Plex Sans', sans-serif;
     position: relative;
     top: 10px;
-    left: 70px;
+    left: 10px;
     max-width: 400px; /*change as per your design need */
     min-width: 320px;
     background: var(--calendar-bg-color);
