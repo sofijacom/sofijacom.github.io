@@ -9,11 +9,7 @@ calendar_css: <link rel="stylesheet" href="!PATH_TO_COMPONENTS!/bootstrap-calend
 
 📜 **Your post/page content** will be placed here.
 
-<div align="center">
- 
 ## _Introduction_
-
-</div>
 
  - 🔭 _I’m currently working on ..._
  - 🌱 _I’m currently learning ..._
@@ -25,9 +21,7 @@ calendar_css: <link rel="stylesheet" href="!PATH_TO_COMPONENTS!/bootstrap-calend
  - ⚡ _Fun fact: ..._
  - ✨ _https://git.io/typing-svg ..._
 
-
    🦋 🦋 🦋 🦋 🦋 🦋 🦋 🦋 🦋 🦋 
-
 
 <div id="header" align="center">
  
