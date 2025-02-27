@@ -12,7 +12,71 @@ layout: default
 
 <div class="calendar"></div>
 
+<div class="container" style="width:100%">
+  <div class="page-header">
+
+    <h3></h3>
+    <small>{{ page.calendar_caption }}</small>
+  </div>
+
+
+  <div id="calendar"></div>
+
+  <div class="clearfix"></div>
+
+</div>
+
 <script type="text/javascript" src="{{PATH_TO_COMPONENTS}}/bootstrap-calendar/js/calendar.js"></script>
 
 <!-- <script type="text/javascript" src="{{PATH_TO_COMPONENTS}}/bootstrap-calendar/js/calendar.js"></script> -->
 
+<script type="text/javascript">
+(function($) {
+
+  "use strict";
+
+  // parse CSV to JSON
+  Papa.parse("{{ site.baseurl }}/{{ page.calendar_csv }}", {
+    download: true,
+    header: false,
+    complete: function(results) {
+      // console.log(JSON.stringify(results.data));
+      loadCalendar(parseEvents(results.data));
+    }
+  });
+
+  // Format the events json to be compatible with Bootstrap-Calendar format
+  function parseEvents(rows) {
+    rows.shift(); // remove header
+    var inputDateFormat = '{{ page.event_date_format }}'; // timezone will be added below
+    var result = [];
+
+    _.forEach(rows, function(columns, index) {
+      if (columns.length < 3)  // require at least: title, start, end
+        return;
+
+      var formattedEvent = {};
+      formattedEvent['id']    = index;
+      formattedEvent['title'] = columns[0];
+
+      var start = columns[1] + ' {{ page.calendar_timezone_offset }}'; // add timezone offset
+      var end   = columns[2] + ' {{ page.calendar_timezone_offset }}';
+
+      formattedEvent['start'] = moment(start, inputDateFormat).valueOf(); // Unix milliseconds
+      formattedEvent['end']   = moment(end, inputDateFormat).valueOf();
+
+      if (!_.isEmpty(columns[3]))
+        formattedEvent['class'] = 'event-' + columns[3].toLowerCase(); // predefined CSS classname
+
+      if (!_.isEmpty(columns[4]))
+        formattedEvent['url'] = columns[4];
+
+      result.push(formattedEvent);
+    });
+
+    // console.log(JSON.stringify(result));
+    return result;
+  }
+
+ }(jQuery));
+</script>
