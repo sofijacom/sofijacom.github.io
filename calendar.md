@@ -12,11 +12,10 @@ calendar_css: <link rel="stylesheet" href="!PATH_TO_COMPONENTS!/bootstrap-calend
 
 ## _Introduction_
 
-<div id="header" align="center">
- 
-  <img src="https://github.com/user-attachments/assets/664e4b50-bae1-440a-b037-80bc7899233b" width="540"/> 
+<p align="center">	
+  <img src="https://github.com/sofijacom/sofijacom/blob/49e18fe1d7c2223884efd95af9370dcb84697427/icons_line/gray0_ctp_on_line.svg?sanitize=true" />
+</p>
 
-</div>
 
  - 🔭 _I’m currently working on ..._
  - 🌱 _I’m currently learning ..._
