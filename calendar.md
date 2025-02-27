@@ -13,6 +13,10 @@ calendar_css: <link rel="stylesheet" href="!PATH_TO_COMPONENTS!/bootstrap-calend
 
 ---
 
+📜 ***Your post/page content*** will be placed here.
+
+## _Introduction_
+
 - 🔭 I’m currently working on ...
 - 🌱 I’m currently learning ...
 - 👯 I’m looking to collaborate on ...
@@ -23,4 +27,4 @@ calendar_css: <link rel="stylesheet" href="!PATH_TO_COMPONENTS!/bootstrap-calend
 - ⚡ Fun fact: ...
 - ✨ https://git.io/typing-svg ...
 
-📜 **Your post/page content** will be placed here.
+
