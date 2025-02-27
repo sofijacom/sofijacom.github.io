@@ -7,7 +7,7 @@ calendar_csv:  # required. Path from base url - example/events.csv
 event_date_format: M/D/YYYY H:mm A Z
 
 calendar_focus_date: 2016-01-06   # optional. YYYY-MM-DD. Without it, the default is today
-calendar_caption: 💜 My calendar caption 💜   # optional
+calendar_caption: 💜 I know for sure that there are many happy days on this calendar! 💜   # optional
 
 calendar_css: <link rel="stylesheet" href="!PATH_TO_COMPONENTS!/bootstrap-calendar/css/calendar.css">
 
@@ -27,4 +27,4 @@ calendar_css: <link rel="stylesheet" href="!PATH_TO_COMPONENTS!/bootstrap-calend
 - ⚡ Fun fact: ...
 - ✨ https://git.io/typing-svg ...
 
-
+<hr>
