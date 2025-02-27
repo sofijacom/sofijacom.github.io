@@ -7,115 +7,36 @@ layout: default
   {{ content }}
 </div>
 
-<div class="calendar">
-  <div class="month"><a href="#" class="nav"><i class="fas fa-angle-left"></i></a><div>January <span class="year">2019</span></div><a href="#" class="nav"><i class="fas fa-angle-right"></i></a></div>
-  <div class="days">
-    <span>Mon</span>
-    <span>Tue</span>
-    <span>Wed</span>
-    <span>Thu</span>
-    <span>Fri</span>
-    <span>Sat</span>
-    <span>Sun</span>
-  </div>
-  <div class="dates">
-      <button>
-        <time>1</time>
-      </button>
-      <button>
-        <time>2</time>
-      </button>
-      <button>
-        <time>3</time>
-      </button>
-      <button>
-        <time>4</time>
-      </button>
-      <button>
-        <time>5</time>
-      </button>
-      <button>
-        <time>6</time>
-      </button>
-      <button>
-        <time>7</time>
-      </button>
-      <button>
-        <time>8</time>
-      </button>
-      <button>
-        <time>9</time>
-      </button>
-      <button>
-        <time>10</time>
-      </button>
-      <button>
-        <time>11</time>
-      </button>
-      <button>
-        <time>12</time>
-      </button>
-      <button>
-        <time>13</time>
-      </button>
-      <button>
-        <time>14</time>
-      </button>
-      <button>
-        <time>15</time>
-      </button>
-      <button>
-        <time>16</time>
-      </button>
-      <button>
-        <time>17</time>
-      </button>
-      <button class="today">
-        <time>18</time>
-      </button>
-      <button>
-        <time>19</time>
-      </button>
-      <button>
-        <time>20</time>
-      </button>
-      <button>
-        <time>21</time>
-      </button>
-      <button>
-        <time>22</time>
-      </button>
-      <button>
-        <time>23</time>
-      </button>
-      <button>
-        <time>24</time>
-      </button>
-      <button>
-        <time>25</time>
-      </button>
-      <button>
-        <time>26</time>
-      </button>
-      <button>
-        <time>27</time>
-      </button>
-      <button>
-        <time>28</time>
-      </button>
-      <button>
-        <time>29</time>
-      </button>
-      <button>
-        <time>30</time>
-      </button>
-      <button>
-        <time>31</time>
-      </button>
+<!-- Credit --->
+<!-- how to calculate feColorMatrix - http://bit.ly/2t4ZuoC --->
+<!-- photo credit - https://flic.kr/p/pG4piA --->
+<!-- RGB color parser - http://mementoo.info/archives/594 --->
+
+<svg style="visibility:hidden;" width="0" height="0"> 
+  <filter id="duotone" color-interpolation-filters="sRGB">         <feColorMatrix type="matrix" values="0.7 0 0 0 0.3 0.6 0 0 0 0.2 0.3 0 0 0 0.6 0 0 0 1 0"></feColorMatrix> 
+  </filter>
+</svg>
+
+<div class="flex-contatiner">
+  <div class="calendar-container">
+    <div class="image-container">
+      <div class="image"></div>
+    </div>
+    <div class="calendar">
+      <h2 class="month-title" id="js-month"></h2>
+      <table class="calendar-table">
+        <thead>
+          <tr><th>日</th><th>月</th><th>火</th><th>水</th><th>木</th><th>金</th><th>土</th></tr>
+        </thead>
+        <tbody id="js-calendar-body"></tbody>
+      </table>
+    </div>
   </div>
 </div>
 
  <!-- <script type="text/javascript" src="{{PATH_TO_COMPONENTS}}/bootstrap-calendar/js/calendar.js"></script> -->
+
+<script type="text/javascript" src="{{PATH_TO_COMPONENTS}}/bootstrap-calendar/js/calendar.js"></script>
 
   <body>
     <header></header>
