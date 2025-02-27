@@ -27,7 +27,7 @@ calendar_css: <link rel="stylesheet" href="!PATH_TO_COMPONENTS!/bootstrap-calend
  - ⚡ Fun fact: ...
  - ✨ https://git.io/typing-svg ...
 
-  🦋 🦋 🦋 🦋 🦋 🦋 🦋 🦋 🦋 🦋 
+   🦋 🦋 🦋 🦋 🦋 🦋 🦋 🦋 🦋 🦋 
 
 <div id="header" align="center">
   <img src="https://github.com/sofijacom/sofijacom.github.io/blob/20658738a370f0e1960bae213416036c9b07b10c/assets/icons/undefined%20-%20Imgur.png" width="540"/>
