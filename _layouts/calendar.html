@@ -16,30 +16,3 @@ layout: default
 
 <!-- <script type="text/javascript" src="{{PATH_TO_COMPONENTS}}/bootstrap-calendar/js/calendar.js"></script> -->
 
-<script type="text/javascript">
-(function($) {
-
-  "use strict";
-
-  // parse CSV to JSON
-  Papa.parse("{{ site.baseurl }}/{{ page.calendar_csv }}", {
-    download: true,
-    header: false,
-    complete: function(results) {
-      // console.log(JSON.stringify(results.data));
-      loadCalendar(parseEvents(results.data));
-    }
-  });
-
-  // Format the events json to be compatible with Bootstrap-Calendar format
-  function parseEvents(rows) {
-    rows.shift(); // remove header
-    var inputDateFormat = '{{ page.event_date_format }}'; // timezone will be added below
-    var result = [];
-   
-    $('#language').change(function(){
-      calendar.setLanguage($(this).val());
-      calendar.view();
-    })
-    
-</script>
