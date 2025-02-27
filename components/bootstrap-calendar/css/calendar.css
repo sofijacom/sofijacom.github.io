@@ -22,7 +22,7 @@
 .calendar {
     font-family: 'IBM Plex Sans', sans-serif;
     position: relative;
-    top-left: 10px;
+    middle-left: 10px;
     max-width: 400px; /*change as per your design need */
     min-width: 320px;
     background: var(--calendar-bg-color);
@@ -41,7 +41,7 @@
 .calendar .calendar-inner .calendar-body {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    text-align: left;
+    text-align: center;
 }
 
 .calendar .calendar-inner .calendar-body div {
