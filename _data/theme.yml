@@ -46,8 +46,8 @@ t:
 
 # Google Fonts
 google_fonts:
-  - name: "Open+Sans"
-    weights: "200,200i,200,200i"  
+  - name: "Open Sans"
+    weights: "400,400i,600,600i"  
 
 # Link to specific internal pages in the navigation.
 # Create a custom list to override the default setting of including links to all
