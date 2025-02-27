@@ -100,11 +100,11 @@
     display: flex;
     min-width: 100px;
     justify-content: space-evenly;
-    align-items: left;
+    align-items: center;
 }
 
 .calendar .calendar-inner .calendar-controls .calendar-next {
-    text-align: right;
+    text-align: left;
 }
 
 .calendar .calendar-inner .calendar-controls .calendar-year-month .calendar-year-label,
