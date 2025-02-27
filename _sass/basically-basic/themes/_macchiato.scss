@@ -14,7 +14,7 @@ $code-background-color: #939ab7 !default;
 $border-color: rgba($text-color, 0.5) !default;
 $overlay-color: #939ab7 !default;
 
-@font-heading: "Jost", sans-serif;
-@font-serif: "IBM Plex Serif", serif;
-@font-sans: "Inter", sans-serif;
-@font-monospace: "IBM Plex Mono", monospace;
+$font-heading: "Jost", sans-serif;
+$font-serif: "IBM Plex Serif", serif;
+$font-sans: "Inter", sans-serif;
+$font-monospace: "IBM Plex Mono", monospace;
