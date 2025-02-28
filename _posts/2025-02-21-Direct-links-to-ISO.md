@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Direct links to ISO"
+header-mask: 0.4
+multilingual: true
 ---
 
 ### URL: links
