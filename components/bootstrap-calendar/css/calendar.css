@@ -19,30 +19,6 @@
     margin: 0;
 }
 
-body {
-  position: relative;
- /* justify-content: center; */
-  align-items: center;
-  top: 0px;
-  left: 0px;
-  display: flex;
-  height: 100vh;
- /* font-family: 'Poppins', sans-serif; */
-
- background: linear-gradient(45deg, rgb(19, 73, 95), rgb(118, 75, 226), rgb(131, 115, 198), rgb(119, 211, 185));
-
-  &::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background: inherit;
-    filter: blur(10px);
-  }
-}
-
 .calendar {
     font-family: 'IBM Plex Sans', sans-serif;
     position: relative;
