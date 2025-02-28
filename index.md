@@ -1,5 +1,5 @@
 ---
-title: ℍ𝕠𝕞𝕖
+title: ꧁•⊹٭Home٭⊹•꧂
 layout: home
 actions:
   - label: "Get Started"
