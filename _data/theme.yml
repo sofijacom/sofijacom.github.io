@@ -9,7 +9,6 @@ t:
   skip_footer: "Skip to footer"
   menu: "Menu"
   search: "Search"
-  toggle: "Toggle"
   site_search: "Site Search"
   results_found: "Result(s) found"
   search_placeholder_text: "Enter your search term..."
