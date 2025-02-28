@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: ༺ 𝓗𝓸𝓶𝓮 ༻
 actions:
   - label: "Get Started"
     icon: github
