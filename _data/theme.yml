@@ -9,7 +9,7 @@ t:
   skip_footer: "Skip to footer"
   menu: "Menu"
   search: "Search"
-  theme-toggle: "Theme Toggle"
+  theme_toggle: "Theme Toggle"
   site_search: "Site Search"
   results_found: "Result(s) found"
   search_placeholder_text: "Enter your search term..."
