@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 title: Direct links to ISO
 ---
 
