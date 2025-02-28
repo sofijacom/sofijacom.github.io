@@ -1,5 +1,5 @@
 ---
-title: "👥 About"
+title: "𝓐𝓫𝓸𝓾𝓽"
 layout: about
 ---
 
