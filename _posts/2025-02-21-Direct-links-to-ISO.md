@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Direct links to ISO"
+title: "Direct links to iso"
 header-mask: 0.4
 multilingual: true
 ---
