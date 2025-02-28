@@ -31,7 +31,6 @@ logo: "/assets/images/logo.png" # path of site logo, e.g. "/assets/images/logo.p
 search: true # true, false (default)
 search_full_content: false # true, false (default)
 search_provider: lunr # lunr (default), algolia
-toggle: true
 algolia:
   application_id: # YOUR_APPLICATION_ID
   index_name: # YOUR_INDEX_NAME
