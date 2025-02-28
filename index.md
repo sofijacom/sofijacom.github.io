@@ -31,7 +31,7 @@ actions:
 - [Website GitHub repo](https://github.com/sofijacom/sofijacom.github.io)
 
 
-> ### Distributions-assemblies from Sofiya
+> ### Assemblies from Sofiya
 
 
 ####  _KLA 64 bit._
