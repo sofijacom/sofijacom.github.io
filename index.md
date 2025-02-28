@@ -1,5 +1,5 @@
 ---
-title: ꧁•⊹٭Home٭⊹•꧂
+title: ♥ 𝐻🌺𝓂𝑒 ♥ 🐁 ⋆ 🐣
 layout: home
 actions:
   - label: "Get Started"
