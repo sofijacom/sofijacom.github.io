@@ -1,5 +1,5 @@
 ---
-title: 🐶 𝓟𝓾𝓹𝓹𝔂 𝓛𝓲𝓷𝓾𝔁
+title: 🐶 Puppy Linux
 image: /assets/images/puppy.png
 ---
 
