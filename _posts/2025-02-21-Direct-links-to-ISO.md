@@ -53,10 +53,3 @@ title: Direct links to ISO
 #### _KLF-Rawhide-CE_
 - URL: <https://github.com/sofijacom/KLF-Rawhide-CE/releases/tag/KLF-Rawhide-CE-1.2>
  
-
-
-<p align="center">
-  
-  <img src="https://github.com/user-attachments/assets/6c640e94-03b1-4425-8345-e8bde37252a5" />  
-</p>
-
