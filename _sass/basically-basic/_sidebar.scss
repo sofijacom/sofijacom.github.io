@@ -72,7 +72,7 @@
     height: 100%;
     padding: 1.5em;
   /*  background-color: $sidebar-background-color; */
-    background-color: #191c29; 
+    background-color: #495881; 
     overflow-x: hidden;
     -webkit-box-shadow: inset -1em 0 5em 0 rgba(0, 0, 0, 0.125);
     box-shadow: inset -1em 0 5em 0 rgba(0, 0, 0, 0.125);
@@ -88,7 +88,7 @@
     margin-bottom: 1.5rem;
     padding-bottom: 0.5rem;
     font-weight: bold;
-    font-size: 20px; 
+    font-size: 16px; 
     line-height: 1;
 
     a {
@@ -101,8 +101,7 @@
       bottom: 0;
       width: 1.5em;
       height: 1px;
-    /*  background-color: $base-color; */
-       background-color: #191c29;
+      background-color: $base-color;
       content: "";
     }
 
@@ -140,8 +139,8 @@
   right: 0;
   margin: 1.8125rem 0;
   padding-right: 1rem;
-/*  background-color: $background-color; */
-   background-color: #191c29;
+  background-color: $background-color;
+ /*  background-color: #191c29; */
   z-index: 10000;
 
   @include breakpoint($medium) {
