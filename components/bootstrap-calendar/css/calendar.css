@@ -25,12 +25,11 @@ body {
   align-items: center;
   top: 0px;
   left: 0px;
-  display: inline-block;
+  display: flex;
   height: 100vh;
  /* font-family: 'Poppins', sans-serif; */
-  background: url("https://raw.githubusercontent.com/sofijacom/sofijacom.github.io/refs/heads/master/assets/images/blog-page.jpg") no-repeat center / cover;
 
-/* background: linear-gradient(45deg, rgb(19, 73, 95), rgb(118, 75, 226), rgb(131, 115, 198), rgb(119, 211, 185)); */
+ background: linear-gradient(45deg, rgb(19, 73, 95), rgb(118, 75, 226), rgb(131, 115, 198), rgb(119, 211, 185));
 
   &::before {
     content: "";
