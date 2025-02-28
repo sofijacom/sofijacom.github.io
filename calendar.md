@@ -13,7 +13,7 @@ calendar_css: <link rel="stylesheet" href="!PATH_TO_COMPONENTS!/bootstrap-calend
 </p>
 
 
-## 📜 📜 _Introduction_
+## 📜 _Introduction_
 
 🔭 _I’m currently working on ..._
 🌱 _I’m currently learning ..._
