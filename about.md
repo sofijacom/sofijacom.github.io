@@ -9,7 +9,6 @@ multilingual: true
 
 ## _About page_
 
-<hr>
 
 _This page will tell you a little about Kennel Linux._
 
