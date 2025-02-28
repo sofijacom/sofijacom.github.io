@@ -1,6 +1,6 @@
 ---
 layout: home
-title:
+title: "KL assemblies"
 actions:
   - label: "Get Started"
     icon: github
