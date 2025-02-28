@@ -25,7 +25,7 @@ body {
   align-items: center;
   top: 0px;
   left: 0px;
-  display: absolute;
+  display: inline-block;
   height: 100vh;
  /* font-family: 'Poppins', sans-serif; */
   background: url("https://raw.githubusercontent.com/sofijacom/sofijacom.github.io/refs/heads/master/assets/images/blog-page.jpg") no-repeat center / cover;
