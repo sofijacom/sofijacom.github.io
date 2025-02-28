@@ -25,6 +25,6 @@ calendar_css: <link rel="stylesheet" href="!PATH_TO_COMPONENTS!/bootstrap-calend
 ⚡ _Fun fact: ..._
 ✨ _https://git.io/typing-svg ..._
 
-
+<p align="center">
   🦋 🦋 🦋 🦋 🦋 🦋 🦋 🦋 🦋 
-
+</p>
