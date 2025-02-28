@@ -1,5 +1,5 @@
 ---
-title: 👧 𝓡𝓮𝓼𝓾𝓶𝓮 
+title: 👧 Resume 
 sub_title: "Contact / References"
 image: /assets/images/eder-oliveira-180877.jpg
 categories:
