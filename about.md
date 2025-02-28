@@ -1,11 +1,15 @@
 ---
 title: "🌿 𝔸𝕓𝕠𝕦𝕥"
 layout: about
+header-mask: 0.4
+multilingual: true
+
 ---
 
 
 ## _About page_
 
+<hr>
 
 _This page will tell you a little about Kennel Linux._
 
