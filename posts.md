@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 📝 Blog
+title: 📝 𝓑𝓵𝓸𝓰
 sub_title: "Expand your knowledge and stay informed with our engaging blog posts"
 image: '/assets/images/blog-page.jpg'
 actions:
