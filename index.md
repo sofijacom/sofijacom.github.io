@@ -1,5 +1,5 @@
 ---
-title: 𝓚𝓮𝓷𝓷𝓮𝓵 𝓛𝓲𝓷𝓾𝔁
+title: 𝕂𝕖𝕟𝕟𝕖𝕝 𝕃𝕚𝕟𝕦𝕩
 layout: home
 actions:
   - label: "Get Started"
