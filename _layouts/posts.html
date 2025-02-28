@@ -4,6 +4,10 @@ layout: page
 
 {{ content }}
 
+	                <div class='header-line'>
+                    <strong> ━━━━━━  ❖  ━━━━━━ </strong>
+                </div>
+
 <ul class="taxonomy-index">
   {% assign postsInYear = site.posts | group_by_exp: 'post', 'post.date | date: "%Y"' %}
   {% for year in postsInYear %}
@@ -12,10 +16,6 @@ layout: page
         <strong>{{ year.name }}</strong> <span class="taxonomy-count">{{ year.items | size }}</span>
       </a>
     </li>
-
-	                <div class='header-line'>
-                    <strong> ━━━━━━  ❖  ━━━━━━ </strong>
-                </div>
 	
   {% endfor %}
 </ul>
