@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap');
 
 :root {
-    --calendar-bg-color: #181725;
-    --calendar-font-color: #cdd6f4;
-    --weekdays-border-bottom-color: #424456;
-    --calendar-date-hover-color: #a1a7c2;
-    --calendar-current-date-color: #11111a;
-    --calendar-today-color: linear-gradient(to bottom, #732fa4, #8838ef);
+    --calendar-bg-color: #262829;
+    --calendar-font-color: #FFF;
+    --weekdays-border-bottom-color: #404040;
+    --calendar-date-hover-color: #505050;
+    --calendar-current-date-color: #1b1f21;
+    --calendar-today-color: linear-gradient(to bottom, #03a9f4, #2196f3);
     --calendar-today-innerborder-color: transparent;
     --calendar-nextprev-bg-color: transparent;
-    --next-prev-arrow-color : #cdd6f4;
+    --next-prev-arrow-color : #FFF;
     --calendar-border-radius: 16px;
-    --calendar-prevnext-date-color: #4f5464
+    --calendar-prevnext-date-color: #484848
 }
 
 * {
