@@ -1,5 +1,5 @@
 ---
-title: ♥ 𝐻🌺𝓂𝑒 ♥ 🐁 ⋆ 🐣
+title: 𝓚𝓮𝓷𝓷𝓮𝓵 𝓛𝓲𝓷𝓾𝔁
 layout: home
 actions:
   - label: "Get Started"
