@@ -2,29 +2,7 @@
 layout: default
 ---
 
-<!-- Image to hack wechat -->
-<!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
-
-<!-- Post Header -->
-{% include intro-header.html type='post' %}
-
-<!-- Post Content -->
-<article>
-    <div class="container">
-        <div class="row">
-
-    <!-- Post Container -->
-            <div class="
-                col-lg-8 col-lg-offset-1
-                col-md-10 col-md-offset-1
-                post-container">
-
-                <!-- Multi-Lingual -->
-                {% if page.multilingual %}
-                    {% include multilingual-sel.html %}
-                {% endif %}
-
-				{{ content }}
+{{ content }}
 
                 <div class='header-line'>
                     <strong> ━━━━━━  ❖  ━━━━━━ </strong>
