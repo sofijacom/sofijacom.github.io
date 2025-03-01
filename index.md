@@ -1,8 +1,5 @@
 ---
 layout: home
-
-switch_css: <link rel="stylesheet" href="/assets/css/switch.css">
-
 actions:
   - label: "Get Started"
     icon: github
