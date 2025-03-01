@@ -15,6 +15,7 @@ $border-color: rgba($text-color, 0.5) !default;
 $overlay-color: #939ab7 !default;
 $sidebar-background-color: #11111a !default;
 
+.menu {
    /* @include fluid-type($min-vw, $max-vw, 24px, 48px); */
-/* $include fluid-type($min-vw, $max-vw, 24px, 32px);  */
-
+ $fluid-type($min-vw, $max-vw, 24px, 32px);
+}
