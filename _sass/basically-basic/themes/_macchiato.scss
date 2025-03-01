@@ -5,16 +5,12 @@
 /* @import url(http://fonts.gstatic.com/s/roboto/v15/mErvLBYg_cXG3rLvUsKT_fesZW2xOQ-xsNqO47m55DA.woff2); */
 
 /* Colors */
-$base-color: #24273a !default;
+/* $base-color: #24273a !default; */
+$base-color: #cdd6f3 !default;
 $text-color: #c6a0f6 !default;
 $accent-color: #8839ef !default;
 $background-color: #1e1e2e !default;
 $code-background-color: #939ab7 !default;
 $border-color: rgba($text-color, 0.5) !default;
 $overlay-color: #939ab7 !default;
-$sidebar-background-color: #1e1e2e !default;
-
-.menu {
-    font-weight: normal;
- }
-
+$sidebar-background-color: #11111a !default;
