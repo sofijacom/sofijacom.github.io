@@ -73,7 +73,7 @@
     padding: 1.5em;
     background-color: $sidebar-background-color;
   /*  background-color: #495881; */
-    font-size: 14px; 
+  /*  font-size: 14%;  */
     overflow-x: hidden;
     -webkit-box-shadow: inset -1em 0 5em 0 rgba(0, 0, 0, 0.125);
     box-shadow: inset -1em 0 5em 0 rgba(0, 0, 0, 0.125);
@@ -89,6 +89,7 @@
     margin-bottom: 1.5rem;
     padding-bottom: 0.5rem;
     font-weight: bold;
+    font-size: 16%; 
     line-height: 1;
 
     a {
