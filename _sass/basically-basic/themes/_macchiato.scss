@@ -22,10 +22,12 @@ $sidebar-width: 50% !default;
   color: inherit;
 }
 
-/*.menu i,
-{
-  @include fluid-type: $min-vw: $max-vw: 24px, 48px;
- } */
+$min-vw: 24px;
+$max-vw: 48px;
+ 
+.menu {
+  @include fluid-type($min-vw, $max-vw,);
+ }
 
 /* $min-vw $max-vw 24px, 32px: !default; */
 
