@@ -5,8 +5,8 @@
 /* @import url(http://fonts.gstatic.com/s/roboto/v15/mErvLBYg_cXG3rLvUsKT_fesZW2xOQ-xsNqO47m55DA.woff2); */
 
 /* Colors */
-/* $base-color: #24273a !default; */
-$base-color: #cdd6f3 !default;
+ $base-color: #24273a !default;
+/* $base-color: #cdd6f3 !default; */
 $text-color: #c6a0f6 !default;
 $accent-color: #aa55ff !default;
 $background-color: #1e1e2e !default;
@@ -16,6 +16,6 @@ $overlay-color: #939ab7 !default;
 $sidebar-background-color: #11111a !default;
 
 .sidebar {
-width: 50%;
-$sidebar-width: 50%; 
+width: 25%;
+$sidebar-width: 25%; 
 }
