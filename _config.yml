@@ -17,11 +17,11 @@
 
 lang: en-US
 title: 𝕂𝕖𝕟𝕟𝕖𝕝 𝕃𝕚𝕟𝕦𝕩
-email:
+email: sofija.p2018@gmail.com
 description: "Expand your knowledge and stay informed with our engaging blog posts"
 baseurl: "" # the optional subpath of your site, e.g. "/blog"
 url: "https://sofijacom.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-author: "Sofiya"
+author:
   name: Sofya
   twitter:
   picture: /assets/images/Kennel_Linux.png
