@@ -21,12 +21,12 @@ email:
 description: "Expand your knowledge and stay informed with our engaging blog posts"
 baseurl: "" # the optional subpath of your site, e.g. "/blog"
 url: "https://sofijacom.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-author: Sofiya
+author: "Sofiya"
   name: Sofya
   twitter:
   picture: /assets/images/Kennel_Linux.png
 twitter_username:
-github_username: sofijacom
+github_username: "sofijacom"
 logo: "/assets/images/logo.png" # path of site logo, e.g. "/assets/images/logo.png"
 search: true # true, false (default)
 search_full_content: false # true, false (default)
