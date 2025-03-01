@@ -1,0 +1,24 @@
+:root{
+    --bg: radial-gradient(circle, rgba(255,239,115,1) 0%, rgba(115,177,255,1) 100%);
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-size: 4rem;
+    transititon: all 2s;
+    user-select: none;
+
+    background: var(--bg);
+}
+
+label{
+    cursor: pointer;
+}
+
+#Checkbox{
+display: none;
+}
