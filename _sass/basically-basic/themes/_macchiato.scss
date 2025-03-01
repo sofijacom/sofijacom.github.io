@@ -23,7 +23,7 @@ $sidebar-width: 50% !default;
 }
 
 $min-vw: 24px;
-$max-vw: 48px;
+$max-vw: 32px;
  
 .menu {
   @include fluid-type($min-vw, $max-vw,);
