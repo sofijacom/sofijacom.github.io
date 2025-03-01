@@ -43,7 +43,6 @@
     a {
       position: relative;
       color: $base-color;
-      font-size: 21%;
        
       &::before {
         display: block;
@@ -123,7 +122,6 @@
       display: block;
       color: $base-color;
       text-decoration: none;
-       font-size: 21%;
     }
   }
 }
