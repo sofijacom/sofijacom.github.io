@@ -16,6 +16,10 @@ $overlay-color: #939ab7 !default;
 /* $sidebar-background-color: #11111a !default; */  /* darck */ 
 $sidebar-background-color: #cdd6f3 !default;  /* light */
 
-.sidebar {
+/* .sidebar {
 $sidebar-width: 50%; 
 }
+
+ @include breakpoint($large) {
+    max-width: (1.5 * $sidebar-width);
+  } */
