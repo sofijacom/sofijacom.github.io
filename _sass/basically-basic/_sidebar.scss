@@ -17,7 +17,11 @@
   @include breakpoint($large) {
     max-width: (1.5 * $sidebar-width);
   }
-
+   
+.font {
+    font-size: 16%; 
+  }
+   
   &.is--visible {
     visibility: visible;
     -webkit-transition: visibility 0s 0s;
@@ -73,7 +77,6 @@
     padding: 1.5em;
     background-color: $sidebar-background-color;
   /*  background-color: #495881; */
-    font-size: 14%;
     overflow-x: hidden;
     -webkit-box-shadow: inset -1em 0 5em 0 rgba(0, 0, 0, 0.125);
     box-shadow: inset -1em 0 5em 0 rgba(0, 0, 0, 0.125);
