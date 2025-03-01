@@ -26,7 +26,7 @@ $min-vw: 24px;
 $max-vw: 32px;
  
 .menu {
-  @include fluid-type($min-vw, $max-vw,);
+  ($min-vw, $max-vw,);
  }
 
 /* $min-vw $max-vw 24px, 32px: !default; */
