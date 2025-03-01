@@ -1,13 +1,24 @@
-let icon = document.querySelector('label');
-let bool = document.querySelector('#Checkbox');
-let body = document.body;
+// This function runs every time the switch is toggled.
+ function changeTheme(){
+   const theme_switch = document.getElementById("theme-switch");
+   if (theme_switch.checked) {
+     document.documentElement.setAttribute("data-theme","dark");
+     // Add the ff. line to write to memory.
+     localStorage.setItem("my-theme","dark");
+   }
+   else {
+     document.documentElement.removeAttribute("data-theme")
+     // Add the ff. line to write to memory.
+     localStorage.setItem("my-theme",null);
+   }
+ }
 
-function changeTheme() {
-  if(bool.checked){
-    icon.innerHTML = "🌛";
-    body.style.setProperty('--bg', 'radial-gradient(circle, rgba(158,157,149,1) 0%, rgba(33,70,116,1) 100%)');
-  }else{
-    icon.innerHTML = "💥";
-    body.style.setProperty('--bg', 'radial-gradient(circle, rgba(255,239,115,1) 0%, rgba(115,177,255,1) 100%)');
-  }
-}
+ // Check local storage every time html is loaded to know which theme to use.
+ if (localStorage.getItem("my-theme")==="dark") {
+   // Use dark theme.
+   document.documentElement.setAttribute("data-theme","dark");
+ }
+ else {
+   // Use default theme.
+   document.documentElement.removeAttribute("data-theme")
+ }
