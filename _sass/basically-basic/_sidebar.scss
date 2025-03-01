@@ -31,21 +31,19 @@
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
     opacity: 0;
-    font-size: 16%;
      
     &.is--moved {
       -webkit-transform: translateX(0);
       -ms-transform: translateX(0);
       transform: translateX(0);
-      opacity: 1;
-      font-size: 16%; 
+      opacity: 1; 
     }
 
     /* line hover effect */
     a {
       position: relative;
       color: $base-color;
-      font-size: 16%;
+      font-size: 21%;
        
       &::before {
         display: block;
@@ -58,12 +56,11 @@
         transition: width 0.3s cubic-bezier(0, 0, 0.3, 1);
         background-color: $base-color;
         content: "";
-        font-size: 16%; 
+        font-size: 21%; 
       }
 
       &:hover {
-        color: $accent-color;
-        font-size: 16%; 
+        color: $accent-color; 
       }
 
       &:hover::before {
@@ -108,12 +105,10 @@
       height: 1px;
       background-color: $base-color;
       content: "";
-      font-size: 16%; 
     }
 
     li {
       margin-bottom: 1.5rem;
-      font-size: 16%; 
     }
   }
 
@@ -130,7 +125,7 @@
       display: block;
       color: $base-color;
       text-decoration: none;
-      font-size: 16%; 
+       font-size: 21%;
     }
   }
 }
