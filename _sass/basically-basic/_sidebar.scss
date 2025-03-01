@@ -6,9 +6,8 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
- /* max-width: $sidebar-width; */
-  max-width: 50px; 
+  width: 70%;
+  max-width: $sidebar-width; 
   height: 100%;
   z-index: 50;
   visibility: hidden;
