@@ -20,9 +20,6 @@ actions:
 </p>
 
 
-<hr>
-
-
 - [Main forum](https://forum.puppylinux.com/viewforum.php?f=228)
 - [Another KL forum](https://kennel-linux.rockedge.org/)
 - [Kennel Linux distros](https://forum.puppylinux.com/viewforum.php?f=231)
