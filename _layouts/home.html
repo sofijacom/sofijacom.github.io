@@ -7,7 +7,7 @@ layout: default
 <head>
      <!-- THEME SWITCHER -->
      <script type="text/javascript" src="/assets/js/theme-switcher.js"></script>
-
+      <link rel="stylesheet" href="!PATH_TO_COMPONENTS!/bootstrap/css/switch.css">
      <!-- The rest of the head content goes here... -->
   <!-- <link rel="stylesheet" href="!PATH_TO_COMPONENTS!/bootstrap-calendar/css/dark.css"> -->
    <title>.</title>
@@ -17,13 +17,15 @@ layout: default
    top: 10px;
    left: 70px;
 }
- /* Basic dark theme */
+ 
+ </style>
+
+     /* Basic dark theme */
  [data-theme="dark"] {
    background-color: #111 !important;
    color: #eee;
  }  
- </style>
-    
+     
 <script> 
         function getRandom(number) {
         return Math.round(number * Math.random());
