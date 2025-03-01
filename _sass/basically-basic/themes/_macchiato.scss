@@ -16,5 +16,5 @@ $overlay-color: #939ab7 !default;
 $sidebar-background-color: #11111a !default;
 
    /* @include fluid-type($min-vw, $max-vw, 24px, 48px); */
-@include fluid-type($min-vw, $max-vw, 24px, 32px); 
+$include fluid-type($min-vw, $max-vw, 24px, 32px); 
 
