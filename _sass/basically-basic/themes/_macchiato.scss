@@ -21,17 +21,3 @@ $sidebar-width: 50% !default;
 .page__footer-follow .social-icons .svg-inline--fa  {
   color: inherit;
 }
-
-$min-vw: 24px;
-$max-vw: 32px;
- 
-.menu {
-  ($min-vw, $max-vw,);
- }
-
-/* $min-vw $max-vw 24px, 32px: !default; */
-
-   /* @include fluid-type($min-vw, $max-vw, 24px, 48px); */
-
-
-
