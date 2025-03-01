@@ -1,6 +1,5 @@
 ---
 layout: home
-switch_css: <link rel="stylesheet" href="!PATH_TO_COMPONENTS!/bootstrap/css/switch.css">
 actions:
   - label: "Get Started"
     icon: github
@@ -9,7 +8,7 @@ actions:
     icon: download
     url: "https://github.com/sofijacom/sofijacom.github.io/archive/master.zip"
 ---
-
+switch_css: <link rel="stylesheet" href="!PATH_TO_COMPONENTS!/bootstrap/css/switch.css">
 
 <h3 align="center">
   <img src="https://readme-typing-svg.herokuapp.com/?font=Roboto+Slab&color=7D3ACC&size=35&center=true&vCenter=true&width=1600&height=70&duration=4000&lines=Hello+There!+I'm+Sofiya+" />
