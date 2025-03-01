@@ -1,6 +1,6 @@
 ---
 layout: home
-switch_css: <link rel="stylesheet" href="!PATH_TO_COMPONENTS!/bootstrap-calendar/css/switch.css">
+switch_css: <link rel="stylesheet" href="!PATH_TO_COMPONENTS!/bootstrap/css/switch.css">
 actions:
   - label: "Get Started"
     icon: github
