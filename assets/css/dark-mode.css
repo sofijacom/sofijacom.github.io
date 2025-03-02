@@ -1,19 +1,18 @@
 /*Simple css to style it like a toggle switch*/
 .switch {
   display: inline-block;
-  height: 24px;
-  position: relative;
-  width: 40px;
+   position: relative;
+   width: 60px;
+   height: 34px;
   top: 0px;
   left: 10px;
-  margin-left: 10px;
-  font-size: 1rem;
-  display: flex;
-  align-items: center;
 }
 
 .switch input {
   display:none;
+  opacity: 0;
+  width: 0;
+  height: 0;
 }
 
 .slider {
