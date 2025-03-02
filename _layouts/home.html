@@ -9,15 +9,8 @@ layout: default
     Free for personal and commercial use under the MIT license
     https://github.com/mmistakes/jekyll-theme-basically-basic/blob/master/LICENSE
 -->
-{% assign PATH_TO_COMPONENTS =  "/components" | prepend: site.baseurl %}
-
 <html lang="en">
 <head>
-     <!-- THEME SWITCHER -->
-      <script type="text/javascript" src="{{PATH_TO_COMPONENTS}}/bootstrap/js/theme-switcher.js"></script>
-	
-     <!-- The rest of the head content goes here... -->
-  <!-- <link rel="stylesheet" href="!PATH_TO_COMPONENTS!/bootstrap-calendar/css/dark.css"> -->
    <title>.</title>
  <style>
   .center {
@@ -122,3 +115,11 @@ layout: default
       </div>
     {% endif %}
 
+{% assign PATH_TO_COMPONENTS =  "/components" | prepend: site.baseurl %}
+
+<head>
+     <!-- THEME SWITCHER -->
+      <script type="text/javascript" src="{{PATH_TO_COMPONENTS}}/bootstrap/js/theme-switcher.js"></script>
+
+	   </head>
+	
