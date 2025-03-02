@@ -2,15 +2,14 @@
 layout: default
 ---
 
+{% assign PATH_TO_COMPONENTS =  "/components" | prepend: site.baseurl %}
+
 <!DOCTYPE html>
-<!--
-    Basically Basic Jekyll Theme 1.4.5
-    Copyright 2017-2018 Michael Rose - mademistakes.com | @mmistakes
-    Free for personal and commercial use under the MIT license
-    https://github.com/mmistakes/jekyll-theme-basically-basic/blob/master/LICENSE
--->
 <html lang="en">
 <head>
+     <!-- THEME SWITCHER -->
+      <script type="text/javascript" src="{{PATH_TO_COMPONENTS}}/bootstrap/js/theme-switcher.js"></script>
+ </head>	
    <title>.</title>
  <style>
   .center {
@@ -18,6 +17,7 @@ layout: default
    top: 10px;
    left: 70px;
 }
+ </style>
 
 <script> 
         function getRandom(number) {
@@ -75,7 +75,7 @@ layout: default
 <script>
         clock33();
 </script>
-	
+
 {% include head.html %}
 <body>
 <!--  -->
@@ -88,8 +88,11 @@ layout: default
 	<script type="text/javascript">
 	document.getElementById("theme-switch").checked = localStorage.getItem("my-theme")==="dark"
 	</script>
-</div>
-              
+	</div>
+   
+    </body>
+</html> 
+               
 {% include page-intro.html %}
 
 <main id="main" class="page-content" aria-label="Content">
@@ -115,11 +118,3 @@ layout: default
       </div>
     {% endif %}
 
-{% assign PATH_TO_COMPONENTS =  "/components" | prepend: site.baseurl %}
-
-<head>
-     <!-- THEME SWITCHER -->
-      <script type="text/javascript" src="{{PATH_TO_COMPONENTS}}/bootstrap/js/theme-switcher.js"></script>
-
-	   </head>
-	
