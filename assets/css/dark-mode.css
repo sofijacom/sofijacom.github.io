@@ -50,6 +50,7 @@
  /* Rounded sliders */
  .slider.round {
      border-radius: 34px;
+     border-color: #860782;
  }
  .slider.round:before {
      border-radius: 50%;
