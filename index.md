@@ -1,6 +1,6 @@
 ---
 layout: home
-switcher_css: <link rel="stylesheet" href="!PATH_TO_COMPONENTS!/bootstrap-calendar/css/switcher.css">
+switcher_css: <link rel="stylesheet" href="!PATH_TO_COMPONENTS!/bootstrap/css/switcher.css">
 actions:
   - label: "Get Started"
     icon: github
