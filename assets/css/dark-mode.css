@@ -10,10 +10,10 @@
 }
 .theme-switch {
   display: inline-block;
-  height: 34px;
+  height: 24px;
   position: relative;
-  width: 60px;
-  top: 10px;
+  width: 30px;
+  top: 0px;
   left: 10px;
 }
 
