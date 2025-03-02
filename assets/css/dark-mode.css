@@ -12,7 +12,7 @@
   display: inline-block;
   height: 24px;
   position: relative;
-  width: 30px;
+  width: 40px;
   top: 0px;
   left: 10px;
 }
@@ -36,11 +36,11 @@
   background-color: #fff;
   bottom: 4px;
   content: "";
-  height: 16px;
+  height: 12px;
   left: 4px;
   position: absolute;
   transition: .4s;
-  width: 16px;
+  width: 12px;
 }
 
 input:checked + .slider {
