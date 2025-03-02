@@ -110,3 +110,11 @@ defaults:
     values:
       layout: post
       read_time: true   
+  # _sass
+  - scope:
+      path: "_sass"
+      type: recipes
+    values:
+      layout: post
+      read_time: true 
+      
