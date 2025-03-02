@@ -109,12 +109,5 @@ defaults:
       type: recipes
     values:
       layout: post
-      read_time: true   
-  # _sass
-  - scope:
-      path: "_sass"
-      type: sass
-    values:
-      layout: home
-      read_time: true 
+      read_time: true
       

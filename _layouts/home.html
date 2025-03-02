@@ -2,18 +2,9 @@
 layout: default
 ---
 
-<!-- {% assign PATH_TO_COMPONENTS =  "/components" | prepend: site.baseurl %} -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <!-- THEME SWITCHER -->
-	<script type="text/javascript" src="/assets/js/theme-switcher.js"></script>
-
-   <!-- The rest of the head content goes here... -->
-     <!-- THEME SWITCHER -->
-    <!--  <script type="text/javascript" src="{{PATH_TO_COMPONENTS}}/bootstrap/js/theme-switcher.js"></script> -->
- </head>	
    <title>.</title>
  <style>
   .center {
@@ -21,12 +12,8 @@ layout: default
    top: 10px;
    left: 70px;
 }
-[data-theme="dark"] {
-  background-color: #111 !important;
-  color: #eee;
-}	 
  </style>
-
+    
 <script> 
         function getRandom(number) {
         return Math.round(number * Math.random());
@@ -84,20 +71,6 @@ layout: default
         clock33();
 </script>
 
-
-<body>
-<!-- {% include head.html %} -->
-  <div class="container">
-  	<div>
-	<label class="switch" for="theme-switch" style="float: right; margin-top: 10px;">
-	<input type="checkbox" id="theme-switch" onclick="changeTheme()">
-	<span class="slider round"></span>
-	</label>
-	<script type="text/javascript">
-	document.getElementById("theme-switch").checked = localStorage.getItem("my-theme")==="dark"
-	</script>
-	</div>
-   
     </body>
 </html> 
                
@@ -106,7 +79,7 @@ layout: default
 <main id="main" class="page-content" aria-label="Content">
   <div class="index inner">
     <div>{{ content }}</div>
-
+    
     {% if site.posts.size > 0 %}
       <div>
         <header class="section-title">
@@ -123,6 +96,6 @@ layout: default
             {% include posts-all.html %}
           {% endif %}
         </div>
-      </div>
+      </div>    
     {% endif %}
-
+    
