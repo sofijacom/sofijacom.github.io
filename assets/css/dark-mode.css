@@ -2,10 +2,11 @@
 .theme-switch-wrapper {
   display: flex;
   align-items: center;
-}
-.theme-switch-wrapperem em {
+
+  em {
     margin-left: 10px;
     font-size: 1rem;
+  }
 }
 .theme-switch {
   display: inline-block;
