@@ -1,6 +1,6 @@
 ---
 layout: home
-switcher_css: <link rel="stylesheet" href="!PATH_TO_COMPONENTS!/bootstrap/css/switcher.css">
+theme-switcher_css: <link rel="stylesheet" href="!PATH_TO_ASSETS!/assets/css/theme-switcher.css">
 actions:
   - label: "Get Started"
     icon: github
