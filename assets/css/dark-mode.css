@@ -4,8 +4,8 @@
      display: inline-block;
      width: 60px;
      height: 34px;
-     top: 10px;
-     left: 10px;
+     top: 0px;
+     left: 150px;
  }
  /* Hide default HTML checkbox */
  .switch input {
@@ -50,8 +50,8 @@
  /* Rounded sliders */
  .slider.round {
      border-radius: 34px;
-     border-color: #860782;
  }
  .slider.round:before {
      border-radius: 50%;
+     border-color: #860782;
  }
