@@ -1,5 +1,5 @@
 /*Simple css to style it like a toggle switch*/
-.theme-switch-wrapper {
+.switch {
   display: flex;
   align-items: center;
 
@@ -8,7 +8,7 @@
     font-size: 1rem;
   }
 }
-.theme-switch {
+.switch {
   display: inline-block;
   height: 24px;
   position: relative;
@@ -17,7 +17,7 @@
   left: 10px;
 }
 
-.theme-switch input {
+.switch input {
   display:none;
 }
 
