@@ -111,9 +111,9 @@ defaults:
       layout: post
       read_time: true
   # Build Ssttings
-sass:
-  sass_dir: _sass
-  style: :compressed
-plugins: [jekyll-paginate,jekyll-sitemap]
-bootstrap:
-  assets: true    
+#sass:
+#  sass_dir: _sass
+#  style: :compressed
+#plugins: [jekyll-paginate,jekyll-sitemap]
+#bootstrap:
+#  assets: true    
