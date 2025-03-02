@@ -16,7 +16,7 @@
 # Bookmark this to keep an eye on my project updates!
 
 lang: en-US
-title: 𝕂𝕖𝕟𝕟𝕖𝕝 𝕃𝕚𝕟𝕦𝕩
+title: Kennel Linux
 email:
 description: "Expand your knowledge and stay informed with our engaging blog posts"
 baseurl: "" # the optional subpath of your site, e.g. "/blog"
@@ -24,9 +24,9 @@ url: "https://sofijacom.github.io" # the base hostname & protocol for your site 
 author:
   name: Sofya
   twitter:
-  picture: # /assets/images/Kennel_Linux.png
+  picture: /assets/images/Kennel_Linux.png
 twitter_username:
-github_username: "sofijacom"
+github_username: sofijacom
 logo: "/assets/images/logo.png" # path of site logo, e.g. "/assets/images/logo.png"
 search: true # true, false (default)
 search_full_content: false # true, false (default)
@@ -36,12 +36,10 @@ algolia:
   index_name: # YOUR_INDEX_NAME
   search_only_api_key: # YOUR_SEARCH_ONLY_API_KEY
   powered_by: # true (default), false
+
 # Build settings
 markdown: kramdown
 remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
-
-kramdown:
-  input: GFM
 
 jekyll_admin:
   hidden_links:
@@ -110,10 +108,4 @@ defaults:
     values:
       layout: post
       read_time: true
-  # Build Ssttings
-#sass:
-#  sass_dir: _sass
-#  style: :compressed
-#plugins: [jekyll-paginate,jekyll-sitemap]
-#bootstrap:
-#  assets: true    
+      
