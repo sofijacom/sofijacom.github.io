@@ -1,26 +1,21 @@
-/*!
- * Dark Mode Switch v1.0.1 (https://github.com/coliff/dark-mode-switch)
- * Copyright 2021 C.Oliff
- * Licensed under MIT (https://github.com/coliff/dark-mode-switch/blob/main/LICENSE)
- */
-
 [data-theme="dark"] {
-  background-color: #111 !important;
-  color: #eee;
-}
-
-[data-theme="dark"] .bg-black {
-  background-color: #fff !important;
-}
-
-[data-theme="dark"] .bg-dark {
-  background-color: #eee !important;
-}
-
-[data-theme="dark"] .bg-light {
-  background-color: #222 !important;
-}
-
-[data-theme="dark"] .bg-white {
-  background-color: #000 !important;
+    --main-background-color: @mocha-mantle;
+    --main-darken-background-color: @mocha-crust-darken;
+    --crust-background-color: @mocha-crust;
+    --mantle-background-color: @mocha-mantle;
+    --main-text-color: @mocha-text; 
+    --subtext0-color: @mocha-subtext0;
+    --surface0-color: @mocha-surface0;
+    --overlay1-color: @mocha-overlay1;
+    --overlay0-color: @mocha-overlay0;
+    --accent-color: @mocha-mauve;
+    --accent-color-background: @mocha-mauve-background;
+    --accent-color-deep: @mocha-blue;
+    --accent-color-deep-background: @mocha-blue-background;
+    --hr-color: @mocha-surface1;
+    --link-color: @latte-lavender;
+    --code-color: rgb(229, 80, 116);
+    --code-background-color: rgb(45, 22, 27);;
+    --content-active-color: @mocha-peach;
+    --content-background-color: @mocha-crust;
 }
