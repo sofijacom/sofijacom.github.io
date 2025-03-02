@@ -4,8 +4,8 @@
      display: inline-block;
      width: 60px;
      height: 34px;
-     top: 20px;
-     right: 5px;
+     top: 10px;
+     left: 10px;
  }
  /* Hide default HTML checkbox */
  .switch input {
