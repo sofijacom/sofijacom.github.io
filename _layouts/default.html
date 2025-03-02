@@ -8,12 +8,12 @@
    <!-- The rest of the head content goes here... -->
 <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"></script>
      <!-- THEME SWITCHER -->
-  
-<div class="form-check form-switch">
-  <input type="checkbox" class="form-check-input" id="darkSwitch" />
-  <label class="custom-control-label" for="darkSwitch">Dark Mode</label>
-</div>
-<script src="dark-mode-switch.min.js"></script>
+  <link rel="stylesheet" href="dark-mode.css">
+          <div class="form-check form-switch">
+            <input type="checkbox" class="form-check-input" id="darkSwitch">
+            <label class="custom-control-label" for="darkSwitch">Dark Mode</label>
+          </div>
+          <script src="dark-mode-switch.min.js"></script>
            
 <html lang="{{ page.lang | default: site.lang | default: 'en-US' }}" class="no-js">
   {% include head.html %}
