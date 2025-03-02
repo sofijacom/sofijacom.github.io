@@ -16,7 +16,7 @@
 # Bookmark this to keep an eye on my project updates!
 
 lang: en-US
-title: Kennel Linux
+title: 𝕂𝕖𝕟𝕟𝕖𝕝 𝕃𝕚𝕟𝕦𝕩
 email:
 description: "Expand your knowledge and stay informed with our engaging blog posts"
 baseurl: "" # the optional subpath of your site, e.g. "/blog"
@@ -36,10 +36,12 @@ algolia:
   index_name: # YOUR_INDEX_NAME
   search_only_api_key: # YOUR_SEARCH_ONLY_API_KEY
   powered_by: # true (default), false
-
 # Build settings
 markdown: kramdown
 remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
+
+kramdown:
+  input: GFM
 
 jekyll_admin:
   hidden_links:
