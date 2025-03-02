@@ -72,9 +72,6 @@
 </script>
 
 
-{% include head.html %}
-<body>
-<!--  -->
   <div class="container">
   	<div>
 	<label class="switch" for="theme-switch" style="float: right; margin-top: 10px;">
@@ -85,9 +82,7 @@
 	document.getElementById("theme-switch").checked = localStorage.getItem("my-theme")==="dark"
 	</script>
 	</div>
-    {{ content }}
-  </div>
-</body>
+
 
 <html lang="{{ page.lang | default: site.lang | default: 'en-US' }}" class="no-js">
   {% include head.html %}
