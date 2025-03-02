@@ -1,21 +1,35 @@
+:root {
+    --primary-color: #302AE6;
+    --secondary-color: #536390;
+    --font-color: #424242;
+    --bg-color: #fff;
+    --heading-color: #292922;
+}
 [data-theme="dark"] {
-    --main-background-color: @mocha-mantle;
-    --main-darken-background-color: @mocha-crust-darken;
-    --crust-background-color: @mocha-crust;
-    --mantle-background-color: @mocha-mantle;
-    --main-text-color: @mocha-text; 
-    --subtext0-color: @mocha-subtext0;
-    --surface0-color: @mocha-surface0;
-    --overlay1-color: @mocha-overlay1;
-    --overlay0-color: @mocha-overlay0;
-    --accent-color: @mocha-mauve;
-    --accent-color-background: @mocha-mauve-background;
-    --accent-color-deep: @mocha-blue;
-    --accent-color-deep-background: @mocha-blue-background;
-    --hr-color: @mocha-surface1;
-    --link-color: @latte-lavender;
-    --code-color: rgb(229, 80, 116);
-    --code-background-color: rgb(45, 22, 27);;
-    --content-active-color: @mocha-peach;
-    --content-background-color: @mocha-crust;
+    --primary-color: #9A97F3;
+    --secondary-color: #818cab;
+    --font-color: #e1e1ff;
+    --bg-color: #161625;
+    --heading-color: #818cab;
+}
+body {
+    background-color: var(--bg-color);
+    color: var(--font-color);
+
+    /*other styles*/
+    .....
+}
+
+h1 {
+    color: var(--secondary-color);
+
+    /*other styles*/
+    .....
+}
+
+a {
+    color: var(--primary-color);
+
+    /*other styles*/
+    .....
 }
