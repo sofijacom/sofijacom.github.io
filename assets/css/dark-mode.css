@@ -13,6 +13,8 @@
   height: 34px;
   position: relative;
   width: 60px;
+  top: 10px;
+  left: 10px;
 }
 
 .theme-switch input {
