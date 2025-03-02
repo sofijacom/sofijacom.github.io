@@ -40,14 +40,6 @@ algolia:
 markdown: kramdown
 remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
 
-    programming : 
-      - skill : python
-      - skill : c
-      - skill : c++
-      - skill : ruby
-      - skill : java
-      - skill : javascript
-
 kramdown:
   input: GFM
 
@@ -117,11 +109,4 @@ defaults:
       type: recipes
     values:
       layout: post
-      read_time: true
-  # Build Ssttings
-sass:
-  sass_dir: _sass
-  style: :compressed
-plugins: [jekyll-paginate,jekyll-sitemap]
-bootstrap:
-  assets: true    
+      read_time: true   
