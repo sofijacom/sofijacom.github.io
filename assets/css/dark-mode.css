@@ -12,7 +12,7 @@
   display: inline-block;
   height: 24px;
   position: relative;
-  width: 50px;
+  width: 40px;
   top: 0px;
   left: 10px;
 }
@@ -48,7 +48,7 @@ input:checked + .slider {
 }
 
 input:checked + .slider:before {
-  transform: translateX(16px);
+  transform: translateX(21px);
 }
 
 .slider.round {
