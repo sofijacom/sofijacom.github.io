@@ -17,19 +17,6 @@ layout: default
    top: 10px;
    left: 70px;
 }
- /* Basic dark theme */
- [data-theme="dark"] {
-
-  base-color: #24273a !important;
-  text-color: #c6a0f6 !important;
-  accent-color: #8839ef !important;
-  background-color: #1e1e2e !important;
-  code-background-color: #939ab7 !important;
-  border-color: rgba($text-color, 0.5) !default;
-  overlay-color: #939ab7 !important;
-
- }
-
   /* The switch - the box around the slider */
  .switch {
      position: relative;
@@ -86,33 +73,7 @@ layout: default
  }
  </style>
 
- <script>
-  // This function runs every time the switch is toggled.
- function changeTheme(){
-   const theme_switch = document.getElementById("theme-switch");
-   if (theme_switch.checked) {
-     document.documentElement.setAttribute("data-theme","dark");
-     // Add the ff. line to write to memory.
-     localStorage.setItem("my-theme","dark");
-   }
-   else {
-     document.documentElement.removeAttribute("data-theme")
-     // Add the ff. line to write to memory.
-     localStorage.setItem("my-theme",null);
-   }
- }
-
- // Check local storage every time html is loaded to know which theme to use.
- if (localStorage.getItem("my-theme")==="dark") {
-   // Use dark theme.
-   document.documentElement.setAttribute("data-theme","dark");
- }
- else {
-   // Use default theme.
-   document.documentElement.removeAttribute("data-theme")
- }
- </script>
-
+ 
 <script> 
         function getRandom(number) {
         return Math.round(number * Math.random());
