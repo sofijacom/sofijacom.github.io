@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 # Bookmark this to keep an eye on my project updates!
 
-#lang: en-US
+lang: en-US
 title: 𝕂𝕖𝕟𝕟𝕖𝕝 𝕃𝕚𝕟𝕦𝕩
 email:
 description: "Expand your knowledge and stay informed with our engaging blog posts"
@@ -47,18 +47,6 @@ remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
       - skill : ruby
       - skill : java
       - skill : javascript
-
-    webdev : 
-      - skill : django
-      - skill : ruby on rails
-      - skill : jekyll
-      - skill : flask
-      - skill : html5
-      - skill : css3
-      - skill : javascript
-      - skill : bootstrap
-      - skill : gatsby
-      - skill : jamstack
 
 kramdown:
   input: GFM
