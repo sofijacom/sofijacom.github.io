@@ -1,20 +1,15 @@
 /*Simple css to style it like a toggle switch*/
 .switch {
-  display: flex;
-  align-items: center;
-
-  em {
-    margin-left: 10px;
-    font-size: 1rem;
-  }
-}
-.switch {
   display: inline-block;
   height: 24px;
   position: relative;
   width: 40px;
   top: 0px;
   left: 10px;
+  margin-left: 10px;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
 }
 
 .switch input {
