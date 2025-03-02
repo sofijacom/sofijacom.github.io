@@ -33,7 +33,7 @@
 }
 
 .slider:before {
-  background-color: #67406d;
+  background-color: #cdd6f3;
   bottom: 4px;
   content: "";
   height: 20px;
@@ -48,7 +48,7 @@ input:checked + .slider {
 }
 
 input:checked + .slider:before {
-  transform: translateX(21px);
+  transform: translateX(18px);
 }
 
 .slider.round {
