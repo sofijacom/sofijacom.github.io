@@ -36,11 +36,11 @@
   background-color: #fff;
   bottom: 4px;
   content: "";
-  height: 26px;
+  height: 16px;
   left: 4px;
   position: absolute;
   transition: .4s;
-  width: 26px;
+  width: 16px;
 }
 
 input:checked + .slider {
