@@ -52,9 +52,9 @@ input:checked + .slider:before {
 }
 
 .slider.round {
-  border-radius: 34px;
+  border-radius: 30px;
 }
 
 .slider.round:before {
-  border-radius: 50%;
+  border-radius: 40%;
 }
