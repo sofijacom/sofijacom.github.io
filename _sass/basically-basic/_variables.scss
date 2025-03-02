@@ -1,144 +1,107 @@
-// Variables
+/* ==========================================================================
+   Variables
+   ========================================================================== */
 
-@brand-primary: #dc8a78;
-@brand-gray: #9ca0b0;
+/* Breakpoint widths */
+$small: 320px !default;
+$medium: 768px !default;
+$large: 1024px !default;
+$xlarge: 1280px !default;
 
-@white-faded: fade(#eff1f5, 80%);
+/* Fluid type */
+$base-font-size: 16px !default;
+$min-vw: $small !default;
+$max-vw: $xlarge !default;
+$min-font-size: 14px !default;
+$max-font-size: 18px !default;
 
-@latte-text: #4c4f69;
-@latte-subtext0: #6c6f85;
-@latte-surface0: #ccd0da;
-@latte-surface1: #bcc0cc;
-@latte-overlay2: #7c7f93;
-@latte-overlay1: #8c8fa1;
-@latte-overlay0: #9ca0b0;
-@latte-base: #eff1f5;
-@latte-mantle: #e6e9ef;
-@latte-crust: #dce0e8;
-@latte-crust-darken: darken(@latte-crust, 10%);
-@latte-rosewater: #dc8a78;
-@latte-rosewater-background: lighten(@latte-rosewater, 25%);
-@latte-maroon: #e64553;
-@latte-maroon-background: lighten(@latte-maroon, 30%);
-@latte-lavender: #7287fd;
-@latte-mauve: #8839ef;
-@latte-blue: #1e66f5;
-@frappe-flamingo: #eebebe;
+/* Calculate Modular Scale */
+$modular-scale-1: 1.067 !default; /* small */
+$modular-scale-2: 1.296 !default; /* large */
+/* Heading 1 */
+$h1-min: $modular-scale-1 * $modular-scale-1 * $modular-scale-1 *
+  $modular-scale-1 * $base-font-size !default;
+$h1-max: $modular-scale-2 * $modular-scale-2 * $modular-scale-2 *
+  $modular-scale-2 * $base-font-size !default;
+/* Heading 2 */
+$h2-min: $modular-scale-1 * $modular-scale-1 * $modular-scale-1 *
+  $base-font-size !default;
+$h2-max: $modular-scale-2 * $modular-scale-2 * $modular-scale-2 *
+  $base-font-size !default;
+/* Heading 3 */
+$h3-min: $modular-scale-1 * $modular-scale-1 * $base-font-size !default;
+$h3-max: $modular-scale-2 * $modular-scale-2 * $base-font-size !default;
+/* Heading 4 */
+$h4-min: $modular-scale-1 * $base-font-size !default;
+$h4-max: $modular-scale-2 * $base-font-size !default;
+/* Heading 5 */
+$h5-min: $base-font-size !default;
+$h5-max: $base-font-size !default;
+/* Heading 6 */
+$h6-min: ($base-font-size / $modular-scale-1) !default;
+$h6-max: ($base-font-size / $modular-scale-2) !default;
 
-@mocha-base: #1e1e2e;
-@mocha-mantle: #181825;
-@mocha-crust: #11111b;
-@mocha-crust-darken: darken(@mocha-crust, 10%);
-@mocha-text: #cdd6f4;
-@mocha-lavender: #b4befe;
-@mocha-mauve: #cba6f7;
-@mocha-mauve-background: darken(@mocha-mauve, 65%);
-@mocha-blue: #89b4fa;
-@mocha-blue-background: darken(@mocha-blue, 65%);
-@mocha-maroon: #eba0ac;
-@mocha-peach: #fab387;
-@mocha-red: #f38ba8;
-@mocha-green: #a6e3a1;
-@mocha-subtext1: #bac2de;
-@mocha-subtext0: #a6adc8;
-@mocha-overlay2: #9399b2;
-@mocha-overlay1: #7f849c;
-@mocha-overlay0: #6c7086;
-@mocha-surface2: #585b70;
-@mocha-surface1: #45475a;
-@mocha-surface0: #313244;
+/* Base font family */
+$base-font-family: "Fira Sans", sans-serif !default;
+/* Other font families */
+$headline-font-family: $base-font-family !default;
+$monospace-font-family: Menlo, Consolas, Monaco, "Courier New", Courier,
+  monospace !default;
 
-@font-heading: "Jost", sans-serif;
-@font-serif: "IBM Plex Serif", serif;
-@font-sans: "Inter", sans-serif;
-@font-monospace: "IBM Plex Mono", monospace;
+/* Colors */
+$base-color: #393e46 !default;
+$text-color: #181c22 !default;
+$accent-color: #00838a !default;
+$background-color: #fff !default;
+$code-background-color: tint($base-color, 95%) !default;
+$border-color: tint($base-color, 80%) !default;
+$overlay-color: $base-color !default;
 
-html, html[data-theme="light"] {
-    --main-background-color: @latte-base;
-    --main-darken-background-color: @latte-crust-darken;
-    --crust-background-color: @latte-crust;
-    --mantle-background-color: @latte-mantle;
-    --main-text-color: @latte-text;
-    --subtext0-color: @latte-subtext0;
-    --surface0-color: @latte-surface0;
-    --overlay1-color: @latte-overlay1;
-    --overlay0-color: @latte-overlay0;
-    --accent-color: @latte-rosewater;
-    --accent-color-background: @latte-rosewater-background;
-    --accent-color-deep: @latte-maroon;
-    --accent-color-deep-background: @latte-maroon-background;
-    --hr-color: @latte-surface1;
-    --link-color: @latte-blue;
-    --code-color: #c7254e;
-    --code-background-color: #f5dfe5;
-    --content-active-color: @latte-mauve;
-    --content-background-color: @latte-mantle;
-}
+/* Syntax highlighting (base16) colors */
+$base00: #1c2023 !default;
+$base01: #393f45 !default;
+$base02: #565e65 !default;
+$base03: #747c84 !default;
+$base04: #adb3ba !default;
+$base05: #c7ccd1 !default;
+$base06: #dfe2e5 !default;
+$base07: #f3f4f5 !default;
+$base08: #c7ae95 !default;
+$base09: #c7c795 !default;
+$base0a: #aec795 !default;
+$base0b: #95c7ae !default;
+$base0c: #95aec7 !default;
+$base0d: #ae95c7 !default;
+$base0e: #c795ae !default;
+$base0f: #c79595 !default;
 
-html[data-theme="dark"] {
-    --main-background-color: @mocha-mantle;
-    --main-darken-background-color: @mocha-crust-darken;
-    --crust-background-color: @mocha-crust;
-    --mantle-background-color: @mocha-mantle;
-    --main-text-color: @mocha-text; 
-    --subtext0-color: @mocha-subtext0;
-    --surface0-color: @mocha-surface0;
-    --overlay1-color: @mocha-overlay1;
-    --overlay0-color: @mocha-overlay0;
-    --accent-color: @mocha-mauve;
-    --accent-color-background: @mocha-mauve-background;
-    --accent-color-deep: @mocha-blue;
-    --accent-color-deep-background: @mocha-blue-background;
-    --hr-color: @mocha-surface1;
-    --link-color: @latte-lavender;
-    --code-color: rgb(229, 80, 116);
-    --code-background-color: rgb(45, 22, 27);;
-    --content-active-color: @mocha-peach;
-    --content-background-color: @mocha-crust;
-}
+/* Max-width of the main content */
+$main-max-width: $xlarge !default;
 
-@media (prefers-color-scheme: dark) {
-    html, html[data-theme="dark"] {
-        --main-background-color: @mocha-mantle;
-        --main-darken-background-color: @mocha-crust-darken;
-        --crust-background-color: @mocha-crust;
-        --mantle-background-color: @mocha-mantle;
-        --main-text-color: @mocha-text; 
-        --subtext0-color: @mocha-subtext0;
-        --surface0-color: @mocha-surface0;
-        --overlay1-color: @mocha-overlay1;
-        --overlay0-color: @mocha-overlay0;
-        --accent-color: @mocha-mauve;
-        --accent-color-background: @mocha-mauve-background;
-        --accent-color-deep: @mocha-blue;
-        --accent-color-deep-background: @mocha-blue-background;
-        --hr-color: @mocha-surface1;
-        --link-color: @latte-lavender;
-        --code-color: rgb(229, 80, 116);
-        --code-background-color: rgb(45, 22, 27);;
-        --content-active-color: @mocha-peach;
-        --content-background-color: @mocha-crust;
-    }
+/* Width of the sidebar */
+$sidebar-width: $small !default;
 
-    html[data-theme="light"] {
-        --main-background-color: @latte-base;
-        --main-darken-background-color: @latte-crust-darken;
-        --crust-background-color: @latte-crust;
-        --mantle-background-color: @latte-mantle;
-        --main-text-color: @latte-text;
-        --subtext0-color: @latte-subtext0;
-        --surface0-color: @latte-surface0;
-        --overlay1-color: @latte-overlay1;
-        --overlay0-color: @latte-overlay0;
-        --accent-color: @latte-rosewater;
-        --accent-color-background: @latte-rosewater-background;
-        --accent-color-deep: @latte-maroon;
-        --accent-color-deep-background: @latte-maroon-background;
-        --hr-color: @latte-surface1;
-        --link-color: @latte-blue;
-        --code-color: #c7254e;
-        --code-background-color: #f5dfe5;
-        --content-active-color: @latte-mauve;
-        --content-background-color: @latte-mantle;
-  } 
-}
+/* Background color of the sidebar */
+$sidebar-background-color: #fff !default;
+
+/* Intro image color overlay */
+$intro-image-color-overlay: false !default;
+
+/* Border radius */
+$border-radius: 0.25em !default;
+
+/* Global transition */
+$global-transition: all 0.4s ease !default;
+
+/* Navicon */
+$navicon-width: 1.75em !default;
+$navicon-height: 0.25em !default;
+$navicon-duration: 0.5s !default;
+$navicon-toggled-size: 1 !default;
+$navicon-nav-bg-close: transparent !default;
+$navicon-nav-bg-open: transparent !default;
+$navicon-content-bg: $text-color !default;
+
+/* Site image */
+$site-image-width: 50px !default;
+$site-image-height: 50px !default;
