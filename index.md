@@ -1,5 +1,6 @@
 ---
 layout: home
+calendar_css: <link rel="stylesheet" href="!PATH_TO_COMPONENTS!/bootstrap/css/theme-switcher.css">
 actions:
   - label: "Get Started"
     icon: github
