@@ -9,11 +9,11 @@
 <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"></script>
      <!-- THEME SWITCHER -->
   
- <div class="custom-control custom-switch">
-   <input type="checkbox" class="custom-control-input" id="darkSwitch" />
-   <label class="custom-control-label" for="darkSwitch">Dark Mode</label>
- </div>
- <script src="dark-mode-switch.js"></script>
+<div class="form-check form-switch">
+  <input type="checkbox" class="form-check-input" id="darkSwitch" />
+  <label class="custom-control-label" for="darkSwitch">Dark Mode</label>
+</div>
+<script src="dark-mode-switch.min.js"></script>
            
 <html lang="{{ page.lang | default: site.lang | default: 'en-US' }}" class="no-js">
   {% include head.html %}
