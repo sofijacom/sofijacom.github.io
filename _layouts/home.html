@@ -1,13 +1,85 @@
 ---
 layout: default
 ---
-             
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>.</title>
+ <style>
+  .center {
+   position: relative; 
+   top: 10px;
+   left: 70px;
+}
+ </style>
+    
+<script> 
+        function getRandom(number) {
+        return Math.round(number * Math.random());
+        };
+
+        function getRandomColor() {
+
+        var red = getRandom(255);
+        var green = getRandom(255);
+        var blue = getRandom(255);
+
+        var color = "rgb(" + red + "," + green + "," + blue + ")";
+
+        return color;
+ };
+
+        function clock33() {
+
+        var date = new Date();
+        var hours = date.getHours();
+        var minutes = date.getMinutes();
+        var seconds = date.getSeconds();
+
+        var clockHours = document.getElementById("clockHours");
+        var clockMinutes = document.getElementById("clockMinutes");
+        var clockSeconds = document.getElementById("clockSeconds");
+
+        if (hours < 10)
+                hours = "0" + hours;
+        if (minutes < 10)
+                minutes = "0" + minutes;
+                if (seconds < 10)
+                seconds = "0" + seconds;
+
+        clockHours.innerHTML = hours;
+        clockMinutes.innerHTML = minutes;
+        clockSeconds.innerHTML = seconds;
+
+        clockHours.style.color = getRandomColor();
+        clockMinutes.style.color = getRandomColor();
+        clockSeconds.style.color = getRandomColor();
+
+        setTimeout("clock33()", 1000);
+};
+</script>
+              
+<div class="center" style="width: 200px;">
+<div id="clock33" class="bg-3" style="font-weight: normal; font-family:'digital-clock-font'; text-align: center; font-size: 32px; margin-bottom: 10px; border: 1px solid #875eb0; border-radius: 40px; background: #23273a; color: grey;">
+
+        <span id="clockHours"></span> : <span id="clockMinutes"></span> : <span id="clockSeconds"></span>
+        
+        </div>
+</div>
+<script>
+        clock33();
+</script>
+
+    </body>
+</html> 
+               
 {% include page-intro.html %}
 
 <main id="main" class="page-content" aria-label="Content">
   <div class="index inner">
     <div>{{ content }}</div>
-
+    
     {% if site.posts.size > 0 %}
       <div>
         <header class="section-title">
@@ -24,6 +96,6 @@ layout: default
             {% include posts-all.html %}
           {% endif %}
         </div>
-      </div>
+      </div>    
     {% endif %}
-
+    
