@@ -3,6 +3,7 @@
 <head>
    <title>.</title>   
    <!-- THEME SWITCHER -->
+    <script type="text/javascript" src="/assets/js/darkreader.js"></script>
     <script type="text/javascript" src="/assets/js/theme-switcher.js"></script>
      <!-- Theme Toggle -->
   <link rel="stylesheet" href="/assets/css/dark-mode.css">
@@ -15,6 +16,9 @@
   </label>
     <em>Enable Dark Mode!</em>
   </div>
+      <script type="text/javascript">
+   document.getElementById("theme-switch").checked = localStorage.getItem("my-theme")==="dark"
+ </script>
         </nav>
     </head> 
 
