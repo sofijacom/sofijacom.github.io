@@ -57,15 +57,6 @@ $code-background-color: tint($base-color, 95%) !default;
 $border-color: tint($base-color, 80%) !default;
 $overlay-color: $base-color !default;
 
-/* Colors */
-/* $base-color: #24273a !default;
-$text-color: #c6a0f6 !default;
-$accent-color: #8839ef !default;
-$background-color: #1e1e2e !default;
-$code-background-color: #939ab7 !default;
-$border-color: rgba($text-color, 0.5) !default;
-$overlay-color: #939ab7 !default; */
-
 /* Syntax highlighting (base16) colors */
 $base00: #1c2023 !default;
 $base01: #393f45 !default;
