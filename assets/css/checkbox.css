@@ -1,11 +1,11 @@
- *{ 
+ .code-container{ 
 	margin: 0; 
 	padding: 0; 
 	background-color: black; 
 	
 } 
 /*Drawing the half moon by manipulating the div box*/ 
-div{ 
+.code-container div{ 
 	position: absolute; 
 	top: 0%; 
 	left: 10%; 
