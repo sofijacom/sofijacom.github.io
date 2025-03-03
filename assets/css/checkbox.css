@@ -9,10 +9,10 @@
     user-select: none;
 }
 .custom-checkbox+label::before {
-    content: '';
+    content: '🌓';
     display: inline-block;
-    width: 1em;
-    height: 1em;
+    width: 2em;
+    height: 2em;
     flex-shrink: 0;
     flex-grow: 0;
     border: 1px solid #adb5bd;
