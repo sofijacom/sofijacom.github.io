@@ -62,7 +62,7 @@ roboto_fonts:
 navigation_pages:
   - about.md
   - cv.md
-  - recipes.md
+  - plugins.md
   - puppy.md
   - posts.md
   - calendar.md
