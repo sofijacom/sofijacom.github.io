@@ -1,26 +1,22 @@
-let switches = document.getElementsByClassName('switch');
+const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+const currentTheme = localStorage.getItem('theme');
 
-let style = localStorage.getItem('style');
-
-if (style == null) {
-    setTheme('light');
-} else {
-    setTheme(style);
-}
-
-for (let i of switches) {
-    i.addEventListener('click', function () {
-        let theme = this.dataset.theme;
-        setTheme(theme);
-    });
-}
-
-function setTheme(theme) {
-    if (theme == 'light') {
-        document.getElementById('switcher-id').href = '/assets/style/light.scss';
-    } else if (theme == 'dark') {
-        document.getElementById('switcher-id').href = '/assets/style/dark.scss';
+if (currentTheme) {
+    document.documentElement.setAttribute('data-theme', currentTheme);
+  
+    if (currentTheme === 'dark') {
+        toggleSwitch.checked = true;
     }
-    localStorage.setItem('style', theme);
 }
 
+function switchTheme(e) {
+    if (e.target.checked) {
+        document.documentElement.setAttribute('data-theme', '/assets/style/dark.scss');
+        localStorage.setItem('theme', '/assets/style/dark.scss');
+    }
+    else {        document.documentElement.setAttribute('data-theme', '/assets/style/light.scss');
+          localStorage.setItem('theme', '/assets/style/light.scss');
+    }    
+}
+
+toggleSwitch.addEventListener('change', switchTheme, false);
