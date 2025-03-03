@@ -21,8 +21,6 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 50% 50%;
-    top: 0px;
-    right: 50px;
 }
 .custom-checkbox:checked+label::before {
     border-color: #0b76ef;
