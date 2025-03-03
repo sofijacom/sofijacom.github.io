@@ -16,10 +16,8 @@
    <!-- Toggle Button -->
  </head>
 <!-- <nav> -->
-<label>
-     <input type="checkbox" class="custom-checkbox" id="theme-switch" value="yes" onclick="changeTheme()">
-    </label>
-      <em>Enable Dark Mode!</em>
+<input type="checkbox" class="custom-checkbox" id="theme-switch" name="happy" value="yes" onclick="changeTheme()">
+<label for="happy"> Enable Dark Mode!</label>
     <script type="text/javascript">
    document.getElementById("theme-switch").checked = localStorage.getItem("my-theme")==="dark"
  </script>
