@@ -18,29 +18,8 @@
      <link rel="stylesheet" href="/assets/css/checkbox.css">
    <!-- Toggle Button -->
  </head>
-<style> 
-  *{ 
-     margin: 0; 
-     padding: 0; 
-     background-color: black; 
-      
-   } 
-   /*Drawing the half moon by 
-     manipulating the div box*/ 
-   div{ 
-     position: absolute; 
-     top: 0%; 
-     left: 10%; 
-     transform: translate(-50%, -50%); 
-     height: 10px; 
-     width: 10px; 
-     box-shadow: -15px 15px 0 5px white  ; 
-     border-radius: 50%; 
-   } 
-  </style> 
-
 <!-- <nav> -->
-<input type="checkbox" class="custom-checkbox" id="theme-switch" name="theme-switch" onclick="changeTheme()">
+<input type="checkbox" class="div" id="theme-switch" name="theme-switch" onclick="changeTheme()">
 <label for="theme-switch">Enable Dark Mode!</label>
     <script type="text/javascript">
    document.getElementById("theme-switch").checked = localStorage.getItem("my-theme")==="dark"
