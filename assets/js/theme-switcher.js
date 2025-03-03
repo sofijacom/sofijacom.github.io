@@ -17,9 +17,9 @@ for (let i of switches) {
 
 function setTheme(theme) {
     if (theme == 'light') {
-        document.getElementById('switcher-id').href = '/assets/style/_light.scss';
+        document.getElementById('switcher-id').href = '/assets/style/light.scss';
     } else if (theme == 'dark') {
-        document.getElementById('switcher-id').href = '/assets/style/_dark.scss';
+        document.getElementById('switcher-id').href = '/assets/style/dark.scss';
     }
     localStorage.setItem('style', theme);
 }
