@@ -9,7 +9,8 @@
     user-select: none;
 }
 .custom-checkbox+label::before {
-    content: '☾';
+    content: '';
+    image: '☾';
     display: inline-block;
     width: 1em;
     height: 1em;
