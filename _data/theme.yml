@@ -1,5 +1,5 @@
 # Theme Skin
-skin: variables # default, night, plum, sea, soft, steel, / air, aqua, plums, dark, neon, sunrise, mint, contrast, macchiato
+skin: macchiato # default, night, plum, sea, soft, steel, / air, aqua, plums, dark, neon, sunrise, mint, contrast, macchiato
 
 # Theme Text
 t:
