@@ -25,7 +25,7 @@
 .custom-checkbox:checked+label::before {
     border-color: #0b76ef;
     background-color: #0b76ef;
-    background-image: 🌗;
+    background-image: "🌗";
 }
 /* стили при наведении курсора на checkbox */
 .custom-checkbox:not(:disabled):not(:checked)+label:hover::before {
