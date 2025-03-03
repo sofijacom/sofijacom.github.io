@@ -1,6 +1,5 @@
 ---
 layout: home
-theme-switcher_css: <link rel="stylesheet" href="/assets/css/theme-switcher.css">
 actions:
   - label: "Get Started"
     icon: github
