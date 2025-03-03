@@ -5,8 +5,6 @@
     Free for personal and commercial use under the MIT license
     https://github.com/mmistakes/jekyll-theme-basically-basic/blob/master/LICENSE
 -->
- <title>.</title>
- <head>
        <meta charset="UTF-8"> 
   <meta name="viewport" 
         content="width=device-width, 
@@ -20,6 +18,27 @@
      <link rel="stylesheet" href="/assets/css/checkbox.css">
    <!-- Toggle Button -->
  </head>
+<style> 
+  *{ 
+     margin: 0; 
+     padding: 0; 
+     background-color: black; 
+      
+   } 
+   /*Drawing the half moon by 
+     manipulating the div box*/ 
+   div{ 
+     position: absolute; 
+     top: 50%; 
+     left: 50%; 
+     transform: translate(-50%, -50%); 
+     height: 100px; 
+     width: 100px; 
+     box-shadow: -15px 15px 0 5px white  ; 
+     border-radius: 50%; 
+   } 
+  </style> 
+
 <!-- <nav> -->
 <input type="div" class="custom-checkbox" id="theme-switch" name="theme-switch" onclick="changeTheme()">
 <label for="theme-switch">Enable Dark Mode!</label>
