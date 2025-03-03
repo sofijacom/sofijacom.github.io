@@ -17,7 +17,17 @@
    <!-- Toggle Button -->
  </head>
 <!-- <nav> -->
-<input type="checkbox" class="custom-checkbox" id="theme-switch" name="theme-switch" value="yes" onclick="changeTheme()">
+<!-- <input type="checkbox" class="custom-checkbox" id="theme-switch" name="theme-switch" value="yes" onclick="changeTheme()">
+<label for="theme-switch">Enable Dark Mode!</label>
+    <script type="text/javascript">
+   document.getElementById("theme-switch").checked = localStorage.getItem("my-theme")==="dark"
+ </script> -->
+
+<div class="theme-switch-wrapper">
+    <label class="theme-switch" for="theme-switch">
+        <input type="checkbox" id="theme-switch" />
+        <div class="slider round"></div>
+  </label><em>Enable Dark Mode!</em></div>
 <label for="theme-switch">Enable Dark Mode!</label>
     <script type="text/javascript">
    document.getElementById("theme-switch").checked = localStorage.getItem("my-theme")==="dark"
