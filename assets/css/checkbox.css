@@ -1,17 +1,21 @@
- .code-container{ 
-	margin: 0; 
-	padding: 0; 
-	background-color: black; 
-	
-} 
-/*Drawing the half moon by manipulating the div box*/ 
-.code-container div{ 
-	position: absolute; 
-	top: 0%; 
-	left: 10%; 
-	transform: translate(-50%, -50%); 
-	height: 10px; 
-	width: 10px; 
-	box-shadow: -15px 15px 0 5px white ; 
-	border-radius: 50%; 
+.openInApp{
+            display: none;
+            bottom: 0px;
+            width: 100%;
+            position: fixed;
+            z-index: 1025;
+            opacity: 0.93;
 }
+.openInAppLink{
+            height: 44px;
+            background: var(--color-gfg);
+            font-weight: bold;
+            display: block;
+            text-align: center;
+            padding: 12px;
+            font-size: large;
+}
+.openInAppLink, .openInAppLink:hover, .openInAppLink:active, .openInAppLink:visited, .openInAppLink:focus {
+            text-decoration:none;
+ }
+    
