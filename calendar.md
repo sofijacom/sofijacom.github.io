@@ -25,6 +25,10 @@ calendar_css: <link rel="stylesheet" href="!PATH_TO_COMPONENTS!/bootstrap-calend
 ⚡ _Fun fact: ..._
 ✨ _https://git.io/typing-svg ..._
 
-<p align="center">
-  🦋 🦋 🦋 🦋 🦋 🦋 🦋 🦋 🦋 
-</p>
+
+<h3 align="center">
+	<img src="https://github.com/sofijacom/sofijacom.github.io/blob/master/assets/web/Sparkles.webp" alt="Sparkles" width="38" height="38" />
+	 🦋 🦋 🦋 🦋 🦋 🦋 🦋 🦋 🦋
+	<img src="https://github.com/sofijacom/sofijacom.github.io/blob/master/assets/web/Sparkles.webp" alt="Sparkles" width="38" height="38" />
+</h3>
+
