@@ -10,7 +10,6 @@ categories:
 tags:
   - content
   - image
-  - webp
   - layout
 ---
 
