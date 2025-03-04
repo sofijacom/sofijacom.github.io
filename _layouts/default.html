@@ -29,7 +29,7 @@
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %} {{ page.title | slugify }}">
   
 <input type="checkbox" class="custom-checkbox" id="theme-switch" name="theme-switch" onclick="changeTheme()">
-<label class="switch" style="float: right; margin-top: 10px;" for="theme-switch">🌓 Dark Mode..</label>
+<label class="switch" style="float: center; margin-top: 1px;" for="theme-switch">🌓 Dark Mode..</label>
     <script type="text/javascript">
    document.getElementById("theme-switch").checked = localStorage.getItem("my-theme")==="dark"
  </script>
