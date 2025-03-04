@@ -37,7 +37,7 @@ actions:
 > ### Assemblies from Sofiya
 
 
-####  _KLA 64 bit._
+#### KLA 64 bit.
 
 
 - [KLA-OT2baseCE](https://github.com/sofijacom/KLA-OT2baseCE)
@@ -46,7 +46,7 @@ actions:
 - [KLA-plasma-KDE-CE](https://github.com/sofijacom/KLA-plasma-KDE-CE)
 
 
-####  _KLV 64 bit._
+#### KLV 64 bit.
 
 
 - [KLV-Spectrwm-CE](https://github.com/sofijacom/KLV-Spectrwm-CE)
@@ -57,7 +57,7 @@ actions:
 - [KLV-plasma-KDE-CE](https://github.com/sofijacom/KLV-plasma-KDE-CE)
 
 
-####  _KLF-Rawhide-CE_
+#### KLF-Rawhide-CE.
 
 
 - [KLF-Rawhide-CE](https://github.com/sofijacom/KLF-Rawhide-CE)
