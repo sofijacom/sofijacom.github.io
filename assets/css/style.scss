@@ -1,4 +1,9 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:400,400italic,700|Sansita+One);
+---
+---
+
+@import "{{ site.theme }}";
+
+/* @import url(https://fonts.googleapis.com/css?family=Lato:400,400italic,700|Sansita+One); */
 
 :root {
     --primary-color: #302AE6;
