@@ -1,5 +1,5 @@
 ---
-title: "🌿 About"
+title: "🌿 𝔸𝕓𝕠𝕦𝕥"
 layout: about
 header-mask: 0.4
 multilingual: true

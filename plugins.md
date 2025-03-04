@@ -1,5 +1,5 @@
 ---
-title: 💻 Plugins
+title: 💻 ℙ𝕝𝕦𝕘𝕚𝕟𝕤
 sub_title: "The plugin is a script with the possibility of expansion and further modification."
 layout: collection
 ---
