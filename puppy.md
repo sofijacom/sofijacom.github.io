@@ -1,5 +1,5 @@
 ---
-title: 🐶 ℙ𝕦𝕡𝕡𝕪
+title: 🐶 Puppy
 image: /assets/images/puppy.png
 ---
 
