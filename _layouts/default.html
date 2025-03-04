@@ -54,14 +54,7 @@
         {% include contact-list.html %}
       </div>
     </div>
-
-    <div class="canvas">
-      <div class="wrapper">
-        {% include masthead.html %}
-        <div class="initial-content">
-          {{ content }}
-        </div>
-        
+    
   <body>
 <input type="checkbox" class="custom-checkbox" id="theme-switch" name="theme-switch" onclick="changeTheme()">
 <label class="switch" style="float: right; margin-top: 1px;" for="theme-switch">Enable Dark Mode!</label>
@@ -69,7 +62,14 @@
    document.getElementById("theme-switch").checked = localStorage.getItem("my-theme")==="dark"
  </script>
 </body>
-        
+    
+    <div class="canvas">
+      <div class="wrapper">
+        {% include masthead.html %}
+        <div class="initial-content">
+          {{ content }}
+        </div>
+             
         <div class="search-content">
           {% include search-form.html %}
         </div>
