@@ -32,10 +32,16 @@ tags:
 ⚡ _Fun fact: ..._
 ✨ _https://git.io/typing-svg ..._
 
-
-<h3 align="center">
-	<img src="https://github.com/sofijacom/sofijacom.github.io/blob/4d63c7033e8df29685f8d4157a27b3f30ef96a89/assets/web/Sparkles.webp" alt="Sparkles" width="38" height="38" />
+<p align="center">
+	<img
+	src="https://github.com/sofijacom/sofijacom.github.io/blob/master/assets/web/Sparkles.webp" alt="Sparkles" width="38" height="38"
+    width="25"
+    height="25"
+	/>
 	 🦋 🦋 🦋 🦋 🦋 🦋 🦋 🦋 🦋
-	<img src="https://github.com/sofijacom/sofijacom.github.io/blob/4d63c7033e8df29685f8d4157a27b3f30ef96a89/assets/web/Sparkles.webp" alt="Sparkles" width="38" height="38" />
-</h3>
-
+	<img
+	src="https://github.com/sofijacom/sofijacom.github.io/blob/master/assets/web/Sparkles.webp" alt="Sparkles" width="38" height="38"
+    width="25"
+    height="25"
+	/>
+</p>
