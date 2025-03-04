@@ -33,15 +33,15 @@ tags:
 ✨ _https://git.io/typing-svg ..._
 
 <p align="center">
-	<img
-	src="https://github.com/sofijacom/sofijacom.github.io/blob/master/assets/web/Sparkles.webp" alt="Sparkles" width="38" height="38"
+   <img
+    src="https://github.com/sofijacom/sofijacom.github.io/blob/master/assets/web/Sparkles.webp"
     width="25"
     height="25"
-	/>
-	 🦋 🦋 🦋 🦋 🦋 🦋 🦋 🦋 🦋
-	<img
-	src="https://github.com/sofijacom/sofijacom.github.io/blob/master/assets/web/Sparkles.webp" alt="Sparkles" width="38" height="38"
-    width="25"
-    height="25"
-	/>
+/>	
+🦋 🦋 🦋 🦋 🦋 🦋 🦋 🦋 🦋  
+<img
+ src="https://github.com/sofijacom/sofijacom.github.io/blob/master/assets/web/Sparkles.webp"
+ width="25"
+ height="25"
+/>
 </p>
