@@ -35,13 +35,15 @@ tags:
 <p align="center">
    <img
     src="https://github.com/sofijacom/sofijacom.github.io/blob/master/assets/web/Sparkles.webp"
-    width="25"
-    height="25"
+     alt="Sparkles"
+    width="28"
+    height="28"
 />	
 🦋 🦋 🦋 🦋 🦋 🦋 🦋 🦋 🦋  
 <img
  src="https://github.com/sofijacom/sofijacom.github.io/blob/master/assets/web/Sparkles.webp"
- width="25"
- height="25"
+  alt="Sparkles"
+ width="28"
+ height="28"
 />
 </p>
