@@ -9,7 +9,7 @@
     user-select: none;
 }
 .custom-checkbox+label::before {
-    content: '🌓 Enable Dark Mode';
+    content: 'Enable Dark Mode';
     display: inline-block;
     width: 1em;
     height: 1em;
