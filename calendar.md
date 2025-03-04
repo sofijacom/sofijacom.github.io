@@ -33,14 +33,14 @@ tags:
 
 <p align="center">
    <img
-    src="https://github.com/sofijacom/sofijacom.github.io/blob/master/assets/web/Sparkles.webp"
+    src="https://raw.githubusercontent.com/sofijacom/sofijacom.github.io/4d63c7033e8df29685f8d4157a27b3f30ef96a89/assets/web/Sparkles.webp"
      alt="Sparkles"
     width="28"
     height="28"
 />	
 🦋 🦋 🦋 🦋 🦋 🦋 🦋 🦋 🦋  
 <img
- src="https://github.com/sofijacom/sofijacom.github.io/blob/master/assets/web/Sparkles.webp"
+ src="https://raw.githubusercontent.com/sofijacom/sofijacom.github.io/4d63c7033e8df29685f8d4157a27b3f30ef96a89/assets/web/Sparkles.webp"
   alt="Sparkles"
  width="28"
  height="28"
