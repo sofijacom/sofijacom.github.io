@@ -9,13 +9,13 @@
     user-select: none;
 }
 .custom-checkbox+label::before {
-    content: 'Enable Dark Mode';
+    content: '🌗';
     display: inline-block;
-    width: 1em;
-    height: 1em;
+    width: 1.2em;
+    height: 1.2em;
     flex-shrink: 0;
     flex-grow: 0;
-    border: 1px solid #adb5bd;
+    border: 1px solid #000000;
     border-radius: 0.25em;
     margin-right: 0.5em;
     background-repeat: no-repeat;
