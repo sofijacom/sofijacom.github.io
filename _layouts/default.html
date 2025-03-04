@@ -39,15 +39,7 @@
           </svg>
         </button>
       {% endif %}
-      
-  <body>
-<input type="checkbox" class="custom-checkbox" id="theme-switch" name="theme-switch" onclick="changeTheme()">
-<label class="switch" style="float: right; margin-top: 1px;" for="theme-switch">Enable Dark Mode!</label>
-    <script type="text/javascript">
-   document.getElementById("theme-switch").checked = localStorage.getItem("my-theme")==="dark"
- </script>
-</body>
-      
+        
       <button class="toggle navicon-button larr" type="button">
         <span class="toggle-inner">
           <span class="sidebar-toggle-label visually-hidden">{{ site.data.theme.t.menu | default: 'Menu' }}</span>
@@ -69,7 +61,15 @@
         <div class="initial-content">
           {{ content }}
         </div>
-
+        
+  <body>
+<input type="checkbox" class="custom-checkbox" id="theme-switch" name="theme-switch" onclick="changeTheme()">
+<label class="switch" style="float: right; margin-top: 1px;" for="theme-switch">Enable Dark Mode!</label>
+    <script type="text/javascript">
+   document.getElementById("theme-switch").checked = localStorage.getItem("my-theme")==="dark"
+ </script>
+</body>
+        
         <div class="search-content">
           {% include search-form.html %}
         </div>
