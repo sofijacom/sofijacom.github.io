@@ -27,16 +27,15 @@
   {% include head.html %}
 
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %} {{ page.title | slugify }}">
-
-    {% include skip-links.html %}
-    
+  
 <input type="checkbox" class="custom-checkbox" id="theme-switch" name="theme-switch" onclick="changeTheme()">
-<label class="switch" style="float: right; margin-top: 1px;" for="theme-switch">🌓 Dark Mode..</label>
+<label class="switch" style="float: right; margin-top: 10px;" for="theme-switch">🌓 Dark Mode..</label>
     <script type="text/javascript">
    document.getElementById("theme-switch").checked = localStorage.getItem("my-theme")==="dark"
  </script>
-    <div class="sidebar-toggle-wrapper">
-      
+       
+      {% include skip-links.html %}
+      <div class="sidebar-toggle-wrapper">  
       {% if site.search %}
         <button class="search-toggle" type="button">
           <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
