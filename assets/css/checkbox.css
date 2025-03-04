@@ -39,7 +39,7 @@
 .form-check-input:focus {
   border-color: #aa55ff;
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(170, 85, 255, 0.25);
 }
 .form-check-input:checked {
   background-color: #aa55ff;
