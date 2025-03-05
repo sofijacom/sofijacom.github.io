@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Kennel Linux</title>
+    <title>Kennel linux</title>
   </head>
   
    <!-- THEME SWITCHER -->
@@ -13,7 +13,16 @@
  <!-- <link rel="stylesheet" href="/assets/css/dark-mode.css"> -->
      <link rel="stylesheet" href="/assets/css/checkbox.css">
    <!-- Toggle Button -->
- 
+
+<!-- <nav> -->
+     
+  <body>
+    <header></header>
+    <main></main>
+    <footer></footer>
+  </body>
+</html>
+
 <html lang="{{ page.lang | default: site.lang | default: 'en-US' }}" class="no-js">
   {% include head.html %}
 
@@ -37,14 +46,15 @@
     <script type="text/javascript">
    document.getElementById("theme-switch").checked = localStorage.getItem("my-theme")==="dark"      
  </script>
-
+        
 <!-- {% if site.search %}
    <div class="custom-control custom-switch">     
  <input type="checkbox" class="form-check-input" id="theme-switch" name="theme-switch" onclick="changeTheme()">
 <label class="switch" style="float: right; margin-top: 0px;" for="theme-switch">Dark Mode.</label>
     <script type="text/javascript">
    document.getElementById("theme-switch").checked = localStorage.getItem("my-theme")==="dark"
- </script> -->
+ </script>
+  {% endif %} -->
         
       <button class="toggle navicon-button larr" type="button">
         <span class="toggle-inner">
@@ -75,7 +85,8 @@
     </div>
 
     {% include footer.html %}
-    {% include scripts.html %}  
-    
-</html>
+    {% include scripts.html %}
+
+  </body>
+
 </html>
