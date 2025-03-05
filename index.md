@@ -1,9 +1,9 @@
 ---
 layout: home
+title:
 image: /assets/images/kennel-linux.png
 width: 100px;
 height: 40px;
-title:
 actions:
   - label: "Get Started"
     icon: github
