@@ -1,5 +1,5 @@
 # Theme Skin
- skin: plum # default, night, plum, sea, soft, steel, / air, aqua, plums, dark, neon, sunrise, mint, contrast, macchiato
+skin: plum # default, night, plum, sea, soft, steel, / air, aqua, plums, dark, neon, sunrise, mint, contrast, macchiato
 
 # Theme Text
 t:
@@ -12,7 +12,7 @@ t:
   site_search: "Site Search"
   results_found: "Result(s) found"
   search_placeholder_text: "Enter your search term..."
-  home: "ℍ𝕠𝕞𝕖"
+  home: "🏠 ℍ𝕠𝕞𝕖"
   newer: "Newer"
   older: "Older"
   email: "Email"
@@ -53,7 +53,7 @@ t:
 # Roboto Fonts
 roboto_fonts:
   - name: "Roboto"
-    weights: "200,200i,400,400i,600,600i"
+    weights: "400,400i,600,600i"
 
 # Link to specific internal pages in the navigation.
 # Create a custom list to override the default setting of including links to all
@@ -61,8 +61,8 @@ roboto_fonts:
 
 navigation_pages:
   - about.md
-  - resume.md
-  - plugins.md
+  - cv.md
+  - recipes.md
   - puppy.md
   - posts.md
   - calendar.md

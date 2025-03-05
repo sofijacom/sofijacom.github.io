@@ -9,50 +9,50 @@ multilingual: true
 
 > ### KLA 64 bit. Arch-based distributions
 
-#### KLA-OT2baseCE
+#### _KLA-OT2baseCE_
 - URL: <https://github.com/sofijacom/KLA-OT2baseCE/releases/tag/v3.1>
 
 
-#### KLA-HyprlandCE
+#### _KLA-HyprlandCE_
 - URL: <https://github.com/sofijacom/KLA-HyprlandCE/releases/tag/KLA-HyprlandCE-1.5>
 
 
-#### KLA-Manjaro-Openbox
+#### _KLA-Manjaro-Openbox_
 - URL: <https://github.com/sofijacom/KLA-Manjaro-Openbox/releases/tag/KLA-Manjaro-Openbox-1.1>
 
-#### KLA-plasma-KDE-CE
+#### _KLA-plasma-KDE-CE_
 - URL: <https://github.com/sofijacom/KLA-plasma-KDE-CE/releases/tag/KLA-plasma-KDE-CE-1.4>
 
 
 > ### KLV 64 bit. Void Linux based distributions
 
-#### KLV-Spectrwm-CE
+#### _KLV-Spectrwm-CE_
 - URL: <https://github.com/sofijacom/KLV-Spectrwm-CE/releases/tag/KLV-Spectrwm-CE-2.0>
 
 
-#### KLV-BspwmCE
+#### _KLV-BspwmCE_
 - URL: <https://github.com/sofijacom/KLV-BspwmCE/releases/tag/KLV-BspwmCE-1.5>
 
 
-#### KLV-AwesomeCE
+#### _KLV-AwesomeCE_
 - URL: <https://github.com/sofijacom/KLV-AwesomeCE/releases/tag/KLV-AwesomeCE-1.3>
 
 
-#### KLV-HyprlandCE
+#### _KLV-HyprlandCE_
 - URL: <https://github.com/sofijacom/KLV-HyprlandCE/releases/tag/v5.8>
 
 
-#### KLV-Hyprland-Sway-CE
+#### _KLV-Hyprland-Sway-CE_
 - URL: <https://github.com/sofijacom/KLV-Hyprland-Sway-CE/releases/tag/Hyprland-Sway-CE-5.3_1>
 
 
-#### KLV-plasma-KDE-CE
+#### _KLV-plasma-KDE-CE_
 - URL: <https://github.com/sofijacom/KLV-plasma-KDE-CE/releases/tag/KLV-plasma-KDE-CE-1.3>
 
 
 > ### KLF-Rawhide. Distributions based on Fedora linux
 
-#### KLF-Rawhide-CE
+#### _KLF-Rawhide-CE_
 - URL: <https://github.com/sofijacom/KLF-Rawhide-CE/releases/tag/KLF-Rawhide-CE-1.2>
 
 
