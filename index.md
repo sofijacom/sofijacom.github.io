@@ -1,6 +1,6 @@
 ---
 layout: home
-title: ⋘K҇e҇n҇n҇e҇l҇ ҇L҇i҇n҇u҇x҇⋙
+title: 🌈𝕂𝕖𝕟𝕟𝕖𝕝 𝕃𝕚𝕟𝕦𝕩
 actions:
   - label: "Get Started"
     icon: github
