@@ -13,8 +13,6 @@
  <!-- <link rel="stylesheet" href="/assets/css/dark-mode.css"> -->
      <link rel="stylesheet" href="/assets/css/checkbox.css">
    <!-- Toggle Button -->
-
-<!-- <nav> -->
      
   <body>
     <header></header>
@@ -46,16 +44,7 @@
     <script type="text/javascript">
    document.getElementById("theme-switch").checked = localStorage.getItem("my-theme")==="dark"      
  </script>
-        
-<!-- {% if site.search %}
-   <div class="custom-control custom-switch">     
- <input type="checkbox" class="form-check-input" id="theme-switch" name="theme-switch" onclick="changeTheme()">
-<label class="switch" style="float: right; margin-top: 0px;" for="theme-switch">Dark Mode.</label>
-    <script type="text/javascript">
-   document.getElementById("theme-switch").checked = localStorage.getItem("my-theme")==="dark"
- </script>
-  {% endif %} -->
-        
+              
       <button class="toggle navicon-button larr" type="button">
         <span class="toggle-inner">
           <span class="sidebar-toggle-label visually-hidden">{{ site.data.theme.t.menu | default: 'Menu' }}</span>
