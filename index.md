@@ -1,6 +1,6 @@
 ---
 layout: home
-title: 🌈K̳e̳n̳n̳e̳l̳ ̳L̳i̳n̳u̳x̳
+title: ⋘K҇e҇n҇n҇e҇l҇ ҇L҇i҇n҇u҇x҇⋙
 actions:
   - label: "Get Started"
     icon: github
