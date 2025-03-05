@@ -9,8 +9,6 @@ multilingual: true
 <img src="https://github.com/user-attachments/assets/7e1e2fa0-ab50-4901-a024-fe731fb44ab3" width="200"/>
 
 
-### URL: links
-
 > ### KLA 64 bit. Arch-based distributions
 
 #### KLA-OT2baseCE
