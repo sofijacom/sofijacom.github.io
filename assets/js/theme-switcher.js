@@ -3,7 +3,7 @@
    if (theme_switch.checked) {
      DarkReader.enable();
      // Add the ff. line to write to memory.
-     localStorage.setItem("my-theme","dark");
+     localStorage.setItem("my-theme","macchiato");
    }
    else {
      DarkReader.disable();
@@ -13,7 +13,7 @@
  }
 
  // Check local storage every reload to know which theme to use.
- if (localStorage.getItem("my-theme")==="dark") {
+ if (localStorage.getItem("my-theme")==="macchiato") {
    // Use dark theme.
    DarkReader.enable();
  }
