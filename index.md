@@ -1,6 +1,6 @@
 ---
 layout: home
-title: 𝒦ℯ𝓃𝓃ℯ𝓁 ℒ𝒾𝓃𝓊𝓍 🌈™
+title: 🌈K̳e̳n̳n̳e̳l̳ ̳L̳i̳n̳u̳x̳
 actions:
   - label: "Get Started"
     icon: github
