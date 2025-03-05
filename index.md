@@ -1,6 +1,6 @@
 ---
 layout: home
-title: 🌈𝕂𝕖𝕟𝕟𝕖𝕝 𝕃𝕚𝕟𝕦𝕩
+title: "/assets/images/kennel-linux.png"
 actions:
   - label: "Get Started"
     icon: github
