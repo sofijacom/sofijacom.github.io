@@ -22,6 +22,9 @@ actions:
 
 <hr>
 
+<a id="installation"></a>  
+<img src="https://github.com/user-attachments/assets/7e1e2fa0-ab50-4901-a024-fe731fb44ab3" width="200"/>
+
 
 - [Main forum](https://forum.puppylinux.com/viewforum.php?f=228)
 - [Another KL forum](https://kennel-linux.rockedge.org/)
@@ -34,7 +37,7 @@ actions:
 > ### Assemblies from Sofiya
 
 
-####  _KLA 64 bit._
+#### KLA 64 bit.
 
 
 - [KLA-OT2baseCE](https://github.com/sofijacom/KLA-OT2baseCE)
@@ -43,7 +46,7 @@ actions:
 - [KLA-plasma-KDE-CE](https://github.com/sofijacom/KLA-plasma-KDE-CE)
 
 
-####  _KLV 64 bit._
+#### KLV 64 bit.
 
 
 - [KLV-Spectrwm-CE](https://github.com/sofijacom/KLV-Spectrwm-CE)
@@ -54,7 +57,7 @@ actions:
 - [KLV-plasma-KDE-CE](https://github.com/sofijacom/KLV-plasma-KDE-CE)
 
 
-####  _KLF-Rawhide-CE_
+#### KLF-Rawhide-CE.
 
 
 - [KLF-Rawhide-CE](https://github.com/sofijacom/KLF-Rawhide-CE)

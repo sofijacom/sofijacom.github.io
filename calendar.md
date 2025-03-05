@@ -5,6 +5,12 @@ title: 📆 ℂ𝕒𝕝𝕖𝕟𝕕𝕒𝕣
 calendar_caption: 💜 I know for sure that there are many happy days on this calendar! 💜   # optional
 calendar_css: <link rel="stylesheet" href="!PATH_TO_COMPONENTS!/bootstrap-calendar/css/calendar.css">
 
+categories:
+  - Layout
+tags:
+  - content
+  - image
+  - layout
 ---
 
 
@@ -26,5 +32,17 @@ calendar_css: <link rel="stylesheet" href="!PATH_TO_COMPONENTS!/bootstrap-calend
 ✨ _https://git.io/typing-svg ..._
 
 <p align="center">
-  🦋 🦋 🦋 🦋 🦋 🦋 🦋 🦋 🦋 
+ <img
+ src="https://raw.githubusercontent.com/sofijacom/sofijacom.github.io/4d63c7033e8df29685f8d4157a27b3f30ef96a89/assets/web/Sparkles.webp"
+   alt="Sparkles"
+   width="38"
+   height="38"
+/>	
+🦋 🦋 🦋 🦋 🦋 🦋 🦋 🦋 🦋  
+<img
+ src="https://raw.githubusercontent.com/sofijacom/sofijacom.github.io/4d63c7033e8df29685f8d4157a27b3f30ef96a89/assets/web/Sparkles.webp"
+  alt="Sparkles"
+  width="38"
+  height="38"
+/>
 </p>
