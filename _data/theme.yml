@@ -61,7 +61,7 @@ roboto_fonts:
 
 navigation_pages:
   - about.md
-  - cv.md
+  - resume.md
   - plugins.md
   - puppy.md
   - posts.md
