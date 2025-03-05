@@ -2,8 +2,8 @@
  m acchiato* theme skin
  ========================================================================== */
 
-/* Colors */
-.data-theme-dark {
+/* Colors [data-theme="dark"] { */
+data-theme="dark" {
 $base-color: #24273a !default;
 $text-color: #c6a0f6 !default;
 $accent-color: #8839ef !default;
