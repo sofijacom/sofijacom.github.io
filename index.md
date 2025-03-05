@@ -22,10 +22,6 @@ actions:
 
 <hr>
 
-<a id="installation"></a>  
-<img src="https://github.com/user-attachments/assets/7e1e2fa0-ab50-4901-a024-fe731fb44ab3" width="200"/>
-
-
 - [Main forum](https://forum.puppylinux.com/viewforum.php?f=228)
 - [Another KL forum](https://kennel-linux.rockedge.org/)
 - [Kennel Linux distros](https://forum.puppylinux.com/viewforum.php?f=231)
@@ -34,8 +30,11 @@ actions:
 - [Website GitHub repo](https://github.com/sofijacom/sofijacom.github.io)
 
 
+
 > ### Assemblies from Sofiya
 
+<a id="installation"></a>  
+<img src="https://github.com/user-attachments/assets/7e1e2fa0-ab50-4901-a024-fe731fb44ab3" width="200"/>
 
 #### KLA 64 bit.
 
