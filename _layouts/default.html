@@ -25,14 +25,6 @@
   {% include head.html %}
 
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %} {{ page.title | slugify }}">
-       
-              <div class="form-check form-switch toggle-inner">     
- <input type="checkbox" class="form-check-input" id="theme-switch" name="theme-switch" onclick="changeTheme()">
-<label class="switch" for="theme-switch">🌗</label>
-     </div>
-    <script type="text/javascript">
-   document.getElementById("theme-switch").checked = localStorage.getItem("my-theme")==="dark"      
- </script>
     
     {% include skip-links.html %}
       <div class="sidebar-toggle-wrapper">  
@@ -44,7 +36,15 @@
           </svg>
         </button>     
       {% endif %}
-                      
+        
+                <div class="form-check form-switch toggle-inner">     
+ <input type="checkbox" class="form-check-input" id="theme-switch" name="theme-switch" onclick="changeTheme()">
+<label class="switch" for="theme-switch" viewBox="0 0 15.99 16">🌗</label>
+     </div>
+    <script type="text/javascript">
+   document.getElementById("theme-switch").checked = localStorage.getItem("my-theme")==="dark"      
+ </script> 
+        
       <button class="toggle navicon-button larr" type="button">
         <span class="toggle-inner">
           <span class="sidebar-toggle-label visually-hidden">{{ site.data.theme.t.menu | default: 'Menu' }}</span>
