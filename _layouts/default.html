@@ -27,6 +27,14 @@
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %} {{ page.title | slugify }}">
        
       {% include skip-links.html %}
+              <div class="form-check form-switch toggle-inner">     
+ <input type="checkbox" class="form-check-input" id="theme-switch" name="theme-switch" onclick="changeTheme()">
+<label class="switch" for="theme-switch">🌗</label>
+     </div>
+    <script type="text/javascript">
+   document.getElementById("theme-switch").checked = localStorage.getItem("my-theme")==="dark"      
+ </script>
+    
       <div class="sidebar-toggle-wrapper">  
       {% if site.search %}
         <button class="search-toggle" type="button">
@@ -36,15 +44,7 @@
           </svg>
         </button>     
       {% endif %}
-        
-          <div class="form-check form-switch toggle-inner">     
- <input type="checkbox" class="form-check-input" id="theme-switch" name="theme-switch" onclick="changeTheme()">
-<label class="switch" 🌗 for="theme-switch"> 🌗 </label>
-     </div>
-    <script type="text/javascript">
-   document.getElementById("theme-switch").checked = localStorage.getItem("my-theme")==="dark"      
- </script>
-              
+                      
       <button class="toggle navicon-button larr" type="button">
         <span class="toggle-inner">
           <span class="sidebar-toggle-label visually-hidden">{{ site.data.theme.t.menu | default: 'Menu' }}</span>
