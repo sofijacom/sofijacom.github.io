@@ -53,10 +53,6 @@
   appearance: none;
   -webkit-print-color-adjust: exact;
   color-adjust: exact;
- em {
-   margin-left: 5px;
-   font-size: 1rem;
-  }
 }
 .form-check-input[type=checkbox] {
   border-radius: 0.25em;
@@ -124,3 +120,7 @@
   display: inline-block;
   margin-right: 1em;
 }
+ em {
+   margin-left: 5px;
+   font-size: 1rem;
+  }
