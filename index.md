@@ -1,6 +1,5 @@
 ---
 layout: home
-image:
 actions:
   - label: "Get Started"
     icon: github
