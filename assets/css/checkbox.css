@@ -134,8 +134,8 @@
    /*Drawing the half moon by manipulating the div box*/ 
    div{ 
      position: absolute; 
-     top: 50%; 
-     left: 50%; 
+     top: 20%; 
+     left: 20%; 
      transform: translate(-50%, -50%); 
      height: 100px; 
      width: 100px; 
