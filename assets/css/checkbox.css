@@ -119,5 +119,5 @@
 .form-check-inline {
   display: inline-block;
   margin-right: 1em;
-  content: "Dark Mode";
+  font-size: 1rem;
 }
