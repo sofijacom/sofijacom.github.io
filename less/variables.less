@@ -1,0 +1,144 @@
+// Variables
+
+@brand-primary: #dc8a78;
+@brand-gray: #9ca0b0;
+
+@white-faded: fade(#eff1f5, 80%);
+
+@latte-text: #4c4f69;
+@latte-subtext0: #6c6f85;
+@latte-surface0: #ccd0da;
+@latte-surface1: #bcc0cc;
+@latte-overlay2: #7c7f93;
+@latte-overlay1: #8c8fa1;
+@latte-overlay0: #9ca0b0;
+@latte-base: #eff1f5;
+@latte-mantle: #e6e9ef;
+@latte-crust: #dce0e8;
+@latte-crust-darken: darken(@latte-crust, 10%);
+@latte-rosewater: #dc8a78;
+@latte-rosewater-background: lighten(@latte-rosewater, 25%);
+@latte-maroon: #e64553;
+@latte-maroon-background: lighten(@latte-maroon, 30%);
+@latte-lavender: #7287fd;
+@latte-mauve: #8839ef;
+@latte-blue: #1e66f5;
+@frappe-flamingo: #eebebe;
+
+@mocha-base: #1e1e2e;
+@mocha-mantle: #181825;
+@mocha-crust: #11111b;
+@mocha-crust-darken: darken(@mocha-crust, 10%);
+@mocha-text: #cdd6f4;
+@mocha-lavender: #b4befe;
+@mocha-mauve: #cba6f7;
+@mocha-mauve-background: darken(@mocha-mauve, 65%);
+@mocha-blue: #89b4fa;
+@mocha-blue-background: darken(@mocha-blue, 65%);
+@mocha-maroon: #eba0ac;
+@mocha-peach: #fab387;
+@mocha-red: #f38ba8;
+@mocha-green: #a6e3a1;
+@mocha-subtext1: #bac2de;
+@mocha-subtext0: #a6adc8;
+@mocha-overlay2: #9399b2;
+@mocha-overlay1: #7f849c;
+@mocha-overlay0: #6c7086;
+@mocha-surface2: #585b70;
+@mocha-surface1: #45475a;
+@mocha-surface0: #313244;
+
+@font-heading: "Jost", sans-serif;
+@font-serif: "IBM Plex Serif", serif;
+@font-sans: "Inter", sans-serif;
+@font-monospace: "IBM Plex Mono", monospace;
+
+html, html[data-theme="light"] {
+    --main-background-color: @latte-base;
+    --main-darken-background-color: @latte-crust-darken;
+    --crust-background-color: @latte-crust;
+    --mantle-background-color: @latte-mantle;
+    --main-text-color: @latte-text;
+    --subtext0-color: @latte-subtext0;
+    --surface0-color: @latte-surface0;
+    --overlay1-color: @latte-overlay1;
+    --overlay0-color: @latte-overlay0;
+    --accent-color: @latte-rosewater;
+    --accent-color-background: @latte-rosewater-background;
+    --accent-color-deep: @latte-maroon;
+    --accent-color-deep-background: @latte-maroon-background;
+    --hr-color: @latte-surface1;
+    --link-color: @latte-blue;
+    --code-color: #c7254e;
+    --code-background-color: #f5dfe5;
+    --content-active-color: @latte-mauve;
+    --content-background-color: @latte-mantle;
+}
+
+html[data-theme="dark"] {
+    --main-background-color: @mocha-mantle;
+    --main-darken-background-color: @mocha-crust-darken;
+    --crust-background-color: @mocha-crust;
+    --mantle-background-color: @mocha-mantle;
+    --main-text-color: @mocha-text; 
+    --subtext0-color: @mocha-subtext0;
+    --surface0-color: @mocha-surface0;
+    --overlay1-color: @mocha-overlay1;
+    --overlay0-color: @mocha-overlay0;
+    --accent-color: @mocha-mauve;
+    --accent-color-background: @mocha-mauve-background;
+    --accent-color-deep: @mocha-blue;
+    --accent-color-deep-background: @mocha-blue-background;
+    --hr-color: @mocha-surface1;
+    --link-color: @latte-lavender;
+    --code-color: rgb(229, 80, 116);
+    --code-background-color: rgb(45, 22, 27);;
+    --content-active-color: @mocha-peach;
+    --content-background-color: @mocha-crust;
+}
+
+@media (prefers-color-scheme: dark) {
+    html, html[data-theme="dark"] {
+        --main-background-color: @mocha-mantle;
+        --main-darken-background-color: @mocha-crust-darken;
+        --crust-background-color: @mocha-crust;
+        --mantle-background-color: @mocha-mantle;
+        --main-text-color: @mocha-text; 
+        --subtext0-color: @mocha-subtext0;
+        --surface0-color: @mocha-surface0;
+        --overlay1-color: @mocha-overlay1;
+        --overlay0-color: @mocha-overlay0;
+        --accent-color: @mocha-mauve;
+        --accent-color-background: @mocha-mauve-background;
+        --accent-color-deep: @mocha-blue;
+        --accent-color-deep-background: @mocha-blue-background;
+        --hr-color: @mocha-surface1;
+        --link-color: @latte-lavender;
+        --code-color: rgb(229, 80, 116);
+        --code-background-color: rgb(45, 22, 27);;
+        --content-active-color: @mocha-peach;
+        --content-background-color: @mocha-crust;
+    }
+
+    html[data-theme="light"] {
+        --main-background-color: @latte-base;
+        --main-darken-background-color: @latte-crust-darken;
+        --crust-background-color: @latte-crust;
+        --mantle-background-color: @latte-mantle;
+        --main-text-color: @latte-text;
+        --subtext0-color: @latte-subtext0;
+        --surface0-color: @latte-surface0;
+        --overlay1-color: @latte-overlay1;
+        --overlay0-color: @latte-overlay0;
+        --accent-color: @latte-rosewater;
+        --accent-color-background: @latte-rosewater-background;
+        --accent-color-deep: @latte-maroon;
+        --accent-color-deep-background: @latte-maroon-background;
+        --hr-color: @latte-surface1;
+        --link-color: @latte-blue;
+        --code-color: #c7254e;
+        --code-background-color: #f5dfe5;
+        --content-active-color: @latte-mauve;
+        --content-background-color: @latte-mantle;
+  } 
+}

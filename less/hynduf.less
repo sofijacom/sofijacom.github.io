@@ -1,0 +1,188 @@
+.animated-text {
+    position: relative;
+    white-space: nowrap;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+.animated-text i {
+    font-style: italic;
+    font-size: 19px;
+    color: var(--main-text-color);
+    margin: 5px;
+    padding: 0;
+    opacity: 0;
+    animation: slide-in 3s ease-out forwards;
+}
+
+.animated-text img {
+    max-width: 300px;
+    @media only screen and (min-width: 768px) {
+        max-width: 700px;
+    }
+    height: auto;
+}
+
+.header-line {
+    text-align: center;
+    font-size: 20px;
+    @media only screen and (min-width: 768px) {
+        font-size: 30px;
+    }
+}
+
+.animated-text p {
+    font-size: 18px;
+    color: var(--main-text-color);
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    animation: slide-in 2s ease-out forwards;
+}
+@keyframes slide-in {
+    from {
+        transform: translateX(-5%); 
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.post-date span {
+    margin: 0px 5px 5px 5px;
+}
+
+.post-date {
+    font-family: @font-monospace;
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.intro-header .post-heading .tags {
+    margin-top: 20px;
+    font-family: @font-monospace;
+    font-size: 16px;
+      a,
+      .tag {
+        font-family: @font-monospace;
+        border: 0;
+        border-radius: 0;
+        padding: 3px 10px 3px 10px;
+        color: var(--accent-color);
+        background-color: var(--accent-color-background);
+        margin: 0;
+        font-size: 16px;
+        font-weight: 700;
+        &:hover,
+        &:active {
+            color: var(--accent-color-deep);
+            background-color: var(--accent-color-deep-background);
+        }
+      }
+}
+
+.post-preview .tags {
+  margin-top: 10px;
+  a,
+  .tag {
+    font-family: @font-monospace;
+    border: 0;
+    border-radius: 0;
+    padding: 3px 10px 3px 10px;
+    color: var(--accent-color);
+    background-color: var(--accent-color-background);
+    margin: 0 2px;
+    font-size: 16px;
+    font-weight: 700;
+    &:hover,
+    &:active {
+        color: var(--accent-color-deep);
+        background-color: var(--accent-color-deep-background);
+    }
+  }
+}
+
+.fa-circle {
+    color: var(--subtext0-color);
+}
+
+.sidebar-container h5 {
+    padding-bottom: 0;
+    font-size: 20px;
+    font-family: @font-monospace;
+}
+
+.sidebar-container p {
+    font-size: 15px;
+    font-family: @font-heading;
+}
+
+.sidebar-container .tags a {
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: @font-monospace;
+}
+
+.post-container {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.925;
+    font-family: @font-sans;
+}
+
+.navbar-custom.invert .nav li a {
+    font-size: 18px;
+    font-weight: 900;
+    font-family: @font-monospace;
+}
+
+.navbar-brand {
+    font-size: 22px;
+    font-weight: 900;
+    font-family: @font-monospace;
+}
+
+.sidebar-container ul li a {
+    font-size: 15px;
+    font-weight: 500;
+    font-family: @font-monospace;
+}
+
+a, a:focus {outline : none;}
+.post-container .pager li > a {
+    background-color: var(--main-background-color);
+}
+
+.bottom {
+    padding-left: 15px;
+}
+
+.copyright {
+    color: var(--subtext0-color);
+    margin-top: 25px;
+}
+.side-catalog .catalog-body .active a {
+    color: @latte-lavender;
+}
+
+code {
+  padding: 2px 4px;
+  font-size: 90%;
+  color: var(--code-color);
+  background-color: var(--code-background-color);
+  border-radius: 4px;
+}
+
+.post-content-preview {
+    margin-left: 3px;
+}
+
+.pager li > a {
+    border: 1px solid var(--overlay0-color);
+}
