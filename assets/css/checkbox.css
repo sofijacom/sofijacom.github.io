@@ -54,7 +54,8 @@
   -webkit-print-color-adjust: exact;
   color-adjust: exact;
  em {
-    font-size: 1rem;
+   margin-left: 5px;
+   font-size: 1rem;
   }
 }
 .form-check-input[type=checkbox] {
