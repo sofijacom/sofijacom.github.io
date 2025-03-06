@@ -125,20 +125,4 @@
    font-size: 1rem;
    font-style: normal;
   }
-  *{ 
-     margin: 0; 
-     padding: 0; 
-     background-color: black; 
-      
-   } 
-   /*Drawing the half moon by manipulating the div box*/ 
-   div{ 
-     position: absolute; 
-     top: 20%; 
-     left: 20%; 
-     transform: translate(-50%, -50%); 
-     height: 100px; 
-     width: 100px; 
-     box-shadow: -15px 15px 0 5px white  ; 
-     border-radius: 50%; 
-   }
+
