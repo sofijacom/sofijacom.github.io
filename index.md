@@ -19,7 +19,7 @@ actions:
   <img src="https://github.com/sofijacom/sofijacom/assets/107557749/c4abfbc2-02d4-4a79-a75f-24e948bf83ee" /> 
 </p>
 
----
+
 
 - [Main forum](https://forum.puppylinux.com/viewforum.php?f=228)
 - [Another KL forum](https://kennel-linux.rockedge.org/)
@@ -28,7 +28,7 @@ actions:
 - [FirstRib GitLab repo](https://gitlab.com/firstrib/firstrib)
 - [Website GitHub repo](https://github.com/sofijacom/sofijacom.github.io)
 
----
+
 
 > ### Assemblies from Sofiya
 
