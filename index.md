@@ -1,6 +1,5 @@
 ---
 layout: home
-title: _Kennel Linux_
 actions:
   - label: "Get Started"
     icon: github
