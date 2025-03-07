@@ -1,6 +1,6 @@
 ---
 layout: home
-title: _𝒦ℯ𝓃𝓃ℯ𝓁 ℒ𝒾𝓃𝓊𝓍_
+title: 𝒦ℯ𝓃𝓃ℯ𝓁 ℒ𝒾𝓃𝓊𝓍
 macchiato_css: <link rel="stylesheet" href="!PATH_TO_CSS!/css/macchiato.css">
 actions:
   - label: "Get Started"
@@ -21,7 +21,6 @@ actions:
   <img src="https://github.com/sofijacom/sofijacom/assets/107557749/c4abfbc2-02d4-4a79-a75f-24e948bf83ee" /> 
 </p>
 
-
 <hr>
 
 - [Main forum](https://forum.puppylinux.com/viewforum.php?f=228)
@@ -30,8 +29,6 @@ actions:
 - [Kennel Linux development](https://forum.puppylinux.com/viewforum.php?f=194)
 - [FirstRib GitLab repo](https://gitlab.com/firstrib/firstrib)
 - [Website GitHub repo](https://github.com/sofijacom/sofijacom.github.io)
-
-<hr>
 
 
 > ### Assemblies from Sofiya
