@@ -41,11 +41,16 @@ algolia:
   powered_by: # true (default), false
 # Build settings
 markdown: kramdown
+kramdown:
+  input: GFM # use Github Flavored Markdown !important
+  syntax_highlighter_opts:
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
 
 remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
-
-kramdown:
-  input: GFM
 
 jekyll_admin:
   hidden_links:
