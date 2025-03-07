@@ -89,10 +89,6 @@ layout: default
    
 {% include page-intro.html %}
 
-<main id="main" class="page-content" aria-label="Content">
-  <div class="index inner">
-    <div>{{ content }}</div>
-
 <hr class="hr-washed">
  
 <style>
@@ -104,6 +100,10 @@ layout: default
 	box-shadow: 0 0 10px 1px black;
 }
 </style>
+
+<main id="main" class="page-content" aria-label="Content">
+  <div class="index inner">
+    <div>{{ content }}</div>
 	  
     {% if site.posts.size > 0 %}
       <div>
