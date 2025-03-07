@@ -12,7 +12,7 @@ if (currentTheme) {
 function switchTheme(e) {
     if (e.target.checked) {
         document.documentElement.setAttribute('data-bs-theme', 'dark');
-        localStorage.setItem('color-scheme', 'dark');
+        localStorage.setItem('scheme', 'dark');
     }
     else {        document.documentElement.setAttribute('data-bs-theme', 'light');
         localStorage.setItem('theme', 'light');
