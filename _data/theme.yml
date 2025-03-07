@@ -55,7 +55,7 @@ t:
 #  - name: "Roboto"
 #    weights: "200,200i,400,400i,600,600i"
 
-roboto_fonts:
+awesome_fonts:
   - name: "Awesome"
     weights: "200,200i,400,400i,600,600i"    
 
