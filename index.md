@@ -3,7 +3,7 @@ layout: home
 title: 𝒦ℯ𝓃𝓃ℯ𝓁 ℒ𝒾𝓃𝓊𝓍
 macchiato_css: <link rel="stylesheet" href="!PATH_TO_CSS!/css/macchiato.css">
 actions:
-  - label: "Toggle theme (auto)"
+  - label: "Get Started"
     icon: github
     url: "https://github.com/sofijacom/sofijacom.github.io"
   - label: "Download"
