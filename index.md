@@ -1,6 +1,6 @@
 ---
 layout: home
-title: 𝒦ℯ𝓃𝓃ℯ𝓁 ℒ𝒾𝓃𝓊𝓍
+title: 𝕂𝕖𝕟𝕟𝕖𝕝 𝕃𝕚𝕟𝕦𝕩
 macchiato_css: <link rel="stylesheet" href="!PATH_TO_CSS!/css/macchiato.css">
 actions:
   - label: "Get Started"
