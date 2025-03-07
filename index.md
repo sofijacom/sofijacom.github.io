@@ -1,7 +1,6 @@
 ---
 layout: home
 title: ""
-macchiato_css: <link rel="stylesheet" href="!PATH_TO_CSS!/css/macchiato.css">
 actions:
   - label: "Get Started"
     icon: github
