@@ -30,6 +30,9 @@ tags:
 😄 _Pronouns: ..._
 ⚡ _Fun fact: ..._
 ✨ _https://git.io/typing-svg ..._
+:smile:
+:laughing:
+:blush:
 
 <p align="center">
  <img
