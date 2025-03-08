@@ -1,4 +1,4 @@
-   ---
+---
 layout: default
 ---
 
@@ -6,21 +6,15 @@ layout: default
 <html lang="en">
   <head>
    <title>Kennel Linux Home Page</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Custom Bootstrap</title>
-    <!-- color -->
-   <!-- <link href="/components/bootstrap/css/bootstrap.css" rel="stylesheet"> -->
-  <!-- <script type="text/javascript" src="/components/bootstrap/js/bootstrap.js"></script> -->
-  </head>
+    </head>
   
 <style>
-     .center {
-     position: relative; 
-     top: 10px;
-     left: 70px;
-    }
-</style>
+ .center {
+  position: relative; 
+  top: 10px;
+  left: 70px;
+}
+ </style>
    
 <script> 
         function getRandom(number) {
@@ -78,8 +72,10 @@ layout: default
 <script>
         clock33();
 </script>
-
-	
+  
+<!-- images -->
+<!-- <img src="/assets/images/kennel-linux.png" center=true width="400" height="100"> -->
+  
   <body>
     <header></header>
     <main></main>
@@ -89,64 +85,26 @@ layout: default
    
 {% include page-intro.html %}
 
-<!-- <h3 align="center"
-  <div class="animated-text">
-    <div>
-      <i>" Welcome "</i> 
-        <p> 👋 </p> 	       
-          <div class="header-line"> 
-             <strong> ━━━━━━  ❖  ━━━━━━ </strong>
-        </div> 
-    </div>	
-</h3> -->
-
-<h3 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Roboto+Slab&color=7D3ACC&size=32&center=true&vCenter=true&width=1600&height=70&duration=4000&lines=Hello+There!+I'm+Sofiya+" alt="cat-footer" />
-</h3>
-
-<p align="center">
-  <img src="/assets/images/welcome-2025-08.gif" alt="cat-footer" /> 
-</p>
-
-<h5 align="center">
-        <div class="header-line">
-          <strong> ━━━━━━  ❖  ━━━━━━ </strong> 
-        </div>
-</h5>
-
 <main id="main" class="page-content" aria-label="Content">
   <div class="index inner">
     <div>{{ content }}</div>
-	      
+    
     {% if site.posts.size > 0 %}
       <div>
         <header class="section-title">
           <h2>{{ site.data.theme.t.posts | default: 'Posts' }}{% if paginator.page > 1 %}{{ site.data.theme.t.page | default: 'Page' | prepend: ' - ' | append: ' ' }}{{ paginator.page }} {{ site.data.theme.t.of | default: 'of' }} {{ paginator.total_pages }}{% endif %}</h2>
-           </header>
-            <div class="entries-{{ page.entries_layout | default: 'list' }}">
-             {% if site.plugins contains 'jekyll-paginate' and page.paginate or site.gems contains 'jekyll-paginate' and page.paginate %}
-               {% comment %}
+        </header>
+        <div class="entries-{{ page.entries_layout | default: 'list' }}">
+          {% if site.plugins contains 'jekyll-paginate' and page.paginate or site.gems contains 'jekyll-paginate' and page.paginate %}
+            {% comment %}
               Add paginator.posts loop if jekyll-paginate plugin is enabled
               and page.paginate == true
             {% endcomment %}
             {% include posts-paginated.html %}
-           {% else %}
+          {% else %}
             {% include posts-all.html %}
           {% endif %}
         </div>
       </div>    
     {% endif %}
-	  
-<hr class="hr-shelf">
- 
-<style>
-.hr-shelf {
-	margin: -30px auto 10px;
-	padding: 0;
-	height: 50px;
-	border: none;
-	border-bottom: 1px solid #1f1209;
-	box-shadow: 0 20px 20px -20px #333;
-	width: 95%;
-}
-</style>
+    
