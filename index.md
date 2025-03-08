@@ -15,9 +15,9 @@ actions:
 </h3>
 
 
-<p align="center">
+<!-- <p align="center">
   <img src="https://github.com/sofijacom/sofijacom/assets/107557749/c4abfbc2-02d4-4a79-a75f-24e948bf83ee" /> 
-</p>
+</p> -->
 
 
 
