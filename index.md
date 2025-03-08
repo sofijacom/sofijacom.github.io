@@ -10,9 +10,9 @@ actions:
 ---
 
 
-<h3 align="center">
+<!-- <h3 align="center">
   <img src="https://readme-typing-svg.herokuapp.com/?font=Roboto+Slab&color=7D3ACC&size=35&center=true&vCenter=true&width=1600&height=70&duration=4000&lines=Hello+There!+I'm+Sofiya+" />
-</h3>
+</h3> -->
 
 
 <!-- <p align="center">
