@@ -18,12 +18,3 @@
     }
     transition:background-color 200ms ease-in-out, color 200ms ease-in-out;
 }
-
-html
-<body class="body theme dark"> <!-- just switch dark to light class-->
-
-<p> Lorem Ipsum dolor sit amet... </p>
-
-<button onclick="document.body.classList.toggle('dark')">Change Theme</button>
-
-</body>
