@@ -247,15 +247,6 @@ textarea {
 
 /* main */
 
-main {
-	margin-top: 3rem;
-	margin-left: 20%;
-	margin-right: 20%;
-	display: grid;
-	grid-gap: 1.4rem;
-	line-height: 1.5rem;
-}
-
 .content a {
 	text-decoration: underline;
 }
@@ -280,22 +271,3 @@ main {
 .post-list a:hover:after {
 	width: 100%;
 }
-
-.post-list a:before,
-.post-list a:before {
-	content: "#";
-	color: #42b983;
-	position: absolute;
-	left: -0.8em;
-	font-weight: bold;
-}
-
-/* footer */
-
-footer {
-	font-weight: bold;
-	color: #72b6b5;
-	font-size: 0.7rem;
-	margin: 4rem 20% 4rem 20%;
-}
-
