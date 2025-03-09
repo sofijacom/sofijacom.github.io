@@ -1,17 +1,19 @@
 /* Global variables. */
 :root {
   /* Default (light) theme */
-    --my-link-color: #FFCCBB;
-    --my-text-color: #E2E8E4;
-    --my-bg-color: #303C6C;
+    --body-bg: #EEE2DC;
+    --body-color: #AC3B61;
+    --body-link-color: #AC3B61;
+    --card-bg: #EDC7B7;
 }
 
 /* Dark theme */
 @media (prefers-color-scheme: dark) {
   :root {
-        --my-link-color: #FF0000;
-        --my-text-color: #FFFFFF;
-        --my-bg-color: #000000;
+        --body-bg: #303C6C;
+        --body-color: #E2E8E4;
+        --body-link-color: #FFCCBB;
+        --card-bg: #212529;
   }
   /* Add a bit of transparency so light media isn't so glaring in dark mode */
   img,
