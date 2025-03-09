@@ -1,12 +1,5 @@
 /* Global variables. */
 :root {
-  /* Set sans-serif & mono fonts */
-  --sans-font: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir,
-    "Nimbus Sans L", Roboto, "Noto Sans", "Segoe UI", Arial, Helvetica,
-    "Helvetica Neue", sans-serif;
-  --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
-  --standard-border-radius: 5px;
-
   /* Default (light) theme */
     --my-link-color: #FFCCBB;
     --my-text-color: #E2E8E4;
