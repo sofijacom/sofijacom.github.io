@@ -250,24 +250,6 @@ textarea {
 .content a {
 	text-decoration: underline;
 }
-
-.post-list a {
-	text-decoration: none;
-	position: relative;
-	color: var(--theme-color) !important;
-	/* color: #72b6b5 !important; */
-}
-
-.post-list a:after {
-	content: "";
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	width: 0%;
-	border-bottom: 2px solid var(--theme-color);
-	transition: 0.4s;
-}
-
 .post-list a:hover:after {
 	width: 100%;
 }
