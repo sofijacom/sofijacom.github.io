@@ -10,6 +10,36 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+  /* Default (light) theme */
+  --bg: #fff;
+  --accent-bg: #f5f7ff;
+  --text: #212121;
+  --text-light: #585858;
+  --border: #d8dae1;
+  --accent: #0d47a1;
+  --accent-light: #90caf9;
+  --code: #d81b60;
+  --preformatted: #444;
+  --marked: #ffdd33;
+  --disabled: #efefef;
+}
+
+/* Dark theme */
+@media (prefers-color-scheme: dark) {
+  :root {
+   --base-color: #24273a;
+   --text-color: #c6a0f6;
+   --accent-color: #8839ef;
+   --background-color: #1e1e2e;$code-background-color: #cdd6f3;
+   --border-color: rgba($text-color, 0.5);
+    --overlay-color: #cdd6f3;     
+  }
+
+  img,
+  video {
+    opacity: 0.6;
+  }
+}
 
 html {
   color: #222;
