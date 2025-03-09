@@ -245,3 +245,15 @@ textarea {
   }
 }
 
+/* header */
+
+header {
+	margin: 2rem 20% -2rem 20%;
+	display: flex;
+	justify-content: center;
+}
+
+header * {
+	color: var(--theme-color) !important;
+	font-size: 2rem !important;
+}
