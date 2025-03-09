@@ -8,34 +8,17 @@
   --standard-border-radius: 5px;
 
   /* Default (light) theme */
-  --bg: #fff;
-  --accent-bg: #f5f7ff;
-  --text: #212121;
-  --text-light: #585858;
-  --border: #898EA4;
-  --accent: #0d47a1;
-  --accent-hover: #1266e2;
-  --accent-text: var(--bg);
-  --code: #d81b60;
-  --preformatted: #444;
-  --marked: #ffdd33;
-  --disabled: #efefef;
+    --my-link-color: #FFCCBB;
+    --my-text-color: #E2E8E4;
+    --my-bg-color: #303C6C;
 }
 
 /* Dark theme */
 @media (prefers-color-scheme: dark) {
   :root {
-    color-scheme: dark;
-    --bg: #24273a;
-    --accent-bg: #1e1e2e;
-    --text: #c6a0f6;
-    --text-light: #ababab;
-    --accent: #8839ef;
-    --accent-hover: #ffe099;
-    --accent-text: var(--bg);
-    --code: #f06292;
-    --preformatted: #ccc;
-    --disabled: #24273a;
+        --my-link-color: #FF0000;
+        --my-text-color: #FFFFFF;
+        --my-bg-color: #000000;
   }
   /* Add a bit of transparency so light media isn't so glaring in dark mode */
   img,
