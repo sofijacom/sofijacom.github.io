@@ -10,10 +10,10 @@
   /* Default (light) theme */
   --bg: #fff;
   --accent-bg: #f5f7ff;
-  --text: #c6a0f6;
+  --text: #212121;
   --text-light: #585858;
   --border: #898EA4;
-  --accent: #8839ef;
+  --accent: #0d47a1;
   --accent-hover: #1266e2;
   --accent-text: var(--bg);
   --code: #d81b60;
@@ -28,9 +28,9 @@
     color-scheme: dark;
     --bg: #24273a;
     --accent-bg: #1e1e2e;
-    --text: #212121;
+    --text: #c6a0f6;
     --text-light: #ababab;
-    --accent: #ffb300;
+    --accent: #8839ef;
     --accent-hover: #ffe099;
     --accent-text: var(--bg);
     --code: #f06292;
