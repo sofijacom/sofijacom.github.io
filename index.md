@@ -1,6 +1,5 @@
 ---
 layout: home
-author_profile : true
 title:  
 actions:
   - label: "Get Started"
