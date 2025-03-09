@@ -299,12 +299,3 @@ footer {
 	margin: 4rem 20% 4rem 20%;
 }
 
-@media screen and (max-width: 780px) {
-	nav,
-	header,
-	footer,
-	main {
-		margin-left: 10%;
-		margin-right: 10%;
-	}
-}
