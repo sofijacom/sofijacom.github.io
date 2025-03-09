@@ -245,15 +245,22 @@ textarea {
   }
 }
 
-/* header */
+/* nav */
 
-header {
-	margin: 2rem 20% -2rem 20%;
-	display: flex;
-	justify-content: center;
+nav {
+	margin-left: 20%;
+	margin-right: 20%;
+	padding-top: 3rem;
+	line-height: 2rem;
 }
 
-header * {
-	color: var(--theme-color) !important;
-	font-size: 2rem !important;
+nav a {
+	color: #72b6b5 !important;
+	padding-right: 2rem;
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+nav a:hover {
+	text-decoration: underline !important;
 }
