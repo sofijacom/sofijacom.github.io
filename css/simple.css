@@ -21,6 +21,10 @@
     opacity: 0.8;
   }
 }
+/* Reset box-sizing */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
 
 /* Reset default appearance */
 textarea,
