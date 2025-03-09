@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 # Bookmark this to keep an eye on my project updates!
-location: "Moscow, Russia"
+
 lang: en-US
 title: 𝕂𝕖𝕟𝕟𝕖𝕝 𝕃𝕚𝕟𝕦𝕩 # title: 𝕂𝕖𝕟𝕟𝕖𝕝 𝕃𝕚𝕟𝕦𝕩
 email: sofija.p2018@gmail.com
@@ -71,9 +71,6 @@ plugins: # previsously gems
   - jekyll-remote-theme
 feed:
   path: atom.xml
-
-timezone: Europe/Moscow
-locale: "ru-RU"
 
 # Pagination - https://jekyllrb.com/docs/pagination/
 paginate: 10
