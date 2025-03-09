@@ -1,19 +1,22 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,400italic,700|Sansita+One);
 
 :root {
-    --primary-color: #302AE6;
-    --secondary-color: #536390;
-    --font-color: #424242;
-    --bg-color: #fff;
-    --heading-color: #292922;
+    --base-color: #561050;
+    --text-color: #35013f;
+    --accent-color: #951556;
+    --background-color: #e9b5d2;
+    --code-background-color: #fff;
+    --border-color: rgba($text-color, 0.5);
+    --overlay-color: #fff;
 }
 
 [data-theme="dark"] {
-    --primary-color: #9A97F3;
-    --secondary-color: #818cab;
-    --font-color: #e1e1ff;
-    --bg-color: #161625;
-    --heading-color: #818cab;
+    --base-color: #24273a;
+    --text-color: #c6a0f6;
+    --accent-color: #8839ef;
+    --background-color: #1e1e2e;$code-background-color: #cdd6f3;
+    --border-color: rgba($text-color, 0.5);
+    --overlay-color: #cdd6f3;
 }
 
 body {
