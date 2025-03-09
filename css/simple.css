@@ -10,10 +10,10 @@
   /* Default (light) theme */
   --bg: #fff;
   --accent-bg: #f5f7ff;
-  --text: #212121;
+  --text: #c6a0f6;
   --text-light: #585858;
   --border: #898EA4;
-  --accent: #0d47a1;
+  --accent: #8839ef;
   --accent-hover: #1266e2;
   --accent-text: var(--bg);
   --code: #d81b60;
