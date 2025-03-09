@@ -15,11 +15,22 @@
   </head>
   
           <!-- theme switcher -->
+	<script type="text/javascript" src="/assets/js/script.js"></script>
     <script type="text/javascript" src="/assets/js/darkreader.js"></script>
         <!-- Toggle -->
     <script type="text/javascript" src="/assets/js/theme-switcher.js"></script>
      <!-- Theme Toggle -->
     <link rel="stylesheet" href="/assets/css/checkbox.css">
+
+ <label class="switch" for="theme-switch" style="float: right; margin-top: 10px;">
+     <input type="checkbox" id="theme-switch" onclick="changeTheme()">
+     <span class="slider round"></span>
+ </label>
+     <em>Enable Dark Mode!</em>
+ <script type="text/javascript">
+ document.getElementById("theme-switch").checked = localStorage.getItem("my-theme")==="dark"
+ </script>
+   
 	
   <body>
     <header></header>
