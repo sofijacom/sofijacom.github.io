@@ -14,42 +14,6 @@ ThemeData(
   textTheme: GoogleFonts.playfairDisplayTextTheme(),
 ),
 
-ThemeData(
-  textTheme: GoogleFonts.openSansTextTheme(),
-),
-
-ThemeData(
-  textTheme: GoogleFonts.notoSerifTextTheme(),
-),
-Text(
-  'This is Google Fonts',
-  style: GoogleFonts.playfairDisplay(),
-),
-
-Text(
-  'This is Google Fonts',
-  style: GoogleFonts.openSans(),
-),
-
-Text(
-  'This is Google Fonts',
-  style: GoogleFonts.notoSerif(),
-),
-
-.playfair-display-<uniquifier> {
-  font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
-.open-sans-<uniquifier> {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}
 .noto-serif-<uniquifier> {
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
@@ -58,6 +22,43 @@ Text(
   font-variation-settings:
     "wdth" 100;
 }
+
+TextStyle(
+  fontFamily: 'Playfair Display',
+  fontSize: 18,
+  fontVariations: [
+    FontVariation('ital', 0),
+    FontVariation('wght', <weight>),
+    FontVariation('ital', 1),
+    FontVariation('wght', <weight>)
+  ],
+),
+
+TextStyle(
+  fontFamily: 'Open Sans',
+  fontSize: 18,
+  fontVariations: [
+    FontVariation('ital', 0),
+    FontVariation('wdth', 100),
+    FontVariation('wght', <weight>),
+    FontVariation('ital', 1),
+    FontVariation('wdth', 100),
+    FontVariation('wght', <weight>)
+  ],
+),
+
+TextStyle(
+  fontFamily: 'Noto Serif',
+  fontSize: 18,
+  fontVariations: [
+    FontVariation('ital', 0),
+    FontVariation('wdth', 100),
+    FontVariation('wght', <weight>),
+    FontVariation('ital', 1),
+    FontVariation('wdth', 100),
+    FontVariation('wght', <weight>)
+  ],
+),
 
 html {
   color: #222;
