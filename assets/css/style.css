@@ -243,10 +243,10 @@ textarea {
   h3 {
     page-break-after: avoid;
   }
-}
-.site-title {
+ .site-title {
     display: inline-block;
     margin-right: 1rem;
     font-style: normal;
     font-size: 50%;
+}  
 }
