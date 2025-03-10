@@ -1,5 +1,5 @@
 ---
-layout: calendar  # required
+layout: page  # required calendar
 title: 📆 Calendar
 
 calendar_caption: 💜 I know for sure that there are many happy days on this calendar! 💜   # optional
