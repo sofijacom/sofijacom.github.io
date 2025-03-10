@@ -7,5 +7,5 @@ actions:
   - label: "More Info"
     url: "https://forum.puppylinux.com"   
 ---
-[![Video Title](https://img.youtube.com/vi/VIDEO_ID/0.jpg)]  
-(https://www.youtube.com/watch?v=TDGHzgKWAeU)
+
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=TDGHzgKWAeU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> [1](https://blog.markdowntools.com/posts/how-to-embed-a-video-in-markdown)
