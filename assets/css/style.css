@@ -255,3 +255,4 @@ textarea {
   }
 @mixin fs-1 {
   font-size: $font-size-6 !important;
+ }
