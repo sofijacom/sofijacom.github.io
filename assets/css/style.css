@@ -10,6 +10,31 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+ThemeData(
+  textTheme: GoogleFonts.playfairDisplayTextTheme(),
+),
+
+ThemeData(
+  textTheme: GoogleFonts.openSansTextTheme(),
+),
+
+ThemeData(
+  textTheme: GoogleFonts.notoSerifTextTheme(),
+),
+Text(
+  'This is Google Fonts',
+  style: GoogleFonts.playfairDisplay(),
+),
+
+Text(
+  'This is Google Fonts',
+  style: GoogleFonts.openSans(),
+),
+
+Text(
+  'This is Google Fonts',
+  style: GoogleFonts.notoSerif(),
+),
 
 .playfair-display-<uniquifier> {
   font-family: "Playfair Display", serif;
