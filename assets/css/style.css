@@ -245,20 +245,9 @@ textarea {
   }  
 }
 
-.info-title {
-    font-size: 24px;
-    font-style: normal;
-    margin-right: 1rem;
-      
-}
 h1 {
   font-size: 1em;
-  font-style: normal; 
+  font-style: normal;
+  font-weight: normal; 
   line-height: 1.0;
-}
-
-blockquote cite,q cite {
-    font-size: 50%;
-    font-style: normal;
-    font-weight: normal
 }
