@@ -52,10 +52,10 @@ t:
 #    weights: "200,200i,400,400i,600,600i"
 
 # Roboto Fonts
-google_fonts::
-  - name: "Roboto"
-    weights: "200,200i,400,400i,600,600i"
-  - name: "Roboto Serif"
+# google_fonts::
+#  - name: "Roboto"
+#    weights: "200,200i,400,400i,600,600i"
+#  - name: "Roboto Serif"
    
 # Link to specific internal pages in the navigation.
 # Create a custom list to override the default setting of including links to all
