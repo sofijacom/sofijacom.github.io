@@ -41,10 +41,10 @@ t:
   cv_work: "Work"
   
 # Google Fonts
-#google_fonts:
-#  - name: "Fira Sans"
-#    weights: "400,400i,600,600i"
-#  - name: "Fira Sans Condensed" 
+google_fonts:
+  - name: "Fira Sans"
+    weights: "400,400i,600,600i"
+  - name: "Fira Sans Condensed" 
    
 # Link to specific internal pages in the navigation.
 # Create a custom list to override the default setting of including links to all
