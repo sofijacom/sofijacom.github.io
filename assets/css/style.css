@@ -244,10 +244,3 @@ textarea {
     page-break-after: avoid;
   }  
 }
-
-h1 {
-  font-size: 1em;
-  font-style: normal;
-  font-weight: normal; 
-  line-height: 1.0;
-}
