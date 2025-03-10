@@ -252,17 +252,6 @@ h1 {
   font-size: 1em;
   line-height: 1.0;
 }
-@media screen and (min-width: 320px) {
-    html {
-        font-size:calc(14px + 4 * ((100vw - 320px) / 960))
-    }
-}
-
-@media screen and (min-width: 1280px) {
-    html {
-        font-size:18px
-    }
-}
 
 blockquote cite,q cite {
     font-size: 50%;
