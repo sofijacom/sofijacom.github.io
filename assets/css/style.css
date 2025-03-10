@@ -243,10 +243,15 @@ textarea {
   h3 {
     page-break-after: avoid;
   }
- .site-title {
+ .title {
     display: inline-block;
     margin-right: 1rem;
     font-style: normal;
     font-size: 50%;
 }  
 }
+@include mq(sm) {
+    font-size: $font-size-1-sm !important;
+  }
+@mixin fs-1 {
+  font-size: $font-size-6 !important;
