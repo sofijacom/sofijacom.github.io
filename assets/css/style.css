@@ -245,12 +245,6 @@ textarea {
   }  
 }
 
-html {
-    font-family: "Sans Serif",fira-sans;
-    box-sizing: border-box;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%
-}
 .info-title {
     font-size: 24px;
 }
@@ -258,10 +252,6 @@ h1 {
   font-size: 1em;
   line-height: 1.0;
 }
-html {
-    font-size: 14px
-}
-
 @media screen and (min-width: 320px) {
     html {
         font-size:calc(14px + 4 * ((100vw - 320px) / 960))
@@ -274,18 +264,8 @@ html {
     }
 }
 
-body {
-    background: #e9b5d2;
-    color: #35013f
-}
-
-blockquote,q {
-    color: #86678c;
-    font-style: italic
-}
-
 blockquote cite,q cite {
-    font-size: 80%;
+    font-size: 50%;
     font-style: normal;
     font-weight: normal
 }
