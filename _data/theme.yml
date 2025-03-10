@@ -1,5 +1,6 @@
 # Theme Skin
-skin: light # default, night, plum, sea, soft, steel, / air, aqua, plum-2, dark, neon, sunrise, mint, contrast, macchiato
+skin: plum
+# default, night, plum, sea, soft, steel, / air, aqua, plum-2, dark, neon, sunrise, mint, contrast, macchiato
 
 # Theme Text
 t:
