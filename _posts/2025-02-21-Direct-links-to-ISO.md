@@ -58,8 +58,9 @@ multilingual: true
 - URL: <https://github.com/sofijacom/KLF-Rawhide-CE/releases/tag/KLF-Rawhide-CE-1.2>
 
 
-  <p align="center">
+ <!--  
+ <p align="center">
      ━━━━━━  ❖  ━━━━━━  
   </p>
-
+-->
   
