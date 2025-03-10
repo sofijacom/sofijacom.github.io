@@ -244,7 +244,7 @@ textarea {
     page-break-after: avoid;
   }
 }
-.title {
+.site-title {
     display: inline-block;
     margin-right: 1rem;
     font-style: normal;
