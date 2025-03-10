@@ -10,7 +10,7 @@
     10vw + (2 * #{$navicon-width})
   ); /* make room for sidebar toggle */
   font-family: $base-font-family;
-  font-weight: bold;
+  font-weight: normal;
   line-height: 1;
 
   @include breakpoint($medium) {
