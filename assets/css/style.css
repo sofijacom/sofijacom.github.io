@@ -11,6 +11,20 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+.playfair-display-<uniquifier> {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.open-sans-<uniquifier> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
 .noto-serif-<uniquifier> {
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
