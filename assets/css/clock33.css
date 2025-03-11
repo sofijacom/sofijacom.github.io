@@ -1,6 +1,5 @@
 .center {
     position: relative;
-    width: 160px;
     top: 10px;
     left: 130px;
 }
@@ -18,4 +17,8 @@
    border-radius: 40px;
    background: #23273a;
    color: grey;
+}
+@media .center (width: 160px)
+    {
+/* block width size */
 }
