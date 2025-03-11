@@ -1,0 +1,20 @@
+.center {
+    position: relative;
+    width: 160px;
+    top: 10px;
+    left: 100px;
+}
+@font-face {
+    font-family: "clock-font";
+    src: url("/assets/fonts/corner_font.ttf");
+}
+#clock33 {
+   font-size: 28px;
+   font-weight: normal;
+   font-family: clock-font;
+   text-align: center;
+   border: 1px solid #875eb0;
+   border-radius: 40px;
+   background: #23273a;
+   color: grey;
+}
