@@ -1,5 +1,6 @@
 .center {
     position: relative;
+    width: 160px;
     top: 10px;
     left: 130px;
 }
@@ -18,4 +19,3 @@
    background: #23273a;
    color: grey;
 }
-@media (width: 160px;)
