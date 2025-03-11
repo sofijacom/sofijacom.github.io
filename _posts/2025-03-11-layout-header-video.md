@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Layout: Header Video"
 header:
   video:
