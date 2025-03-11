@@ -17,12 +17,12 @@ actions:
 
 ### 1.
 
-```yaml
+```html
  <iframe width="560" height="315" src="https://www.youtube.com/embed/video-id" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ```
 
 ### 2.
 
-```yaml
+```html
  <iframe src="https://giphy.com/embed/video-id" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 ```
