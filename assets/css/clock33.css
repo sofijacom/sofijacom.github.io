@@ -18,7 +18,7 @@
    background: #23273a;
    color: grey;
 }
-@media .center (width: 160px)
+@media (width: 160px)
     {
 /* block width size */
 }
