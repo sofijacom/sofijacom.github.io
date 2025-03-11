@@ -1,15 +1,10 @@
 ---
-title: "Layout: Header Video"
-header:
-  video:
-    id: -PVofD2A9t8
-    provider: youtube
+title: "Post: Video (YouTube)"
 categories:
-  - Layout
-  - Uncategorized
+  - Post Formats
 tags:
-  - video
-  - layout
+  - Post Formats
+last_modified_at: 2017-03-23T15:33:37-04:00
 ---
 
 This post should display a **header with a responsive video**, if the theme supports it.
