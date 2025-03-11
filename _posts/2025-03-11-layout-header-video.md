@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Layout: Header Video"
+title: "Header Video"
 header:
   video:
     id: gzHngrMADlA
