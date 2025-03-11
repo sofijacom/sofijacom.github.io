@@ -5,7 +5,8 @@
     left: 130px;
 }
 @font-face {
-    font-family: "digital-clock-font";
+   /* font-family: "digital-clock-font"; */
+    font-family: "clock-font";
     src: url("/assets/fonts/corner_font.ttf");
 }
 #clock33 {
