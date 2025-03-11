@@ -43,8 +43,8 @@ kramdown:
   syntax_highlighter_opts:
     span:
       line_numbers: false
-    block:
-      line_numbers: true
+      block:
+      line_numbers: false
       start_line:
 
 remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
