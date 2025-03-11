@@ -6,7 +6,7 @@ layout: collection
 
 _f_00_Void_KDE_plasma_no-kernel.plug_
 
-```html
+```c
 
 # f_00_Void_KDE_plasma_no-kernel.plug
 # version="1.0"; revision="-CЕ-1.3"
