@@ -7,22 +7,49 @@ tags:
 last_modified_at: 2017-03-23T15:33:37-04:00
 ---
 
-<div class="embed-responsive embed-responsive-16by9">
-  <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/l2Of1-d5E5o?controls=0&amp;" frameborder="0" allowfullscreen></iframe>
-</div>
+This post should display a **header with a responsive video**, if the theme supports it.
 
-This post tests YouTube video embeds.
+## Settings
 
-Simply wrap embeds with a `<div>` element and the appropriate classes:
+| Parameter  | Required     | Description |
+|----------  |---------     | ----------- |
+| `id`       | **Required** | ID of the video |
+| `provider` | **Required** | Hosting provider of the video, either `youtube` or `vimeo` |
 
-```html
-<!-- 16:9 aspect ratio -->
-<div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="..."></iframe>
-</div>
+### YouTube
 
-<!-- 4:3 aspect ratio -->
-<div class="embed-responsive embed-responsive-4by3">
-  <iframe class="embed-responsive-item" src="..."></iframe>
-</div>
+To embed the following YouTube video at url `https://www.youtube.com/watch?v=-PVofD2A9t8` (long version) or `https://youtu.be/-PVofD2A9t8` (short version) into a post or page's main content you'd use: 
+
+```liquid
+{% raw %}{% include video id="-PVofD2A9t8" provider="youtube" %}{% endraw %}
+```
+
+{% include video id="-PVofD2A9t8" provider="youtube" %}
+
+To embed it as a video header you'd use the following YAML Front Matter
+
+```yaml
+header:
+  video:
+    id: -PVofD2A9t8
+    provider: youtube
+```
+
+### Vimeo
+
+To embed the following Vimeo video at url `https://vimeo.com/212731897` into a post or page's main content you'd use: 
+
+```liquid
+{% raw %}{% include video id="212731897" provider="vimeo" %}{% endraw %}
+```
+
+{% include video id="212731897" provider="vimeo" %}
+
+To embed it as a video header you'd use the following YAML Front Matter
+
+```yaml
+header:
+  video:
+    id: 212731897
+    provider: vimeo
 ```
