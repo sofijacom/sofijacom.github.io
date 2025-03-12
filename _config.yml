@@ -119,7 +119,7 @@ defaults:
 #      read_time: true
       
 jekyll-archives:
-  enabled: []
+  enabled: all # []
   layout: archive
   permalinks:
     year: '/:year/'
