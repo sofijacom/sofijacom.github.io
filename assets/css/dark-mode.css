@@ -6,7 +6,7 @@
 }
 
 /* Dark mode */
-@media (prefers-color-scheme: dark) {
+[data-theme="dark"] {
  :root {
  --body-bg: #303C6C;
  --body-color: #E2E8E4;
