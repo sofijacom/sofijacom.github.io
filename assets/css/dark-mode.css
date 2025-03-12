@@ -1,68 +1,20 @@
-
-@mocha-base: #1e1e2e;
-@mocha-mantle: #181825;
-@mocha-crust: #11111b;
-@mocha-crust-darken: darken(@mocha-crust, 10%);
-@mocha-text: #cdd6f4;
-@mocha-lavender: #b4befe;
-@mocha-mauve: #cba6f7;
-@mocha-mauve-background: darken(@mocha-mauve, 65%);
-@mocha-blue: #89b4fa;
-@mocha-blue-background: darken(@mocha-blue, 65%);
-@mocha-maroon: #eba0ac;
-@mocha-peach: #fab387;
-@mocha-red: #f38ba8;
-@mocha-green: #a6e3a1;
-@mocha-subtext1: #bac2de;
-@mocha-subtext0: #a6adc8;
-@mocha-overlay2: #9399b2;
-@mocha-overlay1: #7f849c;
-@mocha-overlay0: #6c7086;
-@mocha-surface2: #585b70;
-@mocha-surface1: #45475a;
-@mocha-surface0: #313244;
-
 [data-theme="dark"] {
-    main-background-color: @mocha-mantle !important;
-    main-darken-background-color: @mocha-crust-darken !important;
-    crust-background-color: @mocha-crust !important;
-    mantle-background-color: @mocha-mantle !important;
-    main-text-color: @mocha-text !important;
-    subtext0-color: @mocha-subtext0 !important;
-    surface0-color: @mocha-surface0 !important;
-    overlay1-color: @mocha-overlay1 !important;
-    overlay0-color: @mocha-overlay0 !important;
-    accent-color: @mocha-mauve !important;
-    accent-color-background: @mocha-mauve-background !important;
-    accent-color-deep: @mocha-blue !important;
-    accent-color-deep-background: @mocha-blue-background !important;
-    hr-color: @mocha-surface1 !important;
-    link-color: @latte-lavender !important;
-    code-color: rgb(229, 80, 116) !important;
-    code-background-color: rgb(45, 22, 27) !important;
-    content-active-color: @mocha-peach !important;
-    content-background-color: @mocha-crust !important;
+  base-color: #aa55ff !important;
+  text-color: #c6a0f6 !important;
+  accent-color: #8839ef !important;
+  background-color: #1e1e2e !important;
+  code-background-color: #939ab7 !important;
+  border-color: rgba($text-color, 0.5) !important;
+  overlay-color: #939ab7 !important;
 }
 
 @media (prefers-color-scheme: dark) {
-    [data-theme="dark"] {
-    main-background-color: @mocha-mantle !important;
-    main-darken-background-color: @mocha-crust-darken !important;
-    crust-background-color: @mocha-crust !important;
-    mantle-background-color: @mocha-mantle !important;
-    main-text-color: @mocha-text !important;
-    subtext0-color: @mocha-subtext0 !important;
-    surface0-color: @mocha-surface0 !important;
-    overlay1-color: @mocha-overlay1 !important;
-    overlay0-color: @mocha-overlay0 !important;
-    accent-color: @mocha-mauve !important;
-    accent-color-background: @mocha-mauve-background !important;
-    accent-color-deep: @mocha-blue !important;
-    accent-color-deep-background: @mocha-blue-background !important;
-    hr-color: @mocha-surface1 !important;
-    link-color: @latte-lavender !important;
-    code-color: rgb(229, 80, 116) !important;
-    code-background-color: rgb(45, 22, 27) !important;
-    content-active-color: @mocha-peach !important;
-    content-background-color: @mocha-crust !important;
+[data-theme="dark"] {
+  base-color: #aa55ff !important;
+  text-color: #c6a0f6 !important;
+  accent-color: #8839ef !important;
+  background-color: #1e1e2e !important;
+  code-background-color: #939ab7 !important;
+  border-color: rgba($text-color, 0.5) !important;
+  overlay-color: #939ab7 !important;    
     }
