@@ -61,7 +61,7 @@ actions:
 
 <p align="center">
   
-  <img src="https://readme-typing-svg.herokuapp.com?font=Roboto+Slab&color=%78858b&size=20&center=true&vCenter=true&width=450&lines=Thank+you+for+visiting+!+❤+❤+❤" /> 
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=78858B&width=435&lines=Thank+you+for+visiting+!+%E2%9D%A4+%E2%9D%A4+%E2%9D%A4+" /> 
   
 </p> 
 
