@@ -8,10 +8,10 @@
 /* Dark mode */
 [data-theme="dark"] {
  :root {
- --body-bg: #303C6C;
- --body-color: #E2E8E4;
- --body-link-color: #FFCCBB;
- --card-bg: #212529;
+ body-bg: #303C6C !important;
+ body-color: #E2E8E4 !important;
+ body-link-color: #FFCCBB !important;
+ card-bg: #212529 !important;
   }
 }
 
