@@ -1,21 +1,19 @@
 :root {
- --body-bg: #EEE2DC;
- --body-color: #AC3B61;
- --body-link-color: #AC3B61;
- --card-bg: #EDC7B7;
+ body-bg: #EEE2DC !important;
+ body-color: #AC3B61 !important;
+ body-link-color: #AC3B61 !important;
+ card-bg: #EDC7B7 !important;
 }
 
 /* Dark mode */
 [data-theme="dark"] {
- :root {
  body-bg: #303C6C !important;
  body-color: #E2E8E4 !important;
  body-link-color: #FFCCBB !important;
  card-bg: #212529 !important;
-  }
 }
 
 body {
- background-color: var(--body-bg);
- color: var(--body-color) !important;
+ background-color: var(body-bg);
+ color: var(body-color) !important;
 }
