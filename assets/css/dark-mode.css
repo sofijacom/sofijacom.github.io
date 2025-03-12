@@ -9,12 +9,12 @@ overlay-color: #939ab7 !default;
 
 
 [data-theme="dark"] {
-  $base-color: #aa55ff !important;
-  $text-color: #c6a0f6 !important;
-  $accent-color: #8839ef !important;
-  $background-color: #1e1e2e !important;
-  $code-background-color: #939ab7 !important;
-  $border-color: rgba($text-color, 0.5) !important;
-  $overlay-color: #939ab7 !important;
-  $color: #c6a0f6 !important;
+  base-color: #aa55ff !important;
+  text-color: #c6a0f6 !important;
+  accent-color: #8839ef !important;
+  background-color: #1e1e2e !important;
+  code-background-color: #939ab7 !important;
+  border-color: rgba($text-color, 0.5) !important;
+  overlay-color: #939ab7 !important;
+  color: #c6a0f6 !important;
 }
