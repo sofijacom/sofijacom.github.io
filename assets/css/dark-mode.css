@@ -1,4 +1,4 @@
-[data-theme="dark"] {
+[data-theme="dark"] .bg-dark {
   base-color: #aa55ff !important;
   text-color: #c6a0f6 !important;
   accent-color: #8839ef !important;
@@ -9,7 +9,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-[data-theme="dark"] {
+[data-theme="dark"] .bg-black {
   base-color: #aa55ff !important;
   text-color: #c6a0f6 !important;
   accent-color: #8839ef !important;
