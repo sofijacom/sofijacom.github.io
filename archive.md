@@ -1,4 +1,5 @@
 ---
+layout: archive
 title: Archive
-permalink: /layouts/archive/
+permalink:
 ---
