@@ -7,7 +7,6 @@
   heading-color: #818cab !important;
   color: #c6a0f6 !important;
 }
-
 [data-theme="dark"] {
   background-color: #1e1e2e !important;
   primary-color: #9A97F3 !important;
@@ -16,4 +15,22 @@
   bg-color: #161625 !important;
   heading-color: #818cab !important;
   color: #c6a0f6 !important;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--font-color);
+
+}
+
+h1 {
+    color: var(--heading-color);
+}
+
+a {
+  color: var(--primary-color);
+ } 
+
+.post-meta {
+   color: var(--secondary-color);
 }
