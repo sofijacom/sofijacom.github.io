@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Direct links to iso"
+title: "Direct links: Direct links to iso"
 categories:
   - Direct links
 tags:
