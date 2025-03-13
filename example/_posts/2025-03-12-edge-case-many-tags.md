@@ -5,19 +5,13 @@ categories:
 tags:
   - content
   - categories
-  - chat
   - comments
-  - content
   - css
   - edge case
-  - Fail
   - html
   - image
   - layout
-  - link
-  - Love
   - Pictures
-  - Post Formats
   - Tags
   - template
   - title
