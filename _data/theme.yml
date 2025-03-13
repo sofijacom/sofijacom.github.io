@@ -2,11 +2,9 @@
 skin: solarized-dark
 # default, night, plum, sea, soft, steel  - ( Default-theme )
 # air, aqua, plum-2, dark, neon, sunrise, mint, contrast, macchiato  - ( Added topics )
-# skin selection.
-# Available skins are: - ( Added topics )
+# skin selection. ( Added topics )
 # classic	           Default, light color scheme.
 # dark	             Dark variant of the classic skin.
-# auto	             Adaptive skin based on the default classic and dark skins.
 # solarized-light	   Light variant of solarized color scheme.
 # solarized-dark	   Dark variant of solarized color scheme.
 # solarized	         Adaptive skin for solarized color scheme skins.
