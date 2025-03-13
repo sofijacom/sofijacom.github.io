@@ -18,8 +18,7 @@
 lang: en-US
 title: 𝕂𝕖𝕟𝕟𝕖𝕝 𝕃𝕚𝕟𝕦𝕩 # title: 𝕂𝕖𝕟𝕟𝕖𝕝 𝕃𝕚𝕟𝕦𝕩
 email: sofija.p2018@gmail.com
-description: "Expand your knowledge"
-excerpt: "Expand your knowledge"
+description: Expand your knowledge
 baseurl: "" # the optional subpath of your site, e.g. "/blog"
 url: "https://sofijacom.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 author:
