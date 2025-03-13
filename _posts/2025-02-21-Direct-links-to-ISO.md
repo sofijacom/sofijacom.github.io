@@ -2,7 +2,7 @@
 layout: post
 title: "Direct links to iso"
 tags:
-  - direct
+  - links
 header-mask: 0.4
 multilingual: true
 ---
