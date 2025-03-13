@@ -13,7 +13,7 @@
        <title>Custom Bootstrap</title>
         <!-- style -->
     <!-- <link href="/components/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
-   <script type="text/javascript" src="/components/bootstrap/js/bootstrap.min.js"></script> 
+  <!-- <script type="text/javascript" src="/components/bootstrap/js/bootstrap.min.js"></script> -->
       <!-- Fonts awesome -->
     <!-- Place your kit's code here -->
     <script src="https://kit.fontawesome.com/f3014a7b89.js" crossorigin="anonymous"></script>
@@ -22,7 +22,6 @@
     <script type="text/javascript" src="/assets/js/theme-switcher.js"></script>
      <!-- Theme Toggle -->
     <link rel="stylesheet" href="/assets/css/checkbox.css">
-	  <link rel="stylesheet" href="/assets/css/style.css">
   </head>
 	
 <!-- <link rel="stylesheet" href="/assets/css/dark-mode.css"> -->
@@ -31,87 +30,6 @@
             <label class="custom-control-label" for="darkSwitch">Dark Mode</label>
           </div>
           <script src="/assets/js/dark-mode-switch.min.js"></script> -->
-<style>
-  .site-footer {
-    padding-bottom: 110px;
-}
-.sub-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    &::before {
-        position: absolute;
-        display: table;
-        margin: -60px auto;
-        top: 1px;
-        left: 0;
-        right: 0;
-        content: "";
-        border: 30px solid;
-        cursor: pointer;
-    }
-}
-#skin-switch-container {
-display: none;
-margin-left: -4px;
-padding: 15px;
-text-align: center;
-font-size: 0.8rem;
-select {
-    margin: 0 2px;
-    padding: 5px 2px;
-    text-align: center;
-    font-size: 0.8rem;
-    border-radius: 5px;
-    border-color: #3a3d42;
-    &:focus-visible {
-        outline: none;
-    }
-}
-}
-
-.sub-footer, .sub-footer select {
-    color: #999999;
-    background: #2a2d30;
-    &::before {
-        border-color: transparent transparent #2a2d30;
-    }
-}
- </style>
-	
- <div id="skin-switch-container" style="display: block;">
-    Page rendered with the <select id="skin-switch" onchange="changeSkin()">
-      <option value="solarized-light.css">solarized-light</option>
-      <option value="auto.css">auto</option>
-      <option value="dark.css">dark</option>
-      <option value="solarized-dark.css">solarized-dark</option>
-      <option value="style.css">classic</option>
-      <option value="solarized.css">solarized</option>
-    </select> skin of Minima theme.
-    <div><small>Theme-switcher is not a part of Minima</small></div>
-  </div>
-
-  <script>
-  document.getElementById("skin-switch-container").style.display = "block";
-  var metaTag = document.getElementById("stylesheet");
-  var skinSwitcher = document.getElementById("skin-switch");
-  var SSHref = metaTag.href;
-  var SSName = SSHref.substring(SSHref.lastIndexOf('/') + 1);
-  var prevSkin = localStorage.getItem("minima-ss");
-
-  if (prevSkin) {
-    metaTag.href = SSHref.replace(SSName, prevSkin);
-    skinSwitcher.value = prevSkin;
-  } else {
-    skinSwitcher.value = SSName;
-  }
-
-  function changeSkin() {
-    _ssName = event.target.value;
-    metaTag.href = SSHref.replace(SSName, _ssName);
-    localStorage.setItem("minima-ss", _ssName);
-  }
-</script>
 	
 <html lang="{{ page.lang | default: site.lang | default: 'en-US' }}" class="no-js">
   {% include head.html %}
@@ -147,7 +65,6 @@ select {
         <span class="toggle-inner">
           <span class="sidebar-toggle-label visually-hidden">{{ site.data.theme.t.menu | default: 'Menu' }}</span>
           <span class="navicon"></span>
-		 <em></em>
 		<!-- <em>🄼🄴🄽🅄</em> --> 	 
         </span>
       </button>
