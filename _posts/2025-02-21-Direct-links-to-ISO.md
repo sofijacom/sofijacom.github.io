@@ -3,7 +3,8 @@ layout: post
 title: "Direct links to iso"
 categories:
   - Direct links
-tags: direct links to iso
+tags:
+  - direct
 header-mask: 0.4
 multilingual: true
 ---
