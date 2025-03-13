@@ -5,7 +5,6 @@ categories:
 tags:
   - content
   - categories
-  - comments
   - edge case
   - css
   - html
