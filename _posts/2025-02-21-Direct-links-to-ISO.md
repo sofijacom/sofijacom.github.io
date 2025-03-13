@@ -1,6 +1,9 @@
 ---
 layout: post
-title: "Direct links to iso"
+title: "Direct: Direct links to iso"
+categories:
+  - Direct links
+tags: direct
 header-mask: 0.4
 multilingual: true
 ---
