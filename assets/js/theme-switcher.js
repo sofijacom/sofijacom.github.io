@@ -1,23 +1,21 @@
-DarkReader.enable({
+import {
+    enable as enableDarkMode,
+    disable as disableDarkMode,
+    auto as followSystemColorScheme,
+    exportGeneratedCSS as collectCSS,
+    isEnabled as isDarkReaderEnabled
+} from 'darkreader';
+
+enableDarkMode({
     brightness: 100,
     contrast: 90,
-    sepia: 10
+    sepia: 10,
 });
 
-DarkReader.disable();
+disableDarkMode();
 
-// Enable when the system color scheme is dark.
-DarkReader.auto({
-    brightness: 100,
-    contrast: 90,
-    sepia: 10
-});
+followSystemColorScheme();
 
-// Stop watching for the system color scheme.
-DarkReader.auto(false);
+const CSS = await collectCSS();
 
-// Get the generated CSS of Dark Reader returned as a string.
-const CSS = await DarkReader.exportGeneratedCSS();
-
-// Check if Dark Reader is enabled.
-const isEnabled = DarkReader.isEnabled();
+const isEnabled = isDarkReaderEnabled();
