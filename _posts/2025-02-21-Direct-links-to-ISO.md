@@ -1,8 +1,6 @@
 ---
 layout: post
-title: "Direct links: Direct links to iso"
-categories:
-  - Direct links
+title: "Direct links to iso"
 tags:
   - direct
 header-mask: 0.4
