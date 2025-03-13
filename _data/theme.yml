@@ -1,9 +1,19 @@
 # Theme Skin
-skin: classic
+#skin: classic
 # default, night, plum, sea, soft, steel  - ( Default-theme )
 # air, aqua, plum-2, dark, neon, sunrise, mint, contrast, macchiato  - ( Added topics )
 # solarized-light, solarized-dark, classic  - ( Added topics )
 #
+minima:
+  # Minima skin selection.
+  # Available skins are:
+  # classic	           Default, light color scheme.
+  # dark	             Dark variant of the classic skin.
+  # auto	             Adaptive skin based on the default classic and dark skins.
+  # solarized-light	   Light variant of solarized color scheme.
+  # solarized-dark	   Dark variant of solarized color scheme.
+  # solarized	         Adaptive skin for solarized color scheme skins.
+  skin: classic
 t:
   skip_links: "Skip links"
   skip_primary_nav: "Skip to primary navigation"
