@@ -6,14 +6,12 @@ tags:
   - content
   - categories
   - comments
-  - css
   - edge case
+  - css
   - html
   - image
   - layout
   - Pictures
-  - Tags
-  - template
   - title
   - video
   - YouTube
