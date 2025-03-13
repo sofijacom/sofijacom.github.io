@@ -33,7 +33,11 @@
 	
 <html lang="{{ page.lang | default: site.lang | default: 'en-US' }}" class="no-js">
   {% include head.html %}
-
+{% if page.description %}
+{{page.description}}
+{% else %}
+{{site.description}}
+{% endif %}
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %} {{ page.title | slugify }}">
     
     {% include skip-links.html %}
