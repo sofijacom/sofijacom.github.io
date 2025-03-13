@@ -1,21 +1,23 @@
-import {
-    enable as enableDarkMode,
-    disable as disableDarkMode,
-    auto as followSystemColorScheme,
-    exportGeneratedCSS as collectCSS,
-    isEnabled as isDarkReaderEnabled
-} from 'darkreader';
+ function changeTheme(){
+   const theme_switch = document.getElementById("theme-switch");
+   if (theme_switch.checked) {
+     DarkReader.enable();
+     // Add the ff. line to write to memory.
+     localStorage.setItem("my-theme","dark");
+   }
+   else {
+     DarkReader.disable();
+     // Add the ff. line to write to memory.
+     localStorage.setItem("my-theme",null);
+   }
+ }
 
-enableDarkMode({
-    brightness: 100,
-    contrast: 90,
-    sepia: 10,
-});
-
-disableDarkMode();
-
-followSystemColorScheme();
-
-const CSS = await collectCSS();
-
-const isEnabled = isDarkReaderEnabled();
+ // Check local storage every reload to know which theme to use.
+ if (localStorage.getItem("my-theme")==="dark") {
+   // Use dark theme.
+   DarkReader.enable();
+ }
+ else {
+   // Use default theme.
+   DarkReader.disable();
+ }
