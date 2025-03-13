@@ -4,7 +4,7 @@ categories:
   - Edge Case
 tags:
   - content
-  - Direct links
+  - Direct links to iso
   - 8BIT
   - alignment
   - Articles
