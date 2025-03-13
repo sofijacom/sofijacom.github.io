@@ -1,6 +1,7 @@
 ---
 layout: home
 title: 𝐊𝐞𝐧𝐧𝐞𝐥 𝐋𝐢𝐧𝐮𝐱  # 𝕂𝕖𝕟𝕟𝕖𝕝 𝕃𝕚𝕟𝕦𝕩  # 𝐊𝐞𝐧𝐧𝐞𝐥 𝐋𝐢𝐧𝐮𝐱 # 𝐾𝑒𝑛𝑛𝑒𝑙 𝐿𝑖𝑛𝑢𝑥
+excerpt: Expand your knowledge
 actions:
   - label: "Get Started"
     icon: github
