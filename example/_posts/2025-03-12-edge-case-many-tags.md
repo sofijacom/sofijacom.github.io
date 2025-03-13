@@ -2,9 +2,9 @@
 title: "Edge Case: Many Tags"
 categories:
   - Edge Case
-  - Direct links
 tags:
   - content
+  - Direct links
   - 8BIT
   - alignment
   - Articles
