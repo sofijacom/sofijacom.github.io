@@ -2,14 +2,6 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@import
-  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
-  "minima/initialize";
-@import
-  "minima/custom-variables", // Hook to override predefined variables.
-  "minima/base",             // Defines element resets.
-  "minima/layout",           // Defines structure and style based on CSS selectors.
-  "minima/custom-styles" 
 /*! HTML5 Boilerplate v9.0.1 | MIT License | https://html5boilerplate.com/ */
 
 /* main.css 3.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
