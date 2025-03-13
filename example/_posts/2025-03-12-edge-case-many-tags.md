@@ -2,6 +2,7 @@
 title: "Edge Case: Many Tags"
 categories:
   - Edge Case
+  - Direct links
 tags:
   - content
   - 8BIT
