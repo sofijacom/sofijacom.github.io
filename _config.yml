@@ -18,7 +18,7 @@
 lang: en-US
 title: 𝕂𝕖𝕟𝕟𝕖𝕝 𝕃𝕚𝕟𝕦𝕩 # title: 𝕂𝕖𝕟𝕟𝕖𝕝 𝕃𝕚𝕟𝕦𝕩
 email: sofija.p2018@gmail.com
-description: Expand your knowledge and stay informed with our engaging blog posts
+description: # Expand your knowledge and stay informed with our engaging blog posts
 baseurl: "" # the optional subpath of your site, e.g. "/blog"
 url: "https://sofijacom.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 author:
@@ -36,6 +36,7 @@ algolia:
   index_name: # YOUR_INDEX_NAME
   search_only_api_key: # YOUR_SEARCH_ONLY_API_KEY
   powered_by: # true (default), false
+  
 # Build settings
 markdown: kramdown
 kramdown:
@@ -110,7 +111,8 @@ defaults:
     values:
       layout: post
       read_time: true
-  # _recipes
+      
+# _recipes
 #  - scope:
 #  path: "_recipes"
 #      type: recipes
@@ -119,7 +121,7 @@ defaults:
 #      read_time: true
       
 jekyll-archives:
-  enabled: [] # [] all
+  enabled: [] # [] / all
   layout: archive
   permalinks:
     year: '/:year/'
