@@ -23,54 +23,6 @@
      <!-- Theme Toggle -->
     <link rel="stylesheet" href="/assets/css/checkbox.css">
   </head>
-<style>
-[data-theme="dark"] {
-background-color: #323247 !important;
-color: #eee !important;
-}
-
-html, body { height: 700px; }
-body {
-    display: relative;
-    justify-content: center;
-    align-items: center;
-}
-
-.first, .second {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.filled {
-  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
-}
-
-.draining {
-  animation: draining 3s linear 1;
-}
-
-@keyframes water {
-  from {
-    clip-path: polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%);
-  }
-
-  to {
-    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
-  }
-}
-
-@keyframes draining {
-  from {
-    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
-  }
-
-  to {
-     clip-path: polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%);
-  }
-}
-</style>
 	
 <!-- <style>
 [data-theme="dark"] {
