@@ -23,11 +23,88 @@
      <!-- Theme Toggle -->
     <link rel="stylesheet" href="/assets/css/checkbox.css">
   </head>
-	
- <style>
+<style>
 [data-theme="dark"] {
     /* Default Colors */
-    @background-color: #323247 !important;
+background-color: #323247 !important;
+color: #eee !important;
+}	
+html, body { height: 100%; }
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first, .second {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  padding: 20px;
+  cursor: pointer;
+  font-size: 72px;
+  border: none;
+  outline: none;
+}
+
+.button-first {
+  color: white;
+  background: #007ba7;
+}
+
+.button-second {
+  color: #007ba7;
+  background: white;
+}
+
+.second {
+    width: 100%;
+    height: 280px;
+  background: #007ba7;
+  clip-path: polygon(0% 95%, 100% 95%, 100% 100%, 0% 100%);
+}
+
+.fill-water {
+  animation: water 3s linear 1;
+}
+
+.filled {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.draining {
+  animation: draining 3s linear 1;
+}
+
+@keyframes water {
+  from {
+    clip-path: polygon(0% 95%, 100% 95%, 100% 100%, 0% 100%);
+  }
+
+  to {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  }
+}
+
+@keyframes draining {
+  from {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  }
+
+  to {
+     clip-path: polygon(0% 95%, 100% 95%, 100% 100%, 0% 100%);
+  }
+}
+</style>
+	
+<!-- <style>
+[data-theme="dark"] {
+    /* Default Colors */
+    background-color: #323247 !important;
     color: #eee !important;
 
     /* Index Page */
@@ -196,7 +273,7 @@
     }
 
 }
-</style>
+</style> -->
 	
 <html lang="{{ page.lang | default: site.lang | default: 'en-US' }}" class="no-js">
   {% include head.html %}
