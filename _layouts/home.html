@@ -49,14 +49,52 @@ layout: default
 h1 {
     background-color: #326384 !important;
     color: #9d82c7;
+
+.sidebar > .inner {
+    background-color: #326384 !important;
+    }
+
+.sidebar>.inner {
+    width: 100%;
+    height: 100%;
+    }
+
+.inner {
+    max-width: 1024px;
 }
-    nav.skip-links  {
-      background-color: #326384 !important;
-    }
-    
-    .skip-links {
-      background-color: #326384 !important;
-    }
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.entries-list .entry-excerpt>*:last-child {
+    margin-bottom: 0;
+}
+
+* {
+    scrollbar-color: #326384 #2f3234;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+body {
+    background-image: initial;
+    background-color: #326384;
+    color: rgb(221, 218, 213);
+}
+
+html, body, input, textarea, select, button {
+    border-color: #575757;
+    color: #e8e6e3;
+}
       
 svg {
   font-weight:bold;
