@@ -61,20 +61,16 @@
    document.getElementById("theme-switch").checked = localStorage.getItem("my-theme")==="dark"      
  </script> 
         
-      <button class="toggle navicon-button larr" type="button">  
+      <button class="toggle navicon-button larr" type="button" title="Menu">  
         <span class="toggle-inner">
           <span class="sidebar-toggle-label visually-hidden">{{ site.data.theme.t.menu | default: 'Menu' }}</span>
-          <span class="navicon" tooltip="Menu"></span>
+          <span class="navicon"></span>
 		<!-- <label>🄼🄴🄽🅄</label> -->
 		<!-- <em>🄼🄴🄽🅄</em> --> 	 
         </span>
       </button>
     </div>
-	  
-<aside>
-  <div><a href="https://webdesign.tutsplus.com/tutorials/css-tooltip-magic--cms-28082" target="_parent"></a></div>
-</aside>
-	  
+	  	  
     <div id="sidebar" class="sidebar">
       <div class="inner">
         {% include navigation.html %}
