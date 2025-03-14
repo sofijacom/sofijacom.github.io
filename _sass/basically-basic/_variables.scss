@@ -48,16 +48,16 @@ $headline-font-family: $base-font-family !default;
 $monospace-font-family: Menlo, Consolas, Monaco, "Courier New", Courier,
   monospace !default;
 
-/* Colors 
+/* Colors */
 $base-color: #393e46 !default;
 $text-color: #181c22 !default;
 $accent-color: #00838a !default;
 $background-color: #fff !default;
 $code-background-color: tint($base-color, 95%) !default;
 $border-color: tint($base-color, 80%) !default;
-$overlay-color: $base-color !default; */
+$overlay-color: $base-color !default; 
 
-/* Syntax highlighting (base16) colors */
+/* Syntax highlighting (base16) colors 
 $base00: #1c2023 !default;
 $base01: #393f45 !default;
 $base02: #565e65 !default;
@@ -73,7 +73,7 @@ $base0b: #95c7ae !default;
 $base0c: #95aec7 !default;
 $base0d: #ae95c7 !default;
 $base0e: #c795ae !default;
-$base0f: #c79595 !default;
+$base0f: #c79595 !default; */
 
 /* Max-width of the main content */
 $main-max-width: $xlarge !default;
