@@ -7,7 +7,7 @@
      localStorage.setItem("my-theme","dark");
    }
    else {
-     document.documentElement.removeAttribute("data-theme")
+     document.documentElement.removeAttribute("data-theme");
      // Add the ff. line to write to memory.
      localStorage.setItem("my-theme",null);
    }
@@ -20,5 +20,5 @@
  }
  else {
    // Use default theme.
-   document.documentElement.removeAttribute("data-theme")
+   document.documentElement.removeAttribute("data-theme");
  }
