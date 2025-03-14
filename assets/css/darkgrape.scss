@@ -1,5 +1,11 @@
 [data-theme="dark"] {
-    
+   /* Colors */
+    base-color: #24273a !important;
+    text-color: #c6a0f6 !important;
+    accent-color: #8839ef !important;
+    code-background-color: #cdd6f3 !important;
+    border-color: rgba($text-color, 0.5) !important;
+    overlay-color: #cdd6f3 !important; 
     /* Default Colors */
 
     background-color: #323247 !important;
