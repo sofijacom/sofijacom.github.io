@@ -27,7 +27,8 @@
 [data-theme="dark"] {
 background-color: #323247 !important;
 color: #eee !important;
-}	
+}
+
 html, body { height: 100%; }
 body {
     display: relative;
@@ -50,23 +51,6 @@ body {
   outline: none;
 }
 
-.button-first {
-  color: white;
-  background: #007ba7 !important;
-}
-
-.button-second {
-  color: #007ba7 !important;
-  background: white;
-}
-
-.second {
-    width: 100%;
-    height: 280px;
-  background: #007ba7 !important;
-  clip-path: polygon(0% 95%, 100% 95%, 100% 100%, 0% 100%);
-}
-
 .fill-water {
   animation: water 3s linear 1;
 }
@@ -81,7 +65,7 @@ body {
 
 @keyframes water {
   from {
-    clip-path: polygon(0% 95%, 100% 95%, 100% 100%, 0% 100%);
+    clip-path: polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%);
   }
 
   to {
@@ -95,7 +79,7 @@ body {
   }
 
   to {
-     clip-path: polygon(0% 95%, 100% 95%, 100% 100%, 0% 100%);
+     clip-path: polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%);
   }
 }
 </style>
