@@ -8,11 +8,6 @@ calendar_css: <link rel="stylesheet" href="!PATH_TO_COMPONENTS!/bootstrap-calend
 ---
 
 
-<p align="center">	
-  <img src="https://raw.githubusercontent.com/sofijacom/sofijacom.github.io/9c828822ff366f233c00d36dc8abd12381f64e2b/assets/icons/gray_line.svg" />
-</p>
-
-
 ## 📜 _Introduction_
 
 🔭 _I’m currently working on ..._
@@ -41,3 +36,9 @@ calendar_css: <link rel="stylesheet" href="!PATH_TO_COMPONENTS!/bootstrap-calend
   height="38"
 />
 </p>
+
+
+<p align="center">	
+  <img src="https://raw.githubusercontent.com/sofijacom/sofijacom.github.io/9c828822ff366f233c00d36dc8abd12381f64e2b/assets/icons/gray_line.svg" />
+</p>
+
