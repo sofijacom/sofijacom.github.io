@@ -8,13 +8,35 @@ layout: dafault
     <meta charset="utf-8">
     <title>Calendar</title>
   </head>
+
+{% assign PATH_TO_COMPONENTS =  "/components" | prepend: site.baseurl %}
+
   
+  <div>
+  {{ content }}
+</div>
+
+ <!-- <div class="calendar"></div> -->
+  
+     <!-- <link rel="stylesheet" href="/assets/css/calendar.css"> -->
+  <div class="container" style="width:100%">
+  <div class="page-header">
+
+    <h3></h3>
+    <small>{{ page.calendar_caption }}</small>
+  </div>
+
+
+  <div id="calendar"></div>
+
   <div class="calendar"></div>
-  
-      <link rel="stylesheet" href="/assets/css/calendar.css">
-  
-  <script type="text/javascript" src="/assets/js/calendar.js"></script>  
-  
+
+</div>
+
+<!--======= Header =======-->
+
+<script type="text/javascript" src="{{PATH_TO_COMPONENTS}}/bootstrap-calendar/js/calendar.js"></script>
+   
   <body>
     <header></header>
     <main></main>
