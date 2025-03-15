@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% assign PATH_TO_COMPONENTS =  "/components" | prepend: site.baseurl %}
-<link rel="stylesheet" href="!PATH_TO_COMPONENTS!/bootstrap-calendar/css/calendar.css">
+
 <div>
   {{ content }}
 </div>
@@ -25,7 +25,7 @@ layout: default
 </div>
 
 <!--======= Header =======-->
-
+<link rel="stylesheet" href="/components/bootstrap-calendar/css/calendar.css">
 <script type="text/javascript" src="{{PATH_TO_COMPONENTS}}/bootstrap-calendar/js/calendar.js"></script>
 
 <script type="text/javascript">
