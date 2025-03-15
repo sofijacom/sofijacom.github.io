@@ -9,5 +9,3 @@ calendar_bootstrap_css: <link rel="stylesheet" href="!PATH_TO_COMPONENTS!/bootst
 ---
 
 ## 📜 _Introduction_
-
-
