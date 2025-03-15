@@ -7,6 +7,7 @@ calendar_css: <link rel="stylesheet" href="!PATH_TO_COMPONENTS!/bootstrap-calend
 
 categories:
   - Layout
+  - Calendar
 tags:
   - content
   - image
