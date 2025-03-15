@@ -7,6 +7,7 @@ calendar_css: <link rel="stylesheet" href="!PATH_TO_COMPONENTS!/bootstrap-calend
 
 ---
 
+💜 I know for sure that there are many happy days on this calendar! 💜
 
 <p align="center">
  <img
