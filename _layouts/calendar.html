@@ -1,13 +1,14 @@
 ---
 layout: default
 ---
+
 <!DOCTYPE html>
 <html lang="">
   <head>
     <meta charset="utf-8">
     <title></title>
-    <link rel="stylesheet" href="!PATH_TO_COMPONENTS!/bootstrap-calendar/css/calendar.css">
-  <script type="text/javascript" src="{{PATH_TO_COMPONENTS}}/bootstrap-calendar/js/calendar.js"></script>  
+    <link rel="stylesheet" href="/components/bootstrap-calendar/css/calendar.css">
+  <script type="text/javascript" src="/components/bootstrap-calendar/js/calendar.js"></script>  
   </head>
   
   <div class="calendar"></div>
@@ -19,15 +20,3 @@ layout: default
   </body>
 </html>
 
-
-{% assign PATH_TO_COMPONENTS =  "/components" | prepend: site.baseurl %}
-
-<div>
-  {{ content }}
-</div>
-
-
-    <h3></h3>
-    <small>{{ page.calendar_caption }}</small>
-  </div>
-          
