@@ -223,5 +223,3 @@ function CalendarControl() {
   }
   
   const calendarControl = new CalendarControl();
-
-
