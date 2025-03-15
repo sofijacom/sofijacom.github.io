@@ -11,6 +11,7 @@ tags:
   - content
   - image
   - layout
+  - calendar 
 ---
 
 
