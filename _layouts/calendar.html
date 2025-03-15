@@ -1,8 +1,20 @@
 ---
 layout: default
 ---
+
 {% assign PATH_TO_COMPONENTS =  "/components" | prepend: site.baseurl %}
 
+<div>
+  {{ content }}
+</div>
+
+ <div class="container" style="width:100%">
+
+    <h3></h3>
+    <small>{{ page.calendar_caption }}</small>
+  </div>
+          
+<div class="calendar"></div>
 
 <script type="text/javascript" src="{{PATH_TO_COMPONENTS}}/bootstrap-calendar/js/calendar.js"></script>
 
