@@ -50,7 +50,7 @@ layout: default
        }
      }
      @media (prefers-color-scheme: dark) {
-    html[data-theme="light"] {
+    html, html[data-theme="light"] {
         --main-background-color: #eff1f5;
         --main-darken-background-color: #bdc5d4;
         --crust-background-color: #dce0e8;
@@ -188,7 +188,7 @@ html, body, input, textarea, select, button {
     cursor: pointer;
     border-color: #a6adc8;
 }     
- .btn:hover {
+ .btn:hover .btn:focus {
     background-color: #26074b;  /* var(--accent-color-deep-background); */
     transition: 0.5s;  
 }
