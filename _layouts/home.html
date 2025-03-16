@@ -168,12 +168,19 @@ a:hover, a:focus {
     color: #cba6f7;
    /* text-decoration: underline; */
 }
+      
+div[title]{
+      position: relative;
+} 
 
-.title {
-   /* display: block; */
-    background-color: #cdd6f3;
-    font: 12px tahoma, serif;
-}      
+    div[title]:hover:after{
+        content: attr(title);
+        background: #cdd6f3; 
+        position: absolute;
+        left: 50%;
+        top: 1em;
+}
+      
 .site-title:hover {
     color: #cba6f7;
     transition: 0.7s;
