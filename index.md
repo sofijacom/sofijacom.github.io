@@ -20,7 +20,7 @@ actions:
   <img src="https://github.com/sofijacom/sofijacom/assets/107557749/c4abfbc2-02d4-4a79-a75f-24e948bf83ee" /> 
 </p> -->
 
-<!-- <hr> -->
+<hr />
 
 - [Main forum](https://forum.puppylinux.com/viewforum.php?f=228)
 - [Another KL forum](https://kennel-linux.rockedge.org/)
