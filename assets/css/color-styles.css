@@ -86,23 +86,6 @@ html[data-theme="dark"] {
         --content-background-color: #e6e9ef;
     }
 }
-body,html {
-    margin:0;padding:0;
-    height:100%;
-    /*  background-color: #181825; */
-}
-
-body {
-    background:url('https://raw.githubusercontent.com/sofijacom/sofijacom.github.io/refs/heads/master/assets/images/Csgbl.jpg');
-    background-size: cover;
-    font-family: 'Cabin Condensed', sans-serif;
-    display:flex;
-    /* display: block; */
-    /* position: relative; */
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 
 .sidebar .menu {
     font-family: "Jost", sans-serif;
@@ -264,10 +247,4 @@ hr {
 }
 .icon--rss {
     fill: #b4befe;
-}
-
-svg {
-    font-weight:bold;
-    max-width:500px;
-    height:auto;
 }
