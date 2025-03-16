@@ -1,12 +1,20 @@
 /* Colors */
-html, body {
+body,html {
 base-color: #24273a;
 text-color: #a5acc5;
 accent-color: #c09bef;
 background-color: #1e1e2e;
 code-background-color: #cdd6f3;
-border-color: rgba(#a5acc5, 0.5);
+border-color: #a6adc8;
 overlay-color: #cdd6f3;
+}
+
+body {
+    font-family: 'Cabin Condensed', sans-serif;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
     
 .sidebar .menu {
