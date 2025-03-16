@@ -7,6 +7,9 @@ background-color: #1e1e2e;
 code-background-color: #cdd6f3;
 border-color: #a6adc8;
 overlay-color: #cdd6f3;
+margin: 0;
+padding: 0;
+height: 100%;    
 }
 
 body {
