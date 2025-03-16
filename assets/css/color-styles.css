@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 html,
 html[data-theme="light"] {
     --main-background-color: #eff1f5;
