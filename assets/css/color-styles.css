@@ -1,12 +1,12 @@
 /* Colors */
 html[data-theme="dark"] {
---base-color: #24273a;
---text-color: #a5acc5;
---accent-color: #c09bef;
---background-color: #1e1e2e;
---code-background-color: #cdd6f3;
---border-color: rgba($text-color, 0.5);
---overlay-color: #cdd6f3;
+base-color: #24273a;
+text-color: #a5acc5;
+accent-color: #c09bef;
+background-color: #1e1e2e;
+code-background-color: #cdd6f3;
+border-color: rgba($text-color, 0.5);
+overlay-color: #cdd6f3;
 }
     
 .sidebar .menu {
