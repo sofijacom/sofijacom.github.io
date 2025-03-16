@@ -1,6 +1,4 @@
 /* Colors */
-@media (prefers-color-scheme: dark) {
-html,
 html[data-theme="dark"] {
 --base-color: #24273a;
 --text-color: #a5acc5;
@@ -10,7 +8,7 @@ html[data-theme="dark"] {
 --border-color: rgba($text-color, 0.5);
 --overlay-color: #cdd6f3;
 }
-}    
+    
 .sidebar .menu {
     font-family: "Jost", sans-serif;
     font-size: 32px;
