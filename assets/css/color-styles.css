@@ -116,7 +116,6 @@ html[data-theme="dark"] {
 }
 
 .sidebar li a {
-    /* position: relative; */
     color: #cdd6f3;     /* цвет текста в баре */
 }
 
@@ -182,19 +181,6 @@ html, body, input, textarea, select, button {
     height:auto;
 }
 
-/*.btn {
- *   display: inline-block;             / кнопки downloand /
- *   padding: 2px 10px 2px 10px;
- *   border: 0;
- *   border-radius: .25em;
- *   background-color: #26074b;
- * /  accent-color-deep-background: #021635; /
- *   color: #cba6f7;
- *   font-weight: bold;
- *   text-align: center;
- *   text-decoration: none;
- *   cursor: pointer;
- } * */
 .btn {
     display: inline-block;
     padding: 2px 10px 2px 10px;
@@ -208,18 +194,16 @@ html, body, input, textarea, select, button {
     cursor: pointer;
     border-color: #a6adc8;
 }
+
 .btn:hover {
     background-color: #26074b;  /* var(--accent-color-deep-background); */
     transition: 0.5s;
 }
+
 .btn:focus {
     background-color: #021635;
     transition: 0.7s
 }
-/* .btn:active {
- *   background-color: #021635;
- *   transition: 0.5s;
- } * */
 
 a {
     color: #cdd6f3;
