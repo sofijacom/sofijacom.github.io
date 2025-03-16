@@ -169,9 +169,11 @@ a:hover, a:focus {
    /* text-decoration: underline; */
 }
       
-div[title]:hover {
-    content: attr(title);
-    background-color: #cdd6f3; 
+a[title]:hover::after {
+  content: attr(title);
+  /* Меняем стили */
+  color: #elegantColor; /* Основной цвет подсказки */
+  background: #elegantBackground; /* Цвет фона подсказки */
 }
       
 .site-title:hover {
