@@ -49,7 +49,29 @@ layout: default
         --content-background-color: #11111b;
        }
      }
-      
+     @media (prefers-color-scheme: dark) {
+    html[data-theme="light"] {
+        --main-background-color: #eff1f5;
+        --main-darken-background-color: #bdc5d4;
+        --crust-background-color: #dce0e8;
+        --mantle-background-color: #e6e9ef;
+        --main-text-color: #4c4f69;
+        --subtext0-color: #6c6f85;
+        --surface0-color: #ccd0da;
+        --overlay1-color: #8c8fa1;
+        --overlay0-color: #9ca0b0;
+        --accent-color: #dc8a78;
+        --accent-color-background: #f6e2dd;
+        --accent-color-deep: #e64553;
+        --accent-color-deep-background: #f8ccd0;
+        --hr-color: #bcc0cc;
+        --link-color: #1e66f5;
+        --code-color: #c7254e;
+        --code-background-color: #f5dfe5;
+        --content-active-color: #8839ef;
+        --content-background-color: #e6e9ef;
+    }
+} 
       body,html {
         margin:0;padding:0;
         height:100%;
