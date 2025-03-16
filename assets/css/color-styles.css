@@ -9,7 +9,8 @@ html[data-theme="dark"] {
 --code-background-color: #cdd6f3;
 --border-color: rgba($text-color, 0.5);
 --overlay-color: #cdd6f3;
-
+}
+}    
 .sidebar .menu {
     font-family: "Jost", sans-serif;
     font-size: 32px;
