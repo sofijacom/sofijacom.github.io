@@ -1,5 +1,5 @@
 /* Colors */
-html[data-theme="dark"] {
+html, body {
 base-color: #24273a;
 text-color: #a5acc5;
 accent-color: #c09bef;
