@@ -169,16 +169,9 @@ a:hover, a:focus {
    /* text-decoration: underline; */
 }
       
-div[title]{
-      position: relative;
-} 
-
-    div[title]:hover:after{
-        content: attr(title);
-        background: #cdd6f3; 
-        position: absolute;
-        left: 50%;
-        top: 1em;
+div[title]:hover {
+    content: attr(title);
+    background-color: #cdd6f3; 
 }
       
 .site-title:hover {
