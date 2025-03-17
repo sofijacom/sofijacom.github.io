@@ -1,9 +1,8 @@
 /* ==========================================================================
  m acchiato* theme skin
  ========================================================================== */
-[data-theme="dark"] {
-/* Colors */
-
+@media (prefers-color-scheme: dark) {
+    html[data-theme="light"] {
 --base-color: #cdd6f3 !important;
 --text-color: #cdd6f3 !important;
 --accent-color: #c09bef !important;
@@ -14,7 +13,8 @@
 --sidebar-background-color: #181825 !important;
 /* $accent-color-background: #26074b !default;
 $accent-color-deep-background: #021635 !default; */
-
+    }
+}
 /* Colors */    
 .sidebar .menu {
     font-family: "Jost", sans-serif;
@@ -165,4 +165,4 @@ svg {
     text-align: right;
     text-decoration: none;
 }
-}
+
