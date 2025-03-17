@@ -127,11 +127,6 @@ a:hover, a:focus {
     text-decoration-thickness: 1px;
 }
 
-/* a:-webkit-any-link {
- *   color: #cdd6f3;
- *   text-decoration: underline;
- } * */
-
 h1, h2, h3, h4, h5, h6 {
     /* font-family: "Fira Sans", sans-serif; */
     font-family: "Inter", sans-serif;
@@ -140,11 +135,6 @@ h1, h2, h3, h4, h5, h6 {
 hr {
     border-top: 2px solid #45475a;
 }
-
-/* .entry-meta .icon {
- *   margin-right: 0.5em;
- *   fill: #b4befe;
- } * */
 
 .icon--github {
     fill: #b4befe;
@@ -168,3 +158,6 @@ svg {
   font-weight:bold;
   fill: #b4befe;
 } 
+.back-to-top {
+    color: #cdd6f3;
+}
