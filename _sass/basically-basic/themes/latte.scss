@@ -97,11 +97,11 @@ p {
     /* display: block; */
 }
 
-/* html, body, input, textarea, select, button {
-    background-color: #e6e9ef;   / нижний блок /
+ html, body, input, textarea, select, button {
+    background-color: #e6e9ef;   /* нижний блок */
     color: #4c4f69;
     height:auto; 
-} */
+}
 
 .btn {
     display: inline-block;
@@ -118,7 +118,7 @@ p {
 }
 
 .btn:hover {
-    background-color: #dc8a78;  /* var(--accent-color-deep-background); */
+    background-color: #dc8a78;
     transition: 0.5s;
 }
 
@@ -132,14 +132,12 @@ a {
 }
 
 a:hover, a:focus {
-    /* color: var(--accent-color); */
     color: #8838ef;
-    /* text-decoration: underline; */
 }
 
 .site-title:hover {
     color: #8838ef;
-    transition: 0.7s;
+    transition: 0.5s;
     text-decoration: underline;          /* dotted , double */
     text-decoration-thickness: 1px;
 }
@@ -197,7 +195,7 @@ hr {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    color: inherit;
+    color: #4c4f69;
     text-decoration: none;
     border-bottom: 1px solid #9ba2b1;
 }
@@ -208,4 +206,8 @@ hr {
 
 .site-footer {
     color: #4c4f69;
+}
+
+.entry:hover {
+    color: #8838ef;
 }
