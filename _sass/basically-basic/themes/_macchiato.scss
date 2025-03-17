@@ -5,7 +5,7 @@
 /* Colors */
 $base-color: #cdd6f3 !default;
 $text-color: #cdd6f3 !default;
-$accent-color: #c09bef !default;
+/*$accent-color: #c09bef !default; */
 $background-color: #181825 !default;
 $code-background-color: #cdd6f3 !default;
 $border-color: rgba($text-color, 0.5) !default;
@@ -114,14 +114,14 @@ a {
     color: #cdd6f3;
 }
 
-/* a:hover, a:focus {
+ a:hover, a:focus {
     color: #cba6f7;
-} */
+}
 
 .site-title:hover {
     color: #cba6f7;
     transition: 0.7s;
-    text-decoration: underline dotted;          /* dotted , double */
+    text-decoration: underline;          /* dotted , double */
     text-decoration-thickness: 1px;
 }
 
@@ -157,5 +157,10 @@ svg {
   fill: #b4befe;
 } 
 .back-to-top {
-    color: #cdd6f3;
+    display: block;
+    color: #a6adc8;
+    font-size: 0.75em;
+    text-transform: uppercase;
+    text-align: right;
+    text-decoration: none;
 }
