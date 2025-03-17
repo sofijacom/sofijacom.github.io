@@ -98,7 +98,7 @@ p {
 }
 
 html, body, input, textarea, select, button {
-    background-color: #11111b;   /* нижний блок */
+    background-color: #e6e9ef;   /* нижний блок */
     color: #4c4f69;
     height:auto;
 }
@@ -118,7 +118,7 @@ html, body, input, textarea, select, button {
 }
 
 .btn:hover {
-    background-color: #26074b;  /* var(--accent-color-deep-background); */
+    background-color: #8838ef;  /* var(--accent-color-deep-background); */
     transition: 0.5s;
 }
 
@@ -138,7 +138,7 @@ a:hover, a:focus {
 }
 
 .site-title:hover {
-    color: #cba6f7;
+    color: #8838ef;
     transition: 0.7s;
     text-decoration: underline dotted;          /* dotted , double */
     text-decoration-thickness: 1px;
