@@ -34,14 +34,15 @@
     text-decoration: none;
     cursor: pointer;
 
- &:hover {
-    background-color: tint($accent-color-background, 20%);
+  &:hover {
+    background-color: tint($accent-color, 20%);
     color: #fff;
-}
+  }
 
- &:focus {
-    background-color: shade(accent-color-deep-background, 20%);
-}
+  &:focus {
+    background-color: shade($accent-color, 20%);
+  }
+     
   .icon {
     margin-right: 0.5em;
   }
