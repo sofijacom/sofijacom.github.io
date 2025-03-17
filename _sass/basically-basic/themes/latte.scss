@@ -64,10 +64,10 @@ $base0f: #c79595 !default;
     /*  display: flex; */
 }
 
-.sidebar > .inner {
+/* .sidebar > .inner {
     background-color: #e6e9ef;
     color: #4c4f69;
-}
+} */
 
 .sidebar>.inner {
     background-color: #e6e9ef;
@@ -200,4 +200,9 @@ hr {
 .back-to-top {
     display: block;
     color: #4c4f69;
+}
+.site-footer {
+    margin-top: 4rem;
+    color: #4c4f69;
+    font-size: 80%;
 }
