@@ -61,7 +61,7 @@ actions:
 
 <p align="center">
   
-  <img src="https://readme-typing-svg.demolab.com?font=Roboto+Slab&pause=1000&color=b4befe&width=435&lines=Thank+you+for+visiting+!+%E2%9D%A4+%E2%9D%A4+%E2%9D%A4+" /> 
+  <img src="https://readme-typing-svg.demolab.com?font=Roboto+Slab&pause=1000&color=454759&width=435&lines=Thank+you+for+visiting+!+%E2%9D%A4+%E2%9D%A4+%E2%9D%A4+" /> 
   
 </p> 
 
