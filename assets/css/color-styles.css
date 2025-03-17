@@ -144,3 +144,14 @@ hr {
 .icon--rss {
     fill: #b4befe;
 }
+.highlight pre {
+    width: 100%;
+    background-color: #0d0e15;
+}
+svg {
+  font-weight:bold;
+  fill: #b4befe;
+} 
+.back-to-top {
+    color: #cdd6f3;
+}
