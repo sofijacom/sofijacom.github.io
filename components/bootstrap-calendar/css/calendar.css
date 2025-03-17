@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap');
 
 :root {
-    --calendar-bg-color: #26263a;
+    --calendar-bg-color: #242739;
     --calendar-font-color: #cdd6f4;
     --weekdays-border-bottom-color: #424456;
     --calendar-date-hover-color: #a1a7c2;
