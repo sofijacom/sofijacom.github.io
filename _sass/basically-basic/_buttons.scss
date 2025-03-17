@@ -35,6 +35,14 @@
     cursor: pointer;
     border-color: #a6adc8;
 
+.btn:hover {
+    background-color: #26074b;
+    transition: 0.5s;
+}
+.btn:focus {
+    background-color: #021635;
+    transition: 0.7s
+}   
   &:hover {
     background-color: tint($accent-color, 20%);
     color: #fff;
