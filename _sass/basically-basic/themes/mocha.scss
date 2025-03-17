@@ -2,7 +2,8 @@
  m acchiato* theme skin
  ========================================================================== */
 @media (prefers-color-scheme: dark) {
-    html[data-theme="light"] {
+  html,
+  html[data-theme="dark"] {
 --base-color: #cdd6f3 !important;
 --text-color: #cdd6f3 !important;
 --accent-color: #c09bef !important;
