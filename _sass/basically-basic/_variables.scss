@@ -1,7 +1,7 @@
 /* ==========================================================================
    Variables
    ========================================================================== */
-
+[data-theme="light"] {
 /* Breakpoint widths */
 $small: 320px !default;
 $medium: 768px !default;
@@ -107,3 +107,4 @@ $navicon-content-bg: $text-color !default;
 /* Site image */
 $site-image-width: 50px !default;
 $site-image-height: 50px !default;
+}
