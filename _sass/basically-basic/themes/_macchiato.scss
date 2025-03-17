@@ -3,6 +3,7 @@
  ========================================================================== */
 
 /* Colors */
+[data-theme="dark"] {
 $base-color: #cdd6f3 !default;
 $text-color: #cdd6f3 !default;
 $accent-color: #c09bef !default;
@@ -11,7 +12,7 @@ $code-background-color: #cdd6f3 !default;
 $border-color: rgba($text-color, 0.5) !default;
 $overlay-color: #1e1e2e !default;
 $sidebar-background-color: #181825 !default;
-$accent-color-background: #f6e2dd !default;
+$accent-color-background: #26074b !default;
 $accent-color-deep-background: #021635 !default;
 
 /* Colors */    
@@ -101,12 +102,12 @@ html, body, input, textarea, select, button {
 }
 
 .btn:hover {
-    background-color: #26074b;  /* var(--accent-color-deep-background); */
+    background-color: #26074b;  /* var($accent-color-background); */
     transition: 0.5s;
 }
 
 .btn:focus {
-    background-color: #021635;
+    background-color: #021635; /* var($accent-color-deep-background); */
     transition: 0.7s
 }
 
@@ -163,4 +164,5 @@ svg {
     text-transform: uppercase;
     text-align: right;
     text-decoration: none;
+}
 }
