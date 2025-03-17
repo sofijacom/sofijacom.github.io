@@ -17,9 +17,9 @@ for (let i of switches) {
 
 function setTheme(theme) {
     if (theme == 'light') {
-        document.getElementById('switcher-id').href = '_sass/basically-basic/themes/plum.scss';
+        document.getElementById('switcher-id').href = 'sass/basically-basic/themes/plum.scss';
     } else if (theme == 'dark') {
-        document.getElementById('switcher-id').href = '_sass/basically-basic/themes/_macchiato.scss';
+        document.getElementById('switcher-id').href = 'sass/basically-basic/themes/macchiato.scss';
     }
     localStorage.setItem('style', theme);
 }
