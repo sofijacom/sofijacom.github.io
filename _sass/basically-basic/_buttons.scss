@@ -33,7 +33,7 @@
     text-align: center;
     text-decoration: none;
     cursor: pointer;
-    border-color: tint($base-color, 85%);
+    border-color: var($border-color, 95%);
 
 .btn:hover {
     background-color: #26074b;
