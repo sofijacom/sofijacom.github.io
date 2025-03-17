@@ -1,7 +1,9 @@
 /* ==========================================================================
  mocha* theme skin
  ========================================================================== */
-/* [data-theme="dark"] { */
+/* @media (prefers-color-scheme: dark) {
+  html,
+  html[data-theme="dark"] { */
 $base-color: #cdd6f3 !default;
 $text-color: #cdd6f3 !default;
 $accent-color: #c09bef !default;
