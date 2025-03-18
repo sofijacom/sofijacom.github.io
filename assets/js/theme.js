@@ -13,4 +13,11 @@ btn.addEventListener("click", function() {
         // …переключаемся на "light-theme.css"
         theme.href = "/sass/basically-basic/variables.scss";
     }
+        function setTheme(theme) {
+        if (theme == 'light-theme') {
+            document.getElementById('switcher-id').href = '/assets/css/light-theme.css';
+        } else if (theme == 'dark-theme') {
+            document.getElementById('switcher-id').href = '/assets/css/light-theme.css';
+        }
+        localStorage.setItem('style', theme);
 });
