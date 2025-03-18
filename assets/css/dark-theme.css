@@ -3,6 +3,7 @@
 body {
     color: #cdd6f3;
     background-color: #181825;
+    display: flex;
 }
 body a {
     color: #c09bef;
@@ -85,10 +86,10 @@ p {
     /* display: block; */
 }
 
-/* html, input, textarea, select, button {
+ html, input, textarea, select, button {
     background-color: #11111b;   
     color: #cdd6f3;
-    height:auto; */
+    height:auto; 
 }
 
 .btn {
