@@ -9,15 +9,22 @@ btn.addEventListener("click", function() {
         // …то переключаемся на "dark-theme.css"
         theme.href = "/assets/css/dark-theme.css";
         // В противном случае…
+             // Add the ff. line to write to memory.
+     localStorage.setItem("my-theme","dark");
     } else {
         // …переключаемся на "light-theme.css"
         theme.href = "/sass/basically-basic/variables.scss";
+             // Add the ff. line to write to memory.
+     localStorage.setItem("my-theme",null);
     }
-        function setTheme(theme) {
-        if (theme == 'light-theme') {
-            document.getElementById('switcher-id').href = '/assets/css/light-theme.css';
-        } else if (theme == 'dark-theme') {
-            document.getElementById('switcher-id').href = '/assets/css/light-theme.css';
-        }
-        localStorage.setItem('style', theme);
+
 });
+ // Check local storage every reload to know which theme to use.
+ if (localStorage.getItem("my-theme")==="dark") {
+   // Use dark theme.
+   theme.href = "/assets/css/dark-theme.css";
+ }
+ else {
+   // Use default theme.
+   theme.href = "/sass/basically-basic/variables.scss";
+ }
