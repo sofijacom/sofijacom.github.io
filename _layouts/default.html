@@ -34,7 +34,7 @@
   {% include head.html %}
 		
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %} {{ page.title | slugify }}">
-    <button class="btn-toggle">Darck Mode</button>
+   
     {% include skip-links.html %}
       <div class="sidebar-toggle-wrapper">  
       {% if site.search %}
@@ -45,7 +45,8 @@
           </svg>
         </button>     
       {% endif %}
-	          	      
+	      
+	 <button class="btn-toggle">Darck Mode</button>         	      
 <!-- Sun -->
 <!-- <i class="fa-regular fa-sun" aria-hidden="true"></i>
 <em></em>
