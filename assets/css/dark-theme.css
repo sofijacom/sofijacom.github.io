@@ -1,16 +1,13 @@
 ​/* dark-theme.css */
 
 body {
-    base-color: #cdd6f3;
-    text-color: #cdd6f3;
+    color: #cdd6f3;
     accent-color: #c09bef;
     background-color: #181825;
-    code-background-color: #cdd6f3;
     border-color: #cdd6f3;
-    overlay-color: #1e1e2e;
 }
 body a {
-    color: #cdd6f3;
+    color: #c09bef;
 }
 /* Colors */
 .sidebar .menu {

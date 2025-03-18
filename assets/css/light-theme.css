@@ -1,14 +1,11 @@
 body {
-    base-color: #4c4f69;
-    text-color: #4c4f69;
+    color: #181825;
     accent-color: #8838ef;
     background-color: #e6e9ef;
-    code-background-color: tint(base-color, 95%);
-    border-color: tint(base-color, 80%);
-    overlay-color: base-color;
+    border-color: #4c4f69;
 }
 body a {
-    color: #4c4f69;
+    color: #8838ef;
 }
 
 /* Colors */
