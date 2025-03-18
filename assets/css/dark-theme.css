@@ -3,7 +3,12 @@
 body {
     color: #cdd6f3;
     background-color: #181825;
+    background-size: cover; 
+    font-family: 'Cabin Condensed', sans-serif;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 body a {
     color: #c09bef;
@@ -161,6 +166,8 @@ hr {
 svg {
     font-weight:bold;
     fill: #b4befe;
+    max-width: 500px;
+    height: auto;
 }
 .back-to-top {
     display: block;
@@ -169,5 +176,10 @@ svg {
     text-transform: uppercase;
     text-align: right;
     text-decoration: none;
+}
+body,html {
+    margin: 0;
+    padding: 0;
+    height: auto;
 }
 
