@@ -1,3 +1,59 @@
+/* ==========================================================================
+ m acchiato* theme skin
+ ========================================================================== */
+
+/* Colors */
+
+html, html[data-theme="light"] {
+    --base-color: #4c4f69 !important;
+    --text-color: #4c4f69 !important;
+    --accent-color: #8838ef !important;
+    --background-color: #e6e9ef !important;
+    --code-background-color: tint($base-color, 95%) !important;
+    --border-color: tint($base-color, 80%) !important;
+    --overlay-color: $base-color !important;
+    --sidebar-background-color: #e6e9ef !important;
+    --site-futer: #4c4f69 !important;
+}
+html[data-theme="dark"] {
+    --base-color: #cdd6f3 !important;
+    --text-color: #cdd6f3 !important;
+    --accent-color: #c09bef !important;
+    --background-color: #181825 !important;
+    --code-background-color: #cdd6f3 !important;
+    --border-color: rgba($text-color, 0.5) !important;
+    --overlay-color: #1e1e2e !important;
+    --sidebar-background-color: #181825 !important;
+    /* $accent-color-background: #26074b !default;
+     $ accent-color-deep-background: #021635 !default; */*
+}
+@media (prefers-color-scheme: dark) {
+    html, html[data-theme="dark"] {
+   --base-color: #cdd6f3 !important;
+   --text-color: #cdd6f3 !important;
+   --accent-color: #c09bef !important;
+   --background-color: #181825 !important;
+   --code-background-color: #cdd6f3 !important;
+   --border-color: rgba($text-color, 0.5) !important;
+   --overlay-color: #1e1e2e !important;
+   --sidebar-background-color: #181825 !important;
+/* $accent-color-background: #26074b !default;
+$accent-color-deep-background: #021635 !default; */
+    }
+    html[data-theme="light"] {
+        --base-color: #4c4f69 !important;
+        --text-color: #4c4f69 !important;
+        --accent-color: #8838ef !important;
+        --background-color: #e6e9ef !important;
+        --code-background-color: tint($base-color, 95%) !important;
+        --border-color: tint($base-color, 80%) !important;
+        --overlay-color: $base-color !important;
+        --sidebar-background-color: #e6e9ef !important;
+        --site-futer: #4c4f69 !important;
+    }
+}
+
+
 /* Colors */    
 .sidebar .menu {
     font-family: "Jost", sans-serif;
@@ -31,10 +87,10 @@
     /*  display: flex; */
 }
 
-.sidebar > .inner {
+/*.sidebar > .inner {
     background-color: #181825;
     color: #cdd6f3;
-}
+} */
 
 .sidebar>.inner {
     background-color: #181825;
@@ -85,12 +141,12 @@ html, body, input, textarea, select, button {
 }
 
 .btn:hover {
-    background-color: #26074b;  /* var(--accent-color-deep-background); */
+    background-color: #26074b;  /* var($accent-color-background); */
     transition: 0.5s;
 }
 
 .btn:focus {
-    background-color: #021635;
+    background-color: #021635; /* var($accent-color-deep-background); */
     transition: 0.7s
 }
 
@@ -98,23 +154,16 @@ a {
     color: #cdd6f3;
 }
 
-a:hover, a:focus {
-    /* color: var(--accent-color); */
+ a:hover, a:focus {
     color: #cba6f7;
-    /* text-decoration: underline; */
 }
 
 .site-title:hover {
     color: #cba6f7;
     transition: 0.7s;
-    text-decoration: underline dotted;          /* dotted , double */
+    text-decoration: underline;          /* dotted , double */
     text-decoration-thickness: 1px;
 }
-
-/* a:-webkit-any-link {
- *   color: #cdd6f3;
- *   text-decoration: underline;
- } * */
 
 h1, h2, h3, h4, h5, h6 {
     /* font-family: "Fira Sans", sans-serif; */
@@ -124,11 +173,6 @@ h1, h2, h3, h4, h5, h6 {
 hr {
     border-top: 2px solid #45475a;
 }
-
-/* .entry-meta .icon {
- *   margin-right: 0.5em;
- *   fill: #b4befe;
- } * */
 
 .icon--github {
     fill: #b4befe;
@@ -153,5 +197,10 @@ svg {
   fill: #b4befe;
 } 
 .back-to-top {
-    color: #cdd6f3;
+    display: block;
+    color: #a6adc8;
+    font-size: 0.75em;
+    text-transform: uppercase;
+    text-align: right;
+    text-decoration: none;
 }
