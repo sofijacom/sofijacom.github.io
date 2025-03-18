@@ -2,17 +2,11 @@
 
 body {
     color: #cdd6f3;
-    background: #181825;
-    base-color: #181825;
+    background-color: #181825;
     text-color: #cdd6f3;
-    accent-color: #c09bef;
-    code-background-color: #cdd6f3;
-    overlay-color: #1e1e2e;
-    sidebar-background-color: #181825;
 }
 body a {
     color: #c09bef;
-    background-color: #181825;
 }
 /* Colors */
 .sidebar .menu {
@@ -46,11 +40,14 @@ body a {
     background-color: #181825;;
 }
 
- .sidebar > .inner {
-     background-color: #181825;
-     color: #cdd6f3;
-     width: 100%;
-     height: 100%; 
+.sidebar>.inner {
+    width: 100%;
+    height: 100%;
+    padding: 1.5em;
+    background-color: #181825;
+    overflow-x: hidden;
+    -webkit-box-shadow: inset -1em 0 5em 0 rgba(0, 0, 0, 0.125);
+    box-shadow: inset -1em 0 5em 0 rgba(0, 0, 0, 0.125);
 }
 
 .inner {
