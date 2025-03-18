@@ -57,7 +57,7 @@ html[data-theme="light"] {
 }
 
 .sidebar li a {
-    color: #cdd6f3;     /* цвет текста в баре */
+    color: #cdd6f3;
 }
 
 .sidebar .contact-list {
@@ -65,8 +65,7 @@ html[data-theme="light"] {
 }
 
 .sidebar .contact-list a {
-    /* display: block; */
-    color: #cdd6f3;    /* цвет текста в баре соц-сети */
+    color: #cdd6f3;
     text-decoration: none;
 }
 
@@ -74,13 +73,12 @@ html[data-theme="light"] {
     position: relative;
     width: 100%;
     height: 100%;
-    background-color: #181825;    /* часть сидебара с кнопками */
+    background-color: #181825;
     color: #cdd6f3;
 }
 
 .sidebar-toggle-wrapper {
-    background-color: #181825;   /* часть сидебара с кнопками */
-    /*  display: flex; */
+    background-color: #181825;
 }
 
 /*.sidebar > .inner {
@@ -102,22 +100,19 @@ html[data-theme="light"] {
 }
 
 div {
-    background-color: #181825;   /* базовый блочный элемент */
-    /* display: block; */
-    /* unicode-bidi: isolate; */
+    background-color: #181825;
 }
 
 * {
-    scrollbar-color: #a3aac5 #2f3234;   /* линия бара */
+    scrollbar-color: #a3aac5 #2f3234;
 }
 
 p {
-    background-color: #181825;    /* надписи */
-    /* display: block; */
+    background-color: #181825;
 }
 
 html, body, input, textarea, select, button {
-    background-color: #11111b;   /* нижний блок */
+    background-color: #11111b;
     color: #cdd6f3;
     height:auto;
 }
@@ -137,12 +132,12 @@ html, body, input, textarea, select, button {
 }
 
 .btn:hover {
-    background-color: #26074b;  /* var($accent-color-background); */
+    background-color: #26074b;
     transition: 0.5s;
 }
 
 .btn:focus {
-    background-color: #021635; /* var($accent-color-deep-background); */
+    background-color: #021635;
     transition: 0.7s
 }
 
@@ -157,7 +152,7 @@ a {
 .site-title:hover {
     color: #cba6f7;
     transition: 0.7s;
-    text-decoration: underline;          /* dotted , double */
+    text-decoration: underline;
     text-decoration-thickness: 1px;
 }
 
