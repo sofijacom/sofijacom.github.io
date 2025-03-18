@@ -36,14 +36,26 @@ body a {
 }
 
 .sidebar-toggle-wrapper {
-    background-color: #181825;   /* часть сидебара с кнопками */
-    /*  display: flex; */
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    top: 0;
+    right: 0;
+    margin: 1.8125rem 0;
+    padding-right: 1rem;
+    background-color: #181825;
+    z-index: 10000;
 }
 
-/*.sidebar > .inner {
- *    background-color: #181825;
- *    color: #cdd6f3;
- * } */
+.sidebar > .inner {
+     background-color: #181825;
+     color: #cdd6f3;
+} 
 
 .sidebar>.inner {
     background-color: #181825;
