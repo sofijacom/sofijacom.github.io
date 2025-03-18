@@ -26,5 +26,5 @@ btn.addEventListener("click", function() {
  }
  else {
    // Use default theme.
-   theme.href = "/sass/basically-basic/variables.scss";
+   theme.href = "/assets/css/dark-theme.css";
  }
