@@ -85,7 +85,7 @@ p {
     /* display: block; */
 }
 
-html, body, input, textarea, select, button {
+html, input, textarea, select, button {
     background-color: #11111b;   /* нижний блок */
     color: #cdd6f3;
     height:auto;
