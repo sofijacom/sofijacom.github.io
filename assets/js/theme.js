@@ -16,7 +16,8 @@ btn.addEventListener("click", function() {
         theme.href = "/sass/basically-basic/variables.scss";
              // Add the ff. line to write to memory.
      localStorage.setItem("my-theme",null);
-    }
+    }    
+});
 
      // Check local storage every reload to know which theme to use.
  if (localStorage.getItem("my-theme")==="dark") {
@@ -27,6 +28,3 @@ btn.addEventListener("click", function() {
    // Use default theme.
    theme.href = "/sass/basically-basic/variables.scss";
  }
-    
-});
-
