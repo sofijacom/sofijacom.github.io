@@ -7,56 +7,61 @@ body {
 body a {
     color: #c09bef;
 }
-/* Colors */
+
 .sidebar .menu {
     font-family: "Jost", sans-serif;
     font-size: 32px;
 }
-
+/* цвет текста в баре */
 .sidebar li a {
-    color: #cdd6f3;     /* цвет текста в баре */
+    color: #cdd6f3;     
 }
 
 .sidebar .contact-list {
     font-size: 24px;
 }
-
+/* цвет текста в баре соц-сети */
 .sidebar .contact-list a {
     /* display: block; */
-    color: #cdd6f3;    /* цвет текста в баре соц-сети */
+    color: #cdd6f3;    
     text-decoration: none;
 }
-
+/* часть сидебара с кнопками */
 .wrapper {
     position: relative;
     width: 100%;
     height: 100%;
-    background-color: #181825;    /* часть сидебара с кнопками */
-    color: #cdd6f3;
+    min-height: 100vh;
+    transform: translateX(0);
+    transition: all 0.4s ease;
+    background-color: #181825;
+    z-index: 100;
+    backface-visibility: hidden;
 }
 
 .sidebar-toggle-wrapper {
     background-color: #181825;
 }
+
 .sidebar>.inner {
     background-color: #181825;
     color: #cdd6f3;
     width: 100%;
     height: 100%;
 }
-
+/* базовый блочный элемент */
 div {
-    background-color: #181825;   /* базовый блочный элемент */
+    background-color: #181825;   
     /* display: block; */
     /* unicode-bidi: isolate; */
 }
-
+/* линия бара */
 * {
-    scrollbar-color: #a3aac5 #2f3234;   /* линия бара */
+    scrollbar-color: #a3aac5 #2f3234;   
 }
-
+/* надписи */
 p {
-    background-color: #181825;    /* надписи */
+    background-color: #181825;    
     /* display: block; */
 }
 
@@ -79,14 +84,14 @@ p {
     cursor: pointer;
     border-color: #a6adc8;
 }
-
+/* var($accent-color-background); */
 .btn:hover {
-    background-color: #26074b;  /* var($accent-color-background); */
+    background-color: #26074b;  
     transition: 0.5s;
 }
-
+/* var($accent-color-deep-background); */
 .btn:focus {
-    background-color: #021635; /* var($accent-color-deep-background); */
+    background-color: #021635; 
     transition: 0.7s
 }
 
@@ -97,11 +102,11 @@ a {
 a:hover, a:focus {
     color: #cba6f7;
 }
-
+/* dotted , double */
 .site-title:hover {
     color: #cba6f7;
     transition: 0.7s;
-    text-decoration: underline;          /* dotted , double */
+    text-decoration: underline;          
     text-decoration-thickness: 1px;
 }
 
@@ -125,19 +130,23 @@ hr {
 .icon--twitter {
     fill: #b4befe;
 }
+
 .icon--rss {
     fill: #b4befe;
 }
+
 .highlight pre {
     width: 100%;
     background-color: #0d0e15;
 }
+
 svg {
     font-weight:bold;
     fill: #b4befe;
     max-width: 500px;
     height: auto;
 }
+
 .back-to-top {
     display: block;
     color: #a6adc8;
@@ -146,3 +155,4 @@ svg {
     text-align: right;
     text-decoration: none;
 }
+
