@@ -1,14 +1,11 @@
 ​/* dark-theme.css */
+:root {
+    background-color: #181825;
+}
 
 body {
     color: #cdd6f3;
     background-color: #181825;
-    background-size: cover; 
-    font-family: 'Cabin Condensed', sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 body a {
     color: #c09bef;
