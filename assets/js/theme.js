@@ -1,5 +1,5 @@
 // Выбираем кнопку
-const btn = document.querySelector(".btn-toggle");
+const btn = document.querySelector("theme-switch");
 // Выбираем таблицу стилей
 const theme = document.querySelector("#theme-link");
 // Отслеживаем щелчок по кнопке
