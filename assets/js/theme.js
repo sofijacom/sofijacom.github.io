@@ -7,7 +7,7 @@ btn.addEventListener("click", function() {
     // Если текущий адрес содержит "light-theme.css"
     if (theme.getAttribute("href") == "/assets/css/light-theme.css") {
         // …то переключаемся на "dark-theme.css"
-        theme.href = "/assets/css/dark.css";
+        theme.href = "/assets/css/dark-theme.css";
         // В противном случае…
              // Add the ff. line to write to memory.
      localStorage.setItem("my-theme","dark");
@@ -22,7 +22,7 @@ btn.addEventListener("click", function() {
      // Check local storage every reload to know which theme to use.
  if (localStorage.getItem("my-theme")==="dark") {
    // Use dark theme.
-   theme.href = "/assets/css/dark.css";
+   theme.href = "/assets/css/dark-theme.css";
  }
  else {
    // Use default theme.
