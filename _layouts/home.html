@@ -13,7 +13,12 @@ layout: default
     <link rel="stylesheet" href="/assets/css/clock33.css">
     <link href="/sass/basically-basic/variables.scss" rel="stylesheet" id="theme-link">
   </head>
-              
+
+   <body>
+  <button class="btn-toggle">Dark/Light</button>
+  <script src="/assets/js/theme.js"></script>
+</body>
+  
    <div class="center">
     <div id="clock33" class="bg-3">
       <span id="clockHours"></span> : <span id="clockMinutes"></span> : <span id="clockSeconds"></span>
@@ -25,13 +30,9 @@ layout: default
     clock33();
   </script>
 
- <body>
-  <button class="btn-toggle">Dark/Light</button>
-  <script src="/assets/js/theme.js"></script>
-</body>
-<script type="text/javascript">
+<!-- <script type="text/javascript">
    document.querySelector(".btn-toggle") = localStorage.getItem("my-theme")==="dark"      
- </script>
+ </script> -->
   
   <style type="text/css" media="screen">
 body,html {
@@ -40,7 +41,7 @@ body,html {
     height: auto;
 }
 body {
-    background: url('https://raw.githubusercontent.com/sofijacom/sofijacom.github.io/refs/heads/master/assets/images/Csgbl.jpg');
+   /* background: url('https://raw.githubusercontent.com/sofijacom/sofijacom.github.io/refs/heads/master/assets/images/Csgbl.jpg'); */
     background-size: cover; 
     font-family: 'Cabin Condensed', sans-serif;
     display: flex;
