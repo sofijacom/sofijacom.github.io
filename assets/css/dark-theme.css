@@ -3,6 +3,13 @@
 body {
     color: #cdd6f3;
     background-color: #181825;
+    base-color: #cdd6f3;
+    text-color: #cdd6f3;
+    accent-color: #c09bef;
+    code-background-color: #cdd6f3;
+    border-color: rgba(text-color, 0.5);
+    overlay-color: #1e1e2e;
+    sidebar-background-color: #181825;
 }
 body a {
     color: #c09bef;
