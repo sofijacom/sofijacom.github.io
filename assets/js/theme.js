@@ -5,7 +5,7 @@ const theme = document.querySelector("#theme-link");
 // Отслеживаем щелчок по кнопке
 btn.addEventListener("click", function() {
     // Если текущий адрес содержит "light-theme.css"
-    if (theme.getAttribute("href") == "/sass/basically-basic/variables.scss") {
+    if (theme.getAttribute("href") == "/assets/css/light-theme.css") {
         // …то переключаемся на "dark-theme.css"
         theme.href = "/assets/css/dark-theme.css";
         // В противном случае…
@@ -13,7 +13,7 @@ btn.addEventListener("click", function() {
      localStorage.setItem("my-theme","dark");
     } else {
         // …переключаемся на "light-theme.css"
-        theme.href = "/sass/basically-basic/variables.scss";
+        theme.href = "/assets/css/light-theme.css";
              // Add the ff. line to write to memory.
      localStorage.setItem("my-theme",null);
     }    
@@ -26,5 +26,5 @@ btn.addEventListener("click", function() {
  }
  else {
    // Use default theme.
-   theme.href = "/sass/basically-basic/variables.scss";
+   theme.href = "/assets/css/light-theme.css";
  }
