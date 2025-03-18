@@ -2,7 +2,7 @@
 
 body {
     color: #cdd6f3;
-    background: #181825;
+    background-color: #181825;
 }
 body a {
     color: #c09bef;
@@ -52,10 +52,10 @@ body a {
     z-index: 10000;
 }
 
-.sidebar > .inner {
+/* .sidebar > .inner {
      background-color: #181825;
      color: #cdd6f3;
-} 
+} */
 
 .sidebar>.inner {
     background-color: #181825;
@@ -85,10 +85,10 @@ p {
     /* display: block; */
 }
 
-html, input, textarea, select, button {
-    background-color: #11111b;   /* нижний блок */
+/* html, input, textarea, select, button {
+    background-color: #11111b;   
     color: #cdd6f3;
-    height:auto;
+    height:auto; */
 }
 
 .btn {
