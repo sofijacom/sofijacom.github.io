@@ -23,7 +23,7 @@ html[data-theme="dark"] {
     --overlay-color: #1e1e2e !important;
     --sidebar-background-color: #181825 !important;
     /* $accent-color-background: #26074b !default;
-     $ accent-color-deep-background: #021635 !default; */*
+     $ accent-color-deep-background: #021635 !default; */
 }
 @media (prefers-color-scheme: dark) {
     html, html[data-theme="dark"] {
@@ -38,21 +38,19 @@ html[data-theme="dark"] {
 /* $accent-color-background: #26074b !default;
 $accent-color-deep-background: #021635 !default; */
     }
-    html[data-theme="light"] {
-        --base-color: #4c4f69 !important;
-        --text-color: #4c4f69 !important;
-        --accent-color: #8838ef !important;
-        --background-color: #e6e9ef !important;
-        --code-background-color: tint($base-color, 95%) !important;
-        --border-color: tint($base-color, 80%) !important;
-        --overlay-color: $base-color !important;
-        --sidebar-background-color: #e6e9ef !important;
-        --site-futer: #4c4f69 !important;
+html[data-theme="light"] {
+    --base-color: #4c4f69 !important;
+    --text-color: #4c4f69 !important;
+    --accent-color: #8838ef !important;
+    --background-color: #e6e9ef !important;
+    --code-background-color: tint($base-color, 95%) !important;
+    --border-color: tint($base-color, 80%) !important;
+    --overlay-color: $base-color !important;
+    --sidebar-background-color: #e6e9ef !important;
+    --site-futer: #4c4f69 !important;
     }
 }
-
-
-/* Colors */    
+   
 .sidebar .menu {
     font-family: "Jost", sans-serif;
     font-size: 32px;
