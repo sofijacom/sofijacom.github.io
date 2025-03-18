@@ -3,14 +3,15 @@
  ========================================================================== */
 
 /* Colors */
-
-$base-color: #cdd6f3 !default;
-$text-color: #cdd6f3 !default;
-$accent-color: #c09bef !default;
-$background-color: #181825 !default;
-$code-background-color: #cdd6f3 !default;
-$border-color: rgba($text-color, 0.5) !default;
-$overlay-color: #1e1e2e !default;
-$sidebar-background-color: #181825 !default;
+body {
+base-color: #cdd6f3;
+text-color: #cdd6f3;
+accent-color: #c09bef;
+background-color: #181825;
+code-background-color: #cdd6f3;
+border-color: rgba($text-color, 0.5);
+overlay-color: #1e1e2e;
+sidebar-background-color: #181825;
 /* $accent-color-background: #26074b !default;
 $accent-color-deep-background: #021635 !default; */
+}
