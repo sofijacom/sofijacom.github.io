@@ -31,12 +31,7 @@
 	
 <html lang="{{ page.lang | default: site.lang | default: 'en-US' }}" class="no-js">
   {% include head.html %}
-	
-  <body>
-    <button class="btn-toggle">Darck Mode</button>
-  <script src="/assets/js/theme.js"></script>
-  </body>
-	
+		
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %} {{ page.title | slugify }}">
     
     {% include skip-links.html %}
@@ -51,14 +46,14 @@
       {% endif %}
 	          	      
 <!-- Sun -->
- <i class="fa-regular fa-sun" aria-hidden="true"></i>
+<!-- <i class="fa-regular fa-sun" aria-hidden="true"></i>
 <em></em>
-<!-- <div class="form-check form-switch form-check-inline toggle-inner">  
+ <div class="form-check form-switch form-check-inline toggle-inner">  
    <input type="checkbox" class="form-check-input" id="theme-switch" title="Dark Mode"> 
      <label class="switch" for="theme-switch"></label>
-	  <script src="/assets/js/theme-switcher.js"></script> -->
+	  <script src="/assets/js/theme-switcher.js"></script>
        <em></em>
-        <!-- moon -->
+        <!-- moon 
       <i class="fa-regular fa-moon" aria-hidden="true"></i> 
      </div>
    <!-- <script type="text/javascript">
@@ -93,7 +88,12 @@
         </div>
       </div>
     </div>
-    
+	  
+ <body>
+    <button class="btn-toggle">Darck Mode</button>
+  <script src="/assets/js/theme.js"></script>
+  </body>
+	  
 <!-- <hr class="hr-shelf">	    
 <style>
 .hr-shelf {
