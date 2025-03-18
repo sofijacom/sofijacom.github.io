@@ -2,7 +2,9 @@
 
 body {
     color: #cdd6f3;
+    accent-color: #c09bef;
     background-color: #181825;
+    border-color: #cdd6f3;
 }
 body a {
     color: #c09bef;
