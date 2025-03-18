@@ -162,17 +162,7 @@ hr {
 }
 
 .taxonomy-index a {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex
-    ;
-    padding: 0.25em 0;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
     color: #4c4f69;
-    text-decoration: none;
-    border-bottom: 1px solid #9ba2b1;
 }
 
 .back-to-top {
