@@ -46,16 +46,11 @@ body a {
     background-color: #181825;;
 }
 
-/* .sidebar > .inner {
+ .sidebar > .inner {
      background-color: #181825;
      color: #cdd6f3;
-} */
-
-.sidebar>.inner {
-    background-color: #181825;
-    color: #cdd6f3;
-    width: 100%;
-    height: 100%;
+     width: 100%;
+     height: 100%; 
 }
 
 .inner {
