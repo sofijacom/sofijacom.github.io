@@ -38,10 +38,12 @@ body a {
 .sidebar-toggle-wrapper {
     background-color: #181825;
 }
-
-  .sidebar > .inner {
+.sidebar>.inner {
     background-color: #181825;
- }
+    color: #cdd6f3;
+    width: 100%;
+    height: 100%;
+}
 
 div {
     background-color: #181825;   /* базовый блочный элемент */
