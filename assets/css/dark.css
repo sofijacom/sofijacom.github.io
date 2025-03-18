@@ -1,15 +1,4 @@
 /* Colors */
-[data-theme="dark"] {
-    --base-color: #cdd6f3 !important;
-    --text-color: #cdd6f3 !important;
-    --accent-color: #c09bef !important;
-    --background-color: #181825 !important;
-    --code-background-color: #cdd6f3 !important;
-    --border-color: rgba($text-color, 0.5) !!important;
-    --overlay-color: #1e1e2e !important;
-    --sidebar-background-color: #181825 !important;
-    --accent-color-background: #26074b !important;
-    --accent-color-deep-background: #021635 !important;
 
  @import url(https://fonts.googleapis.com/css?family=Lato:400,400italic,700|Sansita+One);
   
