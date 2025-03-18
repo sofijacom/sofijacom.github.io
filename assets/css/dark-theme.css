@@ -7,3 +7,155 @@ body {
 }
 body a {
     color: #c09bef;
+}
+/* Colors */
+.sidebar .menu {
+    font-family: "Jost", sans-serif;
+    font-size: 32px;
+}
+
+.sidebar li a {
+    color: #cdd6f3;     /* цвет текста в баре */
+}
+
+.sidebar .contact-list {
+    font-size: 24px;
+}
+
+.sidebar .contact-list a {
+    /* display: block; */
+    color: #cdd6f3;    /* цвет текста в баре соц-сети */
+    text-decoration: none;
+}
+
+.wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #181825;    /* часть сидебара с кнопками */
+    color: #cdd6f3;
+}
+
+.sidebar-toggle-wrapper {
+    background-color: #181825;   /* часть сидебара с кнопками */
+    /*  display: flex; */
+}
+
+/*.sidebar > .inner {
+ *    background-color: #181825;
+ *    color: #cdd6f3;
+ * } */
+
+.sidebar>.inner {
+    background-color: #181825;
+    color: #cdd6f3;
+    width: 100%;
+    height: 100%;
+}
+
+.inner {
+    background-color: #181825;
+    max-width: 1024px;
+    height:auto;
+}
+
+div {
+    background-color: #181825;   /* базовый блочный элемент */
+    /* display: block; */
+    /* unicode-bidi: isolate; */
+}
+
+* {
+    scrollbar-color: #a3aac5 #2f3234;   /* линия бара */
+}
+
+p {
+    background-color: #181825;    /* надписи */
+    /* display: block; */
+}
+
+html, body, input, textarea, select, button {
+    background-color: #11111b;   /* нижний блок */
+    color: #cdd6f3;
+    height:auto;
+}
+
+.btn {
+    display: inline-block;
+    padding: 2px 10px 2px 10px;
+    border: 1px solid #a6adc8;
+    border-radius: 8px;
+    background-color: #18182505;
+    color: #a6adc8;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-color: #a6adc8;
+}
+
+.btn:hover {
+    background-color: #26074b;  /* var($accent-color-background); */
+    transition: 0.5s;
+}
+
+.btn:focus {
+    background-color: #021635; /* var($accent-color-deep-background); */
+    transition: 0.7s
+}
+
+a {
+    color: #cdd6f3;
+}
+
+a:hover, a:focus {
+    color: #cba6f7;
+}
+
+.site-title:hover {
+    color: #cba6f7;
+    transition: 0.7s;
+    text-decoration: underline;          /* dotted , double */
+    text-decoration-thickness: 1px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    /* font-family: "Fira Sans", sans-serif; */
+    font-family: "Inter", sans-serif;
+}
+
+hr {
+    border-top: 2px solid #45475a;
+}
+
+.icon--github {
+    fill: #b4befe;
+}
+
+.icon--email {
+    fill: #b4befe;
+}
+
+.icon--twitter {
+    fill: #b4befe;
+}
+.icon--rss {
+    fill: #b4befe;
+}
+.highlight pre {
+    width: 100%;
+    background-color: #0d0e15;
+}
+svg {
+    font-weight:bold;
+    fill: #b4befe;
+}
+.back-to-top {
+    display: block;
+    color: #a6adc8;
+    font-size: 0.75em;
+    text-transform: uppercase;
+    text-align: right;
+    text-decoration: none;
+}
+
