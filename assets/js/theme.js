@@ -18,13 +18,15 @@ btn.addEventListener("click", function() {
      localStorage.setItem("my-theme",null);
     }
 
-});
- // Check local storage every reload to know which theme to use.
+     // Check local storage every reload to know which theme to use.
  if (localStorage.getItem("my-theme")==="dark") {
    // Use dark theme.
    theme.href = "/assets/css/dark-theme.css";
  }
  else {
    // Use default theme.
-   theme.href = "/assets/css/dark-theme.css";
+   theme.href = "/sass/basically-basic/variables.scss";
  }
+    
+});
+
