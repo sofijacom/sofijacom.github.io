@@ -1,8 +1,6 @@
 body {
     color: #181825;
-    accent-color: #8838ef;
-    background-color: #e6e9ef;
-    border-color: #4c4f69;
+    background: #e6e9ef;
 }
 body a {
     color: #8838ef;
