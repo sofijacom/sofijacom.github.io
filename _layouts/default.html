@@ -18,6 +18,7 @@
     <!-- Place your kit's code here -->
     <script src="https://kit.fontawesome.com/f3014a7b89.js" crossorigin="anonymous"></script>
 	  <link href="/sass/basically-basic/variables.scss" rel="stylesheet" id="theme-link">
+	  <script src="/assets/js/theme.js"></script>
    <!--  <script type="text/javascript" src="/assets/js/darkreader.js"></script> -->
         <!-- Toggle -->
    <!-- <script type="text/javascript" src="/assets/js/theme-switcher.js"></script> -->
@@ -33,7 +34,7 @@
   {% include head.html %}
 		
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %} {{ page.title | slugify }}">
-    
+    <button class="btn-toggle">Darck Mode</button>
     {% include skip-links.html %}
       <div class="sidebar-toggle-wrapper">  
       {% if site.search %}
@@ -88,12 +89,7 @@
         </div>
       </div>
     </div>
-	  
- <body>
-    <button class="btn-toggle">Darck Mode</button>
-  <script src="/assets/js/theme.js"></script>
-  </body>
-	  
+	  	  
 <!-- <hr class="hr-shelf">	    
 <style>
 .hr-shelf {
