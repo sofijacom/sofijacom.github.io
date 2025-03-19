@@ -1,6 +1,11 @@
 /* dark-theme.css */
 
 :root {
+    --base-color: #cdd6f3 !important;
+    --code-background-color: #cdd6f3 !important;
+    --border-color: rgba(--text-color, 0.5) !important;
+    --overlay-color: #1e1e2e !important;
+    --sidebar-background-color: #181825 !important;
     --background-color: #181825 !important;
     --text-color: #cdd6f3 !important;
     --accent-color: #c09bef !important;

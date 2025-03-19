@@ -1,6 +1,11 @@
 /* light-theme.css */
 
 :root {
+    --base-color: #4c4f69 !important;
+    --code-background-color: tint(--base-color, 95%) !important;
+    --border-color: var(--base-color, 80%) !important;
+    --overlay-color: var(--base-color) !important;
+    --sidebar-background-color: var(--background-color) !important;
     --background-color: #e6e9ef !important;
     --text-color: #181825 !important;
     --accent-color: #8838ef !important;
