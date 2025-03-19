@@ -50,7 +50,20 @@ body a {
 }
 
 .sidebar-toggle-wrapper {
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+    ;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    top: 0;
+    right: 0;
+    margin: 1.8125rem 0;
+    padding-right: 1rem;
     background-color: #181825;
+    z-index: 10000;
 }
 
 .wrapper {
@@ -75,7 +88,7 @@ p {
     background-color: #181825;    /* надписи */
 }
  /* нижний блок */
- html, input, textarea, select, button {
+ html, body, input, textarea, select, button {
     background: #11111b;
     color: #cdd6f3;
     height:auto;
@@ -85,6 +98,10 @@ p {
     background: #11111b;
     color: #cdd6f3;
     height: auto;
+    display: inline-block;
+    padding: 2px 10px 2px 10px;
+    border: 1px solid #a6adc8;
+    border-radius: 8px;
 }
 
 .btn {
@@ -172,5 +189,5 @@ header {
 .site-footer {
     margin-top: 4rem;
     color: #b4befe;
-    font-size: 90%;
+    font-size: 95%;
 }

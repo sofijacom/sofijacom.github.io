@@ -50,7 +50,20 @@ body a {
 }
 
 .sidebar-toggle-wrapper {
-    background-color: #e6e9ef;
+        position: absolute;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex
+        ;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        top: 0;
+        right: 0;
+        margin: 1.8125rem 0;
+        padding-right: 1rem;
+        background-color: #e6e9ef;
+        z-index: 10000;
 }
 
 .wrapper {
@@ -77,7 +90,7 @@ p {
     /* display: block; */
 }
 /* нижний блок */
- html, input, textarea, select, button {
+ html, body, input, textarea, select, button {
     background-color: #e6e9ef;
     color: #4c4f69;
     height:auto;
@@ -87,7 +100,10 @@ p {
     background: #cdd6f3;
     color: #11111b;
     height: auto;
-    align-items: center;
+    display: inline-block;
+    padding: 2px 10px 2px 10px;
+    border: 1px solid #a6adc8;
+    border-radius: 8px;
 }
 
 .btn {
@@ -168,5 +184,5 @@ header {
 .site-footer {
     margin-top: 4rem;
     color: #181825;
-    font-size: 90%;
+    font-size: 95%;
 }
