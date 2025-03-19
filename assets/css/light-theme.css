@@ -1,9 +1,9 @@
 /* light-theme.css */
 
 :root {
-    --background-color: #e6e9ef;
-    --text-color: #181825;
-    --accent-color: #8838ef;
+    --background-color: #e6e9ef !important;
+    --text-color: #181825 !important;
+    --accent-color: #8838ef !important;
 }
 
 body {
@@ -142,4 +142,9 @@ h1, h2, h3, h4, h5, h6 {
 .highlight pre {
     width: 100%;
     background-color: #2f363d;
+}
+
+header {
+    display: block;
+    background-color: #e6e9ef;
 }
