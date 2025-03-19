@@ -1,9 +1,9 @@
 /* dark-theme.css */
 
 :root {
-    --background-color: #181825;
-    --text-color: #cdd6f3;
-    --accent-color: #c09bef;
+    --background-color: #181825 !important;
+    --text-color: #cdd6f3 !important;
+    --accent-color: #c09bef !important;
 }
 
 body {
