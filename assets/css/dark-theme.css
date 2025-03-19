@@ -1,13 +1,28 @@
 /* dark-theme.css */
 
+:root {
+    --background-color: #181825;
+    --text-color: #cdd6f3;
+    --accent-color: #c09bef;
+}
+
 body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+a {
+    color: var(--accent-color);
+}
+
+/* body {
     background: #181825;
     color: #cdd6f3;
 
 }
 body a {
     color: #c09bef;
-}
+} */
 
 .sidebar .menu {
     font-family: "Jost", sans-serif;
