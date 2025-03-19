@@ -126,6 +126,18 @@ h1, h2, h3, h4, h5, h6 {
 .highlight pre {
     width: 100%;
     background-color: #ccd0da;
-    color: #262b3e;
+    color: #4c4f69;
+    overflow: auto;
+    font-size: 85%;
+    line-height: 1.45;
+    border-radius: 6px;
 
+}
+.markdown-body pre {
+    background-color: #ccd0da;
+    color: #4c4f69;
+    overflow: auto;
+    font-size: 85%;
+    line-height: 1.45;
+    border-radius: 6px;
 }
