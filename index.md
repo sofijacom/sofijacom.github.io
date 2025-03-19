@@ -10,15 +10,6 @@ actions:
 ---
 
 
-<!-- <h3 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Roboto+Slab&color=7D3ACC&size=35&center=true&vCenter=true&width=1600&height=70&duration=4000&lines=Hello+There!+I'm+Sofiya+" />
-</h3> -->
-
-
-<!-- <p align="center">
-  <img src="https://github.com/sofijacom/sofijacom/assets/107557749/c4abfbc2-02d4-4a79-a75f-24e948bf83ee" /> 
-</p> -->
-
 <hr>
 
 - [Main forum](https://forum.puppylinux.com/viewforum.php?f=228)
@@ -34,6 +25,7 @@ actions:
 
 
 #### KLA 64 bit.
+
 
 - [KLA-OT2baseCE](https://github.com/sofijacom/KLA-OT2baseCE)
 - [KLA-HyprlandCE](https://github.com/sofijacom/KLA-Hyprland)
@@ -57,13 +49,6 @@ actions:
 
 - [KLF-Rawhide-CE](https://github.com/sofijacom/KLF-Rawhide-CE)
  
-
-<p align="center">
-  
-  <img src="https://readme-typing-svg.demolab.com?font=Roboto+Slab&pause=1000&color=b4befe&width=435&lines=Thank+you+for+visiting+!+%E2%9D%A4+%E2%9D%A4+%E2%9D%A4+" /> 
-  
-</p> 
-
 
 <p align="center">
   
