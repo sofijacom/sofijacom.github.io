@@ -78,11 +78,10 @@ p {
     height:auto;
 } */
 
-button {
+.btn-toggle {
     background: #11111b;
     color: #cdd6f3;
     height: auto;
-    align-items: center;
 }
 
 .btn {

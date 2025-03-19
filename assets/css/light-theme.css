@@ -79,7 +79,7 @@ p {
     height:auto;
 } */
 
-button {
+.btn-toggle {
     background: #cdd6f3;
     color: #11111b;
     height: auto;
