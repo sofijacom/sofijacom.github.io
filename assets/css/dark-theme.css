@@ -91,17 +91,17 @@ p {
     cursor: pointer;
     border-color: #a6adc8;
 }
-/*.btn:hover {
+.btn:hover {
 
-    transition: 0.5s;
-}
-.btn:active {
-    background-color: #021635;
     transition: 0.5s;
 }
 .btn:focus {
     background-color: #021635;
     transition: 0.7s
+}
+/* .btn:active {
+    background-color: #021635;
+    transition: 0.5s;
 } */
 
 a {
