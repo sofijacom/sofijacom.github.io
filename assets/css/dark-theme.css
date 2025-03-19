@@ -66,9 +66,8 @@ p {
 }
 
  html, body, input, textarea, select, button {
-    background-color: #11111b;   
+    background-color: #181825;   
     color: #cdd6f3;
-    height:auto; 
 }
 
 .btn {
