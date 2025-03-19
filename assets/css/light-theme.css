@@ -125,22 +125,5 @@ h1, h2, h3, h4, h5, h6 {
 
 .highlight pre {
     width: 100%;
-    background-color: #ccd0da;
-}
-
-.highlight .n {
-    color: #4c4f69;
-}
-.highlight .cp {
-    color: #000;
-}
-.highlight .c1 {
-    color: #b41ac5;
-}
-.highlight .cm {
-    color: #6f7076;
-}
-
-.markdown-body pre {
-    border-radius: 6px;
+    background-color: #2f363d;
 }
