@@ -1,7 +1,7 @@
 /* dark-theme.css */
 
 :root {
-    --base-color: #cdd6f3 !important;
+    --base-color: #1e1e2e !important;
     --code-background-color: #cdd6f3 !important;
     --border-color: rgba(--text-color, 0.5) !important;
     --overlay-color: #1e1e2e !important;
@@ -72,11 +72,15 @@ p {
     /* display: block; */
 }
  /* нижний блок */
-/* html, body, input, textarea, select, button {
+ html, body, input, textarea, select, button {
     background: #11111b;
     color: #cdd6f3;
     height:auto;
-} */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 .btn {
     display: inline-block;
