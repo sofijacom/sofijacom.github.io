@@ -1,5 +1,5 @@
 ---
-title: 🌿 About # 𝔸𝕓𝕠𝕦𝕥
+title: 🌿 About
 layout: about
 header-mask: 0.4
 multilingual: true
