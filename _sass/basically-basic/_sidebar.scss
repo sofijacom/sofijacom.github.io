@@ -15,7 +15,7 @@
   transition: visibility 0s 0.3s;
 
   @include breakpoint($large) {
-    max-width: (1.2 * $sidebar-width);
+    max-width: (1.5 * $sidebar-width);
   }
 
   &.is--visible {
@@ -109,7 +109,7 @@
   }
 
   .contact-list {
-    @include fluid-type($min-vw, $max-vw, 18px, 24px);
+    @include fluid-type($min-vw, $max-vw, 24px, 34px);
     margin-top: 0.5rem;
     padding-top: 0.5rem;
 
