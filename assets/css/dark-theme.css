@@ -76,10 +76,6 @@ p {
     background: #11111b;
     color: #cdd6f3;
     height:auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .btn {
