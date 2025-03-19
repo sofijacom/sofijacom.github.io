@@ -124,3 +124,8 @@ h1, h2, h3, h4, h5, h6 {
 .icon--rss {
     fill: #b4befe;
 }
+
+.highlight pre {
+    width: 100%;
+    background-color: #0d0e15;
+}
