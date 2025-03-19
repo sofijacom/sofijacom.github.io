@@ -1,5 +1,5 @@
 ---
-title: 📁 Archive # 𝔸𝕣𝕔𝕙𝕚𝕧𝕖
+title: Archive
 layout: tags
 permalink: /tags/
 ---
