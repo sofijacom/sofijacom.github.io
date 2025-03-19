@@ -1,0 +1,304 @@
+---
+layout: default
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">   
+     <title>Kennel Linux Home Page</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/assets/css/style.css">
+    <script type="text/javascript" src="/assets/js/clock33.js"></script>
+    <link rel="stylesheet" href="/assets/css/clock33.css">
+  </head>
+              
+   <div class="center">
+    <div id="clock33" class="bg-3">
+      <span id="clockHours"></span> : <span id="clockMinutes"></span> : <span id="clockSeconds"></span>
+
+      </div>
+
+      </div>
+     <script>
+    clock33();
+  </script>
+  
+    <style type="text/css" media="screen">
+
+      body,html {
+        margin:0;padding:0;
+        height:100%;
+      /*  background-color: #181825; */
+      }
+      
+      body {
+       background:url('https://raw.githubusercontent.com/sofijacom/sofijacom.github.io/refs/heads/master/assets/images/Csgbl.jpg');
+       background-size: cover;
+       font-family: 'Cabin Condensed', sans-serif;
+       display:flex;   
+     /* display: block; */
+     /* position: relative; */
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+      
+ .sidebar .menu {
+     font-family: "Jost", sans-serif;
+     font-size: 32px;
+  }
+      
+ .sidebar li a {
+   /* position: relative; */
+    color: #cdd6f3;     /* цвет текста в баре */
+}
+
+.sidebar .contact-list {
+    font-size: 24px;
+}
+      
+.sidebar .contact-list a {
+   /* display: block; */
+    color: #cdd6f3;    /* цвет текста в баре соц-сети */
+    text-decoration: none;
+}
+      
+.wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #181825;    /* часть сидебара с кнопками */
+    color: #cdd6f3;
+}      
+      
+ .sidebar-toggle-wrapper {
+    background-color: #181825;   /* часть сидебара с кнопками */
+  /*  display: flex; */
+}
+     
+.sidebar > .inner {
+    background-color: #181825;
+    color: #cdd6f3;
+    }
+
+.sidebar>.inner {
+    background-color: #181825;
+    color: #cdd6f3;
+    width: 100%;
+    height: 100%;
+    }
+
+.inner {
+    background-color: #181825;
+    max-width: 1024px;
+    height:auto;
+}
+
+div {
+    background-color: #181825;   /* базовый блочный элемент */
+   /* display: block; */
+   /* unicode-bidi: isolate; */
+}
+
+* {
+    scrollbar-color: #a3aac5 #2f3234;   /* линия бара */
+}
+
+p {
+    background-color: #181825;    /* надписи */
+   /* display: block; */
+}
+
+html, body, input, textarea, select, button {
+    background-color: #11111b;   /* нижний блок */
+    color: #cdd6f3;
+    height:auto;
+}
+      
+/*.btn {
+    display: inline-block;             / кнопки downloand /
+    padding: 2px 10px 2px 10px;
+    border: 0;
+    border-radius: .25em;
+    background-color: #26074b;
+  /  accent-color-deep-background: #021635; /
+    color: #cba6f7;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer; 
+} */
+.btn {
+    display: inline-block;
+    padding: 2px 10px 2px 10px;
+    border: 1px solid #a6adc8;
+    border-radius: 8px;
+    background-color: #18182505;
+    color: #a6adc8;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-color: #a6adc8;
+}     
+ .btn:hover {
+    background-color: #26074b;  /* var(--accent-color-deep-background); */
+    transition: 0.5s;
+}
+.btn:active {
+    background-color: #021635;
+    transition: 0.5s;
+}
+.btn:focus {
+    background-color: #021635;
+    transition: 0.7s
+}
+      
+a {
+    color: #cdd6f3;
+}
+      
+a:hover, a:focus {
+   /* color: var(--accent-color); */
+    color: #cba6f7;
+   /* text-decoration: underline; */
+}
+            
+.site-title:hover {
+    color: #cba6f7;
+    transition: 0.7s;
+    text-decoration: underline dotted;          /* dotted , double */ 
+    text-decoration-thickness: 1px;
+}
+      
+/* a:-webkit-any-link {
+    color: #cdd6f3; 
+    text-decoration: underline;
+} */
+
+ h1, h2, h3, h4, h5, h6 {
+   /* font-family: "Fira Sans", sans-serif; */
+    font-family: "Inter", sans-serif;
+} 
+      
+hr {
+    border-top: 2px solid #45475a;
+}
+      
+/* .entry-meta .icon {
+    margin-right: 0.5em;
+    fill: #b4befe;
+} */
+      
+.icon--github {
+    fill: #b4befe;
+}
+      
+.icon--email {
+    fill: #b4befe;
+}
+      
+.icon--twitter {
+    fill: #b4befe;
+}
+.icon--rss {
+    fill: #b4befe;
+}
+      
+svg {
+  font-weight:bold;
+  max-width:500px;
+  height:auto;
+}      
+    </style>
+  
+  <body>
+    <header></header>
+    <main></main>
+    <footer></footer>
+  </body>
+</html>
+
+{% include page-intro.html %}
+
+<!-- <h3 align="center"
+  <div class="animated-text">
+    <div>
+      <i>" Welcome "</i> 
+        <p> 👋 </p> 	       
+          <div class="header-line"> 
+             <strong> ━━━━━━  ❖  ━━━━━━ </strong>
+        </div> 
+    </div>	
+</h3> -->
+
+<p align="center">
+<svg viewbox="0 0 100 20">
+  <defs>
+    <linearGradient id="gradient" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="5%" stop-color="#829298"/>
+      <stop offset="95%" stop-color="#495881"/>
+    </linearGradient>
+    <pattern id="wave" x="0" y="0" width="120" height="20" patternUnits="userSpaceOnUse">
+      <path id="wavePath" d="M-40 9 Q-30 7 -20 9 T0 9 T20 9 T40 9 T60 9 T80 9 T100 9 T120 9 V20 H-40z" fill="url(#gradient)"> 
+      
+      <!-- Анимация волны достигается перемещением path  -->
+     
+     <animateTransform attributeName="transform" type="translate" begin="0s" dur="1.5s" from="0,0" to="40,0" repeatCount="indefinite" />
+      </path>
+    </pattern>
+  </defs>
+      <!-- Паттерн c анимированной волной применяется к тексту -->
+  <text text-anchor="middle" x="50" y="15" font-size="17" fill="url(#wave)"  fill-opacity="0.9">WELCOME</text>
+  <text text-anchor="middle" x="50" y="15" font-size="17" fill="url(#gradient)" fill-opacity="0.3">WELCOME</text>
+</svg>
+  </p>
+
+<!--
+<h3 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Roboto+Slab&color=829298&size=32&center=true&vCenter=true&width=1600&height=70&duration=4500&lines=Hello+There!+I'm+Sofiya+" alt="cat-footer" />
+</h3>
+
+<p align="center">
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Roboto+Slab&size=46&duration=5000&pause=1000&color=829298&width=210&height=80&lines=Welcome" alt="Typing SVG" /></a>
+  <img src="assets/images/Welcome-2.gif" alt="cat-footer"/>
+</p>
+
+<div class="header-line">
+  <p align="center">
+     ━━━━━━  ❖  ━━━━━━  
+  </p>
+  </div> 
+-->
+<!-- <h3 align="center">
+        <div class="header-line">
+          <strong> ━━━━━━  ❖  ━━━━━━ </strong> 
+        </div>
+</h3> -->
+
+<main id="main" class="page-content" aria-label="Content">
+  <div class="index inner">
+    <div>{{ content }}</div>
+    
+    {% if site.posts.size > 0 %}
+      <div>
+        <header class="section-title">
+          <h2>{{ site.data.theme.t.posts | default: 'Posts' }}{% if paginator.page > 1 %}{{ site.data.theme.t.page | default: 'Page' | prepend: ' - ' | append: ' ' }}{{ paginator.page }} {{ site.data.theme.t.of | default: 'of' }} {{ paginator.total_pages }}{% endif %}</h2>
+        </header>
+        <div class="entries-{{ page.entries_layout | default: 'list' }}">
+          {% if site.plugins contains 'jekyll-paginate' and page.paginate or site.gems contains 'jekyll-paginate' and page.paginate %}
+            {% comment %}
+              Add paginator.posts loop if jekyll-paginate plugin is enabled
+              and page.paginate == true
+            {% endcomment %}
+            {% include posts-paginated.html %}
+          {% else %}
+            {% include posts-all.html %}
+          {% endif %}
+        </div>
+      </div>    
+    {% endif %}
+    
+ </div>
+</main>
