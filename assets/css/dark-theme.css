@@ -151,4 +151,8 @@ svg {
     text-align: right;
     text-decoration: none;
 }
-
+article, aside, footer, header, nav, section {
+    display: block;
+    background-color: #181825;
+    color: #a6adc8;
+}
