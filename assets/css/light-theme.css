@@ -49,6 +49,10 @@ body a {
     text-decoration: none;
 }
 
+.sidebar-toggle-wrapper {
+    background-color: #e6e9ef;
+}
+
 .wrapper {
     position: relative;
     width: 100%;
@@ -73,11 +77,11 @@ p {
     /* display: block; */
 }
 /* нижний блок */
-/* html, body, input, textarea, select, button {
+ html, input, textarea, select, button {
     background-color: #e6e9ef;
     color: #4c4f69;
     height:auto;
-} */
+}
 
 .btn-toggle {
     background: #cdd6f3;
@@ -159,4 +163,10 @@ h1, h2, h3, h4, h5, h6 {
 header {
     display: block;
     background-color: #e6e9ef;
+}
+
+.site-footer {
+    margin-top: 4rem;
+    color: #181825;
+    font-size: 90%;
 }

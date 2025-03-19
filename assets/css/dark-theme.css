@@ -49,6 +49,10 @@ body a {
     text-decoration: none;
 }
 
+.sidebar-toggle-wrapper {
+    background-color: #181825;
+}
+
 .wrapper {
     position: relative;
     width: 100%;
@@ -69,14 +73,13 @@ div {
 
 p {
     background-color: #181825;    /* надписи */
-    /* display: block; */
 }
  /* нижний блок */
-/* html, body, input, textarea, select, button {
+ html, input, textarea, select, button {
     background: #11111b;
     color: #cdd6f3;
     height:auto;
-} */
+}
 
 .btn-toggle {
     background: #11111b;
@@ -164,4 +167,10 @@ h1, h2, h3, h4, h5, h6 {
 header {
     display: block;
     background-color: #181825;
+}
+
+.site-footer {
+    margin-top: 4rem;
+    color: #b4befe;
+    font-size: 90%;
 }
