@@ -140,10 +140,7 @@ hr {
 }
 
 svg {
-    font-weight:bold;
     fill: #b4befe;
-    max-width: 500px;
-    height: auto;
 }
 
 .back-to-top {
