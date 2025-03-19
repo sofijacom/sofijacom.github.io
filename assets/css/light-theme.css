@@ -1,8 +1,9 @@
 /* light-theme.css */
 
 body {
+    background: #e6e9ef;
     color: #181825;
-    background-color: #e6e9ef;
+
 }
 body a {
     color: #8838ef;

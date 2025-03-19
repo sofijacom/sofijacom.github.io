@@ -1,8 +1,9 @@
 /* dark-theme.css */
 
 body {
+    background: #181825;
     color: #cdd6f3;
-    background-color: #181825;
+
 }
 body a {
     color: #c09bef;
@@ -128,4 +129,30 @@ h1, h2, h3, h4, h5, h6 {
 .highlight pre {
     width: 100%;
     background-color: #1e1e2e;
+}
+
+.header .container, .footer .container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex
+    ;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
