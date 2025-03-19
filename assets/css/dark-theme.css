@@ -7,11 +7,11 @@
 }
 
 body {
-    background-color: var(--background-color);
+    background: var(--background-color);
     color: var(--text-color);
 }
 
-a {
+body a {
     color: var(--accent-color);
 }
 
@@ -67,11 +67,11 @@ p {
     /* display: block; */
 }
  /* нижний блок */
-html, body, input, textarea, select, button {
+/* html, body, input, textarea, select, button {
     background: #11111b;
     color: #cdd6f3;
     height:auto;
-}
+} */
 
 .btn {
     display: inline-block;
@@ -126,7 +126,7 @@ h1, h2, h3, h4, h5, h6 {
  fill: #b4befe;
  } */
 
-.icon--github {
+/* .icon--github {
     fill: #b4befe;
 }
 
@@ -139,14 +139,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 .icon--rss {
     fill: #b4befe;
-}
+} */
 
 .highlight pre {
     width: 100%;
     background-color: #1e1e2e;
 }
 
-.header .container, .footer .container {
+/* .header .container, .footer .container {
    background-color: #181825;
-}
+} */
 

@@ -1,13 +1,28 @@
 /* light-theme.css */
 
+:root {
+    --background-color: #e6e9ef;
+    --text-color: #181825;
+    --accent-color: #8838ef;
+}
+
 body {
+    background: var(--background-color);
+    color: var(--text-color);
+}
+
+body a {
+    color: var(--accent-color);
+}
+
+/* body {
     background: #e6e9ef;
     color: #181825;
 
 }
 body a {
     color: #8838ef;
-}
+} */
 
 /* Colors */
 .sidebar .menu {
@@ -108,7 +123,7 @@ h1, h2, h3, h4, h5, h6 {
  *   fill: #b4befe;
  * } * */
 
-.icon--github {
+/* .icon--github {
     fill: #4c4f69;
 }
 
@@ -122,7 +137,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .icon--rss {
     fill: #4c4f69;
-}
+} */
 
 .highlight pre {
     width: 100%;
