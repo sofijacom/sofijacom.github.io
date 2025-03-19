@@ -70,8 +70,8 @@ html, body, input, textarea, select, button {
     cursor: pointer;
     border-color: #a6adc8;
 }
-.btn:hover {
-    background-color: #26074b;  /* var(--accent-color-deep-background); */
+/*.btn:hover {
+
     transition: 0.5s;
 }
 .btn:active {
@@ -81,7 +81,7 @@ html, body, input, textarea, select, button {
 .btn:focus {
     background-color: #021635;
     transition: 0.7s
-}
+} */
 
 a {
     color: #cdd6f3;
@@ -105,10 +105,6 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Inter", sans-serif;
 }
 
-hr {
-    border-top: 2px solid #45475a;
-}
-
 /* .entry-meta .icon {
  m ar*gin-right: 0.5em;
  fill: #b4befe;
@@ -129,8 +125,8 @@ hr {
     fill: #b4befe;
 }
 
-svg {
+/* svg {
     font-weight:bold;
     max-width:500px;
     height:auto;
-}
+} */
