@@ -51,12 +51,12 @@ p {
     background-color: #e6e9ef;    /* надписи */
     /* display: block; */
 }
-
-html, body, input, textarea, select, button {
-    background-color: #e6e9ef;   /* нижний блок */
+/* нижний блок */
+/* html, body, input, textarea, select, button {
+    background-color: #e6e9ef;
     color: #4c4f69;
     height:auto;
-}
+} */
 
 .btn {
     display: inline-block;
@@ -100,10 +100,6 @@ a:hover, a:focus {
 h1, h2, h3, h4, h5, h6 {
     /* font-family: "Fira Sans", sans-serif; */
     font-family: "Inter", sans-serif;
-}
-
-hr {
-    border-top: 2px solid #45475a;
 }
 
 /* .entry-meta .icon {
