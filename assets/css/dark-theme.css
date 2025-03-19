@@ -72,10 +72,17 @@ p {
     /* display: block; */
 }
  /* нижний блок */
- html, body, input, textarea, select, button {
+/* html, body, input, textarea, select, button {
     background: #11111b;
     color: #cdd6f3;
     height:auto;
+} */
+
+button {
+    background: #11111b;
+    color: #cdd6f3;
+    height: auto;
+    align-items: center;
 }
 
 .btn {
