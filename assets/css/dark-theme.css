@@ -72,6 +72,16 @@ p {
     height:auto;
 } */
 /* кнопка переключения тем */
+.btn-toggle {
+    background: #11111b;
+    color: #cdd6f3;
+    height: auto;
+    display: inline-block;
+    padding: 2px 10px 2px 10px;
+    border: 1px solid #a6adc8;
+    border-radius: 10px;
+    margin-right: 10px;
+}
 
 .btn {
     display: inline-block;
