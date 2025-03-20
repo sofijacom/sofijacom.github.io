@@ -20,59 +20,50 @@ body {
     color: #c09bef !important;
 } */
 
-/* body {
-    background: #181825;
-    color: #cdd6f3;
-
-}
-body a {
-    color: #c09bef;
-} */
 
 .sidebar .menu {
     font-family: "Jost", sans-serif;
     font-size: 32px;
 }
-
+/* цвет текста в баре */
 .sidebar li a {
-    /* position: relative; */
-    color: #cdd6f3;     /* цвет текста в баре */
+    color: #cdd6f3;
 }
 
 .sidebar .contact-list {
     font-size: 24px;
 }
-
+/* цвет текста в баре соц-сети */
 .sidebar .contact-list a {
     /* display: block; */
-    color: #cdd6f3;    /* цвет текста в баре соц-сети */
+    color: #cdd6f3;
     text-decoration: none;
 }
 
 .sidebar-toggle-wrapper {
     background-color: #181825 !important;
 }
-
+ /* часть сидебара с кнопками */
 .wrapper {
     position: relative;
     width: 100%;
     height: 100%;
-    background-color: #181825;    /* часть сидебара с кнопками */
+    background-color: #181825;
     color: #cdd6f3;
 }
-
+/* базовый блочный элемент */
 div {
-    background-color: #181825;   /* базовый блочный элемент */
+    background-color: #181825;
     /* display: block; */
     /* unicode-bidi: isolate; */
 }
-
+/* линия бара */
 * {
-    scrollbar-color: #a3aac5 #2f3234;   /* линия бара */
+    scrollbar-color: #a3aac5 #2f3234;
 }
-
+/* надписи */
 p {
-    background-color: #181825;    /* надписи */
+    background-color: #181825;
     display: block;
 }
  /* нижний блок */
@@ -142,9 +133,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* .entry-meta .icon {
- m ar*gin-right: 0.5em;
+ margin-right: 0.5em;
  fill: #b4befe;
- } */
+} */
 
 /* .icon--github {
     fill: #b4befe;

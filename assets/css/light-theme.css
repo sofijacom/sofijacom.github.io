@@ -20,60 +20,50 @@ body {
     color: #8838ef !important;
 } */
 
-/* body {
-    background: #e6e9ef;
-    color: #181825;
-
-}
-body a {
-    color: #8838ef;
-} */
-
 /* Colors */
 .sidebar .menu {
     font-family: "Jost", sans-serif;
     font-size: 32px;
 }
-
+/* цвет текста в баре */
 .sidebar li a {
-    color: #4c4f69;     /* цвет текста в баре */
+    color: #4c4f69;
 }
 
 .sidebar .contact-list {
     font-size: 24px;
 }
-
+/* цвет текста в баре соц-сети */
 .sidebar .contact-list a {
-    /* display: block; */
-    color: #4c4f69;    /* цвет текста в баре соц-сети */
+    color: #4c4f69;
     text-decoration: none;
 }
 
 .sidebar-toggle-wrapper {
         background-color: #e6e9ef !important;
 }
-
+/* часть сидебара с кнопками */
 .wrapper {
     position: relative;
     width: 100%;
     height: 100%;
-    background-color: #e6e9ef;    /* часть сидебара с кнопками */
+    background-color: #e6e9ef;
     color: #4c4f69;
 }
 
-
+/* базовый блочный элемент */
 div {
-    background-color: #e6e9ef;   /* базовый блочный элемент */
+    background-color: #e6e9ef;
     /* display: block; */
     /* unicode-bidi: isolate; */
 }
-
+/* линия бара */
 * {
-    scrollbar-color: #a3aac5 #2f3234;   /* линия бара */
+    scrollbar-color: #a3aac5 #2f3234;
 }
-
+/* надписи */
 p {
-    background-color: #e6e9ef;    /* надписи */
+    background-color: #e6e9ef;
     display: block;
 }
 /* нижний блок */
@@ -105,7 +95,6 @@ p {
     text-align: center;
     text-decoration: none;
     cursor: pointer;
-    /* border-color: #a6adc8; */
 }
 
 .btn:hover {
@@ -141,7 +130,7 @@ h1, h2, h3, h4, h5, h6 {
 /* .entry-meta .icon {
  *   margin-right: 0.5em;
  *   fill: #b4befe;
- * } * */
+ * } */
 
 /* .icon--github {
     fill: #4c4f69;
