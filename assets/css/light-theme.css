@@ -52,11 +52,10 @@ body {
 }
 
 /* базовый блочный элемент */
-div {
+/* div {
     background-color: #e6e9ef !important;
-    /* display: block; */
-    /* unicode-bidi: isolate; */
-}
+
+} */
 /* линия бара */
 * {
     scrollbar-color: #a3aac5 #2f3234;
@@ -108,7 +107,7 @@ p {
 }
 
 a {
-    color: #4c4f69 !important;
+    color: #4c4f69;
 }
 
 a:hover, a:focus {
