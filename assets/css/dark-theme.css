@@ -12,12 +12,12 @@
 }
 
 body {
-    background: --background-color;
-    color: var(--text-color);
+    background: #181825 !important;
+    color: #cdd6f3 !important;
 }
 
 body a {
-    color: var(--accent-color);
+    color: #c09bef !important;
 }
 
 /* body {
@@ -50,7 +50,7 @@ body a {
 }
 
 .sidebar-toggle-wrapper {
-    background-color: --background-color;  /* #181825 !important; */
+    background-color: #181825 !important;
 }
 
 .wrapper {
@@ -106,16 +106,16 @@ p {
     cursor: pointer;
     border-color: #a6adc8;
 }
-.btn:hover {
-
+ .btn:hover {
+    background-color: #26074b !important;
     transition: 0.5s;
 }
 .btn:focus {
-    background-color: #021635;
+    background-color: #021635 !important;
     transition: 0.7s
 }
 /* .btn:active {
-    background-color: #021635;
+    background-color: #021635 !important;
     transition: 0.5s;
 } */
 

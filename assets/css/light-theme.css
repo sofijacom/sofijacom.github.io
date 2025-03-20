@@ -12,12 +12,12 @@
 }
 
 body {
-    background: --background-color;
-    color: var(--text-color);
+    background: #e6e9ef !important;
+    color: #181825 !important;
 }
 
 body a {
-    color: var(--accent-color);
+    color: #8838ef !important;
 }
 
 /* body {
@@ -50,7 +50,7 @@ body a {
 }
 
 .sidebar-toggle-wrapper {
-        background-color: #e6e9ef;
+        background-color: #e6e9ef !important;
 }
 
 .wrapper {
@@ -109,12 +109,12 @@ p {
 }
 
 .btn:hover {
-    background-color: #dc8a78;
+    background-color: #dc8a78 !important;
     transition: 0.5s;
 }
 
 .btn:focus {
-    background-color: #dd7878;
+    background-color: #dd7878 !important;
     transition: 0.7s
 }
 
