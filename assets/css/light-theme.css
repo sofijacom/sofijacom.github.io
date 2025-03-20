@@ -1,14 +1,14 @@
 /* light-theme.css */
 
 :root {
-    --base-color: #4c4f69;
-    --code-background-color: #4c4f69;
-    --border-color: #4c4f69;
-    --overlay-color: #4c4f69;
-    --sidebar-background-color: #e6e9ef;
-    --background-color: #e6e9ef;
-    --text-color: #181825;
-    --accent-color: #8838ef;
+    --base-color: #4c4f69 !important;
+    --code-background-color: #4c4f69 !important;
+    --border-color: #4c4f69 !important;
+    --overlay-color: #4c4f69 !important;
+    --sidebar-background-color: #e6e9ef !important;
+    --background-color: #e6e9ef !important;
+    --text-color: #181825 !important;
+    --accent-color: #8838ef !important;
 }
 
 body {
