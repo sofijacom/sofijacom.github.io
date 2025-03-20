@@ -73,13 +73,14 @@ div {
 
 p {
     background-color: #181825;    /* надписи */
+    display: block;
 }
  /* нижний блок */
- html, body, input, textarea, select, button {
+/* html, body, input, textarea, select, button {
     background: #11111b;
     color: #cdd6f3;
     height:auto;
-}
+} */
 /* кнопка переключения тем */
 .btn-toggle {
     background: #11111b;
@@ -89,6 +90,7 @@ p {
     padding: 2px 10px 2px 10px;
     border: 1px solid #a6adc8;
     border-radius: 8px;
+    margin-right: 5px;
 }
 
 .btn {
@@ -171,10 +173,4 @@ h1, h2, h3, h4, h5, h6 {
 header {
     display: block;
     background-color: #181825;
-}
-
-.site-footer {
-    margin-top: 4rem;
-    color: #b4befe;
-    font-size: 100%;
 }
