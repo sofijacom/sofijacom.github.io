@@ -27,7 +27,7 @@ body {
 }
 /* цвет текста в баре */
 .sidebar li a {
-    color: #4c4f69 !important;
+    color: #4c4f69;
 }
 
 .sidebar .contact-list {
@@ -35,12 +35,12 @@ body {
 }
 /* цвет текста в баре соц-сети */
 .sidebar .contact-list a {
-    color: #4c4f69 !important;
+    color: #4c4f69;
     text-decoration: none;
 }
 
 .sidebar-toggle-wrapper {
-        background-color: #e6e9ef !important;
+        background-color: #e6e9ef;
 }
 /* часть сидебара с кнопками */
 .wrapper {
@@ -48,7 +48,7 @@ body {
     width: 100%;
     height: 100%;
     background-color: #e6e9ef !important;
-    color: #4c4f69 !important;
+    color: #4c4f69;
 }
 
 /* базовый блочный элемент */
@@ -59,7 +59,7 @@ div {
 }
 /* линия бара */
 * {
-    scrollbar-color: #a3aac5 #2f3234 !important;
+    scrollbar-color: #a3aac5 #2f3234;
 }
 /* надписи */
 p {
@@ -75,11 +75,11 @@ p {
 /* кнопка переключения тем */
 .btn-toggle {
     background: #cdd6f3 !important;
-    color: #11111b !important;
+    color: #11111b;
     height: auto;
     display: inline-block;
     padding: 2px 10px 2px 10px;
-    border: 1px solid #a6adc8 !important;
+    border: 1px solid #a6adc8;
     border-radius: 8px;
     margin-right: 10px;
 }
@@ -90,7 +90,7 @@ p {
     border: 1px solid #a6adc8 !important;
     border-radius: 8px;
     background-color: #18182505 !important;
-    color: #a6adc8 !important;
+    color: #a6adc8;
     font-weight: 500;
     text-align: center;
     text-decoration: none;
@@ -132,28 +132,34 @@ h1, h2, h3, h4, h5, h6 {
  *   fill: #b4befe;
  * } */
 
-/* .icon--github {
-    fill: #4c4f69;
+ .icon--github {
+    fill: #4c4f69 !important;
 }
 
 .icon--email {
-    fill: #4c4f69;
+    fill: #4c4f69 !important;
 }
 
 .icon--twitter {
-    fill: #4c4f69;
+    fill: #4c4f69 !important;
 }
 
 .icon--rss {
-    fill: #4c4f69;
+    fill: #4c4f69 !important;
 } */
 
 .highlight pre {
     width: 100%;
-    background-color: #2f363d !important;
+    background-color: #2f363d;
 }
 
 header {
     display: block;
-    background-color: #e6e9ef !important;
+    background-color: #e6e9ef;
+}
+
+.intro-title {
+    margin-bottom: 1rem;
+    color: #4c4f69;
+    line-height: 1;
 }
