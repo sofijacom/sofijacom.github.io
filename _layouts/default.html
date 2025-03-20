@@ -24,11 +24,6 @@
      <!-- Theme Toggle -->
   <!--  <link rel="stylesheet" href="/assets/css/checkbox.css"> -->
   </head>
-	 
-     <body>
-  <button class="btn-toggle">Dark/Light</button>
-  <script src="/assets/js/theme.js"></script>
-</body>
 
 <html lang="{{ page.lang | default: site.lang | default: 'en-US' }}" class="no-js">
   {% include head.html %}
@@ -59,7 +54,12 @@
     <script type="text/javascript">
    document.getElementById("theme-switch").checked = localStorage.getItem("my-theme")==="dark"      
  </script>  -->
-        
+
+      <body>
+  <button class="btn-toggle">Dark/Light</button>
+  <script src="/assets/js/theme.js"></script>
+</body>
+
       <button class="toggle navicon-button larr" type="button" title="Menu">  
         <span class="toggle-inner">
           <span class="sidebar-toggle-label visually-hidden">{{ site.data.theme.t.menu | default: 'Menu' }}</span>

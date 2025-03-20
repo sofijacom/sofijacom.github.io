@@ -1,14 +1,14 @@
 /* light-theme.css */
 
 :root {
-    --base-color: #4c4f69 !important;
-    --code-background-color: tint(--base-color, 95%) !important;
-    --border-color: var(--base-color, 80%) !important;
-    --overlay-color: var(--base-color) !important;
-    --sidebar-background-color: var(--background-color) !important;
-    --background-color: #e6e9ef !important;
-    --text-color: #181825 !important;
-    --accent-color: #8838ef !important;
+    --base-color: #4c4f69;
+    --code-background-color: #4c4f69;
+    --border-color: #4c4f69;
+    --overlay-color: #4c4f69;
+    --sidebar-background-color: #e6e9ef;
+    --background-color: #e6e9ef;
+    --text-color: #181825;
+    --accent-color: #8838ef;
 }
 
 body {
@@ -50,20 +50,7 @@ body a {
 }
 
 .sidebar-toggle-wrapper {
-        position: absolute;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex
-        ;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-        top: 0;
-        right: 0;
-        margin: 1.8125rem 0;
-        padding-right: 1rem;
-        background-color: #e6e9ef;
-        z-index: 10000;
+        background-color: var(--background-color);
 }
 
 .wrapper {
@@ -95,7 +82,7 @@ p {
     color: #4c4f69;
     height:auto;
 }
-
+/* кнопка переключения тем */
 .btn-toggle {
     background: #cdd6f3;
     color: #11111b;
