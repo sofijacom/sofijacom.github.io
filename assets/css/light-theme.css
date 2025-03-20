@@ -74,14 +74,14 @@ p {
 } */
 /* кнопка переключения тем */
 .btn-toggle {
-    background: 
+    background-image: ''
    /* background: #cdd6f3; */
     color: #11111b;
     height: auto;
     display: inline-block;
     padding: 2px 10px 2px 10px;
     border: 1px solid #a6adc8;
-    border-radius: 10px;
+    border-radius: 8px;
     margin-right: 10px;
 }
 
