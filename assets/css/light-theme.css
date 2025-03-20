@@ -161,7 +161,7 @@ header {
 
 .intro-title {
     margin-bottom: 1rem;
-    color: #4c4f69;
+    color: #4c4f69 !important;
     line-height: 1;
 }
 
