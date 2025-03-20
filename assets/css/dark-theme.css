@@ -50,7 +50,7 @@ body a {
 }
 
 .sidebar-toggle-wrapper {
-    background-color: var(--background-color);
+    background-color: #181825;
 }
 
 .wrapper {
@@ -90,7 +90,7 @@ p {
     padding: 2px 10px 2px 10px;
     border: 1px solid #a6adc8;
     border-radius: 8px;
-    margin-right: 5px;
+    margin-right: 10px;
 }
 
 .btn {
@@ -165,10 +165,6 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     background-color: #1e1e2e;
 }
-
-/* .header .container, .footer .container {
-   background-color: #181825;
-} */
 
 header {
     display: block;
