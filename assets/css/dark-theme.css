@@ -89,7 +89,7 @@ p {
     border: 1px solid #a6adc8;
     border-radius: 8px;
     background-color: #18182505 !important;
-    color: #a6adc7;
+    color: #a6adc7 !important;
     font-weight: 500;
     text-align: center;
     text-decoration: none;
