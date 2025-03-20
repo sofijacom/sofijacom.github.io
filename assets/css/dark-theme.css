@@ -73,6 +73,7 @@ p {
 } */
 /* кнопка переключения тем */
 .btn-toggle {
+    background-image: ""
     background: #11111b;
     color: #cdd6f3;
     height: auto;
