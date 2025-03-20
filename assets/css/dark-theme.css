@@ -91,7 +91,7 @@ p {
 }
 .btn:focus {
     background-color: #021635 !important;
-    transition: 0.7s
+    transition: 0.7s;
 }
 /* .btn:active {
     background-color: #021635 !important;

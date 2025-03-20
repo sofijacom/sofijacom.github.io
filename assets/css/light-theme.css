@@ -93,7 +93,7 @@ p {
 
 .btn:focus {
     background-color: #dd7878 !important;
-    transition: 0.7s
+    transition: 0.7s;
 }
 
 a {
@@ -101,7 +101,7 @@ a {
 }
 
 a:hover, a:focus {
-    color: #8838ef !important;
+    color: #dc8a78 !important;
 }
 
 .site-title:hover {
