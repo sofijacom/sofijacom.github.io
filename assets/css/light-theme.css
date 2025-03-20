@@ -87,7 +87,8 @@ p {
 }
 
 .btn:hover {
-    background-color: #8838ef !important;
+    background-color: #04a5e5 !important;
+    color: #181825 !important;
     transition: 0.5s;
 }
 
