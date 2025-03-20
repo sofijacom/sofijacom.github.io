@@ -73,8 +73,6 @@ p {
 } */
 /* кнопка переключения тем */
 .btn-toggle {
-    font-family: 'FontAwesome';
-    background-image: 
     background: #cdd6f3;
     color: #11111b;
     height: auto;
