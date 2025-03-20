@@ -1,5 +1,5 @@
 /* light-theme.css */
-@import url('https://kit.fontawesome.com/f3014a7b89.js');
+/* @import url(' '); */
 
 :root {
     --base-color: #4c4f69 !important;
@@ -74,8 +74,7 @@ p {
 } */
 /* кнопка переключения тем */
 .btn-toggle {
-    background-image: ''
-   /* background: #cdd6f3; */
+    background: #cdd6f3;
     color: #11111b;
     height: auto;
     display: inline-block;
