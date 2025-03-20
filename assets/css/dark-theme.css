@@ -73,8 +73,6 @@ p {
 } */
 /* кнопка переключения тем */
 .btn-toggle {
-    font-family: 'FontAwesome';
-    background-image: 
     background: #11111b;
     color: #cdd6f3;
     height: auto;
@@ -83,6 +81,15 @@ p {
     border: 1px solid #a6adc8;
     border-radius: 10px;
     margin-right: 10px;
+}
+.icon-btn {
+    font-family: 'FontAwesome';
+    background:''
+    border: none;
+    padding: 10px;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
 }
 
 .btn {
