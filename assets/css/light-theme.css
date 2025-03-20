@@ -92,7 +92,7 @@ p {
 }
 
 .btn:focus {
-    background-color: #dd7878 !important;
+    background-color: #8838ef !important;
     transition: 0.7s;
 }
 
