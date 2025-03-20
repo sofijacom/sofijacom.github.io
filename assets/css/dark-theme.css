@@ -12,7 +12,7 @@
 }
 
 body {
-    background: var(--background-color);
+    background: --background-color;
     color: var(--text-color);
 }
 
@@ -50,7 +50,7 @@ body a {
 }
 
 .sidebar-toggle-wrapper {
-    background-color: var(--background-color);  /* #181825 !important; */
+    background-color: --background-color;  /* #181825 !important; */
 }
 
 .wrapper {

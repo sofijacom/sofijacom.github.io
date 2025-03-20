@@ -12,7 +12,7 @@
 }
 
 body {
-    background: var(--background-color);
+    background: --background-color;
     color: var(--text-color);
 }
 
