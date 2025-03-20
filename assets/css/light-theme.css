@@ -165,3 +165,8 @@ header {
     line-height: 1;
 }
 
+.site-footer {
+    margin-top: 4rem;
+    color: #4c4f69 !important;
+    font-size: 85%;
+}
