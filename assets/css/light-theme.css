@@ -128,11 +128,6 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Inter", sans-serif;
 }
 
-/* .entry-meta .icon {
- *   margin-right: 0.5em;
- *   fill: #b4befe;
- * } */
-
  .icon--github {
     fill: #4c4f69 !important;
 }
@@ -168,5 +163,5 @@ header {
 .site-footer {
     margin-top: 4rem;
     color: #4c4f69 !important;
-    font-size: 85%;
+    font-size: 95% !important;
 }
