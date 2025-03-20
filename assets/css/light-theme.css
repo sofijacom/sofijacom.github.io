@@ -163,3 +163,44 @@ header {
     color: #4c4f69;
     line-height: 1;
 }
+
+/* Sun */
+#theme-toggle + label {
+content: '';
+display: inline-block;
+cursor: pointer;
+height: 80px;
+width: 80px;
+border-radius: 50%;
+transition: all 0.3s ease-in-out;
+}
+
+#theme-toggle:not(:checked) + label {
+background-color: gold;
+}
+
+#theme-toggle:checked + label {
+background-color: transparent;
+box-shadow: inset -18px -16px 1px 1px #fff;
+}
+
+.intro-text {
+    top: 180px;
+    font-size: 1.6em;
+    font-family: monospace;
+}
+
+[class*=text-] {
+    font-size: 1.2em;
+    font-weight: 600;
+    // transition: color 500ms ease-in;
+}
+
+body[theme=light] {
+    .text-sun {
+        color: rgba(0, 0, 0, 1);
+    }
+    .text-moon {
+        color: rgba(255, 255, 255, 0.2);
+    }
+}
