@@ -80,13 +80,6 @@ p {
     display: block;
 }
 
-/* нижний блок */
-/* html, body, input, textarea, select, button {
-    background-color: #e6e9ef;
-    color: #4c4f69;
-    height:auto;
-} */
-
 /* кнопка переключения тем */
 .btn-toggle {
     background: #18182505;
