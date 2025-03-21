@@ -4,9 +4,9 @@
   /* Set sans-serif & mono fonts */
   --sans-font: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir,
     "Nimbus Sans L", Roboto, "Noto Sans", "Segoe UI", Arial, Helvetica,
-    "Helvetica Neue", sans-serif;
-  --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
-  --standard-border-radius: 5px;
+    "Helvetica Neue", sans-serif !important;
+  --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace !important;
+  --standard-border-radius: 5px !important;
 
   /* Color themes: https://catppuccin.com/palette */
 
