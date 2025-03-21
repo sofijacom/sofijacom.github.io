@@ -125,6 +125,10 @@ a:hover, a:focus {
     /* text-decoration: underline; */
 }
 
+/* &:hover {
+    color: shade(#c09bef, 25%) !important;
+} */
+
 .site-title:hover {
     color: #cba6f7 !important;
     transition: 0.7s;
@@ -173,10 +177,6 @@ header {
     line-height: 1;
 }
 
-&:hover {
-    color: shade(#c09bef, 25%) !important;
-}
-
 /* divider line */
 &::after {
       position: absolute;
@@ -184,6 +184,6 @@ header {
       width: 1.5em;
       height: 1px;
       background-color: #1e1e2e !important;
-      content: ">";
+      content: "";
 }
 
