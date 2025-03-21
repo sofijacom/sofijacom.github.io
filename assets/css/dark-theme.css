@@ -176,6 +176,10 @@ header {
     line-height: 1;
 }
 
+.entry:not(:last-child) {
+    border-bottom: 1px solid #4c4f69 !important;
+}
+
 /* divider line */
 &::after {
       position: absolute;
