@@ -1,7 +1,7 @@
 ---
 layout: home
 paginate: false
-image: /assets/images/kl-linux.jpg
+image: /assets/images/kl-fon.jpg
 actions:
   - label: "Get Started"
     icon: github
