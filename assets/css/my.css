@@ -1,43 +1,4 @@
-/* Global variables. */
-:root,
-::backdrop {
-  /* Set sans-serif & mono fonts */
-  --sans-font: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir,
-    "Nimbus Sans L", Roboto, "Noto Sans", "Segoe UI", Arial, Helvetica,
-    "Helvetica Neue", sans-serif !important;
-  --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace !important;
-  --standard-border-radius: 5px !important;
-
-  /* Color themes: https://catppuccin.com/palette */
-
-/* Dark theme */
-@media (prefers-color-scheme: dark) {
-  :root,
-  ::backdrop {
-    color-scheme: dark;
-    --bg: #1e1e2e !important; /* Base */
-    --accent-bg: #181825!important ; /* Mantle */
-    --text: #cdd6f4 !important; /* Text */
-    --text-light: #bac2de!important ; /* Subtext1 */
-    --border: #6c7086!important ; /* Overlay0 */
-    --accent: #cba6f7!important ; /* Mauve */
-    --accent-hover: #cba6f7 !important; /* Mauve */
-    --accent-text: #fab387!important ; /* Peach */
-    --code: #a6adc8 !important; /* Subtext0 */
-    --preformatted: #a6adc8!important ; /* Subtext0 */
-    --shadows: rgb(186, 194, 222, 0.5)!important ; /* Subtext1; same as --text-light */
-    --disabled: #11111b !important; /* Crust */
-  }
-  /* Add a bit of transparency so light media isn't so glaring in dark mode */
-  img,
-  video {
-    opacity: 0.8;
-  }
-}
-
-/* Global elements -------------------------------------------------- */
-
-body {
+:root {
     base-color: #1e1e2e !important;
     code-background-color: #cdd6f3 !important;
     border-color: #cdd6f3 !important;
@@ -48,3 +9,7 @@ body {
     accent-color: #c09bef !important;
 }
 
+body {
+    background: #181825 !important;
+    color: #cdd6f3 !important;
+}
