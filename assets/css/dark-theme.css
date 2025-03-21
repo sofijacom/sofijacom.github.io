@@ -15,7 +15,6 @@
 body {
     background: #181825f7 !important;
     color: #cdd6f3 !important;
-    transition:background-color 200ms ease-in-out, color 200ms ease-in-out;
 }
 
 /* body a {
