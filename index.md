@@ -1,5 +1,6 @@
 ---
 layout: home
+paginate: false
 image: /assets/images/post-bg-archive.png
 actions:
   - label: "Get Started"
