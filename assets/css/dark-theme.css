@@ -17,12 +17,9 @@ body {
     color: #cdd6f3 !important;
 }
 
-a {
+/* a {
     color: #c09bef !important;
- &:hover {
-    color: shade(#c09bef, 25%) !important;
-  }
-} 
+}
 
 a:hover, a:focus {
     color: #cba6f7 !important;
