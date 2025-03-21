@@ -184,6 +184,14 @@ header {
     border-bottom: solid 1px #4c4f69 !important;
 }
 
+.taxonomy-index a {
+    border-bottom: 1px solid #797b8f !important;
+}
+
+.taxonomy-count {
+    color: #797b8f !important;
+}
+
 .back-to-top {
     display: block;
     color: #4c4f69 !important;
