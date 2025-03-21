@@ -13,7 +13,7 @@
 }
 
 body {
-    background: #181825 !important;
+    background: #181825f7 !important;
     color: #cdd6f3 !important;
 }
 
@@ -63,7 +63,7 @@ body {
 }
 /* надписи */
 p {
-    background-color: #181825 !important;
+    background-color: #18182500 !important;
     display: block;
 }
  /* нижний блок */
