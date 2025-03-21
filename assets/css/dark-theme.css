@@ -21,6 +21,16 @@ a {
     color: #c09bef !important;
 }
 
+a:hover, a:focus {
+    /* color: var(--accent-color); */
+    color: #cba6f7 !important;
+    /* text-decoration: underline; */
+}
+
+/* &:hover {
+    color: shade(#c09bef, 25%) !important;
+} */
+
 .sidebar .menu {
     font-family: "Jost", sans-serif;
     font-size: 32px;
@@ -117,16 +127,6 @@ p {
 /* .btn:active {
     background-color: #021635 !important;
     transition: 0.5s;
-} */
-
-a:hover, a:focus {
-    /* color: var(--accent-color); */
-    color: #cba6f7 !important;
-    /* text-decoration: underline; */
-}
-
-/* &:hover {
-    color: shade(#c09bef, 25%) !important;
 } */
 
 .site-title:hover {
