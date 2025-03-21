@@ -112,6 +112,10 @@ a:hover, a:focus {
     color: #dc8a78 !important;
 }
 
+/* &:hover {
+    color: shade(#8838ef, 25%) !important;
+} */
+
 .site-title:hover {
     color: #8838ef !important;
     transition: 0.5s;
