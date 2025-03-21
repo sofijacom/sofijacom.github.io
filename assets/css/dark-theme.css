@@ -13,6 +13,7 @@
 }
 
 body {
+    transition: background 1s ease-in, color 1s ease-in;
     background: #181825f7 !important;
     color: #cdd6f3 !important;
 }
@@ -20,14 +21,6 @@ body {
 /* body a {
     color: #c09bef !important;
 } */
-html {
-    opacity: 0;
-    transition: opacity 1s;
-}
-
-html.light, html.dark {
-    opacity: 1;
-}
 
 .sidebar .menu {
     font-family: "Jost", sans-serif;
