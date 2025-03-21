@@ -17,9 +17,9 @@ body {
     color: #cdd6f3 !important;
 }
 
-/* body a {
+a {
     color: #c09bef !important;
-} */
+}
 
 .sidebar .menu {
     font-family: "Jost", sans-serif;
@@ -118,10 +118,6 @@ p {
     background-color: #021635 !important;
     transition: 0.5s;
 } */
-
-a {
-    color: #c09bef !important;
-}
 
 a:hover, a:focus {
     /* color: var(--accent-color); */
