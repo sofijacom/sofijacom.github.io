@@ -21,9 +21,9 @@ body {
     color: #4c4f69 !important;
 } */
 
+/* text-decoration: underline; */
 a:hover, a:focus {
-    color: #cba6f7 !important;
-    text-decoration: underline;
+    color: #cba6f7 !important;  
 }
 
 /* &:hover {
