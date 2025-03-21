@@ -204,3 +204,19 @@ header {
       content: "";
 }
 
+@media screen and (min-width: 1280px) {
+    .search-content .search-input {
+        font-size: 32px;
+        display: block;
+        width: 400px;
+        height: 50px;
+        padding: 0 20% 0 8%;
+        margin: 0;
+        color: #797b8f;
+        line-height: 50px;
+        background: rgb(242 242 242 / 0%);
+        border: 1px solid #797b8f;
+        border-radius: 30px;
+    }
+}
+
