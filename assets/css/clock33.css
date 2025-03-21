@@ -16,6 +16,6 @@
    text-align: center;
    border: 1px solid #a1a8c1;
    border-radius: 40px;
-   background: #23273a;
+   background: transparent;  /* #23273a; */
    color: #78858B;
 }
