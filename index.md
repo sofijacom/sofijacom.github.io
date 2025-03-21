@@ -1,5 +1,6 @@
 ---
 layout: home
+image: /assets/images/post-bg-archive.png
 actions:
   - label: "Get Started"
     icon: github
