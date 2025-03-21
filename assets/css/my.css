@@ -38,94 +38,13 @@
 /* Global elements -------------------------------------------------- */
 
 body {
-  font-size: 1rem;
+    --base-color: #1e1e2e !important;
+    --code-background-color: #cdd6f3 !important;
+    --border-color: #cdd6f3 !important;
+    --overlay-color: #1e1e2e !important;
+    --sidebar-background-color: #181825 !important;;
+    --background-color: #181825 !important;
+    --text-color: #cdd6f3 !important;
+    --accent-color: #c09bef !important;
 }
 
-nav {
-  padding: 2rem;
-  text-align: center;
-}
-
-a {
-  text-decoration: none;
-}
-a:hover {
-  color: #cba6f7 !important;
-}
-
-p {
-  margin: 0.5rem 0;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  color: #fab387 !important;
-}
-
-aside, details, pre, progress {
-  border: 0;
-}
-
-/* Article -------------------------------------------------- */
-article {
-  border: 0;
-  margin: 0;
-  padding: 0;
-}
-
-.article-link {
-  border-bottom: 1px solid #6c7086 !important;
-  padding: 0.5rem 0;
-}
-.article-link:last-child {
-  border-bottom: 0;
-}
-.article-link img {
-  display: block;
-  margin-left: auto;
-  text-align: right;
-  width: 25%;
-}
-.article-link .excerpt {
-  color: #bac2de !important;
-  text-align: right;
-}
-
-#article-body figure {
-  background-color: #181825 !important;
-  border-radius: 5px;
-  padding: 1rem;
-}
-
-
-/*  Coding */
-/* pre {
-  box-shadow: 0 0.5rem 1rem -0.75rem inset var(--text), 0 -1.5rem 1rem -0.75rem inset var(--text) !important;
-} */
-
-
-/* Footer -------------------------------------------------- */
-body > footer {
-  border-width: 7px 0 0 0;
-  border-style: double;
-  border-color: #6c7086 !important;
-}
-
-#footer-home {
-  margin-top: -3.9rem;
-}
-#footer-home img {
-  background-color: #1e1e2e !important;
-  opacity: unset;
-}
-
-/* Custom classes -------------------------------------------------- */
-
-.muted {
-  color: #555;
-}
-.sm {
-  font-size: 75%;
-}
-.xs {
-  font-size: 40%;
-}
