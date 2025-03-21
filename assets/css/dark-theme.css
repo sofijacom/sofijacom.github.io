@@ -26,9 +26,9 @@ a:hover, a:focus {
     text-decoration: underline;
 }
 
-&:hover {
+/* &:hover {
     color: shade(#c09bef, 25%) !important;
-}
+} */
 
 .sidebar .menu {
     font-family: "Jost", sans-serif;
