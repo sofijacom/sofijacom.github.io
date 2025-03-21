@@ -17,7 +17,7 @@ body {
     color: #181825 !important;
 }
 
-/* body a {
+/* a {
     color: #8838ef !important;
 } */
 
@@ -106,10 +106,6 @@ p {
 .btn:focus {
     background-color: #04a5e5 !important;
     transition: 0.7s;
-}
-
-a {
-    color: #8838ef;
 }
 
 a:hover, a:focus {
