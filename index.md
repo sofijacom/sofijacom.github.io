@@ -1,7 +1,7 @@
 ---
 layout: home
-paginate: true
-image: /assets/images/post-bg-archive.png
+paginate:
+image:
 actions:
   - label: "Get Started"
     icon: github
