@@ -190,3 +190,19 @@ header {
     color: #4c4f69 !important;
     font-size: 85% !important;
 }
+
+@media screen and (min-width: 1280px) {
+    .search-content .search-input {
+        font-size: 32px;
+        display: block;
+        width: 70%;
+        height: 50px;
+        padding: 0 20% 0 8%;
+        margin: 0;
+        color: #797b8f !important;
+        line-height: 50px;
+        background: rgb(242 242 242 / 0%) !important;
+        border: 1px solid #797b8f !important;
+        border-radius: 30px;
+    }
+}
