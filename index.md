@@ -1,7 +1,7 @@
 ---
 layout: home
 paginate: false
-image: /assets/images/kennel-linux.jpg
+image: /assets/images/fon-1.jpg
 actions:
   - label: "Get Started"
     icon: github
