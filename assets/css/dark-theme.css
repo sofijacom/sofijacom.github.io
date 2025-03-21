@@ -17,19 +17,18 @@ body {
     color: #cdd6f3 !important;
 }
 
-a {
+/* a {
     color: #c09bef !important;
-}
+} */
 
 a:hover, a:focus {
-    /* color: var(--accent-color); */
     color: #cba6f7 !important;
     /* text-decoration: underline; */
 }
 
-/* &:hover {
+&:hover {
     color: shade(#c09bef, 25%) !important;
-} */
+}
 
 .sidebar .menu {
     font-family: "Jost", sans-serif;
@@ -47,7 +46,7 @@ a:hover, a:focus {
 
 /* цвет текста в баре соц-сети */
 .sidebar .contact-list a {
-    /* display: block; */
+    display: block;
     color: #cdd6f3;
     text-decoration: none;
 }
@@ -70,8 +69,8 @@ a:hover, a:focus {
     background-color: #181825;
 
 } */
-/* линия бара */
 
+/* линия бара */
 * {
     scrollbar-color: #a3aac5 #2f3234 !important;
 }
