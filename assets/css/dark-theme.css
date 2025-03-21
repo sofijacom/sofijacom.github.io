@@ -180,6 +180,10 @@ header {
     border-bottom: 1px solid #4c4f69 !important;
 }
 
+.taxonomy-section:not(:last-child) {
+    border-bottom: solid 1px #4c4f69 !important;
+}
+
 /* divider line */
 &::after {
       position: absolute;
