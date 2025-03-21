@@ -1,7 +1,7 @@
 ---
 layout: home
-paginate: true
-image: /assets/images/eder-oliveira-180877.jpg
+paginate: false
+image: /assets/images/post-bg-archive.png
 actions:
   - label: "Get Started"
     icon: github
