@@ -184,6 +184,14 @@ header {
     text-decoration: none;
 }
 
+.taxonomy-index a {
+    border-bottom: 1px solid #797b8f !important;
+}
+
+.taxonomy-count {
+    color: #797b8f !important;
+}
+
 .site-footer {
     margin-top: 4rem;
     color: #4c4f69 !important;
