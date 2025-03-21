@@ -1,7 +1,5 @@
 ---
 layout: home
-paginate:
-image:
 actions:
   - label: "Get Started"
     icon: github
