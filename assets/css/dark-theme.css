@@ -25,6 +25,7 @@ body {
     font-family: "Jost", sans-serif;
     font-size: 32px;
 }
+
 /* цвет текста в баре */
 .sidebar li a {
     color: #cdd6f3;
@@ -33,6 +34,7 @@ body {
 .sidebar .contact-list {
     font-size: 24px;
 }
+
 /* цвет текста в баре соц-сети */
 .sidebar .contact-list a {
     /* display: block; */
@@ -43,6 +45,7 @@ body {
 .sidebar-toggle-wrapper {
     background-color: #181825 !important;
 }
+
  /* часть сидебара с кнопками */
 .wrapper {
     position: relative;
@@ -51,26 +54,31 @@ body {
     background-color: #181825 !important;
     color: #cdd6f3;
 }
+
 /* базовый блочный элемент */
 /* div {
     background-color: #181825;
 
 } */
 /* линия бара */
+
 * {
     scrollbar-color: #a3aac5 #2f3234 !important;
 }
+
 /* надписи */
 p {
     background-color: #18182500 !important;
     display: block;
 }
+
  /* нижний блок */
 /* html, body, input, textarea, select, button {
     background: #11111b;
     color: #cdd6f3;
     height:auto;
 } */
+
 /* кнопка переключения тем */
 .btn-toggle {
     background: #18182505;
@@ -95,14 +103,17 @@ p {
     text-decoration: none;
     cursor: pointer;
 }
+
  .btn:hover {
     background-color: #26074b !important;
     transition: 0.5s;
 }
+
 .btn:focus {
     background-color: #021635 !important;
     transition: 0.7s;
 }
+
 /* .btn:active {
     background-color: #021635 !important;
     transition: 0.5s;
@@ -164,5 +175,19 @@ header {
     margin-bottom: 1rem;
     color: #cdd6f3;
     line-height: 1;
+}
+
+&:hover {
+    color: shade(#c09bef, 25%) !important;
+}
+
+/* divider line */
+&::after {
+      position: absolute;
+      bottom: 0;
+      width: 1.5em;
+      height: 1px;
+      background-color: #1e1e2e !important;
+      content: ">";
 }
 
