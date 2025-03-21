@@ -13,9 +13,9 @@
 }
 
 body {
-    transition: background 1s ease-in, color 1s ease-in;
     background: #181825f7 !important;
     color: #cdd6f3 !important;
+    transition:background-color 200ms ease-in-out, color 200ms ease-in-out;
 }
 
 /* body a {
