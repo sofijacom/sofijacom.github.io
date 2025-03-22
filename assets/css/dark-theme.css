@@ -19,9 +19,10 @@ body {
     color: #cdd6f3 !important;
 }
 
-/* a {
-    color: #4c4f69 !important;
-} */
+a {
+  /* color: #4c4f69 !important; */
+    align-items: normal !important;
+}
 
 /* text-decoration: underline; */
 a:hover, a:focus {
@@ -136,7 +137,6 @@ p {
     display: flex;
     -ms-flex-align: center;
     -webkit-box-align: center;
-    align-items: normal !important;
     min-height: 50px;
     color: #4c4f69 !important;
     text-decoration: none;
