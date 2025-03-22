@@ -131,20 +131,13 @@ p {
     display: flex;
     -ms-flex-align: center;
     -webkit-box-align: center;
-    align-self: center !important;
+    align-items: normal !important;
     min-height: 50px;
     color: #4c4f69 !important;
     text-decoration: none;
 }
 
 .sub-title {
-    display: -ms-flexbox;
-    display: -webkit-box;
-    display: flex;
-    -ms-flex-align: center;
-    -webkit-box-align: center;
-    align-self: center !important;
-    text-decoration: none;
     color: #8838ef !important;
     font-size: 12px;
     font-weight: normal;
