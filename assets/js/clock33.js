@@ -1,4 +1,6 @@
-        function getRandom(number) {
+/* By Sofiya */
+
+function getRandom(number) {
             return Math.round(number * Math.random());
         };
 
