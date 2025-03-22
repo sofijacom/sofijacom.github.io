@@ -1,7 +1,6 @@
 ---
 layout: home
 paginate: false
-image: /assets/images/fon-1.jpg
 actions:
   - label: "Get Started"
     icon: github
@@ -9,6 +8,7 @@ actions:
   - label: "Download"
     icon: download
     url: "https://github.com/sofijacom/sofijacom.github.io/archive/master.zip"
+    image: /assets/images/fon-1.jpg
 ---
 
 
