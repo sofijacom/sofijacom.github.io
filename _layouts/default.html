@@ -28,7 +28,7 @@
 <html lang="{{ page.lang | default: site.lang | default: 'en-US' }}" class="no-js">
   {% include head.html %}
 
-  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}>
+  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %} {{ page.title | default: site.title }}">
 	  
     {% include skip-links.html %}
       <div class="sidebar-toggle-wrapper">  
@@ -104,7 +104,5 @@
     {% include scripts.html %}	  	  
           </body> 
 	
-  <h2 class="project-name">{{ page.title | default: site.title }}</h2>
-	<h3>Builds of all varieties</h3>
 </html>
 </html>
