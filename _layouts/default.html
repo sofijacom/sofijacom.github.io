@@ -29,7 +29,9 @@
   {% include head.html %}
 
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %} {{ page.title | slugify }}">
-    
+   <h1 class="project-name">{{ page.title | default: site.title }}</h1>
+	  <р>Discussion, talk and tips</p>
+	  
     {% include skip-links.html %}
       <div class="sidebar-toggle-wrapper">  
       {% if site.search %}
