@@ -125,7 +125,7 @@ p {
     text-decoration-thickness: 1px;
 }
 
-.site-title a {
+.site-title {
     display: -ms-flexbox;
     display: -webkit-box;
     display: flex;
