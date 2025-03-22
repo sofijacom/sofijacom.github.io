@@ -130,7 +130,7 @@ p {
     text-decoration-thickness: 1px;
 }
 
-.site-title {
+.site-title a {
     display: -ms-flexbox;
     display: -webkit-box;
     display: flex;
@@ -138,7 +138,7 @@ p {
     -webkit-box-align: center;
     /* align-items: center; */
     min-height: 50px;
-    color: #4c4f69 important;
+    color: #4c4f69 !important;
     text-decoration: none;
 }
 .sub-title {
@@ -149,7 +149,7 @@ p {
     -webkit-box-align: center;
    /* align-items: center; */
     text-decoration: none;
-    color: #8838ef;
+    color: #8838ef !important;
     font-size: 12px;
     font-weight: normal;
   }
