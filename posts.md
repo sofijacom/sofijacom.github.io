@@ -1,11 +1,15 @@
 ---
 layout: page
-title: Blog
-sub_title: "Expand your knowledge and stay informed with our engaging blog posts"
-image: '/assets/images/blog-page.jpg'
-actions:
-  - label: "More Info"
-    url: "https://forum.puppylinux.com"   
+author_profile: true
+excerpt: "Expand your knowledge and stay informed with our engaging blog posts"
+header:
+  overlay_image: /assets/images/blog-page.jpg
+  overlay_filter: 0.3 # same as adding an opacity of 0.5 to a black background
+  caption: "Photo credit: [**Unsplash**](https://github.com/sofijacom/kl-linux.github.io/blob/master/assets/images/blog-page.jpg?raw=true)"
+  actions:
+    - label: "More Info"
+      url: "https://forum.puppylinux.com"
+ 
 ---
 
 
