@@ -1,3 +1,4 @@
+// By Sofiya 
 // Выбираем кнопку
 const btn = document.querySelector(".btn-toggle");
 // Выбираем таблицу стилей
