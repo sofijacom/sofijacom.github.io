@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Blog
 author_profile: true
 excerpt: "Expand your knowledge and stay informed with our engaging blog posts"
 header:
