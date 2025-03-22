@@ -1,6 +1,5 @@
 ---
 layout: home
-post_title: Discussion, talk and tips
 paginate: false
 image: /assets/images/fon-1.jpg
 actions:
