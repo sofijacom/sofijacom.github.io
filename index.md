@@ -1,14 +1,16 @@
 ---
 layout: home
 paginate: false
-image: /assets/images/fon-1.jpg
-actions:
-  - label: "Get Started"
-    icon: github
-    url: "https://github.com/sofijacom/sofijacom.github.io"
-  - label: "Download"
-    icon: download
-    url: "https://github.com/sofijacom/sofijacom.github.io/archive/master.zip"
+header:
+  overlay_image: /assets/images/fon-1.jpg
+  overlay_filter: 0.3 # same as adding an opacity of 0.5 to a black background
+  actions:
+    - label: "Get Started"
+      icon: github
+      url: "https://github.com/sofijacom/sofijacom.github.io"
+    - label: "Download"
+      icon: download
+      url: "https://github.com/sofijacom/sofijacom.github.io/archive/master.zip"
 ---
 
 
