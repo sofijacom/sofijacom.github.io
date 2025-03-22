@@ -130,7 +130,7 @@ p {
     text-decoration-thickness: 1px;
 }
 
-.subtitle {
+.sub-title {
     display: -ms-flexbox;
     display: -webkit-box;
     display: flex;
