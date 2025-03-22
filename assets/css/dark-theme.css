@@ -130,6 +130,19 @@ p {
     text-decoration-thickness: 1px;
 }
 
+.subtitle {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+    align-items: center;
+    text-decoration: none;
+    color: #8838ef;
+    font-size: 12px;
+    font-weight: normal;
+  }
+
 h1, h2, h3, h4, h5, h6 {
     /* font-family: "Fira Sans", sans-serif; */
     font-family: "Inter", sans-serif;
