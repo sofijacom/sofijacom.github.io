@@ -7,7 +7,9 @@
         <h1 class="site-title">
           <a href="{{ '/' | relative_url }}">
             {% if site.logo %}<img src="{{ site_logo }}" alt="" class="site-logo">{% endif %}
-            <span>{{ site.title | escape }}<br><h3>{{ site.title2 | escape }}</h3></span>
+            <span>{{ site.title | escape }}<br>
+              <div class="site-title2"></div>
+              {{ site.title2 | escape }}</span>
           </a>
         </h1>
       {% else %}
@@ -20,4 +22,5 @@
       {% endif %}
     </div>
   </div>
+  
 </header>
