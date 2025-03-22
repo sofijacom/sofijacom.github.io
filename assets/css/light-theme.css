@@ -125,12 +125,16 @@ p {
     text-decoration-thickness: 1px;
 }
 .subtitle {
-    color: #4c4f69;
-    font-size: 14px;
-    font-family: "Fira Sans", sans-serif;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+    align-items: center;
+    text-decoration: none;
+    color: #8838ef;
+    font-size: 12px;
     font-weight: normal;
-    line-height: 1;
-    text-rendering: optimizeLegibility;
   }
 
 h1, h2, h3, h4, h5, h6 {
