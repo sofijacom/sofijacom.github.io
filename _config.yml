@@ -17,7 +17,7 @@
 # Builds of all varieties
 lang: en-US
 title: Kennel Linux 
-sub_title: Builds of all varieties
+site_title: Builds of all varieties
 email: sofija.p2018@gmail.com
 description: # Expand your knowledge and stay informed with our engaging blog posts
 baseurl: "" # the optional subpath of your site, e.g. "/blog"
