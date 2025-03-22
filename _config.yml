@@ -14,10 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 # Bookmark this to keep an eye on my project updates!
-
+# Builds of all varieties
 lang: en-US
-title: >- Kennel Linux
-Builds of all varieties
+title: <h1>Kennel Linux:<br>Builds of all varieties</h1>
 email: sofija.p2018@gmail.com
 description: # Expand your knowledge and stay informed with our engaging blog posts
 baseurl: "" # the optional subpath of your site, e.g. "/blog"
