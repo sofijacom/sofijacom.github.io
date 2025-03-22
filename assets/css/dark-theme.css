@@ -142,12 +142,6 @@ p {
     text-decoration: none;
 }
 .sub-title {
-    display: -ms-flexbox;
-    display: -webkit-box;
-    display: flex;
-    -ms-flex-align: center;
-    -webkit-box-align: center;
-    text-decoration: none;
     color: #8838ef !important;
     font-size: 12px;
     font-weight: normal;
