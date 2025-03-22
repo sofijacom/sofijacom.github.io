@@ -193,7 +193,7 @@ header {
 
 @media screen and (min-width: 1280px) {
     .search-content .search-input {
-        text-align: center;
+        padding: 0 0 0 5px;
         width: 400px;
         height: 50px;
         margin: 0;
