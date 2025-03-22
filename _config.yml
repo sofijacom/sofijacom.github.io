@@ -16,7 +16,8 @@
 # Bookmark this to keep an eye on my project updates!
 
 lang: en-US
-title: Kennel Linux
+title: >- Kennel Linux
+Builds of all varieties
 email: sofija.p2018@gmail.com
 description: # Expand your knowledge and stay informed with our engaging blog posts
 baseurl: "" # the optional subpath of your site, e.g. "/blog"
