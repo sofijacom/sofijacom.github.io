@@ -45,7 +45,7 @@ kramdown:
     span:
       line_numbers: false
       block:
-      line_numbers: false
+      line_numbers: true
       start_line:
 
 remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
