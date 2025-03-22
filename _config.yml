@@ -43,7 +43,7 @@ kramdown:
   input: GFM # use Github Flavored Markdown !important
   syntax_highlighter_opts:
     span:
-      line_numbers: true
+      line_numbers: false
       block:
       line_numbers: true
       start_line: 1
@@ -112,14 +112,6 @@ defaults:
       layout: post
       read_time: true
       
-# _recipes
-#  - scope:
-#  path: "_recipes"
-#      type: recipes
-#    values:
-#      layout: post
-#      read_time: true
-
 # [] / all      
 jekyll-archives:
   enabled: []
