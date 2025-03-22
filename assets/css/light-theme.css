@@ -134,8 +134,8 @@ p {
     align-items: normal !important;
     min-height: 50px;
     color: #4c4f69 !important;
+    line-height: 1;
     text-decoration: none;
-    margin-top: 15px;
 }
 
 .sub-title {
