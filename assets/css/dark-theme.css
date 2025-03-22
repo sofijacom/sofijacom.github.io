@@ -130,7 +130,7 @@ p {
     text-decoration-thickness: 1px;
 }
 
-.site-title a {
+.site-title {
     display: -ms-flexbox;
     display: -webkit-box;
     display: flex;
@@ -140,6 +140,7 @@ p {
     min-height: 50px;
     color: #4c4f69 !important;
     text-decoration: none;
+    margin-top: 15px;
 }
 .sub-title {
     color: #8838ef !important;
