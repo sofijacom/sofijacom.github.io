@@ -16,8 +16,8 @@
 # Bookmark this to keep an eye on my project updates!
 # Builds of all varieties
 lang: en-US
-title: "Kennel Linux"
-page_title: Discussion, talk and tips
+title: "Kennel Linux" >-
+ Discussion, talk and tips
 email: sofija.p2018@gmail.com
 description: # Expand your knowledge and stay informed with our engaging blog posts
 baseurl: "" # the optional subpath of your site, e.g. "/blog"
