@@ -41,19 +41,12 @@ algolia:
 markdown: kramdown
 kramdown:
   input: GFM # use Github Flavored Markdown !important
-  hard_wrap: false
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
- # syntax_highlighter_opts:
- #   span:
- #     line_numbers: false
- #     block:
- #     line_numbers: true
- #     start_line: 1
+  syntax_highlighter_opts:
+    span:
+      line_numbers: false
+      block:
+      line_numbers: true
+      start_line: 1
 
 remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
 
