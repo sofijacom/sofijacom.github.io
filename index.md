@@ -1,5 +1,6 @@
 ---
 layout: home
+site_title: "Builds of all varieties"
 paginate: false
 image: /assets/images/fon-1.jpg
 actions:
