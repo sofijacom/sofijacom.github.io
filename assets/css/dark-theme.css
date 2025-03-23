@@ -67,12 +67,6 @@ a:hover, a:focus {
     color: #cdd6f3;
 }
 
-/* базовый блочный элемент */
-/* div {
-    background-color: #181825;
-
-} */
-
 /* линия бара */
 * {
     scrollbar-color: #a3aac5 #2f3234 !important;
@@ -152,11 +146,6 @@ h1, h2, h3, h4, h5, h6 {
     /* font-family: "Fira Sans", sans-serif; */
     font-family: "Inter", sans-serif;
 }
-
-/* .entry-meta .icon {
- margin-right: 0.5em;
- fill: #b4befe;
-} */
 
  .icon--github {
     fill: #4c4f69 !important;
