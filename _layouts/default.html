@@ -28,8 +28,7 @@
 <html lang="{{ page.lang | default: site.lang | default: 'en-US' }}" class="no-js">
   {% include head.html %}
 
-  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %} {{ page.title | slugify }}"> 
-	  
+  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %} {{ page.title | slugify }}">	  
     {% include skip-links.html %}
       <div class="sidebar-toggle-wrapper">  
       {% if site.search %}
@@ -40,20 +39,6 @@
           </svg>
         </button>     
       {% endif %}
-
-<!-- Sun
-<i class="fa-regular fa-sun" aria-hidden="true"></i>
-<em></em>
- <div class="form-check form-switch form-check-inline toggle-inner">  
-   <input type="checkbox" class="form-check-input" id="theme-switch" title="Dark Mode" name="theme-switch" onclick="changeTheme()"> 
-     <label class="switch" for="theme-switch"></label>
-       <em></em>
-
-      <i class="fa-regular fa-moon" aria-hidden="true"></i> 
-     </div>
-    <script type="text/javascript">
-   document.getElementById("theme-switch").checked = localStorage.getItem("my-theme")==="dark"      
- </script>  -->
 
 <body>
   <button class="btn-toggle"><i class="fa-regular fa-sun" aria-hidden="true"></i> / <i class="fa-regular fa-moon" aria-hidden="true"></i></button>
@@ -67,7 +52,7 @@
         </span>
       </button>
     </div>
-	  	  
+    
     <div id="sidebar" class="sidebar">
       <div class="inner">
         {% include navigation.html %}
@@ -87,19 +72,7 @@
         </div>
       </div>
     </div>
-    
-<!-- <hr class="hr-shelf">
-<style>
-.hr-shelf {
-	margin: -30px auto 10px;
-	padding: 0;
-	height: 50px;
-	border: none;
-	border-bottom: 1px solid #1f1209;
-	box-shadow: 0 20px 20px -20px #333;
-	width: 95%;
-}
-</style> -->  
+     
     {% include footer.html %}
     {% include scripts.html %}
           </body> 
