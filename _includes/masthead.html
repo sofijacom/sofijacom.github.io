@@ -13,14 +13,14 @@
           </a>
         </h1>      
       {% else %}
-        <p class="site-title">
+        <h1 class="site-title">
           <a href="{{ '/' | relative_url }}">
             {% if site.logo %}<img src="{{ site_logo }}" alt="" class="site-logo">{% endif %}
             <span>{{ site.title | escape }}
-              <p class="sub-title">
-              {{ site.subtitle | escape }}</p></span>  
+              <h1 class="sub-title">
+              {{ site.subtitle | escape }}</h1></span>  
           </a>
-        </p>
+        </h1>
       {% endif %}
     </div>
   </div>
