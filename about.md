@@ -1,6 +1,7 @@
 ---
 title: About
 layout: about
+subtitle: ""
 header-mask: 0.4
 multilingual: true
 
