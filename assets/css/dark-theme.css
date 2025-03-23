@@ -238,3 +238,8 @@ header {
     }
 }
 
+@media screen and (min-width: 1280px) {
+    .intro-title {
+        font-size: 70px;
+    }
+}
