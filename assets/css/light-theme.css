@@ -169,6 +169,12 @@ header {
     background-color: #e6e9ef;
 }
 
+@media screen and (min-width: 1280px) {
+    .intro-title {
+        font-size: 70px !important;
+    }
+}
+
 .intro-title {
     margin-bottom: 1rem;
     color: #4c4f69 !important;
@@ -217,11 +223,5 @@ header {
         background-color: #ccd0da !important;
         border: 1px solid #797b8f !important;
         border-radius: 30px;
-    }
-}
-
-@media screen and (min-width: 1280px) {
-    .intro-title {
-        font-size: 70px !important;
     }
 }
