@@ -113,7 +113,7 @@ defaults:
       layout: post
       read_time: true
       
-# [] / all      
+ # [] / all      
 jekyll-archives:
   enabled: []
   layout: archive
