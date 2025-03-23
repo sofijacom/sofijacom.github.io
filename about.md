@@ -1,5 +1,6 @@
 ---
 title: About
+subtitle: Builds of all varieties
 layout: about
 header-mask: 0.4
 multilingual: true
