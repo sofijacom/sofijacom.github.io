@@ -66,12 +66,6 @@ a:hover, a:focus {
     color: #4c4f69;
 }
 
-/* базовый блочный элемент */
-/* div {
-    background-color: #e6e9ef !important;
-
-} */
-
 /* линия бара */
 * {
     scrollbar-color: #a3aac5 #2f3234;
