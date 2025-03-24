@@ -246,3 +246,44 @@ header {
     background: #8838ef42 !important;
     text-shadow: none;
 }
+
+/* всплывающая подсказка */
+[data-title] {
+  position: relative;
+  cursor: pointer;
+  width: max-content;
+}
+
+[data-title]:hover::after,
+[data-title]:hover::before {
+  opacity: 1;
+  visibility: visible;
+}
+
+[data-title]::after,
+[data-title]::before {
+  position: absolute;
+  left: 50%;
+  display: block;
+  opacity: 0;
+  visibility: hidden;
+  transition: .3s;
+  transform: translateX(-50%);
+}
+
+[data-title]::after {
+  bottom: -54px;
+  content: attr(data-title);
+  padding: 8px;
+  border-radius: 8px;
+  background: orange;
+  text-align: center;
+  width: max-content;
+}
+
+[data-title]::before {
+  bottom: -10px;
+  content: '';
+  border: 10px solid transparent;
+  border-bottom: 10px solid orange;
+}
