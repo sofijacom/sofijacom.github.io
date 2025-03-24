@@ -258,7 +258,7 @@ header {
   content: attr(data-title);
   padding: 8px;
   border-radius: 8px;
-  background: orange;
+  background: #dc8a78;
   text-align: center;
   width: max-content;
 }
@@ -267,5 +267,5 @@ header {
   bottom: -10px;
   content: '';
   border: 10px solid transparent;
-  border-bottom: 10px solid orange;
+  border-bottom: 10px solid #04a5e5;
 }
