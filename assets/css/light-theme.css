@@ -121,8 +121,6 @@ p {
 }
 
 .site-title {
-   /* display: -ms-flexbox; */
-   /* display: -webkit-box; */
     display: flex;
     -ms-flex-align: center;
     -webkit-box-align: center;
