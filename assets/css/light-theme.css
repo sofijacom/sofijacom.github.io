@@ -229,27 +229,43 @@ header {
     text-shadow: none;
 }
 
-[data-title]{
-	position:relative;
+/* всплывающая подсказка */
+[data-title] {
+  position: relative;
+  cursor: pointer;
+  width: max-content;
 }
-[data-title]:after{
-	content:attr(data-title);
-	color:#fff !important;
-	background:#333;
-	background:rgba(57, 137, 201, 0.9) !important;
-	padding:5px;
-	position:absolute;
-	left:-9999px;
-	opacity:0;
-	bottom:100%;
-	white-space:nowrap;
-	-webkit-transition:0.25s linear opacity;
-	border: 1px solid #797b8f !important;
-	border-radius: 10px;
-	text-align:center;
-	font-size: 12px;
+
+[data-title]:hover::after,
+[data-title]:hover::before {
+  opacity: 1;
+  visibility: visible;
 }
-[data-title]:hover:after{
-	left:5px;
-	opacity:1;
+
+[data-title]::after,
+[data-title]::before {
+  position: absolute;
+  left: 50%;
+  display: block;
+  opacity: 0;
+  visibility: hidden;
+  transition: .3s;
+  transform: translateX(-50%);
+}
+
+[data-title]::after {
+  bottom: -54px;
+  content: attr(data-title);
+  padding: 8px;
+  border-radius: 8px;
+  background: orange;
+  text-align: center;
+  width: max-content;
+}
+
+[data-title]::before {
+  bottom: -10px;
+  content: '';
+  border: 10px solid transparent;
+  border-bottom: 10px solid orange;
 }
