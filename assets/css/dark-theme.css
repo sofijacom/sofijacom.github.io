@@ -81,7 +81,7 @@ p {
 /* кнопка переключения тем */
 .btn-toggle {
     background: #18182505;
-    color: #cdd6f3;
+    color: #a6adc8;
     height: auto;
     display: inline-block;
     padding: 2px 10px 2px 10px;
@@ -117,6 +117,17 @@ p {
     background-color: #021635 !important;
     transition: 0.5s;
 } */
+
+.search-toggle .icon {
+    fill: #a6adc8;
+}
+
+.navicon {
+    background: #a6adc8;
+}
+.navicon::before {
+    background: #a6adc8;
+}
 
 .site-title:hover {
     color: #cba6f7 !important;
