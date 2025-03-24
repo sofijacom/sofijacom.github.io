@@ -119,14 +119,14 @@ p {
 } */
 
 .search-toggle .icon {
-    fill: #a6adc8;
+    fill: #a6adc8 !important;
 }
 
 .navicon {
-    background: #a6adc8;
+    background: #a6adc8 !important;
 }
 .navicon::before {
-    background: #a6adc8;
+    background: #a6adc8 !important;
 }
 
 .site-title:hover {
