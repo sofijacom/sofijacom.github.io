@@ -229,3 +229,21 @@ header {
     text-shadow: none;
 }
 
+[data-title] {
+     position: relative; /* Относительное позиционирование */ 
+     cursor: help; /* Меняем курсор на справочный */
+   }
+   [data-title]::after {
+     content: attr(data-title); /* Выводим текст из атрибута data-title */
+     position: absolute; /* Абсолютное позиционирование */
+     left: 0; top: 1em; /* Положение подсказки */
+     opacity: 0; /* Скрываем подсказку, делая её прозрачной */
+     transition: 0.5s; /* Время появления подсказки */
+     pointer-events: none; /* Подсказка не реагирует на курсор */
+     background: rgba(57, 137, 201, 0.9); /* Синий цвет фона */
+     color: #fff; /* Белый цвет текста */
+     padding: 0.5em; /* Поля вокруг текста */
+   }
+   [data-title]:hover::after {
+     opacity: 1; /* Показываем подсказку */
+   }
