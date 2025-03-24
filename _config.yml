@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 # Bookmark this to keep an eye on my project updates!
-# Builds of all varieties
+
 lang: en-US
 title: "Kennel Linux"
 subtitle: "Builds of all varieties"
