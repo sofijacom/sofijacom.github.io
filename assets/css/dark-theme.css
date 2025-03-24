@@ -125,7 +125,7 @@ p {
 .navicon {
     background: #a6adc8 !important;
 }
-.navicon::before {
+.navicon::before, .navicon::after {
     background: #a6adc8 !important;
 }
 
