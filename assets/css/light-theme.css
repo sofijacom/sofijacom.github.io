@@ -244,8 +244,10 @@ header {
 	bottom:100%;
 	white-space:nowrap;
 	-webkit-transition:0.25s linear opacity;
-        border: 1px solid #495881 !important;
-        border-radius: 8px;
+        border: 1px solid #797b8f !important;
+        border-radius: 10px;
+	font-family: Arial;
+        font-size: 10px;
 }
 [data-title]:hover:after{
 	left:5px;
