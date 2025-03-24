@@ -30,9 +30,8 @@ author:
 twitter_username: sofijacom
 github_username: sofijacom
 logo: "/assets/images/logo.png" # path of site logo, e.g. "/assets/images/logo.png"
-google_analytics: G-Y3XDRGQR98
 search: true # true, false (default)
-search_full_content: true # true, false (default)
+search_full_content: false # true, false (default)
 search_provider: lunr # lunr (default), algolia
 algolia:
   application_id: # YOUR_APPLICATION_ID
@@ -80,6 +79,8 @@ feed:
 # Pagination - https://jekyllrb.com/docs/pagination/
 paginate: 10
 paginate_path: /page:num/
+
+google_analytics: G-Y3XDRGQR98
 
 # Exclude from processing.
 exclude:
