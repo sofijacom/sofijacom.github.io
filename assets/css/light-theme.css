@@ -4,7 +4,7 @@
 /* @import url(' '); */
 
 :root {
-    --base-color: #4c4f69 !important;
+    --base-color: #4c4f69;
     --code-background-color: #4c4f69 !important;
     --border-color: #4c4f69 !important;
     --overlay-color: #4c4f69 !important;
@@ -144,7 +144,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
  .icon--github {
-    fill: #4c4f69 !important;
+    fill: var(--base-color) !important;
 }
 
 .icon--email {
