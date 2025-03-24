@@ -225,3 +225,8 @@ header {
         border-radius: 30px;
     }
 }
+
+::selection {
+    background: #8838ef42 !important;
+    text-shadow: none;
+}
