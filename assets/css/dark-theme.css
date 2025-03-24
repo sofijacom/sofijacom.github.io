@@ -4,14 +4,14 @@
 /* @import url(' '); */
 
 :root {
-    --base-color: #1e1e2e !important;
-    --code-background-color: #cdd6f3 !important;
-    --border-color: #cdd6f3 !important;
-    --overlay-color: #cdd6f3 !important;
-    --sidebar-background-color: #181825 !important;
-    --background-color: #181825 !important;
-    --text-color: #cdd6f3 !important;
-    --accent-color: #c09bef !important;
+    --base-color: #1e1e2e;
+    --code-background-color: #cdd6f3;
+    --border-color: #cdd6f3;
+    --overlay-color: #cdd6f3;
+    --sidebar-background-color: #181825;
+    --background-color: #181825;
+    --text-color: #cdd6f3;
+    --accent-color: #c09bef;
 }
 
 body {
@@ -148,18 +148,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
  .icon--github {
-    fill: #4c4f69 !important;
+    fill: var(--base-color) !important;
 }
 
 .icon--email {
-    fill: #4c4f69 !important;
+    fill: var(--base-color) !important;
 }
 
 .icon--twitter {
-    fill: #4c4f69 !important;
+    fill: var(--base-color) !important;
 }
 .icon--rss {
-    fill: #4c4f69 !important;
+    fill: var(--base-color) !important;
 }
 
 .highlight pre {
