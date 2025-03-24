@@ -234,9 +234,9 @@ header {
 }
 [title]:after{
 	content:attr(title);
-	color:#fff;
-	background:#333;
-	background:rgba(51,51,51,0.75);
+	color:#fff !important;
+	background:#333 !important;
+	background:rgba(51,51,51,0.75) !important;
 	padding:5px;
 	position:absolute;
 	left:-9999px;
