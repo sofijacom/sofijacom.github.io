@@ -244,6 +244,8 @@ header {
 	bottom:100%;
 	white-space:nowrap;
 	-webkit-transition:0.25s linear opacity;
+        border: 1px solid #495881 !important;
+        border-radius: 8px;
 }
 [data-title]:hover:after{
 	left:5px;
