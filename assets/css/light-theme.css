@@ -235,7 +235,7 @@ header {
 [data-title]:after{
 	content:attr(data-title);
 	color:#fff !important;
-	background:#333 !important;
+	background:#333;
 	background:rgba(57, 137, 201, 0.9) !important;
 	padding:5px;
 	position:absolute;
@@ -246,8 +246,8 @@ header {
 	-webkit-transition:0.25s linear opacity;
 	border: 1px solid #797b8f !important;
 	border-radius: 10px;
-	font-family: Arial;
-	font-size: 14px;
+	text-align:center;
+	font-size: 12px;
 }
 [data-title]:hover:after{
 	left:5px;
