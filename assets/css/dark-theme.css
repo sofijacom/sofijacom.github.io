@@ -156,6 +156,10 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Inter", sans-serif;
 }
 
+.navicon-button {
+  min-height: 35px !important;
+}
+
  .icon--github {
     fill: var(--base-color) !important;
 }
