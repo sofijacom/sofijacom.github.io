@@ -265,6 +265,7 @@ header {
   background: #dc8a7880;
   text-align: center;
   width: max-content;
+  font-size: 12px;  
 }
 
 [title-tooltip]::before {
