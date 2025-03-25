@@ -272,7 +272,7 @@ header {
 }
 
 [data-title]::after {
-  bottom: -54px;
+  bottom: -50px;
   content: attr(data-title);
   padding: 8px;
   border-radius: 8px;
