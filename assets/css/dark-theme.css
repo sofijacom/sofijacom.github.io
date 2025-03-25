@@ -276,7 +276,7 @@ header {
 }
 
 [title-tooltip]::after {
-  bottom: -42px;
+  bottom: -40px;
   content: attr(title-tooltip);
   padding: 8px;
   border-radius: 8px;
@@ -284,12 +284,13 @@ header {
   color: #000000;  
   text-align: center;
   width: max-content;
-  font-size: 12px;  
+  font-size: 12px;
+  font-weight: 400;  
 }
 
 [title-tooltip]::before {
   bottom: -10px;
   content: '';
   border: 10px solid transparent;
-  border-bottom: 10px solid #8839ef;
+  border-bottom: 10px solid #cba6f7;
 }
