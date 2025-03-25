@@ -249,7 +249,7 @@ header {
   display: block;
   opacity: 0;
   visibility: hidden;
-  transition: .9s;
+  transition: .7s;
   transform: translateX(-50%);
 }
 
