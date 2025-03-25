@@ -10,7 +10,6 @@
     transform: translate(-50%, -150%);
 }
 @font-face {
-   /* font-family: "digital-clock-font"; */
     font-family: "clock-font";
     src: url("/assets/fonts/corner_font.ttf");
 }
