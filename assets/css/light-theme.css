@@ -258,7 +258,7 @@ header {
   content: attr(data-title);
   padding: 8px;
   border-radius: 8px;
-  background: #dc8a7880;
+  background: #F8E7E4;
   text-align: center;
   width: max-content;
 }
