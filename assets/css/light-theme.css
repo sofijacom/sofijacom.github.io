@@ -258,7 +258,7 @@ header {
 }
 
 [title-tooltip]::after {
-  bottom: -40px;
+  bottom: -44px;
   content: attr(title-tooltip);
   padding: 8px;
   border-radius: 8px;
@@ -273,5 +273,5 @@ header {
   bottom: -10px;
   content: '';
   border: 10px solid transparent;
-  border-bottom: 10px solid #dc8a7880;
+  border-bottom: 10px solid #dd7878;
 }
