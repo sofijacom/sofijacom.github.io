@@ -248,20 +248,20 @@ header {
 }
 
 /* всплывающая подсказка */
-[data-title] {
+[title-tooltip] {
   position: relative;
   cursor: pointer;
   width: max-content;
 }
 
-[data-title]:hover::after,
-[data-title]:hover::before {
+[title-tooltip]:hover::after,
+[title-tooltip]:hover::before {
   opacity: 1;
   visibility: visible;
 }
 
-[data-title]::after,
-[data-title]::before {
+[title-tooltip]::after,
+[title-tooltip]::before {
   position: absolute;
   left: 50%;
   display: block;
@@ -271,9 +271,9 @@ header {
   transform: translateX(-50%);
 }
 
-[data-title]::after {
+[title-tooltip]::after {
   bottom: -50px;
-  content: attr(data-title);
+  content: attr(title-tooltip);
   padding: 8px;
   border-radius: 8px;
   background: #cba6f7;
@@ -282,7 +282,7 @@ header {
   width: max-content;
 }
 
-[data-title]::before {
+[title-tooltip]::before {
   bottom: -10px;
   content: '';
   border: 10px solid transparent;
