@@ -280,7 +280,7 @@ header {
   content: attr(title-tooltip);
   padding: 8px;
   border-radius: 8px;
-  background: #8838ef42;
+  background: #cba6f780;
   color: #000000;  
   text-align: center;
   width: max-content;
@@ -292,5 +292,5 @@ header {
   bottom: -20px;
   content: '';
   border: 8px solid transparent;
-  border-bottom: 10px solid #8838ef42;
+  border-bottom: 10px solid #cba6f780;
 }
