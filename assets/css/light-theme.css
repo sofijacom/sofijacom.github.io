@@ -77,10 +77,15 @@ p {
     display: block;
 }
 
+.fa-solid {
+    font-weight: 900;
+    color: #4c4f69;
+}
+
 /* кнопка переключения тем */
 .btn-toggle {
     background: #18182505;
-    color: #11111b;
+   /* color: #11111b; */
     height: auto;
     display: inline-block;
     padding: 2px 10px 2px 10px;
