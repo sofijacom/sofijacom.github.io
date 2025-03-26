@@ -78,6 +78,10 @@ p {
     display: block;
 }
 
+.fa-solid {
+    font-weight: 900;
+}
+
 /* кнопка переключения тем */
 .btn-toggle {
     background: #18182505;
