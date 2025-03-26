@@ -185,11 +185,11 @@ header {
     background-color: #181825;
 }
 
-@media screen and (min-width: 1280px) {
+/* @media screen and (min-width: 1280px) {
     .intro-title {
         font-size: 70px !important;
     }
-}
+} */
 
 .intro-title {
     margin-bottom: 1rem;
