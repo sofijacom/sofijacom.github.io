@@ -270,7 +270,7 @@ header {
 }
 
 [title-tooltip]::before {
-  bottom: -10px;
+  bottom: -20px;
   content: '';
   border: 10px solid transparent;
   border-bottom: 10px solid #dd7878;
