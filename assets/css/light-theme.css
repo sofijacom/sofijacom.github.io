@@ -75,7 +75,6 @@ a:hover, a:focus {
     scrollbar-color: #525d6c96 rgb(242, 242, 242) !important;
 }
 *:hover, *:focus {
-    scrollbar-color: rgb(242, 242, 242) !important;
     color: #525d6c !important;
 }
 
