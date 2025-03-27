@@ -72,16 +72,12 @@ a:hover, a:focus {
 } */
 
 * {
-    scrollbar-color: auto;
-    
-    overflow-y: scroll;
-    background-color: #525d6c !important;
-    border-radius: 2px !important;
+    scrollbar-color: #525d6c96 rgb(242, 242, 242) !important;
 }
 
-/* *:focus, *:active {
+*:focus {
     scrollbar-color: #525d6c rgb(242, 242, 242) !important;
-} */
+}
 
 /* надписи */
 p {
