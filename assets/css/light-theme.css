@@ -76,7 +76,7 @@ a:hover, a:focus {
 }
 
 *:hover, *:focus {
-    scrollbar-color: #525d6c !important;
+    scrollbar-color: #525d6c rgb(242, 242, 242) !important;
 }
 
 /* надписи */
