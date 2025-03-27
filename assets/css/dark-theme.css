@@ -2,7 +2,12 @@
 
 /* dark-theme.css */
 /* @import url(' '); */
-
+/*
+@font-heading: "Jost", sans-serif !important;
+@font-serif: "IBM Plex Serif", serif !important;
+@font-sans: "Inter", sans-serif !important;
+@font-monospace: "IBM Plex Mono", monospace !important;
+*/
 :root {
     --base-color: #1e1e2e;
     --code-background-color: #cdd6f3;
