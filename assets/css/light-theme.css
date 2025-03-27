@@ -67,15 +67,7 @@ a:hover, a:focus {
 }
 
 /* линия бара */
-/* * {
-    scrollbar-color: #a3aac5 #2f3234;
-} */
-
 * {
-    scrollbar-color: #525d6c96 rgb(242, 242, 242) !important;
-}
-
-*:focus {
     scrollbar-color: #525d6c rgb(242, 242, 242) !important;
 }
 
