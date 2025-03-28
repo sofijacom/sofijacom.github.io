@@ -7,8 +7,8 @@ layout: collection
 _f_00_Void_KDE_plasma_no-kernel.plug_
 
 
-
-<pre># f_00_Void_KDE_plasma_no-kernel.plug
+```markdown
+# f_00_Void_KDE_plasma_no-kernel.plug
 # version="1.0"; revision="-CЕ-1.3"
 # Kennel Linux Void outfitted with a KDE-plasma desktop 
 # Creation date 27.11.2024; Revision date:27.11.2024
@@ -457,5 +457,6 @@ ess finished"
 "
 d process finished"
 ess finished"
-"</pre>
+"
+ ```
 
