@@ -3,10 +3,10 @@
 /* light-theme.css */
 /* @import url(' '); */
 
-@font-heading: "Jost", sans-serif !important;
-@font-serif: "IBM Plex Serif", serif !important;
-@font-sans: "Inter", sans-serif !important;
-@font-monospace: "IBM Plex Mono", monospace !important;
+@font-heading: "Jost", sans-serif;
+@font-serif: "IBM Plex Serif", serif;
+@font-sans: "Inter", sans-serif;
+@font-monospace: "IBM Plex Mono", monospace;
 
 :root {
     --base-color: #4c4f69;
