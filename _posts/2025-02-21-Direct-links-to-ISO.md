@@ -2,7 +2,7 @@
 layout: post
 title: "Direct links to iso"
 categories:
-  - links
+  - Links
 tags:
   - links
 last_modified_at: 2025-02-21T14:25:52-03:00
