@@ -13,17 +13,15 @@ multilingual: true
 
 ### KLA 64 bit. Arch-based distributions
 
-<hr>
-
-#### KLA-OT2baseCE
+: KLA-OT2baseCE
 - URL: <https://github.com/sofijacom/KLA-OT2baseCE/releases/tag/v3.1>
 
 
-#### KLA-HyprlandCE
+: KLA-HyprlandCE
 - URL: <https://github.com/sofijacom/KLA-HyprlandCE/releases/tag/KLA-HyprlandCE-1.5>
 
 
-#### KLA-Manjaro-Openbox
+: KLA-Manjaro-Openbox
 - URL: <https://github.com/sofijacom/KLA-Manjaro-Openbox/releases/tag/KLA-Manjaro-Openbox-1.1>
 
 #### KLA-plasma-KDE-CE
