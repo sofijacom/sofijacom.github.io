@@ -15,13 +15,13 @@
     --overlay-color: #4c4f69;
     --sidebar-background-color: #e6e9ef;
     --background-color: #e6e9ef;
-    --text-color: #181825;
+    --text-color: #4c4f69;
     --accent-color: #dc8a78;
 }
 
 body {
     background: #00000024 !important;
-    color: #181825 !important;
+    color: var(--text-color) !important;
 }
 
 a {
