@@ -7,7 +7,7 @@ title: "Direct links to iso"
 <img src="https://github.com/user-attachments/assets/7e1e2fa0-ab50-4901-a024-fe731fb44ab3" width="200"/>
 
 
-### **KLA 64 bit. Arch-based distributions**
+**KLA 64 bit. Arch-based distributions**
 
 #### KLA-OT2baseCE
 - URL: <https://github.com/sofijacom/KLA-OT2baseCE/releases/tag/v3.1>
