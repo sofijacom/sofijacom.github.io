@@ -11,7 +11,7 @@ multilingual: true
 <img src="https://github.com/user-attachments/assets/7e1e2fa0-ab50-4901-a024-fe731fb44ab3" width="200"/>
 
 
-> ### KLA 64 bit. Arch-based distributions
+### KLA 64 bit. Arch-based distributions
 
 <hr>
 
@@ -30,7 +30,7 @@ multilingual: true
 - URL: <https://github.com/sofijacom/KLA-plasma-KDE-CE/releases/tag/KLA-plasma-KDE-CE-1.4>
 
 
-> ### KLV 64 bit. Void Linux based distributions
+### KLV 64 bit. Void Linux based distributions
 
 <hr>
 
@@ -58,7 +58,7 @@ multilingual: true
 - URL: <https://github.com/sofijacom/KLV-plasma-KDE-CE/releases/tag/KLV-plasma-KDE-CE-1.3>
 
 
-> ### KLF-Rawhide. Distributions based on Fedora linux
+### KLF-Rawhide. Distributions based on Fedora linux
 
 <hr>
 
