@@ -1,6 +1,10 @@
 ---
 layout: post
 title: "Direct links to iso"
+categories:
+  - links
+tags:
+  - links
 ---
 
 <a id="installation"></a>  
