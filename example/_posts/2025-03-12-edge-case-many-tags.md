@@ -4,16 +4,9 @@ categories:
   - Edge Case
 tags:
   - content
-  - categories
+  - links
   - edge case
-  - css
-  - html
-  - image
-  - layout
-  - Pictures
-  - title
-  - video
-  - YouTube
+last_modified_at: 2025-03-28T14:25:52-05:00
 ---
 
 This post has many tags.
