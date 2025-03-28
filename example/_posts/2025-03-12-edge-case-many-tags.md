@@ -1,7 +1,7 @@
 ---
-title: "Edge Case: Many Tags"
+title: "Content: Many Tags"
 categories:
-  - Edge Case
+  - Content
 tags:
   - content
   - links
