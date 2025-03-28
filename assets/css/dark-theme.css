@@ -15,13 +15,13 @@
     --overlay-color: #cdd6f3;
     --sidebar-background-color: #181825;
     --background-color: #181825;
-    --text-color: #cdd6f3;
+    --text-color: #cdd6f4;
     --accent-color: #c09bef;
 }
 
 body {
     background: #181825f7 !important;
-    color: #cdd6f3 !important;
+    color: #cdd6f4 !important;
 }
 
 a {
@@ -45,7 +45,7 @@ a:hover, a:focus {
 
 /* цвет текста в баре */
 .sidebar li a {
-    color: #cdd6f3;
+    color: #cdd6f4;
 }
 
 .sidebar .contact-list {
@@ -55,7 +55,7 @@ a:hover, a:focus {
 /* цвет текста в баре соц-сети */
 .sidebar .contact-list a {
     display: block;
-    color: #cdd6f3;
+    color: #cdd6f4;
     text-decoration: none;
 }
 
@@ -69,7 +69,7 @@ a:hover, a:focus {
     width: 100%;
     height: 100%;
     background-color: #181825 !important;
-    color: #cdd6f3;
+    color: #cdd6f4;
 }
 
 /* линия бара */
