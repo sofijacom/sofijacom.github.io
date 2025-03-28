@@ -1,11 +1,5 @@
 ---
 title: "Content: Many Tags"
-categories:
-  - Content
-tags:
-  - content
-  - links
-last_modified_at: 2025-03-28T14:25:52-03:00
 ---
 
 This post has many tags.
