@@ -9,7 +9,7 @@
 @font-monospace: "IBM Plex Mono", monospace;
 
 :root {
-    --base-color: #1e1e2e;
+    --base-color: #4c4f69;
     --code-background-color: #cdd6f3;
     --border-color: #cdd6f3;
     --overlay-color: #cdd6f3;
