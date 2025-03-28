@@ -25,7 +25,7 @@ actions:
 
 
 
-> ### <ins>Assemblies from Sofiya</ins>
+> ### Assemblies from Sofiya
 
 
 #### KLA 64 bit.
