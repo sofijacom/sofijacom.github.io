@@ -13,6 +13,8 @@ multilingual: true
 
 > ### KLA 64 bit. Arch-based distributions
 
+<hr>
+
 #### KLA-OT2baseCE
 - URL: <https://github.com/sofijacom/KLA-OT2baseCE/releases/tag/v3.1>
 
@@ -29,6 +31,8 @@ multilingual: true
 
 
 > ### KLV 64 bit. Void Linux based distributions
+
+<hr>
 
 #### KLV-Spectrwm-CE
 - URL: <https://github.com/sofijacom/KLV-Spectrwm-CE/releases/tag/KLV-Spectrwm-CE-2.0>
@@ -55,6 +59,8 @@ multilingual: true
 
 
 > ### KLF-Rawhide. Distributions based on Fedora linux
+
+<hr>
 
 #### KLF-Rawhide-CE
 - URL: <https://github.com/sofijacom/KLF-Rawhide-CE/releases/tag/KLF-Rawhide-CE-1.2>
