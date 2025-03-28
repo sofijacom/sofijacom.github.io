@@ -6,9 +6,9 @@ title: "Direct links to iso"
 <a id="installation"></a>  
 <img src="https://github.com/user-attachments/assets/7e1e2fa0-ab50-4901-a024-fe731fb44ab3" width="200"/>
 
-<ins>
+<u>
 ### KLA 64 bit. Arch-based distributions
-</ins>
+</u>
 
 #### KLA-OT2baseCE
 - URL: <https://github.com/sofijacom/KLA-OT2baseCE/releases/tag/v3.1>
@@ -22,9 +22,9 @@ title: "Direct links to iso"
 #### KLA-plasma-KDE-CE
 - URL: <https://github.com/sofijacom/KLA-plasma-KDE-CE/releases/tag/KLA-plasma-KDE-CE-1.4>
 
-<ins>
+<u>
 ### KLV 64 bit. Void Linux based distributions
-</ins>
+</u>
 
 #### KLV-Spectrwm-CE
 - URL: <https://github.com/sofijacom/KLV-Spectrwm-CE/releases/tag/KLV-Spectrwm-CE-2.0>
@@ -44,9 +44,9 @@ title: "Direct links to iso"
 #### KLV-plasma-KDE-CE
 - URL: <https://github.com/sofijacom/KLV-plasma-KDE-CE/releases/tag/KLV-plasma-KDE-CE-1.3>
 
-<ins>
+<u>
 ### KLF-Rawhide. Distributions based on Fedora linux
-</ins>
+</u>
 
 #### KLF-Rawhide-CE
 - URL: <https://github.com/sofijacom/KLF-Rawhide-CE/releases/tag/KLF-Rawhide-CE-1.2>
