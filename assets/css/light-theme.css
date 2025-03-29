@@ -154,6 +154,10 @@ html {
   font-family: "Inter", sans-serif !important;
 }
 
+kbd {
+    font-family: ui-monospace !important;
+}
+
 code {
     font-size: 1em !important;
     color: #4c4f69 !important;
