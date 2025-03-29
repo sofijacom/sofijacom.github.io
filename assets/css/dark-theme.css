@@ -57,7 +57,7 @@ a:hover, a:focus {
 }
 
 .sidebar-toggle-wrapper {
-    background-color: #242739 !important;
+    background-color: #1e2030 !important;
 }
 
  /* часть сидебара с кнопками */
@@ -65,7 +65,7 @@ a:hover, a:focus {
     position: relative;
     width: 100%;
     height: 100%;
-    background-color: #242739 !important;
+    background-color: #1e2030 !important;
     color: #cdd6f4;
 }
 
@@ -206,7 +206,7 @@ kbd {
 
 header {
     display: block;
-    background-color: #242739;
+    background-color: #1e2030;
 }
 
 /* @media screen and (min-width: 1280px) {
