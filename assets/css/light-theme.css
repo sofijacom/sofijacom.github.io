@@ -34,10 +34,6 @@ a:hover, a:focus {
     color: var(--accent-color) !important;
 }
 
-/* &:hover {
-    color: shade(#8838ef, 25%) !important;
-} */
-
 /* Colors */
 .sidebar .menu {
     font-family: "Jost", sans-serif;
