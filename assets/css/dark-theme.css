@@ -142,7 +142,7 @@ p {
     text-decoration-thickness: 1px;
 }
 
-.site-title a {
+.site-title {
     display: flex;
     -ms-flex-align: center;
     -webkit-box-align: center;
