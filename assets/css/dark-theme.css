@@ -142,12 +142,12 @@ p {
     text-decoration-thickness: 1px;
 }
 
-.site-title {
+.site-title a {
     display: flex;
     -ms-flex-align: center;
     -webkit-box-align: center;
     min-height: 50px;
-    color: #4c4f69 !important;
+    color: #a6adc8 !important;
     text-decoration: none;
     line-height: normal !important;
 }
