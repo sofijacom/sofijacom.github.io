@@ -169,14 +169,14 @@ html {
 }
 
 kbd {
-    display: inline-block;
-    margin: 0 0.125em;
-    padding: 0.125em 0.5em;
-    border: 1px solid #797b8f !important;
-    border-radius: 3px;
-    background-color: #4c4f69 !important;
+    display: inline-block !important;
+    margin: 0 0.125em !important;
+    padding: 0.125em 0.5em !important;
+    border: 1px solid #6e768166 !important;
+    border-radius: 6px !important;
+    background-color: #181825 !important;
     text-shadow: 0 1px 0px #4c4f69 !important;
-    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25), inset 0 0 0 2px #4c4f69 !important;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25), inset 0 0 0 2px #6e768166 !important;
 }
 
 code {
