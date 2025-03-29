@@ -179,6 +179,13 @@ kbd {
     box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25), inset 0 0 0 2px #4c4f69 !important;
 }
 
+ code {
+    font-family: "Jost", sans-serif;
+    font-size: 1em;
+    color: #4c4f69;
+    background-color: #00aaff63;
+}
+
 .navicon-button {
   min-height: 35px !important;
 }
