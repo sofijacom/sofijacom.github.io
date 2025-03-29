@@ -168,12 +168,9 @@ h1, h2, h3, h4, h5, h6 {
 .entry-content h1, .entry-content h2, .entry-content h3, .entry-content h4, .entry-content h5, .entry-content h6 {
     color: #bac2de !important;
 }
-/* .entry-content h3 {
-     color: #a6adc7 !important;
-} */
 
 html {
-    /* font-family: "Jost", sans-serif !important; */
+    font-family: "Inter", sans-serif !important;
 }
 
 kbd {
