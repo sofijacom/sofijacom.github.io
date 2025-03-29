@@ -41,7 +41,7 @@ last_modified_at: 2025-02-21T14:25:52-03:00
 ##### KLV-HyprlandCE
 - URL: <https://github.com/sofijacom/KLV-HyprlandCE/releases/tag/v5.8>
 
-### KLV-Hyprland-Sway-CE
+##### KLV-Hyprland-Sway-CE
 - URL: <https://github.com/sofijacom/KLV-Hyprland-Sway-CE/releases/tag/Hyprland-Sway-CE-5.3_1>
 
 ##### KLV-plasma-KDE-CE
@@ -50,6 +50,6 @@ last_modified_at: 2025-02-21T14:25:52-03:00
 
 ### `KLF-Rawhide. Distributions based on Fedora linux`
 
-#### KLF-Rawhide-CE
+##### KLF-Rawhide-CE
 - URL: <https://github.com/sofijacom/KLF-Rawhide-CE/releases/tag/KLF-Rawhide-CE-1.2>
 
