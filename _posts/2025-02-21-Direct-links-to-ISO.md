@@ -12,7 +12,7 @@ last_modified_at: 2025-02-21T14:25:52-03:00
 <img src="https://github.com/user-attachments/assets/7e1e2fa0-ab50-4901-a024-fe731fb44ab3" width="200"/>
 
 
-#### KLA 64 bit. Arch-based distributions 
+### KLA 64 bit. Arch-based distributions 
 
 ##### KLA-OT2baseCE
 - URL: <https://github.com/sofijacom/KLA-OT2baseCE/releases/tag/v3.1>
@@ -27,7 +27,7 @@ last_modified_at: 2025-02-21T14:25:52-03:00
 - URL: <https://github.com/sofijacom/KLA-plasma-KDE-CE/releases/tag/KLA-plasma-KDE-CE-1.4>
 
 
-#### KLV 64 bit. Void Linux based distributions
+### KLV 64 bit. Void Linux based distributions
 
 ##### KLV-Spectrwm-CE
 - URL: <https://github.com/sofijacom/KLV-Spectrwm-CE/releases/tag/KLV-Spectrwm-CE-2.0>
@@ -48,7 +48,7 @@ last_modified_at: 2025-02-21T14:25:52-03:00
 - URL: <https://github.com/sofijacom/KLV-plasma-KDE-CE/releases/tag/KLV-plasma-KDE-CE-1.3>
 
 
-#### KLF-Rawhide. Distributions based on Fedora linux
+### KLF-Rawhide. Distributions based on Fedora linux
 
 ##### KLF-Rawhide-CE
 - URL: <https://github.com/sofijacom/KLF-Rawhide-CE/releases/tag/KLF-Rawhide-CE-1.2>
