@@ -8,25 +8,6 @@ _f_00_Void_KDE_plasma_no-kernel.plug_
 
 
 ```c
-[data-theme="dark"] {
-    --primary-color: #9A97F3;
-    $secondary-color: #818cab;
-    --font-color: #e1e1ff;
-    @bg-color: #161625;
-    --heading-color: #818cab;
-}
-$base08: #c7ae95 !default;
-$base09: #c7c795 !default;
-$base0a: #aec795 !default;
-$base0b: #95c7ae !default;
-$base0c: #95aec7 !default;
-$base0d: #ae95c7 !default;
-$base0e: #c795ae !default;
-$base0f: #c79595 !default;
-
-```
-
-```c
 # f_00_Void_KDE_plasma_no-kernel.plug
 # version="1.0"; revision="-CЕ-1.3"
 # Kennel Linux Void outfitted with a KDE-plasma desktop 
