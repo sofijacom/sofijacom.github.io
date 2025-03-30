@@ -27,7 +27,7 @@ last_modified_at: 2025-02-21T14:25:52-03:00
 - URL: <https://github.com/sofijacom/KLA-plasma-KDE-CE/releases/tag/KLA-plasma-KDE-CE-1.4>
 
 
-### `KLV 64 bit. Void Linux based distributions`
+### <kbd>KLV 64 bit. Void Linux based distributions</kbd>
 
 ##### KLV-Spectrwm-CE
 - URL: <https://github.com/sofijacom/KLV-Spectrwm-CE/releases/tag/KLV-Spectrwm-CE-2.0>
@@ -48,7 +48,7 @@ last_modified_at: 2025-02-21T14:25:52-03:00
 - URL: <https://github.com/sofijacom/KLV-plasma-KDE-CE/releases/tag/KLV-plasma-KDE-CE-1.3>
 
 
-### `KLF-Rawhide. Distributions based on Fedora linux`
+### <kbd>KLF-Rawhide. Distributions based on Fedora linux</kbd>
 
 ##### KLF-Rawhide-CE
 - URL: <https://github.com/sofijacom/KLF-Rawhide-CE/releases/tag/KLF-Rawhide-CE-1.2>
