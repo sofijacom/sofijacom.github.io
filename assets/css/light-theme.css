@@ -199,6 +199,8 @@ figure.highlight {
   color: #4c4f69;
   font-family: Menlo, Consolas, Monaco, "Courier New", Courier, monospace;
   line-height: 1.8;
+  border-radius: 8px;
+  border: 1px solid rgb(255, 255, 255);  
 
   > pre,
   pre.highlight {
