@@ -200,7 +200,7 @@ figure.highlight {
   font-family: Menlo, Consolas, Monaco, "Courier New", Courier, monospace !important;
   line-height: 1.8 !important;
   border-radius: 8px !important;
-  border: 1px solid #2f363d !important;  
+  border: 1px !important;  
 
   > pre,
   pre.highlight {
@@ -215,6 +215,8 @@ pre {
     padding: 8px !important;
     word-break: break-all !important;
     word-wrap: break-word !important;
+    /* color: #4c4f69; */
+    /* background-color: #181825; */
 }
 
 header {
