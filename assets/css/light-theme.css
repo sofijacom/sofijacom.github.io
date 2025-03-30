@@ -315,7 +315,7 @@ header {
   content: attr(title-tooltip);
   padding: 8px;
   border-radius: 8px;
-  background: #dc8a7880;
+  background: #dce0e8;
   text-align: center;
   width: max-content;
   font-size: 12px;
@@ -326,5 +326,5 @@ header {
   bottom: -20px;
   content: '';
   border: 8px solid transparent;
-  border-bottom: 10px solid #dc8a7880;
+  border-bottom: 10px solid #dce0e8;
 }
