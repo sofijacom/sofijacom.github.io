@@ -193,28 +193,28 @@ code {
 
 div.highlighter-rouge,
 figure.highlight {
-  position: relative;
-  margin-bottom: 1em;
-  background: #2f363d;
-  color: #4c4f69;
-  font-family: Menlo, Consolas, Monaco, "Courier New", Courier, monospace;
-  line-height: 1.8;
-  border-radius: 8px;
-  border: 1px solid rgb(255, 255, 255);  
+  position: relative !important;
+  margin-bottom: 1em !important;
+  background: #2f363d !important;
+  color: #4c4f69 !important;
+  font-family: Menlo, Consolas, Monaco, "Courier New", Courier, monospace !important;
+  line-height: 1.8 !important;
+  border-radius: 8px !important;
+  border: 1px solid rgb(255, 255, 255) !important;  
 
   > pre,
   pre.highlight {
-    margin: 0;
+    margin: 0 !important;
     padding: 1em;
   }
 }
 .highlight pre {
-    width: 100%;
+    width: 100% !important; 
 }
 pre {
-    padding: 9.5px;
-    word-break: break-all;
-    word-wrap: break-word;
+    padding: 9.5px !important;
+    word-break: break-all !important;
+    word-wrap: break-word !important;
 }
 
 header {
