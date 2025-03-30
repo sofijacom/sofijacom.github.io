@@ -197,26 +197,23 @@ figure.highlight {
   margin-bottom: 1em;
   background: #2f363d;
   color: #4c4f69;
-  /*font-family: $monospace-font-family; */
+  font-family: Menlo, Consolas, Monaco, "Courier New", Courier, monospace;
   line-height: 1.8;
 
   > pre,
   pre.highlight {
     margin: 0;
-    padding: 9.5px;
+    padding: 1em;
   }
 }
 .highlight pre {
     width: 100%;
 }
-/* pre {
-    display: block;
+pre {
     padding: 9.5px;
-    line-height: 1.42857143;
-    color: #4c4f69;
     word-break: break-all;
     word-wrap: break-word;
-} */
+}
 
 header {
     display: block;
