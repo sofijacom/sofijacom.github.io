@@ -33,6 +33,13 @@ a {
     align-items: normal !important;
 }
 
+/* dark.css */
+--image-filter: grayscale(50%);
+
+img:not([src*='.svg']) {
+  filter: var(--image-filter) !important;
+}
+
 /* text-decoration: underline; */
 a:hover, a:focus {
     color: #cba6f7 !important;  
