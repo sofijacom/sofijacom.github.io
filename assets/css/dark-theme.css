@@ -213,7 +213,7 @@ figure.highlight {
   font-family: Menlo, Consolas, Monaco, "Courier New", Courier, monospace !important;
   line-height: 1.8 !important;
   border-radius: 8px !important;
-  border: 1px !important;  
+  border: 1px solid #45475a !important;  
 
   > pre,
   pre.highlight {
