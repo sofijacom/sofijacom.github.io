@@ -191,11 +191,35 @@ code {
     fill: var(--base-color) !important;
 } */
 
+.highlighter-rouge .highlight pre {
+   /* font-size: 14px; */
+    line-height: 1.5;
+    color: #555;
+    background: transparent;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    word-wrap: normal;
+}
 .highlight pre {
     width: 100%;
-    background-color: #2f363d;
+   /* background-color: #2f363d; */
+    background: #282c34;
 }
-
+pre {
+    /* font-size: 12px; */
+    display: block;
+    padding: 9.5px;
+    /* margin: 0 0 10px; */
+    /* font-size: 13px; */
+    line-height: 1.42857143;
+    color: #4c4f69;
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: #181825;
+    border: 1px solid #181825;
+    border-radius: 4px;
+}
 header {
     display: block;
     background-color: #e6e9ef;
