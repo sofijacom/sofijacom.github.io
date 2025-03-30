@@ -193,8 +193,8 @@ code {
 
 .highlight pre {
     width: 100%;
-   /* background-color: #2f363d; */
-    background: #282c34;
+    background-color: #2f363d;
+    /* background: #282c34; */
 }
 pre {
     /* font-size: 12px; */
