@@ -12,8 +12,6 @@ actions:
 ---
 
 
-
-
 <hr>
 
 - [Main forum](https://forum.puppylinux.com/viewforum.php?f=228)
