@@ -339,13 +339,7 @@ var requestId = false;
 		},false);
 
 		</script>
-
-<html lang="{{ page.lang | default: site.lang | default: 'en-US' }}" class="no-js">
-  {% include head.html %}
-
-  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %} {{ page.title | slugify }}">
-	  
-    {% include skip-links.html %}
+	
 	  
   <body>
     <header></header>
