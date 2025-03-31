@@ -1,0 +1,166 @@
+html {
+    font-size: 80%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.calendar,
+section {
+    max-width: 50rem;
+}
+
+.day {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.day:nth-of-type(7n + 1) {
+    color: #f09;
+}
+
+.to.day {
+    color: white;
+    background: #f09;
+    border-radius: 50%;
+}
+
+.month {
+    width: calc(1.5em * 7);
+    padding: 1em;
+    cursor: pointer;
+}
+
+h4 {
+    font-size: 1em;
+    text-transform: uppercase;
+    color: #f09;
+}
+
+h1#year {
+    font-size: 2em;
+    height: 29px;
+    font-weight: normal;
+    padding: 1em 1em 0.5em 1em;
+    margin-bottom: 0.5em;
+    border-bottom: 5px double #d9d9d9;
+}
+
+.no-flexbox .day {
+    text-align: center;
+    float: left;
+    line-height: 1.5em;
+}
+
+.no-flexbox h4 {
+    text-align: center;
+}
+
+.no-flexbox h1 {
+    width: 4em;
+}
+
+/* FLEXBOX styles*/
+
+body,
+body * {
+    display: flex;
+    justify-content: center;
+}
+
+h4 {
+    justify-content: center;
+    flex: 1 0 100%;
+}
+
+h1 {
+    justify-content: center;
+    align-self: stretch;
+}
+
+.calendar,
+.month {
+    flex-wrap: wrap;
+}
+
+section {
+    flex-direction: column;
+    align-self: center;
+}
+
+.month {
+    align-items: flex-start;
+}
+
+.day {
+    align-items: center;
+    justify-content: center;
+}
+
+/*for a Spanish like calendar
+ *  .month .day:nth-of-type(1){order:7!important;}
+ *  .month .day:nth-of-type(8){order:-1!important;}
+ *
+ */
+
+script {
+    display: none;
+}
+
+.cloneCont {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -5em;
+    margin-top: -10.89em;
+    box-shadow: 0px 0px 5px 1px #ccc;
+    transform: scale(2, 2);
+    background: rgba(255, 255, 255, 0.9);
+    animation: redimensionar 0.5s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.month.cloneMonth {
+    display: flex;
+}
+
+.month.cloneMonth:after {
+    content: "\02718";
+    color: #f09;
+    position: absolute;
+    top: 1em;
+    right: 1em;
+}
+
+.cloneCont.trans {
+    transform: translateY(1000px);
+    background: rgba(255, 255, 255, 0.9);
+    opacity: 0;
+    animation: trasladar 0.5s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+@keyframes redimensionar {
+    0% {
+        transform: scale(1, 1);
+        background: rgba(255, 255, 255, 0.9);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(2, 2);
+        background: rgba(255, 255, 255, 0.9);
+        opacity: 1;
+    }
+}
+
+@keyframes trasladar {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(1000px);
+        opacity: 0;
+    }
+}
