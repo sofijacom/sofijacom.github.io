@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Calendar</title>
-  </head>
+  </head>	
 	
 <style type="text/css" media="screen">
   html {
@@ -340,6 +340,13 @@ var requestId = false;
 
 		</script>
 
+<html lang="{{ page.lang | default: site.lang | default: 'en-US' }}" class="no-js">
+  {% include head.html %}
+
+  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %} {{ page.title | slugify }}">
+	  
+    {% include skip-links.html %}
+	  
   <body>
     <header></header>
     <main></main>
