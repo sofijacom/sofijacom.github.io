@@ -3,8 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>Calendar</title>
-  </head>	
-
+  </head>
+	
+<header class="intro">
+  {% if page.image %}
+    {% assign intro_image = page.image.path | default: page.image | relative_url | escape %}
+    <div class="intro-image">
+      <img src="{{ intro_image }}" alt="{{ page.title }}">
+    </div>
+  {% endif %}
 	
 <style type="text/css" media="screen">
   html {
