@@ -4,13 +4,11 @@
     <meta charset="utf-8">
     <title>Calendar</title>
   </head>
-
-<!-- <button onclick="document.location='https://sofijacom.github.io/'">HOME</button> -->
 	
 <style type="text/css" media="screen">
 .btn {
     display: inline-block;
-   /* height: auto; */
+    height: auto;
     padding: 2px 10px 2px 10px;
     border: 1px solid #a6adc8;
     border-radius: 8px;
@@ -126,12 +124,6 @@ section {
   justify-content: center;
 }
 
-/*for a Spanish like calendar
-  .month .day:nth-of-type(1){order:7!important;}
-  .month .day:nth-of-type(8){order:-1!important;}
-
-*/
-
 script {
   display: none;
 }
@@ -193,10 +185,8 @@ script {
 	
 </style>
 	
-  <section>
-  <body>
-   <a href="https://sofijacom.github.io/" class="btn">Home Kennel Linux</a>
-  </body>	  
+<section>
+<a href="https://sofijacom.github.io/" class="btn">Home: Kennel Linux</a>	  
 <h1 id="year"></h1>
 <div class="calendar"></div>
 </section>
@@ -287,21 +277,6 @@ for( var i = 0; i < 7; i++){
 
 	return monthDiv;
 
-/*
-<div class="month">
-
-<div class="monthHeader">
-<div class="day OfWeek">Sun</div>
-<div class="day OfWeek">Mon</div>
-<div class="day OfWeek">Tue</div>
-<div class="day OfWeek">Wed</div>
-<div class="day OfWeek">Thu</div>
-<div class="day OfWeek">Fri</div>
-<div class="day OfWeek">Sat</div>
-</div>
-
-<div class="daysOfTheMonth">
-*/
 }
 
 
@@ -309,19 +284,6 @@ function daysInMonth(year,month) {
     return new Date(year, month+1, 0).getDate();//29/03/2016 (month + 1)
 }
 
-/*function leapYear(year){
-  return ((year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0);
-}
-
-function getNextMonth(month){
- if (month == 11) {
-    var nextMonth = 0;
-} else {
-    var nextMonth = month+1;
-}
-return nextMonth;
-}
-*/
 function getMonthName(month){
 	return monthNamesRy[month];
 }
@@ -360,8 +322,7 @@ var requestId = false;
 		}
 		},false);
 
-		</script>
-	  
+		</script>	  
   <body>
 
   </body>
