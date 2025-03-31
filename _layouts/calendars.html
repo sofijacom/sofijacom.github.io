@@ -8,6 +8,11 @@ layout: default
   
 {% assign PATH_TO_COMPONENTS =  "/components" | prepend: site.baseurl %}
 
+    <section>
+<h1 id="year"></h1>
+<div class="calendar"></div>
+</section>
+
   <div>
   {{ content }}
 </div>
@@ -15,11 +20,7 @@ layout: default
   <div class="container" style="width:100%">
   <div class="page-header">
     
-    <section>
-<h1 id="year"></h1>
-<div class="calendar"></div>
-</section>
-    
+ 
     <small>{{ page.calendar_caption }}</small>
   </div>
 </div>
