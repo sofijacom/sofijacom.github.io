@@ -3,27 +3,14 @@ layout: default
 ---
 
 
-    <link rel="stylesheet" href="/assets/css/style.css">
-     <link rel="stylesheet" href="/assets/css/calendars.css">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/calendars.css">
   
-{% assign PATH_TO_COMPONENTS =  "/components" | prepend: site.baseurl %}
 
     <section>
-<h1 id="year"></h1>
-<div class="calendar"></div>
-</section>
-
-  <div>
-  {{ content }}
-</div>
-  
-  <div class="container" style="width:100%">
-  <div class="page-header">
-    
- 
-    <small>{{ page.calendar_caption }}</small>
-  </div>
-</div>
+  <h1 id="year"></h1>
+  <div class="calendar"></div>
+  </section>
   
   <script type="text/javascript" src="/assets/js/calendars.js"></script>
 
