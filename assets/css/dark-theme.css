@@ -138,12 +138,12 @@ p {
     background: #a6adc8 !important;
 }
 
-.site-title:hover {
+/* .site-title:hover {
     color: #cba6f7 !important;
     transition: 0.7s;
-    text-decoration: underline;          /* dotted , double */
+    text-decoration: underline;
     text-decoration-thickness: 1px;
-}
+} */
 
 .site-title {
     display: flex;
