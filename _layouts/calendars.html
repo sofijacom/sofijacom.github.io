@@ -2,14 +2,9 @@
 layout: default
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Calendar</title>
+
     <link rel="stylesheet" href="/assets/css/style.css">
      <link rel="stylesheet" href="/assets/css/calendars.css">
-  </head>
   
 {% assign PATH_TO_COMPONENTS =  "/components" | prepend: site.baseurl %}
 
@@ -17,27 +12,17 @@ layout: default
   {{ content }}
 </div>
   
-  <section>
-<h1 id="year"></h1>
-<div class="calendar"></div>
-</section>
-
   <div class="container" style="width:100%">
   <div class="page-header">
     
-  
-     <!-- <h3>Calendar</h3> -->
-  <p align="center">
+    <section>
+<h1 id="year"></h1>
+<div class="calendar"></div>
+</section>
+    
     <small>{{ page.calendar_caption }}</small>
-  </p>
   </div>
 </div>
   
   <script type="text/javascript" src="/assets/js/calendars.js"></script>
 
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-  </body>
-</html>
