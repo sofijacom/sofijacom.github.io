@@ -12,16 +12,15 @@ layout: default
   </head>
   
 {% assign PATH_TO_COMPONENTS =  "/components" | prepend: site.baseurl %}
-  
-  <section>
-<h1 id="year"></h1>
-<div class="calendar"></div>
-</section>
-  
+
   <div>
   {{ content }}
 </div>
   
+  <section>
+<h1 id="year"></h1>
+<div class="calendar"></div>
+</section> 
   <script type="text/javascript" src="/assets/js/calendars.js"></script>
 
   <body>
