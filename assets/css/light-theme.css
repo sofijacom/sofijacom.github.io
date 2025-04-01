@@ -131,6 +131,7 @@ p {
 } */
 
 .site-title {
+    display: flex;
     line-height: normal !important;
 }
 
