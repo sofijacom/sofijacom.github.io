@@ -31,8 +31,8 @@ body {
 a {
    /* color: #4c4f69 !important; */
     align-items: normal !important;
-    text-decoration: underline;
-    text-decoration-thickness: 1px;
+    text-decoration: underline !important;
+    text-decoration-thickness: 1px !important;
 } 
 
 a:hover, a:focus {
