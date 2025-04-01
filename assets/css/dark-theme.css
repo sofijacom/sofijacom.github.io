@@ -141,11 +141,10 @@ p {
 .site-title {
     display: flex;
     line-height: normal !important;
-}
-.site-title {
-    a {
+    
+  a {
     color: #a6adc8 !important;
-    }    
+    }
 }
 
 .sub-title {
