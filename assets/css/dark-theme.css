@@ -346,5 +346,5 @@ header {
   height: 24px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  background-image: url("https://github.com/sofijacom/sofijacom.github.io/blob/94bb2d432ee8e8a25856b8593b50ba113cf02c74/assets/icons/sun.svg");
+  background-image: "/assets/icons/basil--sun-solid.svg";
 }
