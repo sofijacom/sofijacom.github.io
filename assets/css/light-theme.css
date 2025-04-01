@@ -327,5 +327,5 @@ header {
   height: 24px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  background-image: url("https://raw.githubusercontent.com/sofijacom/sofijacom.github.io/95b1550dd1a5a6fa8618fe03be1bccbc7ace2722/assets/icons/basil--moon-solid.svg");
+  background-image: url("/assets/icons/basil--moon-solid.svg");
 }
