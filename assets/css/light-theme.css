@@ -131,11 +131,6 @@ p {
 } */
 
 .site-title {
-    display: flex;
-    -ms-flex-align: center;
-    -webkit-box-align: center;
-    min-height: 50px;
-    text-decoration: none;
     line-height: normal !important;
 }
 
