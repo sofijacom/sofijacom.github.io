@@ -142,7 +142,7 @@ p {
     display: flex;
     line-height: normal !important;
 }
-.site-title a {
+.site-title, a {
     color: #a6adc8 !important;
 }
 
