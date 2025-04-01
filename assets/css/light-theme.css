@@ -123,16 +123,15 @@ p {
     transition: 0.7s;
 }
 
-/* .site-title:hover {
-    color: #8838ef !important;
-    transition: 0.5s;
-    text-decoration: underline;
-    text-decoration-thickness: 1px;
-} */
-
 .site-title {
     display: flex;
     line-height: normal !important;
+}
+
+ .site-title:hover {
+    color: #8838ef !important;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
 }
 
 .sub-title {
