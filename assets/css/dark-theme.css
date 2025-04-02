@@ -111,10 +111,10 @@ p {
     border-radius: 50px;
     margin-right: 10px;
 }
-.btn-toggle:hover {
+/* .btn-toggle:hover {
    color: #fff9b5;
    transition: 0.5s; 
-}
+} */
 
 .btn {
     display: inline-block;
