@@ -102,7 +102,7 @@ p {
 
 /* кнопка переключения тем */
 .btn-toggle {
-   /* background: #18182505; */
+    background: #dce0e8;
    /* color: #11111b; */
     height: auto;
     display: inline-block;
@@ -113,7 +113,6 @@ p {
 }
 .btn-toggle:hover {
    color: #04a5e5;
-   transition: 0.5s; 
 }
 
 .btn {
