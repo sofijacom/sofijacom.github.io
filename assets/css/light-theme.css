@@ -111,6 +111,9 @@ p {
     border-radius: 50px;
     margin-right: 10px;
 }
+.btn-toggle:hover {
+   color: #39addf
+}
 
 .btn {
     display: inline-block;
