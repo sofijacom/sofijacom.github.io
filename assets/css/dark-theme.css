@@ -106,7 +106,7 @@ p {
     color: #a6adc8;
     height: auto;
     display: inline-block;
-   /* padding: 2px 10px 2px 10px; */
+    padding: 1px 10px 1px 10px;
     border: 1px solid #a6adc8;
     border-radius: 50px;
     margin-right: 10px;
