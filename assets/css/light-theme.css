@@ -351,6 +351,5 @@ header {
   background-color: currentColor;
   mask-image: var(--svg);
   mask-repeat: no-repeat;
-  background-size: 100% 100%;
   mask-size: 100% 100%;
 }
