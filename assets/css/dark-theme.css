@@ -342,8 +342,8 @@ header {
 
 .sun-solid {
   display: block;
-  width: 24px;
-  height: 24px;
+  width: 21px;
+  height: 21px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-image: url('/assets/icons/sun-solid.png');
