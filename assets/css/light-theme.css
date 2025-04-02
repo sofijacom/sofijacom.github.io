@@ -322,7 +322,7 @@ header {
 }
 
 .basil--moon-solid::after {
-  display: inline-block;
+  display: block;
   width: 21px;
   height: 21px;
   vertical-align: -0.125em;
