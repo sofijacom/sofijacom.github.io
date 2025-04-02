@@ -102,7 +102,7 @@ p {
 
 /* кнопка переключения тем */
 .btn-toggle {
-    background: #dce0e8;
+    background-color: transparent;
    /* color: #11111b; */
     height: auto;
     display: inline-block;
