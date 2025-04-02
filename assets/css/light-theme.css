@@ -23,7 +23,7 @@
     --accent-background-color: rgb(0, 0, 238);
 }
 
-  @media (prefers-color-scheme: light) {
+  @media (prefers-color-scheme: light-theme) {
     :root {
     --base-color: #4c4f69;
     --code-background-color: #4c4f69;
