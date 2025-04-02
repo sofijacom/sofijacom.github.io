@@ -23,6 +23,19 @@
     --accent-background-color: rgb(0, 0, 238);
 }
 
+  @media (prefers-color-scheme: light) {
+    :root {
+    --base-color: #4c4f69;
+    --code-background-color: #4c4f69;
+    --border-color: #4c4f69;
+    --overlay-color: #4c4f69;
+    --sidebar-background-color: #e6e9ef;
+    --background-color: #e6e9ef;
+    --text-color: #4c4f69;
+    --accent-color: #dc8a78;
+    }
+  }
+
 body {
     background: #dce0e8 !important;
     color: var(--text-color) !important;
