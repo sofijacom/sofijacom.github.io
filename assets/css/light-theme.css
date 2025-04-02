@@ -113,6 +113,7 @@ p {
 }
 .btn-toggle:hover {
    color: #04a5e5;
+   transition: 0.5s; 
 }
 
 .btn {
