@@ -120,8 +120,6 @@ exclude:
   - /docs # ignore Basically Basic sample site
  # - /example # ignore Basically Basic dev site
 
-gzip: extensions: - '.html' - '.css' - '.js' - '.svg' [1](https://github.com/philnash/jekyll-gzip)
-
 # Sass/SCSS
 sass:
   sass_dir: _sass
