@@ -96,6 +96,13 @@ google_analytics: G-Y3XDRGQR98
 # permalink: /:categories/:title/
 timezone: Europe/Moscow  # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
+gzip:
+  extensions:
+    - '.html'
+    - '.css'
+    - '.js'
+    - '.svg
+    
 # Exclude from processing.
 exclude:
   - .asset-cache
