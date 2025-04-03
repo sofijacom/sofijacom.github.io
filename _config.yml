@@ -91,6 +91,8 @@ paginate_path: /page:num/
 
 google_analytics: G-Y3XDRGQR98
 
+# Outputting
+permalink: /:categories/:title/
 timezone: Europe/Moscow  # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Exclude from processing.
@@ -117,6 +119,18 @@ exclude:
   - /docs # ignore Basically Basic sample site
  # - /example # ignore Basically Basic dev site
 
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  
+# HTML Compression
+# - https://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+    
 # Front Matter Defaults
 defaults:
   # _posts
