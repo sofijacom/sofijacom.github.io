@@ -45,6 +45,10 @@ liquid:
   error_mode: strict
   
 # Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
+
+# Build settings
 markdown: kramdown
 kramdown:
   input: GFM # use Github Flavored Markdown !important
