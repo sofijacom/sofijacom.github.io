@@ -6,6 +6,9 @@ This is the (official?) website for Kennel Linux built with the [Jekyll](https:/
 
 ![2025-03-25_15-02](https://github.com/user-attachments/assets/415596bc-df59-44bb-803f-fbce3d962ec9)
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/05da0439-f083-4c92-a60c-a3555654152d" />
+</p>
 
 ```terminal
 jekyll-theme-basically-basic
