@@ -359,6 +359,7 @@ header {
 
 .basil--sun-solid {
   display: block;
+  content: "";  
   width: 21px;
   height: 21px;
   background-position: center;
