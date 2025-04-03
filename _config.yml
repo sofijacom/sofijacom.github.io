@@ -82,6 +82,7 @@ plugins: # previsously gems
   - jekyll-paginate
   - jekyll-remote-theme
   - jekyll-archives
+  - jekyll-gzip
 feed:
   path: atom.xml
 
@@ -118,6 +119,8 @@ exclude:
   - vendor/ruby/
   - /docs # ignore Basically Basic sample site
  # - /example # ignore Basically Basic dev site
+
+gzip: extensions: - '.html' - '.css' - '.js' - '.svg' [1](https://github.com/philnash/jekyll-gzip)
 
 # Sass/SCSS
 sass:
