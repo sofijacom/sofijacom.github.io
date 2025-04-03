@@ -357,11 +357,11 @@ header {
   border-bottom: 10px solid #cba6f7;
 }
 
-.basil--sun-solid {
+.sun {
   display: block;
   width: 21px;
   height: 21px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  background-image: "/assets/icons/basil--sun-solid.png"
+  background: url('/img/sun.png');
 }
