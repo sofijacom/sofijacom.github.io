@@ -352,9 +352,8 @@ header {
   display: block;
   width: 21px;
   height: 21px;
-  --svg: "/assets/images/ri--moon-clear-line.svg";
+  image: "/assets/images/ri--moon-clear-line.svg";
   background-color: currentColor;
-  mask-image: var(--svg);
-  mask-repeat: no-repeat;
-  mask-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
