@@ -93,7 +93,7 @@ paginate_path: /page:num/
 google_analytics: G-Y3XDRGQR98
 
 # Outputting
-permalink: /:categories/:title/
+# permalink: /:categories/:title/
 timezone: Europe/Moscow  # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Exclude from processing.
