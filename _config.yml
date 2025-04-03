@@ -86,6 +86,13 @@ plugins: # previsously gems
 feed:
   path: atom.xml
 
+gzip:
+  extensions:
+    - '.html'
+    - '.css'
+    - '.svg'
+    - '.js
+    
 # Pagination - https://jekyllrb.com/docs/pagination/
 paginate: 10
 paginate_path: /page:num/
@@ -95,13 +102,6 @@ google_analytics: G-Y3XDRGQR98
 # Outputting
 # permalink: /:categories/:title/
 timezone: Europe/Moscow  # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
-gzip:
-  extensions:
-    - '.html'
-    - '.css'
-    - '.js'
-    - '.svg
     
 # Exclude from processing.
 exclude:
@@ -125,19 +125,7 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - /docs # ignore Basically Basic sample site
- # - /example # ignore Basically Basic dev site
-
-# Sass/SCSS
-sass:
-  sass_dir: _sass
-  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-  
-# HTML Compression
-# - https://jch.penibelst.de/
-compress_html:
-  clippings: all
-  ignore:
-    envs: development
+  - /example # ignore Basically Basic dev site
     
 # Front Matter Defaults
 defaults:
