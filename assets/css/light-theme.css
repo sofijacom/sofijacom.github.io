@@ -352,7 +352,7 @@ header {
   display: block;
   width: 21px;
   height: 21px;
-  --svg: url("/assets/images/ri--moon-clear-line.svg");
+  --svg: "/assets/images/ri--moon-clear-line.svg"
   background-color: currentColor;
   mask-image: var(--svg);
   mask-repeat: no-repeat;
