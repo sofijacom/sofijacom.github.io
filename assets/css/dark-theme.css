@@ -361,6 +361,7 @@ header {
   display: block;
   width: 21px;
   height: 21px;
+  background-position: center;  
   background-repeat: no-repeat;
   background-size: 100% 100%;
   image: url('/img/sun.png');
