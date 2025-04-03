@@ -9,3 +9,5 @@ gem 'jekyll-archives'
 group :jekyll_plugins do
   gem 'jekyll-gzip'
 end
+
+gem 'jekyll-brotli'
