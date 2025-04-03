@@ -30,7 +30,7 @@ author:
   picture: "/assets/images/Kennel_Linux.png"
 twitter_username: sofijacom
 github_username: sofijacom
-logo: "/assets/web/Logo-kl.webp" #"/assets/images/logo.png" # path of site logo, e.g. "/assets/images/logo.png"
+logo: "/assets/web/logo-kl-anime.webp" #"/assets/images/logo.png" # path of site logo, e.g. "/assets/images/logo.png"
 search: true # true, false (default)
 search_full_content: false # true, false (default)
 search_provider: lunr # lunr (default), algolia
