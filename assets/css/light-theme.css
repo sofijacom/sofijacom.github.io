@@ -110,10 +110,32 @@ p {
     border: 1px solid #4c4f69;
     border-radius: 50px;
     margin-right: 10px;
+    position: relative; // Это важно добавить 
+    overflow-x: hidden; / Это важно добавить
 }
 .btn-toggle:hover {
    color: #04a5e5;
    transition: 0.5s; 
+}
+.btn-toggle .flare {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 45px;
+    transform: skewX(-45deg); // Наклон
+    animation: flareAnimation;
+    left: -150%;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.4));
+    animation: flareAnimation 3s infinite linear; // Время и тип анимации можно менять
+}
+
+@keyframes flareAnimation {
+    0% {
+        left: -150%;
+    }
+    100% {
+        left: 150%;
+    }
 }
 
 .btn {
