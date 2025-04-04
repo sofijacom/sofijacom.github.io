@@ -13,6 +13,8 @@
   text-align: center;
   text-decoration: none;
   cursor: pointer;
+  position: relative; // Это важно добавить 
+  overflow-x: hidden; / Это важно добавить  
 
   &:hover {
     background-color: tint($accent-color, 20%);
