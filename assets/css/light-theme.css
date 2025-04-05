@@ -350,7 +350,7 @@ header {
 
 .bi-moon-stars {
   display: block;
-  content: "\F496";
+  content: "";
  /* font-family: FontAwesome; */  
   width: 21px;
   height: 21px;
