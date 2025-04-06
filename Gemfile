@@ -10,4 +10,4 @@ group :jekyll_plugins do
   gem 'jekyll-gzip'
 end
 
-gem 'jekyll-brotli'
+# gem 'jekyll-brotli'
