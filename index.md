@@ -23,8 +23,7 @@ actions:
 
 
 
-### Assemblies from 🟣 Sofiya
-
+🟣 ### Assemblies from $${\color{red}Sofiya}$$
 
 #### KLA 64 bit.
 
