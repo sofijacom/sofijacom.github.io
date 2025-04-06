@@ -83,7 +83,7 @@ plugins: # previsously gems
   - jekyll-remote-theme
   - jekyll-archives
   - jekyll-gzip
-  - jekyll-brotli
+ # - jekyll-brotli
 feed:
   path: atom.xml
     
