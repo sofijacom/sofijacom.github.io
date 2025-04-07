@@ -23,9 +23,8 @@ actions:
 
 
 ### Assemblies from Sofiya 
-
 <span style="color:purple;font-weight:700;font-size:20px">
-Assemblies from Sofiya
+Sofiya
 </span>
 
 #### KLA 64 bit.
