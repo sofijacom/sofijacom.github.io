@@ -22,7 +22,7 @@ actions:
 - [Website GitHub repo](https://github.com/sofijacom/sofijacom.github.io)
 
 
-### Assemblies from Sofiya <span style="color:purple;font-weight:700;font-size:24px">Sofiya</span>
+### Assemblies from <span style="color:Fuchsia;font-weight:700;font-size:24px">Sofiya</span>
 
 #### KLA 64 bit.
 
