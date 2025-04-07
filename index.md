@@ -21,10 +21,9 @@ actions:
 - [FirstRib GitLab repo](https://gitlab.com/firstrib/firstrib)
 - [Website GitHub repo](https://github.com/sofijacom/sofijacom.github.io)
 
-
+🟣
 
 ### Assemblies from Sofiya 
-🟣
 
 #### KLA 64 bit.
 
