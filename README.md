@@ -1,12 +1,11 @@
 This is the (official?) website for Kennel Linux built with the [Jekyll](https://jekyllrb.com/) static site generator.
 
 
-![2025-03-25_15-01](https://github.com/user-attachments/assets/2c3ed837-ecd6-4d60-82d5-91d75564c007)
+![2025-04-08_20-25](https://github.com/user-attachments/assets/fe27eeba-2aec-4f2b-b721-4ed48834bf9a)
 
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/05da0439-f083-4c92-a60c-a3555654152d" />
-</p>
+![2025-04-08_20-25_1](https://github.com/user-attachments/assets/b0a6acda-f159-4b4e-878c-c044dc9007e9)
+
 
 ```terminal
 jekyll-theme-basically-basic
