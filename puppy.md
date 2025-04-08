@@ -1,5 +1,5 @@
 ---
 title: Puppy linux
-image: /assets/images/puppy-linux-2.jpg
+image: /assets/web/Puppy-linux-4.webp
 ---
 
