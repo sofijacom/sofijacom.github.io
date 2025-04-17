@@ -17,3 +17,9 @@ _This page will tell you a little about Kennel Linux._
 They are usually built using the_ **FIRSTRIB** _assembly system - a collection of shell scripts that creates a root file system for downloading with a certain bootloader_ (for example, GRUB).
 _Kennel Linux contains a desktop environment, utility and an application of a developer that implements a script._ 
 
+
+There are many KL distros, each with their own unique features:
+- **KLV:** Any KL distro based on [Void Linux](https://voidlinux.org/). Probably the most popular of these is [KLV-Airedale](https://forum.puppylinux.com/viewforum.php?f=191), created by rockedge.
+- **KLA:** Any KL distro based on Arch Linux.
+- **KLU:** Any KL distro based on Ubuntu. Currently, the only KLU is [KLU-jam-XFCEbase](https://forum.puppylinux.com/viewtopic.php?t=7866), created by wiak.
+- **KL minis:** KL distros that are made to be "very small".
