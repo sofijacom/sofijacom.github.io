@@ -18,8 +18,9 @@ They are usually built using the_ **FIRSTRIB** _assembly system - a collection o
 _Kennel Linux contains a desktop environment, utility and an application of a developer that implements a script._ 
 
 
-There are many KL distros, each with their own unique features:
-- **KLV:** Any KL distro based on [Void Linux](https://voidlinux.org/). Probably the most popular of these is [KLV-Airedale](https://forum.puppylinux.com/viewforum.php?f=191), created by <span style="color:red;font-style:bold;font-weight:700;font-size:14px">rockedge</span> .
+_There are many KL distros, each with their own unique features:_
+
+- **KLV:** Any KL distro based on [Void Linux](https://voidlinux.org/). Probably the most popular of these is [KLV-Airedale](https://forum.puppylinux.com/viewforum.php?f=191), created by <span style="color:Red;font-style:Bold;font-weight:700;font-size:14px">rockedge</span> .
 - **KLA:** Any KL distro based on Arch Linux.
-- **KLU:** Any KL distro based on Ubuntu. Currently, the only KLU is [KLU-jam-XFCEbase](https://forum.puppylinux.com/viewtopic.php?t=7866), created by <span style="color:red;font-style:bold;font-weight:700;font-size:14px">wiak</span>.
+- **KLU:** Any KL distro based on Ubuntu. Currently, the only KLU is [KLU-jam-XFCEbase](https://forum.puppylinux.com/viewtopic.php?t=7866), created by <span style="color:Red;font-style:Bold;font-weight:700;font-size:14px">wiak</span>.
 - **KL minis:** KL distros that are made to be "very small".
