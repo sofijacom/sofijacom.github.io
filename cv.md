@@ -12,4 +12,3 @@ _I am an IT technology engineer. Ability and desire for constant self-learning. 
 
 **Email:** _<sofija.p2018@gmail.com>_
 
-<p align="center"></p>
