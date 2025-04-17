@@ -17,7 +17,7 @@ _Kennel Linux contains a desktop environment, utility and an application of a de
 
 _There are many KL distros, each with their own unique features:_
 
-- **KLV:** Any KL distro based on [Void Linux](https://voidlinux.org/). Probably the most popular of these is [KLV-Airedale](https://forum.puppylinux.com/viewforum.php?f=191), created by _<span style="color:red;font-weight:700;font-size:15px">@rockedge</span>._
+- **KLV:** Any KL distro based on _[Void Linux](https://voidlinux.org/)._ Probably the most popular of these is _[KLV-Airedale](https://forum.puppylinux.com/viewforum.php?f=191),_ created by _<span style="color:red;font-weight:700;font-size:15px">@rockedge</span>._
 - **KLA:** Any KL distro based on Arch Linux.
-- **KLU:** Any KL distro based on Ubuntu. Currently, the only KLU is [KLU-jam-XFCEbase](https://forum.puppylinux.com/viewtopic.php?t=7866), created by _<span style="color:red;font-weight:700;font-size:15px">@wiak</span>._
+- **KLU:** Any KL distro based on Ubuntu. Currently, the only KLU is _[KLU-jam-XFCEbase](https://forum.puppylinux.com/viewtopic.php?t=7866),_ created by _<span style="color:red;font-weight:700;font-size:15px">@wiak</span>._
 - **KL minis:** KL distros that are made to be "very small".
