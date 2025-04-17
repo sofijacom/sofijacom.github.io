@@ -144,6 +144,8 @@ This element should denote <ins>inserted</ins> text.
 
 This scarcely known element emulates <kbd>keyboard text</kbd>, which is usually styled like the `<code>` element.
 
+( <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> or <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> ).
+
 ## Preformatted element
 
 This element styles large blocks of code.
