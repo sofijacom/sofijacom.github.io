@@ -14,5 +14,5 @@ _I am an IT technology engineer. Ability and desire for constant self-learning. 
 
 
 <a id="footer"></a>  
-<img src="https://github.com/sofijacom/sofijacom.github.io/blob/6d31a6afda1767a2eb2349760336f89ce686d5d6/assets/images/footer.svg" width="700" />
+<img src="/assets/images/footer.svg" width="700" />
 
