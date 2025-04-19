@@ -9,7 +9,7 @@ last_modified_at: 2025-02-21T14:25:52-03:00
 ---
 
 <a id="installation"></a>  
-<img src="https://github.com/user-attachments/assets/7e1e2fa0-ab50-4901-a024-fe731fb44ab3" width="200"/>
+<img src="/assets/images/installation.gif" width="200"/>
 
 
 ### KLA 64 bit. Arch-based distributions 
