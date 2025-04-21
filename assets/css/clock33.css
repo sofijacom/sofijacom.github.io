@@ -10,15 +10,15 @@
     transform: translate(-50%, -150%);
 }
 @font-face {
-    /* font-family: "clock-font"; */
-    font-family: "system-ui";
+    font-family: "clock-font";
+    /* font-family: "system-ui"; */
     src: url("/assets/fonts/corner_font.ttf");
 }
 #clock33 {
    font-size: 24px;
    font-weight: normal;
-   /* font-family: clock-font; */
-   font-family: Awesome; 
+   font-family: clock-font;
+   /* font-family: Awesome; */ 
    text-align: center;
   /* margin-bottom: 30px; */
    border: 1px solid #a6adc8;
