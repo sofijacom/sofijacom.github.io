@@ -17,7 +17,8 @@
 #clock33 {
    font-size: 24px;
    font-weight: normal;
-   font-family: clock-font;
+   /* font-family: clock-font; */
+   font-family: system-ui; 
    text-align: center;
   /* margin-bottom: 30px; */
    border: 1px solid #a6adc8;
