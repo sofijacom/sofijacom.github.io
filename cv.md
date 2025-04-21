@@ -1,7 +1,7 @@
 ---
 title: Resume
 sub_title: "Contact / References"
-image: /assets/web/i.webp
+image: /assets/web/i-2.webp
 ---
 
 ### My name is Sofiya
