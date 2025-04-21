@@ -11,7 +11,7 @@
 }
 @font-face {
     /* font-family: "clock-font"; */
-    font-family: "Awesome";
+    font-family: "system-ui";
     src: url("/assets/fonts/corner_font.ttf");
 }
 #clock33 {
