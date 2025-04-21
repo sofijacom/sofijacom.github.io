@@ -2,7 +2,7 @@
 layout: page
 title: Blog
 sub_title: "Expand your knowledge and stay informed with our engaging blog posts"
-image: '/assets/images/Blog.jpg'
+image: '/assets/web/blog.webp'
 actions:
   - label: "More Info"
     url: "https://forum.puppylinux.com"   
