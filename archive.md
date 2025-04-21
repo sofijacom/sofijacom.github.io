@@ -1,6 +1,6 @@
 ---
 title: Archive
 layout: tags
-image: '/assets/images/Archive-1.png'
+image: '/assets/images/Archive-2.jpg'
 permalink: /tags/
 ---
