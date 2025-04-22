@@ -1,7 +1,7 @@
 ---
 title: About
 layout: about
-image: '/assets/web/About.webp'
+image: '/assets/web/About-0.webp'
 ---
 
 ## _About page_
