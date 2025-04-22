@@ -27,7 +27,7 @@ url: "https://sofijacom.github.io" # the base hostname & protocol for your site 
 author:
   name: Sofiya
   twitter:
-  picture: "/assets/icons/oie_1_transparent.png"
+  picture: #"/assets/icons/oie_1_transparent.png"
 twitter_username: sofijacom
 github_username: sofijacom
 logo: "/assets/web/logo-kl-anime.webp" # path of site logo, e.g. "/assets/images/logo.png"
