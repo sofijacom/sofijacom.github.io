@@ -26,7 +26,7 @@ baseurl: "" # the optional subpath of your site, e.g. "/blog"
 url: "https://sofijacom.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 author:
   name: # Sofiya
-  twitter:
+  twitter: @sofija_p2018
   picture: # "/assets/icons/oie_1_transparent.png"
 twitter_username: sofijacom
 github_username: sofijacom
