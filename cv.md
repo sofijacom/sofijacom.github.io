@@ -12,8 +12,6 @@ _I am an IT technology engineer. Ability and desire for constant self-learning. 
 
 **Email:** <sofija.p2018@gmail.com>
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
-
 <!--
 <a id="footer"></a>  
 <img src="/assets/images/footer.svg" width="auto" />
