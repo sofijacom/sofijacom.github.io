@@ -7,7 +7,7 @@ function CalendarControl() {
     const calendarControl = {
       localDate: new Date(),
       prevMonthLastDate: null,
-      calWeekDays: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+      calWeekDays: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
       calMonthName: [
         "Jan",
         "Feb",
