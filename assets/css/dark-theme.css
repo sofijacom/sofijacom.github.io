@@ -42,7 +42,7 @@ body {
 }
 
 a {
-  /* color: #4c4f69 !important; */
+   color: #a6adc7 !important;
     align-items: normal !important;
 }
 
@@ -158,7 +158,6 @@ p {
 .site-title {
     display: flex;
     line-height: normal !important;
-    color: #a6adc7 !important;
 }
 
 .sub-title {
