@@ -155,7 +155,7 @@ p {
     background: #a6adc8 !important;
 }
 
-.site-title a {
+.site-title {
     display: flex;
     line-height: normal !important;
     color: #a6adc7 !important;
