@@ -160,6 +160,10 @@ p {
     line-height: normal !important;
 }
 
+.site-title a {
+    color: #a6adc7 !important;
+}
+
 .sub-title {
     color: #8838ef !important;
     font-size: 12px;
