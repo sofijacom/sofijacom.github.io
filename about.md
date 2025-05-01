@@ -4,7 +4,7 @@ layout: about
 image: '/assets/web/About-1.png'
 ---
 
-## _About page_
+## About page
 
 This page will tell you a little about Kennel Linux.
 
