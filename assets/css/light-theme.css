@@ -362,7 +362,7 @@ header {
   mask-size: 100% 100%;
 }
 
-.search-form.is-visible {
+.img {
     visibility: visible;
     opacity: .99 !important;
     animation: elastic .5s !important;
