@@ -68,13 +68,7 @@
 
   &.is--visible::after {
     content: "";
-    display: block;
-    visibility: visible;
-    opacity: .99;
-    animation: elastic .5s;
-    background-image: url(https://cdn.jsdelivr.net/gh/4xura/AxuraDesign@main/Blog/GIF/peek.gif);
-    background-repeat: no-repeat;
-    background-position: bottom right;   
+    display: block;  
   }
    
   .results-found {
