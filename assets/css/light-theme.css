@@ -364,26 +364,9 @@ header {
 
 .search-form.is-visible {
     visibility: visible;
-    opacity: .99;
-    animation: elastic .5s;
+    opacity: .99 !important;
+    animation: elastic .5s !important;
    /* background-image: url(https://cdn.jsdelivr.net/gh/4xura/AxuraDesign@main/Blog/GIF/peek.gif); */
-    background-repeat: no-repeat;
-    background-position: bottom right;
-}
-.search-form--modal {
-    -webkit-transition: visibility .25s ease, opacity .25s ease;
-    -moz-transition: visibility .25s ease, opacity .25s ease;
-    -ms-transition: visibility .25s ease, opacity .25s ease;
-    -o-transition: visibility .25s ease, opacity .25s ease;
-    transition: visibility .25s ease, opacity .25s ease;
-    overflow: hidden;
-    z-index: 9999;
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-   /* background: #fff; */
-    visibility: hidden;
-    opacity: 0;
+    background-repeat: no-repeat !important;
+    background-position: bottom right !important;
 }
