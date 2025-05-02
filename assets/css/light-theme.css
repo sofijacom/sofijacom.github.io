@@ -362,11 +362,11 @@ header {
   mask-size: 100% 100%;
 }
 
-.img {
+img {
     visibility: visible;
-    opacity: .99 !important;
-    animation: elastic .5s !important;
+    opacity: .99;
+    animation: elastic .5s;
    /* background-image: url(https://cdn.jsdelivr.net/gh/4xura/AxuraDesign@main/Blog/GIF/peek.gif); */
-    background-repeat: no-repeat !important;
-    background-position: bottom right !important;
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
