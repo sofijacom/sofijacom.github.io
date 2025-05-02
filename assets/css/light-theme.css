@@ -287,21 +287,17 @@ header {
         background-color: #dce0e8 !important;
         border: 1px solid #797b8f !important;
         border-radius: 30px;
+        opacity: .99;
+        animation: elastic .5s;
+        background-image: url(/assets/images/peek.gif);
+        background-repeat: no-repeat;
+        background-position: bottom right;
     }
 }
 
 ::selection {
     background: #8838ef42 !important;
     text-shadow: none;
-}
-
-.is--visible {
-    visibility: visible;
-    opacity: .99;
-    animation: elastic .5s;
-    background-image: url(/assets/images/peek.gif);
-    background-repeat: no-repeat;
-    background-position: bottom right;
 }
 
 /* всплывающая подсказка */
