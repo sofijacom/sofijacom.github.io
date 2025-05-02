@@ -70,7 +70,16 @@
     content: "";
     display: block;
   }
-
+   
+  .search-form.is--visible {
+    visibility: visible;
+    opacity: .99;
+    animation: elastic .5s;
+    background-image: url(https://cdn.jsdelivr.net/gh/4xura/AxuraDesign@main/Blog/GIF/peek.gif);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  }
+   
   .results-found {
     margin-top: 0.5em;
   }
