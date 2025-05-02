@@ -295,7 +295,7 @@ header {
     text-shadow: none;
 }
 
-.search-content .is--visible {
+.is--visible {
     visibility: visible;
     opacity: .99;
     animation: elastic .5s;
