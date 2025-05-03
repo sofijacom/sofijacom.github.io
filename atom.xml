@@ -1,26 +1,11 @@
 ---
 ---
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<form action='https://forms.msndr.net/subscriptions/71f6de04db05434c4ca5f22e9e07694f/form' charset='UTF-8' method='post'>
+<div style='position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;'>
+<input type="text" name="recipient[name]" placeholder="Name" />
+</div>
+<label class="required" for="email">Email</label>
+<input type="text" name="recipient[email]" id="recipient_email" value="" required="required" class="form-control" />
+<button type='submit'>Подписаться</button>
+</form>
 
- <title>{{ site.title }}</title>
- <link href="{{ site.url }}/atom.xml" rel="self"/>
- <link href="{{ site.url }}"/>
- <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>{{ site.url }}</id>
- <author>
-   <name>Sofiya</name>
-   <email>sofija.p2018@gmail.com</email>
- </author>
-
- {% for post in site.posts %}
- <entry>
-   <title>{{ post.title }}</title>
-   <link href="{{ site.url }}{{ post.url }}"/>
-   <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>{{ site.url }}{{ post.id }}</id>
-   <content type="html">{{ post.content | xml_escape }}</content>
- </entry>
- {% endfor %}
-
-</feed>
