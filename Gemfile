@@ -10,4 +10,6 @@ group :jekyll_plugins do
   gem 'jekyll-gzip'
 end
 
+gem 'jekyll-feed'
+
 # gem 'jekyll-brotli'
