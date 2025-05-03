@@ -97,8 +97,10 @@ layout: default
     {% endif %}
 <!-- modify this form HTML and place wherever you want your form -->
 <form action="https://formspree.io/f/xrbqprze" method="POST">
+  <input type="text" name="name">
   <label for="email">Your Email</label>
   <input name="Email" id="email" type="email">
+  <label>Your message:<textarea name="message"></textarea></label>
   <button type="submit">Submit</button>
 </form>
  </div>
