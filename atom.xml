@@ -1,26 +1,32 @@
----
----
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="http://example.com/">
 
- <title>{{ site.title }}</title>
- <link href="{{ site.url }}/atom.xml" rel="self"/>
- <link href="{{ site.url }}"/>
- <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>{{ site.url }}</id>
+ <title>Cat Blog</title>
+ <subtitle>Cat Geeking</subtitle>
+ <link rel="self" href="http://example.com/blog.xml"/>
+ <link rel="alternate" href="http://example.com/blog.html"/>
+ <updated>2006-09-11T02:35:33-07:00</updated>
+
  <author>
-   <name>Sofiya</name>
-   <email>sofija.p2018@gmail.com</email>
+   <name>John Doe</name>
+   <uri>http://example.com/</uri>
  </author>
- 
- {% for post in site.posts %}
+
+ <id>http://example.com/blog.html</id>
+ <icon>http://example.com/siteicon.png</icon>
+ <rights>© 2006 John Doe</rights>
+
  <entry>
-   <title>{{ post.title }}</title>
-   <link href="{{ site.url }}{{ post.url }}"/>
-   <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>{{ site.url }}{{ post.id }}</id>
-   <content type="html">{{ post.content | xml_escape }}</content>
+   <title>Batman thoughts</title>
+   <id>tag:156da4be-a8ac-44fb-9efb-d26345460a37</id>
+   <updated>2006-09-08T18:52:18-07:00</updated>
+   <summary>Some notes after watching movie Batman.</summary>
+   <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+      <p>I watched Batman today. Ate cats.</p>
+      </div>
+   </content>
+  <link rel="alternate" href="blog.html"/>
  </entry>
- {% endfor %}
 
 </feed>
