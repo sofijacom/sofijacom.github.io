@@ -12,6 +12,15 @@ _I am an IT technology engineer. Ability and desire for constant self-learning. 
 
 **Email:** <sofija.p2018@gmail.com>
 
+<form action="https://formspree.io/f/xrbqprze" method="POST">
+  <label for="name">Your Name</label>
+  <input type="text" name="name">
+  <label for="email">Your Email</label>
+  <input name="Email" id="email" type="email">
+  <label>Your message:<textarea name="message"></textarea></label>
+  <button type="submit">Submit</button>
+</form>
+
 <!--
 <a id="footer"></a>  
 <img src="/assets/images/footer.svg" width="auto" />
