@@ -30,6 +30,7 @@ author:
   picture: # "/assets/icons/oie_1_transparent.png"
 twitter_username: sofija_p2018
 github_username: sofijacom
+subscribe_username: sofijacom
 logo: "/assets/web/logo-kl-anime.webp" # path of site logo, e.g. "/assets/images/logo.png"
 search: true # true, false (default)
 search_full_content: false # true, false (default)
@@ -96,7 +97,7 @@ google_analytics: G-Y3XDRGQR98
 # Outputting
 # permalink: /:categories/:title/
 timezone: Europe/Moscow  # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-RSS: false
+
 mailchimp-list: //redgadgets.us10.list-manage.com/subscribe/post?u=210acce5db69d3d4a04b0e25d&amp;id=08c6708f40
     
 # Exclude from processing.
