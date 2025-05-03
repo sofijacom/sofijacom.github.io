@@ -96,7 +96,7 @@ google_analytics: G-Y3XDRGQR98
 # Outputting
 # permalink: /:categories/:title/
 timezone: Europe/Moscow  # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
+RSS: false
 mailchimp-list: //redgadgets.us10.list-manage.com/subscribe/post?u=210acce5db69d3d4a04b0e25d&amp;id=08c6708f40
     
 # Exclude from processing.
