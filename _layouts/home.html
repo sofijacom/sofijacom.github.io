@@ -95,10 +95,21 @@ layout: default
         </div>
       </div>    
     {% endif %}
-<form action="https://formspree.io/sofija.p2018@gmail.com" method="post">
-    <input type="text" name="name">
-    <input type="email" name="_replyto">
-    <input type="submit" value="Send">
+<!-- modify this form HTML and place wherever you want your form -->
+<form
+  action="https://formspree.io/f/xrbqprze"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
 </form>
  </div>
 </main>
