@@ -362,7 +362,7 @@ header {
   mask-size: 100% 100%;
 }
 
-button, input, optgroup, select, textarea {
+button, input, textarea {
   margin: 0.2em !important;
   font-family: "Jost", sans-serif !important;
   font-size: 100%!important ;
