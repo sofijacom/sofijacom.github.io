@@ -372,9 +372,9 @@ header {
 }
 
 input {
-    margin: 0.5em;
-    font-family: "Fira Sans", sans-serif;
-    font-size: 100%;
-    line-height: 1.15;
+    margin: 0.5em !important;
+    font-family: "Fira Sans", sans-serif !important;
+    font-size: 100% !important;
+    line-height: 1.15 !important;
     display: block;
 }
