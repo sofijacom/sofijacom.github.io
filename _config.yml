@@ -85,11 +85,14 @@ plugins: # previsously gems
   - jekyll-gzip
  # - jekyll-brotli
  
-feed:
- path: atom.xml
+#feed:
+# path: atom.xml
 
 #feed:
 # path: /blog/feed.atom
+
+feed:
+ path: /feed.xslt.xml
 
 #feed:
 #  categories:
