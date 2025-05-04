@@ -102,7 +102,7 @@ feed: # When in config.yml is true then all posts in feed will be without <conte
 #    - news
 #    - updates
  
-# Отключить канал
+# Off RSS
 #feed:
 # disable_in_development: true
   
