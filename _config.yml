@@ -85,9 +85,14 @@ plugins: # previsously gems
   - jekyll-gzip
  # - jekyll-brotli
 feed:
- path: atom.xml
+ path: blank #atom.xml
 # feed:
-#  path: /blog/feed.atom  
+#  path: /blog/feed.atom
+
+#feed:
+#  categories:
+#    - news
+#    - updates
     
 # Pagination - https://jekyllrb.com/docs/pagination/
 paginate: 10
