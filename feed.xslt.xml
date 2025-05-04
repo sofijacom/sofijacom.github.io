@@ -74,7 +74,8 @@ footer a:hover{ font-weight:700; }
           <xsl:apply-templates select="atom:feed/atom:entry" />
         </main>
         <footer>
-         <!-- <a target="_blank" href="https://training.galaxyproject.org/training-material/news/2024/06/04/gtn-standards-rss.html?utm_source=embed&amp;utm_medium=rss-widget&amp;utm_campaign=rss">GTN RSS Feed</a> -->
+	   •	
+          <a target="_blank" href="https://sofijacom.github.io/sitemap.xml">RSS-Subscride</a>
            •
           <a target="_blank">
             <xsl:attribute name="href">
