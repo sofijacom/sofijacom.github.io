@@ -95,13 +95,10 @@ plugins: # previsously gems
 #  categories:
 #    - news
 #    - updates
-feed:
-  icon: /assets/icons/oie_transparent.png
-  logo: /assets/icons/oie_2_transparent.png
  
 # Отключить канал
-#feed:
-#  disable_in_development: true
+feed:
+  disable_in_development: true
   
 # Pagination - https://jekyllrb.com/docs/pagination/
 paginate: 10
