@@ -76,10 +76,6 @@ footer a:hover{ font-weight:700; }
         <footer>
           <a target="_blank" href="https://training.galaxyproject.org/training-material/news/2024/06/04/gtn-standards-rss.html?utm_source=embed&amp;utm_medium=rss-widget&amp;utm_campaign=rss">GTN RSS Feed</a>
            •
-          <a target="_blank" href="https://spdx.org/licenses/CC-BY-4.0">CC-BY 4.0</a>
-           •
-          <a target="_blank" href="https://training.galaxyproject.org/training-material/faqs/gtn/fair_training.html?utm_source=embed&amp;utm_medium=rss-widget&amp;utm_campaign=rss">FAIR</a>
-           •
           <a target="_blank">
             <xsl:attribute name="href">
               <xsl:value-of select="concat(atom:feed/atom:link[@rel='self']/@href, '?utm_source=embed&amp;utm_medium=rss-widget&amp;utm_campaign=rss')"/>
