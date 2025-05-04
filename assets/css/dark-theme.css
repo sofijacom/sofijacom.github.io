@@ -369,7 +369,7 @@ header {
   /* background-image: url("/assets/icons/basil--sun-solid.svg"); */
 }
 
-button, input, optgroup, select, textarea {
+button, input, textarea {
   margin: 0.2em !important;
   font-family: "Fira Sans", sans-serif !important;
   font-size: 100%!important ;
