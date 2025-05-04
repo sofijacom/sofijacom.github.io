@@ -99,8 +99,8 @@ feed:
 #    - news
 #    - updates
 
-feed: # When in config.yml is true then all posts in feed will be without <content>
-  excerpt_only: true
+#feed: # When in config.yml is true then all posts in feed will be without <content>
+#  excerpt_only: true
  
 # Отключить канал
 #feed:
