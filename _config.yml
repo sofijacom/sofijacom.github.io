@@ -96,7 +96,6 @@ plugins: # previsously gems
 #    - news
 #    - updates
 feed:
-  excerpt_only: true
   icon: /assets/icons/oie_transparent.png
   logo: /assets/icons/oie_2_transparent.png
  
