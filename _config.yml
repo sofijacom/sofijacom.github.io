@@ -92,7 +92,7 @@ plugins: # previsously gems
 # path: /blog/feed.atom
 
 feed:
- path: /feed.xslt.xml
+ path: /feed-widget.xslt.xml
 
 #feed:
 #  categories:
