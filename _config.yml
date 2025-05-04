@@ -87,14 +87,16 @@ plugins: # previsously gems
  
 #feed:
 # path: atom.xml
+
 # feed:
 #  path: /blog/feed.atom
 
+#feed:
+#  categories:
+#    - news
+#    - updates
 feed:
-  categories:
-    - news
-    - updates
-    
+  excerpt_only: true    
 # Отключить канал
 #feed:
 #  disable_in_development: true
