@@ -87,7 +87,7 @@ plugins: # previsously gems
 #feed:
   #path: atom.xml
 feed:
-  path: /subscribe-form.html #/blog/feed.atom  
+  path: /_layouts/subscribe-form.html #/blog/feed.atom  
     
 # Pagination - https://jekyllrb.com/docs/pagination/
 paginate: 10
