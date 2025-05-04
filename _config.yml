@@ -84,6 +84,7 @@ plugins: # previsously gems
   - jekyll-archives
   - jekyll-gzip
  # - jekyll-brotli
+ 
 #feed:
 # path: atom.xml
 # feed:
@@ -94,6 +95,10 @@ feed:
     - news
     - updates
     
+# Отключить канал
+#feed:
+#  disable_in_development: true
+  
 # Pagination - https://jekyllrb.com/docs/pagination/
 paginate: 10
 paginate_path: /page:num/
