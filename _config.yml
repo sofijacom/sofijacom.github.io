@@ -101,7 +101,11 @@ feed: # When in config.yml is true then all posts in feed will be without <conte
 #  categories:
 #    - news
 #    - updates
- 
+
+# Posts limit ( By default the plugin limits the number of posts in the feed to 10 )
+#feed:
+#  posts_limit: 20
+  
 # Skip development
 #feed:
 # disable_in_development: true
