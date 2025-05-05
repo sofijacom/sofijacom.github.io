@@ -7,6 +7,7 @@ calendar_css: <link rel="stylesheet" href="!PATH_TO_COMPONENTS!/bootstrap-calend
 
 ---
 
+<h3 Hello </h3>
 
 <p align="center">
  <img
