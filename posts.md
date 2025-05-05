@@ -5,7 +5,7 @@ sub_title: "Expand your knowledge and stay informed with our engaging blog posts
 image: '/assets/web/blog.webp'
 actions:
   - label: "More Info"
-    icon: info
+    icon: info-16
     url: "https://forum.puppylinux.com"   
 ---
 
