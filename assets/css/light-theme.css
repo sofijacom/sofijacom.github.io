@@ -366,7 +366,6 @@ header {
 input, textarea {
   margin: 0.2em !important;
   font-family: "Jost", sans-serif !important;
-  font-size: 100%;
   line-height: 1.15 !important;
   display: block !important;
 }
