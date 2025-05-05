@@ -9,4 +9,3 @@ actions:
 ---
 
 Puppy Linux Discussion Forum
-Discussion, talk and tips
