@@ -94,8 +94,8 @@ feed: # When in config.yml is true then all posts in feed will be without <conte
 #feed:
 # path: /blog/feed.atom
 
-#feed:
-# path: /feed.xslt.xml
+feed:
+ path: /feed-widget.xslt.xml #/feed.xslt.xml
 
 #feed:
 #  categories:
