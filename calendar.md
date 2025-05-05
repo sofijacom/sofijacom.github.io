@@ -24,4 +24,6 @@ calendar_css: <link rel="stylesheet" href="!PATH_TO_COMPONENTS!/bootstrap-calend
 />
 </p>
 
-<p align="center"><h3>Calendar</h3></p>
+<!--
+<p align="center">Calendar</p>
+-->
