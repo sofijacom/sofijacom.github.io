@@ -85,8 +85,8 @@ plugins: # previsously gems
   - jekyll-gzip
  # - jekyll-brotli
  
-#feed:
-#  path: atom.xml
+feed:
+  path: atom.xml
 
 feed: # When in config.yml is true then all posts in feed will be without <content>
   excerpt_only: true 
@@ -94,8 +94,8 @@ feed: # When in config.yml is true then all posts in feed will be without <conte
 #feed:
 # path: /blog/feed.atom
 
-feed:
- path: /feed-widget.xslt.xml #/feed.xslt.xml
+#feed:
+# path: /feed.xslt.xml
 
 #feed:
 #  categories:
