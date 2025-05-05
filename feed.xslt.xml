@@ -78,7 +78,9 @@ footer a:hover{ font-weight:700; }
           <a target="_blank" href="https://sofijacom.github.io/sitemap.xml">RSS-Subscride</a>
            •
           <a target="_blank" href="https://sofijacom.github.io//atom.xml">RSS-Atom</a>
-           •	
+           •
+          <a target="_blank" href="https://sofijacom.github.io/">Home-Kennel-linux</a>
+           •		
           <a target="_blank">
             <xsl:attribute name="href">
               <xsl:value-of select="concat(atom:feed/atom:link[@rel='self']/@href, '?utm_source=embed&amp;utm_medium=rss-widget&amp;utm_campaign=rss')"/>
