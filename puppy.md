@@ -4,7 +4,8 @@ image: /assets/web/Puppy-linux-4.webp
 actions:
   - label: "Puppy linux"
     icon: puppy
-    url: "https://forum.puppylinux.com/index.php" 
+    url: "https://forum.puppylinux.com/index.php"
+    
 ---
 
 Puppy Linux Discussion Forum
