@@ -3,7 +3,7 @@ title: Puppy linux
 image: /assets/web/Puppy-linux-4.webp
 actions:
   - label: "Puppy linux"
-    icon: puppylogo
+    icon: puppy
     url: "https://forum.puppylinux.com/index.php" 
 ---
 
