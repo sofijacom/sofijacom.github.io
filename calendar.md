@@ -6,7 +6,14 @@ calendar_caption: 💜 I know for sure that there are many happy days on this ca
 calendar_css: <link rel="stylesheet" href="!PATH_TO_COMPONENTS!/bootstrap-calendar/css/calendar.css">
 
 ---
-
+<p align="left">
+ <img
+  src="/assets/images/good-morning.gif"
+    alt="good-morning"
+    width="300"
+    height="auto"
+/>
+</p>
 
 <p align="center">
  <img
@@ -27,11 +34,3 @@ calendar_css: <link rel="stylesheet" href="!PATH_TO_COMPONENTS!/bootstrap-calend
 <!--
 <h3><p align="center">Calendar</p></h3>
 -->
-<p align="left">
- <img
-  src="/assets/images/good-morning.gif"
-    alt="good-morning"
-    width="300"
-    height="auto"
-/>
-</p>
