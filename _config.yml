@@ -50,6 +50,7 @@ highlighter: rouge
 
 # Build settings
 markdown: kramdown
+remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
 kramdown:
   input: GFM # use Github Flavored Markdown !important
   syntax_highlighter_opts:
@@ -58,8 +59,6 @@ kramdown:
     block:
       line_numbers: true
       start_line: 1
-
-remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
 
 jekyll_admin:
   hidden_links:
