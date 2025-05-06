@@ -27,3 +27,4 @@ calendar_css: <link rel="stylesheet" href="!PATH_TO_COMPONENTS!/bootstrap-calend
 <!--
 <h3><p align="center">Calendar</p></h3>
 -->
+<div class="tenor-gif-embed" data-postid="10165783108508552927" data-share-method="host" data-aspect-ratio="0.688755" data-width="100%"><a href="https://tenor.com/view/good-morning-gif-10165783108508552927">Good Morning GIF</a>from <a href="https://tenor.com/search/good+morning-gifs">Good Morning GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
