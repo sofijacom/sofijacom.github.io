@@ -26,6 +26,8 @@ calendar_css: <link rel="stylesheet" href="!PATH_TO_COMPONENTS!/bootstrap-calend
 <!--
 <h3><p align="center">Calendar</p></h3>
 -->
+
+<!--
 <p align="left">
  <img
   src="/assets/images/good-morning.gif"
@@ -34,3 +36,4 @@ calendar_css: <link rel="stylesheet" href="!PATH_TO_COMPONENTS!/bootstrap-calend
     height="auto"
 />
 </p>
+-->
