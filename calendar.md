@@ -30,8 +30,8 @@ calendar_css: <link rel="stylesheet" href="!PATH_TO_COMPONENTS!/bootstrap-calend
 <p align="left">
  <img
   src="/assets/images/good-morning.gif"
-    alt="Sparkles"
+    alt="good-morning"
     width="300"
-    height="400"
+    height="auto"
 />
 </p>
