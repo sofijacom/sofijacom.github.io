@@ -29,9 +29,9 @@ calendar_css: <link rel="stylesheet" href="!PATH_TO_COMPONENTS!/bootstrap-calend
 -->
 <p align="left">
  <img
-  src="https://tenor.com/view/good-morning-gif-10165783108508552927"
+  src="/assets/images/good-morning.gif"
     alt="Sparkles"
-    width="200"
-    height="100"
+    width="300"
+    height="400"
 />
 </p>
