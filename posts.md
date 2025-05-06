@@ -11,7 +11,7 @@ actions:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TDGHzgKWAeU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <hr>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/f3cIqLewlZA" title="Sub de Santa - Alliance" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/f3cIqLewlZA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Settings
 
