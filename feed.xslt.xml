@@ -79,8 +79,7 @@ footer a:hover{ font-weight:700; }
           <h2>Recent Items</h2>
           <xsl:apply-templates select="atom:feed/atom:entry" />
         </main>
-        <footer>
-	   •	
+        <footer>	
           <a target="_blank" href="https://sofijacom.github.io/sitemap.xml">RSS-Subscride</a>
            •
           <a target="_blank" href="https://sofijacom.github.io//atom.xml">RSS-Atom</a>
