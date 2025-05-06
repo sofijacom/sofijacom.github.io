@@ -60,20 +60,6 @@ kramdown:
       line_numbers: true
       start_line: 1
 
-jekyll_admin:
-  hidden_links:
-    - posts
-    - pages
-    - staticfiles
-    - datafiles
-    - configuration
-  homepage: "pages"
-
-  collections:
-  posts:
-    output: true
-    sidebar_label: News
-
 plugins: # previsously gems
   - jekyll-feed
   - jekyll-seo-tag
@@ -82,8 +68,7 @@ plugins: # previsously gems
   - jekyll-remote-theme
   - jekyll-archives
   - jekyll-gzip
- # - jekyll-brotli
- 
+ # - jekyll-brotli 
 feed:
   path: atom.xml
 
