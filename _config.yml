@@ -148,3 +148,10 @@ jekyll-archives:
     day: '/:year/:month/:day/'
     tag: '/tag/:name/'
     category: '/category/:name/'
+
+# Friends
+friends:
+  [
+    { title: "Trí Phan", href: "https://triphan2k3.github.io/" },
+    { title: "Vanhger", href: "https://vanhger.github.io/" },
+  ]
