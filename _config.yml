@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 # Bookmark this to keep an eye on my project updates!
 
-lang: en-US
+lang: en-US, ru-RU
 title: "Kennel Linux"
 subtitle: "Builds of all varieties"
 email: sofija.p2018@gmail.com
@@ -68,7 +68,9 @@ plugins: # previsously gems
   - jekyll-archives
   - jekyll-gzip
   - jekyll-multiple-languages-plugin
- # - jekyll-brotli 
+ # - jekyll-brotli
+ 
+# Jekyll Feed 
 feed:
   path: atom.xml
 
