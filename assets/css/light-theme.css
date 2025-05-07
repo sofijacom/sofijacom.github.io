@@ -368,3 +368,20 @@ input, textarea {
   font-family: "Jost", sans-serif !important;
   display: block !important;
 }
+
+.language-switch {
+    background-color: #303e47;
+    background-image: url(../img/ui/icon-arrow-down.png);
+    background-size: 12px;
+    background-position: 95% 50%;
+    background-repeat: no-repeat;
+    color: #c5c9db;
+    border: 0 solid transparent;
+    width: 12.5rem;
+    height: 2.25rem;
+    margin-top: -.1875rem;
+    font-size: 15px;
+    padding: 0 2rem 0 .625rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
