@@ -1,4 +1,17 @@
 <footer id="footer" class="site-footer">
+  <div>
+   <!-- modify this form HTML and place wherever you want your form -->
+    <h3>Submit your feedback</h3>
+  <form action="https://formspree.io/f/xrbqprze" method="POST">
+  <label for="name">Your Name</label>
+  <input type="text" name="name" style="width: 150px;">
+  <label for="email">Your Email</label>
+  <input name="Email" id="email" type="email" style="width: 180px;">
+  <label>Your Message:<textarea name="message" style="height: 48px; width: 240px;"></textarea></label>
+  <button class="btn" type="submit">Submit</button>
+ </form>
+</div>
+  
   <div class="inner">
     <div class="copyright">
       {% if site.copyright %}
@@ -8,17 +21,4 @@
       {% endif %}
     </div>
   </div>
-
-  <div>
-   <!-- modify this form HTML and place wherever you want your form -->
-    <h3>Submit your feedback</h3>
-<form action="https://formspree.io/f/xrbqprze" method="POST">
-  <label for="name">Your Name</label>
-  <input type="text" name="name" style="width: 150px;">
-  <label for="email">Your Email</label>
-  <input name="Email" id="email" type="email" style="width: 180px;">
-  <label>Your Message:<textarea name="message" style="height: 48px; width: 240px;"></textarea></label>
-  <button class="btn" type="submit">Submit</button>
-</form>
-</div>
 </footer>
