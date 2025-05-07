@@ -12,4 +12,7 @@ end
 
 gem 'jekyll-feed'
 
+gem 'jekyll-multiple-languages-plugin'
+
 # gem 'jekyll-brotli'
+
