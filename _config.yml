@@ -105,6 +105,8 @@ google_analytics: G-Y3XDRGQR98
 # jekyll-multiple-languages-plugin settings:
 languages: ["en", "ru"]
 
+exclude_from_localizations: ["javascript", "images", "css", "scripts", "favicon.ico"]
+
 # Outputting
 # permalink: /:categories/:title/
 timezone: Europe/Moscow  # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
