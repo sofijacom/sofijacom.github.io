@@ -90,16 +90,52 @@ layout: default
     {% endif %}
     
     <footer id="footer" class="site-footer"> 
-      <!-- modify this form HTML and place wherever you want your form xrbqprze-->
-    <h3>Submit your feedback</h3>
-     <form action="https://formspree.io/f/xnndvdvl" method="POST">
+      <!-- modify this form HTML and place wherever you want your form -->
+   <!-- <h3>Submit your feedback</h3>
+     <form action="https://formspree.io/f/xrbqprze" method="POST">
      <label for="name">Your Name</label>
      <input type="text" name="name" style="width: 150px;">
      <label for="email">Your Email</label>
      <input name="Email" id="email" type="email" style="width: 180px;">
      <label>Your Message:<textarea name="message" style="height: 48px; width: 240px;"></textarea></label>
      <button class="btn" type="submit">Submit</button>
-  </form>
+  </form> -->
+      <!-- Read the Formbutton docs at formspree.io/formbutton/docs. See more examples at codepen.io/formspree -->
+<script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+<script>
+  /* paste this line in verbatim */
+  window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+  /* customize formbutton below*/     
+  formbutton("create", {
+    action: "https://formspree.io/f/xrbqprze",
+    title: "How can we help?",
+    fields: [
+      { 
+        type: "email", 
+        label: "Email:", 
+        name: "email",
+        required: true,
+        placeholder: "your@email.com"
+      },
+      {
+        type: "textarea",
+        label: "Message:",
+        name: "message",
+        placeholder: "What's on your mind?",
+      },
+      { type: "submit" }      
+    ],
+    styles: {
+      title: {
+        backgroundColor: "gray"
+      },
+      button: {
+        backgroundColor: "gray"
+      }
+    }
+  });
+</script>
+
 </footer>
     
  </div>
