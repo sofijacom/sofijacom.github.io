@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 # Bookmark this to keep an eye on my project updates!
 
-lang: en-US, ru-RU
+lang: ru-RU, en-US
 title: "Kennel Linux"
 subtitle: "Builds of all varieties"
 email: sofija.p2018@gmail.com
@@ -103,7 +103,7 @@ paginate_path: /page:num/
 google_analytics: G-Y3XDRGQR98
 
 # jekyll-multiple-languages-plugin settings:
-languages: ["en", "ru"]
+languages: ["ru", "en"]
 
 exclude_from_localizations: ["javascript", "images", "css", "scripts", "favicon.ico"]
 
