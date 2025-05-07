@@ -40,6 +40,7 @@
 body {
     background: #dce0e8 !important;
     color: var(--text-color) !important;
+    bgcolor: #e6e9ef;
 }
 
 a {
