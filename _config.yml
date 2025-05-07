@@ -21,7 +21,7 @@ subtitle: "Builds of all varieties"
 email: sofija.p2018@gmail.com
 copyright: "Copyright © 💜 Sofiya, 2025"
 description: "• Expand your knowledge and stay informed with our engaging blog posts •"
-baseurl: " " # the optional subpath of your site, e.g. "/blog"
+baseurl: "" # the optional subpath of your site, e.g. "/blog"
 url: "https://sofijacom.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 author:
   name: Sofiya
