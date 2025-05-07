@@ -369,7 +369,7 @@ input, textarea {
   display: block !important;
 }
 
-.language-switch {
+/*.language-switch {
     background-color: #303e47;
     background-image: url(../img/ui/icon-arrow-down.png);
     background-size: 12px;
@@ -384,4 +384,4 @@ input, textarea {
     padding: 0 2rem 0 .625rem;
     border-radius: 4px;
     cursor: pointer;
-}
+} */
