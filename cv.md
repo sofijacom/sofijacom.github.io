@@ -105,7 +105,7 @@ _I am an IT technology engineer. Ability and desire for constant self-learning. 
             textShadow: "0 0 0 #2e2a37",
           }
         },
-        initiallyVisible: false
+        initiallyVisible: true
       });
     </script>
   </head>
