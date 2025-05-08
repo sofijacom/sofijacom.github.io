@@ -17,6 +17,7 @@ layout: default
     <meta charset="utf-8">   
     <!-- <title>• Kennel Linux • Home Page •</title> -->
       <meta name="viewport" content="width=device-width, initial-scale=1">
+      <script src="https://www.google.com/recaptcha/enterprise.js?render=6LcdCDIrAAAAABhy-avO5BHX_vuZ7ePNwIq2_N72"></script>
         <link rel="stylesheet" href="/assets/css/style.css">
     <script type="text/javascript" src="/assets/js/clock33.js"></script>
     <link rel="stylesheet" href="/assets/css/clock33.css">
@@ -154,6 +155,18 @@ layout: default
 </main>
 
   <body>
+<!-- Replace the variables below. -->
+<script>
+  function onSubmit(token) {
+    document.getElementById("demo-form").submit();
+  }
+</script>
 
+<button class="g-recaptcha"
+    data-sitekey="6LcdCDIrAAAAABhy-avO5BHX_vuZ7ePNwIq2_N72"
+    data-callback='onSubmit'
+    data-action='submit'>
+  Submit
+</button>
   </body>
 </html>
