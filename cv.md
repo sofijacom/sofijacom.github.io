@@ -1,5 +1,4 @@
 ---
-layout: cv
 title: Resume
 sub_title: "Contact / References"
 image: /assets/images/Resumr-1.jpg
