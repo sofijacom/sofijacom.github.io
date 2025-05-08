@@ -17,8 +17,6 @@ layout: default
     <meta charset="utf-8">   
     <!-- <title>• Kennel Linux • Home Page •</title> -->
       <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://www.google.com/recaptcha/api.js?render=6LciITIrAAAAAG3tVb1GQBdmfxJFkZmXGk5wIzKC"></script>
         <link rel="stylesheet" href="/assets/css/style.css">
     <script type="text/javascript" src="/assets/js/clock33.js"></script>
     <link rel="stylesheet" href="/assets/css/clock33.css">
@@ -156,30 +154,6 @@ layout: default
 </main>
 
   <body>
- <button onclick="captcha()" class="btn btn-primary">click me</button>
-    <script>
-      function captcha() {
-        grecaptcha.ready(function() {
-          grecaptcha.execute('6LciITIrAAAAAG3tVb1GQBdmfxJFkZmXGk5wIzKC', {action: 'submit'}).then(function(token) {
-              $.ajax({
-                url: "https://formspree.io/f/xrbqprze",
-                method: "POST",
-                dataType: "json",
-                data: {
-                  email: "test@email.com",
-                  message: "Hello world!",
-                  "g-recaptcha-response": token
-                },
-                success: () => {
-                  alert("Done!")
-                },
-                error: (err) => {
-                  alert("Something wrong!", err)
-                }
-              });
-          });
-        });
-      }
-  </script>
+
   </body>
 </html>
