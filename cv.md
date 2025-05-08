@@ -1,4 +1,5 @@
 ---
+layout: cv
 title: Resume
 sub_title: "Contact / References"
 image: /assets/images/Resumr-1.jpg
@@ -105,7 +106,7 @@ _I am an IT technology engineer. Ability and desire for constant self-learning. 
             textShadow: "0 0 0 #2e2a37",
           }
         },
-        initiallyVisible: true
+        initiallyVisible: false
       });
     </script>
   </head>
