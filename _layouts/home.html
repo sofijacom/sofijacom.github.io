@@ -90,7 +90,18 @@ layout: default
         </div>
       </div>    
     {% endif %}
-
+    <!-- Replace the variables below. -->
+<script>
+  function onSubmit(token) {
+    document.getElementById("demo-form").submit();
+  }
+</script>
+    <button class="g-recaptcha"
+    data-sitekey="6LciITIrAAAAAFPBFxOOBM7GVKn40GMk250v-oV0"
+    data-callback='onSubmit'
+    data-action='submit'>
+  Submit
+</button>
      </div>
 </main>
 
@@ -153,17 +164,5 @@ layout: default
     initiallyVisible: false
   });
 </script>
-    <!-- Replace the variables below. -->
-<script>
-  function onSubmit(token) {
-    document.getElementById("demo-form").submit();
-  }
-</script>
-    <button class="g-recaptcha"
-    data-sitekey="6LciITIrAAAAAFPBFxOOBM7GVKn40GMk250v-oV0"
-    data-callback='onSubmit'
-    data-action='submit'>
-  Submit
-</button>
   </body>
 </html>
