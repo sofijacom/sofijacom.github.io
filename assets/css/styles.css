@@ -27,6 +27,8 @@ html {
   -webkit-box-direction: normal;
       -ms-flex-flow: column;
           flex-flow: column;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   background-image: url("/assets/web/About-1.png");
   overflow: hidden;
   position: relative;
