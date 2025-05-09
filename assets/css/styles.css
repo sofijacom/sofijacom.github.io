@@ -1,0 +1,159 @@
+body,
+html {
+  margin: 0 auto;
+  padding: 0;
+  font-size: 16px;
+  font-family: 'Philosopher', sans-serif;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header {
+  height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  background: #52204e;
+  overflow: hidden;
+  position: relative;
+  padding: 15px;
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, #52204e), color-stop(100%, #13191f));
+  background: linear-gradient(135deg, #52204e 0%, #13191f 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#52204e', endColorstr='#13191f', GradientType=1);
+}
+
+.header__offer {
+  text-align: center;
+  color: #fff;
+  padding: 15px;
+  position: absolute;
+}
+
+.header__offer-logo {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .header__offer-logo {
+    max-width: 150px;
+  }
+}
+
+.header__offer-title {
+  margin: 30px 15px;
+  font-size: 3rem;
+}
+
+@media (max-width: 580px) {
+  .header__offer-title {
+    font-size: 1.6rem;
+  }
+}
+
+.header__offer-description {
+  font-size: 2rem;
+}
+
+@media (max-width: 580px) {
+  .header__offer-description {
+    font-size: 1.125rem;
+  }
+}
+
+.header__offer-buttons {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (max-width: 580px) {
+  .header__offer-buttons {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+  }
+}
+
+.header__offer-link {
+  width: 250px !important;
+  margin: 0 10px !important;
+  height: 60px;
+  border-radius: 30px;
+  border: none;
+  background: #0e83e2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+  margin: 0 auto;
+  text-decoration: none;
+  font-size: 1.2rem !important;
+  cursor: pointer;
+  z-index: 100;
+  font-size: 16px;
+  font-family: 'Philosopher', sans-serif;
+  outline: none;
+}
+
+.header__offer-link:first-child {
+  background: #ff927d;
+}
+
+@media (max-width: 580px) {
+  .header__offer-link:first-child {
+    margin-bottom: 15px !important;
+  }
+}
+
+.header__bg-title {
+  position: absolute;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 15px;
+}
+
+.header__bg-title img {
+  max-width: 100%;
+}
+
+.header__bg-particles {
+  position: absolute;
+}
+/*# sourceMappingURL=style.css.map */
