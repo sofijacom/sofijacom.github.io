@@ -17,8 +17,7 @@ layout: default
     <meta charset="utf-8">   
     <!-- <title>• Kennel Linux • Home Page •</title> -->
       <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>reCAPTCHA demo: Simple page</title>
-    <script src="https://www.google.com/recaptcha/enterprise.js" async defer></script>
+  <script src="https://www.google.com/recaptcha/enterprise.js?render=6Lc99zIrAAAAAF4hZanrR16kzl2T9e72vjEJfcTE"></script>
   <!-- Your code -->
         <link rel="stylesheet" href="/assets/css/style.css">
     <script type="text/javascript" src="/assets/js/clock33.js"></script>
@@ -91,11 +90,14 @@ layout: default
         </div>
       </div>    
     {% endif %}
-    <form action="https://formspree.io/f/xrbqprze" method="POST">
-      <div class="g-recaptcha" data-sitekey="6Ld9wDMrAAAAAAM_qo7bGoJniVUh1TU3QjGzhZ7g" data-action="LOGIN"></div>
-      <br/>
-      <input type="submit" value="Submit">
-    </form>
+<script>
+  function onClick(e) {
+    e.preventDefault();
+    grecaptcha.enterprise.ready(async () => {
+      const token = await grecaptcha.enterprise.execute('6Lc99zIrAAAAAF4hZanrR16kzl2T9e72vjEJfcTE', {action: 'LOGIN'});
+    });
+  }
+</script>
      </div>
 </main>
 
