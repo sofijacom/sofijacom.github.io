@@ -2,6 +2,67 @@
 layout: default
 ---
 
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Philosopher:400,700&display=swap&subset=cyrillic-ext"
+    rel="stylesheet">
+  <title>Реализация эффекта параллакса фона при движении мышкой</title>
+  <meta name="description"
+    content="Скрипт, позволяющий реализовать настоящий параллакс фона при движении мышкой.">
+</head>
+
+<body>
+  <header class="header">
+
+    <div class="header__offer" id="header__offer-scene">
+      <div class="header__offer-inner" data-depth="0.6">
+        <img class="header__offer-logo" src="/assets/icons/cow.png" width="200" alt="Стадный инстинкт">
+        <h1 class="header__offer-title">Kennel Linux</h1>
+        <p class="header__offer-description"></p>
+       <!-- <div class="header__offer-buttons">
+          <a class="header__offer-link" href="#" downloads>Попробовать версию 1.0</a> 
+          <button class="header__offer-link header__offer-link_button">Версия 2.0 за 100 рублей</button>
+        </div> -->
+      </div>
+    </div>
+
+    <div class="header__bg-title" id="header__bg-title-scene">
+      <img data-depth="0.4" src="/assets/icons/fake-order-text-xl.png" alt="FakeOrder">
+    </div>
+    
+    <div class="header__bg-particles" id="header__bg-particles-scene">
+      <img data-depth="0.8" src="/assets/icons/particles.png" alt="Фон с частицами">
+    </div>
+
+  </header>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+  <script>
+
+    let headerBgTitle = document.getElementById('header__bg-title-scene');
+    let headerBgParticles = document.getElementById('header__bg-particles-scene');
+    let headerOffer = document.getElementById('header__offer-scene');
+
+    let headerBgTitleInstance = new Parallax(headerBgTitle);
+    let headerBgParticlesleInstance = new Parallax(headerBgParticles, {
+        invertY: false,
+        invertX: false
+    });
+    let headerOfferInstance = new Parallax(headerOffer, {
+      pointerEvents: true
+    });
+
+  </script>
+</body>
+
+</html>
 <link rel="stylesheet" href="/assets/css/style.css">
 
 {% include page-intro.html %}
