@@ -90,24 +90,19 @@ layout: default
         </div>
       </div>    
     {% endif %}
-<!-- Replace the variables below. -->
-<script>
-  function onSubmit(token) {
-    document.getElementById("demo-form").submit();
-  }
-</script>
-    <footer id="footer" class="site-footer">
-    <button class="g-recaptcha"
-    data-sitekey="6Lc99zIrAAAAAF4hZanrR16kzl2T9e72vjEJfcTE"
-    data-callback='onSubmit'
-    data-action='submit'>
-  Submit
-</button>
-      </footer>
+
      </div>
 </main>
 
   <body>
+    <script>
+  function onClick(e) {
+    e.preventDefault();
+    grecaptcha.enterprise.ready(async () => {
+      const token = await grecaptcha.enterprise.execute('6Lc99zIrAAAAAF4hZanrR16kzl2T9e72vjEJfcTE', {action: 'LOGIN'});
+    });
+  }
+</script>
     <!-- <footer id="footer" class="site-footer"> 
      <h3>Submit your feedback</h3>
      <form action="https://formspree.io/f/xrbqprze" method="POST">
