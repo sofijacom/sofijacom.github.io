@@ -3,7 +3,7 @@ html {
   margin: 0 auto;
   padding: 0;
   font-size: 16px;
-  font-family: 'Philosopher', sans-serif !important;
+ /* font-family: 'Philosopher', sans-serif !important; */
 }
 
 * {
@@ -27,9 +27,9 @@ html {
   -webkit-box-direction: normal;
       -ms-flex-flow: column;
           flex-flow: column;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-image: url("/assets/web/About-1.png");
+  background-repeat: no-repeat !important;
+  background-size: 100% 100% !important;
+  background-image: url("/assets/web/About-1.png") !important;
   overflow: hidden;
   position: relative;
   padding: 15px;
@@ -123,7 +123,7 @@ html {
   cursor: pointer;
   z-index: 100;
   font-size: 16px;
-  font-family: 'Philosopher', sans-serif !important;
+/*  font-family: 'Philosopher', sans-serif !important; */
   outline: none;
 }
 
