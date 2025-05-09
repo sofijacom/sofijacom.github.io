@@ -1,7 +1,7 @@
 ---
 title: About
 layout: about
-image: '/assets/web/About-1.png'
+image: # '/assets/web/About-1.png'
 ---
 
 ## About page
