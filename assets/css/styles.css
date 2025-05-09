@@ -12,7 +12,7 @@ html {
 }
 
 .header {
-  height: 100vh;
+  height: 60vh;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -27,13 +27,13 @@ html {
   -webkit-box-direction: normal;
       -ms-flex-flow: column;
           flex-flow: column;
-  background: #1f3042;
+  background-image: url("/assets/web/About-1.png");
   overflow: hidden;
   position: relative;
   padding: 15px;
-  background: -webkit-gradient(left top, right bottom, color-stop(0%, #52204e), color-stop(100%, #13191f));
+ /* background: -webkit-gradient(left top, right bottom, color-stop(0%, #52204e), color-stop(100%, #13191f)); */
   background: linear-gradient(135deg, #52204e 0%, #13191f 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#52204e', endColorstr='#13191f', GradientType=1);
+ /* filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#52204e', endColorstr='#13191f', GradientType=1); */
 }
 
 .header__offer {
