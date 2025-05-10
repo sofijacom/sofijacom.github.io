@@ -13,8 +13,10 @@ _I am an IT technology engineer. Ability and desire for constant self-learning. 
 
 **Email:** <sofija.p2018@gmail.com>
 
-[Your opinion is important to us](mailto:sofija.p2018@gmail.com?subject=Your%20opinion%20is%20important%20to%20us&body=Hello!%250D%250A%250D%250AYour%20opinion%20about%20our%20product/service%20is%20very%20important%20to%20us.%20Please%20share%20your%20impressions.%250D%250A%250D%250ABest%20regards,%250D%250A%250D%250A--%20%250D%250ASofiya%20S.V%250D%250AKennel-Linux%250D%250Asofijacom.github.io/)
 
+<!--
+[Your opinion is important to us](mailto:sofija.p2018@gmail.com?subject=Your%20opinion%20is%20important%20to%20us&body=Hello!%250D%250A%250D%250AYour%20opinion%20about%20our%20product/service%20is%20very%20important%20to%20us.%20Please%20share%20your%20impressions.%250D%250A%250D%250ABest%20regards,%250D%250A%250D%250A--%20%250D%250ASofiya%20S.V%250D%250AKennel-Linux%250D%250Asofijacom.github.io/)
+-->
 
 <!--
 <a id="footer"></a>  
