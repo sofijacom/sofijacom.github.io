@@ -72,6 +72,12 @@ plugins: # previsously gems
  # - jekyll-multiple-languages-plugin
  # - jekyll-brotli
  
+ gems:
+  - jekyll-sitemap
+
+whitelist:
+  - jekyll-sitemap
+
 # Jekyll Feed 
 feed:
   path: atom.xml
