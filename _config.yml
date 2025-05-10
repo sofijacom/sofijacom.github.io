@@ -72,9 +72,6 @@ plugins: # previsously gems
  # - jekyll-multiple-languages-plugin
  # - jekyll-brotli
  
- gems:
-  - jekyll-sitemap
-
 whitelist:
   - jekyll-sitemap
 
