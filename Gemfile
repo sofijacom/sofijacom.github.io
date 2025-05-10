@@ -19,6 +19,7 @@ gem 'jekyll-feed'
 
 gem 'jekyll-target-blank'
 
+gem 'rake'
 gem 'html-proofer'
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
