@@ -14,7 +14,7 @@ _I am an IT technology engineer. Ability and desire for constant self-learning. 
 **Email:** <sofija.p2018@gmail.com>
 
 <form action="mailto:sofija.p2018@gmail.com" method="GET" target="_blank">
-    <h1 class="title">Start Email to chriscoyier@gmail.com</h1>
+    <h1 class="title">Start Email to sofija.p2018@gmail.com</h1>
     <div class="field"><label class="label" for="subject">Email Subject</label>
         <input name="subject" id="subject" type="text" class="input" value="Example Email Subject"></div>
     <div class="field"><label class="label" for="body">Email Body</label>
