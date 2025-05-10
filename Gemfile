@@ -16,6 +16,8 @@ end
 
 gem 'jekyll-feed'
 
+gem 'jekyll-target-blank'
+
 # gem 'jekyll-multiple-languages-plugin'
 
 # gem 'jekyll-brotli'
