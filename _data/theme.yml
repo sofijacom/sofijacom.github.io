@@ -44,9 +44,9 @@ t:
   cv_volunteer: "Volunteer"
   cv_work: "Work"
   
-# Google Fonts
+# Google Fonts Fira Sans
 google_fonts:
-  - name: "Fira Sans"
+  - name: "Philosopher"
     weights: "400,400i,600,600i"
    
 # Link to specific internal pages in the navigation.
