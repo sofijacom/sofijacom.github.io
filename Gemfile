@@ -1,5 +1,6 @@
 source "https://rubygems.org"
-gemspec
+gemspec :name => "jekyll"
+#gemspec
 
 gem "github-pages", group: :jekyll_plugins
 gem "jekyll-remote-theme"
