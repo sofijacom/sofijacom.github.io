@@ -11,8 +11,7 @@ _I am an IT technology engineer. Ability and desire for constant self-learning. 
 
 **My Blog:** [🌸🐳 Sofiya 👋](https://sofi2025-cpu.github.io/)
 
-**🐳**
-
+<hr>
 <!--
 <a id="footer"></a>  
 <img src="/assets/images/footer.svg" width="auto" />
