@@ -11,10 +11,12 @@ _I am an IT technology engineer. Ability and desire for constant self-learning. 
 
 **My Blog:** [🌸🐳 Sofiya 👋](https://sofi2025-cpu.github.io/)
 
+<!--
 **Email:**
-[Contact me](mailto:
+[contact me](mailto:
 [sofija.p2018@gmail.com]
 )
+-->
 <hr>
 
 <!--
