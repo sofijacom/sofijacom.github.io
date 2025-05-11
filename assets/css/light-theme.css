@@ -375,6 +375,13 @@ input, textarea {
   display: block !important;
 }
 
+ul.podcast-links li:hover {
+    color: red;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-name: rec;
+}
+
 /*.language-switch {
     background-color: #303e47;
     background-image: url(../img/ui/icon-arrow-down.png);
