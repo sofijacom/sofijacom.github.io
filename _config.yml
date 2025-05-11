@@ -72,7 +72,9 @@ plugins: # previsously gems
   - jekyll-target-blank
  # - jekyll-multiple-languages-plugin
  # - jekyll-brotli
- 
+ gems:
+- jekyll-email-protect
+
 whitelist:
   - jekyll-sitemap
 
