@@ -70,10 +70,9 @@ plugins: # previsously gems
   - jekyll-archives
   - jekyll-gzip
   - jekyll-target-blank
+  - jekyll-email-protect
  # - jekyll-multiple-languages-plugin
  # - jekyll-brotli
- gems:
-- jekyll-email-protect
 
 whitelist:
   - jekyll-sitemap
