@@ -16,13 +16,8 @@
     <li>{% include icon-twitter.html username=site.twitter_username label='Twitter' %}</li>
   {% endif %}
 
-  {% if site.youtube %}
-    <li>
-      <a src="{{ site.youtube }}">
-        <span class="icon icon--youtube">{% include icon-youtube.svg %}</span>
-        <span class="label">{{ site.data.theme.t.youtube | default: 'YouTube' }}</span>
-      </a>
-    </li>
+  {% if site.youtube_name %}
+    <li>{% include icon-youtube.html name=site.youtube_name label='YouTube' %}</li>
   {% endif %}
   
   <li>
