@@ -187,7 +187,7 @@ code {
   min-height: 35px !important;
 }
 
- .icon--github {
+/* .icon--github {
     fill: var(--base-color) !important;
 }
 
@@ -199,9 +199,13 @@ code {
     fill: var(--base-color) !important;
 }
 
+.icon--youtube {
+    fill: var(--base-color) !important;
+}    
+
 .icon--rss {
     fill: var(--base-color) !important;
-}
+} */
 
 div.highlighter-rouge,
 figure.highlight {
