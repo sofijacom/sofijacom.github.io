@@ -30,7 +30,7 @@ author:
   picture: # "/assets/icons/oie_1_transparent.png"
 twitter_username: sofija_p2018
 github_username: sofijacom
-youtube_url: www.youtube.com/@sofijacom
+#youtube_url: www.youtube.com/@sofijacom
 logo: "/assets/web/logo-kl-anime.webp" # path of site logo, e.g. "/assets/images/logo.png"
 search: true # true, false (default)
 search_full_content: false # true, false (default)
@@ -41,6 +41,12 @@ algolia:
   search_only_api_key: # YOUR_SEARCH_ONLY_API_KEY
   powered_by: # true (default), false
 
+#minima:
+  social_links:
+    - title: YuTube
+      icon: youtube
+      url: "https://www.youtube.com/@sofijacom"
+      
 # Liquid
 liquid:
   error_mode: strict
