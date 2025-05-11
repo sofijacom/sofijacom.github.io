@@ -11,6 +11,8 @@ _I am an IT technology engineer. Ability and desire for constant self-learning. 
 
 **My Blog:** [🌸🐳 Sofiya 👋](https://sofi2025-cpu.github.io/)
 
+<a href="https://calendar.google.com/calendar/render?action=TEMPLATE&dates={{startdate | date: '%Y%m%d'}}%2F{{enddate | date: '%Y%m%d'}}&details=Event%20Information%20{{eventurl}}&location={{location}}&text={{eventname}}" class="btn btn-info btn-sm" alt="Add to Google Calendar">Google</a>
+
 <!--
 **Email:**
 [contact me](mailto:
