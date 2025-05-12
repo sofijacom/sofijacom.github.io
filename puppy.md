@@ -8,4 +8,4 @@ actions:
     url: "https://forum.puppylinux.com/index.php"    
 ---
 
-Discussion, talk and tips
+_Discussion, talk and tips_
