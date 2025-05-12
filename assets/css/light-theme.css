@@ -375,8 +375,8 @@ input, textarea {
   display: block !important;
 }
 
-.ul .li:hover {
-    color: red !important;
+ul.podcast-links li:hover {
+    color: red;
     animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-name: rec;
