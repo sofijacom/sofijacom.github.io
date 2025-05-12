@@ -103,12 +103,11 @@ layout: default
 
 {% include page-intro.html %}
 
-{{ page.excerpt }}
-
 <main id="main" class="page-content" aria-label="Content">
   <div class="inner">
     <article class="entry-wrap">
       <div class="entry-content">
+        {{ page.excerpt }}
         {{ content }}
       </div>
     </article>
