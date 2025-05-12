@@ -412,7 +412,7 @@ ul.podcast-links li:hover {
     top: 1px;
     left: 0;
     right: 0;
-    border: 21px solid #073642;
+    border: 21px solid #efefef;
     cursor: pointer;
     transform: rotate(45deg);
     z-index: 10;
