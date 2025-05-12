@@ -1,8 +1,6 @@
 ---
 title: Puppy linux
 sub_title: "Discussion, talk and tips"
-description: One Manga Day screenshots
-comments: true
 image: /assets/web/Puppy-linux-4.webp
 actions:
   - label: "Puppy linux"
@@ -10,7 +8,3 @@ actions:
     url: "https://forum.puppylinux.com/index.php"    
 ---
 
-{% comment %}
-Might you have an include in your theme? Why not try it here!
-{% include my-themes-great-include.html %}
-{% endcomment %}
