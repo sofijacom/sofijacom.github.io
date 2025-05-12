@@ -2,7 +2,6 @@
 layout: resume
 title: Resume
 sub_title: "Contact / References"
-excerpt: This is the post excerpt.
 image: /assets/images/Resumr-1.jpg
 ---
 
