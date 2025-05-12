@@ -375,7 +375,7 @@ input, textarea {
   display: block !important;
 }
 
-.ul li:hover {
+ul, li:hover {
     color: red;
     animation-duration: 1s;
     animation-iteration-count: infinite;
