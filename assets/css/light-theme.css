@@ -406,16 +406,16 @@ ul.podcast-links li:hover {
     cursor: pointer;
 } */
 .sub-footer #sf-toggle {
-    position: absolute !important;
-    display: table !important;
-    margin: -21px auto !important;
-    top: 1px!important ;
-    left: 0 !important;
-    right: 0 !important;
-    border: 21px solid #efefef !important;
-    cursor: pointer !important;
-    transform: rotate(45deg) !important;
-    z-index: 10!important ;
+    position: absolute;
+    display: table;
+    margin: -21px auto;
+    top: 1px;
+    left: 0;
+    right: 0;
+    border: 21px solid #efefef;
+    cursor: pointer;
+    transform: rotate(45deg);
+    z-index: 10;
 }
 .sub-footer #sf-toggle .sf-toggle-icon {
     display: table;
