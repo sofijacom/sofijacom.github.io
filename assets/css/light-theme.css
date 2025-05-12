@@ -381,6 +381,13 @@ ul.podcast-links li:hover {
     animation-iteration-count: infinite;
     animation-name: rec;
 }
+@keyframes rec {
+  from {
+    color: red; }
+  50% {
+    color: transparent; }
+  to {
+    color: red; } }
 
 /*.language-switch {
     background-color: #303e47;
