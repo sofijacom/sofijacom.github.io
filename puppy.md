@@ -1,6 +1,7 @@
 ---
 title: Puppy linux
 sub_title: "Discussion, talk and tips"
+description: Puppy Linux Discussion Forum
 image: /assets/web/Puppy-linux-4.webp
 actions:
   - label: "Puppy linux"
@@ -10,3 +11,4 @@ actions:
 <!--
 {{ page.description excerpt }}
 -->
+<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
