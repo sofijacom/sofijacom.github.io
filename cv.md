@@ -2,6 +2,7 @@
 layout: resume
 title: Resume
 sub_title: "Contact / References"
+comments: true
 image: /assets/images/Resumr-1.jpg
 ---
 
@@ -11,6 +12,10 @@ _I am an IT technology engineer. Ability and desire for constant self-learning. 
 
 **My Blog:** [🌸🐳 Sofiya 👋](https://sofi2025-cpu.github.io/)
 
+{% comment %}
+Might you have an include in your theme? Why not try it here!
+{% include my-themes-great-include.html %}
+{% endcomment %}
 
 <!--
 **Email:**
