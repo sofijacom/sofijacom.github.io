@@ -8,4 +8,4 @@ actions:
     icon: linux-puppy
     url: "https://forum.puppylinux.com/index.php"    
 ---
-
+{{ page.excerpt }}
