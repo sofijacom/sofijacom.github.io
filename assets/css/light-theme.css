@@ -376,10 +376,10 @@ input, textarea {
 }
 
 ul, li:hover {
-    color: red;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-    animation-name: rec;
+    color: red !important;
+    animation-duration: 1s !important;
+    animation-iteration-count: infinite !important;
+    animation-name: rec !important;
 }
 @keyframes rec {
   from {
