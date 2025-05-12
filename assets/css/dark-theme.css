@@ -383,3 +383,17 @@ input, textarea {
   background-color: #1e2030 !important;
   color: #a6adc8 !important;  
 }
+
+ul.podcast-links li:hover {
+    color: #8839ef;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-name: rec;
+}
+@keyframes rec {
+  from {
+    color: #8839ef; }
+  50% {
+    color: transparent; }
+  to {
+    color: #8839ef; } }
