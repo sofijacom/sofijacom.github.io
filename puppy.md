@@ -1,6 +1,7 @@
 ---
 title: Puppy linux
-sub_title: "Discussion, talk and tips"
+sub_title: "Puppy Linux Discussion Forum"
+excerpt: Discussion, talk and tips
 image: /assets/web/Puppy-linux-4.webp
 actions:
   - label: "Puppy linux"
