@@ -6,6 +6,8 @@ gemspec
 gem 'jekyll', '~> 4.4', '>= 4.4.1'
 gem "kramdown-parser-gfm"
 
+gem 'jekyll', github: 'jekyll/jekyll'
+
 gem "github-pages", group: :jekyll_plugins
 gem "jekyll-remote-theme"
 
