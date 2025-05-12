@@ -2,8 +2,13 @@
 layout: resume
 title: Resume
 sub_title: "Contact / References"
+description: This is a post description.
+excerpt: This is the post excerpt.
 image: /assets/images/Resumr-1.jpg
 ---
+
+{{ page.excerpt }}
+
 
 ### My name is Sofiya
 
