@@ -376,18 +376,18 @@ input, textarea {
 }
 
 ul.podcast-links li:hover {
-    color: red;
+    color: #d20f39;
     animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-name: rec;
 }
 @keyframes rec {
   from {
-    color: red; }
+    color: #d20f39; }
   50% {
     color: transparent; }
   to {
-    color: red; } }
+    color: #d20f39; } }
 
 /*.language-switch {
     background-color: #303e47;
