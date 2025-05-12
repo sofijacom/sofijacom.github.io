@@ -15,7 +15,7 @@ actions:
 <hr>
 
 <ul class="podcast-links">
-  <li><a href="https://forum.puppylinux.com/viewforum.php?f=228"> title="Main forum">Main forum</a></li>
+  <li><a href="https://forum.puppylinux.com/viewforum.php?f=228" title="Main forum">Main forum</a></li>
 </ul>
 
 - [Main forum](https://forum.puppylinux.com/viewforum.php?f=228)
