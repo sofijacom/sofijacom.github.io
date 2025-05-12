@@ -8,5 +8,5 @@ actions:
     url: "https://forum.puppylinux.com/index.php"    
 ---
 <!--
-{{ page.description }}
+{{ page.description excerpt }}
 -->
