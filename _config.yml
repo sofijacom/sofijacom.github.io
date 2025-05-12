@@ -19,7 +19,7 @@ lang: en-US
 title: "Kennel Linux"
 subtitle: "Builds of all varieties"
 email: sofija.p2018@gmail.com
-copyright: #"Copyright © 💜 Sofiya, 2025"
+copyright: "Copyright © 💜 Sofiya, 2025"
 description: >- # this means to ignore newlines until "baseurl:"
   • Expand your knowledge and stay informed with our engaging blog posts •
 baseurl: "" # the optional subpath of your site, e.g. "/blog"
