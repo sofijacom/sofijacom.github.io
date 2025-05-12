@@ -10,5 +10,6 @@ actions:
 ---
 <!--
 {{ page.description excerpt }}
--->
+
 <meta name="description_title" content="{% if page.description_title %}{{ page.description_title }}{% else %}{{ site.description_title }}{% endif %}">
+-->
