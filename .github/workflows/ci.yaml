@@ -12,7 +12,7 @@ jobs:
     runs-on: "ubuntu-latest"
     strategy:
       matrix:
-        jekyll: ["~> 4.4", "~> 4.4"]
+        jekyll: ["~> 3.9", "~> 4.2"]
     env:
       JEKYLL_VERSION: ${{ matrix.jekyll }}
     steps:
