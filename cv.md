@@ -4,9 +4,7 @@ title: Resume
 sub_title: "Contact / References"
 image: /assets/images/Resumr-1.jpg
 categories:
-
-- deployment
-
+ - resume
 description: "Deploy your Jekyll site to Azure"
 ---
 
