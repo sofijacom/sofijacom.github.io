@@ -405,3 +405,15 @@ ul.podcast-links li:hover {
     border-radius: 4px;
     cursor: pointer;
 } */
+.sub-footer #sf-toggle {
+    position: absolute;
+    display: table;
+    margin: -21px auto;
+    top: 1px;
+    left: 0;
+    right: 0;
+    border: 21px solid #073642;
+    cursor: pointer;
+    transform: rotate(45deg);
+    z-index: 10;
+}
