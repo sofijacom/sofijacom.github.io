@@ -417,3 +417,12 @@ ul.podcast-links li:hover {
     transform: rotate(45deg) !important;
     z-index: 10!important ;
 }
+.sub-footer #sf-toggle .sf-toggle-icon {
+    display: table;
+    font-family: auto;
+    font-size: 1.25em;
+    line-height: 0.05em;
+}
+.site-footer + .sub-footer .sf-toggle-icon {
+    --icon-code: "↑";
+}
