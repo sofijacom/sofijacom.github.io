@@ -16,11 +16,11 @@ actions:
 
 <ul class="podcast-links">
   <li><a href="https://forum.puppylinux.com/viewforum.php?f=228" title="">Main forum</a></li>
-  <li><a href="https://kennel-linux.rockedge.org/" >Another KL forum</a></li>
-  <li><a href="https://forum.puppylinux.com/viewforum.php?f=231" >Kennel Linux distros</a></li>
-  <li><a href="https://forum.puppylinux.com/viewforum.php?f=194" >Kennel Linux development</a></li>
-  <li><a href="https://gitlab.com/firstrib/firstrib" >FirstRib GitLab repo</a></li>
-  <li><a href="https://github.com/sofijacom/sofijacom.github.io" >Website GitHub repo</a></li>
+  <li><a href="https://kennel-linux.rockedge.org/" title="">Another KL forum</a></li>
+  <li><a href="https://forum.puppylinux.com/viewforum.php?f=231" title="">Kennel Linux distros</a></li>
+  <li><a href="https://forum.puppylinux.com/viewforum.php?f=194" title="">Kennel Linux development</a></li>
+  <li><a href="https://gitlab.com/firstrib/firstrib" title="">FirstRib GitLab repo</a></li>
+  <li><a href="https://github.com/sofijacom/sofijacom.github.io" title="">Website GitHub repo</a></li>
 </ul>
 
 <!--
