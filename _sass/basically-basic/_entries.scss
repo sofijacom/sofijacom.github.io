@@ -36,7 +36,7 @@
   @include fluid-type($min-vw, $max-vw, 12px, 16px);
   margin-bottom: 1rem;
 
-  ul.podcast-links {
+  ul {
     @include list-unstyled();
 
     @include breakpoint(max-width $medium) {
