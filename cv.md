@@ -7,9 +7,6 @@ excerpt: This is the post excerpt.
 image: /assets/images/Resumr-1.jpg
 ---
 
-{{ page.excerpt }}
-
-
 ### My name is Sofiya
 
 _I am an IT technology engineer. Ability and desire for constant self-learning. I'm bad at programming. I mostly write scripts for personal use._
