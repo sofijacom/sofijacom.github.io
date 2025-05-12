@@ -2,7 +2,6 @@
 layout: resume
 title: Resume
 sub_title: "Contact / References"
-description: проверка
 image: /assets/images/Resumr-1.jpg
 ---
 
