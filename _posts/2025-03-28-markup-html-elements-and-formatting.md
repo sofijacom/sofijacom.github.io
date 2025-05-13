@@ -63,27 +63,16 @@ Multi line blockquote with a cite reference:
 ## Structure
 
 <pre>
-├── text 
-│  ├── text
-│  │   ├── text 
-│  │   ├── text
-│  │   ├── text
-│  │   ├── text
-│  │   ├── text
-│  │   └── text
-│  ├── text
-│  ├── text
-│  │   └── text
-│  ├── text
-│  └── text
 ├── text
-│  └── text
-│      └── text
-│      └── text
-├── text
-│  ├── text
-│  └── text
-├── text
+│   ├── text
+│   │   ├── text
+│   │   ├── text
+│   │   ├── text
+│   │   └── text
+│   └── text
+│       ├── text
+│       ├── **
+│       └── text
 └── text
 </pre>
 	
