@@ -207,12 +207,15 @@ code {
     fill: var(--base-color) !important;
 } */
 
-/* th, td {
-    border-bottom: 1px solid #4c4f69 !important;
-} */
-
 th, td, tr {
     border: 1px solid #bcc0cc !important;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    word-break: keep-all;
+    border-top: 5px solid #797b8f;
 }
 
 div.highlighter-rouge,
