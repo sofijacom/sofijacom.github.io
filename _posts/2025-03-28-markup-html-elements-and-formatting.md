@@ -63,6 +63,7 @@ Multi line blockquote with a cite reference:
 ## Structure
 
 <pre>
+~/.config/*	
 ├── text
 │   ├── text
 │   │   ├── text
