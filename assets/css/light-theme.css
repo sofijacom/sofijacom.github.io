@@ -207,8 +207,12 @@ code {
     fill: var(--base-color) !important;
 } */
 
-th, td {
+/*th, td {
     border-bottom: 1px solid #4c4f69 !important;
+} */
+
+th, td, tr, table {
+    border-bottom: 1px solid #bcc0cc !important;
 }
 
 div.highlighter-rouge,
