@@ -211,7 +211,7 @@ code {
     border-bottom: 1px solid #4c4f69 !important;
 } */
 
-td {
+th, td, tr {
     border: 1px solid #bcc0cc !important;
 }
 
