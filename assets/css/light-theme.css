@@ -212,7 +212,7 @@ code {
 } */
 
 th, td, tr, table {
-    border-bottom: 1px solid #bcc0cc !important;
+    border: 1px solid #bcc0cc !important;
 }
 
 div.highlighter-rouge,
