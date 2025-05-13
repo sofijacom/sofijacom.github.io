@@ -93,10 +93,10 @@ a:hover, a:focus {
 }
 
 /* надписи */
-p {
+/* p {
     background-color: #18182500 !important;
     display: block;
-}
+} */
 
 .fa-solid {
     font-weight: 900;
