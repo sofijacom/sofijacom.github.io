@@ -211,10 +211,6 @@ th, td, tr {
     border: 1px solid #bcc0cc !important;
 }
 
-table {
-    border-top: 5px solid #797b8f !important;
-}
-
 div.highlighter-rouge,
 figure.highlight {
   position: relative !important;
