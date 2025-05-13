@@ -3,7 +3,7 @@ html {
   margin: 0 auto;
   padding: 0;
  /* font-size: 16px; */
-  font-family: 'Philosopher', sans-serif !important;
+ /* font-family: 'Philosopher', sans-serif !important; */
 }
 
 * {
@@ -123,7 +123,7 @@ html {
   cursor: pointer;
   z-index: 100;
   font-size: 16px;
-/*  font-family: 'Philosopher', sans-serif !important; */
+  font-family: 'Philosopher', sans-serif !important;
   outline: none;
 }
 
