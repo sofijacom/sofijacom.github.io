@@ -60,6 +60,32 @@ Multi line blockquote with a cite reference:
 |=============================|
 | Foot1   | Foot2   | Foot3   |
 
+## Structure
+```
+├── text 
+│  ├── text
+│  │   ├── text 
+│  │   ├── text
+│  │   ├── text
+│  │   ├── text
+│  │   ├── text
+│  │   └── text
+│  ├── text
+│  ├── text
+│  │   └── text
+│  ├── text
+│  └── text
+├── text
+│  └── text
+│      └── text
+│      └── text
+├── text
+│  ├── text
+│  └── text
+├── text
+└── text
+```
+
 ## Definition Lists
 
 Definition List Title
