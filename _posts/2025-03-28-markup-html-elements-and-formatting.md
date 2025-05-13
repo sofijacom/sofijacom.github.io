@@ -145,8 +145,6 @@ The abbreviation CSS stands for "Cascading Style Sheets".
 
 You will learn later on in these tests that `word-wrap: break-word;` will be your best friend.
 
-<code>#!/bin/bash</code>
-
 ## Strike element
 
 This element will let you <strike>strikeout text</strike>.
