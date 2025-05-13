@@ -62,7 +62,7 @@ Multi line blockquote with a cite reference:
 
 ## Structure
 
-```html
+<pre>
 ├── text 
 │  ├── text
 │  │   ├── text 
@@ -85,8 +85,8 @@ Multi line blockquote with a cite reference:
 │  └── text
 ├── text
 └── text
-```
-
+</pre>
+	
 ## Definition Lists
 
 Definition List Title
