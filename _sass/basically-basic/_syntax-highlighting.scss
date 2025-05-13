@@ -10,8 +10,8 @@ figure.highlight {
   color: $base05;
   font-family: $monospace-font-family;
   line-height: 1.8;
-  border: 1px solid $base05;
-  border-radius: 6px; 
+ /* border: 1px solid $base05; */
+ /* border-radius: 6px; */
 
   > pre,
   pre.highlight {
