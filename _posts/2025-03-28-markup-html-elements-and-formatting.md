@@ -61,7 +61,8 @@ Multi line blockquote with a cite reference:
 | Foot1   | Foot2   | Foot3   |
 
 ## Structure
-```
+
+<pre>
 ├── text 
 │  ├── text
 │  │   ├── text 
@@ -84,7 +85,7 @@ Multi line blockquote with a cite reference:
 │  └── text
 ├── text
 └── text
-```
+</pre>
 
 ## Definition Lists
 
