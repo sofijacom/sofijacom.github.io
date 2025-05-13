@@ -221,7 +221,7 @@ code {
     fill: var(--base-color) !important;
 } */
 
-td {
+th, td, tr {
     border: 1px solid #797b8f !important;
 }
 
