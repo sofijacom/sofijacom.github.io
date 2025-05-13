@@ -222,10 +222,7 @@ th, td, tr {
 } 
 
 table {
-    width: 100%;
-    border-collapse: collapse;
-    word-break: keep-all;
-    border-top: 5px solid #797b8f;
+    border-top: 5px solid #797b8f !important;
 }
 
 div.highlighter-rouge,
