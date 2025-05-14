@@ -393,7 +393,7 @@ ul.podcast-links li:hover {
   to {
     color: #d20f39; } }
 
-.list-inline>li, a:hover {
+.list-inline>li {
     display: inline-block;
     padding-right: 5px;
     padding-left: 5px;
@@ -406,4 +406,6 @@ ul.podcast-links li:hover {
       fill: #181825;
    }    
 }
-
+.list-inline>li:hover {
+    color: var(--accent-color) !important;
+}    
