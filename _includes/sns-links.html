@@ -43,7 +43,7 @@
 
   <li>
     {% if site.plugins contains 'jekyll-feed' or site.gems contains 'jekyll-feed' %}
-      <a href="{{ site.feed.path | default: 'feed.xml' | relative_url }}" title="Atom Feed">
+      <a href="{{ site.feed.path | default: 'feed.xml' | relative_url }}">
         <span class="icon icon--rss">{% include icon-rss.svg %}</span>
       </a>
     {% endif %}
