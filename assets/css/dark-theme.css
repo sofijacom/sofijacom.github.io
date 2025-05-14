@@ -405,4 +405,6 @@ ul.podcast-links li:hover {
     font-size: 1.25em;
     list-style: none;
 }
-
+.list-inline>li icon--github {
+    fill: #a6adc8;
+}
