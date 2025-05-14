@@ -1,4 +1,4 @@
-{% comment %}
+<!--{% comment %}
     @param {Boolean} center 
 {% endcomment %}
 
@@ -6,39 +6,38 @@
 <ul class="list-inline text-center">
 {% else %}
 <ul class="list-inline">
-{% endif %}
+{% endif %} -->
 
 <ul class="contact-list">
   {% if site.email %}
     <li>
       <a href="mailto:{{ site.email }}">
         <span class="icon icon--email">{% include icon-email.svg %}</span>
-        <span class="label">{{ site.data.theme.t.email | default: '' }}</span>
       </a>
     </li>
   {% endif %}
 
   {% if site.github_username %}
-    <li>{% include icon-github.html username=site.github_username label='' %}</li>
+    <li>{% include icon-github.html %}</li>
   {% endif %}
 
   {% if site.twitter_username %}
-    <li>{% include icon-twitter.html username=site.twitter_username label='' %}</li>
+    <li>{% include icon-twitter.html %}</li>
   {% endif %}
 
   {% if site.youtube_username %}
-    <li>{% include icon-youtube.html username=site.youtube_username label='' %}</li>
+    <li>{% include icon-youtube.html %}</li>
   {% endif %}
 
   <li>
     {% if site.plugins contains 'jekyll-feed' or site.gems contains 'jekyll-feed' %}
       <a href="{{ site.feed.path | default: 'feed.xml' | relative_url }}" title="Atom Feed">
         <span class="icon icon--rss">{% include icon-rss.svg %}</span>
-        <span class="label">{{ site.data.theme.t.subscribe | default: '' }}</span>
       </a>
     {% endif %}
   </li>
 </ul>
-
+<!--
 </ul>
 </ul>
+-->
