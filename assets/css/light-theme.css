@@ -407,5 +407,7 @@ ul.podcast-links li:hover {
    }    
 }
 li:hover {
-    color: var(--accent-color) !important;
+    background-color: #04a5e5 !important;
+    color: #181825 !important;
+    transition: 0.5s;
 }    
