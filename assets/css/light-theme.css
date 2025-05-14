@@ -406,6 +406,6 @@ ul.podcast-links li:hover {
       fill: #181825;
    }    
 }
-.list-inline>li:hover {
+li:hover {
     color: var(--accent-color) !important;
 }    
