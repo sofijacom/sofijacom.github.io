@@ -397,3 +397,11 @@ ul.podcast-links li:hover {
     color: transparent; }
   to {
     color: #8839ef; } }
+
+.list-inline>li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+    list-style: none;
+}
+
