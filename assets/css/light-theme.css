@@ -409,4 +409,5 @@ ul.podcast-links li:hover {
 .list-inline>li:hover {
     background-color: #04a5e5;
     color: #181825;
+    transition: 0.2s;
 }    
