@@ -39,7 +39,7 @@
   }
 
 body {
-   /* background: #dce0e8 !important; */
+    background: #e6e9ef !important;
     color: var(--text-color) !important;
    /* bgcolor: #e6e9ef; */
 }
