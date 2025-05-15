@@ -297,6 +297,17 @@ header {
     position: absolute;
     width: 55px;
 } */
+.footer-main {
+   /* left: 12%;
+    margin-left: -567px;
+    margin-top: -80px;
+    position: absolute;
+    width: 55px; */
+    width: 50px;
+    height: 50px;
+    margin-right: 0.5rem;
+    border-radius: 50%;
+}
 
 @media screen and (min-width: 1280px) {
     .search-content .search-input {
