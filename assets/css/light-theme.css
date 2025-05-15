@@ -39,7 +39,7 @@
   }
 
 body {
-    background: #dce0e8 !important;
+   /* background: #dce0e8 !important; */
     color: var(--text-color) !important;
    /* bgcolor: #e6e9ef; */
 }
@@ -421,7 +421,9 @@ ul.podcast-links li:hover {
 }    
 
 #footer {
-    padding: 50px 0px 10px;
+    border-top: 1px solid #4a4d68;
+    padding: 100px 0px 10px;
     background-size: 100% 100% !important;
-    background: url('/assets/icons/fake-order-2-text-xl.png') no-repeat;
+    background: url(/assets/icons/fake-order-2-text-xl.png) no-repeat;
+    background-color: #dce0e8;
 }
