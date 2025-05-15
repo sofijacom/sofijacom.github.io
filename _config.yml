@@ -30,9 +30,9 @@ author:
   picture: # "/assets/icons/oie_1_transparent.png"
 twitter_username: sofija_p2018
 github_username: sofijacom
-youtube_username: "@sofijacom"
+youtube_username: "@sofijacom" # If there is "@" in front, be sure to put it in quotation marks.
 logo: "/assets/web/logo-kl-anime.webp" # path of site logo, e.g. "/assets/images/logo.png"
-footer_logo: "/assets/icons/logo.png"  # path of logo, e.g. ""
+footer_logo: "/assets/icons/logo.png"  # path of logo, e.g. "/assets/icons/logo.png"
 search: true # true, false (default)
 search_full_content: false # true, false (default)
 search_provider: lunr # lunr (default), algolia
