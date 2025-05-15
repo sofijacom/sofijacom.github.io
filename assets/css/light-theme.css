@@ -419,3 +419,10 @@ ul.podcast-links li:hover {
     background-color: #04a5e5;
     transition: 0.3s;
 }    
+
+#footer {
+	font-size: 14px;
+	padding: 45px 10px 40px;
+	border-top: 1px solid #E5E5E5;
+    background: url('/assets/icons/fake-order-text-xl.png') no-repeat;
+}
