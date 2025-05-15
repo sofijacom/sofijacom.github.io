@@ -428,8 +428,8 @@ ul.podcast-links li:hover {
 
 #footer {
     border-top: 1px solid #45475a;
-    padding: 100px 0px 10px;
+    padding: 100px 0px 15px;
     background-size: 100% 100% !important;
-    background: url(/assets/icons/fake-order-2-text-xl.png) no-repeat;
+    background: url(/assets/footer/fake-order-2-text-xl.png) no-repeat;
     background-color: #181825;
 }
