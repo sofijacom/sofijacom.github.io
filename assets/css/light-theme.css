@@ -286,10 +286,11 @@ header {
     color: #4c4f69 !important;
     font-size: 80% !important;
 }
-/* #footer {
+#footer {
     height: 100px;
-    background-image: url('assets/footer/v915-wit-011-l.jpg');
-} */
+    width: 100px;
+    background-image: url('/assets/icons/fake-footer.png');
+}
 
 .footer-main {
     width: 50px;
