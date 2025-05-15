@@ -291,11 +291,11 @@ header {
     background-image: url('assets/footer/v915-wit-011-l.jpg');
 } */
 #footer-main {
-    left: 50%;
-    margin-left: -567px;
-    margin-top: -82px;
+    left: 12%;
+   /* margin-left: -567px; */
+    margin-top: -80px;
     position: absolute;
-    width: 70px;
+    width: 55px;
 }
 
 @media screen and (min-width: 1280px) {
