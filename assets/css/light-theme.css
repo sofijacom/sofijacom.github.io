@@ -286,17 +286,17 @@ header {
     color: #4c4f69 !important;
     font-size: 80% !important;
 }
-/*#footer {
+/* #footer {
     height: 100px;
     background-image: url('assets/footer/v915-wit-011-l.jpg');
-} */
+} 
 #footer-main {
     left: 12%;
-   /* margin-left: -567px; */
+    margin-left: -567px;
     margin-top: -80px;
     position: absolute;
     width: 55px;
-}
+} */
 
 @media screen and (min-width: 1280px) {
     .search-content .search-input {
