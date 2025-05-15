@@ -427,7 +427,7 @@ ul.podcast-links li:hover {
 }
 
 #footer {
-    border-top: 1px solid #45475a;
+   /* border-top: 1px solid #45475a; */
     padding: 100px 0px 15px;
     background-size: 100% 100% !important;
     background: url(/assets/footer/footer_transparent.png) no-repeat;
