@@ -425,3 +425,9 @@ ul.podcast-links li:hover {
     background-color: #8839ef;
     transition: 0.3s;
 }
+
+#footer {
+    padding: 50px 0px 10px;
+    background-size: 100% 100% !important;
+    background: url('/assets/icons/fake-order-2-text-xl.png') no-repeat;
+}
