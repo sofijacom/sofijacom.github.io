@@ -41,6 +41,8 @@
 body {
     background: #dce0e8 !important;
     color: var(--text-color) !important;
+    font-size: 1.05em;
+    background-image: url(/assets/icons/fake-order-text-xl.png) !important;
    /* bgcolor: #e6e9ef; */
 }
 
