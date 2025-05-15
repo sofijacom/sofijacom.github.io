@@ -1,7 +1,9 @@
 <footer id="footer" class="site-footer">
   <div class="inner">
     <div class="copyright">
-       <img src="/assets/icons/logo.png" alt="" class="footer-main">
+      {% if site.footer_logo %}
+       <img src="{{ site.footer_logo }}"" alt="" class="footer-main">
+      {% endif %}
       {% include sns-links.html center=true %}
              <p class="text-muted">
            Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }} 
