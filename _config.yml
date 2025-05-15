@@ -32,6 +32,7 @@ twitter_username: sofija_p2018
 github_username: sofijacom
 youtube_username: "@sofijacom"
 logo: "/assets/web/logo-kl-anime.webp" # path of site logo, e.g. "/assets/images/logo.png"
+footer_logo: "/assets/icons/logo.png"  # path of logo, e.g. ""
 search: true # true, false (default)
 search_full_content: false # true, false (default)
 search_provider: lunr # lunr (default), algolia
