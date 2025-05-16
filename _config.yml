@@ -164,3 +164,26 @@ jekyll-archives:
     day: '/:year/:month/:day/'
     tag: '/tag/:name/'
     category: '/category/:name/'
+
+emptyArray: []
+
+comments:
+  receiver: https://{{your-receiver-site}}/api/PostComment}}
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: pages
+    values:
+      layout: page
+      author: sofiya
+      commenting: open
+  -
+    scope:
+      path: '_posts'
+      type: posts
+    values:
+      layout: post
+      author: sofiya
+      commenting: open  
