@@ -419,7 +419,7 @@ ul.podcast-links li:hover {
     background-color: #04a5e5;
     transition: 0.3s;
 }    
-
+/* setting background image in footer */
 #footer {
    /* border-top: 1px solid #4a4d68; */
     padding: 100px 0px 15px;
