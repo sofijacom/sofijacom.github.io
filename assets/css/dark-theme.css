@@ -292,6 +292,15 @@ header {
     position: absolute;
 }
 
+/* setting background image in footer */
+#footer {
+   /* border-top: 1px solid #45475a; */
+    padding: 100px 0px 15px;
+    background-size: 100% 100% !important;
+    background: url(/assets/footer/footer_transparent.png) no-repeat;
+    background-color: #181825;
+}
+
 .back-to-top {
     display: block;
     color: #4c4f69 !important;
@@ -426,11 +435,4 @@ ul.podcast-links li:hover {
     background-color: #8839ef;
     transition: 0.3s;
 }
-/* setting background image in footer */
-#footer {
-   /* border-top: 1px solid #45475a; */
-    padding: 100px 0px 15px;
-    background-size: 100% 100% !important;
-    background: url(/assets/footer/footer_transparent.png) no-repeat;
-    background-color: #181825;
-}
+
