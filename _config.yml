@@ -152,24 +152,10 @@ defaults:
       type: posts
     values:
       layout: post
+      author: sofiya
+      commenting: open
       read_time: true
-
-  - scope:
-      path: ''
-      type: pages
-    values:
-      layout: page
-      author: damieng
-      commenting: open
-      
-  - scope:
-      path: '_posts'
-      type: posts
-    values:
-      layout: post
-      author: damieng
-      commenting: open
-      
+          
  # [] / all      
 jekyll-archives:
   enabled: []
