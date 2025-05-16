@@ -19,8 +19,9 @@ There are many KL distros, each with their own unique features:
 - **KLU :** Any KL distro based on Ubuntu. Currently, the only KLU is [KLU-jam-XFCEbase](https://forum.puppylinux.com/viewtopic.php?t=7866), created by _<span style="color:red;font-weight:700;font-size:15px">@wiak</span>._
 - **KL minis :** KL distros that are made to be "**very small**".
 - [Kennel Linux distros](https://forum.puppylinux.com/viewforum.php?f=231)
-
+  
+<!--
 <p align="center">
   ━━━━━━  ❖  ━━━━━━  
 </p>
-  
+-->  
