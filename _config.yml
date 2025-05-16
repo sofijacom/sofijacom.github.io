@@ -155,7 +155,7 @@ defaults:
       read_time: true
   -
    scope:
-     path: ''
+      path: ''
       type: pages
     values:
       layout: page
@@ -163,7 +163,7 @@ defaults:
       commenting: open
   -
    scope:
-     path: '_posts'
+      path: '_posts'
       type: posts
     values:
       layout: post
