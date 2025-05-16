@@ -10,5 +10,8 @@
 
 https://mkll.github.io/
 
+Installation
+To embed the Ionicons font icon, copy this code into the <head> of the HTML document.
 
+<link href="https://unpkg.com/ionicons@4.1.2/dist/css/ionicons.min.css" rel="stylesheet">
 
