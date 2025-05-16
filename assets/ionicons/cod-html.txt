@@ -1,0 +1,14 @@
+<ion-icon name="logo-rss"></ion-icon>
+
+<ion-icon name="logo-github"></ion-icon>
+
+<ion-icon name="mail"></ion-icon>
+
+<ion-icon name="logo-twitter"></ion-icon>
+
+<ion-icon name="logo-youtube"></ion-icon>
+
+
+
+
+
