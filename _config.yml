@@ -153,23 +153,23 @@ defaults:
     values:
       layout: post
       read_time: true
-  -
-   scope:
+
+  - scope:
       path: ''
       type: pages
     values:
       layout: page
       author: damieng
       commenting: open
-  -
-   scope:
+      
+  - scope:
       path: '_posts'
       type: posts
     values:
       layout: post
       author: damieng
-      commenting: open    
-  
+      commenting: open
+      
  # [] / all      
 jekyll-archives:
   enabled: []
