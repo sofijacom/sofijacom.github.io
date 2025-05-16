@@ -145,15 +145,31 @@ exclude:
   - /example # ignore Basically Basic dev site
     
 # Front Matter Defaults
-#defaults:
+defaults:
   # _posts
-#  - scope:
-#      path: "_posts"
-#      type: posts
-#    values:
-#      layout: post
-#      read_time: true
-      
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+      read_time: true
+  -
+   scope:
+     path: ''
+      type: pages
+    values:
+      layout: page
+      author: damieng
+      commenting: open
+  -
+   scope:
+     path: '_posts'
+      type: posts
+    values:
+      layout: post
+      author: damieng
+      commenting: open    
+  
  # [] / all      
 jekyll-archives:
   enabled: []
@@ -169,21 +185,3 @@ emptyArray: []
 
 comments:
   receiver: https://{{your-receiver-site}}/api/PostComment}}
-
-defaults:
-  -
-    scope:
-      path: ''
-      type: pages
-    values:
-      layout: page
-      author: sofiya
-      commenting: open
-  -
-    scope:
-      path: '_posts'
-      type: posts
-    values:
-      layout: post
-      author: sofiya
-      commenting: open  
