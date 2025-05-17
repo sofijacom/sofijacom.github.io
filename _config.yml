@@ -152,10 +152,10 @@ defaults:
       type: posts
     values:
       layout: post
-      author: sofiya
-      commenting: open
       read_time: true
-          
+#      author: sofiya
+#      commenting: open
+
  # [] / all      
 jekyll-archives:
   enabled: []
@@ -167,7 +167,7 @@ jekyll-archives:
     tag: '/tag/:name/'
     category: '/category/:name/'
 
-emptyArray: []
+#emptyArray: []
 
-comments:
-  receiver: https://{{your-receiver-site}}/api/PostComment}}
+#comments:
+#  receiver: https://{{your-receiver-site}}/api/PostComment}}
