@@ -3,7 +3,6 @@ layout: home
 comments: false
 paginate: false
 image: /assets/images/fon-1.jpg
-google_forms_comments: true
 actions:
   - label: "Get Started"
     icon: github
