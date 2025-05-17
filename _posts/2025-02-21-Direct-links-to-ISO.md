@@ -2,7 +2,6 @@
 layout: post
 title: "Direct links to iso"
 image: '/assets/images/distro.jpeg'
-comments: true
 categories:
   - Links
 tags:
