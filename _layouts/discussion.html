@@ -8,7 +8,19 @@ layout: default
     <meta charset="utf-8">
     <title>Discussion section</title>
   </head>
+  
+{% include page-intro.html %}
 
+<main id="main" class="page-content" aria-label="Content">
+  <div class="inner">
+    <article class="entry-wrap">
+      <div class="entry-content">
+        {{ content }}
+      </div>
+    </article>
+  </div>
+</main>
+  
   <body>
     <header></header>
     <main></main>
@@ -35,15 +47,3 @@ layout: default
 
   </body>
 </html>
-
-{% include page-intro.html %}
-
-<main id="main" class="page-content" aria-label="Content">
-  <div class="inner">
-    <article class="entry-wrap">
-      <div class="entry-content">
-        {{ content }}
-      </div>
-    </article>
-  </div>
-</main>
