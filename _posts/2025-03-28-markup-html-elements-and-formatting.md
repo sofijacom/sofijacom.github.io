@@ -1,7 +1,7 @@
 ---
 title: "Markup: HTML Elements and Formatting"
 sub_title: "The common elements"
-comments:
+comments: false
 categories:
   - Markup
 tags:
