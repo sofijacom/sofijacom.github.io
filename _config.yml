@@ -168,4 +168,4 @@ jekyll-archives:
 comments:
   provider: "disqus"
   disqus:
-    shortname: "your_site_short_name_from_disqus"
+    shortname: "kennel-linux"
