@@ -172,3 +172,8 @@ comments:
 
 #google_forms_comments:
 #  chunked_comment_loading: false
+
+# comment-read: https://docs.google.com/spreadsheets/d/xxxx
+# comment-post: https://docs.google.com/forms/d/e/xxxxxx
+# comment-post-fields: [ entry.1111111, entry.1111111, entry.1111111]
+
