@@ -153,8 +153,6 @@ defaults:
     values:
       layout: post
       read_time: true
-      author: sofiya
-      commenting: open
 
  # [] / all      
 jekyll-archives:
