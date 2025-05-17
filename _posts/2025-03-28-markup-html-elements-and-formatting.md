@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Markup: HTML Elements and Formatting"
-comments: 0
+comments: false
 sub_title: "The common elements"
 categories:
   - Markup
