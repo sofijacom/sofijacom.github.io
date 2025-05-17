@@ -12,8 +12,8 @@ layout: default
       <div class="entry-content">
         {{ content }}
       </div>
-      {% if site.disqus.shortname %}
-        {% include disqus_comments.html %}
+      {% if site.disqus.shortname != 0 %}
+        {% include disqus.html %}
       {% endif %}
     </article>
   </div>
