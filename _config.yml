@@ -171,4 +171,4 @@ comments:
     shortname: "kennel-linux"
 
 google_forms_comments:
-  chunked_comment_loading: true
+  chunked_comment_loading: false
