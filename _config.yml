@@ -164,8 +164,3 @@ jekyll-archives:
     day: '/:year/:month/:day/'
     tag: '/tag/:name/'
     category: '/category/:name/'
-
-emptyArray: []
-
-comments:
-  receiver: https://{{your-receiver-site}}/api/PostComment}}
