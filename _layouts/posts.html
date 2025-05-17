@@ -1,6 +1,11 @@
 ---
 layout: page
 ---
+<div class="post {{ page.class }}">
+  {% include item.html %}
+  {{ page.content }}
+  {% include comments.html %}
+</div>
 
 <link rel="stylesheet" href="/assets/css/style.css">
 {{ content }}
