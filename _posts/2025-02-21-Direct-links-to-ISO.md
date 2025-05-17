@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Direct links to iso"
-comments: true
+comments: 1
 image: '/assets/images/distro.jpeg'
 categories:
   - Links
