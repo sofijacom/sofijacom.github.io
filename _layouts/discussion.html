@@ -15,7 +15,9 @@ layout: default
     <main></main>
     <footer></footer>
       
-{% include disqus.html %}
+ {% if post.comments != 0 %}
+    {% include  disqus.html %}
+ {% endif %}
       
   </body>
 </html>
