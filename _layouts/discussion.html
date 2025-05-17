@@ -15,7 +15,7 @@ layout: default
     <main></main>
     <footer></footer>
       
- {% if post.comments != 0 %}
+ {% if page.comments != false and jekyll.environment == "production" %}
     {% include  disqus.html %}
  {% endif %}
       
