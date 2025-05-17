@@ -12,7 +12,7 @@ layout: default
       <div class="entry-content">
         {{ content }}
       </div>
-     {% if post.comments != 0 %}
+     {% if page.comments != false %}
        {% include  disqus.html %}
      {% endif %}
     </article>
