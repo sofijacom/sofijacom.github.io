@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Markup: HTML Elements and Formatting"
-sub_title: "The common elements"
 comments: false
+sub_title: "The common elements"
 categories:
   - Markup
 tags:
