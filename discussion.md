@@ -2,5 +2,5 @@
 layout: discussion
 title: Discussion section
 comments: true
-image:
+image: "assets/images/Blog.jpg"
 ---
