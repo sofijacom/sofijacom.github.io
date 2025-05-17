@@ -170,5 +170,5 @@ comments:
   disqus:
     shortname: "kennel-linux"
 
-google_forms_comments:
-  chunked_comment_loading: false
+#google_forms_comments:
+#  chunked_comment_loading: false
