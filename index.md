@@ -24,14 +24,6 @@ actions:
   <li><a href="https://github.com/sofijacom/sofijacom.github.io" title="">Website GitHub repo</a></li>
 </ul>
 
-<!--
-- [Main forum](https://forum.puppylinux.com/viewforum.php?f=228)
-- [Another KL forum](https://kennel-linux.rockedge.org/)
-- [Kennel Linux distros](https://forum.puppylinux.com/viewforum.php?f=231)
-- [Kennel Linux development](https://forum.puppylinux.com/viewforum.php?f=194)
-- [FirstRib GitLab repo](https://gitlab.com/firstrib/firstrib)
-- [Website GitHub repo](https://github.com/sofijacom/sofijacom.github.io)
--->
 
 ### Assemblies from <span style="color:#8039d8;font-style:normal;font-weight:400;font-size:24px">Sofiya</span>
 
