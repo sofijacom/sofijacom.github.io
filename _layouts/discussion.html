@@ -12,7 +12,15 @@ layout: default
   
   <body>
 
+{% comment %}
+    @param {Boolean} center 
+{% endcomment %}
+
 {% if include.center %}
+<ul class="page-content text-center">
+{% else %}
+<ul class="entry-content">
+{% endif %}
     
 <main id="main" class="page-content" aria-label="Content">
   <div class="inner">
