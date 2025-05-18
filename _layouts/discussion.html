@@ -17,7 +17,6 @@ layout: default
       <div class="entry-content">
         {{ content }} 
       </div>
-     <!-- {% if page.comments != false and jekyll.environment == "production" %} -->
      {% if page.comments != false %}
        {% include  disqus.html %}
      {% endif %}
