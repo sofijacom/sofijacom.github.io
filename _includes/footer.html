@@ -6,12 +6,12 @@
       {% endif %}
       {% include sns-links.html center=true %}
              <p class="text-muted">
-           Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }} 
-     <!-- {% if site.copyright %}
+          <!-- Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }} -->
+      {% if site.copyright %}
         {{ site.copyright | markdownify }}
       {% else %}
         <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}.</p>
-      {% endif %} -->
+      {% endif %}
             <br>
           Powered by <a href="http://sofijacom.github.io">💜 Sofiya</a> |
             <iframe style="margin-left: 2px; margin-bottom:-5px;" frameborder="0" scrolling="0" width="100px" height="20px"
@@ -21,15 +21,3 @@
       </div>
     </div>
 </footer>
-
-<!-- <footer id="footer" class="site-footer">
-  <div class="inner">
-    <div class="copyright">     
-      {% if site.copyright %}
-        {{ site.copyright | markdownify }}
-      {% else %}
-        <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}.</p>
-      {% endif %}        
-    </div>
-  </div>
-</footer> -->
