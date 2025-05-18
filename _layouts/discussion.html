@@ -10,24 +10,23 @@ layout: default
     <link rel="stylesheet" href="/assets/css/style.css">
   </head>
   
-   <main id="main" class="page-content" aria-label="Content">
-  <div class="inner">
-    <article class="entry-wrap">
-      <div class="entry-content">
-        {{ content }}
-      </div>
-    </article>
-  </div>
-</main>
-  
   <body>
     <header></header>
     <main></main>
     <footer></footer>
       
- {% if page.comments != false %}
-    {% include  disqus.html %}
- {% endif %}
+<main id="main" class="page-content" aria-label="Content">
+  <div class="inner">
+    <article class="entry-wrap">
+      <div class="entry-content">
+        {{ content }}
+      </div>
+     {% if page.comments != false %}
+       {% include  disqus.html %}
+     {% endif %}
+    </article>
+  </div>
+</main>
       
   </body>
 </html>
