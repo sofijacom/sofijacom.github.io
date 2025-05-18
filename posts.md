@@ -3,6 +3,7 @@ layout: page
 title: Blog
 sub_title: "Expand your knowledge and stay informed with our engaging blog posts"
 image: '/assets/web/blog.webp'
+comments: false
 actions:
   - label: "More Info"
     icon: info
