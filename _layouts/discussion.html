@@ -3,6 +3,31 @@ layout: default
 ---
 
 <!DOCTYPE html>
+  <div class="post-content">
+    <style type="text/css" media="screen">
+  .container {
+    margin: 10px auto;
+    max-width: 600px;
+    text-align: center;
+  }
+  h1 {
+    margin: 30px 0;
+    font-size: 4em;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+</style>
+
+<div class="container">
+     {% if page.comments != false %}
+       {% include  disqus.html %}
+     {% endif %}
+</div>
+    
+  </div>
+
+
+<!-- <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -26,3 +51,4 @@ layout: default
       
   </body>
 </html>
+-->
