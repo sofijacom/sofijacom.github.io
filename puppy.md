@@ -1,4 +1,5 @@
 ---
+layout: page
 title: Puppy linux
 sub_title: "Discussion, talk and tips"
 image: /assets/web/Puppy-linux-4.webp
