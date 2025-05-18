@@ -14,17 +14,12 @@ layout: default
 {% comment %}
     @param {Boolean} center 
 {% endcomment %}
-
-{% if include.center %}
-<ul class="list-inline text-center">
-{% else %}
-<ul class="list-inline">
-{% endif %}
-    
+   
 <main id="main" class="page-content" aria-label="Content">
   <div class="inner">
     <article class="entry-wrap">
       <div class="entry-content">
+        {% if include.center %}
         {{ content }} 
       </div>
      {% if page.comments != false %}
