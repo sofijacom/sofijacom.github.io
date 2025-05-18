@@ -10,18 +10,7 @@ layout: default
     <link rel="stylesheet" href="/assets/css/style.css">
   </head>
   
-  <body>
-
-{% comment %}
-    @param {Boolean} center 
-{% endcomment %}
-
-{% if include.center %}
-<ul class="page-content text-center">
-{% else %}
-<ul class="entry-content">
-{% endif %}
-    
+  <body>    
 <main id="main" class="page-content" aria-label="Content">
   <div class="inner">
     <article class="entry-wrap">
@@ -29,7 +18,9 @@ layout: default
         {{ content }} 
       </div>
      {% if page.comments != false %}
+      <p align="center">
        {% include  disqus.html %}
+        </p>
      {% endif %}
     </article>
   </div>
