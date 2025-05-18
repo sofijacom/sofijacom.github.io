@@ -10,14 +10,22 @@ layout: default
     <link rel="stylesheet" href="/assets/css/style.css">
   </head>
   
-  <body>    
+  <body>
+{% comment %}
+    @param {Boolean} center 
+{% endcomment %}
+
+{% if include.center %}
+<ul class="list-inline text-center">
+{% else %}
+<ul class="list-inline">
+{% endif %}
+    
 <main id="main" class="page-content" aria-label="Content">
   <div class="inner">
     <article class="entry-wrap">
       <div class="entry-content">
-        <p align="center">
-        {{ content }}
-         </p> 
+        {{ content }} 
       </div>
      {% if page.comments != false %}
        {% include  disqus.html %}
