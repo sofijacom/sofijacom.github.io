@@ -119,8 +119,7 @@ emoji:    gfx/emoji
 
 # Outputting
 # permalink: /:categories/:title/
-timezone: Europe/Moscow  # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-location: "Europe/Moscow"
+timezone: "Europe/Moscow"  # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Exclude from processing.
 exclude:
