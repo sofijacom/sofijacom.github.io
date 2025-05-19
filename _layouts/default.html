@@ -10,6 +10,7 @@
     <meta charset="utf-8">
     <!-- <title> • Kennel Linux • </title> -->
       <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>{{ page.title }}</title>  
    <!-- <link href="/components/bootstrap/css/bootstrap.css" rel="stylesheet"> -->
   <!-- <script type="text/javascript" src="/components/bootstrap/js/bootstrap.js"></script> -->	  
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -18,6 +19,17 @@
     <link href="https://fonts.googleapis.com/css?family=Philosopher:400,700&display=swap&subset=cyrillic-ext" rel="stylesheet">  
     <link href="/assets/css/light-theme.css" rel="stylesheet" id="theme-link">
   </head>
+	
+  <header>
+    <nav>
+      <ul>
+        <li><a href="{{ '/' | relative_url }}">Home</a></li>
+        <li><a href="{{ '/about' | relative_url }}">About</a></li>
+        <li><a href="{{ '/blog' | relative_url }}">Blog</a></li>
+        <li><a href="{{ '/contact' | relative_url }}">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 	
 <html lang="{{ page.lang | default: site.lang | default: 'en-US' }}" class="no-js">
   {% include head.html %}
