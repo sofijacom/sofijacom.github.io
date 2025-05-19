@@ -1,5 +1,5 @@
 ---
 layout: discussion
-title: Discussions
+title: Discussions section
 comments: true # true - on, false - off
 ---
