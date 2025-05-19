@@ -23,17 +23,3 @@ calendar_css: <link rel="stylesheet" href="!PATH_TO_COMPONENTS!/bootstrap-calend
 />
 </p>
 
-<!--
-<h3><p align="center">Calendar</p></h3>
--->
-
-<!--
-<p align="left">
- <img
-  src="/assets/images/good-morning.gif"
-    alt="good-morning"
-    width="300"
-    height="auto"
-/>
-</p>
--->
