@@ -15,7 +15,8 @@
     <link rel="stylesheet" href="/assets/css/style.css">
     <script src="https://kit.fontawesome.com/f3014a7b89.js" crossorigin="anonymous"></script>  
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link href="https://fonts.googleapis.com/css?family=Philosopher:400,700&display=swap&subset=cyrillic-ext" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css?family=Philosopher:400,700&display=swap&subset=cyrillic-ext" rel="stylesheet">
+    <script src="https://www.google.com/recaptcha/enterprise.js?render=6Lcj2DMrAAAAAA-ZY6J4_CrJkyyByjTodpBhM2-N"></script>	  
     <link href="/assets/css/light-theme.css" rel="stylesheet" id="theme-link">
   </head>
 		
@@ -73,8 +74,18 @@
     </div>
 	  
     {% include footer.html %}
-    {% include scripts.html %} 
-          </body> 
+    {% include scripts.html %}
+
+<script>
+  function onClick(e) {
+    e.preventDefault();
+    grecaptcha.enterprise.ready(async () => {
+      const token = await grecaptcha.enterprise.execute('6Lcj2DMrAAAAAA-ZY6J4_CrJkyyByjTodpBhM2-N', {action: 'LOGIN'});
+    });
+  }
+</script>
+	  
+  </body> 
 	
 </html>
 </html>
