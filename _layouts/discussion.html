@@ -9,88 +9,6 @@ layout: default
     <title>Discussion section</title>
     <link rel="stylesheet" href="/assets/css/style.css">
   </head>
-<script language="JavaScript" type="text/javascript">
-
-var isss = 0;
-function IsST() {
-isss = window.setInterval('IsSmiles();', 1000);
-};
-function IsSmiles() {
-var bbt = "";
-var cbt = 0;
-var sbt = 0;
-var ebt = 0;
-var lbt = 0;
-var idbt = 0;
-var tbt = "";
-bbt = document.getElementsByTagName('body')[0].innerHTML;
-if (bbt) {
-bbt = bbt.replace(/^\s+|\s+$/g, "");
-if (bbt.length > 0) {
-while (cbt < bbt.length) {
-sbt = -1;
-sbt = bbt.indexOf('"dsq-comment-text-', cbt);
-if (sbt == -1) {cbt = bbt.length + 1};
-if (sbt != -1) {
-sbt = sbt + 1;
-ebt = -1;
-ebt = bbt.indexOf('"', sbt);
-if (ebt == -1) {cbt = bbt.length + 1};
-if (ebt != -1) {
-lbt = 0;
-lbt = ebt - sbt;
-cbt = ebt + 1;
-if (lbt > 0) {
-idbt = "";
-idbt = bbt.substr(sbt, lbt);
-idbt = idbt.replace(/^\s+|\s+$/g, "");
-if (idbt.length > 0) {
-tbt = "";
-tbt = document.getElementById(idbt).innerHTML;
-if (tbt) {
-if (tbt.length > 0) {
-if ((tbt.indexOf(":-)", 0) != -1) || (tbt.indexOf(":-(", 0) != -1) || (tbt.indexOf(";-)", 0) != -1) || (tbt.indexOf(":-D", 0) != -1) || (tbt.indexOf("O:)", 0) != -1) || (tbt.indexOf("o:)", 0) != -1) || (tbt.indexOf("8-)", 0) != -1) || (tbt.indexOf(":-p", 0) != -1) || (tbt.indexOf(":-P", 0) != -1) || (tbt.indexOf(":-[", 0) != -1) || (tbt.indexOf("=-O", 0) != -1) || (tbt.indexOf("=-o", 0) != -1) || (tbt.indexOf(":-*", 0) != -1) || (tbt.indexOf(":-{}", 0) != -1) || (tbt.indexOf(":'-(", 0) != -1) || (tbt.indexOf(":'(", 0) != -1) || (tbt.indexOf("%-)", 0) != -1) || (tbt.indexOf(":)))", 0) != -1) || (tbt.indexOf(";-D", 0) != -1) || (tbt.indexOf("[:-}", 0) != -1) || (tbt.indexOf("[:}", 0) != -1) || (tbt.indexOf("]:-}", 0) != -1) || (tbt.indexOf("}:-}", 0) != -1) || (tbt.indexOf("]:}", 0) != -1) || (tbt.indexOf("}:}", 0) != -1) || (tbt.indexOf(":-!", 0) != -1) || (tbt.indexOf(":-\\", 0) != -1)) {
-tbt = tbt.replace(/:-\)/g,'<img src="/assets/images/smilies/thumbup.gif" alt="" title="" />');
-tbt = tbt.replace(/:-\(/g,'<img src="/assets/images/smilies/thumbup2.gif" alt="" title="" />');
-tbt = tbt.replace(/;-\)/g,'<img src="/assets/images/smilies/icon_e_biggrin.gif" alt="" title="" />');
-tbt = tbt.replace(/:-D/g,'<img src="/assets/images/smilies/thumbdown.gif" alt="" title="" />');
-tbt = tbt.replace(/O:\)/g,'<img src="/assets/images/smilies/icon_e_smile.gif" alt="" title="" />');
-tbt = tbt.replace(/o:\)/g,'<img src="/assets/images/smilies/icon_e_wink.gif" alt="" title="" />');
-tbt = tbt.replace(/8-\)/g,'<img src="/assets/images/smilies/icon_e_sad.gif" alt="" title="" />');
-tbt = tbt.replace(/:-p/g,'<img src="/assets/images/smilies/icon_e_surprised.gif" alt="" title="" />');
-tbt = tbt.replace(/:-P/g,'<img src="/assets/images/smilies/icon_eek.gif" alt="" title="" />');
-tbt = tbt.replace(/:-\[/g,'<img src="/assets/images/smilies/icon_e_confused.gif" alt="" title="" />');
-tbt = tbt.replace(/=-O/g,'<img src="/assets/images/smilies/icon_cool.gif" alt="" title="" />');
-tbt = tbt.replace(/=-o/g,'<img src="/assets/images/smilies/icon_lol.gif" alt="" title="" />');
-tbt = tbt.replace(/:-\*/g,'<img src="/assets/images/smilies/icon_mad.gif" alt="" title="" />');
-tbt = tbt.replace(/:-{}/g,'<img src="/assets/images/smilies/icon_razz.gif" alt="" title="" />');
-tbt = tbt.replace(/:'-\(/g,'<img src="/assets/images/smilies/icon_redface.gif" alt="" title="" />');
-tbt = tbt.replace(/:'\(/g,'<img src="/assets/images/smilies/icon_cry.gif" alt="" title="" />');
-tbt = tbt.replace(/%-\)/g,'<img src="/assets/images/smilies/icon_evil.gif" alt="" title="" />');
-tbt = tbt.replace(/:\)\)\)/g,'<img src="/assets/images/smilies/icon_twisted.gif" alt="" title="" />');
-tbt = tbt.replace(/;-D/g,'<img src="/assets/images/smilies/icon_rolleyes.gif" alt="" title="" />');
-tbt = tbt.replace(/\[:-}/g,'<img src="/assets/images/smilies/icon_exclaim.gif" alt="" title="" />');
-tbt = tbt.replace(/\[:}/g,'<img src="/assets/images/smilies/icon_question.gif" alt="" title="" />');
-tbt = tbt.replace(/]:-}/g,'<img src="/assets/images/smilies/icon_idea.gif" alt="" title="" />');
-tbt = tbt.replace(/}:-}/g,'<img src="/assets/images/smilies/icon_arrow.gif" alt="" title="" />');
-tbt = tbt.replace(/]:}/g,'<img src="/assets/images/smilies/icon_neutral.gif" alt="" title="" />');
-tbt = tbt.replace(/}:}/g,'<img src="/assets/images/smilies/icon_mrgreen.gif" alt="" title="" />');
-tbt = tbt.replace(/:-!/g,'<img src="/assets/images/smilies/icon_e_geek.gif" alt="" title="" />');
-tbt = tbt.replace(/:-\\/g,'<img src="/assets/images/smilies/icon_e_ugeek.gif" alt="" title="" />');
-document.getElementById(idbt).innerHTML = tbt;
-};
-};
-};
-};
-};
-};
-};
-};
-};
-};
-};
-
-</script>
   
  <!-- <div class="post-content">
     <style type="text/css" media="screen">
@@ -100,7 +18,7 @@ document.getElementById(idbt).innerHTML = tbt;
   }  
 </style> -->
    
-<!-- <div class="container">
+<!-- <div class="container"> -->
 <main id="main" class="page-content" aria-label="Content">
   <div class="inner">
     <article class="entry-wrap">
@@ -113,22 +31,9 @@ document.getElementById(idbt).innerHTML = tbt;
     </article>
   </div>
 </main>
-</div> -->
+<!-- </div> -->
 
-  <body onload="IsST();">
- <div>...</div>
-    <main id="main" class="page-content" aria-label="Content">
-  <div class="inner">
-    <article class="entry-wrap">
-      <div class="entry-content">
-        {{ content }} 
-      </div>
-     {% if page.comments != false %}
-       {% include  disqus.html %}
-     {% endif %}
-    </article>
-  </div>
-</main>
+  <body>
     <header></header>
     <footer></footer>
   </body>
