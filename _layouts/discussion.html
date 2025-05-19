@@ -18,9 +18,18 @@ layout: default
 </style>
 
 <div class="container">  
+<main id="main" class="page-content" aria-label="Content">
+  <div class="inner">
+    <article class="entry-wrap">
+      <div class="entry-content">
+        {{ content }} 
+      </div>
      {% if page.comments != false %}
        {% include  disqus.html %}
      {% endif %}
+    </article>
+  </div>
+</main>
 </div>
   </div>
 
