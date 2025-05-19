@@ -9,36 +9,6 @@ layout: default
     <title>Discussion section</title>
     <link rel="stylesheet" href="/assets/css/style.css">
   </head>
-
-  <div class="post-content">
-    <style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 900px;
-  }
-  .smiley-box {	  
-    width: 18%;
-    float: right;
-}    
-</style>
-   
-<!-- <div class="container">  -->
-<main id="main" class="page-content" aria-label="Content">
-  <div class="inner">
-    <article class="entry-wrap">
-      <div class="entry-content">
-        {{ content }} 
-      </div>
-     {% if page.comments != false %}
-       {% include  disqus.html %}
-     {% endif %}
-    </article>
-  </div>
-</main>
-<!-- </div> -->
-  </div>
-
-  <body>
 	  	<div id="smiley-box" class="smiley-box">
 							<strong>Smile</strong><br>
 							<a href="#" onclick="insert_text(':thumbup:', true); return false;"><img src="/assets/images/smilies/thumbup.gif" width="22" height="17" alt=":thumbup:" title="Thumbup"></a>
@@ -71,6 +41,35 @@ layout: default
 							<a href="#" onclick="insert_text(':welcome:', true); return false;"><img src="/assets/images/smilies/welcome.gif" width="60" height="45" alt=":welcome:" title="Welcome"></a>
 							<a href="#" onclick="insert_text(':goodpost:', true); return false;"><img src="/assets/images/smilies/goodpost.gif" width="50" height="54" alt=":goodpost:" title="Good Post"></a>
 							</div>
+  <div class="post-content">
+    <style type="text/css" media="screen">
+  .container {
+    margin: 10px auto;
+    max-width: 900px;
+  }
+  .smiley-box {	  
+    width: 18%;
+    float: right;
+}    
+</style>
+   
+<!-- <div class="container">  -->
+<main id="main" class="page-content" aria-label="Content">
+  <div class="inner">
+    <article class="entry-wrap">
+      <div class="entry-content">
+        {{ content }} 
+      </div>
+     {% if page.comments != false %}
+       {% include  disqus.html %}
+     {% endif %}
+    </article>
+  </div>
+</main>
+<!-- </div> -->
+  </div>
+
+  <body>
     <header></header>
     <footer></footer>
   </body>
