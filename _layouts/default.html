@@ -9,8 +9,7 @@
   <head>
     <meta charset="utf-8">
     <!-- <title> • Kennel Linux • </title> -->
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>{{ page.title }}</title>  
+      <meta name="viewport" content="width=device-width, initial-scale=1"> 
    <!-- <link href="/components/bootstrap/css/bootstrap.css" rel="stylesheet"> -->
   <!-- <script type="text/javascript" src="/components/bootstrap/js/bootstrap.js"></script> -->	  
     <link rel="stylesheet" href="/assets/css/style.css">
@@ -19,18 +18,7 @@
     <link href="https://fonts.googleapis.com/css?family=Philosopher:400,700&display=swap&subset=cyrillic-ext" rel="stylesheet">  
     <link href="/assets/css/light-theme.css" rel="stylesheet" id="theme-link">
   </head>
-	
-  <header>
-    <nav>
-      <ul>
-        <li><a href="{{ '/' | relative_url }}">Home</a></li>
-        <li><a href="{{ '/about' | relative_url }}">About</a></li>
-        <li><a href="{{ '/blog' | relative_url }}">Blog</a></li>
-        <li><a href="{{ '/contact' | relative_url }}">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-	
+		
 <html lang="{{ page.lang | default: site.lang | default: 'en-US' }}" class="no-js">
   {% include head.html %}
 
@@ -47,18 +35,14 @@
           </svg>
         </button>     
       {% endif %}
-
-<!-- <body>
-  <button class="btn-toggle" title-tooltip="Light/Dark Theme"><i class="fa-duotone fa-solid fa-sun" aria-hidden="true"></i> / <i class="fa-solid fa-moon" aria-hidden="true"></i></button>
-  <script src="/assets/js/theme.js"></script>
-</body> -->	      
- <body>
-  <button class="btn-toggle" type="button" title-tooltip="Light/Dark Theme">	  
-   <span class="basil--sun-solid"></span>
-    <span class="ri--moon-clear-line"></span>
-</button> 
-  <script src="/assets/js/theme.js"></script>
-</body>	      
+	      
+    <body>
+	<button class="btn-toggle" type="button" title-tooltip="Light/Dark Theme">
+	<span class="basil--sun-solid"></span>
+	<span class="ri--moon-clear-line"></span>
+	</button>
+	<script src="/assets/js/theme.js"></script>
+    </body>	      
 
       <button class="toggle navicon-button larr" type="button" title-tooltip="Menu/Sidebar">  
         <span class="toggle-inner">
