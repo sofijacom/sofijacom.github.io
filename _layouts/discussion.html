@@ -100,7 +100,7 @@ document.getElementById(idbt).innerHTML = tbt;
   }  
 </style> -->
    
-<!-- <div class="container"> -->
+<!-- <div class="container">
 <main id="main" class="page-content" aria-label="Content">
   <div class="inner">
     <article class="entry-wrap">
@@ -113,9 +113,23 @@ document.getElementById(idbt).innerHTML = tbt;
     </article>
   </div>
 </main>
- <!-- </div> -->
+</div> -->
 
   <body onload="IsST();">
+<div>style="position: absolute;"</div>
+    
+    <main id="main" class="page-content" aria-label="Content">
+  <div class="inner">
+    <article class="entry-wrap">
+      <div class="entry-content">
+        {{ content }} 
+      </div>
+     {% if page.comments != false %}
+       {% include  disqus.html %}
+     {% endif %}
+    </article>
+  </div>
+</main>
     <header></header>
     <footer></footer>
   </body>
