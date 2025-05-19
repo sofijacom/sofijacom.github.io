@@ -115,6 +115,8 @@ google_analytics: G-Y3XDRGQR98
 
 # exclude_from_localizations: ["javascript", "images", "css", "scripts", "favicon.ico"]
 
+emoji:    gfx/emoji
+
 # Outputting
 # permalink: /:categories/:title/
 timezone: Europe/Moscow  # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
