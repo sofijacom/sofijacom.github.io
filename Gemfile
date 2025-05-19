@@ -23,7 +23,7 @@ gem "jekyll-sitemap"
 
 gem 'jekyll-email-protect'
 
-gem 'jemoji'
+gem 'gemoji', :require => 'emoji/railtie'
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
