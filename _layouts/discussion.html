@@ -15,10 +15,12 @@ layout: default
   .container {
     margin: 10px auto;
     max-width: 900px;
+    text-align: center;
   }  
 </style>
    
  <div class="container">
+   <h3>Section for general discussions</h3>
 <main id="main" class="page-content" aria-label="Content">
   <div class="inner">
     <article class="entry-wrap">
@@ -26,7 +28,6 @@ layout: default
         {{ content }}
       </div>
      {% if page.comments != false %}
-      <h3>Section for general discussions</h3>
        {% include  disqus.html %}
      {% endif %}
     </article>
