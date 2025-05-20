@@ -78,6 +78,9 @@ layout: default
           <img class="author-picture" src="{{ author_picture }}" alt="{{ author_name }}">
         {% endif %}
       </aside>
+        {% if page.comments != false %}
+        {% include  disqus.html %}
+     {% endif %}
     </div>
   </div>
 </main>
