@@ -23,34 +23,6 @@
     src: url("/assets/fonts/openmojiblack.ttf");
 }
 
-* {
-    scrollbar-color: rgb(10, 132, 255) rgba(150, 150, 150, 0);
-    scrollbar-width: thin;
-    outline: 0px solid transparent;
-}
-
-*::-webkit-scrollbar {
-    width: 10px;
-    height: 10px;
-    background-color: #ffffff;
-    /* or add it to the track */
-}
-
-*::-webkit-scrollbar-thumb {
-    background: #3399ff;
-}
-
-body {
-    background-color: transparent;
-    color: black;
-    width: auto;
-    /*It's set in js script*/
-    height: auto;
-    overflow: hidden;
-    font-family: twemoji, sans-serif;
-    margin: 0px;
-}
-
 #popup-content {
     width: auto;
     /*It's set in js script*/
@@ -93,11 +65,6 @@ body {
     transition: 0.1s;
     box-sizing: border-box;
     font-family: inherit;
-}
-
-.button {
-    width: auto;
-    font-family: open-sans, monospace, sans-serif;
 }
 
 .emoji:hover,
@@ -173,15 +140,6 @@ body {
     position: relative;
     font-weight: bold;
     transition: 0.1s;
-}
-
-.section-title:hover,
-.letter:hover {
-    background-color: rgb(221, 222, 223);
-}
-
-.section-title:active {
-    background-color: rgb(201, 202, 203);
 }
 
 .character-copied, div#review-message, div#opened-addon-message {
