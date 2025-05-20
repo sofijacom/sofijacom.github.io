@@ -396,7 +396,7 @@ div#review-message-buttons, div#top-message-buttons, div.message-buttons-contain
     font-size: 14px;
     transition: 0.1s;
     font-family: open-sans, sans-serif;
-    background-image: url("../img/search-icon.png");
+    background-image: url("/assets/img/search-icon.png");
     background-repeat: no-repeat;
     background-position: 10px center;
     background-size: 12px auto;
@@ -425,19 +425,19 @@ div#review-message-buttons, div#top-message-buttons, div.message-buttons-contain
 }
 
 .light-settings-button {
-    background-image: url("../img/settings-dark.png");
+    background-image: url("/assets/img/settings-dark.png");
 }
 
 .dark-settings-button {
-    background-image: url("../img/settings-light.png");
+    background-image: url("/assets/img/settings-light.png");
 }
 
 .light-delete-button {
-    background-image: url("../img/delete-dark.png");
+    background-image: url("/assets/img/delete-dark.png");
 }
 
 .dark-delete-button {
-    background-image: url("../img/delete-light.png");
+    background-image: url("/assets/img/delete-light.png");
 }
 
 #settings-button, #delete-button, #hide-settings-button, #finish-edit-button {
@@ -466,7 +466,7 @@ div#review-message-buttons, div#top-message-buttons, div.message-buttons-contain
 }
 
 #hide-settings-button {
-    background-image: url("../img/close-dark.png");
+    background-image: url("/assets/img/close-dark.png");
     background-size: auto 12px;
     top: 5px;
     right: 5px;
