@@ -16,8 +16,11 @@ layout: default
   <meta name="description"
     content="Скрипт, позволяющий реализовать настоящий параллакс фона при движении мышкой.">
 </head>
-
+  
+{% include page-intro.html %}
+  
 <body>
+  
   <header class="header">
 
     <div class="header__offer" id="header__offer-scene">
@@ -60,13 +63,8 @@ layout: default
     });
 
   </script>
-</body>
 
-</html>
-
-{% include page-intro.html %}
-
-<main id="main" class="page-content" aria-label="Content">
+  <main id="main" class="page-content" aria-label="Content">
   <div class="inner">
     <div class="entry-wrap">
       <div class="entry-content">
@@ -81,3 +79,6 @@ layout: default
     </div>
   </div>
 </main>
+  
+  </body>
+</html>
