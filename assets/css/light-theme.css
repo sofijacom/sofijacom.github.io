@@ -432,9 +432,9 @@ ul.podcast-links li:hover {
 }
 
 .top {
-    display: flex;
-    align-items: center;
-    font-size: 15px;
-    color: var(--heading-font-color);
-    cursor: pointer;
+    display: flex !important;
+    align-items: center !important;
+    font-size: 15px !important;
+    color: var(--heading-font-color) !important;
+    cursor: pointer !important;
 }
