@@ -1,0 +1,12 @@
+#google_translate_element {
+  margin-bottom: 1em;
+}
+
+.goog-te-gadget-simple {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#999999')";
+  -webkit-box-shadow: 5px 5px 6px #999;
+  background-color: transparent !important;
+  border: thin gray solid;
+  box-shadow: 5px 5px 6px #999;
+  filter: progid:DXImageTransform.Microsoft.Shadow(Strength=6, Direction=135, Color='#999999');
+}
