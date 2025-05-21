@@ -25,9 +25,9 @@ gem 'jekyll-email-protect'
 
 # gem 'gemoji', :require => 'emoji/railtie'
 
-group :jekyll_plugins do
-  gem 'jekyll_emoji_tag'
-end
+#group :jekyll_plugins do
+#  gem 'jekyll_emoji_tag'
+#end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
