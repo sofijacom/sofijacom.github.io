@@ -1,6 +1,6 @@
 ---
 layout: discussion
 title: Discussions
-author: Sofiya
+author:
 comments: true
 ---
