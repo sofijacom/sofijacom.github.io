@@ -2,7 +2,7 @@
 layout: post
 description: jekyll_emoji_tag demonstration.
 title: Exercising Parameter Combinations
-sub_title:
+sub_title: jekyll_emoji_tag demonstration.
 comments: true
 categories:
   - emoji
