@@ -1,6 +1,7 @@
 <footer id="footer" class="site-footer">
   <div class="inner">
     <div class="copyright">
+      <a href="#page-title" class="back-to-top">{{ site.data.text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
       {% if site.footer_logo %}
        <img src="{{ site.footer_logo }}" alt="" class="footer-main">
       {% endif %}
