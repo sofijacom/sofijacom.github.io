@@ -429,4 +429,12 @@ ul.podcast-links li:hover {
 .list-inline>li:hover {
     background-color: #04a5e5;
     transition: 0.3s;
-}    
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    color: var(--heading-font-color);
+    cursor: pointer;
+}
