@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "jekyll emoji tag demonstration"
 comments: true
+title: "jekyll emoji tag demonstration"
 categories:
   - Emoji
 tags:
