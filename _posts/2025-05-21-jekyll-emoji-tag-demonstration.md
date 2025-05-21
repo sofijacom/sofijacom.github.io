@@ -1,16 +1,15 @@
 ---
 layout: post
-description: jekyll_emoji_tag demonstration.
 title: Exercising Parameter Combinations
-sub_title: jekyll_emoji_tag demonstration.
+sub_title: "jekyll emoji tag demonstration."
 comments: true
 categories:
   - emoji
 tags:
-  - jekyll_emoji
+  - jekyll-emoji
 elements:
   - content
-last_modified_at: 2025-05-21T11:25:52-03:00
+last_modified_at: 2025-05-21T04:37:52-03:00
 ---
 <!-- #region emoji -->
 <h2 id="emoji" class="code">emoji</h2>
