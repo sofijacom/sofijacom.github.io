@@ -71,7 +71,7 @@ plugins: # previsously gems
   - jekyll-gzip
   - jekyll-target-blank
   - jekyll-email-protect
-  - jekyll_emoji_tag
+ # - jekyll_emoji_tag
  # - jemoji
  # - jekyll-multiple-languages-plugin
  # - jekyll-brotli
