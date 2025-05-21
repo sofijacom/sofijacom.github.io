@@ -16,10 +16,6 @@ group :jekyll_plugins do
   gem 'jekyll_emoji_tag'
 end
 
-group :jekyll_plugins do
-  gem 'jekyll_google_translate'
-end
-
 gem 'jekyll-feed'
 
 gem 'jekyll-target-blank'
