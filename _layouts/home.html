@@ -98,8 +98,52 @@ layout: default
    
   <body>
     <a name="top"></a>
-        <link rel="stylesheet" href="/assets/css/back-to-top.css">
-    <script type="text/javascript" src="/assets/js/back-to-top.js"></script>
+
+<style type="text/css" media="screen">
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  font-size: 24px;
+  color: #fff;
+  background: #000;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.back-to-top:hover {
+  background: #333;
+  text-decoration: none;
+}
+</style>
+
+
+<script>
+
+document.addEventListener("DOMContentLoaded", function () {
+  const backToTop = document.getElementById("back-to-top");
+
+  // Показать/скрыть кнопку при прокрутке страницы
+  window.addEventListener("scroll", function () {
+    if (window.pageYOffset >; 300) {
+      backToTop.style.display = "block";
+    } else {
+      backToTop.style.display = "none";
+    }
+  });
+
+  // Плавная прокрутка при клике на кнопку
+  backToTop.addEventListener("click", function (event) {
+    event.preventDefault();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+});
+
+</script>
+
     <!-- <footer id="footer" class="site-footer"> 
      <h3>Submit your feedback</h3>
      <form action="https://formspree.io/f/xrbqprze" method="POST">
