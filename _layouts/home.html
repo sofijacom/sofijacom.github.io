@@ -91,7 +91,6 @@ layout: default
      {% if page.comments != false %}
         {% include  disqus.html %}
      {% endif %}
- <!-- <a href="#top" id="back-to-top" class="back-to-top" title="Back to top">▲</a> -->
    <a href="#top" id="back-to-top" class="back-to-top">{{ site.data.text[site.locale].back_to_top | default: 'Back to Top' }} ▲ </i></a>
   </div>
 </main>
@@ -105,13 +104,13 @@ document.addEventListener("DOMContentLoaded", function () {
   const backToTop = document.getElementById("back-to-top");
 
   // Показать/скрыть кнопку при прокрутке страницы
-  window.addEventListener("scroll", function () {
-    if (window.pageYOffset > 300) {
-      backToTop.style.display = "block";
-    } else {
-      backToTop.style.display = "none";
-    }
-  });
+ // window.addEventListener("scroll", function () {
+ //   if (window.pageYOffset > 300) {
+ //     backToTop.style.display = "block";
+ //   } else {
+ //     backToTop.style.display = "none";
+ //   }
+ // });
 
   // Плавная прокрутка при клике на кнопку
   backToTop.addEventListener("click", function (event) {
