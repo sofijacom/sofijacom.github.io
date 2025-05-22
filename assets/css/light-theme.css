@@ -274,7 +274,11 @@ header {
     text-align: right;
     text-decoration: none;
 }
-
+#back-to-top:hover {
+    background-color: #04a5e5 !important;
+    color: #181825 !important;
+    transition: 0.5s;
+}
 .taxonomy-index a {
     border-bottom: 1px solid #797b8f !important;
 }
