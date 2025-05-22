@@ -274,7 +274,7 @@ header {
     text-align: right;
     text-decoration: none;
 }
-#back-to-top:hover {
+.back-to-top:hover {
     background-color: #dc8a78 !important;
     color: #181825 !important;
     transition: 0.5s;
