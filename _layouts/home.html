@@ -91,8 +91,8 @@ layout: default
      {% if page.comments != false %}
         {% include  disqus.html %}
      {% endif %}
-    <a href="#page-title" class="back-to-top" title-tooltip="Top">{{ site.data.text[site.locale].back_to_top | default: 'Back to Top' }}<i class="fa-solid fa-arrow-up"></i></a>
   </div>
+  <a href="#page-title" class="back-to-top">{{ site.data.text[site.locale].back_to_top | default: 'Back to Top' }} <i class="fa-solid fa-arrow-up"></i></a>
 </main>
    
   <body>
