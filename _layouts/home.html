@@ -20,6 +20,8 @@ layout: default
         <link rel="stylesheet" href="/assets/css/style.css">
     <script type="text/javascript" src="/assets/js/clock33.js"></script>
     <link rel="stylesheet" href="/assets/css/clock33.css">
+    <link rel="stylesheet" href="/assets/css/back-to-top.css">
+    <script type="text/javascript" src="/assets/js/back-to-top.js"></script>
   </head>
   
    <div class="center">
@@ -91,11 +93,13 @@ layout: default
      {% if page.comments != false %}
         {% include  disqus.html %}
      {% endif %}
-   <a href="#masthead" class="back-to-top">{{ site.data.text[site.locale].back_to_top | default: 'Back to Top' }} <i class="fa-solid fa-arrow-up"></i></a> 
+    <a href="#top" id="back-to-top" class="back-to-top" title="Back to top">▲</a>
+  <!-- <a href="#masthead" class="back-to-top">{{ site.data.text[site.locale].back_to_top | default: 'Back to Top' }} <i class="fa-solid fa-arrow-up"></i></a> -->
   </div>
 </main>
    
   <body>
+    <a name="top"></a>
     <!-- <footer id="footer" class="site-footer"> 
      <h3>Submit your feedback</h3>
      <form action="https://formspree.io/f/xrbqprze" method="POST">
