@@ -23,14 +23,13 @@ layout: default
   
 <!-- {% include page-intro.html %} -->
   
-<!-- <div class="container" align="center"> -->
- 
+ <div class="container" align="center">
+ <h3>🌹Section for general discussions🌹</h3>
 <main id="main" class="page-content" aria-label="Content">
   <div class="inner">
     <article class="entry-wrap">
       <div class="entry-content">
-        {{ content }}
-        <h3>🌹Section for general discussions🌹</h3>
+        {{ content }} 
       </div>
      {% if page.comments != false %}
        {% include  disqus.html %}
@@ -39,7 +38,7 @@ layout: default
     <a href="#masthead" class="back-to-top">{{ site.data.text[site.locale].back_to_top | default: 'Back to Top' }} <i class="fa-solid fa-arrow-up"></i></a>
   </div>
 </main>
-<!-- </div> -->
+ </div>
   
   <body>    
     <header></header> 
