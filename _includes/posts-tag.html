@@ -1,3 +1,4 @@
 {%- for post in site.tags[include.taxonomy] -%}
   {% include entry.html %}
 {%- endfor -%}
+<a href="#top" id="back-to-top" class="back-to-top">{{ site.data.text[site.locale].back_to_top | default: 'Back to Top' }} ▲ </i></a>
