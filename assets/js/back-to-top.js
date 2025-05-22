@@ -1,3 +1,4 @@
+// By Sofiya
 document.addEventListener("DOMContentLoaded", function () {
     const backToTop = document.getElementById("back-to-top");
 
