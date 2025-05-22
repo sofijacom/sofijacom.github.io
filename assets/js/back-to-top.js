@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Показать/скрыть кнопку при прокрутке страницы
     window.addEventListener("scroll", function () {
-        if (window.pageYOffset >; 300) {
+        if (window.pageYOffset > 300) {
             backToTop.style.display = "block";
         } else {
             backToTop.style.display = "none";
