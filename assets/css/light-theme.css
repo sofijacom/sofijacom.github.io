@@ -266,14 +266,14 @@ header {
     border-bottom: solid 1px #4c4f69 !important;
 }
 
-.back-to-top {
+/* .back-to-top {
     display: block;
     color: #4c4f69 !important;
     font-size: 0.75em;
     text-transform: uppercase;
     text-align: right;
     text-decoration: none;
-}
+} */
 
 .taxonomy-index a {
     border-bottom: 1px solid #797b8f !important;
