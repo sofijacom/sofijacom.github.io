@@ -91,6 +91,7 @@ layout: default
      {% if page.comments != false %}
         {% include  disqus.html %}
      {% endif %}
+    <a href="#top" id="back-to-top" class="back-to-top" title="Back to top">▲</a>
   <!-- <a href="#masthead" class="back-to-top">{{ site.data.text[site.locale].back_to_top | default: 'Back to Top' }} <i class="fa-solid fa-arrow-up"></i></a> -->
   </div>
 </main>
@@ -103,17 +104,17 @@ layout: default
   bottom: 20px;
   right: 20px;
   display: none;
-  font-size: 24px;
-  color: #fff;
-  background: #000;
+  font-size: 16px;
+  color: #181825 !important;
+  background: #fff !important;
   padding: 5px 10px;
-  border-radius: 5px;
+  border-radius: 40px;
   cursor: pointer;
   z-index: 1000;
 }
 
 .back-to-top:hover {
-  background: #333;
+  background: #00aaff !important;
   text-decoration: none;
 }
 </style>
