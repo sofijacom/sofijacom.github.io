@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Markup: HTML Elements and Formatting"
 comments: true
 sub_title: "The common elements"
