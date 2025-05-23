@@ -2,10 +2,10 @@
 layout: default
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <!-- Google tag (gtag.js) -->
+<!doctype html>
+<html>
+	<head>
+	    <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y3XDRGQR98"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -14,16 +14,16 @@ layout: default
 
   gtag('config', 'G-Y3XDRGQR98');
 </script>
-    <meta charset="utf-8">   
+    <meta charset="utf-8">
     <!-- <title>• Kennel Linux • Home Page •</title> -->
       <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="/assets/css/style.css">
     <script type="text/javascript" src="/assets/js/clock33.js"></script>
     <link rel="stylesheet" href="/assets/css/clock33.css">
-  </head>
-  
- <body>
-   
+		<meta charset="utf-8">
+		<title>Back on top button test</title>
+	</head>
+	<body>
    <div class="center">
     <div id="clock33" class="bg-3">
       <span id="clockHours"></span> : <span id="clockMinutes"></span> : <span id="clockSeconds"></span>
@@ -34,17 +34,17 @@ layout: default
      <script>
     clock33();
   </script>
-  
-    <style type="text/css" media="screen">  
+
+    <style type="text/css" media="screen">
      svg {
       font-weight: bold;
       max-width: 500px;
       height: auto;
     }
     </style>
-   
+
 {% include page-intro.html %}
-   
+
 <p align="center">
 <svg viewbox="0 0 100 20">
   <defs>
@@ -53,10 +53,10 @@ layout: default
       <stop offset="95%" stop-color="#495881"/>
     </linearGradient>
     <pattern id="wave" x="0" y="0" width="120" height="20" patternUnits="userSpaceOnUse">
-      <path id="wavePath" d="M-40 9 Q-30 7 -20 9 T0 9 T20 9 T40 9 T60 9 T80 9 T100 9 T120 9 V20 H-40z" fill="url(#gradient)"> 
-      
+      <path id="wavePath" d="M-40 9 Q-30 7 -20 9 T0 9 T20 9 T40 9 T60 9 T80 9 T100 9 T120 9 V20 H-40z" fill="url(#gradient)">
+
       <!-- Анимация волны достигается перемещением path  -->
-     
+
      <animateTransform attributeName="transform" type="translate" begin="0s" dur="1.5s" from="0,0" to="40,0" repeatCount="indefinite" />
       </path>
     </pattern>
@@ -70,7 +70,7 @@ layout: default
 <main id="main" class="page-content" aria-label="Content">
   <div class="index inner">
     <div>{{ content }}</div>
-    
+
     {% if site.posts.size > 0 %}
       <div>
         <header class="section-title">
@@ -87,17 +87,21 @@ layout: default
             {% include posts-all.html %}
           {% endif %}
         </div>
-      </div>    
+      </div>
     {% endif %}
      {% if page.comments != false %}
         {% include  disqus.html %}
      {% endif %}
- <!--  <a href="#top" id="back-to-top" class="back-to-top">{{ site.data.text[site.locale].back_to_top | default: 'Back to top' }} <img src="/assets/images/back-to-top/23.png" alt="" width="40px" height="40px" /></a> -->  
+ <!--  <a href="#top" id="back-to-top" class="back-to-top">{{ site.data.text[site.locale].back_to_top | default: 'Back to top' }} <img src="/assets/images/back-to-top/23.png" alt="" width="40px" height="40px" /></a> -->
   </div>
 </main>
 
+<style type="text/css" media="screen">
+/* body {
+   height: 3000px;
+  background: linear-gradient(#00ff04, #09aad3);
+} */
 
-  <style type="text/css" media="screen">     
 .back-to-top {
   position: fixed;
   right: 2.3rem;
@@ -133,7 +137,7 @@ layout: default
   left: 0;
 }
   </style>
-  
+
       <div class="progress-bar" />
 <button class="back-to-top hidden">
   <svg xmlns="http://www.w3.org/2000/svg" class="back-to-top-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -141,7 +145,7 @@ layout: default
   </svg>
 </button>
 <div class="progress-bar" />
-  
+
   <script>
     const showOnPx = 100;
 const backToTopButton = document.querySelector(".back-to-top");
@@ -177,27 +181,27 @@ document.addEventListener("scroll", () => {
 
 backToTopButton.addEventListener("click", goToTop);
   </script>
-    
+
     <!-- Read the Formbutton docs at formspree.io/formbutton/docs. See more examples at codepen.io/formspree -->
 <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
 <script>
   /* paste this line in verbatim */
   window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
-  /* customize formbutton below*/     
+  /* customize formbutton below*/
   formbutton("create", {
     action: "https://formspree.io/f/xrbqprze",
     title: "👋 Submit your feedback",
     fields: [
       {
-        type: "text",      
-        label: "Name:", 
+        type: "text",
+        label: "Name:",
         name: "name",
         required: true,
         placeholder: "your name"
       },
-      { 
-        type: "email", 
-        label: "Email:", 
+      {
+        type: "email",
+        label: "Email:",
         name: "email",
         required: true,
         placeholder: "your@email.com"
@@ -208,7 +212,7 @@ backToTopButton.addEventListener("click", goToTop);
         name: "message",
         placeholder: "What's on your mind?",
       },
-      { type: "submit", value: "Submit" }      
+      { type: "submit", value: "Submit" }
     ],
     styles: {
       title: {
@@ -225,7 +229,9 @@ backToTopButton.addEventListener("click", goToTop);
     initiallyVisible: false
   });
 </script>
-       
-  </body>
+
+		<section id="back-top">
+			<a href="#top"><span></span></a>
+		</section>
+	</body>
 </html>
-  
