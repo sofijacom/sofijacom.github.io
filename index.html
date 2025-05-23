@@ -16,68 +16,8 @@ actions:
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Back on top button test</title>
-		<style>
-            body {
-                margin-left: 0px;
-            }
-			#back-top {
-		      position: fixed;
-		      top: 20px;
-		      left: 20px;
-			}
-
-			#back-top a {
-		      display: block;
-		      text-align: center;
-		      font: 12px Arial, Verdana, Tahoma, sans-serif;
-		      text-transform: uppercase;
-		      text-decoration: none;
-			  color: #333;
-			}
- 
-			#back-top a:hover {
-		      color: #000;
-			}
- 
-			#back-top span {
-    		  display: none;
-   			  width: 47px;
-	    	  height: 47px;
-    		  display: block;
-	    	  margin-bottom: 7px;
-	    	  background: url(/assets/images/back-to-top/back-top-button.png) no-repeat center center
-			}
-		</style>
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
-		<script>
-		$(document).ready(function(){
-
-        		// hide #back-top first
-		        $("#back-top").hide();
-
-        		// fade in #back-top
-        		$(function () {
-                	$(window).scroll(function () {
-                    	if ($(this).scrollTop() > 200) {
-                        		$('#back-top').fadeIn();
-                        } else {
-                                $('#back-top').fadeOut();
-                        }
-                });
-
-                // scroll body to 0px on click
-                $('#back-top a').click(function () {
-                        $('body,html').animate({
-                                scrollTop: 0
-                        }, 600);
-                        return false;
-                });
-       		 });
-
-		});		
-		</script>
 	</head>
+	
 	<body>
 		<hr>
 
@@ -128,6 +68,68 @@ actions:
 	<a href="https://github.com/sofijacom/sofijacom.github.io/blob/master/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=MIT&logoColor=d9e0ee&colorA=363a4f&colorB=b7bdf8"/></a>
 </p>
 
+		<style>
+            body {
+                margin-left: 0px;
+            }
+			#back-top {
+		      position: fixed;
+		      top: 20px;
+		      left: 20px;
+			}
+
+			#back-top a {
+		      display: block;
+		      text-align: center;
+		      font: 12px Arial, Verdana, Tahoma, sans-serif;
+		      text-transform: uppercase;
+		      text-decoration: none;
+			  color: #333;
+			}
+ 
+			#back-top a:hover {
+		      color: #000;
+			}
+ 
+			#back-top span {
+    		  display: none;
+   			  width: 47px;
+	    	  height: 47px;
+    		  display: block;
+	    	  margin-bottom: 7px;
+	    	  background: url(/assets/images/back-to-top/back-top-button.png) no-repeat center center
+			}
+		</style>
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+		<script>
+		$(document).ready(function(){
+
+        		// hide #back-top first
+		        $("#back-top").hide();
+
+        		// fade in #back-top
+        		$(function () {
+                	$(window).scroll(function () {
+                    	if ($(this).scrollTop() > 200) {
+                        		$('#back-top').fadeIn();
+                        } else {
+                                $('#back-top').fadeOut();
+                        }
+                });
+
+                // scroll body to 0px on click
+                $('#back-top a').click(function () {
+                        $('body,html').animate({
+                                scrollTop: 0
+                        }, 600);
+                        return false;
+                });
+       		 });
+
+		});		
+		</script>
+		
 		<section id="back-top">
 			<a href="#top"><span></span></a>
 		</section>
