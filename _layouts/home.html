@@ -139,8 +139,10 @@ layout: default
   });
 </script>
 
-<style>
-.back-to-top {
+<a href="#" id="scroll_top" title="Наверх"></a>
+	    
+<style type="text/css">
+#scroll_top {
 	display: none;
 	position: fixed;
 	bottom: 30px;
@@ -152,28 +154,38 @@ layout: default
 	border-radius: 50%;
 	opacity: 0.5;
 }
-.back-to-top {
+#scroll_top:hover {
  	opacity: 1;
 }
+
+.wrapper {
+	width: 600px;
+	margin: 0 auto;
+}
+p {
+	color: #777;
+	font-size: 15px;
+	line-height: 22px;
+}
 </style>
-	    
-<a href="#top" id="back-to-top" class="back-to-top" title="Back to top"> Back to top ▲</a>
-	    
-<script>	    
+	    	    
+<script src="https://snipp.ru/cdn/jquery/2.1.1/jquery.min.js"></script>
+<script>
 $(function(){
 	$(window).scroll(function(){
-		if($(window).back-to-top() > 100) {
-			$('back-to-top').show();
+		if($(window).scrollTop() > 100) {
+			$('#scroll_top').show();
 		} else {
-			$('back-to-top').hide();
+			$('#scroll_top').hide();
 		}
 	});
  
-	$('back-to-top').click(function(){
-		$('html, body').animate({back-to-top: 0}, 600);
+	$('#scroll_top').click(function(){
+		$('html, body').animate({scrollTop: 0}, 600);
 		return false;
 	});
 });
+
 </script>
 	    
     <header></header>
