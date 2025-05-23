@@ -21,7 +21,7 @@ layout: default
     <script type="text/javascript" src="/assets/js/clock33.js"></script>
     <link rel="stylesheet" href="/assets/css/clock33.css">
   </head>
-  <a name="top"></a>
+
    <div class="center">
     <div id="clock33" class="bg-3">
       <span id="clockHours"></span> : <span id="clockMinutes"></span> : <span id="clockSeconds"></span>
@@ -43,7 +43,7 @@ layout: default
     </style>
 
 {% include page-intro.html %}
-
+  <body>
 <p align="center">
 <svg viewbox="0 0 100 20">
   <defs>
@@ -94,26 +94,7 @@ layout: default
    <a href="#top" id="back-to-top" class="back-to-top">{{ site.data.text[site.locale].back_to_top | default: 'Back to top' }} <img src="/assets/images/back-to-top/23.png" alt="" width="40px" height="40px" /></a>
   </div>
 </main>
-   
-  <body>
-        
-<!-- <a href="#top" id="back-to-top" class="back-to-top" title="Back to top">▲</a> -->
-<!--
-<script>
-</script>
--->
-    <!-- <footer id="footer" class="site-footer"> 
-     <h3>Submit your feedback</h3>
-     <form action="https://formspree.io/f/xrbqprze" method="POST">
-     <label for="name">Your Name</label>
-     <input type="text" name="name" style="width: 150px;">
-     <label for="email">Your Email</label>
-     <input name="Email" id="email" type="email" style="width: 180px;">
-     <label>Your Message:<textarea name="message" style="height: 48px; width: 240px;"></textarea></label>
-     <button class="btn" type="submit">Submit</button>
-  </form>
-     </footer> -->
-    <!-- Read the Formbutton docs at formspree.io/formbutton/docs. See more examples at codepen.io/formspree -->
+           
 <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
 <script>
   /* paste this line in verbatim */
@@ -161,7 +142,5 @@ layout: default
   });
 </script>
        
-    <header></header> 
-    <footer></footer>
   </body>
 </html>
