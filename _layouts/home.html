@@ -186,13 +186,13 @@ document.addEventListener("DOMContentLoaded", function () {
 </script>
 -->
 	    
-<!-- Back to top button -->
-<button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
+<!-- Back to top button / btn-danger btn-floating btn-lg -->
+<button type="button" class="btn" id="back-to-top" title="Back to top">
   <i class="fas fa-arrow-up"></i>
 </button>
 	    
 <style>
-#btn-back-to-top {
+#back-to-top {
   position: fixed;
   bottom: 20px;
   right: 20px;
@@ -202,30 +202,24 @@ document.addEventListener("DOMContentLoaded", function () {
 	    
 <script>
 //Get the button
-let mybutton = document.getElementById("btn-back-to-top");
+document.addEventListener("DOMContentLoaded", function () {
+  const backToTop = document.getElementById("back-to-top");
 
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function () {
-  scrollFunction();
-};
+  // Показать/скрыть кнопку при прокрутке страницы
+  window.addEventListener("scroll", function () {
+    if (window.pageYOffset > 300) {
+      backToTop.style.display = "block";
+    } else {
+      backToTop.style.display = "none";
+    }
+  });
 
-function scrollFunction() {
-  if (
-    document.body.scrollTop > 20 ||
-    document.documentElement.scrollTop > 20
-  ) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
-// When the user clicks on the button, scroll to the top of the document
-mybutton.addEventListener("click", backToTop);
-
-function backToTop() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
+  // Плавная прокрутка при клике на кнопку
+  backToTop.addEventListener("click", function (event) {
+    event.preventDefault();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+});
 		
 </script>
 	    
