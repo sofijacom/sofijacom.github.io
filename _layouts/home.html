@@ -91,32 +91,11 @@ layout: default
      {% if page.comments != false %}
         {% include  disqus.html %}
      {% endif %}
- <!--  <a href="#top" id="back-to-top" class="back-to-top">{{ site.data.text[site.locale].back_to_top | default: 'Back to top' }} <img src="/assets/images/back-to-top/23.png" alt="" width="40px" height="40px" /></a> -->
+   <a href="#top" id="back-to-top" class="back-to-top">{{ site.data.text[site.locale].back_to_top | default: 'Back to top' }} <img src="/assets/images/back-to-top/23.png" alt="" width="40px" height="40px" /></a>
   </div>
 </main>
 
-    <body>
-      
-    <style>     
-.back-to-top {
-position: fixed;
-bottom: 20px;
-right: 20px;
-display: none;
-font-size: 24px;
-color: #fff;
-background: #000;
-padding: 5px 10px;
-border-radius: 5px;
-cursor: pointer;
-z-index: 1000;
-}
-  </style>
-
-      <div>
-    <a href="#top" id="back-to-top" class="back-to-top">{{ site.data.text[site.locale].back_to_top | default: 'Back to Top' }} ▲</a>
-  </div>
-      
+    <body>          
 <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
 <script>
   /* paste this line in verbatim */
@@ -163,6 +142,6 @@ z-index: 1000;
     initiallyVisible: false
   });
 </script>
-       
+      
   </body>
 </html>
