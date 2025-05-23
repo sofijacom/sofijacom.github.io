@@ -21,7 +21,9 @@ layout: default
     <script type="text/javascript" src="/assets/js/clock33.js"></script>
     <link rel="stylesheet" href="/assets/css/clock33.css">
   </head>
- 
+  
+ <body>
+   
    <div class="center">
     <div id="clock33" class="bg-3">
       <span id="clockHours"></span> : <span id="clockMinutes"></span> : <span id="clockSeconds"></span>
@@ -90,24 +92,14 @@ layout: default
      {% if page.comments != false %}
         {% include  disqus.html %}
      {% endif %}
- <!--  <a href="#top" id="back-to-top" class="back-to-top">{{ site.data.text[site.locale].back_to_top | default: 'Back to top' }} <img src="/assets/images/back-to-top/23.png" alt="" width="40px" height="40px" /></a> -->
-    <div class="progress-bar" />
-<button class="back-to-top hidden">
-  <svg xmlns="http://www.w3.org/2000/svg" class="back-to-top-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 11l5-5m0 0l5 5m-5-5v12" />
-  </svg>
-</button>
-<div class="progress-bar" />
-  
+ <!--  <a href="#top" id="back-to-top" class="back-to-top">{{ site.data.text[site.locale].back_to_top | default: 'Back to top' }} <img src="/assets/images/back-to-top/23.png" alt="" width="40px" height="40px" /></a> -->  
   </div>
 </main>
 
 
-  
-  <body>
 <style type="text/css" media="screen">     
 body {
- /* height: 3000px; */
+  height: 3000px;
  /* background: linear-gradient(#00ff04, #09aad3); */
 }
 
@@ -147,6 +139,14 @@ body {
 }
   </style>
     
+     <div class="progress-bar" />
+<button class="back-to-top hidden">
+  <svg xmlns="http://www.w3.org/2000/svg" class="back-to-top-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 11l5-5m0 0l5 5m-5-5v12" />
+  </svg>
+</button>
+<div class="progress-bar" />
+  
   <script>
     const showOnPx = 100;
 const backToTopButton = document.querySelector(".back-to-top");
@@ -231,7 +231,5 @@ backToTopButton.addEventListener("click", goToTop);
   });
 </script>
        
-    <header></header> 
-    <footer></footer>
   </body>
 </html>
