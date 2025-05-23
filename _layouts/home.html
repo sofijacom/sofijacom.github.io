@@ -225,7 +225,18 @@ mybutton.addEventListener("click", backToTop);
 function backToTop() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
-}	
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+  const backToTop = document.getElementById("btn-back-to-top");
+
+  // Плавная прокрутка при клике на кнопку
+  backToTop.addEventListener("click", function (event) {
+    event.preventDefault();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+});	
+	
 </script>
 	    
     <header></header>
