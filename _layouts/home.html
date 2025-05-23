@@ -140,7 +140,7 @@ layout: default
 </script>
 
 <style>
-#scroll_top {
+.back-to-top {
 	display: none;
 	position: fixed;
 	bottom: 30px;
@@ -152,24 +152,24 @@ layout: default
 	border-radius: 50%;
 	opacity: 0.5;
 }
-#scroll_top:hover {
+.back-to-top {
  	opacity: 1;
 }
 </style>
 	    
-<a href="#" id="scroll_top" title="Back to top"></a>
+<a href="#top" id="back-to-top" class="back-to-top" title="Back to top"> Back to top ▲</a>
 	    
 <script>	    
 $(function(){
 	$(window).scroll(function(){
 		if($(window).scrollTop() > 100) {
-			$('#scroll_top').show();
+			$('back-to-top').show();
 		} else {
-			$('#scroll_top').hide();
+			$('back-to-top').hide();
 		}
 	});
  
-	$('#scroll_top').click(function(){
+	$('back-to-top').click(function(){
 		$('html, body').animate({scrollTop: 0}, 600);
 		return false;
 	});
