@@ -162,7 +162,7 @@ layout: default
 <script>	    
 $(function(){
 	$(window).scroll(function(){
-		if($(window).scrollTop() > 100) {
+		if($(window).back-to-top() > 100) {
 			$('back-to-top').show();
 		} else {
 			$('back-to-top').hide();
@@ -170,7 +170,7 @@ $(function(){
 	});
  
 	$('back-to-top').click(function(){
-		$('html, body').animate({scrollTop: 0}, 600);
+		$('html, body').animate({back-to-top: 0}, 600);
 		return false;
 	});
 });
