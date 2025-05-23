@@ -1,0 +1,247 @@
+---
+layout: home
+comments: false
+paginate: false
+image: /assets/images/fon-1.jpg
+actions:
+  - label: "Get Started"
+    icon: github
+    url: "https://github.com/sofijacom/sofijacom.github.io"
+  - label: "Download"
+    icon: download
+    url: "https://github.com/sofijacom/sofijacom.github.io/archive/master.zip"
+---
+
+<!doctype html>
+<html>
+	<head>
+	    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y3XDRGQR98"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Y3XDRGQR98');
+</script>
+    <meta charset="utf-8">
+    <!-- <title>• Kennel Linux • Home Page •</title> -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/assets/css/style.css">
+    <script type="text/javascript" src="/assets/js/clock33.js"></script>
+    <link rel="stylesheet" href="/assets/css/clock33.css">
+		<meta charset="utf-8">
+		<title>Back on top button test</title>
+	</head>
+	<body>
+   <div class="center">
+    <div id="clock33" class="bg-3">
+      <span id="clockHours"></span> : <span id="clockMinutes"></span> : <span id="clockSeconds"></span>
+
+      </div>
+
+      </div>
+     <script>
+    clock33();
+  </script>
+
+    <style type="text/css" media="screen">
+     svg {
+      font-weight: bold;
+      max-width: 500px;
+      height: auto;
+    }
+    </style>
+
+{% include page-intro.html %}
+
+<p align="center">
+<svg viewbox="0 0 100 20">
+  <defs>
+    <linearGradient id="gradient" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="5%" stop-color="#829298"/>
+      <stop offset="95%" stop-color="#495881"/>
+    </linearGradient>
+    <pattern id="wave" x="0" y="0" width="120" height="20" patternUnits="userSpaceOnUse">
+      <path id="wavePath" d="M-40 9 Q-30 7 -20 9 T0 9 T20 9 T40 9 T60 9 T80 9 T100 9 T120 9 V20 H-40z" fill="url(#gradient)">
+
+      <!-- Анимация волны достигается перемещением path  -->
+
+     <animateTransform attributeName="transform" type="translate" begin="0s" dur="1.5s" from="0,0" to="40,0" repeatCount="indefinite" />
+      </path>
+    </pattern>
+  </defs>
+      <!-- Паттерн c анимированной волной применяется к тексту -->
+  <text text-anchor="middle" x="50" y="15" font-size="17" fill="url(#wave)"  fill-opacity="0.9">WELCOME</text>
+  <text text-anchor="middle" x="50" y="15" font-size="17" fill="url(#gradient)" fill-opacity="0.3">WELCOME</text>
+</svg>
+  </p>
+
+<main id="main" class="page-content" aria-label="Content">
+  <div class="index inner">
+    <div>{{ content }}</div>
+
+    {% if site.posts.size > 0 %}
+      <div>
+        <header class="section-title">
+          <h2>{{ site.data.theme.t.posts | default: 'Posts' }}{% if paginator.page > 1 %}{{ site.data.theme.t.page | default: 'Page' | prepend: ' - ' | append: ' ' }}{{ paginator.page }} {{ site.data.theme.t.of | default: 'of' }} {{ paginator.total_pages }}{% endif %}</h2>
+        </header>
+        <div class="entries-{{ page.entries_layout | default: 'list' }}">
+          {% if site.plugins contains 'jekyll-paginate' and page.paginate or site.gems contains 'jekyll-paginate' and page.paginate %}
+            {% comment %}
+              Add paginator.posts loop if jekyll-paginate plugin is enabled
+              and page.paginate == true
+            {% endcomment %}
+            {% include posts-paginated.html %}
+          {% else %}
+            {% include posts-all.html %}
+          {% endif %}
+        </div>
+      </div>
+    {% endif %}
+     {% if page.comments != false %}
+        {% include  disqus.html %}
+     {% endif %}
+ <!--  <a href="#top" id="back-to-top" class="back-to-top">{{ site.data.text[site.locale].back_to_top | default: 'Back to top' }} <img src="/assets/images/back-to-top/23.png" alt="" width="40px" height="40px" /></a> -->
+  </div>
+</main>
+
+<style type="text/css" media="screen">
+/* body {
+   height: 3000px;
+  background: linear-gradient(#00ff04, #09aad3);
+} */
+
+.back-to-top {
+  position: fixed;
+  right: 2.3rem;
+  bottom: 6rem;
+  border-radius: 100%;
+  background: #141c38;
+  padding: 0.5rem;
+  border: none;
+  cursor: pointer;
+  opacity: 100%;
+  transition: opacity 0.5s;
+}
+
+.back-to-top:hover {
+  opacity: 60%;
+}
+
+.hidden {
+  opacity: 0%;
+}
+
+.back-to-top-icon {
+  width: 1rem;
+  height: 1rem;
+  color: #7ac9f9;
+}
+
+.progress-bar {
+  height: 1rem;
+  background: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+  </style>
+
+      <div class="progress-bar" />
+<button class="back-to-top hidden">
+  <svg xmlns="http://www.w3.org/2000/svg" class="back-to-top-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 11l5-5m0 0l5 5m-5-5v12" />
+  </svg>
+</button>
+<div class="progress-bar" />
+
+  <script>
+    const showOnPx = 100;
+const backToTopButton = document.querySelector(".back-to-top");
+const pageProgressBar = document.querySelector(".progress-bar");
+
+const scrollContainer = () => {
+  return document.documentElement || document.body;
+};
+
+const goToTop = () => {
+  document.body.scrollIntoView({
+    behavior: "smooth"
+  });
+};
+
+document.addEventListener("scroll", () => {
+  console.log("Scroll Height: ", scrollContainer().scrollHeight);
+  console.log("Client Height: ", scrollContainer().clientHeight);
+
+  const scrolledPercentage =
+    (scrollContainer().scrollTop /
+      (scrollContainer().scrollHeight - scrollContainer().clientHeight)) *
+    100;
+
+  pageProgressBar.style.width = `${scrolledPercentage}%`;
+
+  if (scrollContainer().scrollTop > showOnPx) {
+    backToTopButton.classList.remove("hidden");
+  } else {
+    backToTopButton.classList.add("hidden");
+  }
+});
+
+backToTopButton.addEventListener("click", goToTop);
+  </script>
+
+    <!-- Read the Formbutton docs at formspree.io/formbutton/docs. See more examples at codepen.io/formspree -->
+<script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+<script>
+  /* paste this line in verbatim */
+  window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+  /* customize formbutton below*/
+  formbutton("create", {
+    action: "https://formspree.io/f/xrbqprze",
+    title: "👋 Submit your feedback",
+    fields: [
+      {
+        type: "text",
+        label: "Name:",
+        name: "name",
+        required: true,
+        placeholder: "your name"
+      },
+      {
+        type: "email",
+        label: "Email:",
+        name: "email",
+        required: true,
+        placeholder: "your@email.com"
+      },
+      {
+        type: "textarea",
+        label: "Message:",
+        name: "message",
+        placeholder: "What's on your mind?",
+      },
+      { type: "submit", value: "Submit" }
+    ],
+    styles: {
+      title: {
+        backgroundColor: "#04a5e5"
+      },
+      button: {
+        backgroundColor: "#4b4e67"
+      },
+      // OVERRIDE BACKGROUND COLOR HERE:
+//      shim: {
+//        backgroundColor: "rgba(0, 0, 255, 0.3)"
+//      }
+    },
+    initiallyVisible: false
+  });
+</script>
+
+		<section id="back-top">
+			<a href="#top"><span></span></a>
+		</section>
+	</body>
+</html>
