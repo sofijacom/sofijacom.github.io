@@ -41,23 +41,6 @@ layout: default
     }
     </style>
 
-  <style type="text/css" media="screen">
-.back-to-top {
-position: fixed;
-bottom: 20px;
-right: 24px;
-display: none;
-font-size: 24px;
-color: #fff;
-background: #0000005;
-padding: 5px 10px;
-border-radius: 5px;
-cursor: pointer;
-z-index: 1000;
-}
-  </style>
-
-  <a href="#top" id="back-to-top" class="back-to-top">{{ site.data.text[site.locale].back_to_top | default: '' }} <img src="/assets/images/back-to-top/23.png" alt="" width="40px" height="40px" /></a>
 {% include page-intro.html %}
 
 <p align="center">
@@ -112,6 +95,24 @@ z-index: 1000;
 </main>
    
   <body>
+      <style type="text/css" media="screen">
+.back-to-top {
+position: fixed;
+bottom: 20px;
+right: 24px;
+display: none;
+font-size: 24px;
+color: #fff !important;
+background: #0000005 !important;
+padding: 5px 10px;
+border-radius: 40px;
+cursor: pointer;
+z-index: 1000;
+}
+  </style>
+    
+      <a href="#top" id="back-to-top" class="back-to-top"><img src="/assets/images/back-to-top/23.png" alt="" width="40px" height="40px" /></a>
+    
     <!-- Read the Formbutton docs at formspree.io/formbutton/docs. See more examples at codepen.io/formspree -->
 <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
 <script>
