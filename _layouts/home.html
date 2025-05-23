@@ -43,16 +43,16 @@ layout: default
 <p align="center">
 <svg viewbox="0 0 100 20">
   <defs>
-    <linearGradient id="gradient" x1="0" x2="0" y1="0" y2="1">
+    <lineargradient id="gradient" x1="0" x2="0" y1="0" y2="1">
       <stop offset="5%" stop-color="#829298"/>
       <stop offset="95%" stop-color="#495881"/>
-    </linearGradient>
+    </lineargradient>
     <pattern id="wave" x="0" y="0" width="120" height="20" patternUnits="userSpaceOnUse">
       <path id="wavePath" d="M-40 9 Q-30 7 -20 9 T0 9 T20 9 T40 9 T60 9 T80 9 T100 9 T120 9 V20 H-40z" fill="url(#gradient)"> 
       
       <!-- Анимация волны достигается перемещением path  -->
      
-     <animateTransform attributeName="transform" type="translate" begin="0s" dur="1.5s" from="0,0" to="40,0" repeatCount="indefinite" />
+     <animatetransform attributeName="transform" type="translate" begin="0s" dur="1.5s" from="0,0" to="40,0" repeatCount="indefinite" />
       </path>
     </pattern>
   </defs>
@@ -66,10 +66,10 @@ layout: default
   <div class="index inner">
     <div>{{ content }}</div>
     
-    {% if site.posts.size > 0 %}
+    {% if site.posts.size &gt; 0 %}
       <div>
         <header class="section-title">
-          <h2>{{ site.data.theme.t.posts | default: 'Posts' }}{% if paginator.page > 1 %}{{ site.data.theme.t.page | default: 'Page' | prepend: ' - ' | append: ' ' }}{{ paginator.page }} {{ site.data.theme.t.of | default: 'of' }} {{ paginator.total_pages }}{% endif %}</h2>
+          <h2>{{ site.data.theme.t.posts | default: 'Posts' }}{% if paginator.page &gt; 1 %}{{ site.data.theme.t.page | default: 'Page' | prepend: ' - ' | append: ' ' }}{{ paginator.page }} {{ site.data.theme.t.of | default: 'of' }} {{ paginator.total_pages }}{% endif %}</h2>
         </header>
         <div class="entries-{{ page.entries_layout | default: 'list' }}">
           {% if site.plugins contains 'jekyll-paginate' and page.paginate or site.gems contains 'jekyll-paginate' and page.paginate %}
@@ -87,7 +87,7 @@ layout: default
      {% if page.comments != false %}
         {% include  disqus.html %}
      {% endif %}
-   <a href="#top" id="back-to-top" class="back-to-top">{{ site.data.text[site.locale].back_to_top | default: 'Back to top' }} <img src="/assets/images/back-to-top/23.png" alt="" width="40px" height="40px" /></a>
+  <!-- <a href="#top" id="back-to-top" class="back-to-top">{{ site.data.text[site.locale].back_to_top | default: 'Back to top' }} <img src="/assets/images/back-to-top/23.png" alt="" width="40px" height="40px" /></a> -->
   </div>
 </main>
 
@@ -139,8 +139,33 @@ layout: default
   });
 </script>
 
+<style>
+.back-to-top {
+position: fixed !important;
+bottom: 20px;
+right: 20px;
+display: none;
+font-size: 24px;
+color: #fff;
+background: #000 !important;
+padding: 5px 10px;
+border-radius: 5px;
+cursor: pointer;
+z-index: 101;
+}
+
+.back-to-top:hover {
+background: #333;
+text-decoration: none;
+}
+</style>
+      
     <header></header>
-    <main><div></div></main>
+    <main>
+      <div>
+      <a href="#top" id="back-to-top" class="back-to-top" title="Back to top"> Back to top ▲</a>
+    </div>
+    </main>
     <footer></footer>
   </body>
 </html>
