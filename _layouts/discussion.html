@@ -30,6 +30,14 @@ layout: default
  </div>
   
   <body>
-
+    
+    <div class="container" align="center">
+<script type="module" src="https://cdn.jsdelivr.net/npm/emoji-picker-element@^1/index.js"></script>
+   
+    <script>
+      document.querySelector('emoji-picker')
+  .addEventListener('emoji-click', event => console.log(event.detail));
+      </script>
+    </div>
   </body>
 </html>
