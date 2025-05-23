@@ -92,7 +92,7 @@ layout: default
 </main>
 
     <body>
-<a name="#"></a>          
+<a name="top"></a>          
 <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
 <script>
   /* paste this line in verbatim */
@@ -140,43 +140,48 @@ layout: default
   });
 </script>
 
-<a href="#" id="scroll_top" title="Back to top"></a>
+<a href="#top" id="back-to-top" class="back-to-top" title="Back to top">▲</a>
 	    
 <style type="text/css">
-#scroll_top {
-	display: none;
-	position: fixed;
-	bottom: 30px;
-	right: 20px;
-	z-index: 1000;
-	width: 64px;
-	height: 64px;
-	background-repeat: no-repeat;
-	/* background: url(https://snipp.ru/img/scroll_top.png) 50% 50% no-repeat; */
-	background-image: url("/assets/images/back-to-top/23.png");
-	border-radius: 50%;
-	opacity: 0.5;
+.back-to-top {
+position: fixed;
+bottom: 20px;
+right: 20px;
+display: none;
+font-size: 24px;
+color: #fff !important;
+background: #000 !important;
+padding: 5px 10px;
+border-radius: 5px;
+cursor: pointer;
+z-index: 1000;
 }
-#scroll_top:hover {
- 	opacity: 1;
+
+.back-to-top:hover {
+background: #333;
+text-decoration: none;
 }
 </style>
 	    	    
 <script src="https://snipp.ru/cdn/jquery/2.1.1/jquery.min.js"></script>
 <script>
-$(function(){
-	$(window).scroll(function(){
-		if($(window).scrollTop() > 100) {
-			$('#scroll_top').show();
-		} else {
-			$('#scroll_top').hide();
-		}
-	});
- 
-	$('#scroll_top').click(function(){
-		$('html, body').animate({scrollTop: 0}, 600);
-		return false;
-	});
+document.addEventListener("DOMContentLoaded", function () {
+  const backToTop = document.getElementById("back-to-top");
+
+  // Показать/скрыть кнопку при прокрутке страницы
+  window.addEventListener("scroll", function () {
+    if (window.pageYOffset > 300) {
+      backToTop.style.display = "block";
+    } else {
+      backToTop.style.display = "none";
+    }
+  });
+
+  // Плавная прокрутка при клике на кнопку
+  backToTop.addEventListener("click", function (event) {
+    event.preventDefault();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
 });
 
 </script>
