@@ -65,11 +65,7 @@ layout: default
   <text text-anchor="middle" x="50" y="15" font-size="17" fill="url(#gradient)" fill-opacity="0.3">WELCOME</text>
 </svg>
   </p>
-
-<div>
-    <a href="#top" id="back-to-top" class="back-to-top">{{ site.data.text[site.locale].back_to_top | default: 'Back to Top' }} ▲</a>
-  </div>
-  
+ 
 <main id="main" class="page-content" aria-label="Content">
   <div class="index inner">
     <div>{{ content }}</div>
@@ -116,6 +112,10 @@ cursor: pointer;
 z-index: 1000;
 }
   </style>
+
+      <div>
+    <a href="#top" id="back-to-top" class="back-to-top">{{ site.data.text[site.locale].back_to_top | default: 'Back to Top' }} ▲</a>
+  </div>
       
 <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
 <script>
