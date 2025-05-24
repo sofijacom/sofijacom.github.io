@@ -2,7 +2,7 @@
 layout: home
 comments: false
 image: /assets/images/fon-1.jpg
-pagination:
+paginate: 
   enabled: true
   collection: posts
 actions:
