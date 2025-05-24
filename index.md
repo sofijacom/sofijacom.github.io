@@ -1,8 +1,10 @@
 ---
 layout: home
 comments: false
-paginate:
 image: /assets/images/fon-1.jpg
+pagination:
+  enabled: true
+  collection: posts
 actions:
   - label: "Get Started"
     icon: github
