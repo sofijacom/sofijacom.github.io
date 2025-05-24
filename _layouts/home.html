@@ -87,7 +87,7 @@ layout: default
      {% if page.comments != false %}
         {% include  disqus.html %}
      {% endif %}
-       <button type="button" class="btn" id="back-to-top">{{ site.data.text[site.locale].back_to_top | default: 'Back to top' }} ▲</button>
+       <button type="button" class="btn" id="back-to-top">{{ site.data.text[site.locale].back_to_top | default: 'BACK TO TOP' }} ▲</button>
   <!-- <a href="#top" id="back-to-top" class="back-to-top">{{ site.data.text[site.locale].back_to_top | default: 'Back to top' }} <img src="/assets/images/back-to-top/23.png" alt="" width="40px" height="40px" /></a> -->
   </div>
 </main>
@@ -193,9 +193,9 @@ document.addEventListener("DOMContentLoaded", function () {
 	    
 <style>
 #back-to-top {
- /* position: fixed;
+  position: fixed;
   bottom: 20px;
-  right: 34px; */
+  right: 34px;
   font-size: 0.75em;	
   display: none;
 }	    
