@@ -18,7 +18,13 @@ layout: default
 </script>  
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="/assets/css/clock33.css">
-    <script type="text/javascript" src="/assets/js/clock33.js"></script>	  
+    <script type="text/javascript" src="/assets/js/clock33.js"></script>
+<script src='/assets/lib/InfiniteScroll.js'></script>
+<script>
+    var postWrapperId = 'card-wrapper';
+    var paginatePath = '/page/'
+    new InfiniteScroll(paginatePath, postWrapperId);
+</script>	  
   </head>
 
    <div class="center">
@@ -111,12 +117,6 @@ layout: default
 </div>
 	
     <body>
-<script src='/assets/lib/InfiniteScroll.js'></script>
-<script>
-    var postWrapperId = 'card-wrapper';
-    var paginatePath = '/page/'
-    new InfiniteScroll(paginatePath, postWrapperId);
-</script>
 	    
 <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
 <script>
@@ -180,8 +180,6 @@ layout: default
 }	    
 </style>
 	    	    
-    <header></header>
-    <footer></footer>
   </body>
 	
 </html>
