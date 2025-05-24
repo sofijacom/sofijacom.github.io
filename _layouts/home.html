@@ -140,19 +140,32 @@ layout: default
     initiallyVisible: false
   });
 </script>
-	    
-<button type="button" class="btn" id="back-to-top">BACK TO TOP ▲</button>	    
+<div id="bottom">
+    <button id="bot_open" class="btn btn-primary btn-rounded">Button</button>
+  </div>
+
+<div id="back-to-top">	    
+   <button id="bot_open" class="btn btn-primary btn-rounded">BACK TO TOP ▲</button>
+</div>	
 <!--  <div class="container p-3 shadow-sm">	  
      Scroll to Top Button 	  
   </div> {{ site.data.text[site.locale].back_to_top | default: 'BACK TO TOP' }} -->
 	    
 <style>
-#back-to-top {
+#back-to-top button {
   position: fixed;
   bottom: 30px;
   right: 370px;
   font-size: 0.75em;	
-  display: none;
+ /* display: none; */
+  z-index: 1000;
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+ filter: progid: dximagetransform.microsoft.basicimage(rotation=3);
+  text-align: center;
+  text-decoration: none;	
 }	    
 </style>
 	    
