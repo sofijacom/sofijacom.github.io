@@ -16,6 +16,8 @@ group :jekyll_plugins do
   gem 'jekyll_emoji_tag'
 end
 
+gem 'jekyll-paginate'
+
 gem 'jekyll-feed'
 
 gem 'jekyll-target-blank'
