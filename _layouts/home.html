@@ -109,15 +109,15 @@ layout: default
     {%- endfor -%}
 {%- endif -%}
 </div>
-
-<script src='lib/InfiniteScroll.js'></script>
+	
+    <body>
+<script src='/assets/lib/InfiniteScroll.js'></script>
 <script>
     var postWrapperId = 'card-wrapper';
     var paginatePath = '/page/'
     new InfiniteScroll(paginatePath, postWrapperId);
-</script>	
-	
-    <body>         
+</script>
+	    
 <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
 <script>
   /* paste this line in verbatim */
@@ -165,11 +165,10 @@ layout: default
   });
 </script>
 	    
-  <div class="container p-3 shadow-sm">	  
-    <!-- Scroll to Top Button -->
-  <button type="button" class="btn" id="back-to-top">{{ site.data.text[site.locale].back_to_top | default: 'BACK TO TOP' }} ▲</button>
-	  
-  </div>
+<button type="button" class="btn" id="back-to-top"> BACK TO TOP ▲ </button>	    
+<!--  <div class="container p-3 shadow-sm">	  
+     Scroll to Top Button 	  
+  </div> {{ site.data.text[site.locale].back_to_top | default: 'BACK TO TOP' }} -->
 	    
 <style>
 #back-to-top {
