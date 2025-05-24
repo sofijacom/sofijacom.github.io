@@ -91,6 +91,32 @@ layout: default
   </div>
 </main>
 
+<div class="card--group" id="card-wrapper">
+    {%- if paginator.posts.size > 0 -%}
+    {%- for post in paginator.posts -%}
+        <a href="{{ post.url | relative_url }}">
+            <div class="card">
+                <div class="card__header">
+                    <h3 class="card__header__title">{{ post.title | escape }}</h3>
+                </div>
+                <div class="card__body">
+                    {%- assign date_format = paginator.minima.date_format | default: "%b %-d, %Y" -%}
+                    {{ post.date | date: date_format }}
+                    {{ post.excerpt }}
+                </div>
+            </div>
+        </a>
+    {%- endfor -%}
+{%- endif -%}
+</div>
+
+<script src='lib/InfiniteScroll.js'></script>
+<script>
+    var postWrapperId = 'card-wrapper';
+    var paginatePath = '/page/'
+    new InfiniteScroll(paginatePath, postWrapperId);
+</script>	
+	
     <body>         
 <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
 <script>
