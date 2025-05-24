@@ -18,13 +18,7 @@ layout: default
 </script>  
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="/assets/css/clock33.css">
-    <script type="text/javascript" src="/assets/js/clock33.js"></script>
-<script src='/assets/lib/InfiniteScroll.js'></script>
-<script>
-    var postWrapperId = 'card-wrapper';
-    var paginatePath = '/page/'
-    new InfiniteScroll(paginatePath, postWrapperId);
-</script>	  
+    <script type="text/javascript" src="/assets/js/clock33.js"></script>	  
   </head>
 
    <div class="center">
@@ -96,25 +90,6 @@ layout: default
   <!-- <a href="#top" id="back-to-top" class="back-to-top">{{ site.data.text[site.locale].back_to_top | default: 'Back to top' }} <img src="/assets/images/back-to-top/23.png" alt="" width="40px" height="40px" /></a> -->
   </div>
 </main>
-
-<div class="card--group" id="card-wrapper">
-    {%- if paginator.posts.size > 0 -%}
-    {%- for post in paginator.posts -%}
-        <a href="{{ post.url | relative_url }}">
-            <div class="card">
-                <div class="card__header">
-                    <h3 class="card__header__title">{{ post.title | escape }}</h3>
-                </div>
-                <div class="card__body">
-                    {%- assign date_format = paginator.minima.date_format | default: "%b %-d, %Y" -%}
-                    {{ post.date | date: date_format }}
-                    {{ post.excerpt }}
-                </div>
-            </div>
-        </a>
-    {%- endfor -%}
-{%- endif -%}
-</div>
 	
     <body>
 	    
