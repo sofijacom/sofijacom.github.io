@@ -109,6 +109,14 @@ feed: # When in config.yml is true then all posts in feed will be without <conte
 paginate: 10
 paginate_path: /page:num/
 
+pagination:
+  enabled: true
+  per_page: 6
+  sort_reverse: true
+  indexpage: page-1
+  permalink: page-:num
+  extension: json
+
 google_analytics: G-Y3XDRGQR98
 
 # jekyll-multiple-languages-plugin settings:
