@@ -3,7 +3,7 @@ layout: home
 comments: false
 image: /assets/images/fon-1.jpg
 paginate: 
-  enabled: true
+  enabled: false
   collection: posts
 actions:
   - label: "Get Started"
