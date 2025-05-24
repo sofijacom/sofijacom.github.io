@@ -22,17 +22,16 @@ layout: default
    <!-- <script src="/assets/js/jquery-4.0.0-beta.2.min.js"></script> -->
 		<title>Back on top button test</title>
 		<style>
-            body {
-                margin-left: 0px;
-            }
-			#back-top {
+                body {
+                    margin-right: 40px;
+                }
+		#back-top {
 		      position: fixed;
-		      bottom: 30px;
-                      right: 370px;
-		      display: none;	
+		      bottom: 10px;
+                      right: 30px;	
 			}
 
-			#back-top a {
+		#back-top a {
 		      display: block;
 		      text-align: center;
 		      font: 12px Arial, Verdana, Tahoma, sans-serif;
@@ -41,11 +40,11 @@ layout: default
 			  color: #333;
 			}
  
-			#back-top a:hover {
+		#back-top a:hover {
 		      color: #000;
 			}
  
-			#back-top span {
+		#back-top span {
     		  display: none;
    			  width: 47px;
 	    	  height: 47px;
@@ -64,8 +63,8 @@ layout: default
         		// fade in #back-top
         		$(function () {
                 	$(window).scroll(function () {
-                    	if ($(this).scrollTop() > 200) {
-                        		$('#back-top').fadeIn();
+                    	if ($(this).scrollTop() > 300) {
+                        	$('#back-top').fadeIn();
                         } else {
                                 $('#back-top').fadeOut();
                         }
