@@ -1,7 +1,7 @@
 ---
 layout: home
 comments: false
-paginate: false
+paginate: true
 image: /assets/images/fon-1.jpg
 actions:
   - label: "Get Started"
