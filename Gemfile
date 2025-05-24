@@ -14,9 +14,8 @@ gem 'jekyll-archives'
 group :jekyll_plugins do
   gem 'jekyll-gzip'
   gem 'jekyll_emoji_tag'
+  gem "jekyll-paginate"
 end
-
-gem 'jekyll-paginate'
 
 gem 'jekyll-feed'
 
