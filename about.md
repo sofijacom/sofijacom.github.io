@@ -20,12 +20,7 @@ There are many KL distros, each with their own unique features:
 - **KL minis :** KL distros that are made to be "**very small**".
 - [Kennel Linux distros](https://forum.puppylinux.com/viewforum.php?f=231)
 
-
-<p align="center">
-  
-  <img src="/assets/images/catwalk.svg" />  
-</p>
-  
+ 
 <!--
 <p align="center">
   ━━━━━━  ❖  ━━━━━━  
