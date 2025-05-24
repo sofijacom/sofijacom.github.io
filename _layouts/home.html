@@ -18,7 +18,16 @@ layout: default
 </script>  
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="/assets/css/clock33.css">
-    <script type="text/javascript" src="/assets/js/clock33.js"></script>   
+    <script type="text/javascript" src="/assets/js/clock33.js"></script>
+     <style>
+    /* Custom CSS for the button */
+    #scrollToTopBtn {
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 30px;
+    }
+  </style>	  
   </head>
 
    <div class="center">
@@ -144,7 +153,12 @@ layout: default
  <!--  <i class="fas fa-arrow-up"></i> -->
   <div class="container p-3 shadow-sm">	  
     <!-- Scroll to Top Button -->
-  <button type="button" class="btn" id="back-to-top">{{ site.data.text[site.locale].back_to_top | default: 'BACK TO TOP' }} ▲</button>
+ <!-- <button type="button" class="btn" id="back-to-top">{{ site.data.text[site.locale].back_to_top | default: 'BACK TO TOP' }} ▲</button> -->
+      <!-- Scroll to Top Button -->
+    <button id="scrollToTopBtn" class="btn btn-primary"  title="Go to top">
+      <i class="fas fa-arrow-up"></i> <!-- Font Awesome icon for "up" -->
+    </button>
+	  
   </div>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
@@ -153,7 +167,26 @@ layout: default
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
     integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
     crossorigin="anonymous"></script>
-	  
+  <script>
+    // Get the button element
+    var scrollToTopBtn = document.getElementById("scrollToTopBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        scrollToTopBtn.style.display = "block";
+      } else {
+        scrollToTopBtn.style.display = "none";
+      }
+    };
+
+    // When the user clicks on the button, scroll to the top of the document
+    scrollToTopBtn.onclick = function () {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+    };
+  </script>
+	    
 <style>
 #back-to-top {
   position: fixed;
