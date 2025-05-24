@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<!DOCTYPE html>
+<html lang="en-US">
   <head>
     <meta charset="utf-8">
     <title>Kennel Linux • Home Page</title>
@@ -17,9 +19,71 @@ layout: default
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="/assets/css/clock33.css">
     <script type="text/javascript" src="/assets/js/clock33.js"></script>
-    <script src="/assets/js/jquery-4.0.0-beta.2.min.js"></script>	  
-  </head>
+    <script src="/assets/js/jquery-4.0.0-beta.2.min.js"></script>
+    		<meta charset="utf-8">
+		<title>Back on top button test</title>
+		<style>
+            body {
+                margin: 0;
+            }
+			#back-top {
+		      position: fixed;
+		      bottom: 30px;
+                      right: 370px;
+			}
 
+			#back-top a {
+		      display: block;
+		      text-align: center;
+		      font: 12px Arial, Verdana, Tahoma, sans-serif;
+		      text-transform: uppercase;
+		      text-decoration: none;
+			  color: #333;
+			}
+ 
+			#back-top a:hover {
+		      color: #000;
+			}
+ 
+			#back-top span {
+    		  display: none;
+   			  width: 47px;
+	    	  height: 47px;
+    		  display: block;
+	    	  margin-bottom: 7px;
+	    	  background: url(back-top-button.png) no-repeat center center
+			}
+		</style>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+		<script>
+		$(document).ready(function(){
+
+        		// hide #back-top first
+		        $("#back-top").hide();
+
+        		// fade in #back-top
+        		$(function () {
+                	$(window).scroll(function () {
+                    	if ($(this).scrollTop() > 200) {
+                        		$('#back-top').fadeIn();
+                        } else {
+                                $('#back-top').fadeOut();
+                        }
+                });
+
+                // scroll body to 0px on click
+                $('#back-top a').click(function () {
+                        $('body,html').animate({
+                                scrollTop: 0
+                        }, 600);
+                        return false;
+                });
+       		 });
+
+		});		
+		</script>
+	</head>  
+	<body>
    <div class="center">
     <div id="clock33" class="bg-3">
       <span id="clockHours"></span> : <span id="clockMinutes"></span> : <span id="clockSeconds"></span>
@@ -140,7 +204,7 @@ layout: default
 <!--  <div class="container p-3 shadow-sm">	  
      Scroll to Top Button 	  
   </div> {{ site.data.text[site.locale].back_to_top | default: 'BACK TO TOP' }} -->
-	    
+<!--	    
 <style>
 #back-to-top {
   position: fixed;
@@ -158,3 +222,9 @@ display: block;
  <div id="back-to-top">	    
    <button class="btn btn-primary btn-rounded">BACK TO TOP ▲<span></span></button>
  </div>
+-->		
+		<section id="back-top">
+			<a href="#top"><span></span></a>
+		</section>
+	</body>
+</html>
