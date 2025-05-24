@@ -106,7 +106,7 @@ feed: # When in config.yml is true then all posts in feed will be without <conte
 # disable_in_development: true
   
 # Pagination - https://jekyllrb.com/docs/pagination/
-paginate: 10
+paginate: 2
 paginate_path: /page:num/
 
 google_analytics: G-Y3XDRGQR98
