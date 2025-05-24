@@ -143,6 +143,7 @@ layout: default
 
 <div id="back-to-top">	    
    <button class="btn btn-primary btn-rounded">BACK TO TOP ▲</button>
+	<a href="#top"><span></span></a>
 </div>
 	    
 <!--  <div class="container p-3 shadow-sm">	  
@@ -150,23 +151,18 @@ layout: default
   </div> {{ site.data.text[site.locale].back_to_top | default: 'BACK TO TOP' }} -->
 	    
 <style>
-#back-to-top button {
+#back-to-top button span {
   position: fixed;
   bottom: 30px;
   right: 370px;
   font-size: 0.75em;	
   display: none;
-  z-index: 1000;
-  transform: rotate(360deg);
-  -webkit-transform: rotate(360deg);
-  -moz-transform: rotate(360deg);
-  -o-transform: rotate(360deg);
- filter: progid: dximagetransform.microsoft.basicimage(rotation=3);
-  text-align: center;
-  text-decoration: none;	
+ /* z-index: 1000; */	
 }	    
 </style>
-	    
+		<section id="back-top">
+			<a href="#top"><span></span></a>
+		</section>	    
   </body>
 	
 </html>
