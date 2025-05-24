@@ -1,8 +1,8 @@
 ---
 layout: home
 comments: false
-image: /assets/images/fon-1.jpg
 paginate: false
+image: /assets/images/fon-1.jpg
 actions:
   - label: "Get Started"
     icon: github
