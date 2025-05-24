@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Показать/скрыть кнопку при прокрутке страницы
     window.addEventListener("scroll", function () {
-        if (window.pageYOffset > 1200) {
+        if (window.pageYOffset > 20) {
             backToTop.style.display = "block";
         } else {
             backToTop.style.display = "none";
