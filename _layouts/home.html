@@ -142,8 +142,7 @@ layout: default
 </script>
 
 <div id="back-to-top">	    
-   <button class="btn btn-primary btn-rounded">BACK TO TOP ▲</button>
-	<a href="#top"><span></span></a>
+   <button class="btn btn-primary btn-rounded">BACK TO TOP <span></span></a>button>
 </div>
 	    
 <!--  <div class="container p-3 shadow-sm">	  
@@ -151,14 +150,21 @@ layout: default
   </div> {{ site.data.text[site.locale].back_to_top | default: 'BACK TO TOP' }} -->
 	    
 <style>
-#back-to-top button span {
+#back-to-top button {
   position: fixed;
   bottom: 30px;
   right: 370px;
   font-size: 0.75em;	
   display: none;
  /* z-index: 1000; */	
-}	    
+}
+#back-top span {
+display: none;
+width: 47px;
+height: 47px;
+display: block;
+margin-bottom: 7px;
+}	
 </style>
 		<section id="back-top">
 			<a href="#top"><span></span></a>
