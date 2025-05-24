@@ -143,7 +143,15 @@ layout: default
 
 <div id="back-to-top">	    
    <button id="bot_open" class="btn btn-primary btn-rounded">BACK TO TOP ▲</button>
-</div>	
+</div>
+
+ <ion-content>.... </ion-content>
+<ion-footer>
+  <button ion-button full (click)="addToCartProduct()" style="width: 50%; height: 45px;background-color: #3498db">ADD
+    TO CART</button>
+  <button ion-button full style="width: 50%; height: 45px;background-color: #f53d3d;" (click)="proceedToCheckOut()">BUY
+    NOW</button>
+</ion-footer>	    
 <!--  <div class="container p-3 shadow-sm">	  
      Scroll to Top Button 	  
   </div> {{ site.data.text[site.locale].back_to_top | default: 'BACK TO TOP' }} -->
@@ -151,7 +159,7 @@ layout: default
 <style>
 #back-to-top button {
   position: fixed;
-  bottom: 0px;
+  bottom: 30px;
   right: 370px;
   font-size: 0.75em;	
   display: none;
