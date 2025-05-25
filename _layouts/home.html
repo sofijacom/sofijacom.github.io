@@ -20,65 +20,6 @@ layout: default
     <link rel="stylesheet" href="/assets/css/clock33.css">
     <script type="text/javascript" src="/assets/js/clock33.js"></script>
    <!-- <script src="/assets/js/jquery-4.0.0-beta.2.min.js"></script> -->
-		<title>Back on top</title>
-		<style>
-		#back-top {
-		      position: fixed;
-		      bottom: 10px;
-                      right: 30px;	
-			}
-
-		#back-top a {
-		      display: block;
-		      text-align: center;
-		      font: 12px Arial, Verdana, Tahoma, sans-serif;
-		      text-transform: uppercase;
-		      text-decoration: none;
-			  color: #333;
-			}
- 
-		#back-top a:hover {
-		      color: #000;
-			}
- 
-		#back-top span {
-    		  display: none;
-   			  width: 47px;
-	    	  height: 47px;
-    		  display: block;
-	    	  margin-bottom: 7px;
-		        border-radius: 40px;
-	    	  background: url(/assets/images/back-to-top/back-top-button.png) no-repeat center center
-			}
-		</style>
-	        <script src="/assets/js/jquery-4.0.0-beta.2.min.js"></script>
-		<script>	
-		$(document).ready(function(){
-
-        		// hide #back-top first
-		        $("#back-top").hide();
-
-        		// fade in #back-top
-        		$(function () {
-                	$(window).scroll(function () {
-                    	if ($(this).scrollTop() > 600) {
-                        	$('#back-top').fadeIn();
-                        } else {
-                                $('#back-top').fadeOut();
-                        }
-                });
-
-                // scroll body to 0px on click
-                $('#back-top a').click(function () {
-                        $('body,html').animate({
-                                scrollTop: 0
-                        }, 600);
-                        return false;
-                });
-       		 });
-
-		});		
-		</script>
 	</head> 
 	<body>
    <div class="center">
@@ -198,31 +139,9 @@ layout: default
   });
 </script>
 	    
-<!--	    
-<style>
-#back-to-top {
-  position: fixed;
-  bottom: 0px;
-  right: 370px;
-  font-size: 0.75em;	
-}
-#back-to-top span {
-display: none;
-display: block;
-}	
-</style>
-	 
- <div id="back-to-top">	    
-   <button class="btn btn-primary btn-rounded">BACK TO TOP ▲</button>
- </div>
-		vanilla-back-to-top.min.js
-		<section id="back-top" title="Back to top">
-			<a href="#top"><span></span></a>
-		</section>-->		
-
 <script src="/assets/js/vanilla-back-to-top.min.js"></script>
-<script>addBackToTop()</script>		
-<!--<script>addBackToTop({
+<!-- <script>addBackToTop()</script> default -->		
+<script>addBackToTop({
   diameter: 40,
   backgroundColor: '#4c4f69',
   innerHTML: '<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64"><path fill="currentColor" d="M32 2L16 18h10v15h12V18h10zm0 60c-3.308 0-6-2.848-6-6.348v-9.307C26 42.848 28.692 40 32 40s6 2.848 6 6.346v9.307C38 59.152 35.308 62 32 62m0-18.617c-1.654 0-3 1.33-3 2.963v9.307c0 1.633 1.346 2.965 3 2.965s3-1.332 3-2.965v-9.307c0-1.633-1.346-2.963-3-2.963M22 40H10v3h4.5v19h3V43H22zm26 0h-6v22h3v-9.309h3c3.308 0 6-2.848 6-6.348C54 42.846 51.308 40 48 40m0 9.309h-3v-5.926h3c1.654 0 3 1.328 3 2.961s-1.346 2.965-3 2.965"/></svg>',	
@@ -247,7 +166,7 @@ display: block;
 	   color: #000;   
     transform: translateY(-3px);
 }		
-</style> -->
+</style>
 		
    </body>
 </html>
