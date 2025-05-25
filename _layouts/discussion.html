@@ -34,7 +34,34 @@ layout: default
     position: relative;
     padding: 15px;
 }
+
+.header__bg-title {
+  position: absolute;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 15px;
+}
+
+.header__bg-title img {
+  max-width: 100%;
+}
+
+.header__bg-particles {
+  position: absolute;
+}
 </style>
+
+        <div class="header__bg-title" id="header__bg-title-scene">
+      <img data-depth="0.4" src="/assets/icons/fake-order-text-xl.png" alt="FakeOrder">
+    </div>
  </header>
   
 <!-- {% include page-intro.html %} -->
@@ -58,6 +85,22 @@ layout: default
   
   <body>
  <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>  
+  <script>
 
+    let headerBgTitle = document.getElementById('header__bg-title-scene');
+    let headerBgParticles = document.getElementById('header__bg-particles-scene');
+    let headerOffer = document.getElementById('header__offer-scene');
+
+    let headerBgTitleInstance = new Parallax(headerBgTitle);
+    let headerBgParticlesleInstance = new Parallax(headerBgParticles, {
+        invertY: false,
+        invertX: false
+    });
+    let headerOfferInstance = new Parallax(headerOffer, {
+      pointerEvents: true
+    });
+
+  </script>
+    
   </body>
 </html>
