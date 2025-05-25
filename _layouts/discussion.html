@@ -10,10 +10,10 @@ layout: default
     <link rel="stylesheet" href="/assets/css/style.css">     
   </head>
     <body>
-  <header class="header">
+<!--  <header class="header">
     <link rel="stylesheet" href="/assets/css/header-style.css"> 
-  </header> 
- 
+  </header> -->
+<!-- 
 <style>  
 html, body {
   /* Убираем отступы и пустое пространство */
@@ -23,8 +23,6 @@ html, body {
 }
 
 body {
-    /* Указываем положение фона — верхний край по центру */
-  background-position: center top !important;
   /* Предотвращаем повторение изображения */
   background: url('/assets/web/beach-long-exposure-nature-rock.jpeg') no-repeat center center fixed !important;
   
@@ -39,7 +37,24 @@ body {
 /* background-size: 100% 100% !important; */
 } 
 </style>
+-->
+<style>
+ body, html {
+  height: 100%;
+  margin: 0;
+}
 
+.fullscreen-bg {
+  /* Фон устанавливается в центр */
+  background: url('/assets/web/beach-long-exposure-nature-rock.jpeg') no-repeat center center !important;
+  background-size: cover !important; /* Изображение охватывает весь экран */
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1 !important; /* Фон не мешает другому содержимому */
+}
+</style>
+      
 <!-- {% include page-intro.html %} -->
   
  <div class="container" align="center">
