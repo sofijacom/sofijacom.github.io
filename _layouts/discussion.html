@@ -18,8 +18,6 @@ layout: default
   left: 10px;
   display: flex;
   height: 100vh;
-  z-index: 0;
-  background-size: cover;
   background: url("/assets/web/beach-long-exposure-nature-rock.jpeg") no-repeat center / cover !important;
   &::before {
     content: "";
@@ -30,6 +28,7 @@ layout: default
     right: 0;
     background: inherit;
     filter: blur(10px);
+    z-index: 0;
   }
 }
 /*  .header {
