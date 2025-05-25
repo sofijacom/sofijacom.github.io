@@ -20,12 +20,12 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
+  z-index: -1; /* Фон не мешает другому содержимому */
 }
 
 body {
   /* Предотвращаем повторение изображения */
   background: url('/assets/web/beach-long-exposure-nature-rock.jpeg') no-repeat center center fixed !important;
-  z-index: -1 !important; /* Фон не мешает другому содержимому */
       
   /* Обеспечиваем совместимость со старыми версиями браузеров */
   -webkit-background-size: cover; /* Для Safari 3-4 */
