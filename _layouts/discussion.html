@@ -8,29 +8,10 @@ layout: default
     <meta charset="utf-8">
     <title>Discussion section</title>
     <link rel="stylesheet" href="/assets/css/style.css">
-     <style>
+    
+  <!--   <style>
  body {
-  position: relative;
- /* justify-content: center; */
-  align-items: center;
-  top: 10px;
-  left: 10px;
-  display: flex;
-  height: 100vh;
-  background: url("/assets/web/beach-long-exposure-nature-rock.jpeg") no-repeat center / cover !important;
-  &::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background: inherit;
-    filter: blur(10px);
-    z-index: 0;
-  }
-}
-/*  .header {
+  .header {
     height: 60vh;
     width: 100%;
     display: -webkit-box;
@@ -52,10 +33,33 @@ layout: default
     overflow: hidden;
     position: relative;
     padding: 15px;
-} */
+} 
 </style>
+ -->   
   </head>
+  
+<style>
+html, body {
+  /* Убираем отступы и пустое пространство */
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 
+body {
+  /* Предотвращаем повторение изображения */
+  background: url('/assets/web/beach-long-exposure-nature-rock.jpeg') no-repeat center center fixed;
+  
+  /* Обеспечиваем совместимость со старыми версиями браузеров */
+  -webkit-background-size: cover; /* Для Safari 3-4 */
+  -moz-background-size: cover;    /* Для старых версий Firefox */
+  -o-background-size: cover;      /* Для старых версий Opera */
+  
+  /* Стандартное свойство */
+  background-size: cover;         
+}
+</style> 
+  
 <!-- {% include page-intro.html %} -->
   
  <div class="container" align="center">
