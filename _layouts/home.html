@@ -241,6 +241,10 @@ display: block;
    /* line-height: 30px; */
    /* height: 30px; */
   }
+   #back-to-top:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px);
+}		
 </style>
 -->
 
@@ -278,7 +282,7 @@ display: block;
 <button id="back-to-top" title="Back to top">
     <svg viewBox="0 0 24 24"><path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"/></svg>
 </button>
-
+<script src="/assets/js/jquery-4.0.0-beta.2.min.js"></script>	
 <script>
 document.addEventListener("DOMContentLoaded", function() {
     var backToTopButton = document.getElementById("back-to-top");
