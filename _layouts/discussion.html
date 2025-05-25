@@ -48,7 +48,7 @@ html, body {
 
 body {
   /* Предотвращаем повторение изображения */
-  background: url('/assets/web/beach-long-exposure-nature-rock.jpeg') no-repeat center center fixed;
+  background: url('/assets/web/beach-long-exposure-nature-rock.jpeg') no-repeat center center fixed !important;
   
   /* Обеспечиваем совместимость со старыми версиями браузеров */
   -webkit-background-size: cover; /* Для Safari 3-4 */
@@ -56,7 +56,8 @@ body {
   -o-background-size: cover;      /* Для старых версий Opera */
   
   /* Стандартное свойство */
-  background-size: cover;         
+  background-size: cover !important;
+/* background-size: 100% 100% !important; */
 }
 </style> 
   
