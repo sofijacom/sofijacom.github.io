@@ -15,14 +15,27 @@ layout: default
   </header> -->
 <style>
 body {
-    margin:0;
-    padding:0;
-    background:url("/assets/web/beach-long-exposure-nature-rock.jpeg") no-repeat center center fixed !important;
-    -webkit-background-size: cover !important;
-    -moz-background-size: cover !important;
-    -o-background-size: cover !important;
-    background-size: cover !important;
-    z-index: 100 !important;
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
+    flex-flow: column;
+    background-repeat: no-repeat !important;
+    background-size: 100% 100% !important;
+    background-image: url(/assets/web/beach-long-exposure-nature-rock.jpeg) !important;
+    overflow: hidden;
+    position: relative;
+    padding: 10px;
 }
 </style>
 <!--      
