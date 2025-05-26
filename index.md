@@ -3,6 +3,7 @@ layout: home
 comments: false
 paginate: false
 image: /assets/images/fon-1.jpg
+author_profile: true
 actions:
   - label: "Get Started"
     icon: github
