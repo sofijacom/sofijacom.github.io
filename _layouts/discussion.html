@@ -16,7 +16,7 @@ layout: default
   padding: 0;
 }
 
- main {
+ .wrapper {
   /* Предотвращаем повторение изображения !important */
   background: url('/assets/images/fon/7.svg') no-repeat center center fixed;
       
@@ -36,8 +36,8 @@ layout: default
   </header> -->
     
 <!--🌹 {% include page-intro.html %} 🌹-->
- 
-<!-- <div class="container" align="center">
+ <div class="wrapper">
+ <div class="container" align="center">
  <h3>Section for general discussions</h3>
 <main id="main" class="page-content" aria-label="Content">
   <div class="inner">
@@ -51,10 +51,9 @@ layout: default
     </article>
   </div>
 </main>
- </div> -->
-      <div class="entry-content">
-        {{ content }} 
-      </div>
+ </div>
+ </div>
+      
   </body>
   
 </html>
