@@ -9,13 +9,14 @@ layout: default
     <title>Discussion section</title>
     <link rel="stylesheet" href="/assets/css/style.css">
     <style>  
- html, body {
-  height: 100%;
+ html,
+ body {
   margin: 0 auto;
   padding: 0;
 }
-      
+    
  .wrapper {
+  background-color: lightgreen;
   /* Предотвращаем повторение изображения !important */
   background: url('/assets/images/fon/9.jpg') no-repeat center center fixed;
       
@@ -25,7 +26,12 @@ layout: default
   -o-background-size: cover;      /* Для старых версий Opera */
   
   /* Стандартное свойство */
-  background-size: cover;
+  background-size: 100% auto;
+}
+      
+.container {
+  align-items: center;
+  margin: auto;
 }      
 </style>
   </head>
@@ -35,8 +41,9 @@ layout: default
   </header> -->
     
 <!-- {% include page-intro.html %} -->
-
- <div class="container" align="center">
+      
+<div class="wrapper">
+ <div class="container">
  <h3>Section for general discussions</h3>
 <main id="main" class="page-content" aria-label="Content">
   <div class="inner">
@@ -51,6 +58,7 @@ layout: default
   </div>
 </main>
  </div>
+</div>
       
   </body>
   
