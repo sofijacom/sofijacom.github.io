@@ -75,5 +75,5 @@ function toggleClassSearch() {
   }, 400);
 }
 
-// back to top
-$('#back-to-top').hide('slide', {direction: 'left'}, 1000);
+// Back to top
+
