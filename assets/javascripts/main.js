@@ -74,3 +74,12 @@ function toggleClassSearch() {
     document.querySelector('.search-content input').focus();
   }, 400);
 }
+
+// back to top
+$(window).scroll(function() {
+    if (jQuery(this).scrollTop() > offset) {
+      $('.back-to-top').animate({"left":"-50px"}, "slow").removeClass('visible');
+ }  else {
+      $('.back-to-top').animate({"left":"50px"}, "slow").addClass('visible');
+ }
+});
