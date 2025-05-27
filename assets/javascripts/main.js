@@ -76,4 +76,4 @@ function toggleClassSearch() {
 }
 
 // back to top
-$('.back-to-top').hide('slide', {direction: 'left'}, 1000);
+$('#back-to-top').hide('slide', {direction: 'left'}, 1000);
