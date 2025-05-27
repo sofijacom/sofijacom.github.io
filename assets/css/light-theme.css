@@ -167,7 +167,10 @@ h1, h2, h3, h4, h5, h6 {
 html {
   font-family: "Inter", sans-serif !important;
 }
-
+html,
+body {
+  scroll-behavior: smooth !important;
+}
 kbd {
     display: inline-block !important;
     margin: 0 0.125em !important;
