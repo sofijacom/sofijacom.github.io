@@ -76,10 +76,4 @@ function toggleClassSearch() {
 }
 
 // back to top
-$(window).scroll(function() {
-    if (jQuery(this).scrollTop() > offset) {
-      $('#back-to-top').animate({"left":"-50px"}, "slow").removeClass('visible');
- }  else {
-      $('#back-to-top').animate({"left":"50px"}, "slow").addClass('visible');
- }
-});
+$('.back-to-top').hide('slide', {direction: 'left'}, 1000);
