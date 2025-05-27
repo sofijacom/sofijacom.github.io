@@ -74,6 +74,3 @@ function toggleClassSearch() {
     document.querySelector('.search-content input').focus();
   }, 400);
 }
-
-// Back to top
-
