@@ -49,9 +49,27 @@ layout: default
       <div class="entry-content">
         {{ content }} 
       </div>
-     {% if page.comments != false %}
+   <!--  {% if page.comments != false %}
        {% include  disqus.html %}
-     {% endif %}
+     {% endif %} -->
+
+  <form method="POST" action="https://staticman3.herokuapp.com/v3/entry/github/sofijacom/comments">
+
+  <input name="options[redirect]" type="hidden" value="https://your-site.com/dsblog/implementing-comments-in-jekyll-blogs">
+  <input name="options[slug]" type="hidden" value="6238-Implementing-Comments-in-Jekyll-Blogs">
+
+  <label for="name">Name</label>
+  <input name="fields[name]" type="text" required>
+
+  <label for="email">Email (optional, not displayed)</label>
+  <input name="fields[email]" type="email">
+
+  <label for="message">Comment</label>
+  <textarea name="fields[message]" required></textarea>
+
+  <button type="submit">Submit Comment</button>
+</form>
+      
 <!-- <form action="https://docs.google.com/spreadsheets/d/19CXCofuIQvUv1zsiOggsKuoAKh-E_LOdl6Pt1GQzs2Q/edit?resourcekey=&gid=1164577384#gid=1164577384" method="POST">
   <label for="name">Name:</label><br>
   <input type="text" id="name" name="entry.2024848077" required><br><br>
