@@ -21,13 +21,13 @@
 .calendar {
     font-family: 'IBM Plex Sans', sans-serif;
     position: relative;
-    top: 60px !important;
+   /* top: 60px !important; */
    /* left: 30px; */
     max-width: 400px; /*change as per your design need */
     min-width: 320px;
     background: var(--calendar-bg-color);
     color: var(--calendar-font-color);
-    margin: 20px auto; /* place in the center */
+    margin: 60px auto; /* 20px place in the center */
     box-sizing: border-box;
     overflow: hidden;
     font-weight: normal;
