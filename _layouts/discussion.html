@@ -1,22 +1,5 @@
 ---
 layout: default
-defaults:
-  -
-    scope:
-      path: ''
-      type: pages
-    values:
-      layout: page
-      author: damieng
-      commenting: open
-  -
-    scope:
-      path: '_posts'
-      type: posts
-    values:
-      layout: post
-      author: damieng
-      commenting: open
 ---
 
 <!DOCTYPE html>
@@ -69,11 +52,7 @@ defaults:
      {% if page.comments != false %}
        {% include  disqus.html %}
      {% endif %}
-      <div class="post {{ page.class }}">
-  {% include item.html %}
-  {{ page.content }}
-  {% include comments.html %}
-  </div>
+      
 <!-- <form action="https://docs.google.com/spreadsheets/d/19CXCofuIQvUv1zsiOggsKuoAKh-E_LOdl6Pt1GQzs2Q/edit?resourcekey=&gid=1164577384#gid=1164577384" method="POST">
   <label for="name">Name:</label><br>
   <input type="text" id="name" name="entry.2024848077" required><br><br>
@@ -89,6 +68,7 @@ defaults:
   
   <button type="submit">Submit</button>
 </form> -->
+      
     </article>
   </div>
 </main>
