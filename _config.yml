@@ -174,8 +174,3 @@ comments:
   provider: "disqus"
   disqus:
     shortname: "kennel-linux"
-
-emptyArray: []
-
-comments:
-  receiver: https://{{your-receiver-site}}/api/PostComment}}
