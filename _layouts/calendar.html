@@ -10,6 +10,30 @@ layout: default
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="/assets/css/style.css">
+  <style>  
+ html,
+ body {
+  margin: 0 auto;
+  padding: 0;
+}
+    
+ .wrapper {
+  /* Предотвращаем повторение изображения !important */
+  background: url('/assets/images/fon/8.jpg') no-repeat center center fixed;
+      
+  /* Обеспечиваем совместимость со старыми версиями браузеров */
+  -webkit-background-size: cover; /* Для Safari 3-4 */
+  -moz-background-size: cover;    /* Для старых версий Firefox */
+  -o-background-size: cover;      /* Для старых версий Opera */
+  
+  /* Стандартное свойство */
+  background-size: cover;
+}
+      
+.container {
+  margin: auto;
+}      
+</style>
 </head>
     
 <body>
@@ -21,15 +45,16 @@ layout: default
 <div>
   {{ content }}
 </div>
-
+  
+<div class="wrapper">
  <div class="calendar"></div> 
-
 <div class="container" align="center" style="width:100%">
   <div class="page-header">
     <small>{{ page.calendar_caption }}</small>
   </div>
 </div> 
-
+</div>
+  
 <!-- ======= Header ======= -->
 
 <script type="text/javascript" src="{{PATH_TO_COMPONENTS}}/bootstrap-calendar/js/calendar.js"></script>
