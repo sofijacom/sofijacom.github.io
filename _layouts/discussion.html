@@ -49,16 +49,22 @@ layout: default
       <div class="entry-content">
         {{ content }} 
       </div>
-     {% if page.comments != false %}
+   <!--  {% if page.comments != false %}
        {% include  disqus.html %}
-     {% endif %}
+     {% endif %} -->
 <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeXElMhFkfRfFOMJIQgUJa0mi9lrNUExF04AN4BNsI3AsTpRw/formResponse" method="POST">
   <label for="name">Name:</label><br>
   <input type="text" id="name" name="entry.2024848077" required><br><br>
   
   <label for="email">Email:</label><br>
   <input type="email" id="email" name="entry.1580993660" required><br><br>
-   
+  
+  <label for="comment">Comment:</label><br>
+  <textarea id="comment" name="entry.1065046570" rows="4" cols="50"></textarea><br><br>
+  
+  <label for="posturl">Post URL:</label><br>
+  <input type="text" id="posturl" name="entry.839337160"><br><br>
+  
   <button type="submit">Submit</button>
 </form>
     </article>
