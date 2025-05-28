@@ -52,6 +52,15 @@ layout: default
      {% if page.comments != false %}
        {% include  disqus.html %}
      {% endif %}
+      <form action="YOUR_GOOGLE_FORM_URL" method="POST">
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="entry.1234567890" required><br><br>
+  
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="entry.0987654321" required><br><br>
+   
+  <button type="submit">Submit</button>
+</form>
     </article>
   </div>
 </main>
