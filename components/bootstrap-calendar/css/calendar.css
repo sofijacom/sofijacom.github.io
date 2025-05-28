@@ -21,7 +21,7 @@
 .calendar {
     font-family: 'IBM Plex Sans', sans-serif;
     position: relative;
-   /* top: 10px; */
+    top: 60px !important;
    /* left: 30px; */
     max-width: 400px; /*change as per your design need */
     min-width: 320px;
