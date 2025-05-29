@@ -248,10 +248,3 @@ textarea {
     page-break-after: avoid;
   }  
 }
-
-.lines {
-   overflow: hidden;
-}
-.content {
-   mix-blend-mode: exclusion;
-}
