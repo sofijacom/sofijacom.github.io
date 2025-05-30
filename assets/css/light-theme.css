@@ -461,7 +461,7 @@ blockquote {
   /*  background-color: #12122042; */
 }
 .utterances-frame {
-    color-scheme: light;
+    color-scheme: boxy-light;
     position: absolute;
     left: 0;
     right: 0;
