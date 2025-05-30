@@ -5,8 +5,31 @@
         repo="sofijacom/sofijacom.github.io"
         issue-term="pathname"
         label="✨💬 Coments✨"
-        theme= "github-dark-orange"  /* github-dark, dark-blue, github-dark-orange, icy-dark, github-light, boxy-light */
+        theme= "dark-blue"  /* github-dark, dark-blue, github-dark-orange, icy-dark, github-light, boxy-light */
         crossorigin="anonymous"
         async>
-      </script>         
+      </script>
+     document.head.insertAdjacentHTML(
+  'afterbegin',
+  `<style>
+    .utterances {
+      position: relative;
+      box-sizing: border-box;
+      width: 100%;
+      max-width: 760px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .utterances-frame {
+      color-scheme: light;
+      position: absolute;
+      left: 0;
+      right: 0;
+      width: 1px;
+      min-width: 100%;
+      max-width: 100%;
+      height: 100%;
+      border: 50px;
+    }
+  </style>`);
 </div>
