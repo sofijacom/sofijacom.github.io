@@ -438,19 +438,3 @@ ul.podcast-links li:hover {
     color: var(--heading-font-color) !important;
     cursor: pointer !important;
 }
-
-.reaction-list>.reaction-button {
-    border-radius: 50px !important; 
-    font-weight: 400;
-    padding: 8px 16px;
-}
-
-.reaction-button {
-    box-shadow: none;
-}
-.BtnGroup-item {
-    border-radius: 50px !important;
-    border-right-width: 0;
-    float: left;
-    position: relative;
-}
