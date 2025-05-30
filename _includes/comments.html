@@ -1,3 +1,4 @@
+<main class="content">
 <!-- <hr /> -->
 <script src="https://utteranc.es/client.js"
 repo="sofijacom/sofijacom.github.io"
@@ -7,6 +8,7 @@ theme= "boxy-light"  /* github-dark, dark-blue, github-dark-orange, icy-dark, gi
 crossorigin="anonymous"
 async>
 </script>
+</main>
 
 <style>
 .utterances {
@@ -30,5 +32,12 @@ async>
     height: 100%;
     border: 1px solid #4c4f69;
     border-radius: 20px;  /* 0 */
+}
+main {
+    grid-column: full;
+    display: grid;
+    grid-template-columns: subgrid;
+    --main-border: .4rem ridge #69f;
+    --main-border-radius: .5rem;
 }    
 </style>
