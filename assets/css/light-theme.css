@@ -440,11 +440,11 @@ ul.podcast-links li:hover {
 }
 
 blockquote {
-  font-style: italic;
-  border-left: 4px solid #00aaff;
-  margin: 20px;
-  padding: 10px;
+  font-style: italic !important;
+  border-left: 4px solid #00aaff !important;
+  margin: 20px !important;
+  padding: 10px !important;
  /* background-color: #f9f9f9; */
-  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
-  font-family: 'Georgia', serif;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1) !important;
+  font-family: 'Georgia', serif !important;
 }
