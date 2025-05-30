@@ -30,6 +30,7 @@ A variety of common HTML elements to demonstrate the theme's stylesheet and veri
 ###### Header six
 
 ## Blockquotes
+***"This is an example of a quote with additional styling such as shadows and modified fonts."***
 
 Single line blockquote:
 
@@ -197,9 +198,3 @@ Still sticking with science and Isaac Newton's E = MC<sup>2</sup>, which should 
 ## Variable element
 
 This allows you to denote <var>variables</var>.
-
-## Tag blockquote
-
-<blockquote>
-  "This is an example of a quote with additional styling such as shadows and modified fonts."
-</blockquote>
