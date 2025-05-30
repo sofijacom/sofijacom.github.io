@@ -198,7 +198,7 @@ Still sticking with science and Isaac Newton's E = MC<sup>2</sup>, which should 
 
 This allows you to denote <var>variables</var>.
 
-## Tag <blockquote>
+## Tag blockquote
 
 <blockquote>
   "This is an example of a quote with additional styling such as shadows and modified fonts."
