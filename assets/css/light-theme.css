@@ -438,3 +438,7 @@ ul.podcast-links li:hover {
     color: var(--heading-font-color) !important;
     cursor: pointer !important;
 }
+.markdown-alert.markdown-alert-note {
+    border-left: 4px solid #1b6eea;
+    padding-left: 5px;
+}
