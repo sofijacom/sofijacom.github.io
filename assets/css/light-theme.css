@@ -442,3 +442,7 @@ ul.podcast-links li:hover {
     border-left: 4px solid #1b6eea;
     padding-left: 5px;
 }
+.octicon {
+    fill: #1b6eea;
+    display: inline-block;
+}
