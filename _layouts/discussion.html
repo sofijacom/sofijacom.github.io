@@ -50,7 +50,8 @@ layout: default
         {{ content }} 
       </div>
      {% if page.comments != false %}
-       {% include  disqus.html %}
+      <!-- {% include  disqus.html %} -->
+      {% include  comments.html %}
      {% endif %}
     </article>
   </div>
@@ -58,26 +59,6 @@ layout: default
  </div>
 </div>
 
-<!-- <script src="https://utteranc.es/client.js"
-        repo="sofijacom.github.io"
-        issue-term="url"
-        theme="dark-blue"
-        crossorigin="anonymous"
-        async>
-</script> -->
-      <div class="col-lg-8 col-md-10 mx-auto">
-      <hr />
-      <script src="https://utteranc.es/client.js"
-        repo="sofijacom.github.io"
-        issue-term="url"
-        label="✨💬 Coments✨"
-        theme="dark-blue"
-        crossorigin="anonymous"
-        async>
-      </script>
-        
-     </div> 
-  
   </body>
 
 </html>
