@@ -198,3 +198,8 @@ Still sticking with science and Isaac Newton's E = MC<sup>2</sup>, which should 
 ## Variable element
 
 This allows you to denote <var>variables</var>.
+
+
+<p align="center">
+  ━━━━━━  ❖  ━━━━━━  
+</p>
