@@ -449,3 +449,6 @@ blockquote {
   font-family: 'Georgia', serif !important;
 }
 
+.timeline-comment .avatar>img {
+    border-radius: 50px !important;
+}
