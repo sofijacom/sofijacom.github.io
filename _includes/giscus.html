@@ -8,27 +8,11 @@
         data-reactions-enabled="1"
         data-emit-metadata="1"
         data-input-position="bottom"
-        data-theme="catppuccin_macchiato"
+        data-theme="catppuccin_latte"
         data-lang="en"
         crossorigin="anonymous"
         async>
-        
-(function() {
-    var dmmq = window.matchMedia('(prefers-color-scheme: dark)');
-    var giscusFrame;
-    function updateGiscus() {
-        if (!giscusFrame) giscusFrame = document.querySelector('iframe.giscus-frame');
-        if (dmmq.matches) {
-            // Dark theme
-            giscusFrame.contentWindow.postMessage({ giscus: { setConfig: { theme: 'dark' } } }, 'https://giscus.app');
-        } else {
-            // Light theme
-            giscusFrame.contentWindow.postMessage({ giscus: { setConfig: { theme: 'light' } } }, 'https://giscus.app');
-        }
-    }
-    setTimeout(updateGiscus, 1000); // leave time for giscus to load
-    dmmq.addEventListener('change', updateGiscus);
-})();  
+          
 </script>
 
 <!--
