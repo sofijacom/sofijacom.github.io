@@ -107,8 +107,8 @@ layout: default
       <div class="entry-content">
         {{ content }}
       </div>
-      {% if page.comments != false %}
-	      % include  disqus.html %}
+     {% if page.comments != false %}
+       {% include  giscus.html %}
      {% endif %}
     </article>
   </div>
