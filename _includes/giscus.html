@@ -1,76 +1,3 @@
-<script>
-  function getTheme() {
-    return document.body.classList.contains("dark")
-      ? "catppuccin_macchiato"
-      : "catppuccin_latte";
-  }
-
-  let giscusAttributes = {
-    src: "https://giscus.app/client.js",
-    "data-repo": "sofijacom/sofijacom.github.io",
-    "data-repo-id": "R_kgDON7iIDw",
-    "data-category": "Announcements",
-    "data-category-id": "DIC_kwDON7iID84Cq1Zx",
-    "data-mapping": "pathname",
-    "data-strict": "0",
-    "data-reactions-enabled": "1",
-    "data-emit-metadata": "1",
-    "data-input-position": "bottom",
-    "data-theme": getTheme(),
-    "data-lang": "en",
-    crossorigin: "anonymous",
-    async: "",
-  };
-
-  let giscusScript = document.createElement("script");
-  Object.entries(giscusAttributes).forEach(([key, value]) =>
-    giscusScript.setAttribute(key, value),
-  );
-  document.querySelector("main").appendChild(giscusScript);
-
-  function changeGiscusTheme() {
-    const iframe = document.querySelector("iframe.giscus-frame");
-
-    const setGisSrc = (theme) => {
-      if (!iframe) {
-        return;
-      }
-
-      const iframeSrc = iframe.src;
-      const iframeUrl = new URL(iframeSrc);
-      const iframeSearchParams = iframeUrl.searchParams;
-      iframeSearchParams.set("theme", theme);
-
-      iframe.src = iframeUrl.toString();
-    };
-
-    const sendMessage = (message) => {
-      if (iframe?.contentWindow) {
-        iframe.contentWindow.postMessage(
-          { giscus: message },
-          "https://giscus.app",
-        );
-      }
-    };
-
-    // Giscus doesn't accept messages if it's not loaded
-    if (iframe?.classList.contains("giscus-frame--loading")) {
-      setGisSrc(getTheme());
-    } else {
-      sendMessage({ setConfig: { theme: getTheme() } });
-    }
-  }
-
-  const themeToggle = document.getElementById(".btn-toggle");
-
-  if (typeof themeToggle !== "undefined") {
-    themeToggle.addEventListener("click", () =>
-      // Add timeout to wait for actual switch before changing theme.
-      setTimeout(changeGiscusTheme, 100),
-    );
-  }
-</script>
-<!--
 <script src="https://giscus.app/client.js"
         data-repo="sofijacom/sofijacom.github.io"
         data-repo-id="R_kgDON7iIDw"
@@ -85,6 +12,25 @@
         data-lang="en"
         crossorigin="anonymous"
         async>
+
+ function changeGiscusTheme() {
+  const theme = document.body.classList.contains('quarto-dark') ? 'dark' : 'light';
+  function sendMessage(message) {
+    const iframe = document.querySelector('iframe.giscus-frame');
+    if (!iframe) return;
+    iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+  }
+  sendMessage({
+    setConfig: {
+      theme: theme,
+    },
+  });
+}
+
+const toggle = document.querySelector('.quarto-color-scheme-toggle');
+if (toggle) {
+  toggle.addEventListener('click', changeGiscusTheme);
+} 
 </script>
 -->
 <!--
