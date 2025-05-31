@@ -1,6 +1,6 @@
 ---
 layout: home
-comments: false
+comments: true
 paginate: false
 image: /assets/images/fon-1.jpg
 actions:
