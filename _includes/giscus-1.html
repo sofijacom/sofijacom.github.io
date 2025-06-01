@@ -1,12 +1,13 @@
 <!-- esm.sh -->
 <script type="module" src="https://esm.sh/giscus"></script>
-<script>
+
+<div class="comments-container">
 <giscus-widget
   id="comments"
-  repo="giscus/giscus"
-  repoid="MDEwOlJlcG9zaXRvcnkzNTE5NTgwNTM="
+  repo="sofijacom/sofijacom.github.io"
+  repoid="R_kgDON7iIDw"
   category="General"
-  categoryid="MDE4OkRpc2N1c3Npb25DYXRlZ29yeTMyNzk2NTc1"
+  categoryid="DIC_kwDON7iID84Cq1Zx"
   mapping="specific"
   term="Welcome to giscus!"
   reactionsenabled="1"
@@ -16,7 +17,15 @@
   lang="en"
   loading="lazy"
 ></giscus-widget>
-</script>
+</div>
+
+<style>
+.comments-container {
+  max-height: 640px;
+  overflow-y: scroll;
+}
+</style>
+
 <!--
 data-loading="lazy"
 light, dark, catppuccin_latte, catppuccin_macchiato, gruvbox_light, transparent_dark, preferred_color_scheme, cobalt, purple_dark
