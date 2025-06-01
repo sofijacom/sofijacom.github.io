@@ -35,7 +35,7 @@
     --text-color: #4c4f69;
     --accent-color: #dc8a78;
     }
-  }
+  
 
 body {
     background: #e6e9ef !important;
@@ -445,4 +445,4 @@ blockquote {
   box-shadow: 2px 2px 5px rgba(0,0,0,0.1) !important;
   font-family: 'Georgia', serif !important;
 }
-
+}
