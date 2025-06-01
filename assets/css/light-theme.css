@@ -22,9 +22,6 @@
     --background-color: #e6e9ef;
     --text-color: #4c4f69;
     --accent-color: #dc8a78;
-    --link-color: rgb(0, 0, 238);
-    --main-headline-color: rgb(0, 0, 192);
-    --accent-background-color: rgb(0, 0, 238);
 }
 
   @media (prefers-color-scheme: light-theme) {
