@@ -21,10 +21,10 @@
         if (!giscusFrame) giscusFrame = document.querySelector('iframe.giscus-frame');
         if (dmmq.matches) {
             // Dark theme
-            giscusFrame.contentWindow.postMessage({ giscus: { setConfig: { theme: 'dark' } } }, 'https://giscus.app');
+            giscusFrame.contentWindow.postMessage({ giscus: { setConfig: { theme: 'catppuccin_macchiato' } } }, 'https://giscus.app');
         } else {
             // Light theme
-            giscusFrame.contentWindow.postMessage({ giscus: { setConfig: { theme: 'light' } } }, 'https://giscus.app');
+            giscusFrame.contentWindow.postMessage({ giscus: { setConfig: { theme: 'catppuccin_latte' } } }, 'https://giscus.app');
         }
     }
     setTimeout(updateGiscus, 1000); // leave time for giscus to load
