@@ -8,30 +8,12 @@
         data-reactions-enabled="1"
         data-emit-metadata="0"
         data-input-position="bottom"
-        data-theme=""
+        data-theme="prefers-color-scheme: light"
         data-lang="en"
         data-loading="lazy"
         crossorigin="anonymous"
         async>
 
-      function changeGiscusTheme() {
-        // theme can either be `dark` or `light`.
-        let theme = localStorage.getItem(".btn-toggle");
-        let message = { setConfig: { theme: theme } };
-        let iframe = document.querySelector('iframe.giscus-frame');
-        // iframe might not be loaded by the time this function is called.
-        if (iframe) {
-            iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
-        }
-    }
-
-    function handleMessage(event) {
-        if (event.origin !== 'https://giscus.app') return;
-        if (!(typeof event.data === 'object' && event.data.giscus)) return;
-        changeGiscusTheme();
-    }
-      
-    window.addEventListener('message', handleMessage);
 </script>
 
 <!--
