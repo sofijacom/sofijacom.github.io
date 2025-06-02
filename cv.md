@@ -1,6 +1,6 @@
 ---
 layout: resume
-comments: true
+comments: false
 title: Resume
 sub_title: "Contact / References"
 image: /assets/images/Resumr-1.jpg
