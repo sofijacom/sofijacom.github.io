@@ -9,11 +9,18 @@
         data-reactions-enabled="1"
         data-emit-metadata="0"
         data-input-position="bottom"
-        data-theme="catppuccin_latte"
+        data-theme="preferred_color_scheme"
         data-lang="en"
         crossorigin="anonymous"
         async>
-
+        
+export function getTheme(theme: string) {
+  if (!theme) theme = 'catppuccin_latte';
+  if (theme === 'preferred_color_scheme') {
+    theme = matchMedia('(prefers-color-scheme: catppuccin_macchiato)').matches ? 'atppuccin_macchiato' : 'catppuccin_latte';
+  }
+  return theme;
+}
 </script>
 
 <!--
