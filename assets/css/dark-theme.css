@@ -24,7 +24,7 @@
     --accent-color: #c09bef;
 }
 
-  @media (prefers-color-scheme: dark-theme) {
+  @media (prefers-color-scheme: dark) {
     :root {
     --base-color: #4c4f69;
     --code-background-color: #cdd6f3;
