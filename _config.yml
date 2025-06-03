@@ -113,6 +113,11 @@ paginate: 5  # amount of posts to show per page
 paginate_path: /page:num/
 
 google_analytics: G-Y3XDRGQR98
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = false
+    respectDoNotTrack = true
+    useSessionStorage = true
 
 # jekyll-multiple-languages-plugin settings:
 # languages: ["en", "ru"]
