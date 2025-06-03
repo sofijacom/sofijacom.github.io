@@ -113,6 +113,7 @@ paginate: 5  # amount of posts to show per page
 paginate_path: /page:num/
 
 google_analytics: G-Y3XDRGQR98
+[privacy]
   [privacy.googleAnalytics]
     anonymizeIP = true
     disable = false
