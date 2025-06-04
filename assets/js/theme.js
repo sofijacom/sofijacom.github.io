@@ -1,10 +1,10 @@
 // By Sofiya 
 // Выбираем кнопку
-const btn = document.querySelector(".btn-toggle");
+const themeToggle = document.getElementById("theme-toggle");
 // Выбираем таблицу стилей
 const theme = document.querySelector("#theme-link");
 // Отслеживаем щелчок по кнопке
-btn.addEventListener("click", function() {
+themeToggle.addEventListener("click", function() {
     // Если текущий адрес содержит "light-theme.css"
     if (theme.getAttribute("href") == "/assets/css/light-theme.css") {
         // …то переключаемся на "dark-theme.css"
