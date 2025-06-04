@@ -63,10 +63,8 @@
   }
 
   const btn = document.querySelector(".btn-toggle");
-// Выбираем таблицу стилей
-const theme = document.querySelector("#theme-link");
 
-  if (typeof btnToggle !== "undefined") {
+  if (typeof btn !== "undefined") {
     btn.addEventListener("click", () =>
       // Add timeout to wait for actual switch before changing theme.
       setTimeout(changeGiscusTheme, 100),
