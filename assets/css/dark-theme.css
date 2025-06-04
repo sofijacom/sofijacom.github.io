@@ -14,33 +14,6 @@
 @font-monospace: "IBM Plex Mono", monospace;
 
 :root {
-  --catppuccin-latte-rosewater: #dc8a78;
-  --catppuccin-latte-flamingo: #dd7878;
-  --catppuccin-latte-pink: #ea76cb;
-  --catppuccin-latte-mauve: #8839ef;
-  --catppuccin-latte-red: #d20f39;
-  --catppuccin-latte-maroon: #e64553;
-  --catppuccin-latte-peach: #fe640b;
-  --catppuccin-latte-yellow: #df8e1d;
-  --catppuccin-latte-green: #40a02b;
-  --catppuccin-latte-teal: #179299;
-  --catppuccin-latte-sky: #04a5e5;
-  --catppuccin-latte-sapphire: #209fb5;
-  --catppuccin-latte-blue: #1e66f5;
-  --catppuccin-latte-lavender: #7287fd;
-  --catppuccin-latte-text: #4c4f69;
-  --catppuccin-latte-subtext1: #5c5f77;
-  --catppuccin-latte-subtext0: #6c6f85;
-  --catppuccin-latte-overlay2: #7c7f93;
-  --catppuccin-latte-overlay1: #8c8fa1;
-  --catppuccin-latte-overlay0: #9ca0b0;
-  --catppuccin-latte-surface2: #acb0be;
-  --catppuccin-latte-surface1: #bcc0cc;
-  --catppuccin-latte-surface0: #ccd0da;
-  --catppuccin-latte-base: #eff1f5;
-  --catppuccin-latte-mantle: #e6e9ef;
-  --catppuccin-latte-crust: #dce0e8;
-
   --catppuccin-macchiato-rosewater: #f4dbd6;
   --catppuccin-macchiato-flamingo: #f0c6c6;
   --catppuccin-macchiato-pink: #f5bde6;
@@ -67,16 +40,6 @@
   --catppuccin-macchiato-base: #24273a;
   --catppuccin-macchiato-mantle: #1e2030;
   --catppuccin-macchiato-crust: #181926;
-
-  --theme: var(--catppuccin-latte-base);
-  --entry: var(--catppuccin-latte-mantle);
-  --primary: var(--catppuccin-latte-text);
-  --secondary: var(--catppuccin-latte-subtext0);
-  --tertiary: var(--catppuccin-latte-subtext1);
-  --content: var(--catppuccin-latte-text);
-  --hljs-bg: var(--catppuccin-latte-surface0);
-  --code-bg: var(--catppuccin-latte-surface0);
-  --border: var(--catppuccin-latte-overlay0);
 }
 
 .list {
