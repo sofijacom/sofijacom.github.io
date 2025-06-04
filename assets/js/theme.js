@@ -1,6 +1,6 @@
 // By Sofiya 
 // Выбираем кнопку
-const themeToggle = document.querySelector("theme-toggle");
+const themeToggle = document.getElementById("theme-toggle");
 // Выбираем таблицу стилей
 const theme = document.querySelector("#theme-link");
 // Отслеживаем щелчок по кнопке
