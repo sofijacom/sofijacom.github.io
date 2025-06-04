@@ -62,9 +62,9 @@
     }
   }
 
-  const btn = document.getElementById(".btn-toggle");
+  const btn = document.getElementById("btn-toggle");
 
-  if (typeof btn !== "undefined") {
+  if (typeof themeToggle !== "undefined") {
     btn.addEventListener("click", () =>
       // Add timeout to wait for actual switch before changing theme.
       setTimeout(changeGiscusTheme, 100),
