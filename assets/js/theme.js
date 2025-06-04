@@ -30,3 +30,9 @@ themeToggle.addEventListener("click", function() {
    theme.href = "/assets/css/light-theme.css";
  }
 
+  if (typeof themeToggle !== "undefined") {
+    themeToggle.addEventListener("click", () =>
+      // Add timeout to wait for actual switch before changing theme.
+      setTimeout(changeGiscusTheme, 100),
+    );
+  }
