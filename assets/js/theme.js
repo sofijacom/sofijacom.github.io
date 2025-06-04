@@ -1,13 +1,6 @@
 // By Sofiya 
 // Выбираем кнопку
 const themeToggle = document.getElementById("theme-toggle");
-
-  if (typeof themeToggle !== "undefined") {
-    themeToggle.addEventListener("click", () =>
-      // Add timeout to wait for actual switch before changing theme.
-      setTimeout(changeGiscusTheme, 300),
-    );
-  }
 // Выбираем таблицу стилей
 const theme = document.querySelector("#theme-link");
 // Отслеживаем щелчок по кнопке
