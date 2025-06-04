@@ -62,7 +62,9 @@
     }
   }
 
-  const btn = document.getElementById("btn-toggle");
+  const btn = document.querySelector(".btn-toggle");
+// Выбираем таблицу стилей
+const theme = document.querySelector("#theme-link");
 
   if (typeof themeToggle !== "undefined") {
     btn.addEventListener("click", () =>
