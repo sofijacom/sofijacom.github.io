@@ -37,8 +37,13 @@ layout: default
 </head>
 
 <body>
-    <header class="header" align="center">
-<iframe  frameborder="yes" scrolling="no" width="280" height="150" src="https://yandex.ru/time/widget/?geoid=202&lang=ru&layout=horiz&type=digital&face=serif"></iframe>
+<header class="header" align="center">
+<a href="https://time.is/Moscow" id="time_is_link" rel="nofollow" style="font-size:36px">Moscow:</a>
+<span id="Moscow_z71d" style="font-size:36px"></span>
+<script src="//widget.time.is/t.js"></script>
+<script>
+time_is_widget.init({Moscow_z71d:{}});
+</script>
   </header>
   
 {% assign PATH_TO_COMPONENTS =  "/components" | prepend: site.baseurl %}
