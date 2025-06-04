@@ -40,18 +40,6 @@ layout: default
   
 {% assign PATH_TO_COMPONENTS =  "/components" | prepend: site.baseurl %}
   
- <main id="main" class="page-content" aria-label="Content">
-  <div class="inner">
-    <article class="entry-wrap">
-      <div class="entry-content">
-       <div>
-        {{ content }}  
-        </div>
-        </div>
-        </article>
-      </div>
-    </main>
-  
 <div class="wrapper">
   <div class="container" align="center" style="width:100%">
    <script src="https://cdn.logwork.com/widget/digital.js"></script>
@@ -66,5 +54,17 @@ layout: default
   
 <script type="text/javascript" src="{{PATH_TO_COMPONENTS}}/bootstrap-calendar/js/calendar.js"></script>
 
+   <main id="main" class="page-content" aria-label="Content">
+  <div class="inner">
+    <article class="entry-wrap">
+      <div class="entry-content">
+       <div>
+        {{ content }}  
+        </div>
+        </div>
+        </article>
+      </div>
+    </main>
+  
   </body> 
 </html>
