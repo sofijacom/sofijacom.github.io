@@ -14,63 +14,6 @@
 @font-monospace: "IBM Plex Mono", monospace;
 
 :root {
-  --catppuccin-macchiato-rosewater: #f4dbd6;
-  --catppuccin-macchiato-flamingo: #f0c6c6;
-  --catppuccin-macchiato-pink: #f5bde6;
-  --catppuccin-macchiato-mauve: #c6a0f6;
-  --catppuccin-macchiato-red: #ed8796;
-  --catppuccin-macchiato-maroon: #ee99a0;
-  --catppuccin-macchiato-peach: #f5a97f;
-  --catppuccin-macchiato-yellow: #eed49f;
-  --catppuccin-macchiato-green: #a6da95;
-  --catppuccin-macchiato-teal: #8bd5ca;
-  --catppuccin-macchiato-sky: #91d7e3;
-  --catppuccin-macchiato-sapphire: #7dc4e4;
-  --catppuccin-macchiato-blue: #8aadf4;
-  --catppuccin-macchiato-lavender: #b7bdf8;
-  --catppuccin-macchiato-text: #cad3f5;
-  --catppuccin-macchiato-subtext1: #b8c0e0;
-  --catppuccin-macchiato-subtext0: #a5adcb;
-  --catppuccin-macchiato-overlay2: #939ab7;
-  --catppuccin-macchiato-overlay1: #8087a2;
-  --catppuccin-macchiato-overlay0: #6e738d;
-  --catppuccin-macchiato-surface2: #5b6078;
-  --catppuccin-macchiato-surface1: #494d64;
-  --catppuccin-macchiato-surface0: #363a4f;
-  --catppuccin-macchiato-base: #24273a;
-  --catppuccin-macchiato-mantle: #1e2030;
-  --catppuccin-macchiato-crust: #181926;
-}
-
-.list {
-  background: var(--theme);
-}
-
-.dark {
-  --theme: var(--catppuccin-macchiato-base);
-  --entry: var(--catppuccin-macchiato-mantle);
-  --primary: var(--catppuccin-macchiato-text);
-  --secondary: var(--catppuccin-macchiato-subtext0);
-  --tertiary: var(--catppuccin-macchiato-subtext1);
-  --content: var(--catppuccin-macchiato-text);
-  --hljs-bg: var(--catppuccin-macchiato-surface0);
-  --code-bg: var(--catppuccin-macchiato-surface0);
-  --border: var(--catppuccin-macchiato-lavender);
-}
-
-.dark.list {
-  background: var(--theme);
-}
-
-.chroma {
-  background-color: var(--catppuccin-macchiato-surface0) !important;
-}
-
-.post-content pre code {
-  background-color: var(--catppuccin-macchiato-surface0) !important;
-}
-
-/*:root {
     --base-color: #4c4f69;
     --code-background-color: #cdd6f3;
     --border-color: #cdd6f3;
@@ -92,7 +35,7 @@
     --text-color: #cdd6f4;
     --accent-color: #c09bef;
     }
-  } */
+  }
 
 body {
     background: #1e2030 !important;
