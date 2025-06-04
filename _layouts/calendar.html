@@ -56,8 +56,18 @@ layout: default
  </div> 
 </div>
 
-    {% include footer.html %}
-    {% include scripts.html %}
+ <main id="main" class="page-content" aria-label="Content">
+  <div class="inner">
+    <article class="entry-wrap">
+      <div class="entry-content">
+        {{ content }}
+      </div>
+    <!-- {% if page.comments != false %}
+       {% include  giscus-component.html %}
+     {% endif %} -->
+    </article>
+  </div>
+</main>
   
 <script type="text/javascript" src="{{PATH_TO_COMPONENTS}}/bootstrap-calendar/js/calendar.js"></script>
 
