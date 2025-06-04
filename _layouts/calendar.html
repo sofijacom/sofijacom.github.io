@@ -35,7 +35,7 @@ layout: default
 }     
 </style>
 </head>
-
+  
 <body>
 <header class="header" align="center">
 <a href="https://time.is/Moscow" id="time_is_link" rel="nofollow" style="font-size:24px">Moscow:</a>
@@ -47,8 +47,6 @@ time_is_widget.init({Moscow_z71d:{time_format:"hours:minutes:seconds"}});
 </header>
   
 {% assign PATH_TO_COMPONENTS =  "/components" | prepend: site.baseurl %}
-
-<!-- <div class="calendar"></div> -->
 
 <div>
   {{ content }}  
@@ -63,8 +61,6 @@ time_is_widget.init({Moscow_z71d:{time_format:"hours:minutes:seconds"}});
 </div> 
 </div>
   
-<!-- ======= Header ======= -->
-
 <script type="text/javascript" src="{{PATH_TO_COMPONENTS}}/bootstrap-calendar/js/calendar.js"></script>
 
   </body> 
