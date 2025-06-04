@@ -1,26 +1,7 @@
 <!-- style="color:#aa55ff"-->
 <h4 class="page__comments-title">Leave a comment</h4>
 <script>
-function changeGiscusTheme () {
-  let modeToggle = new ModeToggle();
-  const theme = modeToggle.mode === 'dark' ?  'dark' : 'light'
-  function sendMessage(message) {
-    const iframe = document.querySelector('iframe.giscus-frame');
-    if (!iframe) return;
-    iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app'https://giscus.app');
-  }
-  sendMessage({
-    setConfig: {
-      theme: theme
-    }
-  });
-}
-
-const themeToggle = document.getElementsByClassName("theme-toggle")[0];
-
-if (typeof themeToggle !== "undefined") {
-  themeToggle.addEventListener('click', changeGiscusTheme);
-
+  let giscusTheme = localStorage.getItem("giscus-theme");
   let giscusAttributes = {
     "src": "https://giscus.app/client.js",
     "data-repo": "sofijacom/sofijacom.github.io",
@@ -37,6 +18,9 @@ if (typeof themeToggle !== "undefined") {
     "async": "",
   };
 
+    let giscusScript = document.createElement("script");
+  Object.entries(giscusAttributes).forEach(([key, value]) => giscusScript.setAttribute(key, value));
+  document.body.appendChild(giscusScript);
 </script>
 
 
