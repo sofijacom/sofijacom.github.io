@@ -43,9 +43,9 @@ document.addEventListener('DOMContentLoaded', function () {
   document.body.appendChild(giscusScript);
 
   // Update giscus theme when theme switcher is clicked
-  const toggle = document.querySelector('.quarto-color-scheme-toggle');
+  const btn = document.querySelector('.quarto-color-scheme-toggle');
   if (toggle) {
-    toggle.addEventListener('click', setGiscusTheme);
+    btn.addEventListener('click', setGiscusTheme);
   }
 });
 </script>
