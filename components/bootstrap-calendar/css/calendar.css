@@ -27,7 +27,7 @@
     min-width: 320px;
     background: var(--calendar-bg-color);
     color: var(--calendar-font-color);
-    margin: 60px auto; /* 20px place in the center */
+    margin: 20px auto; /* 20px place in the center */
     box-sizing: border-box;
     overflow: hidden;
     font-weight: normal;
