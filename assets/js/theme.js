@@ -2,7 +2,7 @@
 // Выбираем кнопку
 const themeToggle = document.getElementById("theme-toggle");
 // Выбираем таблицу стилей
-const theme = document.querySelector("#theme-link");
+const theme = document.getElementById("#theme-link");
 // Отслеживаем щелчок по кнопке
 themeToggle.addEventListener("click", function() {
     // Если текущий адрес содержит "light-theme.css"
