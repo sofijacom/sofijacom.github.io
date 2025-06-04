@@ -40,7 +40,9 @@
   --catppuccin-latte-base: #eff1f5;
   --catppuccin-latte-mantle: #e6e9ef;
   --catppuccin-latte-crust: #dce0e8;
-
+  --text-color: #4c4f69;
+  --accent-color: #dc8a78;
+  
   --catppuccin-macchiato-rosewater: #f4dbd6;
   --catppuccin-macchiato-flamingo: #f0c6c6;
   --catppuccin-macchiato-pink: #f5bde6;
@@ -107,7 +109,7 @@
   background-color: var(--catppuccin-macchiato-surface0) !important;
 }
 
-:root {
+/*:root {
     --base-color: #4c4f69;
     --code-background-color: #4c4f69;
     --border-color: #4c4f69;
@@ -129,7 +131,7 @@
     --text-color: #4c4f69;
     --accent-color: #dc8a78;
     }
-  }
+  } */
 
 body {
     background: #e6e9ef !important;
