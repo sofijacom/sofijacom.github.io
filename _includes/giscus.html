@@ -80,6 +80,16 @@ themeToggle.addEventListener("click", function() {
      localStorage.setItem("my-theme",null);
     }    
 });
+
+       // Check local storage every reload to know which theme to use.
+ if (localStorage.getItem("my-theme")==="dark") {
+   // Use dark theme.
+   theme.href = "/assets/css/dark-theme.css";
+ }
+ else {
+   // Use default theme.
+   theme.href = "/assets/css/light-theme.css";
+ }
 </script>
 <!-- style="color:#aa55ff"-->
 <!--<h4 class="page__comments-title">Leave a comment</h4>
