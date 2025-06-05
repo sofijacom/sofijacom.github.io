@@ -165,6 +165,18 @@ This scarcely known element emulates <kbd>keyboard text</kbd>, which is usually 
 
 ( <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> or <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> ).
 
+## Other Elements — abbr, sub, sup, kbd, mark
+
+<abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.
+
+H<sub>2</sub>O
+
+X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
+
+Press <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> to end the session.
+
+Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.
+
 ## Preformatted element
 
 This element styles large blocks of code.
