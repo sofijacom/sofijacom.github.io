@@ -61,14 +61,25 @@
     }
   }
 
-  const themeToggle = document.getElementById("theme-toggle");
-
-  if (typeof themeToggle !== "undefined") {
-    themeToggle.addEventListener("click", () =>
-      // Add timeout to wait for actual switch before changing theme.
-      setTimeout(changeGiscusTheme, 1000),
-    );
-  }
+const themeToggle = document.getElementById("theme-toggle");
+// Выбираем таблицу стилей
+const theme = document.querySelector("#theme-link");
+// Отслеживаем щелчок по кнопке
+themeToggle.addEventListener("click", function() {
+    // Если текущий адрес содержит "light-theme.css"
+    if (theme.getAttribute("href") == "/assets/css/light-theme.css") {
+        // …то переключаемся на "dark-theme.css"
+        theme.href = "/assets/css/dark-theme.css";
+        // В противном случае…
+             // Add the ff. line to write to memory.
+     localStorage.setItem("my-theme","dark");
+    } else {
+        // …переключаемся на "light-theme.css"
+        theme.href = "/assets/css/light-theme.css";
+             // Add the ff. line to write to memory.
+     localStorage.setItem("my-theme",null);
+    }    
+});
 </script>
 <!-- style="color:#aa55ff"-->
 <!--<h4 class="page__comments-title">Leave a comment</h4>
