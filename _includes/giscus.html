@@ -1,5 +1,77 @@
+<script>
+  function getTheme() {
+    return document.body.classList.contains("dark")
+      ? "catppuccin_macchiato"
+      : "catppuccin_latte";
+  }
+
+  let giscusAttributes = {
+    src: "https://giscus.app/client.js",
+    "data-repo": "sofijacom/sofijacom.github.io",
+    "data-repo-id": "R_kgDON7iIDw",
+    "data-category": "General",
+    "data-category-id": "DIC_kwDON7iID84Cq1Zx",
+    "data-mapping": "pathname",
+    "data-strict": "1",
+    "data-reactions-enabled": "1",
+    "data-emit-metadata": "0",
+    "data-input-position": "top",
+    "data-theme": getTheme(),
+    "data-lang": "en",
+    crossorigin: "anonymous",
+    async: "",
+  };
+
+  let giscusScript = document.createElement("script");
+  Object.entries(giscusAttributes).forEach(([key, value]) =>
+    giscusScript.setAttribute(key, value),
+  );
+  document.querySelector("main").appendChild(giscusScript);
+
+  function changeGiscusTheme() {
+    const iframe = document.querySelector("iframe.giscus-frame");
+
+    const setGisSrc = (theme) => {
+      if (!iframe) {
+        return;
+      }
+
+      const iframeSrc = iframe.src;
+      const iframeUrl = new URL(iframeSrc);
+      const iframeSearchParams = iframeUrl.searchParams;
+      iframeSearchParams.set("theme", theme);
+
+      iframe.src = iframeUrl.toString();
+    };
+
+    const sendMessage = (message) => {
+      if (iframe?.contentWindow) {
+        iframe.contentWindow.postMessage(
+          { giscus: message },
+          "https://giscus.app",
+        );
+      }
+    };
+
+    // Giscus doesn't accept messages if it's not loaded
+    if (iframe?.classList.contains("giscus-frame--loading")) {
+      setGisSrc(getTheme());
+    } else {
+      sendMessage({ setConfig: { theme: getTheme() } });
+    }
+  }
+
+  const themeToggle = document.getElementById("theme-toggle");
+
+  if (typeof themeToggle !== "undefined") {
+    themeToggle.addEventListener("click", () =>
+      // Add timeout to wait for actual switch before changing theme.
+      setTimeout(changeGiscusTheme, 100),
+    );
+  }
+</script>
 <!-- style="color:#aa55ff"-->
-<h4 class="page__comments-title">Leave a comment</h4>
+<!--<h4 class="page__comments-title">Leave a comment</h4>
 <script src="https://giscus.app/client.js"
         data-repo="sofijacom/sofijacom.github.io"
         data-repo-id="R_kgDON7iIDw"
@@ -16,7 +88,7 @@
         crossorigin="anonymous"
         async>
       
-</script>
+</script> -->
 
 
 <!-- Themes
