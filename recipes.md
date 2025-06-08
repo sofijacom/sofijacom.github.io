@@ -6,8 +6,8 @@ layout: collection
 comments: false
 ---
 
-_f_00_Void_KDE_plasma_no-kernel.plug_
-
+<details>
+<summary><b>f_00_Void_KDE_plasma_no-kernel.plug</b></summary>
 
 <pre>
 # f_00_Void_KDE_plasma_no-kernel.plug
