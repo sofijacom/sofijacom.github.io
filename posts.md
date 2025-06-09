@@ -30,19 +30,19 @@ actions:
 ### How to embed a video in Markdown
 
 ### 1.
-{% include codeHeader.html code=code lang="javascript" %}
+
 ```html
  <iframe width="560" height="315" src="https://www.youtube.com/embed/video-id" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ```
 
 ### 2.
-{% include codeHeader.html %}
+
 ```html
  <iframe src="https://giphy.com/embed/video-id" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 ```
 
 ### 3.
-{% include codeHeader.html %}
+
 ```html
  <iframe src="https://www.youtube.com/embed/video-id" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ```
