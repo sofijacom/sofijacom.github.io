@@ -40,9 +40,9 @@ actions:
 ```html
  <iframe src="https://giphy.com/embed/video-id" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 ```
-{% include codeHeader.html %}
-### 3.
 
+### 3.
+{% include codeHeader.html %}
 ```html
  <iframe src="https://www.youtube.com/embed/video-id" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ```
