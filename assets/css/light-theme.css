@@ -482,11 +482,11 @@ blockquote {
     background-color: #18182505;
 
     &::before {
-        content: "";
+        content: "Copy";
     }
 
     &::after {
-        content: "📋";
+        content: " ";  /* 📋 */
         display: block;
     }
 
