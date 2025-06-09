@@ -1,9 +1,11 @@
+{% capture code %}{% raw %}
 <div class="copy-code-container">
     <button class="copy-code-button"
          aria-label="Copy code block to your clipboard"
          data-code="{{ include.code | escape }}"
     >copy</button>
 </div>
-```{{ include.lang }}
+{% endraw %}{% endcapture %}
+```html
 {{ include.code }}
 ```
