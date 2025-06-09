@@ -1,15 +1,15 @@
 const codeBlocks = document.querySelectorAll('.highlighter-rouge');
-const copyCodeButtons = document.querySelectorAll('.copy-code');
-copyCodeButtons.forEach((copyCodeButton, index) => {
+const copyCode = document.querySelectorAll('.copy-code');
+copyCode.forEach((copyCode, index) => {
     const code = codeBlocks[index].innerText;
-    copyCodeButton.addEventListener('click', () => {
+    copyCode.addEventListener('click', () => {
         // Скопировать код в буфер обмена пользователя
         window.navigator.clipboard.writeText(code);
         // Обновить текст кнопки
-        copyCodeButton.innerText = 'Copy';
+        copyCode.innerText = 'Copy';
         // (Опционально) добавить класс для стилизации кнопки
-        copyCodeButton.classList.add('copied');
+        copyCode.classList.add('copied');
         // Через 2 секунды сбросить кнопку в исходное состояние
-        setTimeout(() => { copyCodeButton.innerText = originalText; copyCodeButton.classList.remove('copied'); }, 2000);
+        setTimeout(() => { copyCode.innerText = originalText; copyCode.classList.remove('copied'); }, 2000);
     });
 });
