@@ -482,7 +482,7 @@ blockquote {
     background-color: #18182505;
 
     &::before {
-        content: "Copy";
+        content: "";
     }
 
     &::after {
