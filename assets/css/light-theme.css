@@ -455,3 +455,6 @@ blockquote {
     text-transform: uppercase;
 }      
 
+.copy-code-button {
+  display: block;
+}
