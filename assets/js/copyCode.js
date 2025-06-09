@@ -1,6 +1,6 @@
 const codeBlocks = document.querySelectorAll('.highlighter-rouge');
-const copyCode = document.querySelectorAll('.copy-code');
-copyCode.forEach((copyCode, index) => {
+const copyCodeButtons = document.querySelectorAll('.copy-code');
+copyCodeButtons.forEach((copyCode, index) => {
     const code = codeBlocks[index].innerText;
     copyCode.addEventListener('click', () => {
         // Скопировать код в буфер обмена пользователя
