@@ -492,7 +492,7 @@ blockquote {
 
     // This class will be toggled via JavaScript
     &.copied {
-        &::before { content: "Copied!"; }
+        &::before { content: "Copied"; }
         &::after { content: "✔️"; }
     }
 }
