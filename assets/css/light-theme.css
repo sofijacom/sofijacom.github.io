@@ -455,14 +455,6 @@ blockquote {
     text-transform: uppercase;
 }      
 
-code {
-    direction: ltr;
-}
-
-div.highlight,
-pre {
-    position: relative;
-}
 
 .copy-code-button {
     display: none;
@@ -475,9 +467,4 @@ pre {
     padding: 0 5px;
     font-size: 14px;
     user-select: none;
-}
-
-div.highlight:hover .copy-code-button,
-pre:hover .copy-code-button {
-    display: block;
 }
