@@ -8,9 +8,7 @@ comments: false
 
 <details>
 <summary><b>f_00_Void_KDE_plasma_no-kernel.plug</b></summary>
- 
-{% include codeHeader.html %}
- 
+  
 <pre>
 # f_00_Void_KDE_plasma_no-kernel.plug
 # version="1.0"; revision="-CЕ-1.3"
