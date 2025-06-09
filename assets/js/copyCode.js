@@ -1,22 +1,25 @@
-const copyCode = (clickEvent) => {
-  const copyCodeButton = clickEvent.target;
-  const tempTextArea = document.createElement('textarea');
-  tempTextArea.textContent = copyCodeButton.getAttribute('data-code');
-  document.body.appendChild(tempTextArea);
+// This assumes that you're using Rouge; if not, update the selector
+const codeBlocks = document.querySelectorAll('.code-header + .highlighter-rouge');
+const copyCodeButtons = document.querySelectorAll('.copy-code-button');
 
-  const selection = document.getSelection();
-  selection.removeAllRanges();
-  tempTextArea.select();
-  document.execCommand('copy');
-  selection.removeAllRanges();
-  document.body.removeChild(tempTextArea);
+copyCodeButtons.forEach((copyCodeButton, index) => {
+  const code = codeBlocks[index].innerText;
 
-  copyCodeButton.classList.add('copied');
-  setTimeout(() => {
-    copyCodeButton.classList.remove('copied');
-}, 2000);
-};
+  copyCodeButton.addEventListener('click', () => {
+    // Copy the code to the user's clipboard
+    window.navigator.clipboard.writeText(code);
 
-document.querySelectorAll('.copy-code-button').forEach((copyCodeButton) => {
-  copyCodeButton.addEventListener('click', copyCode);
+    // Update the button text visually
+    const { innerText: originalText } = copyCodeButton;
+    copyCodeButton.innerText = 'copied📋';
+
+    // (Optional) Toggle a class for styling the button
+    copyCodeButton.classList.add('copied');
+
+    // After 2 seconds, reset the button to its initial UI
+    setTimeout(() => {
+      copyCodeButton.innerText = originalText;
+      copyCodeButton.classList.remove('copied');
+    }, 2000);
+  });
 });
