@@ -467,4 +467,5 @@ blockquote {
     text-align: center;
     text-decoration: none;
     cursor: pointer;
+    margin-left: auto;
 }
