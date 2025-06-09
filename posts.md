@@ -31,9 +31,9 @@ actions:
 
 ### 1.
 
-{% capture code %}{% raw %}conditions
+```html
  <iframe width="560" height="315" src="https://www.youtube.com/embed/video-id" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-{% endraw %}{% endcapture %}  
+``` 
 {% include code.html code=code %}
 
 ### 2.
