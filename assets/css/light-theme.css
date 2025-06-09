@@ -455,15 +455,6 @@ blockquote {
     text-transform: uppercase;
 }      
 
-code {
-    direction: ltr;
-}
-
-div.highlight,
-pre {
-    position: relative;
-}
-
 
 .copy-code {
     display: none;
@@ -480,4 +471,7 @@ pre {
 div.highlight:hover .copy-code,
 pre:hover .copy-code {
     display: block;
+}
+.copy-code {
+  display: block;
 }
