@@ -11,7 +11,7 @@ copyCodeButtons.forEach((copyCodeButton, index) => {
 
     // Update the button text visually
     const { innerText: originalText } = copyCodeButton;
-    copyCodeButton.innerText = 'copied';
+    copyCodeButton.innerText = 'copied ✔️';
 
     // (Optional) Toggle a class for styling the button
     copyCodeButton.classList.add('copied');
