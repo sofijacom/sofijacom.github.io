@@ -30,10 +30,11 @@ actions:
 ### How to embed a video in Markdown
 
 ### 1.
-{% include code.html code=code %}
-```html
+
+{% capture code %}{% raw %}conditions
  <iframe width="560" height="315" src="https://www.youtube.com/embed/video-id" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-```
+{% endraw %}{% endcapture %}  
+{% include code.html code=code %}
 
 ### 2.
 
