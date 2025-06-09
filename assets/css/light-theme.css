@@ -486,7 +486,7 @@ blockquote {
     }
 
     &::after {
-        content: "📋";  /* 📋 */
+        content: "";  /* 📋 */
         display: block;
     }
 
