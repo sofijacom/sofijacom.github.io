@@ -455,8 +455,16 @@ blockquote {
     text-transform: uppercase;
 }      
 
+code {
+    direction: ltr;
+}
 
-.copy-code {
+div.highlight,
+pre {
+    position: relative;
+}
+
+.copy-code-button {
     display: none;
     position: absolute;
     top: 4px;
@@ -468,10 +476,8 @@ blockquote {
     font-size: 14px;
     user-select: none;
 }
-div.highlight:hover .copy-code,
-pre:hover .copy-code {
+
+div.highlight:hover .copy-code-button,
+pre:hover .copy-code-button {
     display: block;
-}
-.copy-code {
-  display: block;
 }
