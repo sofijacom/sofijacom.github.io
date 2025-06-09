@@ -10,17 +10,16 @@ actions:
     url: "https://forum.puppylinux.com"   
 ---
 
-{% include codeHeader.html %}
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TDGHzgKWAeU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ##### _Chitllstep + deep dark + inspiring electronic + house chillout - Finich_
 
-{% include codeHeader.html %}
+
 <iframe width="480" height="270" src="https://www.youtube.com/embed/HYFJ-_FL_ek" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 #### _ASSAM - Ethnic & Deep House Relax Mix (Vol.69)_
 
-{% include codeHeader.html %}
+
 <iframe src="https://www.youtube.com/embed/f3cIqLewlZA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ##### _Sub de Santa - Alliance_
@@ -31,17 +30,17 @@ actions:
 ### How to embed a video in Markdown
 
 ### 1.
-
+{% include codeHeader.html %}
 ```html
  <iframe width="560" height="315" src="https://www.youtube.com/embed/video-id" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ```
 
 ### 2.
-
+{% include codeHeader.html %}
 ```html
  <iframe src="https://giphy.com/embed/video-id" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 ```
-
+{% include codeHeader.html %}
 ### 3.
 
 ```html
