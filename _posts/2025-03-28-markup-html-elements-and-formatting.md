@@ -15,12 +15,6 @@ elements:
 last_modified_at: 2025-03-28T11:25:52-03:00
 ---
 
-```js
-  codeBlocks.forEach(function (codeBlock) {
-  var copyButton = document.createElement('button');
-  copyButton.className = 'copy';
-```
-
 A variety of common HTML elements to demonstrate the theme's stylesheet and verify they have been styled appropriately.
 
 # Header one
