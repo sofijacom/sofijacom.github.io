@@ -453,7 +453,7 @@ blockquote {
     text-transform: uppercase;
 }
 
-.copy-code-button {
+/* .copy-code-button {
     display: grid;
     grid-auto-flow: column;
     align-items: center;
@@ -480,4 +480,24 @@ blockquote {
         &::before { content: "Copied!"; }
         &::after { content: "✔️"; }
     } */
+} */
+
+/* code_copy */
+pre.highlight > button {
+    background-color: #18182505;
+    color: #a6adc7;
+    opacity: 0;
+    position: absolute;
+    right: 1.2rem;
+    top: 1.2rem;
+    transition: all 0.2s ease-out;
+}
+
+pre.highlight:hover > button {
+    opacity: 1;
+}
+
+pre.highlight > button:active,
+pre.highlight > button:focus {
+    opacity: 1;
 }
