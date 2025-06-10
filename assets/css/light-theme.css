@@ -455,7 +455,7 @@ blockquote {
     text-transform: uppercase;
 }      
 
-.copy-code-button {
+/* .copy-code-button {
     display: grid;
     grid-auto-flow: column;
     align-items: center;
@@ -468,7 +468,7 @@ blockquote {
     background-color: #18182505;
     margin-left: auto;
 
-   /* &::before {
+    &::before {
         content: "Copy";
     }
 
@@ -481,13 +481,13 @@ blockquote {
     &.copied {
         &::before { content: "Copied"; }
         &::after { content: "✔️"; }
-    } */
-}
+    } 
+} */
 
-/* _sass/_post.css */
+/* code_copy */
 pre.highlight > button {
     background-color: #18182505;
-    color: #4c4f69;
+    color: #a6adc7;
     opacity: 0;
     position: absolute;
     right: 1.2rem;
