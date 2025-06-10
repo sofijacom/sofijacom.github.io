@@ -154,7 +154,7 @@ exclude:
 pre:
   dedent: true
   label: Shell
-  copyButton: true
+  copyButton: false
   
 # Front Matter Defaults
 defaults:
