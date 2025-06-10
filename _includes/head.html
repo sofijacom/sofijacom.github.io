@@ -38,30 +38,5 @@
   {% endif %}
   {{ page.calendar_css | replace: "!PATH_TO_COMPONENTS!", "/components" | prepend: site.baseurl }}
 
-  <script async='async' src='https://www.gstatic.com/external_hosted/clipboardjs/clipboard.min.js'></script>
-<script src='https://unpkg.com/sweetalert@2.1.2/dist/sweetalert.min.js'></script>
-<script language='JavaScript'>
-  function copytoclipboard(containerid){
-    if (document.selection) {
-      var range = document.body.createTextRange();
-      range.moveToElementText(document.getElementById(containerid));
-      range.select().createTextRange();
-      document.execCommand("copy");
-    } else if (window.getSelection) {
-      var range = document.createRange();
-      range.selectNode(document.getElementById(containerid));
-      var selection = window.getSelection() // get Selection object from currently user selected text
-      selection.removeAllRanges() // unselect any user selected text (if any)
-      selection.addRange(range) // add range to Selection object to select it
-      document.execCommand("copy");
-      //alert("Codes snippet copied to clipboard!")
-      swal({
-      title: "",
-      text: "Codes snippet copied to clipboard!",
-      icon: "success",
-      });
-    }
-  }
-</script>
 </head>
   
