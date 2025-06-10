@@ -5,14 +5,10 @@ image: '/assets/images/Plugins.jpg'
 layout: collection
 comments: false
 ---
-<!--
+
 <details>
-<summary><b>f_00_Void_KDE_plasma_no-kernel.plug</b></summary -->
-                                                     
-<div align="right">
-<button onclick="javascript:copytoclipboard('csp2')" style="border: none">Copy snippet to clipboard!</button>
-</div>
-  
+<summary><b>f_00_Void_KDE_plasma_no-kernel.plug</b></summary
+                                                       
 <pre>
 # f_00_Void_KDE_plasma_no-kernel.plug
 # version="1.0"; revision="-CЕ-1.3"
