@@ -8,7 +8,8 @@ comments: false
 
 <details>
 <summary><b>f_00_Void_KDE_plasma_no-kernel.plug</b></summary>
-                                                       
+  
+{% pre copyButton %}                                                        
 <pre>
 # f_00_Void_KDE_plasma_no-kernel.plug
 # version="1.0"; revision="-CЕ-1.3"
@@ -461,4 +462,4 @@ d process finished"
 ess finished"
 "
 </pre>
-
+{% endpre %} 
