@@ -3,12 +3,12 @@
 
         const copybutton = document.createElement('button');
         copybutton.classList.add('copy-code');
-        copybutton.innerHTML = '"copy"';
+        copybutton.innerHTML = 'copy';
 
         function copyingDone() {
-            copybutton.innerHTML = '"copied!"';
+            copybutton.innerHTML = 'copied!';
             setTimeout(() => {
-                copybutton.innerHTML = '"copy"';
+                copybutton.innerHTML = 'copy';
             }, 2000);
         }
 
