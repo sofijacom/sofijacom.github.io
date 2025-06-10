@@ -150,7 +150,20 @@ exclude:
   - vendor/ruby/
   - /docs # ignore Basically Basic sample site
   - /example # ignore Basically Basic dev site
-    
+
+pre:
+  class: bg_yellow
+  clear: true
+  dark: true
+  dedent: true
+  highlight: 'Error:.*'
+  label: Shell
+  copyButton: true
+  number: true
+  style: 'font-face: courier'
+  wrapper_class: rounded shadow
+  wrapper_style: 'padding: 2em; border: thin green dashed;'
+  
 # Front Matter Defaults
 defaults:
   # _posts
