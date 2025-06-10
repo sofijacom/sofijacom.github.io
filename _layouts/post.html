@@ -9,7 +9,21 @@ layout: default
   <link rel="stylesheet" href="{{ '/assets/css/jekyll_plugin_support.css?v=' | append: nowMillis }}" type="text/css">
   <link rel="stylesheet" href="{{ '/assets/css/shared_include_pre.css?v=' | append: nowMillis }}" type="text/css">
   <link rel="stylesheet" href="{{ '/assets/css/jekyll_pre.css?v=' | append: nowMillis }}" type="text/css">
-  
+
+## Preformatted element
+
+This element styles large blocks of code.
+
+{% pre copyButton %}
+.post-title {
+	margin: 0 0 5px;
+	font-weight: bold;
+	font-size: 38px;
+	line-height: 1.2;
+	and here's a line of some really, really, really, really long text, just to see how the PRE element handles it and to find out how it overflows;
+}
+{% endpre %}
+
 {% include page-intro.html %}
 
 <main id="main" class="page-content" aria-label="Content">
