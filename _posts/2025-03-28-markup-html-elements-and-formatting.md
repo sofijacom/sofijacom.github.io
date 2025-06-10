@@ -15,13 +15,10 @@ elements:
 last_modified_at: 2025-03-28T11:25:52-03:00
 ---
 
-```
-codeBlocks.forEach(function (codeBlock) {
+```js
+  codeBlocks.forEach(function (codeBlock) {
   var copyButton = document.createElement('button');
   copyButton.className = 'copy';
-  copyButton.type = 'button';
-  copyButton.ariaLabel = 'Copy code to clipboard';
-  copyButton.innerText = 'Copy';
 ```
 
 A variety of common HTML elements to demonstrate the theme's stylesheet and verify they have been styled appropriately.
