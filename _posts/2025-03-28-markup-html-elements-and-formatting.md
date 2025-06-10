@@ -181,7 +181,7 @@ Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and ot
 
 This element styles large blocks of code.
 
-{% pre copyButton %} Contents of pre tag {% endpre %}
+{% pre copyButton %}
 .post-title {
 	margin: 0 0 5px;
 	font-weight: bold;
@@ -189,6 +189,7 @@ This element styles large blocks of code.
 	line-height: 1.2;
 	and here's a line of some really, really, really, really long text, just to see how the PRE element handles it and to find out how it overflows;
 }
+{% endpre %}
 
 ## Quote element
 
