@@ -5,11 +5,11 @@ image: '/assets/images/Plugins.jpg'
 layout: collection
 comments: false
 ---
-<!--
-<details>
-<summary><b>f_00_Void_KDE_plasma_no-kernel.plug</b></summary> -->
 
-```html
+<details>
+<summary><b>f_00_Void_KDE_plasma_no-kernel.plug</b></summary>
+
+<pre>
 # f_00_Void_KDE_plasma_no-kernel.plug
 # version="1.0"; revision="-CЕ-1.3"
 # Kennel Linux Void outfitted with a KDE-plasma desktop 
@@ -460,4 +460,4 @@ ess finished"
 d process finished"
 ess finished"
 "
-```
+</pre>
