@@ -178,7 +178,7 @@ kbd {
 
 code, pre {
     font-size: 1em;
-    color: #4c4f69 !important;
+    color: #bac2de !important;    /* #4c4f69 !important; */
     background-color: #2f394417 !important;
 }
 
