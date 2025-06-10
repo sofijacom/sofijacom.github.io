@@ -5,12 +5,14 @@ image: '/assets/images/Plugins.jpg'
 layout: collection
 comments: false
 ---
-
+<!--
 <details>
-<summary><b>f_00_Void_KDE_plasma_no-kernel.plug</b></summary>
+<summary><b>f_00_Void_KDE_plasma_no-kernel.plug</b></summary -->
+                                                     
 <div align="right">
 <button onclick="javascript:copytoclipboard('csp2')" style="border: none">Copy snippet to clipboard!</button>
 </div>
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.0em .0em;"><table><tr><td><pre style="margin: 0; line-height: 125%">
   
 <pre>
 # f_00_Void_KDE_plasma_no-kernel.plug
