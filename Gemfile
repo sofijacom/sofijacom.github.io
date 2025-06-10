@@ -15,6 +15,7 @@ group :jekyll_plugins do
   gem 'jekyll-gzip'
   gem 'jekyll_emoji_tag'
   gem "jekyll-paginate"
+  gem 'jekyll_pre'
 end
 
 gem 'jekyll-feed'
