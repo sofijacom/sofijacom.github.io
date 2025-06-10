@@ -1,6 +1,6 @@
 // assets/js/post.js
 var codeBlocks = document.querySelectorAll('pre.highlight');
-var codeBlocks = document.querySelector('#pre');
+
 codeBlocks.forEach(function (codeBlock) {
     var copyButton = document.createElement('button');
     copyButton.className = 'copy';
