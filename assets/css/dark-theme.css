@@ -484,13 +484,16 @@ blockquote {
 
 /* code_copy */
 pre.highlight > button {
-    background-color: #181825;
+    background-color: #181825db;
     color: #a6adc7;
     opacity: 0;
     position: absolute;
-    right: 0.25rem;
-    top: 0.25rem;
+    right: 4px;
+    top: 4px;
     transition: all 0.2s ease-out;
+    padding: 2px 5px 2px 5px;
+    border: 1px solid #a6adc8;
+    border-radius: 6px;
 }
 
 pre.highlight:hover > button {
