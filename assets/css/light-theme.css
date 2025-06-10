@@ -485,15 +485,21 @@ blockquote {
 }
 
 /* _sass/_post.css */
-/*pre.highlight > button {
-  opacity: 0;
+pre.highlight > button {
+    background-color: #18182505;
+    color: #4c4f69;
+    opacity: 0;
+    position: absolute;
+    right: 1.2rem;
+    top: 1.2rem;
+    transition: all 0.2s ease-out;
 }
 
 pre.highlight:hover > button {
-  opacity: 1;
+    opacity: 1;
 }
 
 pre.highlight > button:active,
 pre.highlight > button:focus {
-  opacity: 1;
-} */
+    opacity: 1;
+}
