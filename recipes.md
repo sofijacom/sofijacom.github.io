@@ -8,7 +8,9 @@ comments: false
 
 <details>
 <summary><b>f_00_Void_KDE_plasma_no-kernel.plug</b></summary>
-{% include code.html %}
+<div align="right">
+<button onclick="javascript:copytoclipboard('csp2')" style="border: none">Copy snippet to clipboard!</button>
+</div>
   
 <pre>
 # f_00_Void_KDE_plasma_no-kernel.plug
