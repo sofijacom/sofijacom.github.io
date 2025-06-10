@@ -1,45 +1,25 @@
-    document.querySelectorAll('pre > code').forEach((codeblock) => {
-        const container = codeblock.parentNode.parentNode;
+// This assumes that you're using Rouge; if not, update the selector
+const codeBlocks = document.querySelectorAll('.code-header + .highlighter-rouge');
+const copyCodeButtons = document.querySelectorAll('.copy-code-button');
 
-        const copybutton = document.createElement('button');
-        copybutton.classList.add('copy-code');
-        copybutton.innerHTML = '{{- i18n "code_copy" | default "copy" }}';
+copyCodeButtons.forEach((copyCodeButton, index) => {
+  const code = codeBlocks[index].innerText;
 
-        function copyingDone() {
-            copybutton.innerHTML = '{{- i18n "code_copied" | default "copied!" }}';
-            setTimeout(() => {
-                copybutton.innerHTML = '{{- i18n "code_copy" | default "copy" }}';
-            }, 2000);
-        }
+  copyCodeButton.addEventListener('click', () => {
+    // Copy the code to the user's clipboard
+    window.navigator.clipboard.writeText(code);
 
-        copybutton.addEventListener('click', (cb) => {
-            if ('clipboard' in navigator) {
-                navigator.clipboard.writeText(codeblock.textContent);
-                copyingDone();
-                return;
-            }
+    // Update the button text visually
+    const { innerText: originalText } = copyCodeButton;
+    copyCodeButton.innerText = 'Copied ✔️';
 
-            const range = document.createRange();
-            range.selectNodeContents(codeblock);
-            const selection = window.getSelection();
-            selection.removeAllRanges();
-            selection.addRange(range);
-            try {
-                document.execCommand('copy');
-                copyingDone();
-            } catch (e) { };
-            selection.removeRange(range);
-        });
+    // (Optional) Toggle a class for styling the button
+    copyCodeButton.classList.add('copied');
 
-        if (container.classList.contains("highlight")) {
-            container.appendChild(copybutton);
-        } else if (container.parentNode.firstChild == container) {
-            // td containing LineNos
-        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
-            // table containing LineNos and code
-            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
-        } else {
-            // code blocks not having highlight as parent class
-            codeblock.parentNode.appendChild(copybutton);
-        }
-    });
+    // After 2 seconds, reset the button to its initial UI
+    setTimeout(() => {
+      copyCodeButton.innerText = originalText;
+      copyCodeButton.classList.remove('copied');
+    }, 2000);
+  });
+});
