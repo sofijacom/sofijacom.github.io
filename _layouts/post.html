@@ -4,12 +4,6 @@ layout: default
 
 <link rel="stylesheet" href="/assets/css/style.css">
 
-  {% assign nowMillis = site.time | date: '%s' %}
-
-  <link rel="stylesheet" href="{{ '/assets/css/jekyll_plugin_support.css?v=' | append: nowMillis }}" type="text/css">
-  <link rel="stylesheet" href="{{ '/assets/css/shared_include_pre.css?v=' | append: nowMillis }}" type="text/css">
-  <link rel="stylesheet" href="{{ '/assets/css/jekyll_pre.css?v=' | append: nowMillis }}" type="text/css">
-
 {% include page-intro.html %}
 
 <main id="main" class="page-content" aria-label="Content">
@@ -24,6 +18,3 @@ layout: default
     </article>
   </div>
 </main>
-
-<script src="/assets/js/jquery-4.0.0-beta.2.min.js"></script>	
-<script defer src="/assets/js/clipboard.min.js"></script>
