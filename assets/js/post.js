@@ -18,7 +18,10 @@ codeBlocks.forEach(function (codeBlock) {
         window.navigator.clipboard.writeText(code);
         
         copyButton.innerHTML = '<i class = "fa-solid fa-check"></i>';
+        clipboard.on('success', function(e) {
+        console.log(e);
         showTooltip(e.trigger, 'Copied!');
+     });
         var twourSeconds = 2000;
 
         setTimeout(function () {
