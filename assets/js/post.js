@@ -30,8 +30,8 @@ codeBlocks.forEach(function (codeBlock) {
     var copyButton = document.createElement('button');
     copyButton.className = 'copy';
     copyButton.type = 'button';
-    copyButton.titleTooltip = 'Copy';
     copyButton.ariaLabel = 'Copy code to clipboard';
+    copyButton.titleTooltip = 'Copy';
     copyButton.innerText = '📋';
 
     codeBlock.append(copyButton);
