@@ -491,7 +491,7 @@ pre.highlight > button {
     height: 21px;
     background-repeat: no-repeat;
     background-image: url("/assets/icons/copy_icon.svg");
-    color: #a6adc7;
+   /* color: #a6adc7; */
     opacity: 0;
     position: absolute;
     right: 4px;
