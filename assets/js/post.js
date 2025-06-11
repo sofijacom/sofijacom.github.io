@@ -6,7 +6,7 @@ codeBlocks.forEach(function (codeBlock) {
     copyButton.className = 'copy';
     copyButton.type = 'button';
     copyButton.ariaLabel = 'Copy code to clipboard';
-    copyButton.selectedIconEle = this.pickerEle.querySelector("/assets/icons/copy_icon.svg");
+    copyButton.innerText = 'Copy';
     
     codeBlock.append(copyButton);
 
