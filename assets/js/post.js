@@ -1,4 +1,6 @@
+// By Sofiya
 // assets/js/post.js
+
 var codeBlocks = document.querySelectorAll('pre.highlight');
 
 codeBlocks.forEach(function (codeBlock) {
@@ -6,6 +8,7 @@ codeBlocks.forEach(function (codeBlock) {
     copyButton.className = 'copy';
     copyButton.type = 'button';
     copyButton.ariaLabel = 'Copy code to clipboard';
+   // copyButton.innerText = 'Copy';
     copyButton.innerHTML = '<i class = "fa-regular fa-clone"></i>';
     
     codeBlock.append(copyButton);
@@ -14,11 +17,13 @@ codeBlocks.forEach(function (codeBlock) {
         var code = codeBlock.querySelector('code').innerText.trim();
         window.navigator.clipboard.writeText(code);
 
-        copyButton.innerText = 'Copied';
+       // copyButton.innerText = 'Copied';
+        copyButton.innerHTML = '<i class = "fa-regular fa-check"></i> Copied';
         var fourSeconds = 2000;
 
         setTimeout(function () {
-            copyButton.innerText = 'Copy';
+           // copyButton.innerText = 'Copy';
+            copyButton.innerHTML = '<i class = "fa-regular fa-clone"></i>';
         }, fourSeconds);
     });
 });
