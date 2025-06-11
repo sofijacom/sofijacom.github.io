@@ -19,7 +19,7 @@ codeBlocks.forEach(function (codeBlock) {
 
        // copyButton.innerText = 'Copied';
         copyButton.innerHTML = 'Copied <i class = "fa-solid fa-check"></i>';
-        var twourSeconds = 2000;
+        var twoSeconds = 2000;
 
         setTimeout(function () {
             copyButton.innerHTML = '<i class = "fa-regular fa-clone"></i>';
