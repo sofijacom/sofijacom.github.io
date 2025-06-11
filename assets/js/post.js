@@ -18,6 +18,16 @@ codeBlocks.forEach(function (codeBlock) {
         window.navigator.clipboard.writeText(code);
         
         copyButton.innerHTML = 'Copied <i class = "fa-solid fa-check"></i>';
+        function copyToClipboard(element) {
+        var $temp = $("<input type='text'>");
+        $("body").append($temp);
+        $temp.val($(element).text()).select();
+        document.execCommand("copy");
+        $temp.remove();
+  
+  $('<div>Copied!</div>').insertBefore('body').delay(2000).fadeOut();
+
+}
         var twourSeconds = 2000;
 
         setTimeout(function () {
