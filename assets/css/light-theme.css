@@ -490,7 +490,8 @@ pre.highlight > button {
     content: ""; 
     width: 21px;
     height: 21px;
-    background-image: url("/assets/icons/copy.svg");
+    background-repeat: no-repeat;
+    background-image: url("/assets/images/clippy.svg");
     color: #a6adc7;
     opacity: 0;
     position: absolute;
