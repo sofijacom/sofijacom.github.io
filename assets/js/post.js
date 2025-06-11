@@ -6,7 +6,7 @@ codeBlocks.forEach(function (codeBlock) {
     copyButton.className = 'copy';
     copyButton.type = 'button';
     copyButton.ariaLabel = 'Copy code to clipboard';
-    copyButton.innerText = 'Copy';
+    copyButton.innerText = '';
 
     codeBlock.append(copyButton);
 
