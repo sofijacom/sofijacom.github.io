@@ -508,8 +508,4 @@ pre.highlight > button:focus {
 .fa-check {
     color: #009200;
 }
-&.copied {
-    &::before { content: "Copied"; }
-    &::after { content: " "; }
-}
 /* code_copy */
