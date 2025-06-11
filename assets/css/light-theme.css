@@ -477,7 +477,6 @@ blockquote {
         display: block;
     }
 
-    /* This class will be toggled via JavaScript */
     &.copied {
         &::before { content: "Copied"; }
         &::after { content: "✔️"; }
