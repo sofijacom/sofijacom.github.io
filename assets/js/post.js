@@ -18,10 +18,8 @@ codeBlocks.forEach(function (codeBlock) {
         window.navigator.clipboard.writeText(code);
         
         copyButton.innerHTML = '<i class = "fa-solid fa-check"></i>';
-        clipboard.on('success', function(e) {
-    console.log(e);
-    alert('Copied!');
-});
+        const { innerText: originalText } = copyButton;
+        copyButton.innerText = 'Copied';
         var twourSeconds = 2000;
 
         setTimeout(function () {
