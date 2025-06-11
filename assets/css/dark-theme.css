@@ -484,8 +484,12 @@ blockquote {
 
 /* code_copy */
 pre.highlight > button {
-    background-color: #181825db;
-    color: #a6adc7;
+  /* background-color: #181825db; */
+  /* color: #a6adc7; */
+    width: 21px;
+    height: 21px;
+    background-repeat: no-repeat;
+    background-image: url("/assets/icons/copy_icon.svg");    
     opacity: 0;
     position: absolute;
     right: 4px;
