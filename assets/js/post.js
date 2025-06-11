@@ -7,8 +7,8 @@ codeBlocks.forEach(function (codeBlock) {
     var copyButton = document.createElement('button');
     copyButton.className = 'copy';
     copyButton.type = 'button';
-    copyButton.ariaLabel = 'Copy code to clipboard';
     copyButton.titleTooltip = 'Copy';
+    copyButton.ariaLabel = 'Copy code to clipboard';
     copyButton.innerHTML = '<i class = "fa-regular fa-clone"></i>';
     
     codeBlock.append(copyButton);
