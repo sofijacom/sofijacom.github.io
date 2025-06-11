@@ -477,7 +477,7 @@ blockquote {
         display: block;
     }
 
-    // This class will be toggled via JavaScript
+    /* This class will be toggled via JavaScript */
     &.copied {
         &::before { content: "Copied"; }
         &::after { content: "✔️"; }
@@ -496,7 +496,7 @@ pre.highlight > button {
     padding: 2px 5px 2px 5px;
     border: 1px solid #4c4f69;
     border-radius: 6px;
-}
+
 
 pre.highlight:hover > button {
     opacity: 1;
@@ -506,6 +506,13 @@ pre.highlight > button:active,
 pre.highlight > button:focus {
     opacity: 1;
 }
+/* This class will be toggled via JavaScript */
+&.copied {
+    &::before { content: "Copied!"; }
+    &::after { content: "✔️"; }
+}
+
 .fa-check {
     color: #009200;
 }   
+}
