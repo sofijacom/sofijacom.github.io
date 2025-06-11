@@ -16,8 +16,9 @@ codeBlocks.forEach(function (codeBlock) {
     copyButton.addEventListener('click', function () {
         var code = codeBlock.querySelector('code').innerText.trim();
         window.navigator.clipboard.writeText(code);
-
+        
         copyButton.innerHTML = '<i class = "fa-solid fa-check"></i>';
+        copyButton.title = 'Copied';
         var twourSeconds = 2000;
 
         setTimeout(function () {
