@@ -504,3 +504,8 @@ pre.highlight > button:active,
 pre.highlight > button:focus {
     opacity: 1;
 }
+
+.fa-check {
+    color: #009200;
+}
+/* code_copy */
