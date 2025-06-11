@@ -32,7 +32,7 @@ codeBlocks.forEach(function (codeBlock) {
     copyButton.type = 'button';
     copyButton.titleTooltip = 'Copy';
     copyButton.ariaLabel = 'Copy code to clipboard';
-    copyButton.innerText = "📋";
+    copyButton.innerText = {"class":"fa-regular fa-clone"};
 
     codeBlock.append(copyButton);
 
