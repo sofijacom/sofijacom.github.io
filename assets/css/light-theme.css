@@ -495,6 +495,7 @@ pre.highlight > button {
     padding: 2px 5px 2px 5px;
     border: 1px solid #4c4f69;
     border-radius: 6px;
+    cursor: pointer;
 /* This class will be toggled via JavaScript */
 &.copied {
     &::before { content: "Copied!"; }
