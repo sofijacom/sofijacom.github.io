@@ -18,11 +18,11 @@ codeBlocks.forEach(function (codeBlock) {
         window.navigator.clipboard.writeText(code);
 
         copyButton.innerHTML = 'Copied <i class = "fa-solid fa-check"></i>';
-        var fourSeconds = 4000;
+        var twourSeconds = 2000;
 
         setTimeout(function () {
             copyButton.innerHTML = '<i class = "fa-regular fa-clone"></i>';
-        }, fourSeconds);
+        }, twourSeconds);
     });
 });
 
