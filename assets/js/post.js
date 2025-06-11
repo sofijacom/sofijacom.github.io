@@ -6,7 +6,7 @@ codeBlocks.forEach(function (codeBlock) {
     copyButton.className = 'copy';
     copyButton.type = 'button';
     copyButton.ariaLabel = 'Copy code to clipboard';
-    copyButton.innerText = '';
+    copyButton.innerText = 'Copy';
 
     codeBlock.append(copyButton);
 
@@ -14,11 +14,11 @@ codeBlocks.forEach(function (codeBlock) {
         var code = codeBlock.querySelector('code').innerText.trim();
         window.navigator.clipboard.writeText(code);
 
-        copyButton.innerText = '✔️';
+        copyButton.innerText = 'Copied';
         var fourSeconds = 2000;
 
         setTimeout(function () {
-            copyButton.innerText = '';
+            copyButton.innerText = 'Copy';
         }, fourSeconds);
     });
 });
