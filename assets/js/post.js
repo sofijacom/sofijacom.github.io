@@ -44,7 +44,7 @@ codeBlocks.forEach(function (codeBlock) {
         var fourSeconds = 2000;
 
         setTimeout(function () {
-            copyButton.innerClass = 'fa-regular fa-clone';
+            copyButton.innerText = 'fa-regular fa-clone';
         }, fourSeconds);
     });
 });
