@@ -1,29 +1,4 @@
 // assets/js/post.js
-//var codeBlocks = document.querySelectorAll('pre.highlight');
-
-//codeBlocks.forEach(function (codeBlock) {
-//    var copyButton = document.createElement('button');
-//    copyButton.className = 'copy';
-//    copyButton.type = 'button';
-//    copyButton.ariaLabel = 'Copy code to clipboard';
-//    copyButton.innerText = 'Copy';
-
-//    codeBlock.append(copyButton);
-
-//    copyButton.addEventListener('click', function () {
-//        var code = codeBlock.querySelector('code').innerText.trim();
-//        window.navigator.clipboard.writeText(code);
-
-//        copyButton.innerText = 'Copied';
-//        var fourSeconds = 2000;
-
-//        setTimeout(function () {
-//            copyButton.innerText = 'Copy';
-//        }, fourSeconds);
-//    });
-//});
-
-// assets/js/post.js
 var codeBlocks = document.querySelectorAll('pre.highlight');
 
 codeBlocks.forEach(function (codeBlock) {
@@ -31,8 +6,7 @@ codeBlocks.forEach(function (codeBlock) {
     copyButton.className = 'copy';
     copyButton.type = 'button';
     copyButton.ariaLabel = 'Copy code to clipboard';
-    copyButton.title = 'Copy';
-    copyButton.innerText = '📋';
+    copyButton.innerText = 'Copy';
 
     codeBlock.append(copyButton);
 
@@ -40,11 +14,37 @@ codeBlocks.forEach(function (codeBlock) {
         var code = codeBlock.querySelector('code').innerText.trim();
         window.navigator.clipboard.writeText(code);
 
-        copyButton.innerText = 'Copied ✔️';
+        copyButton.innerText = 'Copied';
         var fourSeconds = 2000;
 
         setTimeout(function () {
-            copyButton.innerText = "📋";
+            copyButton.innerText = 'Copy';
         }, fourSeconds);
     });
 });
+
+// assets/js/post.js
+// var codeBlocks = document.querySelectorAll('pre.highlight');
+
+// codeBlocks.forEach(function (codeBlock) {
+//    var copyButton = document.createElement('button');
+//    copyButton.className = 'copy';
+//    copyButton.type = 'button';
+//    copyButton.ariaLabel = 'Copy code to clipboard';
+//    copyButton.title = 'Copy';
+//    copyButton.innerText = '📋';
+
+//    codeBlock.append(copyButton);
+
+//    copyButton.addEventListener('click', function () {
+//        var code = codeBlock.querySelector('code').innerText.trim();
+//        window.navigator.clipboard.writeText(code);
+
+//        copyButton.innerText = 'Copied ✔️';
+//        var fourSeconds = 2000;
+
+//        setTimeout(function () {
+//            copyButton.innerText = "📋";
+//        }, fourSeconds);
+//    });
+// });
