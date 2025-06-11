@@ -501,13 +501,11 @@ pre.highlight:hover > button {
     opacity: 1;
 }
 
-/* pre.highlight > button:active,
+pre.highlight > button:active,
 pre.highlight > button:focus {
     opacity: 1;
-} */   
-pre.highlight > button:active {
-    opacity: 1;
-}
+}   
+
 .fa-check {
     color: #009200;
 }   
