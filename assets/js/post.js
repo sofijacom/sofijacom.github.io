@@ -8,7 +8,7 @@ codeBlocks.forEach(function (codeBlock) {
     copyButton.className = 'copy';
     copyButton.type = 'button';
     copyButton.ariaLabel = 'Copy code to clipboard';
-   // copyButton.innerText = 'Copy';
+    copyButton.title = 'Copy';
     copyButton.innerHTML = '<i class = "fa-regular fa-clone"></i>';
     
     codeBlock.append(copyButton);
@@ -22,7 +22,6 @@ codeBlocks.forEach(function (codeBlock) {
         var twourSeconds = 2000;
 
         setTimeout(function () {
-           // copyButton.innerText = 'Copy';
             copyButton.innerHTML = '<i class = "fa-regular fa-clone"></i>';
         }, fourSeconds);
     });
