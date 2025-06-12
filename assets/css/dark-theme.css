@@ -434,15 +434,14 @@ ul.podcast-links li:hover {
     transition: 0.3s;
 }
 
-blockquote {
+/* blockquote {
   font-style: italic !important;
   border-left: 4px solid #c09bef !important;
   margin: 20px !important;
   padding: 10px !important;
- /* background-color: #181825; */
   box-shadow: 2px 2px 5px rgba(0,0,0,0.1) !important;
   font-family: 'Georgia', serif !important;
-}
+} */
 
 .page__comments-title {
     margin-top: 2rem;
@@ -509,6 +508,15 @@ pre.highlight > button:focus {
     color: #009200;
 }
 /* End code_copy */
+blockquote {
+  font-style: italic !important;
+ /* border-left: 4px solid !important; */
+  margin: 20px !important;
+  padding: 10px !important;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1) !important;
+  font-family: 'Georgia', serif !important;
+}
+
 blockquote.prompt-tip::before {
     content: "";
     color: #0fa40fcf;
