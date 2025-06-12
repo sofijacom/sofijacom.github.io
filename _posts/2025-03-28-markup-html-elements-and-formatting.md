@@ -29,6 +29,13 @@ A variety of common HTML elements to demonstrate the theme's stylesheet and veri
 
 ###### Header six
 
+### ToDo list
+
+- [ ] Job
+  - [x] Step 1
+  - [x] Step 2
+  - [ ] Step 3
+
 ## Blockquotes
 ***"This is an example of a quote with additional styling such as shadows and modified fonts."***
 
