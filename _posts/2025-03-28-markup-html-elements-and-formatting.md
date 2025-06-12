@@ -2,6 +2,9 @@
 title: "Markup: HTML Elements and Formatting"
 comments: true
 sub_title: "The common elements"
+pin: true
+math: true
+mermaid: true
 categories:
   - Markup
 tags:
@@ -14,6 +17,17 @@ elements:
   - markup
 last_modified_at: 2025-03-28T11:25:52-03:00
 ---
+
+## Mathematics
+
+The mathematics powered by [**MathJax**](https://www.mathjax.org/):
+
+We can reference the equation as \eqref{eq:series}.
+
+When $a \ne 0$, there are two solutions to $ax^2 + bx + c = 0$ and they are
+
+$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
+
 
 A variety of common HTML elements to demonstrate the theme's stylesheet and verify they have been styled appropriately.
 
