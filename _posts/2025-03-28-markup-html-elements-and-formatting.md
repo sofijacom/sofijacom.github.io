@@ -31,10 +31,6 @@ A variety of common HTML elements to demonstrate the theme's stylesheet and veri
 
 ### ToDo list
 
-- [ ] Job
-  - [x] Step 1
-  - [x] Step 2
-  - [ ] Step 3
 
 ## Blockquotes
 ***"This is an example of a quote with additional styling such as shadows and modified fonts."***
@@ -146,6 +142,13 @@ Do It Live
   2. List item two
   3. List item three
   4. List item four
+
+### ToDo list
+
+- [ ] Job
+  - [x] Step 1
+  - [x] Step 2
+  - [ ] Step 3
 
 ## Address element
 
