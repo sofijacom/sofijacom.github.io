@@ -210,10 +210,12 @@ This element styles large blocks of code.
 
 ## Code blocks
 
-### Common
 
-```text
-This is a common code snippet, without syntax highlight and line number.
+```js
+function testInput(re, str) {
+  const midString = re.test(str) ? "contains" : "does not contain";
+  console.log(`${str} ${midString} ${re.source}`);
+}
 ```
 
 ### Specific Language
@@ -224,6 +226,19 @@ if [ $? -ne 0 ]; then
   #do the needful / exit
 fi;
 ```
+## css Language
+
+```css
+h3 { 
+  font-family: Tahoma;
+}
+p { 
+  width:300px;
+  box-shadow: 2px 2px 5px #888888;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 0, 1.0);
+}
+```
 
 ### Specific filename
 
@@ -232,25 +247,6 @@ fi;
   "colors/light-typography",
   "colors/dark-typography";
 ```
-{: file='_sass/jekyll-theme-chirpy.scss'}
-
-## Mathematics
-
-The mathematics powered by [**MathJax**](https://www.mathjax.org/):
-
-$$
-\begin{equation}
-  \sum_{n=1}^\infty 1/n^2 = \frac{\pi^2}{6}
-  \label{eq:series}
-\end{equation}
-$$
-
-We can reference the equation as \eqref{eq:series}.
-
-When $a \ne 0$, there are two solutions to $ax^2 + bx + c = 0$ and they are
-
-$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
-
 
 ## Quote element
 
