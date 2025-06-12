@@ -513,8 +513,10 @@ pre.highlight > button:focus {
 blockquote.prompt-tip::before {
     content: "";
     color: #03b303;
-    background-color: #7bf79033;
     font: normal 400 1em/1 "Font Awesome 6 Free";
+}
+blockquote.prompt-tip {
+    background-color: #7bf79033;
 }
 blockquote.prompt-info::before {
     content: "";
@@ -522,13 +524,22 @@ blockquote.prompt-info::before {
     font: normal 900 1em/1 "Font Awesome 6 Free";
     transform: rotate(180deg);
 }
+blockquote.prompt-info {
+    background-color: #e1f5fe;
+}
 blockquote.prompt-warning::before {
     content: "";
     color: #ef9c03;
     font: normal 900 1em/1 "Font Awesome 6 Free";
 }
+blockquote.prompt-warning {
+    background-color: #fff3cd;
+}
 blockquote.prompt-danger::before {
     content: "";
     color: #df3c30;
     font: normal 900 1em/1 "Font Awesome 6 Free";
+}
+blockquote.prompt-danger {
+    background-color: #f8d7da8f;
 }
