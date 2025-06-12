@@ -510,6 +510,14 @@ pre.highlight > button:focus {
     color: #009200;
 }   
 /* End code_copy */
+blockquote {
+  font-style: italic !important;
+  margin: 20px !important;
+  padding: 10px !important;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1) !important;
+  font-family: 'Georgia', serif !important;
+}
+
 blockquote.prompt-tip::before {
     content: "";
     color: #03b303;
