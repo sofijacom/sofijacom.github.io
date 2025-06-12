@@ -194,29 +194,10 @@ This element styles large blocks of code.
 ## Code
 
 ```js
-var codeBlocks = document.querySelectorAll('pre.highlight');
-
-codeBlocks.forEach(function (codeBlock) {
-    var copyButton = document.createElement('button');
-    copyButton.className = 'copy';
-    copyButton.type = 'button';
-    copyButton.ariaLabel = 'Copy code to clipboard';
-    copyButton.innerText = 'Copy';
-
-    codeBlock.append(copyButton);
-
-    copyButton.addEventListener('click', function () {
-        var code = codeBlock.querySelector('code').innerText.trim();
-        window.navigator.clipboard.writeText(code);
-
-        copyButton.innerText = 'Copied';
-        var fourSeconds = 4000;
-
-        setTimeout(function () {
-            copyButton.innerText = 'Copy';
-        }, fourSeconds);
-    });
-});
+//first.test.js
+test('My first test', () => {
+    expect(Math.max(1, 5, 10)).toBe(10);
+});  
 ```
 
 ## Quote element
