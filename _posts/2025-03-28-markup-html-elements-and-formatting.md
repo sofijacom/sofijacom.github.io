@@ -15,6 +15,13 @@ elements:
 last_modified_at: 2025-03-28T11:25:52-03:00
 ---
 
+```html
+//first.test.js
+test('My first test', () => {
+    expect(Math.max(1, 5, 10)).toBe(10);
+});
+```
+
 A variety of common HTML elements to demonstrate the theme's stylesheet and verify they have been styled appropriately.
 
 # Header one
