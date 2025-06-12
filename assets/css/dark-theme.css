@@ -508,4 +508,37 @@ pre.highlight > button:focus {
 .fa-check {
     color: #009200;
 }
-/* code_copy */
+/* End code_copy */
+blockquote.prompt-tip::before {
+    content: "";
+    color: #0fa40fcf;
+    font: normal 400 1em/1 "Font Awesome 6 Free";
+}
+blockquote.prompt-tip {
+    background-color: #7bf79033;
+}
+blockquote.prompt-info::before {
+    content: "";
+    color: #0075d1;
+    font: normal 900 1em/1 "Font Awesome 6 Free";
+    transform: rotate(180deg);
+}
+blockquote.prompt-info {
+    background-color: #073b68cc;
+}
+blockquote.prompt-warning::before {
+    content: "";
+    color: #ffa500cc;
+    font: normal 900 1em/1 "Font Awesome 6 Free";
+}
+blockquote.prompt-warning {
+    background-color: #fff3cd;
+}
+blockquote.prompt-danger::before {
+    content: "";
+    color: #cd0202;
+    font: normal 900 1em/1 "Font Awesome 6 Free";
+}
+blockquote.prompt-danger {
+    background-color: #f8d7da8f;
+}
