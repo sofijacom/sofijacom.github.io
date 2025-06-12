@@ -517,6 +517,9 @@ blockquote.prompt-tip::before {
 blockquote.prompt-tip {
     background-color: #7bf79033;
 }
+blockquote.prompt-tip {
+    border-left: solid 0.25rem #0fa40fcf;
+}
 blockquote.prompt-info::before {
     content: "";
     color: #0075d1;
@@ -526,6 +529,9 @@ blockquote.prompt-info::before {
 blockquote.prompt-info {
     background-color: #073b68cc;
 }
+blockquote.prompt-info {
+    border-left: solid 0.25rem #0075d1;
+}
 blockquote.prompt-warning::before {
     content: "";
     color: #ffa500cc;
@@ -534,6 +540,9 @@ blockquote.prompt-warning::before {
 blockquote.prompt-warning {
     background-color: #fff3cd;
 }
+blockquote.prompt-warning {
+    border-left: solid 0.25rem #ffa500cc;
+}
 blockquote.prompt-danger::before {
     content: "";
     color: #cd0202;
@@ -541,4 +550,7 @@ blockquote.prompt-danger::before {
 }
 blockquote.prompt-danger {
     background-color: #f8d7da8f;
+}
+blockquote.prompt-danger {
+    border-left: solid 0.25rem #cd0202;
 }
