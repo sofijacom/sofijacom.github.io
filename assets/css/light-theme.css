@@ -536,7 +536,7 @@ blockquote.prompt-info::before {
     transform: rotate(180deg);
 }
 blockquote.prompt-info {
-    background-color: #e1f5fe;
+    background-color: #cde7f3;
 }
 blockquote.prompt-info {
     border-left: solid 0.25rem #0070cb;
