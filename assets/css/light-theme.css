@@ -510,3 +510,31 @@ pre.highlight > button:focus {
     color: #009200;
 }   
 
+blockquote {
+  border-left: 0.125rem solid var(--blockquote-border-color);
+  padding-left: 1rem;
+  color: var(--blockquote-text-color);
+  margin-top: 0.5rem;
+
+  > p:last-child {
+    margin-bottom: 0;
+  }
+
+  &[class^='prompt-'] {
+    border-left: 0;
+    position: relative;
+    padding: 1rem 1rem 1rem 3rem;
+    color: var(--prompt-text-color);
+
+    @extend %rounded;
+
+    &::before {
+      text-align: center;
+      width: 3rem;
+      position: absolute;
+      left: 0.25rem;
+      margin-top: 0.4rem;
+      text-rendering: auto;
+      -webkit-font-smoothing: antialiased;
+    }
+  }
