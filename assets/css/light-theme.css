@@ -510,3 +510,24 @@ pre.highlight > button:focus {
     color: #009200;
 }   
 
+blockquote.prompt-tip::before {
+    content: "";
+    color: #03b303;
+    font: normal 400 1em/1 "Font Awesome 6 Free";
+}
+blockquote.prompt-info::before {
+    content: "";
+    color: #0070cb;
+    font: normal 900 1em/1 "Font Awesome 6 Free";
+    transform: rotate(180deg);
+}
+blockquote.prompt-warning::before {
+    content: "";
+    color: #ef9c03;
+    font: normal 900 1em/1 "Font Awesome 6 Free";
+}
+blockquote.prompt-danger::before {
+    content: "";
+    color: #df3c30;
+    font: normal 900 1em/1 "Font Awesome 6 Free";
+}
