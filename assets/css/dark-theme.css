@@ -570,7 +570,7 @@ blockquote.prompt-danger {
     border-left: solid 0.25rem #cd0202;
 }
 blockquote.prompt-important::before {
-    content: "";
+    content: "";
     color: #aa55ff;
     font: normal 900 1em/1 "Font Awesome 6 Free";
 }
