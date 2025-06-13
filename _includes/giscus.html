@@ -1,55 +1,5 @@
-<!-- https://giscus.app/ -->
-<script>
-  (function () {
-    const themeMapper = Theme.getThemeMapper('catppuccin_latte', 'catppuccin_macchiato');
-    const initTheme = themeMapper[Theme.visualState];
-
-    let giscusAttributes = {
-      src: 'https://giscus.app/client.js',
-      'data-repo': 'sofijacom/sofijacom.github.io',
-      'data-repo-id': 'R_kgDON7iIDw',
-      'data-category': 'General',
-      'data-category-id': 'DIC_kwDON7iID84Cq1Zx',
-      'data-mapping': 'title',
-      'data-strict' : '0',
-      'data-reactions-enabled': '1',
-      'data-emit-metadata': '0',
-      'data-theme': initTheme,
-      'data-input-position': 'bottom',
-      'data-lang': en,
-      'data-loading': 'lazy',
-      crossorigin: 'anonymous',
-      async: ''
-    };
-
-    let giscusNode = document.createElement('script');
-    Object.entries(giscusAttributes).forEach(([key, value]) =>
-      giscusNode.setAttribute(key, value)
-    );
-
-    const $footer = document.querySelector('footer');
-    $footer.insertAdjacentElement("beforebegin", giscusNode);
-
-    addEventListener('message', (event) => {
-      if (event.source === window && event.data && event.data.id === Theme.ID) {
-        const newTheme = themeMapper[Theme.visualState];
-
-        const message = {
-          setConfig: {
-            theme: newTheme
-          }
-        };
-
-        const giscus =
-          document.getElementsByClassName('giscus-frame')[0].contentWindow;
-        giscus.postMessage({ giscus: message }, 'https://giscus.app');
-      }
-    });
-  })();
-</script>
-
 <!-- style="color:#aa55ff"-->
-<!--<h4 class="page__comments-title">Leave a comment</h4>
+<h4 class="page__comments-title">Leave a comment</h4>
 <script src="https://giscus.app/client.js"
         data-repo="sofijacom/sofijacom.github.io"
         data-repo-id="R_kgDON7iIDw"
@@ -60,13 +10,13 @@
         data-reactions-enabled="1"
         data-emit-metadata="0"
         data-input-position="bottom"
-        data-theme="catppuccin_latte"
+        data-theme="catppuccin_macchiato"
         data-lang="en"
         data-loading="lazy"
         crossorigin="anonymous"
         async>
       
-</script> -->
+</script>
 
 <!-- Themes
 light, dark, catppuccin_latte, catppuccin_macchiato, gruvbox_light, transparent_dark, preferred_color_scheme, cobalt, purple_dark
