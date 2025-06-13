@@ -5,12 +5,12 @@
  *    clipboard.js (https://github.com/zenorocha/clipboard.js)
  */
 
-import Tooltip from 'bootstrap/js/src/tooltip';
+//import Tooltip from 'bootstrap/js/src/tooltip';
 
 const clipboardSelector = '.code-header>button';
 
-const ICON_DEFAULT = '<i class = "fa-regular fa-clone"></i>';
-const ICON_SUCCESS = '<i class = "fa-solid fa-check"></i>';
+const ICON_DEFAULT = 'far fa-clipboard';
+const ICON_SUCCESS = 'fas fa-check';
 
 const ATTR_TIMEOUT = 'timeout';
 const ATTR_TITLE_SUCCEED = 'data-title-succeed';
