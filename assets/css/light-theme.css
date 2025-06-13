@@ -566,7 +566,7 @@ blockquote.prompt-danger {
 }
 
 blockquote.prompt-important::before {
-    content: "";
+    content: "f129";
     color: #aa55ff;
     font: normal 900 1em/1 "Font Awesome 6 Free";
 }
