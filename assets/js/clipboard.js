@@ -7,7 +7,7 @@
 
 //import Tooltip from 'bootstrap/js/src/tooltip';
 
-const clipboardSelector = 'pre.highlight > button';
+const clipboardSelector = '.code-header > button';
 
 const ICON_DEFAULT = 'far fa-clipboard';
 const ICON_SUCCESS = 'fas fa-check';
