@@ -84,7 +84,9 @@ layout: default
         </div>
       </div>    
     {% endif %}
-    <div class="giscus">  
+       {% if page.comments != false %}
+	 {% include  giscus.html %}
+   {% endif %}  
   </div>
 </main>
 	 	
