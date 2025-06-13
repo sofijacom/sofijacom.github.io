@@ -511,6 +511,7 @@ pre.highlight > button:focus {
     color: #009200;
 }   
 /* End code_copy */
+
 blockquote {
   font-style: italic !important;
   margin: 20px !important;
@@ -530,6 +531,7 @@ blockquote.prompt-tip {
 blockquote.prompt-tip {
     border-left: solid 0.25rem #03b303;
 }
+
 blockquote.prompt-info::before {
     content: "";
     color: #0070cb;
@@ -542,6 +544,7 @@ blockquote.prompt-info {
 blockquote.prompt-info {
     border-left: solid 0.25rem #0070cb;
 }
+
 blockquote.prompt-warning::before {
     content: "";
     color: #ef9c03;
@@ -553,6 +556,7 @@ blockquote.prompt-warning {
 blockquote.prompt-warning {
     border-left: solid 0.25rem #ef9c03;
 }
+
 blockquote.prompt-danger::before {
     content: "";
     color: #df3c30;
@@ -576,16 +580,3 @@ blockquote.prompt-important {
 blockquote.prompt-important {
     border-left: solid 0.25rem #aa55ff;
 }
-
-
-.code-header > button {
-    border: 1px solid rgba(0, 0, 0, 0);
-    height: 2.25rem;
-    width: 2.25rem;
-    padding: 0;
-    background-color: inherit;
-    cursor: pointer;
-    color: #6c757d;
-    border-radius: 10px;
-}
-
