@@ -569,3 +569,14 @@ blockquote.prompt-danger {
 blockquote.prompt-danger {
     border-left: solid 0.25rem #cd0202;
 }
+blockquote.prompt-important::before {
+    content: "";
+    color: #aa55ff;
+    font: normal 900 1em/1 "Font Awesome 6 Free";
+}
+blockquote.prompt-important {
+    background-color: #d7c5e9;
+}
+blockquote.prompt-important {
+    border-left: solid 0.25rem #aa55ff;
+}
