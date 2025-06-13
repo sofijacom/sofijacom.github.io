@@ -584,13 +584,8 @@ blockquote.prompt-important {
     width: 2.25rem;
     padding: 0;
     background-color: inherit;
-}
-.categories.card, .categories .list-group, .highlight, div[class^=language-], .code-header > button, blockquote[class^=prompt-], .preview-img, .preview-img img, .post-preview, .post-preview::before, .embed-video {
+    cursor: pointer;
+    color: #6c757d;
     border-radius: 10px;
 }
-.post-tail-wrapper .share-wrapper .share-icons button, #search-cancel, .code-header > button {
-    cursor: pointer;
-}
-.code-header > button i {
-    color: #6c757d;
-}
+
