@@ -576,3 +576,21 @@ blockquote.prompt-important {
 blockquote.prompt-important {
     border-left: solid 0.25rem #aa55ff;
 }
+
+
+.code-header button {
+    border: 1px solid rgba(0, 0, 0, 0);
+    height: 2.25rem;
+    width: 2.25rem;
+    padding: 0;
+    background-color: inherit;
+}
+.categories.card, .categories .list-group, .highlight, div[class^=language-], .code-header button, blockquote[class^=prompt-], .preview-img, .preview-img img, .post-preview, .post-preview::before, .embed-video {
+    border-radius: 10px;
+}
+.post-tail-wrapper .share-wrapper .share-icons button, #search-cancel, .code-header button {
+    cursor: pointer;
+}
+.code-header button i {
+    color: #6c757d;
+}
