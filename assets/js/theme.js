@@ -16,7 +16,7 @@ themeToggle.addEventListener("click", function() {
     } else {
         // …переключаемся на "light-theme.css"
         theme.href = "/assets/css/light-theme.css";
-        theme.href = '/_include/giscus.html';
+        {% include  giscus.html %};
              // Add the ff. line to write to memory.
      localStorage.setItem("my-theme",null);
     }    
@@ -31,5 +31,5 @@ themeToggle.addEventListener("click", function() {
  else {
    // Use default theme.
    theme.href = "/assets/css/light-theme.css";
-     theme.href = '/_include/giscus.html';
+     {% include  giscus.html %};
  }
