@@ -4,12 +4,6 @@
     const themeMapper = Theme.getThemeMapper('catppuccin_latte', 'catppuccin_macchiato');
     const initTheme = themeMapper[Theme.visualState];
 
-    let lang = 'en';
-    {%- comment -%} https://github.com/giscus/giscus/tree/main/locales {%- endcomment -%}
-    if (lang.length > 2 && !lang.startsWith('en')) {
-      lang = lang.slice(0, 2);
-    }
-
     let giscusAttributes = {
       src: 'https://giscus.app/client.js',
       'data-repo': 'sofijacom/sofijacom.github.io',
