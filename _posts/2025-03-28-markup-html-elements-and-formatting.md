@@ -46,7 +46,7 @@ Multi line blockquote with a cite reference:
 <cite>Steve Jobs</cite> --- Apple Worldwide Developers' Conference, 1997
 {: .small}
 
-## Alerts
+## Prompts
 
 > An example showing the `tip` type prompt.
 {: .prompt-tip }
