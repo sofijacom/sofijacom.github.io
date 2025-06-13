@@ -282,6 +282,10 @@ header {
     color: #797b8f !important;
 }
 
+.text-muted {
+    color: #a6adc8 !important;
+}
+
 .site-footer {
     margin-top: 4rem;
     color: #9495a5 !important;
