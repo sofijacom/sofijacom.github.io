@@ -8,20 +8,6 @@ This is the (official?) website for Kennel Linux built with the [Jekyll](https:/
   <img src="https://github.com/user-attachments/assets/f0d73734-c55c-4e9f-a2c3-65a5dbb4385f" />
 </p>
 
-> [!NOTE]
-> Useful information that users should know, even when skimming content.
-
-> [!TIP]
-> Helpful advice for doing things better or more easily.
-
-> [!IMPORTANT]
-> Key information users need to know to achieve their goal.
-
-> [!WARNING]
-> Urgent info that needs immediate user attention to avoid problems.
-
-> [!CAUTION]
-> Advises about risks or negative outcomes of certain actions.
 
 ```terminal
 jekyll-theme-basically-basic
