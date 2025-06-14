@@ -269,8 +269,6 @@ $$
 \end{equation}
 $$
 
-We can reference the equation as \eqref{eq:series}.
-
 For example, the following Markdown,
 
 <pre>
