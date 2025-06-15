@@ -11,9 +11,9 @@
      // Проверяйте локальное хранилище при каждой перезагрузке, чтобы знать, какую тему использовать.
  if (localStorage.getItem("pref-theme")==="dark") {
    // Use dark theme.
-   document.body.classList.add('dark');
+   document.body.classList.add('light');
  }
  else {
    // Use default theme.
-   document.body.classList.add('light');
+   document.body.classList.add('dark');
  }
