@@ -9,7 +9,7 @@
     })
 
      // Проверяйте локальное хранилище при каждой перезагрузке, чтобы знать, какую тему использовать.
- if (localStorage.getItem("pref-theme")==="dark") {
+ if (localStorage.getItem("pref-theme")==="light") {
    // Use dark theme.
    document.body.classList.add('light');
  }
