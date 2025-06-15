@@ -17,7 +17,15 @@ themeToggle.addEventListener("click", function() {
         theme.href = "/assets/css/light-theme.css";
              // Add the ff. line to write to memory.
      localStorage.setItem("my-theme",null);
-    }    
+    }
+
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
 });
 
      // Проверяйте локальное хранилище при каждой перезагрузке, чтобы знать, какую тему использовать.
@@ -32,13 +40,13 @@ themeToggle.addEventListener("click", function() {
 
 
 
-document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
-            localStorage.setItem("pref-theme", 'light');
-        } else {
-            document.body.classList.add('dark');
-            localStorage.setItem("pref-theme", 'dark');
-        }
-    })
+//document.getElementById("theme-toggle").addEventListener("click", () => {
+//        if (document.body.className.includes("dark")) {
+//            document.body.classList.remove('dark');
+//            localStorage.setItem("pref-theme", 'light');
+//        } else {
+//            document.body.classList.add('dark');
+//            localStorage.setItem("pref-theme", 'dark');
+//        }
+//    })
 
