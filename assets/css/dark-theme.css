@@ -14,7 +14,7 @@
 @font-monospace: "IBM Plex Mono", monospace;
 
 :root {
-    --catppuccin-latte-rosewater: #dc8a78;
+   /* --catppuccin-latte-rosewater: #dc8a78;
     --catppuccin-latte-flamingo: #dd7878;
     --catppuccin-latte-pink: #ea76cb;
     --catppuccin-latte-mauve: #8839ef;
@@ -28,15 +28,7 @@
     --catppuccin-latte-sapphire: #209fb5;
     --catppuccin-latte-blue: #1e66f5;
     --catppuccin-latte-lavender: #7287fd;
-    --catppuccin-latte-base: #eff1f5;
-    --base-color: #4c4f69;
-    --code-background-color: #cdd6f3;
-    --border-color: #cdd6f3;
-    --overlay-color: #cdd6f3;
-    --sidebar-background-color: #181825;
-    --background-color: #181825;
-    --text-color: #cdd6f4;
-    --accent-color: #c09bef;
+    --catppuccin-latte-base: #eff1f5; */
 
     --catppuccin-macchiato-rosewater: #f4dbd6;
     --catppuccin-macchiato-flamingo: #f0c6c6;
@@ -52,8 +44,17 @@
     --catppuccin-macchiato-sapphire: #7dc4e4;
     --catppuccin-macchiato-blue: #8aadf4;
     --catppuccin-macchiato-lavender: #b7bdf8;
+    --catppuccin-macchiato-base: #24273a;
+    --base-color: #4c4f69;
+    --code-background-color: #cdd6f3;
+    --border-color: #cdd6f3;
+    --overlay-color: #cdd6f3;
+    --sidebar-background-color: #181825;
+    --background-color: #181825;
+    --text-color: #cdd6f4;
+    --accent-color: #c09bef;
 
-    --theme: var(--catppuccin-latte-base); 
+    --theme: var(--catppuccin-macchiato-base);
 }
 
 .list {
