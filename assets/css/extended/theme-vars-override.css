@@ -77,14 +77,14 @@
   --content: var(--catppuccin-macchiato-text);
   --hljs-bg: var(--catppuccin-macchiato-surface0);
   --code-bg: var(--catppuccin-macchiato-surface0);
-  --border: var(--catppuccin-macchiato-overlay0);    /* --catppuccin-macchiato-lavender */
+  --border: var(--catppuccin-macchiato-overlay0);
 }
 
 .dark.list {
   background: var(--theme);
 }
 
-.chroma {
+/*.chroma {
   background-color: var(--catppuccin-macchiato-surface0) !important;
 }
 
@@ -92,7 +92,7 @@
   background-color: var(--catppuccin-macchiato-surface0) !important;
 }
 
-/* добавлено мной */
+// добавлено мной
 .top-link {
     bottom: 100px !important;
     right: 32px !important;
@@ -101,4 +101,4 @@
 button#theme-toggle {
     font-size: 32px !important;
     margin: auto 5px !important;
-}
+} */
