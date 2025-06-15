@@ -193,7 +193,7 @@ a:hover, a:focus {
 }
 
 /* кнопка переключения тем */
-button#theme-toggle {
+.btn-toggle {
     background-color: transparent;
     color: #11111b;
     height: auto;
@@ -203,7 +203,7 @@ button#theme-toggle {
     border-radius: 50px;
     margin-right: 10px;
 }
-#theme-toggle:hover {
+.btn-toggle:hover {
    color: #04a5e5;
    transition: 0.5s; 
 }
