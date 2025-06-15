@@ -37,6 +37,26 @@
     }
   }
 
+.list {
+  background: var(--theme);
+}
+
+.dark {
+  --theme: var(--catppuccin-macchiato-base);
+  --entry: var(--catppuccin-macchiato-mantle);
+  --primary: var(--catppuccin-macchiato-text);
+  --secondary: var(--catppuccin-macchiato-subtext0);
+  --tertiary: var(--catppuccin-macchiato-subtext1);
+  --content: var(--catppuccin-macchiato-text);
+  --hljs-bg: var(--catppuccin-macchiato-surface0);
+  --code-bg: var(--catppuccin-macchiato-surface0);
+  --border: var(--catppuccin-macchiato-overlay0);
+}
+
+.dark.list {
+  background: var(--theme);
+}
+
 body {
     background: #1e2030 !important;
     color: #cdd6f4 !important;
