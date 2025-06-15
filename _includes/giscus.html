@@ -21,7 +21,7 @@
     "data-input-position": "bottom",
     "data-theme": getTheme(),
     "data-lang": "en",
-    "data-loading": "lazy",
+   // "data-loading": "lazy",
     crossorigin: "anonymous",
     async: "",
   };
@@ -70,7 +70,7 @@
   if (typeof themeToggle !== "undefined") {
     themeToggle.addEventListener("click", () =>
       // Add timeout to wait for actual switch before changing theme.
-      setTimeout(changeGiscusTheme, 1000),
+      setTimeout(changeGiscusTheme, 100),
     );
   }
 </script>
