@@ -1,6 +1,6 @@
 // By Sofiya 
 // Выбираем кнопку
-const themeToggle = document.getElementById("theme-toggle");
+const themeToggle = document.getElementById("btn-toggle");
 // Выбираем таблицу стилей
 const theme = document.querySelector("#theme-link");
 // Отслеживаем щелчок по кнопке
@@ -18,14 +18,6 @@ themeToggle.addEventListener("click", function() {
              // Add the ff. line to write to memory.
      localStorage.setItem("my-theme",null);
     }
-
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
-            localStorage.setItem("pref-theme", 'light');
-        } else {
-            document.body.classList.add('dark');
-            localStorage.setItem("pref-theme", 'dark');
-        }
 });
 
      // Проверяйте локальное хранилище при каждой перезагрузке, чтобы знать, какую тему использовать.
@@ -40,13 +32,13 @@ themeToggle.addEventListener("click", function() {
 
 
 
-//document.getElementById("theme-toggle").addEventListener("click", () => {
-//        if (document.body.className.includes("dark")) {
-//            document.body.classList.remove('dark');
-//            localStorage.setItem("pref-theme", 'light');
-//        } else {
-//            document.body.classList.add('dark');
-//            localStorage.setItem("pref-theme", 'dark');
-//        }
-//    })
+document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
 
