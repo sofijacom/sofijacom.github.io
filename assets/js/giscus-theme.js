@@ -1,4 +1,5 @@
-    document.getElementById("theme-toggle").addEventListener("click", () => {
+// By Sofiya
+document.getElementById("theme-toggle").addEventListener("click", () => {
         if (document.body.className.includes("dark")) {
             document.body.classList.remove('dark');
             localStorage.setItem("pref-theme", 'light');
@@ -8,9 +9,9 @@
         }
     })
 
- if (localStorage.getItem("my-theme")==="dark") {
-   document.body.classList.add('dark');
- }
- else {
-   document.body.classList.add('light');
- }
+        if (localStorage.getItem("my-theme")==="dark") {
+            document.body.classList.add('dark');
+        }
+          else {
+            document.body.classList.add('light');
+        }
