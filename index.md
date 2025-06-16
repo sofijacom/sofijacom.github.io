@@ -24,34 +24,33 @@ actions:
   <li><a href="https://github.com/sofijacom/sofijacom.github.io" title="">Website GitHub repo</a></li>
 </ul>
 
-
 ### Assemblies from <span style="color:#8039d8;font-style:normal;font-weight:400;font-size:24px">Sofiya</span>
 
-<table>
-  <tr>	  
-<td>KLA 64 bit.
-	
+#### KLA 64 bit.
+
+
 - [KLA-OT2baseCE](https://github.com/sofijacom/KLA-OT2baseCE)
 - [KLA-HyprlandCE](https://github.com/sofijacom/KLA-Hyprland)
 - [KLA-Manjaro-Openbox](https://github.com/sofijacom/KLA-Manjaro-Openbox)
-- [KLA-plasma-KDE-CE](https://github.com/sofijacom/KLA-plasma-KDE-CE) </td>
+- [KLA-plasma-KDE-CE](https://github.com/sofijacom/KLA-plasma-KDE-CE)
 
 
-<td>KLV 64 bit.
-	
+#### KLV 64 bit.
+
+
 - [KLV-Spectrwm-CE](https://github.com/sofijacom/KLV-Spectrwm-CE)
 - [KLV-BspwmCE](https://github.com/sofijacom/KLV-BspwmCE)
 - [KLV-AwesomeCE](https://github.com/sofijacom/KLV-AwesomeCE)
 - [KLV-HyprlandCE](https://github.com/sofijacom/KLV-HyprlandCE)
 - [KLV-Hyprland-Sway-CE](https://github.com/sofijacom/KLV-Hyprland-Sway-CE)
-- [KLV-plasma-KDE-CE](https://github.com/sofijacom/KLV-plasma-KDE-CE)</td>
+- [KLV-plasma-KDE-CE](https://github.com/sofijacom/KLV-plasma-KDE-CE)
 
 
-<td>KLF-Rawhide-CE.
-	
-- [KLF-Rawhide-CE](https://github.com/sofijacom/KLF-Rawhide-CE)</td>
-  </tr>
-</table>
+#### KLF-Rawhide-CE.
+
+
+- [KLF-Rawhide-CE](https://github.com/sofijacom/KLF-Rawhide-CE)
+  
  
 <p align="center">
   
