@@ -307,12 +307,10 @@ Still sticking with science and Isaac Newton's E = MC<sup>2</sup>, which should 
 
 This allows you to denote <var>variables</var>.
 
+## Supported color models
 
-Color	    Syntax	  Example               Output
+The background color is `#ffffff` for light mode and `#000000` for dark mode.
 
-HEX	   `#RRGGBB`	 `#0969DA`
 
-RGB	   `rgb(R,G,B)`	 `rgb(9, 105, 218)`
-
-HSL	   `hsl(H,S,L)`	 `hsl(212, 92%, 45%)`
-
+<code class="hljs language-markdown">The background color is <span class="hljs-code">`#ffffff`</span> for light mode and <span class="hljs-code">`#000000`</span> for dark mode.
+</code>
