@@ -8,12 +8,9 @@
         }
     })
 
-// Проверяйте локальное хранилище при каждой перезагрузке, чтобы знать, какую тему использовать.
  if (localStorage.getItem("my-theme")==="dark") {
-   // Use dark theme.
    document.body.classList.add('dark');
  }
  else {
-   // Use default theme.
    document.body.classList.add('light');
  }
