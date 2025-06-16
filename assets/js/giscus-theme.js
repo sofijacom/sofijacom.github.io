@@ -7,7 +7,7 @@ document.getElementById("theme-toggle").addEventListener("click", () => {
             document.body.classList.add('dark');
             localStorage.setItem("pref-theme", 'dark');
         }
-    })
+        })
 
         if (localStorage.getItem("my-theme")==="dark") {
             document.body.classList.add('dark');
