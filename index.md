@@ -26,6 +26,7 @@ actions:
 
 
 ### Assemblies from <span style="color:#8039d8;font-style:normal;font-weight:400;font-size:24px">Sofiya</span>
+
 <table>
   <tr>	  
 <td>KLA 64 bit.
