@@ -201,10 +201,6 @@ a:hover, a:focus {
     background: #a6adc8 !important;
 }
 
-.site-title a {
-    color: #a6adc8 !important;
-}
-
 .site-title {
     display: flex;
     line-height: normal !important;
