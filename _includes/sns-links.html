@@ -33,7 +33,7 @@
 
   <li>
     {% if site.plugins contains 'jekyll-feed' or site.gems contains 'jekyll-feed' %}
-      <a href="{{ site.feed.path | default: 'feed.xml' | relative_url }}" title-tooltip="RSS">
+      <a href="{{ site.feed.path | default: 'feed.xml' | relative_url }}" title-tooltip="RSS-feed">
         <span class="icon icon--rss">{% include icon-rss.svg %}</span>
       </a>
     {% endif %}
