@@ -1,7 +1,7 @@
 <ul class="list-inline">
   {% if site.email %}
     <li>
-      <a href="mailto:{{ site.email }}" title-tooltip="Email me">
+      <a href="mailto:{{ site.email }}" title="Email me">
         <span class="icon icon--email">{% include icon-email.svg %}</span>
       </a>
     </li>
@@ -9,7 +9,7 @@
 
   {% if site.github_username %}
     <li>
-      <a href="https://github.com/{{ site.github_username }}" title-tooltip="GitHub">
+      <a href="https://github.com/{{ site.github_username }}" title="GitHub">
         <span class="icon icon--github">{% include icon-github.svg %}</span>
       </a>    
     </li>
@@ -17,7 +17,7 @@
 
   {% if site.twitter_username %}
     <li>
-      <a href="https://twitter.com/{{ site.twitter_username }}" title-tooltip="X (Twitter)">
+      <a href="https://twitter.com/{{ site.twitter_username }}" title="X (Twitter)">
         <span class="icon icon--twitter">{% include icon-twitter.svg %}</span>
        </a>    
     </li>         
@@ -25,7 +25,7 @@
 
   {% if site.youtube_username %}
     <li>
-      <a href="https://www.youtube.com/{{ site.youtube_username }}" title-tooltip="YouTube">
+      <a href="https://www.youtube.com/{{ site.youtube_username }}" title="YouTube">
         <span class="icon icon--youtube">{% include icon-youtube.svg %}</span>
       </a>    
     </li>
@@ -33,7 +33,7 @@
 
   <li>
     {% if site.plugins contains 'jekyll-feed' or site.gems contains 'jekyll-feed' %}
-      <a href="{{ site.feed.path | default: 'feed.xml' | relative_url }}" title-tooltip="RSS-feed">
+      <a href="{{ site.feed.path | default: 'feed.xml' | relative_url }}" title="RSS-feed">
         <span class="icon icon--rss">{% include icon-rss.svg %}</span>
       </a>
     {% endif %}
