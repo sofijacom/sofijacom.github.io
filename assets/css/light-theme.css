@@ -230,6 +230,7 @@ kbd {
 
 .navicon-button {
   min-height: 35px !important;
+  line-height: 0.90em !important;  
 }
 
 /* .icon--github {
