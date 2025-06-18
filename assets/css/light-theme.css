@@ -69,6 +69,14 @@
   background: var(--theme);
 }
 
+.chroma {
+  background-color: var(--catppuccin-macchiato-surface0) !important;
+}
+
+.post-content pre code {
+  background-color: var(--catppuccin-macchiato-surface0) !important;
+}
+
   @media (prefers-color-scheme: light) {
     :root {
     --base-color: #4c4f69;
