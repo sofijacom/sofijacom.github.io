@@ -69,14 +69,6 @@
   background: var(--theme);
 }
 
-.chroma {
-  background-color: var(--catppuccin-macchiato-surface0) !important;
-}
-
-.post-content pre code {
-  background-color: var(--catppuccin-macchiato-surface0) !important;
-}
-
   @media (prefers-color-scheme: light) {
     :root {
     --base-color: #4c4f69;
@@ -269,7 +261,7 @@ figure.highlight {
   position: relative !important;
   margin-bottom: 1em !important;
   background: #263238 !important;
-  color: #4c4f69 !important;
+ /* color: #4c4f69 !important; */
   font-family: Menlo, Consolas, Monaco, "Courier New", Courier, monospace !important;
   line-height: 1.8 !important;
  /* border-radius: 6px !important; */
