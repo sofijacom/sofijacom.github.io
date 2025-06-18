@@ -398,7 +398,7 @@ header {
   content: attr(title-tooltip);
   padding: 8px;
   border-radius: 6px;
-  background: rgb(4, 165, 229, 1);
+  background: rgb(4, 165, 229, 0.7);
   color: #161625;   
   text-align: center;
   width: max-content;
@@ -410,7 +410,7 @@ header {
   bottom: -20px;
   content: '';
   border: 6px solid transparent;
-  border-bottom: 6px solid rgb(4, 165, 229, 1);
+  border-bottom: 6px solid rgb(4, 165, 229, 0.7);
 }
 
 /* .basil--moon-solid {
