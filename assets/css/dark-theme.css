@@ -196,6 +196,7 @@ a:hover, a:focus {
 
 .navicon {
     background: #a6adc8 !important;
+    line-height: 0.90em !important;
 }
 .navicon::before, .navicon::after {
     background: #a6adc8 !important;
