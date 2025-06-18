@@ -196,7 +196,6 @@ a:hover, a:focus {
 
 .navicon {
     background: #a6adc8 !important;
-    line-height: 0.90em !important;
 }
 .navicon::before, .navicon::after {
     background: #a6adc8 !important;
@@ -245,6 +244,7 @@ code, pre {
 
 .navicon-button {
   min-height: 35px !important;
+  line-height: 0.90em !important;  
 }
 
 /* .icon--github {
