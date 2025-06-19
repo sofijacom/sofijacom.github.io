@@ -11,11 +11,11 @@ image: /assets/images/Resumr-1.jpg
 _I am an IT technology engineer. Ability and desire for constant self-learning. I'm bad at programming. I mostly write scripts for personal use._
 
 
-<img align='left' src="/assets/web/intro-illustration.webp" width="200" alt="sv-resume" />
+<img align='left' src="/assets/web/intro-illustration.webp" height="auto" width="200" alt="sv-resume" />
 
 <p align="center">
   
-<img src="https://readme-typing-svg.herokuapp.com?font=Roboto+Slab&color=%237E3ACE&size=24&center=true&vCenter=true&width=450&lines=Thank+you+for+visiting+!+❤+❤+❤" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Roboto+Slab&color=%237E3ACE&size=24&center=true&vCenter=true&width=450&lines=Thank+you+for+visiting+!+❤+❤+❤" alt="thank-you" />
   
 </p> 
 
