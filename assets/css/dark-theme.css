@@ -69,7 +69,7 @@
   background: var(--theme);
 }
 
-/*  @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
     :root {
     --catppuccin-macchiato-rosewater: #f4dbd6;
     --catppuccin-macchiato-flamingo: #f0c6c6;
@@ -95,7 +95,7 @@
     --text-color: #cdd6f4;
     --accent-color: #c09bef;
     }
-  } */
+  }
 
 body {
     background: #1e2030 !important;
