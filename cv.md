@@ -10,7 +10,7 @@ image: /assets/images/Resumr-1.jpg
 
 _I am an IT technology engineer. Ability and desire for constant self-learning. I'm bad at programming. I mostly write scripts for personal use._
 
-<img align='left' src="/assets/web/resume-sv.png" width="160" alt="cat-footer" />
+<img align='left' src="/assets/web/intro-illustration.webp" width="160" alt="sv-resume" />
 
 <p align="center">
   
