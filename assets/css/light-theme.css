@@ -69,7 +69,7 @@
   background: var(--theme);
 }
 
-/*  @media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: light) {
     :root {
     --catppuccin-latte-rosewater: #dc8a78;
     --catppuccin-latte-flamingo: #dd7878;
@@ -94,7 +94,7 @@
     --text-color: #4c4f69;
     --accent-color: #dc8a78;
     }
-  } */
+  }
 
 body {
     background: #e6e9ef !important;
