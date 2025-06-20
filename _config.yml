@@ -150,11 +150,6 @@ exclude:
   - vendor/ruby/
   - /docs # ignore Basically Basic sample site
   - /example # ignore Basically Basic dev site
-
-pre:
-  dedent: true
-  label: Shell
-  copyButton: true
   
 # Front Matter Defaults
 defaults:
