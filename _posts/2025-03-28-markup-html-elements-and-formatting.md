@@ -260,6 +260,27 @@ p {
   "colors/dark-typography";
 ```
 
+### Code block with line numbers and <mark>highlighted</mark> lines
+
+- PaperMod supports `linenos=true` or `linenos=table`
+
+```html {linenos=true,hl_lines=[2,8]}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Example HTML5 Document</title>
+    <meta
+      name="description"
+      content="Sample article showcasing basic Markdown syntax and formatting for HTML elements."
+    />
+  </head>
+  <body>
+    <p>Test</p>
+  </body>
+</html>
+```
+
 ## Mathematics
 
 The mathematics powered by [**MathJax**](https://www.mathjax.org/):
