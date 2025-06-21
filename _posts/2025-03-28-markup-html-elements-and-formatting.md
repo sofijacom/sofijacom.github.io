@@ -33,22 +33,6 @@ last_modified_at: 2025-03-28T11:25:52-03:00
 </html>
 {% endhighlight %}
 
-```html {linenos=true,hl_lines=[2,8]}
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Example HTML5 Document</title>
-    <meta
-      name="description"
-      content="Sample article showcasing basic Markdown syntax and formatting for HTML elements."
-    />
-  </head>
-  <body>
-    <p>Test</p>
-  </body>
-</html>
-```
 
 A variety of common HTML elements to demonstrate the theme's stylesheet and verify they have been styled appropriately.
 
