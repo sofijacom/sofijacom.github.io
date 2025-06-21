@@ -63,6 +63,7 @@
 .highlight .sr { color: #0086d2 } /* Literal.String.Regex */
 .highlight .s1 { color: #0086d2 } /* Literal.String.Single */
 .highlight .ss { color: #0086d2 } /* Literal.String.Symbol */
+.highlight .txt { color: #a5acc5 } /* Plain text */
 .highlight .bp { color: #ffffff } /* Name.Builtin.Pseudo */
 .highlight .vc { color: #fb660a } /* Name.Variable.Class */
 .highlight .vg { color: #fb660a } /* Name.Variable.Global */
