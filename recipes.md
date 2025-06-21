@@ -1,6 +1,6 @@
 ---
 title: Plugins
-layout: page #collection
+layout: collection
 sub_title: "The plugin is a script with the possibility of expansion and further modification."
 image: '/assets/images/Plugins.jpg'
 comments: false
@@ -9,7 +9,7 @@ comments: false
 <details>
 <summary><b>f_00_Void_KDE_plasma_no-kernel.plug</b></summary>
 
-```
+```tex
 # f_00_Void_KDE_plasma_no-kernel.plug
 # version="1.0"; revision="-CЕ-1.3"
 # Kennel Linux Void outfitted with a KDE-plasma desktop 
