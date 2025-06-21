@@ -17,25 +17,6 @@ last_modified_at: 2025-03-28T11:25:52-03:00
 ---
 
 
-{% highlight ruby %}
-/**
- * Does a thing
- */
-function helloWorld(param1, param2) {
-  var something = 0;
-
-  // Do something
-  if (2.0 % 2 == something) {
-    console.log('Hello, world!');
-  } else {
-    return null;
-  }
-
-  // @TODO comment
-}
-{% endhighlight %}
-
-
 A variety of common HTML elements to demonstrate the theme's stylesheet and verify they have been styled appropriately.
 
 # Header one
@@ -279,6 +260,27 @@ p {
   "colors/light-typography",
   "colors/dark-typography";
 ```
+
+## Pygments.
+highlighter: pygments
+
+{% highlight ruby %}
+/**
+ * Does a thing
+ */
+function helloWorld(param1, param2) {
+  var something = 0;
+
+  // Do something
+  if (2.0 % 2 == something) {
+    console.log('Hello, world!');
+  } else {
+    return null;
+  }
+
+  // @TODO comment
+}
+{% endhighlight %}
 
 ## Mathematics
 
