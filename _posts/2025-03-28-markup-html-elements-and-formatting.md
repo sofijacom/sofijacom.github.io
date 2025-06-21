@@ -19,7 +19,6 @@ last_modified_at: 2025-03-28T11:25:52-03:00
 <!-- {% highlight ruby mark_lines="1 2" %} -->
 <!-- {% highlight ruby linenos %} -->
 {% highlight ruby %}
-
 /**
  * Does a thing
  */
@@ -35,7 +34,6 @@ function helloWorld(param1, param2) {
 
   // @TODO comment
 }
-
 {% endhighlight %}
 
 
