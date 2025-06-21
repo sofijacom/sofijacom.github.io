@@ -16,7 +16,7 @@ elements:
 last_modified_at: 2025-03-28T11:25:52-03:00
 ---
 
-{% highlight ruby mark_lines="2 8" %}
+{% highlight ruby linenos %}
 /**
  * Does a thing
  */
