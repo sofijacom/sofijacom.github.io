@@ -2,7 +2,7 @@
 title: Plugins
 sub_title: "The plugin is a script with the possibility of expansion and further modification."
 image: '/assets/images/Plugins.jpg'
-layout: collection
+layout: page #collection
 comments: false
 ---
 
@@ -10,6 +10,7 @@ comments: false
 <summary><b>f_00_Void_KDE_plasma_no-kernel.plug</b></summary>
 
 ```ruby
+
 # f_00_Void_KDE_plasma_no-kernel.plug
 # version="1.0"; revision="-CЕ-1.3"
 # Kennel Linux Void outfitted with a KDE-plasma desktop 
@@ -460,4 +461,5 @@ ess finished"
 d process finished"
 ess finished"
 "
+
 ```
