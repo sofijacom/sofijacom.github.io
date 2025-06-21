@@ -1,8 +1,8 @@
 ---
 title: Plugins
+layout: page #collection
 sub_title: "The plugin is a script with the possibility of expansion and further modification."
 image: '/assets/images/Plugins.jpg'
-layout: page #collection
 comments: false
 ---
 
