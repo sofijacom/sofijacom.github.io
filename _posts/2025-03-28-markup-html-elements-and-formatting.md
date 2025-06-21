@@ -16,9 +16,11 @@ elements:
 last_modified_at: 2025-03-28T11:25:52-03:00
 ---
 
-<!-- {% highlight ruby mark_lines="1 2" %} -->
+
+<!--{% highlight ruby %}-->
 <!-- {% highlight ruby linenos %} -->
-{% highlight ruby %}
+
+{% highlight ruby mark_lines="1 2" %}
 /**
  * Does a thing
  */
