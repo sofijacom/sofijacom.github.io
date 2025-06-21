@@ -18,7 +18,7 @@ last_modified_at: 2025-03-28T11:25:52-03:00
 
 ## Text
 
-```text
+```ruby
 A variety of common HTML elements to demonstrate the theme's stylesheet and verify
 ```
 
