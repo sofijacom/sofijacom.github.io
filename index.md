@@ -26,7 +26,7 @@ actions:
   <li><a href="https://github.com/sofijacom/sofijacom.github.io" title="">Website GitHub repo</a></li>
 </ul>
 
-### Assemblies from <span style="color:#8039d8;font-style:italic;font-weight:700;font-size:16px">@Sofiya</span>
+### Assemblies from <span style="color:#ff0000;font-style:italic;font-weight:700;font-size:16px">@Sofiya</span>
 
 #### KLA 64 bit.
 
