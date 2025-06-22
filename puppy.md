@@ -12,8 +12,8 @@ actions:
 
 <img align='left' src="/assets/icons/MU.png" style="margin-right: 10px" height="auto" width="60" alt="MU" />
 
-<p align="center">
+<p align="left">
   
-<img src="https://readme-typing-svg.herokuapp.com?font=Roboto+Slab&color=5a5f77&size=24&center=true&vCenter=true&width=450&lines=Welcome+." alt="thank-you" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Roboto+Slab&color=5a5f77&size=24&center=false&vCenter=true&width=450&lines=Welcome+." alt="thank-you" />
   
 </p> 
