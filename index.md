@@ -54,7 +54,7 @@ actions:
 - [KLF-Rawhide-CE](https://github.com/sofijacom/KLF-Rawhide-CE)
   
 
-### Assemblies from <span style="color:#aa0000;font-style:normal;font-weight:400;font-size:24px">@josejp2424</span>
+### Assemblies from <span style="color:#ff0000;font-style:normal;font-weight:400;font-size:21px">@Josejp2424</span>
 
 
 - [KLA-Manjaro-JWM](https://forum.puppylinux.com/viewtopic.php?t=12833)
