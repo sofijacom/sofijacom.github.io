@@ -10,7 +10,7 @@ actions:
     url: "https://forum.puppylinux.com/index.php"    
 ---
 
-<img align='left' src="/assets/icons/MU.png" style="margin-right: 10px" height="auto" width="80" alt="MU" />
+<img align='left' src="/assets/icons/MU.png" style="margin-right: 10px" height="auto" width="60" alt="MU" />
 
 <p align="left">
   
