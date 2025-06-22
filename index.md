@@ -23,7 +23,7 @@ actions:
   <li><a href="https://forum.puppylinux.com/viewforum.php?f=231" title="">Kennel Linux distros</a></li>
   <li><a href="https://forum.puppylinux.com/viewforum.php?f=194" title="">Kennel Linux development</a></li>
   <li><a href="https://gitlab.com/firstrib/firstrib" title="">FirstRib GitLab repo</a></li>
-  <li><a href="https://github.com/sofijacom/sofijacom.github.io" title="">Website GitHub repo</a></li>
+  <li><a href="https://github.com/sofijacom/sofijacom.github.ios" title="">Website GitHub repo</a></li>
 </ul>
 
 ### Assemblies from <span style="color:#8039d8;font-style:normal;font-weight:400;font-size:24px">Sofiya</span>
