@@ -1,5 +1,5 @@
 ---
-layout: discussion
+layout: discussions
 title: Discussions
 comments: true
 ---
