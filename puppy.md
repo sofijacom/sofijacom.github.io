@@ -9,3 +9,6 @@ actions:
     icon: linux-puppy
     url: "https://forum.puppylinux.com/index.php"    
 ---
+
+<img align='left' src="/assets/icons/MU.png" style="margin-right: 10px" height="auto" width="60" alt="MU" />
+
