@@ -17,7 +17,7 @@ actions:
 
 <img align='left' src="/assets/web/intro-illustration.webp" style="margin-right: 20px" width="300" alt="sv-resume" />
 
-### Forums
+<h3>Forums</h3>
 
 <ul class="podcast-links">
   <li><a href="https://forum.puppylinux.com/viewforum.php?f=228" title="">Main forum</a></li>
