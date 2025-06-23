@@ -17,7 +17,7 @@ actions:
 
 <h3>Forums</h3>
 
-<img align='left' src="/assets/web/intro-illustration.webp" style="margin-right: 20px" width="260" alt="sv-resume" />
+<img align='left' src="/assets/web/intro-illustration.webp" style="margin-right: 30px" width="260" alt="sv-resume" />
 <ul class="podcast-links">
   <li><a href="https://forum.puppylinux.com/viewforum.php?f=228" title="">Main forum</a></li>
   <li><a href="https://kennel-linux.rockedge.org/" title="">Another KL forum</a></li>
