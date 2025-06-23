@@ -55,7 +55,7 @@ actions:
 
 ##### KLF-Rawhide-CE.
 
-<img align='left' src="/assets/img/KLF.png" style="margin-right: 44px" height="auto" width="255" alt="klf" />
+<img align='left' src="/assets/img/KLF.png" style="margin-right: 44px" height="auto" width="256" alt="klf" />
 
 - [KLF-Rawhide-CE](https://github.com/sofijacom/KLF-Rawhide-CE)
 - 
