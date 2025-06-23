@@ -17,7 +17,7 @@ actions:
 
 <h3>Forums</h3>
 
-<img align='left' src="/assets/web/forums.jpeg" style="margin-right: 50px" width="250" alt="intro-illustration" />
+<img align='left' src="/assets/web/forums.jpeg" style="margin-right: 44px" width="256" alt="intro-illustration" />
 
 <ul class="podcast-links">
   <li><a href="https://forum.puppylinux.com/viewforum.php?f=228" title="">Main forum</a></li>
