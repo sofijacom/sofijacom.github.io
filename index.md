@@ -71,7 +71,7 @@ actions:
 
 ##### KLA-Manjaro
 
-<img align='left' src="/assets/img/manjaro.png" style="margin-right: 44px; margin-bottom: 30px;" height="auto" width="256" alt="manjaro" />
+<img align='left' src="/assets/img/manjaro.png" style="margin-right: 44px" height="auto" width="256" alt="manjaro" />
 
 - [KLA-Manjaro-JWM](https://forum.puppylinux.com/viewtopic.php?t=12833)
 - [KLA-Manjaro-LXDE](https://forum.puppylinux.com/viewtopic.php?t=12671)
