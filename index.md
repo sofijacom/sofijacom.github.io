@@ -31,7 +31,7 @@ actions:
 
 ### Assemblies from <span style="color:#ff0000;font-style:italic;font-weight:700;font-size:16px">@Sofiya</span>
 
-<img align="left" src="/assets/img/KLA.jpg" style="margin-right: 50px" height="auto" width="250" alt="kla" />
+<img align="left" src="/assets/img/KLA.jpg" style="margin-right: 44px" height="auto" width="256" alt="kla" />
 
 ##### KLA 64 bit.
 
@@ -58,7 +58,7 @@ actions:
 
 ### Assemblies from <span style="color:#ff0000;font-style:italic;font-weight:700;font-size:16px">@Josejp2424</span>
 
-<img align='left' src="/assets/img/manjaro.png" style="margin-right: 50px; margin-bottom: 30px;" height="auto" width="250" alt="manjaro" />
+<img align='left' src="/assets/img/manjaro.png" style="margin-right: 44px; margin-bottom: 30px;" height="auto" width="256" alt="manjaro" />
 
 ##### KLA-Manjaro
 
