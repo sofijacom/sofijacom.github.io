@@ -62,6 +62,7 @@ actions:
 - 
 - 
 - 
+- 
 
  
 ### Assemblies from <span style="color:#ff0000;font-style:italic;font-weight:700;font-size:16px">@Josejp2424</span>
@@ -73,8 +74,8 @@ actions:
 - [KLA-Manjaro-JWM](https://forum.puppylinux.com/viewtopic.php?t=12833)
 - [KLA-Manjaro-LXDE](https://forum.puppylinux.com/viewtopic.php?t=12671)
 - [KLA-Manjaro-Mate](https://forum.puppylinux.com/viewtopic.php?t=14608)
- 
- 
+-  
+  
 <p align="center">
   
   <img src="https://github.com/user-attachments/assets/6c640e94-03b1-4425-8345-e8bde37252a5" />  
