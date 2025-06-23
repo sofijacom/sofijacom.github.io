@@ -31,14 +31,16 @@ actions:
 
 ### Assemblies from <span style="color:#ff0000;font-style:italic;font-weight:700;font-size:16px">@Sofiya</span>
 
-<img align="left" src="/assets/img/KLA.jpg" style="margin-right: 44px" height="auto" width="256" alt="kla" />
-
 ##### KLA 64 bit.
+
+<img align="left" src="/assets/img/KLA.jpg" style="margin-right: 44px" height="auto" width="256" alt="kla" />
 
 - [KLA-OT2baseCE](https://github.com/sofijacom/KLA-OT2baseCE)
 - [KLA-HyprlandCE](https://github.com/sofijacom/KLA-Hyprland)
 - [KLA-Manjaro-Openbox](https://github.com/sofijacom/KLA-Manjaro-Openbox)
 - [KLA-plasma-KDE-CE](https://github.com/sofijacom/KLA-plasma-KDE-CE)
+- 
+- 
 
 
 ##### KLV 64 bit.
@@ -67,13 +69,16 @@ actions:
  
 ### Assemblies from <span style="color:#ff0000;font-style:italic;font-weight:700;font-size:16px">@Josejp2424</span>
 
-<img align='left' src="/assets/img/manjaro.png" style="margin-right: 44px; margin-bottom: 30px;" height="auto" width="256" alt="manjaro" />
-
 ##### KLA-Manjaro
+
+<img align='left' src="/assets/img/manjaro.png" style="margin-right: 44px; margin-bottom: 30px;" height="auto" width="256" alt="manjaro" />
 
 - [KLA-Manjaro-JWM](https://forum.puppylinux.com/viewtopic.php?t=12833)
 - [KLA-Manjaro-LXDE](https://forum.puppylinux.com/viewtopic.php?t=12671)
 - [KLA-Manjaro-Mate](https://forum.puppylinux.com/viewtopic.php?t=14608)
+- 
+- 
+- 
  
   
 <p align="center">
