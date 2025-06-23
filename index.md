@@ -33,7 +33,7 @@ actions:
 
 ##### KLA 64 bit.
 
-<img align="left" src="/assets/img/KLA.jpg" style="margin-right: 44px" height="auto" width="256" alt="kla" />
+<img align="left" src="/assets/img/KLA.jpg" style="margin-right: 44px" height="auto" width="auto" alt="kla" />
 
 - [KLA-OT2baseCE](https://github.com/sofijacom/KLA-OT2baseCE)
 - [KLA-HyprlandCE](https://github.com/sofijacom/KLA-Hyprland)
@@ -45,7 +45,7 @@ actions:
 
 ##### KLV 64 bit.
 
-<img align='left' src="/assets/img/KLV.png" style="margin-right: 44px" height="auto" width="256" alt="klv" />
+<img align='left' src="/assets/img/KLV.png" style="margin-right: 44px" height="auto" width="auto" alt="klv" />
 
 - [KLV-Spectrwm-CE](https://github.com/sofijacom/KLV-Spectrwm-CE)
 - [KLV-BspwmCE](https://github.com/sofijacom/KLV-BspwmCE)
