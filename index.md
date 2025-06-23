@@ -26,7 +26,7 @@ actions:
   <li><a href="https://github.com/sofijacom/sofijacom.github.io" title="">Website GitHub repo</a></li>
 </ul>
 
-#### Assemblies <span style="color:#ff0000;font-style:italic;font-weight:400;font-size:18px">@sofiya</span>
+#### Assemblies <span style="color:#ff0000;font-style:italic;font-weight:400;font-size:16px">@sofiya</span>
 
 ##### KLA 64 bit.
 
@@ -53,7 +53,7 @@ actions:
 - [KLF-Rawhide-CE](https://github.com/sofijacom/KLF-Rawhide-CE)
   
 
-#### Assemblies <span style="color:#ff0000;font-style:italic;font-weight:400;font-size:18px">@josejp2424</span>
+#### Assemblies <span style="color:#ff0000;font-style:italic;font-weight:400;font-size:16px">@josejp2424</span>
 
 - [KLA-Manjaro-JWM](https://forum.puppylinux.com/viewtopic.php?t=12833)
 - [KLA-Manjaro-LXDE](https://forum.puppylinux.com/viewtopic.php?t=12671)
