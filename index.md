@@ -74,7 +74,7 @@ actions:
 - [KLA-Manjaro-JWM](https://forum.puppylinux.com/viewtopic.php?t=12833)
 - [KLA-Manjaro-LXDE](https://forum.puppylinux.com/viewtopic.php?t=12671)
 - [KLA-Manjaro-Mate](https://forum.puppylinux.com/viewtopic.php?t=14608)
--  
+ 
   
 <p align="center">
   
