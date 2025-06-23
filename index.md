@@ -27,9 +27,6 @@ actions:
   <li><a href="https://github.com/sofijacom/sofijacom.github.io" title="">Website GitHub repo</a></li>
 </ul>
 
-<p align="center">
-  ━━━━━━  ❖  ━━━━━━  
-</p>
 
 ### Assemblies from <span style="color:#ff0000;font-style:italic;font-weight:700;font-size:16px">@Sofiya</span>
 
