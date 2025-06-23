@@ -30,6 +30,8 @@ actions:
 
 ### Assemblies from <span style="color:#ff0000;font-style:italic;font-weight:700;font-size:16px">@Sofiya</span>
 
+<img align="right" src="/assets/img/KLA.jpg" style="margin-left: -100px" height="auto" width="280" alt="sv-resume" />
+
 ##### KLA 64 bit.
 
 - [KLA-OT2baseCE](https://github.com/sofijacom/KLA-OT2baseCE)
