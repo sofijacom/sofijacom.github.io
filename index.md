@@ -41,9 +41,10 @@ actions:
 - [KLA-plasma-KDE-CE](https://github.com/sofijacom/KLA-plasma-KDE-CE)
 
 
-<img align='left' src="/assets/img/KLV.png" style="margin-right: 44px" height="200" width="255" alt="sv-resume" />
-
 ##### KLV 64 bit.
+
+<img align='left' src="/assets/img/KLV.png" style="margin-right: 44px" height="auto" width="256" alt="sv-resume" />
+
 - [KLV-Spectrwm-CE](https://github.com/sofijacom/KLV-Spectrwm-CE)
 - [KLV-BspwmCE](https://github.com/sofijacom/KLV-BspwmCE)
 - [KLV-AwesomeCE](https://github.com/sofijacom/KLV-AwesomeCE)
@@ -53,6 +54,8 @@ actions:
 
 
 ##### KLF-Rawhide-CE.
+
+<img align='left' src="/assets/img/KLF.png" style="margin-right: 44px; margin-bottom: 30px;" height="auto" width="255" alt="sv-resume" />
 
 - [KLF-Rawhide-CE](https://github.com/sofijacom/KLF-Rawhide-CE)
   
