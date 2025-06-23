@@ -55,11 +55,15 @@ actions:
 
 ##### KLF-Rawhide-CE.
 
-<img align='left' src="/assets/img/KLF.png" style="margin-right: 44px; margin-bottom: 30px;" height="auto" width="255" alt="klf" />
+<img align='left' src="/assets/img/KLF.png" style="margin-right: 44px" height="auto" width="255" alt="klf" />
 
 - [KLF-Rawhide-CE](https://github.com/sofijacom/KLF-Rawhide-CE)
-  
+- 
+- 
+- 
+- 
 
+ 
 ### Assemblies from <span style="color:#ff0000;font-style:italic;font-weight:700;font-size:16px">@Josejp2424</span>
 
 <img align='left' src="/assets/img/manjaro.png" style="margin-right: 44px; margin-bottom: 30px;" height="auto" width="256" alt="manjaro" />
