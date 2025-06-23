@@ -15,6 +15,8 @@ actions:
 
 <hr>
 
+<img align='left' src="/assets/web/intro-illustration.webp" style="margin-right: 20px" height="auto" width="300" alt="sv-resume" />
+
 ### Forums
 
 <ul class="podcast-links">
@@ -26,10 +28,10 @@ actions:
   <li><a href="https://github.com/sofijacom/sofijacom.github.io" title="">Website GitHub repo</a></li>
 </ul>
 
+
 ### Assemblies from <span style="color:#ff0000;font-style:italic;font-weight:700;font-size:16px">@Sofiya</span>
 
 ##### KLA 64 bit.
-
 
 - [KLA-OT2baseCE](https://github.com/sofijacom/KLA-OT2baseCE)
 - [KLA-HyprlandCE](https://github.com/sofijacom/KLA-Hyprland)
