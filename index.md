@@ -44,7 +44,6 @@ actions:
 <img align='left' src="/assets/img/KLV.png" style="margin-right: 44px" height="200" width="255" alt="sv-resume" />
 
 ##### KLV 64 bit.
-
 - [KLV-Spectrwm-CE](https://github.com/sofijacom/KLV-Spectrwm-CE)
 - [KLV-BspwmCE](https://github.com/sofijacom/KLV-BspwmCE)
 - [KLV-AwesomeCE](https://github.com/sofijacom/KLV-AwesomeCE)
