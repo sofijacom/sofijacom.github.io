@@ -30,7 +30,7 @@ actions:
 
 ### Assemblies from <span style="color:#ff0000;font-style:italic;font-weight:700;font-size:16px">@Sofiya</span>
 
-<img align="left" src="/assets/img/KLA.jpg" style="margin-right: -100px" height="auto" width="280" alt="sv-resume" />
+<img align="left" src="/assets/img/KLA.jpg" style="margin-right: 50px" height="auto" width="250" alt="kla" />
 
 ##### KLA 64 bit.
 
