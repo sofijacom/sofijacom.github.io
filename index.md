@@ -43,7 +43,7 @@ actions:
 
 ##### KLV 64 bit.
 
-<img align='left' src="/assets/img/KLV.png" style="margin-right: 44px" height="auto" width="256" alt="sv-resume" />
+<img align='left' src="/assets/img/KLV.png" style="margin-right: 44px" height="auto" width="256" alt="klv" />
 
 - [KLV-Spectrwm-CE](https://github.com/sofijacom/KLV-Spectrwm-CE)
 - [KLV-BspwmCE](https://github.com/sofijacom/KLV-BspwmCE)
@@ -55,7 +55,7 @@ actions:
 
 ##### KLF-Rawhide-CE.
 
-<img align='left' src="/assets/img/KLF.png" style="margin-right: 44px; margin-bottom: 30px;" height="auto" width="255" alt="sv-resume" />
+<img align='left' src="/assets/img/KLF.png" style="margin-right: 44px; margin-bottom: 30px;" height="auto" width="255" alt="klf" />
 
 - [KLF-Rawhide-CE](https://github.com/sofijacom/KLF-Rawhide-CE)
   
