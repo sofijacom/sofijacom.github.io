@@ -15,7 +15,7 @@ actions:
 
 <hr>
 
-<img align='left' src="/assets/web/intro-illustration.webp" style="margin-right: 20px" height="auto" width="300" alt="sv-resume" />
+<img align='left' src="/assets/web/intro-illustration.webp" style="margin-right: 20px" width="300" alt="sv-resume" />
 
 ### Forums
 
