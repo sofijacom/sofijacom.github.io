@@ -17,7 +17,7 @@ actions:
 
 <h3>Forums</h3>
 
-<img align='left' src="/assets/web/forums.jpeg" style="margin-right: 44px" height="auto" width="auto" alt="intro-illustration" />
+<img align='left' src="/assets/web/forums.jpeg" style="margin-right: 44px" height="auto" width="256" alt="intro-illustration" />
 
 <ul class="podcast-links">
   <li><a href="https://forum.puppylinux.com/viewforum.php?f=228" title="">Main forum</a></li>
@@ -33,7 +33,7 @@ actions:
 
 ##### KLA 64 bit.
 
-<img align="left" src="/assets/img/KLA.jpg" style="margin-right: 44px" height="auto" width="auto" alt="kla" />
+<img align="left" src="/assets/img/KLA.jpg" style="margin-right: 44px" height="auto" width="256" alt="kla" />
 
 - [KLA-OT2baseCE](https://github.com/sofijacom/KLA-OT2baseCE)
 - [KLA-HyprlandCE](https://github.com/sofijacom/KLA-Hyprland)
@@ -45,7 +45,7 @@ actions:
 
 ##### KLV 64 bit.
 
-<img align='left' src="/assets/img/KLV.png" style="margin-right: 44px" height="auto" width="auto" alt="klv" />
+<img align='left' src="/assets/img/KLV.png" style="margin-right: 44px" height="auto" width="256" alt="klv" />
 
 - [KLV-Spectrwm-CE](https://github.com/sofijacom/KLV-Spectrwm-CE)
 - [KLV-BspwmCE](https://github.com/sofijacom/KLV-BspwmCE)
