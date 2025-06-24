@@ -13,7 +13,7 @@ actions:
 ---
 
 
-<hr>
+<hr> /assets/img/manjaro-mate.png
 
 <h3>Forums</h3>
 <img src="/assets/web/forums.jpeg" alt="" style="float: right; margin-right: 270px; width: 300px;">
@@ -69,6 +69,7 @@ actions:
 <figure style="width: 300px; margin-right: 40px;" class="align-left">
   <img src="/assets/img/manjaro.png" alt="">	
 </figure>
+<img src="/assets/img/manjaro-mate.png" alt="" style="float: right; margin-right: 200px; width: 300px;">
 <br><br><br><br>
 <ul>
   <li><a href="https://forum.puppylinux.com/viewtopic.php?t=12833" title="">KLA-Manjaro-JWM</a></li>
