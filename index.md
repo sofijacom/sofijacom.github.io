@@ -69,7 +69,9 @@ actions:
 <figure style="width: 300px; margin-right: 40px;" class="align-left">
   <img src="/assets/img/manjaro.png" alt="">	
 </figure>
-<img src="/assets/img/manjaro-mate.png" alt="" style="float: right; margin-right: 200px; width: 300px;">
+<figure style="width: 300px; margin-right: 200px;" class="align-right">
+  <img src="/assets/img/manjaro-mate.png" alt="">	
+</figure>
 <br><br><br><br>
 <ul>
   <li><a href="https://forum.puppylinux.com/viewtopic.php?t=12833" title="">KLA-Manjaro-JWM</a></li>
@@ -88,3 +90,4 @@ actions:
 
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=sofijacom&label=Profile%20views&color=blueviolet&size=24&style=flat" alt="sofijacom" /> </p>
 
+<!-- <img src="/assets/img/manjaro-mate.png" alt="" style="float: right; margin-right: 200px; width: 300px;"> -->
