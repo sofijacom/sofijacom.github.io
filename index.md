@@ -30,7 +30,6 @@ actions:
 
 <h3>Assemblies from <span style="color:#ff0000;font-style:italic;font-weight:700;font-size:16px">@Sofiya</span></h3>
 <h5>KLA 64 bit.</h5>
-<!-- <img src="/assets/img/KLA.jpg" align='left' style="margin-right: 44px" height="auto" width="256" alt="kla" /> -->
 <figure style="width: 300px; margin-right: 40px;" class="align-left">
   <img src="/assets/img/KLA.jpg" alt="">	
 </figure>
@@ -44,7 +43,6 @@ actions:
 
 
 <h5>KLV 64 bit.</h5>
-<!--<img src="/assets/img/KLV.png" align='left' style="margin-right: 44px" height="auto" width="256" alt="klv" /> -->
 <img src="/assets/img/KLV.png" alt="" style="float: left; margin-right: 40px; width: 300px;">
 <ul>
   <li><a href="https://github.com/sofijacom/KLV-Spectrwm-CE" title="">KLV-Spectrwm-CE</a></li>
@@ -57,7 +55,6 @@ actions:
 <br>
 
 <h5>KLF-Rawhide-CE.</h5>
-<!-- <img src="/assets/img/KLF.png" align='left' style="margin-right: 44px" height="auto" width="256" alt="klf" /> -->
 <figure style="width: 300px; margin-right: 40px;" class="align-left">
   <img src="/assets/img/KLF.png" alt="">	
 </figure>
@@ -69,7 +66,6 @@ actions:
  
 <h3>Assemblies from <span style="color:#ff0000;font-style:italic;font-weight:700;font-size:16px">@Josejp2424</span></h3>
 <h5>KLA-Manjaro.</h5>
-<!-- <img src="/assets/img/manjaro.png" align='left' style="margin-right: 44px" height="auto" width="256" alt="manjaro" /> -->
 <figure style="width: 300px; margin-right: 40px;" class="align-left">
   <img src="/assets/img/manjaro.png" alt="">	
 </figure>
@@ -92,20 +88,3 @@ actions:
 
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=sofijacom&label=Profile%20views&color=blueviolet&size=24&style=flat" alt="sofijacom" /> </p>
 
-<!--
-<style>
-  #list {
-    float: left;
-  }
-  #list_image {
-    float: left;
-    margin-left: 40px;	  
-  }
-</style>
--->
-
-<!--<img src="/assets/img/KLV.png" align='left' style="margin-right: 44px" height="auto" width="256" alt="klv" /> 
-<figure style="width: 300px; margin-right: 40px;" class="align-left">
-  <img src="/assets/img/KLV.png" alt="">	
-</figure>
-<br>-->
