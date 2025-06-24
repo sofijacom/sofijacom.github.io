@@ -31,7 +31,7 @@ actions:
 
 ##### KLA 64 bit.
 
-<img align='left' src="/assets/web/forums.jpeg" style="margin-right: 44px" height="auto" width="256" alt="kla" />
+<img align='left' src="/assets/img/KLA.jpg" style="margin-right: 44px" height="auto" width="256" alt="kla" />
 <ul id="list">
   <li><a href="https://github.com/sofijacom/KLA-OT2baseCE" title="">KLA-OT2baseCE</a></li>
   <li><a href="https://github.com/sofijacom/KLA-Hyprland" title="">KLA-HyprlandCE</a></li>
