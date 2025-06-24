@@ -14,9 +14,10 @@ actions:
 
 
 <hr>
-<div class="container">
+
 <h3>Forums</h3>
-<ul class="podcast-links" id="list">
+<img src="/assets/web/forums.jpeg" align='left' style="margin-right: 44px" height="auto" width="256" alt="intro-illustration" />	
+<ul class="podcast-links">
   <li><a href="https://forum.puppylinux.com/viewforum.php?f=228" title="">Main forum</a></li>
   <li><a href="https://kennel-linux.rockedge.org/" title="">Another KL forum</a></li>
   <li><a href="https://forum.puppylinux.com/viewforum.php?f=231" title="">Kennel Linux distros</a></li>
@@ -24,10 +25,8 @@ actions:
   <li><a href="https://gitlab.com/firstrib/firstrib" title="">FirstRib GitLab repo</a></li>
   <li><a href="https://github.com/sofijacom/sofijacom.github.io" title="">Website GitHub repo</a></li>
 </ul>
-<p><img src="/assets/web/forums.jpeg" id="list_image" height="auto" width="256" alt="intro-illustration" /></p>	
-</div>
 
-<div class="container">
+
 <h3>Assemblies from <span style="color:#ff0000;font-style:italic;font-weight:700;font-size:16px">@Sofiya</span></h3>
 
 <h5>KLA 64 bit.</h5>
@@ -40,7 +39,7 @@ actions:
   <li><a href="" title=""></a></li>
   <li><a href="" title=""></a></li>	
 </ul>
-</div>
+
 
 ##### KLV 64 bit.
 
@@ -91,7 +90,7 @@ actions:
 
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=sofijacom&label=Profile%20views&color=blueviolet&size=24&style=flat" alt="sofijacom" /> </p>
 
-
+<!--
 <style>
   #list {
     float: left;
@@ -101,4 +100,4 @@ actions:
     margin-left: 50px;	  
   }
 </style>
-
+-->
