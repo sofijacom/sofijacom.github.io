@@ -97,7 +97,7 @@ actions:
     float: left;
   }
   #list_image {
-    float: left;
+    float: right;
     margin-left: 50px;	  
   }
 </style>
