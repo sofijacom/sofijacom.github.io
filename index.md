@@ -16,7 +16,7 @@ actions:
 <hr>
 
 <h3>Forums</h3>
-<img align='left' src="/assets/web/forums.jpeg" style="margin-right: 44px" height="auto" width="256" alt="intro-illustration" />
+<img src="/assets/web/forums.jpeg" align='left' style="margin-right: 44px" height="auto" width="256" alt="intro-illustration" />
 <ul class="podcast-links">
   <li><a href="https://forum.puppylinux.com/viewforum.php?f=228" title="">Main forum</a></li>
   <li><a href="https://kennel-linux.rockedge.org/" title="">Another KL forum</a></li>
@@ -31,7 +31,7 @@ actions:
 
 <h5>KLA 64 bit.</h5>
 
-<img align='left' src="/assets/img/KLA.jpg" style="margin-right: 44px" height="auto" width="256" alt="kla" />
+<img src="/assets/img/KLA.jpg" align='left' style="margin-right: 44px" height="auto" width="256" alt="kla" />
 <ul id="list">
   <li><a href="https://github.com/sofijacom/KLA-OT2baseCE" title="">KLA-OT2baseCE</a></li>
   <li><a href="https://github.com/sofijacom/KLA-Hyprland" title="">KLA-HyprlandCE</a></li>
@@ -44,7 +44,7 @@ actions:
 
 ##### KLV 64 bit.
 
-<img align='left' src="/assets/img/KLV.png" style="margin-right: 44px" height="auto" width="256" alt="klv" />
+<img src="/assets/img/KLV.png" align='left' style="margin-right: 44px" height="auto" width="256" alt="klv" />
 
 - [KLV-Spectrwm-CE](https://github.com/sofijacom/KLV-Spectrwm-CE)
 - [KLV-BspwmCE](https://github.com/sofijacom/KLV-BspwmCE)
@@ -56,7 +56,7 @@ actions:
 
 ##### KLF-Rawhide-CE.
 
-<img align='left' src="/assets/img/KLF.png" style="margin-right: 44px" height="auto" width="256" alt="klf" />
+<img src="/assets/img/KLF.png" align='left' style="margin-right: 44px" height="auto" width="256" alt="klf" />
 
 - [KLF-Rawhide-CE](https://github.com/sofijacom/KLF-Rawhide-CE)
 - 
@@ -70,7 +70,7 @@ actions:
 
 ##### KLA-Manjaro
 
-<img align='left' src="/assets/img/manjaro.png" style="margin-right: 44px" height="auto" width="256" alt="manjaro" />
+<img src="/assets/img/manjaro.png" align='left' style="margin-right: 44px" height="auto" width="256" alt="manjaro" />
 
 - [KLA-Manjaro-JWM](https://forum.puppylinux.com/viewtopic.php?t=12833)
 - [KLA-Manjaro-LXDE](https://forum.puppylinux.com/viewtopic.php?t=12671)
