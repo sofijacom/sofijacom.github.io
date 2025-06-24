@@ -20,7 +20,6 @@ actions:
 <figure style="width: 300px; margin-right: 50px;" class="align-left">
   <img src="/assets/web/forums.jpeg" alt="">	
 </figure>
-<br>
 <ul class="podcast-links">
   <li><a href="https://forum.puppylinux.com/viewforum.php?f=228" title="">Main forum</a></li>
   <li><a href="https://kennel-linux.rockedge.org/" title="">Another KL forum</a></li>
@@ -28,6 +27,7 @@ actions:
   <li><a href="https://forum.puppylinux.com/viewforum.php?f=194" title="">Kennel Linux development</a></li>
   <li><a href="https://gitlab.com/firstrib/firstrib" title="">FirstRib GitLab repo</a></li>
   <li><a href="https://github.com/sofijacom/sofijacom.github.io" title="">Website GitHub repo</a></li>
+  <li><a href="" title=""></a></li>	
 </ul>
 
 
