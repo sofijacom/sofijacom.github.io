@@ -16,12 +16,16 @@ actions:
 <hr>
 
 
-<!--<img src="/assets/web/forums.jpeg" align='left' style="margin-right: 44px" height="auto" width="256" alt="forums" />-->
+<!--<img src="/assets/web/forums.jpeg" align='left' style="margin-right: 44px" height="auto" width="256" alt="forums" />
 <h3>Forums</h3>
 <figure style="width: 300px" class="align-right">
   <img src="/assets/web/forums.jpeg" alt="forums">
   <figcaption>Forums.</figcaption>	
-</figure>
+</figure>-->
+![image-right]({{ site.url }}{{ site.baseurl }}/assets/web/forums.jpeg){: .align-right}
+
+<h3>Forums</h3>
+
 <ul class="podcast-links">
   <li><a href="https://forum.puppylinux.com/viewforum.php?f=228" title="">Main forum</a></li>
   <li><a href="https://kennel-linux.rockedge.org/" title="">Another KL forum</a></li>
