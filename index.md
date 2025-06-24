@@ -25,11 +25,11 @@ actions:
 
 
 <h3>Forums</h3>
-<figure style="width: 256px" class="align-right">
+<figure style="width: 256px" class="align-left" id="list_image">
   <img src="/assets/web/forums.jpeg" alt="forums">	
 </figure>
 
-<ul class="podcast-links">
+<ul class="podcast-links" id="list">
   <li><a href="https://forum.puppylinux.com/viewforum.php?f=228" title="">Main forum</a></li>
   <li><a href="https://kennel-linux.rockedge.org/" title="">Another KL forum</a></li>
   <li><a href="https://forum.puppylinux.com/viewforum.php?f=231" title="">Kennel Linux distros</a></li>
