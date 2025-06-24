@@ -25,7 +25,10 @@ actions:
 
 
 <h3>Forums</h3>
-![image-right]({{ site.url }}{{ site.baseurl }}/assets/web/forums.jpeg){: .align-right}
+<figure style="width: 256px" class="align-right">
+  <img src="/assets/web/forums.jpeg" alt="forums">	
+</figure>
+
 <ul class="podcast-links">
   <li><a href="https://forum.puppylinux.com/viewforum.php?f=228" title="">Main forum</a></li>
   <li><a href="https://kennel-linux.rockedge.org/" title="">Another KL forum</a></li>
