@@ -89,7 +89,9 @@ actions:
     margin-left: 40px;	  
   }
 </style>
-##### KLA-Manjaro
+### Assemblies from <span style="color:#ff0000;font-style:italic;font-weight:700;font-size:16px">@Sofiya</span>
+
+##### KLA 64 bit.
 
 <ul id="list">
   <li>List item one</li>
