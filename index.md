@@ -25,9 +25,9 @@ actions:
   <li><a href="https://gitlab.com/firstrib/firstrib" title="">FirstRib GitLab repo</a></li>
   <li><a href="https://github.com/sofijacom/sofijacom.github.io" title="">Website GitHub repo</a></li>
 </ul>
-<img src="/assets/web/forums.jpeg" align='left' id="list_image" height="auto" width="256" alt="intro-illustration" />
+<img src="/assets/web/forums.jpeg" id="list_image" height="auto" width="256" alt="intro-illustration" />
 
-<br><br>
+<br>
 
 <h3>Assemblies from <span style="color:#ff0000;font-style:italic;font-weight:700;font-size:16px">@Sofiya</span></h3>
 
