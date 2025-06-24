@@ -16,11 +16,12 @@ actions:
 <hr>
 
 <h3>Forums</h3>
-<!-- <img src="/assets/web/forums.jpeg" align='left' style="margin-right: 44px" height="auto" width="256" alt="forums" /> -->
+<!-- <img src="/assets/web/forums.jpeg" align='left' style="margin-right: 44px" height="auto" width="256" alt="forums" /> 
 <figure style="width: 300px; margin-right: 40px;" class="align-left">
   <img src="/assets/web/forums.jpeg" alt="">	
 </figure>
-<br>
+<br>-->
+<img src="/assets/web/forums.jpeg" alt="" style="float: right; margin-left: 10px; width: 300px;"> 
 <ul class="podcast-links">
   <li><a href="https://forum.puppylinux.com/viewforum.php?f=228" title="">Main forum</a></li>
   <li><a href="https://kennel-linux.rockedge.org/" title="">Another KL forum</a></li>
