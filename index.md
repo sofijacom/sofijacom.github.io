@@ -16,7 +16,7 @@ actions:
 <hr>
 
 <h3>Forums</h3>
-	
+<img src="/assets/web/forums.jpeg" align='left' style="margin-right: 44px" height="auto" width="256" alt="forums" />	
 <ul class="podcast-links">
   <li><a href="https://forum.puppylinux.com/viewforum.php?f=228" title="">Main forum</a></li>
   <li><a href="https://kennel-linux.rockedge.org/" title="">Another KL forum</a></li>
@@ -25,10 +25,7 @@ actions:
   <li><a href="https://gitlab.com/firstrib/firstrib" title="">FirstRib GitLab repo</a></li>
   <li><a href="https://github.com/sofijacom/sofijacom.github.io" title="">Website GitHub repo</a></li>
 </ul>
-<aside class="entry-sidebar">
-<img src="/assets/web/forums.jpeg" align='left' style="margin-right: 44px" height="auto" width="256" alt="intro-illustration" />
-</aside>
-<br><br>
+
 
 <h3>Assemblies from <span style="color:#ff0000;font-style:italic;font-weight:700;font-size:16px">@Sofiya</span></h3>
 
