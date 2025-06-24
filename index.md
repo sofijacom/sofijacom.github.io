@@ -16,12 +16,8 @@ actions:
 <hr>
 
 <h3>Forums</h3>
-<!-- <img src="/assets/web/forums.jpeg" align='left' style="margin-right: 44px" height="auto" width="256" alt="forums" /> 
-<figure style="width: 300px; margin-right: 40px;" class="align-left">
-  <img src="/assets/web/forums.jpeg" alt="">	
-</figure>
-<br>-->
-<img src="/assets/web/forums.jpeg" alt="" style="float: right; margin-right: 280px; height: auto; width: 300px;"> 
+<img src="/assets/web/forums.jpeg" alt="" style="float: right; margin-right: 280px; height: auto; width: 300px;">
+<br>
 <ul class="podcast-links">
   <li><a href="https://forum.puppylinux.com/viewforum.php?f=228" title="">Main forum</a></li>
   <li><a href="https://kennel-linux.rockedge.org/" title="">Another KL forum</a></li>
@@ -30,7 +26,7 @@ actions:
   <li><a href="https://gitlab.com/firstrib/firstrib" title="">FirstRib GitLab repo</a></li>
   <li><a href="https://github.com/sofijacom/sofijacom.github.io" title="">Website GitHub repo</a></li>
 </ul>
-<br>
+
 
 <h3>Assemblies from <span style="color:#ff0000;font-style:italic;font-weight:700;font-size:16px">@Sofiya</span></h3>
 
@@ -110,3 +106,9 @@ actions:
   }
 </style>
 -->
+
+<!-- <img src="/assets/web/forums.jpeg" align='left' style="margin-right: 44px" height="auto" width="256" alt="forums" /> 
+<figure style="width: 300px; margin-right: 40px;" class="align-left">
+  <img src="/assets/web/forums.jpeg" alt="">	
+</figure>
+<br>-->
