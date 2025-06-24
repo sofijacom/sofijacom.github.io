@@ -105,7 +105,7 @@ actions:
 
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=sofijacom&label=Profile%20views&color=blueviolet&size=24&style=flat" alt="sofijacom" /> </p>
 
-<!--
+
 <style>
   #list {
     float: left;
@@ -115,4 +115,4 @@ actions:
     margin-left: 50px;	  
   }
 </style>
--->
+
