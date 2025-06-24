@@ -31,7 +31,7 @@ actions:
 
 <h3>Forums</h3>
 
-<ul class="podcast-links" id="list">
+<ul class="podcast-links" id="lists">
   <li><a href="https://forum.puppylinux.com/viewforum.php?f=228" title="">Main forum</a></li>
   <li><a href="https://kennel-linux.rockedge.org/" title="">Another KL forum</a></li>
   <li><a href="https://forum.puppylinux.com/viewforum.php?f=231" title="">Kennel Linux distros</a></li>
@@ -39,7 +39,7 @@ actions:
   <li><a href="https://gitlab.com/firstrib/firstrib" title="">FirstRib GitLab repo</a></li>
   <li><a href="https://github.com/sofijacom/sofijacom.github.io" title="">Website GitHub repo</a></li>
 </ul>
-<img src="/assets/web/forums.jpeg" id="list_image" height="auto" width="256" alt="intro-illustration" />
+<img src="/assets/web/forums.jpeg" id="lists_image" height="auto" width="256" alt="intro-illustration" />
 
 ##
 
@@ -113,5 +113,15 @@ actions:
   #list_image {
     float: left;
     margin-left: 44px;	  
+  }
+</style>
+
+<style>
+  #lists {
+    float: left;
+  }
+  #lists_image {
+    float: right;
+    margin-right: 44px;	  
   }
 </style>
