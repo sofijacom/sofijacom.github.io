@@ -16,7 +16,7 @@ actions:
 <hr>
 
 <h3>Forums</h3>
-<img src="/assets/web/forums.jpeg" alt="" style="float: right; margin-right: 280px; height: auto; width: 300px;">
+<img src="/assets/web/forums.jpeg" alt="" style="float: right; margin-right: 270px; height: auto; width: 300px;">
 <ul class="podcast-links">
   <li><a href="https://forum.puppylinux.com/viewforum.php?f=228" title="">Main forum</a></li>
   <li><a href="https://kennel-linux.rockedge.org/" title="">Another KL forum</a></li>
