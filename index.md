@@ -27,9 +27,9 @@ actions:
 </ul>
 
 
-### Assemblies from <span style="color:#ff0000;font-style:italic;font-weight:700;font-size:16px">@Sofiya</span>
+<h3>Assemblies from <span style="color:#ff0000;font-style:italic;font-weight:700;font-size:16px">@Sofiya</span></h3>
 
-##### KLA 64 bit.
+<h5>KLA 64 bit.</h5>
 
 <img align='left' src="/assets/img/KLA.jpg" style="margin-right: 44px" height="auto" width="256" alt="kla" />
 <ul id="list">
