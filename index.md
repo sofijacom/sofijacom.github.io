@@ -43,21 +43,22 @@ actions:
 </ul>
 
 
-##### KLV 64 bit.
 <!--<img src="/assets/img/KLV.png" align='left' style="margin-right: 44px" height="auto" width="256" alt="klv" /> 
 <figure style="width: 300px; margin-right: 40px;" class="align-left">
   <img src="/assets/img/KLV.png" alt="">	
 </figure>
 <br>-->
+<h5>KLV 64 bit.</h5>
 <img src="/assets/img/KLV.png" alt="" style="float: left; margin-right: 40px; width: 300px;">
+<ul class="podcast-links">
+  <li><a href="https://github.com/sofijacom/KLV-Spectrwm-CE" title="">KLV-Spectrwm-CE</a></li>
+  <li><a href="https://github.com/sofijacom/KLV-BspwmCE" title="">KLV-BspwmCE</a></li>
+  <li><a href="https://github.com/sofijacom/KLV-AwesomeCE" title="">KLV-AwesomeCE</a></li>
+  <li><a href="https://github.com/sofijacom/KLV-HyprlandCE" title="">KLV-HyprlandCE</a></li>
+  <li><a href="https://github.com/sofijacom/KLV-Hyprland-Sway-CE" title="">KLV-Hyprland-Sway-CE</a></li>
+  <li><a href="https://github.com/sofijacom/KLV-plasma-KDE-CE" title="">KLV-plasma-KDE-CE</a></li>
+</ul>
 
-- [KLV-Spectrwm-CE](https://github.com/sofijacom/KLV-Spectrwm-CE)
-- [KLV-BspwmCE](https://github.com/sofijacom/KLV-BspwmCE)
-- [KLV-AwesomeCE](https://github.com/sofijacom/KLV-AwesomeCE)
-- [KLV-HyprlandCE](https://github.com/sofijacom/KLV-HyprlandCE)
-- [KLV-Hyprland-Sway-CE](https://github.com/sofijacom/KLV-Hyprland-Sway-CE)
-- [KLV-plasma-KDE-CE](https://github.com/sofijacom/KLV-plasma-KDE-CE)
-- 
 
 ##### KLF-Rawhide-CE.
 <!-- <img src="/assets/img/KLF.png" align='left' style="margin-right: 44px" height="auto" width="256" alt="klf" /> -->
