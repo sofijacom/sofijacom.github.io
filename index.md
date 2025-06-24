@@ -18,7 +18,7 @@ actions:
 <h3>Forums</h3>
 <!-- <img src="/assets/web/forums.jpeg" align='left' style="margin-right: 44px" height="auto" width="256" alt="forums" /> -->
 <figure style="width: 300px; margin-right: 50px;" class="align-left">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/web/forums.jpeg" alt="forums">	
+  <img src="/assets/web/forums.jpeg" alt="forums">	
 </figure>
 <br>
 <ul class="podcast-links">
@@ -36,7 +36,7 @@ actions:
 <h5>KLA 64 bit.</h5>
 <!-- <img src="/assets/img/KLA.jpg" align='left' style="margin-right: 44px" height="auto" width="256" alt="kla" /> -->
 <figure style="width: 300px; margin-right: 50px;" class="align-left">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/KLA.jpg" alt="kla">	
+  <img src="/assets/img/KLA.jpg" alt="kla">	
 </figure>
 <br><br><br>
 <ul>
@@ -50,7 +50,7 @@ actions:
 ##### KLV 64 bit.
 <!--<img src="/assets/img/KLV.png" align='left' style="margin-right: 44px" height="auto" width="256" alt="klv" /> -->
 <figure style="width: 300px; margin-right: 50px;" class="align-left">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/KLV.png" alt="klv">	
+  <img src="/assets/img/KLV.png" alt="klv">	
 </figure>
 <br>
 
@@ -65,7 +65,7 @@ actions:
 ##### KLF-Rawhide-CE.
 <!-- <img src="/assets/img/KLF.png" align='left' style="margin-right: 44px" height="auto" width="256" alt="klf" /> -->
 <figure style="width: 300px; margin-right: 50px;" class="align-left">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/KLF.png" alt="klf">	
+  <img src="/assets/img/KLF.png" alt="klf">	
 </figure>
 <br><br><br><br><br><br>
 
@@ -78,7 +78,7 @@ actions:
 ##### KLA-Manjaro
 <!-- <img src="/assets/img/manjaro.png" align='left' style="margin-right: 44px" height="auto" width="256" alt="manjaro" /> -->
 <figure style="width: 300px; margin-right: 50px;" class="align-left">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/manjaro.png" alt="manjaro">	
+  <img src="/assets/img/manjaro.png" alt="manjaro">	
 </figure>
 <br><br><br><br>
 
