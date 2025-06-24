@@ -38,7 +38,7 @@ actions:
 <figure style="width: 300px; margin-right: 50px;" class="align-left">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/KLA.jpg" alt="kla">	
 </figure>
-<br><br>
+<br><br><br>
 <ul>
   <li><a href="https://github.com/sofijacom/KLA-OT2baseCE" title="">KLA-OT2baseCE</a></li>
   <li><a href="https://github.com/sofijacom/KLA-Hyprland" title="">KLA-HyprlandCE</a></li>
@@ -67,7 +67,7 @@ actions:
 <figure style="width: 300px; margin-right: 50px;" class="align-left">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/KLF.png" alt="klf">	
 </figure>
-<br><br><br>
+<br><br><br><br><br><br>
 
 - [KLF-Rawhide-CE](https://github.com/sofijacom/KLF-Rawhide-CE)
  
@@ -80,7 +80,7 @@ actions:
 <figure style="width: 300px; margin-right: 50px;" class="align-left">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/manjaro.png" alt="manjaro">	
 </figure>
-<br><br>
+<br><br><br>
 
 - [KLA-Manjaro-JWM](https://forum.puppylinux.com/viewtopic.php?t=12833)
 - [KLA-Manjaro-LXDE](https://forum.puppylinux.com/viewtopic.php?t=12671)
