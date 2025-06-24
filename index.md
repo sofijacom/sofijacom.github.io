@@ -99,7 +99,7 @@ actions:
   }
   #list_image {
     float: left;
-    margin-left: 44px;	  
+    margin-left: 50px;	  
   }
 </style>
 
