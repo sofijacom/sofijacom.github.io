@@ -22,10 +22,10 @@ actions:
   <img src="/assets/web/forums.jpeg" alt="forums">
   <figcaption>Forums.</figcaption>	
 </figure>-->
-![image-right]({{ site.url }}{{ site.baseurl }}/assets/web/forums.jpeg){: .align-right}
+
 
 <h3>Forums</h3>
-
+![image-right]({{ site.url }}{{ site.baseurl }}/assets/web/forums.jpeg){: .align-right}
 <ul class="podcast-links">
   <li><a href="https://forum.puppylinux.com/viewforum.php?f=228" title="">Main forum</a></li>
   <li><a href="https://kennel-linux.rockedge.org/" title="">Another KL forum</a></li>
