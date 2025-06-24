@@ -69,7 +69,7 @@ actions:
 <figure style="width: 300px; margin-right: 40px;" class="align-left">
   <img src="/assets/img/manjaro.png" alt="">	
 </figure>
-<figure style="width: 300px; margin-right: 200px;" class="align-right">
+<figure style="width: 300px; margin-right: 90px;" class="align-right">
   <img src="/assets/img/manjaro-mate.png" alt="">	
 </figure>
 <br><br><br><br>
@@ -90,4 +90,3 @@ actions:
 
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=sofijacom&label=Profile%20views&color=blueviolet&size=24&style=flat" alt="sofijacom" /> </p>
 
-<!-- <img src="/assets/img/manjaro-mate.png" alt="" style="float: right; margin-right: 200px; width: 300px;"> -->
