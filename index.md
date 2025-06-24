@@ -17,10 +17,10 @@ actions:
 
 <h3>Forums</h3>
 <!-- <img src="/assets/web/forums.jpeg" align='left' style="margin-right: 44px" height="auto" width="256" alt="forums" /> -->
-<figure style="width: 300px; margin-right: 50px;" class="align-left">
+<figure style="width: 300px; margin-right: 40px;" class="align-left">
   <img src="/assets/web/forums.jpeg" alt="">	
 </figure>
-<br>
+
 <ul class="podcast-links">
   <li><a href="https://forum.puppylinux.com/viewforum.php?f=228" title="">Main forum</a></li>
   <li><a href="https://kennel-linux.rockedge.org/" title="">Another KL forum</a></li>
@@ -28,15 +28,15 @@ actions:
   <li><a href="https://forum.puppylinux.com/viewforum.php?f=194" title="">Kennel Linux development</a></li>
   <li><a href="https://gitlab.com/firstrib/firstrib" title="">FirstRib GitLab repo</a></li>
   <li><a href="https://github.com/sofijacom/sofijacom.github.io" title="">Website GitHub repo</a></li>
-  <li><a href="" title=""></a></li>	
+  <li><a href="https://github.com/sofijacom/sofijacom.github.io" title="">Website GitHub repo</a></li>
 </ul>
-<br>
+
 
 <h3>Assemblies from <span style="color:#ff0000;font-style:italic;font-weight:700;font-size:16px">@Sofiya</span></h3>
 
 <h5>KLA 64 bit.</h5>
 <!-- <img src="/assets/img/KLA.jpg" align='left' style="margin-right: 44px" height="auto" width="256" alt="kla" /> -->
-<figure style="width: 300px; margin-right: 50px;" class="align-left">
+<figure style="width: 300px; margin-right: 40px;" class="align-left">
   <img src="/assets/img/KLA.jpg" alt="">	
 </figure>
 <br><br><br>
@@ -50,7 +50,7 @@ actions:
 
 ##### KLV 64 bit.
 <!--<img src="/assets/img/KLV.png" align='left' style="margin-right: 44px" height="auto" width="256" alt="klv" /> -->
-<figure style="width: 300px; margin-right: 50px;" class="align-left">
+<figure style="width: 300px; margin-right: 40px;" class="align-left">
   <img src="/assets/img/KLV.png" alt="">	
 </figure>
 <br>
@@ -65,7 +65,7 @@ actions:
 
 ##### KLF-Rawhide-CE.
 <!-- <img src="/assets/img/KLF.png" align='left' style="margin-right: 44px" height="auto" width="256" alt="klf" /> -->
-<figure style="width: 300px; margin-right: 50px;" class="align-left">
+<figure style="width: 300px; margin-right: 40px;" class="align-left">
   <img src="/assets/img/KLF.png" alt="">	
 </figure>
 <br><br><br><br><br><br>
@@ -78,7 +78,7 @@ actions:
 
 ##### KLA-Manjaro
 <!-- <img src="/assets/img/manjaro.png" align='left' style="margin-right: 44px" height="auto" width="256" alt="manjaro" /> -->
-<figure style="width: 300px; margin-right: 50px;" class="align-left">
+<figure style="width: 300px; margin-right: 40px;" class="align-left">
   <img src="/assets/img/manjaro.png" alt="">	
 </figure>
 <br><br><br><br>
@@ -106,7 +106,7 @@ actions:
   }
   #list_image {
     float: left;
-    margin-left: 50px;	  
+    margin-left: 40px;	  
   }
 </style>
 -->
