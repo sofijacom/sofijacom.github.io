@@ -16,7 +16,6 @@ actions:
 <hr>
 <div class="container">
 <h3>Forums</h3>
-<img src="/assets/web/forums.jpeg" id="list_image" height="auto" width="256" alt="intro-illustration" />
 <ul class="podcast-links" id="list">
   <li><a href="https://forum.puppylinux.com/viewforum.php?f=228" title="">Main forum</a></li>
   <li><a href="https://kennel-linux.rockedge.org/" title="">Another KL forum</a></li>
@@ -25,6 +24,7 @@ actions:
   <li><a href="https://gitlab.com/firstrib/firstrib" title="">FirstRib GitLab repo</a></li>
   <li><a href="https://github.com/sofijacom/sofijacom.github.io" title="">Website GitHub repo</a></li>
 </ul>
+<img src="/assets/web/forums.jpeg" id="list_image" height="auto" width="256" alt="intro-illustration" />	
 </div>
 
 <div class="container">
@@ -97,7 +97,7 @@ actions:
     float: left;
   }
   #list_image {
-    float: right;
+    float: left;
     margin-left: 50px;	  
   }
 </style>
