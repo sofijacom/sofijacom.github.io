@@ -20,7 +20,7 @@ actions:
 <figure style="width: 300px; margin-right: 40px;" class="align-left">
   <img src="/assets/web/forums.jpeg" alt="">	
 </figure>
-
+<br>
 <ul class="podcast-links">
   <li><a href="https://forum.puppylinux.com/viewforum.php?f=228" title="">Main forum</a></li>
   <li><a href="https://kennel-linux.rockedge.org/" title="">Another KL forum</a></li>
