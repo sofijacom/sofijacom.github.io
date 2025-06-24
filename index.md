@@ -59,7 +59,6 @@ actions:
 - [KLV-plasma-KDE-CE](https://github.com/sofijacom/KLV-plasma-KDE-CE)
 - 
 
-
 ##### KLF-Rawhide-CE.
 <!-- <img src="/assets/img/KLF.png" align='left' style="margin-right: 44px" height="auto" width="256" alt="klf" /> -->
 <figure style="width: 300px; margin-right: 40px;" class="align-left">
