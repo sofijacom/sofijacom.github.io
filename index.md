@@ -49,7 +49,7 @@ actions:
   <img src="/assets/img/KLV.png" alt="">	
 </figure>
 <br>-->
-<img src="/assets/web/forums.jpeg" alt="" style="float: left; margin-left: 40px; height: auto; width: 300px;">
+<img src="/assets/img/KLV.png" alt="" style="float: left; margin-left: 40px; height: auto; width: 300px;">
 
 - [KLV-Spectrwm-CE](https://github.com/sofijacom/KLV-Spectrwm-CE)
 - [KLV-BspwmCE](https://github.com/sofijacom/KLV-BspwmCE)
