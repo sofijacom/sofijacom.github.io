@@ -17,9 +17,7 @@ actions:
 
 <h3>Forums</h3>
 
-<img align='left' src="/assets/web/forums.jpeg" style="margin-right: 44px" height="auto" width="256" alt="intro-illustration" />
-
-<ul class="podcast-links">
+<ul class="podcast-links" id="list">
   <li><a href="https://forum.puppylinux.com/viewforum.php?f=228" title="">Main forum</a></li>
   <li><a href="https://kennel-linux.rockedge.org/" title="">Another KL forum</a></li>
   <li><a href="https://forum.puppylinux.com/viewforum.php?f=231" title="">Kennel Linux distros</a></li>
@@ -27,7 +25,7 @@ actions:
   <li><a href="https://gitlab.com/firstrib/firstrib" title="">FirstRib GitLab repo</a></li>
   <li><a href="https://github.com/sofijacom/sofijacom.github.io" title="">Website GitHub repo</a></li>
 </ul>
-
+<img src="/assets/web/forums.jpeg" id="list_image" height="auto" width="256" alt="intro-illustration" />
 
 ### Assemblies from <span style="color:#ff0000;font-style:italic;font-weight:700;font-size:16px">@Sofiya</span>
 
@@ -80,16 +78,6 @@ actions:
 - 
 - 
  
-
-### Assemblies from <span style="color:#ff0000;font-style:italic;font-weight:700;font-size:16px">@Sofiya</span>
-
-<ul id="list">
-  <h5>KLA 64 bit</h5>	
-  <li>List item one</li>
-  <li>List item two</li>
-</ul>
-<img src="/assets/img/KLV.png" id="list_image" height="auto" width="255" alt="klv" />
-
   
 <p align="center">
   
