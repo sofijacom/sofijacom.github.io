@@ -19,7 +19,7 @@ actions:
 <!--<img src="/assets/web/forums.jpeg" align='left' style="margin-right: 44px" height="auto" width="256" alt="forums" />-->
 <figure style="width: 256px" class="align-right">
   <img src="/assets/web/forums.jpeg" alt="forums">
-  <figcaption> 
+</figure>	
 <ul class="podcast-links">
   <li><a href="https://forum.puppylinux.com/viewforum.php?f=228" title="">Main forum</a></li>
   <li><a href="https://kennel-linux.rockedge.org/" title="">Another KL forum</a></li>
@@ -28,8 +28,7 @@ actions:
   <li><a href="https://gitlab.com/firstrib/firstrib" title="">FirstRib GitLab repo</a></li>
   <li><a href="https://github.com/sofijacom/sofijacom.github.io" title="">Website GitHub repo</a></li>
 </ul>
-</figcaption>
-</figure>
+
 
 <h3>Assemblies from <span style="color:#ff0000;font-style:italic;font-weight:700;font-size:16px">@Sofiya</span></h3>
 
