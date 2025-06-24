@@ -16,8 +16,8 @@ actions:
 <hr>
 
 <h3>Forums</h3>
-<img src="/assets/web/forums.jpeg" align='left' style="margin-right: 44px" height="auto" width="256" alt="intro-illustration" />
-<ul class="podcast-links">
+
+<ul class="podcast-links" id="list">
   <li><a href="https://forum.puppylinux.com/viewforum.php?f=228" title="">Main forum</a></li>
   <li><a href="https://kennel-linux.rockedge.org/" title="">Another KL forum</a></li>
   <li><a href="https://forum.puppylinux.com/viewforum.php?f=231" title="">Kennel Linux distros</a></li>
@@ -25,14 +25,16 @@ actions:
   <li><a href="https://gitlab.com/firstrib/firstrib" title="">FirstRib GitLab repo</a></li>
   <li><a href="https://github.com/sofijacom/sofijacom.github.io" title="">Website GitHub repo</a></li>
 </ul>
+<img src="/assets/web/forums.jpeg" align='left' id="list_image" height="auto" width="256" alt="intro-illustration" />
 
+<br><br>
 
 <h3>Assemblies from <span style="color:#ff0000;font-style:italic;font-weight:700;font-size:16px">@Sofiya</span></h3>
 
 <h5>KLA 64 bit.</h5>
 
 <img src="/assets/img/KLA.jpg" align='left' style="margin-right: 44px" height="auto" width="256" alt="kla" />
-<ul id="list">
+<ul>
   <li><a href="https://github.com/sofijacom/KLA-OT2baseCE" title="">KLA-OT2baseCE</a></li>
   <li><a href="https://github.com/sofijacom/KLA-Hyprland" title="">KLA-HyprlandCE</a></li>
   <li><a href="https://github.com/sofijacom/KLA-Manjaro-Openbox" title="">KLA-Manjaro-Openbox</a></li>
@@ -91,7 +93,7 @@ actions:
 
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=sofijacom&label=Profile%20views&color=blueviolet&size=24&style=flat" alt="sofijacom" /> </p>
 
-<!--
+
 <style>
   #list {
     float: left;
@@ -101,4 +103,4 @@ actions:
     margin-left: 44px;	  
   }
 </style>
--->
+
