@@ -80,7 +80,7 @@ actions:
 <figure style="width: 300px; margin-right: 50px;" class="align-left">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/manjaro.png" alt="manjaro">	
 </figure>
-<br><br><br>
+<br><br><br><br>
 
 - [KLA-Manjaro-JWM](https://forum.puppylinux.com/viewtopic.php?t=12833)
 - [KLA-Manjaro-LXDE](https://forum.puppylinux.com/viewtopic.php?t=12671)
