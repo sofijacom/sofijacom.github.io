@@ -28,7 +28,6 @@ actions:
   <li><a href="https://forum.puppylinux.com/viewforum.php?f=194" title="">Kennel Linux development</a></li>
   <li><a href="https://gitlab.com/firstrib/firstrib" title="">FirstRib GitLab repo</a></li>
   <li><a href="https://github.com/sofijacom/sofijacom.github.io" title="">Website GitHub repo</a></li>
-  <li><a href="https://github.com/sofijacom/sofijacom.github.io" title="">Website GitHub repo</a></li>
 </ul>
 
 
