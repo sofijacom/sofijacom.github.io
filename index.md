@@ -28,7 +28,7 @@ actions:
 <figure style="width: 300px; margin-right: 50px;" class="align-left">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/web/forums.jpeg" alt="forums">	
 </figure>
-
+<br>
 <ul class="podcast-links">
   <li><a href="https://forum.puppylinux.com/viewforum.php?f=228" title="">Main forum</a></li>
   <li><a href="https://kennel-linux.rockedge.org/" title="">Another KL forum</a></li>
@@ -46,6 +46,7 @@ actions:
 <figure style="width: 300px; margin-right: 50px;" class="align-left">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/KLA.jpg" alt="kla">	
 </figure>
+<br>
 <ul>
   <li><a href="https://github.com/sofijacom/KLA-OT2baseCE" title="">KLA-OT2baseCE</a></li>
   <li><a href="https://github.com/sofijacom/KLA-Hyprland" title="">KLA-HyprlandCE</a></li>
