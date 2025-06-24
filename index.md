@@ -80,6 +80,23 @@ actions:
 - 
 - 
  
+<style>
+  #list {
+    float: left;
+  }
+  #list_image {
+    float: left;
+    margin-left: 40px;	  
+  }
+</style>
+<ul id="list">
+  <li>List item one</li>
+  <li>List item two</li>
+  <li>List item three</li>
+  <li>List item with a longer text</li>
+</ul>
+<img src="/assets/img/KLV.png" id="list_image" height="auto" width="255" alt="klv" />
+
   
 <p align="center">
   
