@@ -46,7 +46,7 @@ actions:
 <h5>KLV 64 bit.</h5>
 <!--<img src="/assets/img/KLV.png" align='left' style="margin-right: 44px" height="auto" width="256" alt="klv" /> -->
 <img src="/assets/img/KLV.png" alt="" style="float: left; margin-right: 40px; width: 300px;">
-<ul class="podcast-links">
+<ul>
   <li><a href="https://github.com/sofijacom/KLV-Spectrwm-CE" title="">KLV-Spectrwm-CE</a></li>
   <li><a href="https://github.com/sofijacom/KLV-BspwmCE" title="">KLV-BspwmCE</a></li>
   <li><a href="https://github.com/sofijacom/KLV-AwesomeCE" title="">KLV-AwesomeCE</a></li>
@@ -62,7 +62,7 @@ actions:
   <img src="/assets/img/KLF.png" alt="">	
 </figure>
 <br><br><br><br><br><br>
-<ul class="podcast-links">
+<ul>
   <li><a href="https://github.com/sofijacom/KLF-Rawhide-CE" title="">KLF-Rawhide-CE</a></li>
 </ul>
 
@@ -74,7 +74,7 @@ actions:
   <img src="/assets/img/manjaro.png" alt="">	
 </figure>
 <br><br><br><br>
-<ul class="podcast-links">
+<ul>
   <li><a href="https://forum.puppylinux.com/viewtopic.php?t=12833" title="">KLA-Manjaro-JWM</a></li>
   <li><a href="https://forum.puppylinux.com/viewtopic.php?t=12671" title="">KLA-Manjaro-LXDE</a></li>
   <li><a href="https://forum.puppylinux.com/viewtopic.php?t=14608" title="">KLA-Manjaro-Mate</a></li>
