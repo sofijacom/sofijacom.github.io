@@ -80,24 +80,13 @@ actions:
 - 
 - 
  
-<style>
-  #list {
-    float: left;
-  }
-  #list_image {
-    float: left;
-    margin-left: 40px;	  
-  }
-</style>
+
 ### Assemblies from <span style="color:#ff0000;font-style:italic;font-weight:700;font-size:16px">@Sofiya</span>
 
-##### KLA 64 bit.
-
 <ul id="list">
+  <h5>KLA 64 bit</h5>	
   <li>List item one</li>
   <li>List item two</li>
-  <li>List item three</li>
-  <li>List item with a longer text</li>
 </ul>
 <img src="/assets/img/KLV.png" id="list_image" height="auto" width="255" alt="klv" />
 
@@ -113,3 +102,12 @@ actions:
 
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=sofijacom&label=Profile%20views&color=blueviolet&size=24&style=flat" alt="sofijacom" /> </p>
 
+<style>
+  #list {
+    float: left;
+  }
+  #list_image {
+    float: left;
+    margin-left: 44px;	  
+  }
+</style>
