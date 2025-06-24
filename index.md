@@ -37,13 +37,13 @@ actions:
   <li><a href="https://gitlab.com/firstrib/firstrib" title="">FirstRib GitLab repo</a></li>
   <li><a href="https://github.com/sofijacom/sofijacom.github.io" title="">Website GitHub repo</a></li>
 </ul>
-
+<br>
 
 <h3>Assemblies from <span style="color:#ff0000;font-style:italic;font-weight:700;font-size:16px">@Sofiya</span></h3>
 
 <h5>KLA 64 bit.</h5>
 <!-- <img src="/assets/img/KLA.jpg" align='left' style="margin-right: 44px" height="auto" width="256" alt="kla" /> -->
-<figure style="width: 256px; margin-right: 44px" class="align-left">
+<figure style="width: 256px; margin-right: 50px" class="align-left">
   <img src="/assets/img/KLA.jpg" alt="kla">	
 </figure>
 <ul>
