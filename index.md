@@ -53,6 +53,7 @@ actions:
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/KLV.png" alt="klv">	
 </figure>
 <br>
+
 - [KLV-Spectrwm-CE](https://github.com/sofijacom/KLV-Spectrwm-CE)
 - [KLV-BspwmCE](https://github.com/sofijacom/KLV-BspwmCE)
 - [KLV-AwesomeCE](https://github.com/sofijacom/KLV-AwesomeCE)
@@ -67,6 +68,7 @@ actions:
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/KLF.png" alt="klf">	
 </figure>
 <br><br><br>
+
 - [KLF-Rawhide-CE](https://github.com/sofijacom/KLF-Rawhide-CE)
  
 
@@ -79,6 +81,7 @@ actions:
   <img src="{{ site.url }}{{ site.baseurl }}/assets/img/manjaro.png" alt="manjaro">	
 </figure>
 <br><br>
+
 - [KLA-Manjaro-JWM](https://forum.puppylinux.com/viewtopic.php?t=12833)
 - [KLA-Manjaro-LXDE](https://forum.puppylinux.com/viewtopic.php?t=12671)
 - [KLA-Manjaro-Mate](https://forum.puppylinux.com/viewtopic.php?t=14608)
