@@ -24,7 +24,7 @@ actions:
   <li><a href="https://gitlab.com/firstrib/firstrib" title="">FirstRib GitLab repo</a></li>
   <li><a href="https://github.com/sofijacom/sofijacom.github.io" title="">Website GitHub repo</a></li>
 </ul>
-<img src="/assets/web/forums.jpeg" id="list_image" height="auto" width="256" alt="intro-illustration" />	
+<p><img src="/assets/web/forums.jpeg" id="list_image" height="auto" width="256" alt="intro-illustration" /></p>	
 </div>
 
 <div class="container">
