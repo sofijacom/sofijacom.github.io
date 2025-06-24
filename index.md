@@ -49,7 +49,7 @@ actions:
   <img src="/assets/img/KLV.png" alt="">	
 </figure>
 <br>-->
-<img src="/assets/img/KLV.png" alt="" style="float: left; margin-left: 40px; height: auto; width: 300px;">
+<img src="/assets/img/KLV.png" alt="" style="float: left; margin-right: 40px; height: auto; width: 300px;">
 
 - [KLV-Spectrwm-CE](https://github.com/sofijacom/KLV-Spectrwm-CE)
 - [KLV-BspwmCE](https://github.com/sofijacom/KLV-BspwmCE)
@@ -57,6 +57,7 @@ actions:
 - [KLV-HyprlandCE](https://github.com/sofijacom/KLV-HyprlandCE)
 - [KLV-Hyprland-Sway-CE](https://github.com/sofijacom/KLV-Hyprland-Sway-CE)
 - [KLV-plasma-KDE-CE](https://github.com/sofijacom/KLV-plasma-KDE-CE)
+- 
 
 
 ##### KLF-Rawhide-CE.
