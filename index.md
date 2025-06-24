@@ -18,7 +18,8 @@ actions:
 <h3>Forums</h3>
 <!--<img src="/assets/web/forums.jpeg" align='left' style="margin-right: 44px" height="auto" width="256" alt="forums" />-->
 <figure style="width: 256px" class="align-right">
-  <img src="/assets/web/forums.jpeg" alt="forums">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/web/forums.jpeg" alt="forums">
+  <figcaption>Forums.</figcaption>	
 </figure>	
 <ul class="podcast-links">
   <li><a href="https://forum.puppylinux.com/viewforum.php?f=228" title="">Main forum</a></li>
