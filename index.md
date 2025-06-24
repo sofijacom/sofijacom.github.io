@@ -19,12 +19,12 @@ actions:
 <img src="/assets/web/forums.jpeg" alt="" style="float: right; margin-right: 270px; width: 300px;">
 <ul class="podcast-links">
   <li><a href="https://forum.puppylinux.com/viewforum.php?f=228" title="">Main forum</a></li>
+  <li><a href="https://oldforum.puppylinux.com/index.php" title="">Murga forums(old forum)</a></li>	
   <li><a href="https://kennel-linux.rockedge.org/" title="">Another KL forum</a></li>
   <li><a href="https://forum.puppylinux.com/viewforum.php?f=231" title="">Kennel Linux distros</a></li>
   <li><a href="https://forum.puppylinux.com/viewforum.php?f=194" title="">Kennel Linux development</a></li>
   <li><a href="https://gitlab.com/firstrib/firstrib" title="">FirstRib GitLab repo</a></li>
-  <li><a href="https://github.com/sofijacom/sofijacom.github.io" title="">Website GitHub repo</a></li>
-  <li><a href="" title=""></a></li>	
+  <li><a href="https://github.com/sofijacom/sofijacom.github.io" title="">Website GitHub repo</a></li>  	
 </ul>
 
 
