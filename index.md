@@ -13,7 +13,7 @@ actions:
 ---
 
 
-<hr> /assets/img/manjaro-mate.png
+<hr>
 
 <h3>Forums</h3>
 <img src="/assets/web/forums.jpeg" alt="" style="float: right; margin-right: 270px; width: 300px;">
