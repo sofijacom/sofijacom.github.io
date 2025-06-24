@@ -44,11 +44,12 @@ actions:
 
 
 ##### KLV 64 bit.
-<!--<img src="/assets/img/KLV.png" align='left' style="margin-right: 44px" height="auto" width="256" alt="klv" /> -->
+<!--<img src="/assets/img/KLV.png" align='left' style="margin-right: 44px" height="auto" width="256" alt="klv" /> 
 <figure style="width: 300px; margin-right: 40px;" class="align-left">
   <img src="/assets/img/KLV.png" alt="">	
 </figure>
-<br>
+<br>-->
+<img src="/assets/web/forums.jpeg" alt="" style="float: left; margin-left: 40px; height: auto; width: 300px;">
 
 - [KLV-Spectrwm-CE](https://github.com/sofijacom/KLV-Spectrwm-CE)
 - [KLV-BspwmCE](https://github.com/sofijacom/KLV-BspwmCE)
