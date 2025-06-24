@@ -16,7 +16,7 @@ actions:
 <hr>
 
 <h3>Forums</h3>
-<div>
+<img src="/assets/web/forums.jpeg" id="list_image" height="auto" width="256" alt="intro-illustration" />
 <ul class="podcast-links" id="list">
   <li><a href="https://forum.puppylinux.com/viewforum.php?f=228" title="">Main forum</a></li>
   <li><a href="https://kennel-linux.rockedge.org/" title="">Another KL forum</a></li>
@@ -25,34 +25,19 @@ actions:
   <li><a href="https://gitlab.com/firstrib/firstrib" title="">FirstRib GitLab repo</a></li>
   <li><a href="https://github.com/sofijacom/sofijacom.github.io" title="">Website GitHub repo</a></li>
 </ul>
-<img src="/assets/web/forums.jpeg" id="list_image" height="auto" width="256" alt="intro-illustration" />
-</div>
 
-<h3>Forums</h3>
-<div>
-<img src="/assets/web/forums.jpeg" id="list_image" height="auto" width="256" alt="intro-illustration" />
-<ul class="podcast-links" id="list">
-  <li><a href="https://forum.puppylinux.com/viewforum.php?f=228" title="">Main forum</a></li>
-  <li><a href="https://kennel-linux.rockedge.org/" title="">Another KL forum</a></li>
-  <li><a href="https://forum.puppylinux.com/viewforum.php?f=231" title="">Kennel Linux distros</a></li>
-  <li><a href="https://forum.puppylinux.com/viewforum.php?f=194" title="">Kennel Linux development</a></li>
-  <li><a href="https://gitlab.com/firstrib/firstrib" title="">FirstRib GitLab repo</a></li>
-  <li><a href="https://github.com/sofijacom/sofijacom.github.io" title="">Website GitHub repo</a></li>
-</ul>
-</div>
 
 ### Assemblies from <span style="color:#ff0000;font-style:italic;font-weight:700;font-size:16px">@Sofiya</span>
 
 ##### KLA 64 bit.
 
-<img align="left" src="/assets/img/KLA.jpg" style="margin-right: 44px" height="auto" width="256" alt="kla" />
-
-- [KLA-OT2baseCE](https://github.com/sofijacom/KLA-OT2baseCE)
-- [KLA-HyprlandCE](https://github.com/sofijacom/KLA-Hyprland)
-- [KLA-Manjaro-Openbox](https://github.com/sofijacom/KLA-Manjaro-Openbox)
-- [KLA-plasma-KDE-CE](https://github.com/sofijacom/KLA-plasma-KDE-CE)
-- 
-- 
+<img src="/assets/web/forums.jpeg" id="list_image" height="auto" width="256" alt="intro-illustration" />
+<ul id="list">
+  <li><a href="https://github.com/sofijacom/KLA-OT2baseCE" title="">KLA-OT2baseCE</a></li>
+  <li><a href="https://github.com/sofijacom/KLA-Hyprland" title="">KLA-HyprlandCE</a></li>
+  <li><a href="https://github.com/sofijacom/KLA-Manjaro-Openbox" title="">KLA-Manjaro-Openbox</a></li>
+  <li><a href="https://github.com/sofijacom/KLA-plasma-KDE-CE" title="">KLA-plasma-KDE-CE</a></li>
+</ul>
 
 
 ##### KLV 64 bit.
