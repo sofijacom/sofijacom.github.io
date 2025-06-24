@@ -40,7 +40,7 @@ actions:
 
 <h5>KLA 64 bit.</h5>
 <!-- <img src="/assets/img/KLA.jpg" align='left' style="margin-right: 44px" height="auto" width="256" alt="kla" /> -->
-<figure style="width: 300px" class="align-left">
+<figure style="width: 256px; margin-right: 44px" class="align-left">
   <img src="/assets/img/KLA.jpg" alt="kla">	
 </figure>
 <ul>
