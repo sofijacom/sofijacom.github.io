@@ -27,6 +27,7 @@ actions:
   <li><a href="https://github.com/sofijacom/sofijacom.github.io" title="">Website GitHub repo</a></li>  	
 </ul>
 
+<img src="/assets/img/line.png" alt="line">
 
 <h3>Assemblies from <span style="color:#ff0000;font-style:italic;font-weight:700;font-size:16px">@Sofiya</span></h3>
 <h5>KLA 64 bit.</h5>
