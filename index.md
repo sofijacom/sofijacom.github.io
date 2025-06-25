@@ -57,7 +57,7 @@ actions:
 
 <h5>KLF-Rawhide-CE.</h5>
 <figure style="width: 300px; margin-right: 40px;" class="align-left">
-  <img src="/assets/img/KLF.png" alt="klf">	
+  <img src="/assets/img/Fedora.png" alt="klf">	
 </figure>
 <br><br><br><br><br><br>
 <ul>
