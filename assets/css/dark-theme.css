@@ -134,7 +134,7 @@
 
 body {
     background: #1e2030 !important;
-    color: #cdd6f4 !important;
+    color: var(--text-color) !important;
 }
 
 a {
