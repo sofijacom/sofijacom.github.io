@@ -14,7 +14,7 @@
 @font-monospace: "IBM Plex Mono", monospace;
 
 :root {
-  --catppuccin-latte-rosewater: #dc8a78;
+ /* --catppuccin-latte-rosewater: #dc8a78;
   --catppuccin-latte-flamingo: #dd7878;
   --catppuccin-latte-pink: #ea76cb;
   --catppuccin-latte-mauve: #8839ef;
@@ -39,7 +39,7 @@
   --catppuccin-latte-surface0: #ccd0da;
   --catppuccin-latte-base: #eff1f5;
   --catppuccin-latte-mantle: #e6e9ef;
-  --catppuccin-latte-crust: #dce0e8;
+  --catppuccin-latte-crust: #dce0e8; */
 
   --catppuccin-macchiato-rosewater: #f4dbd6;
   --catppuccin-macchiato-flamingo: #f0c6c6;
