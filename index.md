@@ -72,7 +72,7 @@ actions:
   <img src="/assets/img/manjaro-mate.png" alt="manjaro mate">	
 </figure>
 <figure style="width: 300px; margin-right: 90px;" class="align-right">
-  <img src="/assets/img/manjaro.png" alt="manjaro">	
+  <img src="/assets/img/manjaro.gif" alt="manjaro">	
 </figure>
 <br><br><br><br>
 <ul>
