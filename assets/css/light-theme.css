@@ -41,7 +41,7 @@
   --catppuccin-latte-mantle: #e6e9ef;
   --catppuccin-latte-crust: #dce0e8;
     
-  --catppuccin-macchiato-rosewater: #f4dbd6;
+/*  --catppuccin-macchiato-rosewater: #f4dbd6;
   --catppuccin-macchiato-flamingo: #f0c6c6;
   --catppuccin-macchiato-pink: #f5bde6;
   --catppuccin-macchiato-mauve: #c6a0f6;
@@ -66,7 +66,7 @@
   --catppuccin-macchiato-surface0: #363a4f;
   --catppuccin-macchiato-base: #24273a;
   --catppuccin-macchiato-mantle: #1e2030;
-  --catppuccin-macchiato-crust: #181926;
+  --catppuccin-macchiato-crust: #181926; */
 
   --theme: var(--catppuccin-latte-base);
   --base-color: #4c4f69;
