@@ -120,7 +120,8 @@
   --catppuccin-macchiato-base: #24273a;
   --catppuccin-macchiato-mantle: #1e2030;
   --catppuccin-macchiato-crust: #181926;
-        
+     
+  --theme: var(--catppuccin-macchiato-base);      
   --base-color: #4c4f69;
   --code-background-color: #cdd6f3;
   --border-color: #cdd6f3;
