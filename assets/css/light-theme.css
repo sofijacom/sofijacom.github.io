@@ -83,11 +83,11 @@
   background: var(--theme);
 }
 
-.dark {
-  --theme: var(--catppuccin-macchiato-base);
+.light {
+  --theme: var(--catppuccin-latte-base);
 }
 
-.dark.list {
+.light.list {
   background: var(--theme);
 }
 
