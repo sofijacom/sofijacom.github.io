@@ -16,7 +16,7 @@ actions:
 <hr>
 
 <h3>Forums</h3>
-<img src="/assets/web/forums.jpeg" alt="forum" style="float: right; margin-right: 270px; width: 300px;">
+<img src="/assets/web/forums.jpeg" class="zoom-effect" alt="forum" style="float: right; margin-right: 270px; width: 300px;">
 <ul class="podcast-links">
   <li><a href="https://forum.puppylinux.com/viewforum.php?f=228" title="">Main forum</a></li>
   <li><a href="https://oldforum.puppylinux.com/index.php" title="">Murga forum(old forum)</a></li>	
@@ -92,3 +92,13 @@ actions:
 
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=sofijacom&label=Profile%20views&color=blueviolet&size=24&style=flat" alt="sofijacom" /> </p>
 
+
+<style>
+ .zoom-effect {
+  transition: transform 0.2s;
+}
+
+.zoom-effect:hover {
+  transform: scale(2);
+}	
+</style>
