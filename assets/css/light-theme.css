@@ -132,9 +132,8 @@
   }
 
 body {
-    background: #e6e9ef !important;
+    background: var(--background-color) !important;
     color: var(--text-color) !important;
-   /* bgcolor: #e6e9ef; */
 }
 
 a {
