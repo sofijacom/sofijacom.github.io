@@ -32,7 +32,7 @@ actions:
 <h3>Assemblies from <span style="color:#ff0000;font-style:italic;font-weight:700;font-size:16px">@Sofiya</span></h3>
 <h5>KLA 64 bit.</h5>
 <figure style="width: 300px; margin-right: 40px;" class="align-left">
-  <img src="/assets/img/KLA.jpg" alt="kla">	
+  <img src="/assets/img/KLA.jpg" class="easy-zoom-effect" alt="kla">	
 </figure>
 <br><br><br>
 <ul>
@@ -44,7 +44,7 @@ actions:
 
 
 <h5>KLV 64 bit.</h5>
-<img src="/assets/img/KLV.png" alt="klv" style="float: left; margin-right: 40px; width: 300px;">
+<img src="/assets/img/KLV.png" class="easy-zoom-effect" alt="klv" style="float: left; margin-right: 40px; width: 300px;">
 <ul>
   <li><a href="https://github.com/sofijacom/KLV-Spectrwm-CE" title="">KLV-Spectrwm-CE</a></li>
   <li><a href="https://github.com/sofijacom/KLV-BspwmCE" title="">KLV-BspwmCE</a></li>
@@ -58,7 +58,7 @@ actions:
 
 <h5>KLF-Rawhide-CE.</h5>
 <figure style="width: 300px; margin-right: 40px;" class="align-left">
-  <img src="/assets/img/F.png" alt="klf">	
+  <img src="/assets/img/F.png" class="easy-zoom-effect" alt="klf">	
 </figure>
 <br><br><br><br><br><br>
 <ul>
@@ -69,10 +69,10 @@ actions:
 <h3>Assemblies from <span style="color:#ff0000;font-style:italic;font-weight:700;font-size:16px">@Josejp2424</span></h3>
 <h5>KLA-Manjaro.</h5>
 <figure style="width: 300px; margin-right: 40px;" class="align-left">
-  <img src="/assets/img/manjaro-mate.png" alt="manjaro mate">	
+  <img src="/assets/img/manjaro-mate.png" class="easy-zoom-effect" alt="manjaro mate">	
 </figure>
 <figure style="width: 300px; margin-right: 90px;" class="align-right">
-  <img src="/assets/img/manjaro-2.png" alt="manjaro">	
+  <img src="/assets/img/manjaro-2.png" class="easy-zoom-effect" alt="manjaro">	
 </figure>
 <br><br><br><br>
 <ul>
