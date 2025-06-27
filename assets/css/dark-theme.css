@@ -74,7 +74,7 @@
   --border-color: #cdd6f3;
   --overlay-color: #cdd6f3;
   --sidebar-background-color: #181825;
-  --background-color: #181825;
+  --background-color: #1e2030;
   --text-color: #cdd6f4;
   --accent-color: #c09bef;
 
@@ -126,14 +126,14 @@
   --border-color: #cdd6f3;
   --overlay-color: #cdd6f3;
   --sidebar-background-color: #181825;
-  --background-color: #181825;
+  --background-color: #1e2030;
   --text-color: #cdd6f4;
   --accent-color: #c09bef;
     }
   }
 
 body {
-    background: #1e2030 !important;
+    background: var(--background-color) !important;
     color: var(--text-color) !important;
 }
 
