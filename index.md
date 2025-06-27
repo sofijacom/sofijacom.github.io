@@ -16,7 +16,7 @@ actions:
 <hr>
 
 <h3>Forums</h3>
-<img src="/assets/web/forums.jpeg" class="zoom-effect" alt="forum" style="float: right; margin-right: 270px; width: 300px;">
+<img src="/assets/web/forums.jpeg" class="easy-zoom-effect" alt="forum" style="float: right; margin-right: 270px; width: 300px;">
 <ul class="podcast-links">
   <li><a href="https://forum.puppylinux.com/viewforum.php?f=228" title="">Main forum</a></li>
   <li><a href="https://oldforum.puppylinux.com/index.php" title="">Murga forum(old forum)</a></li>	
@@ -94,11 +94,11 @@ actions:
 
 
 <style>
- .zoom-effect {
-  transition: transform 0.2s;
+.easy-zoom-effect {
+  transition: transform 0.5s ease;
 }
 
-.zoom-effect:hover {
-  transform: scale(2);
+.easy-zoom-effect:hover {
+  transform: scale(1.25);
 }	
 </style>
