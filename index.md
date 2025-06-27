@@ -95,7 +95,7 @@ actions:
 
 <style>
 .easy-zoom-effect {
-  transition: transform 0.5s ease;
+  transition: transform 1s ease;
 }
 
 .easy-zoom-effect:hover {
