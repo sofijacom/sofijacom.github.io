@@ -578,7 +578,7 @@ ul.podcast-links li:hover {
     } 
 } */
 
-/* code_copy */
+/* code_copy 
 pre.highlight > button {
     background-color: #dadee5;
     color: #4c4f69;
@@ -589,6 +589,20 @@ pre.highlight > button {
     transition: all 0.2s ease-out;
     padding: 2px 5px 2px 5px;
     border: 1px solid #4c4f69;
+    border-radius: 6px;
+} */
+
+/* code_copy */
+pre.highlight > button {
+    background-color: #1f2030;
+    color: #bac2de;
+    opacity: 0;
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    transition: all 0.2s ease-out;
+    padding: 2px 5px 2px 5px;
+    border: 1px solid #a6adc8;
     border-radius: 6px;
 }
 
