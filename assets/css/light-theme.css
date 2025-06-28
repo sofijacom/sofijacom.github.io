@@ -273,7 +273,7 @@ kbd {
  code, pre {
     font-size: 1em;
    /* color: #4c4f69 !important; */
-    background-color: #2f394417 !important;
+    background-color: #1f20301f !important; /* #2f394417 */
 }
 
 .navicon-button {
