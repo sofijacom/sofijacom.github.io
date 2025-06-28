@@ -114,6 +114,6 @@ actions:
     display: block; /* Убираем небольшой отступ снизу */
    }
    .scale img:hover {
-    transform: scale(1.2); /* Увеличиваем масштаб */
+    transform: scale(1.25); /* Увеличиваем масштаб */
    }
   </style>
