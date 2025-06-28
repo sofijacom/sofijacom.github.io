@@ -272,7 +272,7 @@ kbd {
 
  code, pre {
     font-size: 1em;
-    color: #4c4f69 !important;
+   /* color: #4c4f69 !important; */
     background-color: #2f394417 !important;
 }
 
@@ -310,7 +310,7 @@ figure.highlight {
   position: relative !important;
   margin-bottom: 1em !important;
   background: #1e2030 !important; /* #263238 */
-  color: #e6e9ef !important;
+  color: #bac2de !important;
   font-family: Menlo, Consolas, Monaco, "Courier New", Courier, monospace !important;
   line-height: 1.8 !important;
  /* border-radius: 6px !important; */
