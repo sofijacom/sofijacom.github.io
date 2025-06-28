@@ -72,7 +72,7 @@ actions:
   <img src="/assets/img/manjaro-mate.png" class="easy-zoom-effect" alt="manjaro mate">	
 </figure>
 <figure style="width: 300px; margin-right: 90px;" class="align-right">
-  <img src="/assets/img/manjaro-2.png" class="easy-zoom-effect" alt="manjaro">	
+  <img src="/assets/img/manjaro-2.png" class="scale" alt="manjaro">	
 </figure>
 <br><br><br><br>
 <ul>
@@ -102,3 +102,18 @@ actions:
   transform: scale(1.25);
 }	
 </style>
+
+  <style>
+   .scale {
+    width: 200px; /* Ширина картинок */
+    display: inline-block; /* Строчно-блочный элемент */
+    overflow: hidden; /* Скрываем всё за контуром */
+   }
+   .scale img {
+    transition: 1s; /* Время эффекта */
+    display: block; /* Убираем небольшой отступ снизу */
+   }
+   .scale img:hover {
+    transform: scale(1.2); /* Увеличиваем масштаб */
+   }
+  </style>
