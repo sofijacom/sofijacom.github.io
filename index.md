@@ -105,7 +105,7 @@ actions:
 
   <style>
    .scale {
-    width: 200px; /* Ширина картинок */
+   /* width: 300px;  Ширина картинок */
     display: inline-block; /* Строчно-блочный элемент */
     overflow: hidden; /* Скрываем всё за контуром */
    }
