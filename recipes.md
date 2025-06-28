@@ -5,10 +5,9 @@ sub_title: "The plugin is a script with the possibility of expansion and further
 image: '/assets/images/Plugins.jpg'
 comments: false
 ---
-<!--
-<details>
-<summary><b>f_00_Void_KDE_plasma_no-kernel.plug</b></summary> -->
 
+<details>
+<summary><b>f_00_Void_KDE_plasma_no-kernel.plug</b></summary>
 
 ```text
 # f_00_Void_KDE_plasma_no-kernel.plug
