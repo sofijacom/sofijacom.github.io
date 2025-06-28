@@ -105,7 +105,7 @@ actions:
 
   <style>
    .scale {
-   /* width: 300px;  Ширина картинок */
+    width: 300px; /* Ширина картинок */
     display: inline-block; /* Строчно-блочный элемент */
     overflow: hidden; /* Скрываем всё за контуром */
    }
@@ -114,6 +114,6 @@ actions:
     display: block; /* Убираем небольшой отступ снизу */
    }
    .scale img:hover {
-    transform: scale(1.25); /* Увеличиваем масштаб */
+    transform: scale(1.2); /* Увеличиваем масштаб */
    }
   </style>
