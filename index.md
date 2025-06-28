@@ -108,6 +108,8 @@ actions:
     width: 300px; /* Ширина картинок */
     display: inline-block; /* Строчно-блочный элемент */
     overflow: hidden; /* Скрываем всё за контуром */
+    border-radius: 10px;
+    border: 1px solid #4c4f69;	   
    }
    .scale img {
     transition: 1s; /* Время эффекта */
