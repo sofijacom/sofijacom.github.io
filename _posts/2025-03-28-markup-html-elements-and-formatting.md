@@ -226,7 +226,7 @@ This element styles large blocks of code.
 ### Common
 
 ```text
-This is a common code snippet, without syntax highlight and line number.
+This is a common code snippet, without syntax highlight.
 ```
 
 ### Specific Language
