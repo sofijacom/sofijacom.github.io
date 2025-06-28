@@ -223,6 +223,13 @@ This element styles large blocks of code.
 
 ## Code blocks
 
+### Common
+
+```text
+This is a common code snippet, without syntax highlight and line number.
+```
+
+### Specific Language
 
 ```js
 function testInput(re, str) {
@@ -231,14 +238,13 @@ function testInput(re, str) {
 }
 ```
 
-### Specific Language
-
 ```bash
 if [ $? -ne 0 ]; then
   echo "The command was not successful.";
   #do the needful / exit
 fi;
 ```
+
 ### css Language
 
 ```css
