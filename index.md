@@ -103,19 +103,19 @@ actions:
 }	
 </style>
 
-  <style>
-   .scale {
-    width: 300px; /* Ширина картинок */
-    display: inline-block; /* Строчно-блочный элемент */
-    overflow: hidden; /* Скрываем всё за контуром */
-    border-radius: 10px;
-    border: 1px solid #181825;	   
-   }
-   .scale img {
-    transition: 1s; /* Время эффекта */
-    display: block; /* Убираем небольшой отступ снизу */
-   }
-   .scale img:hover {
-    transform: scale(1.25); /* Увеличиваем масштаб */
-   }
-  </style>
+<style>
+.scale {
+  width: 300px; /* Ширина картинок */
+  display: inline-block; /* Строчно-блочный элемент */
+  overflow: hidden; /* Скрываем всё за контуром */
+  border-radius: 10px;
+  border: 1px solid #181825;	   
+}
+.scale img {
+  transition: 1s; /* Время эффекта */
+  display: block; /* Убираем небольшой отступ снизу */
+}
+.scale img:hover {
+  transform: scale(1.25); /* Увеличиваем масштаб */
+}
+</style>
