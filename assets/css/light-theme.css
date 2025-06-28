@@ -414,7 +414,8 @@ header {
 }
 
 ::selection {
-    background: #8838ef42 !important;
+    background: #c6a0f6 !important;
+    color: black !important;
     text-shadow: none;
 }
 
