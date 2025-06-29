@@ -137,7 +137,7 @@ actions:
   display: inline-block; /* Строчно-блочный элемент */
   overflow: hidden; /* Скрываем всё за контуром */
   border-radius: 10px;
-  border: 2px solid #dce0e7;   
+  border: 1px solid #dce0e7;   
   -webkit-box-shadow: 5px 5px 5px #111;
           box-shadow: 5px 5px 5px #111;	
  /* border: 1px solid #181825; */	    
