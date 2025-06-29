@@ -6,8 +6,6 @@ image: '/assets/images/Plugins.jpg'
 comments: false
 ---
 
-<details>
-<summary><b>f_00_Void_KDE_plasma_no-kernel.plug</b></summary>
 
 ```text
 # f_00_Void_KDE_plasma_no-kernel.plug
@@ -462,3 +460,7 @@ ess finished"
 "
 ```
 
+<!--
+<details>
+<summary><b>f_00_Void_KDE_plasma_no-kernel.plug</b></summary>
+-->
