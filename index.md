@@ -116,10 +116,7 @@ actions:
 }	
 </style>
 
-<style>
-img {
-  width: 300px;
-	
+<style>	
 .focus {
   transition: all 1s ease; /* transform 1s ease */
  /* image-rendering: pixelated; */ /* Image sharpness */	
