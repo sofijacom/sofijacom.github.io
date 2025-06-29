@@ -69,7 +69,7 @@ actions:
 <h3>Assemblies from <span style="color:#ff0000;font-style:italic;font-weight:700;font-size:16px">@Josejp2424</span></h3>
 <h5>KLA-Manjaro.</h5>
  <div class="shrink pic">
-  <img src="/assets/img/manjaro-mate.png" style="float: left; margin-right: 40px;" alt="manjaro mate">
+  <img src="/assets/img/manjaro-mate.png" alt="manjaro mate">
  </div>	
 <figure style="width: 300px; margin-right: 90px;" class="align-right">
   <div class="scale"><img src="/assets/img/manjaro-2.png" class="scale" alt="manjaro"></div>	
@@ -157,8 +157,8 @@ actions:
   border: 5px solid #fff;  
   float: left;
   height: auto;
-  width: 200px;
- /* margin-right: 40px; */
+  width: 300px;
+  margin-right: 40px;
   overflow: hidden;
    
   -webkit-box-shadow: 5px 5px 5px #111;
