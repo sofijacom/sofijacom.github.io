@@ -658,7 +658,7 @@ blockquote.prompt-warning::before {
 }
 blockquote.prompt-warning {
     background-color: #765b03;
-    border: 1px solid #a74fff;
+    border: 1px solid #c3bd2b;  
 }
 blockquote.prompt-warning {
     border-left: solid 0.25rem #ffa500cc;
@@ -670,7 +670,7 @@ blockquote.prompt-danger::before {
 }
 blockquote.prompt-danger {
     background-color: #c915258f;
-    border: 1px solid #c3bd2b;
+    border: 1px solid #eb1212;  
 }
 blockquote.prompt-danger {
     border-left: solid 0.25rem #cd0202;
@@ -682,7 +682,7 @@ blockquote.prompt-important::before {
 }
 blockquote.prompt-important {
     background-color: #4d2e6c;
-    border: 1px solid #eb1212;
+    border: 1px solid #a74fff;
 }
 blockquote.prompt-important {
     border-left: solid 0.25rem #aa55ff;
