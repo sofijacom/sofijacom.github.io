@@ -116,7 +116,12 @@ actions:
 }	
 </style>
 
-<style>	
+<style>
+.focus img {
+  height: auto;	
+  width: 300px;	
+}
+	
 .focus {
   transition: all 1s ease; /* transform 1s ease */
  /* image-rendering: pixelated; */ /* Image sharpness */	
@@ -125,7 +130,8 @@ actions:
 .focus img:hover {
   border: 5px solid #b8b8b8;
   border-radius: 50%;
-  width: 200px;	
+  width: 200px;
+  height: 200px;	
 }	
 </style>
 
@@ -152,7 +158,7 @@ actions:
   border: 5px solid #fff;  
   float: left;
   height: auto;
- /* width: 200px; */
+  width: 300px;
  /* margin: 20px; */
   overflow: hidden;
    
