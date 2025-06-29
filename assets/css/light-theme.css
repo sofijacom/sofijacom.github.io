@@ -623,7 +623,6 @@ pre.highlight > button:focus {
 
 blockquote, q {
     color: #4c4f69 !important;
-    font-style: italic;
 }
 
 blockquote {
