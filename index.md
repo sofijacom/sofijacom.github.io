@@ -138,8 +138,8 @@ actions:
   overflow: hidden; /* Скрываем всё за контуром */
   border-radius: 10px;
   border: 1px solid #dce0e7;   
-  -webkit-box-shadow: 5px 5px 5px #111;
-          box-shadow: 5px 5px 5px #111;	
+  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+          box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);	
  /* border: 1px solid #181825; */	    
 }
 .scale img {
@@ -163,7 +163,7 @@ actions:
   display: block;	  
    
   -webkit-box-shadow: 5px 5px 5px #111;
-          box-shadow: 5px 5px 5px #111;  
+          box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);  
 }	
 </style>
 
@@ -171,6 +171,6 @@ actions:
 .pics {
   border: 2px solid #dce0e7;   
   -webkit-box-shadow: 5px 5px 5px #111;
-          box-shadow: 5px 5px 5px #111;  
+          box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);  
 }	
 </style>
