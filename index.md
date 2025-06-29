@@ -118,6 +118,7 @@ actions:
 
 <style>
 .focus img {
+  display: block;	
   height: auto;	
   width: 300px;	
 }
