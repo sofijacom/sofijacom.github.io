@@ -118,8 +118,8 @@ actions:
 
 <style>
 .focus {	
-  height: auto;	
   width: 300px;
+  border: 5px solid #b8b8b8;	
   display: inline-block; /* Строчно-блочный элемент */
   overflow: hidden; /* Скрываем всё за контуром */	
 }
@@ -133,9 +133,7 @@ actions:
 .focus img:hover {	
   border: 5px solid #b8b8b8;
  /* border-radius: 50%; */
-  width: 200px;
-  height: auto;
- /* transform: scale(-1.2); /* Уменшение масштаба */	
+ transform: scale(-1.2); /* Уменшение масштаба */	
 }	
 </style>
 
