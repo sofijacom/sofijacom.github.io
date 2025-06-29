@@ -100,6 +100,7 @@ actions:
 
 .easy-zoom-effect:hover {
   transform: scale(1.25);
+  image-rendering: pixelated;	
 }	
 </style>
 
@@ -117,5 +118,6 @@ actions:
 }
 .scale img:hover {
   transform: scale(1.25); /* Увеличиваем масштаб */
+  image-rendering: pixelated;	
 }
 </style>
