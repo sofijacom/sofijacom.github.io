@@ -68,9 +68,7 @@ actions:
  
 <h3>Assemblies from <span style="color:#ff0000;font-style:italic;font-weight:700;font-size:16px">@Josejp2424</span></h3>
 <h5>KLA-Manjaro.</h5>
-<figure style="margin-right: 40px;" class="align-left">
- <div class="focus pic"><img src="/assets/img/manjaro-mate.png" alt="manjaro mate"></div>	
-</figure>
+ <div class="shrink pic"><img src="/assets/img/manjaro-mate.png" style="margin-right: 40px;" class="align-left" alt="manjaro mate"></div>	
 <figure style="width: 300px; margin-right: 90px;" class="align-right">
   <div class="scale"><img src="/assets/img/manjaro-2.png" class="scale" alt="manjaro"></div>	
 </figure>
@@ -117,21 +115,20 @@ actions:
 </style>
 
 <style>	
-.focus img {
+.shrink img {
+  height: 300px;
   width: 300px;
-  border: 5px solid #b8b8b8;	
-  display: inline-block;	
-  width: 300px;
-  overflow: hidden;	
-  transition: all 1s ease;	
+
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
 }
-	
-.focus img:hover {	
-  border: 5px solid #b8b8b8;
+
+.shrink img:hover {
   width: 200px;
-  display: block;	
- /* border-radius: 50%; */
-/* transform: scale(-1);  Уменшение масштаба */	
+  height: 200px;
 }	
 </style>
 
