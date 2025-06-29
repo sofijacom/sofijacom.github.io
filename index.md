@@ -152,7 +152,7 @@ actions:
   border: 5px solid #fff;  
   float: left;
   height: auto;
-  width: 200px;
+ /* width: 200px; */
  /* margin: 20px; */
   overflow: hidden;
    
