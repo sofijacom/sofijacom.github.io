@@ -125,12 +125,13 @@ actions:
 	
 .focus {
   transition: all 1s ease; /* transform 1s ease */
- /* image-rendering: pixelated; */ /* Image sharpness */	
+ /* image-rendering: pixelated; */ /* Image sharpness */
+  display: block;	
 }
 
 .focus img:hover {
   border: 5px solid #b8b8b8;
-  border-radius: 50%;
+ /* border-radius: 50%; */
   width: 200px;
   height: auto;	
 }	
