@@ -95,7 +95,7 @@ actions:
 
 <style>
 .easy-zoom-effect {
-  transition: transform 1s ease;
+  transition: all 1s ease; /* transform 1s ease */
  /* image-rendering: pixelated; */ /* Image sharpness */	
 }
 
@@ -113,7 +113,7 @@ actions:
   border: 1px solid #181825;	   
 }
 .scale img {
-  transition: 1s; /* Время эффекта */
+  transition: all 1s ease; /* Время эффекта */
   display: block; /* Убираем небольшой отступ снизу */
 }
 .scale img:hover {
