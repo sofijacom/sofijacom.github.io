@@ -621,6 +621,11 @@ pre.highlight > button:focus {
 }   
 /* End code_copy */
 
+blockquote, q {
+    color: #4c4f69 !important;
+    font-style: italic;
+}
+
 blockquote {
   font-style: italic !important;
   margin: 20px !important;
