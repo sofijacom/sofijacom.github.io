@@ -122,7 +122,7 @@ actions:
  /* image-rendering: pixelated; */ /* Image sharpness */	
 }
 
-.focus:hover {
+.focus img:hover {
   border: 5px solid #b8b8b8;
   border-radius: 50%;
   width: 200px;	
