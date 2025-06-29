@@ -32,7 +32,7 @@ actions:
 <h3>Assemblies from <span style="color:#ff0000;font-style:italic;font-weight:700;font-size:16px">@Sofiya</span></h3>
 <h5>KLA 64 bit.</h5>
 <figure style="width: 300px; margin-right: 40px;" class="align-left">
-  <img src="/assets/img/KLA.jpg" class="easy-zoom-effect" alt="kla">	
+  <img src="/assets/img/KLA.jpg" class="easy-zoom-effect pics" alt="kla">	
 </figure>
 <br><br><br>
 <ul>
@@ -44,7 +44,7 @@ actions:
 
 
 <h5>KLV 64 bit.</h5>
-<img src="/assets/img/KLV.png" class="easy-zoom-effect" alt="klv" style="float: left; margin-right: 40px; width: 300px;">
+<img src="/assets/img/KLV.png" class="easy-zoom-effect pics" alt="klv" style="float: left; margin-right: 40px; width: 300px;">
 <ul>
   <li><a href="https://github.com/sofijacom/KLV-Spectrwm-CE" title="">KLV-Spectrwm-CE</a></li>
   <li><a href="https://github.com/sofijacom/KLV-BspwmCE" title="">KLV-BspwmCE</a></li>
@@ -58,7 +58,7 @@ actions:
 
 <h5>KLF-Rawhide-CE.</h5>
 <figure style="width: 300px; margin-right: 40px;" class="align-left">
-  <img src="/assets/img/F.png" class="easy-zoom-effect" alt="klf">	
+  <img src="/assets/img/F.png" class="easy-zoom-effect pics" alt="klf">	
 </figure>
 <br><br><br><br><br><br>
 <ul>
@@ -159,6 +159,14 @@ actions:
   overflow: hidden;
   display: block;	  
    
+  -webkit-box-shadow: 5px 5px 5px #111;
+          box-shadow: 5px 5px 5px #111;  
+}	
+</style>
+
+<style>
+  .pics {
+  border: 2px solid #dce0e7;   
   -webkit-box-shadow: 5px 5px 5px #111;
           box-shadow: 5px 5px 5px #111;  
 }	
