@@ -16,7 +16,7 @@ actions:
 <hr>
 
 <h3>Forums</h3>
-<img src="/assets/web/forums.jpeg" class="easy-zoom-effect" alt="forum" style="float: right; margin-right: 270px; width: 300px;">
+<img src="/assets/web/forums.jpeg" class="easy-effect pic" alt="forum" style="float: right; margin-right: 270px; width: 300px;">
 <ul class="podcast-links">
   <li><a href="https://forum.puppylinux.com/viewforum.php?f=228" title="">Main forum</a></li>
   <li><a href="https://oldforum.puppylinux.com/index.php" title="">Murga forum(old forum)</a></li>	
@@ -94,15 +94,25 @@ actions:
 
 
 <style>
+.easy-effect {
+  transition: all 1s ease; /* transform 1s ease */
+ /* image-rendering: pixelated; */ /* Image sharpness */	
+}
+
+.easy-effect:hover {
+  border-radius: 50%;
+  transform: rotate(360deg);	
+}	
+</style>
+
+<style>
 .easy-zoom-effect {
   transition: all 1s ease; /* transform 1s ease */
  /* image-rendering: pixelated; */ /* Image sharpness */	
 }
 
 .easy-zoom-effect:hover {
- /* transform: scale(1.25); */
-  border-radius: 50%;
-  transform: rotate(360deg);	
+  transform: scale(1.25);	
 }	
 </style>
 
@@ -122,4 +132,18 @@ actions:
   transform: scale(1.25); /* Увеличиваем масштаб */
   image-rendering: pixelated; /* Image sharpness */	
 }
+</style>
+
+<style>
+  .pic {
+  border: 10px solid #fff;  
+  float: left;
+  height: auto;
+  width: 300px;
+  margin: 20px;
+  overflow: hidden;
+   
+  -webkit-box-shadow: 5px 5px 5px #111;
+          box-shadow: 5px 5px 5px #111;  
+}	
 </style>
