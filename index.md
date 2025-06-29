@@ -124,7 +124,7 @@ actions:
 }
 
 .shrink img:hover {
-transform: scale(-2);
+transform: scale(-0.25);
 }	
 </style>
 
