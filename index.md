@@ -120,17 +120,11 @@ actions:
 .shrink img {
   height: auto;
   width: 300px;
-
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  -ms-transition: all 1s ease;
   transition: all 1s ease;
 }
 
 .shrink img:hover {
-  width: 200px;
-  height: auto;
+transform: scale(-2);
 }	
 </style>
 
