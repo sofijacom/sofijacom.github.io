@@ -96,7 +96,7 @@ actions:
 <style>
 .easy-zoom-effect {
   transition: transform 1s ease;
-  image-rendering: pixelated;	
+ /* image-rendering: pixelated; */ /* Image sharpness */	
 }
 
 .easy-zoom-effect:hover {
