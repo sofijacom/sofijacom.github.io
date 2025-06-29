@@ -667,7 +667,7 @@ blockquote.prompt-warning::before {
 }
 blockquote.prompt-warning {
     background-color: #fff3cd;
-    border: 1px solid #aa55ff;
+    border: 1px solid #e7ac40;
 }
 blockquote.prompt-warning {
     border-left: solid 0.25rem #ef9c03;
@@ -680,7 +680,7 @@ blockquote.prompt-danger::before {
 }
 blockquote.prompt-danger {
     background-color: #f8d7da8f;
-    border: 1px solid #e7ac40;
+    border: 1px solid #d15a52;
 }
 blockquote.prompt-danger {
     border-left: solid 0.25rem #df3c30;
@@ -693,7 +693,7 @@ blockquote.prompt-important::before {
 }
 blockquote.prompt-important {
     background-color: #d7c5e9;
-    border: 1px solid #d15a52;
+    border: 1px solid #aa55ff;
 }
 blockquote.prompt-important {
     border-left: solid 0.25rem #aa55ff;
