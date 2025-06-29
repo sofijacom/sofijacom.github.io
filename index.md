@@ -100,7 +100,9 @@ actions:
 }
 
 .easy-zoom-effect:hover {
-  transform: scale(1.25);	
+ /* transform: scale(1.25); */
+  border-radius: 50%;
+  transform: rotate(360deg);	
 }	
 </style>
 
