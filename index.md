@@ -16,7 +16,7 @@ actions:
 <hr>
 
 <h3>Forums</h3>
-<img src="/assets/web/forums.jpeg" class="easy-effect pic" alt="forum" style="float: right; margin-right: 270px; width: 300px;">
+<img src="/assets/web/forums.jpeg" class="morph pic" alt="forum" style="float: right; margin-right: 270px; width: 300px;">
 <ul class="podcast-links">
   <li><a href="https://forum.puppylinux.com/viewforum.php?f=228" title="">Main forum</a></li>
   <li><a href="https://oldforum.puppylinux.com/index.php" title="">Murga forum(old forum)</a></li>	
@@ -69,7 +69,7 @@ actions:
 <h3>Assemblies from <span style="color:#ff0000;font-style:italic;font-weight:700;font-size:16px">@Josejp2424</span></h3>
 <h5>KLA-Manjaro.</h5>
 <figure style="width: 300px; margin-right: 40px;" class="align-left">
-  <img src="/assets/img/manjaro-mate.png" class="easy-zoom-effect" alt="manjaro mate">	
+  <img src="/assets/img/manjaro-mate.png" class="focus pic" alt="manjaro mate">	
 </figure>
 <figure style="width: 300px; margin-right: 90px;" class="align-right">
   <div class="scale"><img src="/assets/img/manjaro-2.png" class="scale" alt="manjaro"></div>	
@@ -94,12 +94,12 @@ actions:
 
 
 <style>
-.easy-effect {
+.morph {
   transition: all 1s ease; /* transform 1s ease */
  /* image-rendering: pixelated; */ /* Image sharpness */	
 }
 
-.easy-effect:hover {
+.morph:hover {
   border-radius: 50%;
   transform: rotate(360deg);	
 }	
@@ -113,6 +113,18 @@ actions:
 
 .easy-zoom-effect:hover {
   transform: scale(1.25);	
+}	
+</style>
+
+<style>
+.focus {
+  transition: all 1s ease; /* transform 1s ease */
+ /* image-rendering: pixelated; */ /* Image sharpness */	
+}
+
+.focus:hover {
+  border: 5px solid #b8b8b8;
+  border-radius: 50%;	
 }	
 </style>
 
@@ -136,11 +148,11 @@ actions:
 
 <style>
   .pic {
-  border: 10px solid #fff;  
+  border: 5px solid #fff;  
   float: left;
   height: auto;
   width: 300px;
-  margin: 20px;
+ /* margin: 20px; */
   overflow: hidden;
    
   -webkit-box-shadow: 5px 5px 5px #111;
