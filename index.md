@@ -150,7 +150,7 @@ actions:
 </style>
 
 <style>
-  .pic {
+.pic {
   border: 4px solid #fff;  
   float: left;
   height: auto;
@@ -165,7 +165,7 @@ actions:
 </style>
 
 <style>
-  .pics {
+.pics {
   border: 2px solid #dce0e7;   
   -webkit-box-shadow: 5px 5px 5px #111;
           box-shadow: 5px 5px 5px #111;  
