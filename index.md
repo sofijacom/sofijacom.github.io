@@ -155,7 +155,7 @@ img {
   border: 5px solid #fff;  
   float: left;
   height: auto;
-  width: 300px;
+  width: 200px;
  /* margin: 20px; */
   overflow: hidden;
    
