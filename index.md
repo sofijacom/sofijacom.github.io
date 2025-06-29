@@ -95,7 +95,7 @@ actions:
 
 <style>
 .morph {
-  transition: all 1s ease; /* transform 1s ease */
+  transition: all 0.5s ease; /* transform 1s ease */
  /* image-rendering: pixelated; */ /* Image sharpness */	
 }
 
