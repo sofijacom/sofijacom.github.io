@@ -124,7 +124,7 @@ actions:
 
 .focus:hover {
   border: 5px solid #b8b8b8;
-  border-radius: 50px 50px 50px 50px;	
+  border-radius: 100%;	
 }	
 </style>
 
