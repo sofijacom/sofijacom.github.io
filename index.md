@@ -16,7 +16,7 @@ actions:
 <hr>
 
 <h3>Forums</h3>
-<img src="/assets/web/forums.webp" class="morph pic" alt="forum" style="float: right; margin-right: 270px; width: 300px;" />
+<img src="/assets/web/forums.webp" class="morph pic" alt="forum" style="float: right; margin-right: 270px; width: 300px;" alt="forum" />
 <ul class="podcast-links">
   <li><a href="https://forum.puppylinux.com/viewforum.php?f=228" title="">Main forum</a></li>
   <li><a href="https://oldforum.puppylinux.com/index.php" title="">Murga forum(old forum)</a></li>	
@@ -85,11 +85,11 @@ actions:
  
   
 <p align="center"> 
-  <img src="https://github.com/user-attachments/assets/6c640e94-03b1-4425-8345-e8bde37252a5" />  
+  <img src="https://github.com/user-attachments/assets/6c640e94-03b1-4425-8345-e8bde37252a5" alt="" />  
 </p>
 
 <p align="center">
-	<a href="https://github.com/sofijacom/sofijacom.github.io/blob/master/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=MIT&logoColor=d9e0ee&colorA=363a4f&colorB=b7bdf8"/></a>
+	<a href="https://github.com/sofijacom/sofijacom.github.io/blob/master/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=MIT&logoColor=d9e0ee&colorA=363a4f&colorB=b7bdf8" alt=""/></a>
 </p>
 
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=sofijacom&label=Profile%20views&color=blueviolet&size=24&style=flat" alt="sofijacom" /> </p>
