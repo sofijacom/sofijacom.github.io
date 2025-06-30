@@ -180,14 +180,14 @@ img.anime:hover {
   top: 0; /* выравниваем картинки по левому верхнему углу div-а */  
 }
 	
-.animate2:hover img.second, .animate2 img.second:hover {
+/*.animate2:hover img.second, .animate2 img.second:hover {
   opacity:0;
   filter:alpha (opacity=0);
   -moz-transition: all 2s ease;
   -webkit-transition: all 2s ease;
   -o-transition: all 2s ease;
   transition: all 2s ease;
-}
+} */
 	
 .animate2:hover img.second, .animate2 img.second:hover {
   opacity:0;
