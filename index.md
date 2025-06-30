@@ -58,7 +58,7 @@ actions:
 
 <h5>KLF-Rawhide-CE.</h5>
 <figure style="width: 300px; margin-right: 40px;" class="align-left">
-  <div class="animate2">	  
+  <div class="animate8">	  
     <img class="first" src="/assets/img/F.png" alt="klf" />   
     <img class="second" src="/assets/img/Fedora.png" alt="klf" />    
 </div>
@@ -167,51 +167,37 @@ img.anime:hover {
 </style>
 
 <style>
-.animate2 {
-  position: relative;
-  margin: 0 auto;/* устанваливаем блок div по центру страницы*/
-  width: 300px; /* Ширина */
-  height: auto;  /* Высота */                
+.animate8 { 
+ position: relative; 
+ margin: 0 auto;/* устанваливаем блок div по центру страницы*/
+ width: 300px; /* Ширина */
+ height: auto;  /* Высота */				
 }
-
-.animate2 img {
-  position: absolute; /* абсолютное позиционирование*/
-  left: 0; /* выравниваем картинки по левому верхнему углу div-а*/
-  top: 0; /* выравниваем картинки по левому верхнему углу div-а */  
+.animate8 img { 
+ position: absolute; /* абсолютное позиционирование*/
+ left: 0; /* выравниваем картинки по левому верхнему углу div-а*/ 
+ top: 0; /* выравниваем картинки по левому верхнему углу div-а */  
+ -moz-transition: all 1s ease;
+ -webkit-transition: all 1s ease;
+ -o-transition: all 1s ease;
+ transition: all 1s ease;
 }
-
-.animate2 img.first { /* первая картинка полностью прозрачная */
-  opacity: 0;
-  filter:alpha (opacity=0);
+.animate8 img.first {
+ opacity: 0;
+ filter: alpha(opacity=0);
 }
-
-.animate2:hover img.first { /* при наведении курсора первая картинка становится не прозрачной */
-  opacity: 1;
-  filter: alpha (opacity=100);
+.animate8:hover img.first {
+ opacity: 1;
+ filter: alpha(opacity=100);
 }
-
-.animate2:hover img.second, .animate2 img.second:hover { /* а вторая при наведении курсора становится прозрачной */
-  opacity: 0;
-  filter: alpha (opacity=0);
-}
-	
-.animate2:hover img.second, .animate2 img.second:hover {
-  opacity: 0;
-  filter: alpha (opacity=0);
-  -moz-transition: all 2s ease;
-  -webkit-transition: all 2s ease;
-  -o-transition: all 2s ease;
-  transition: all 2s ease;
-}
-	
-.animate2:hover img.second, .animate2 img.second:hover {
-  opacity: 0;
-  filter: alpha (opacity=0);
-  -moz-transform: scale (0, 1);
-  -webkit-transform: scale (0, 1);
-  -o-transform: scale (0, 1);
-  -ms-transform: scale (0, 1);
-  transform: scale (0, 1); /* уменьшаем ширину картинки до 0 */
+ .animate8:hover img.second, .animate8 img.second:hover {
+ opacity: 0;
+ filter: alpha(opacity=0);
+ -moz-transform: scale(0, 1);
+ -webkit-transform: scale(0, 1);
+ -o-transform: scale(0, 1);
+ -ms-transform: scale(0, 1);
+ transform: scale(0, 1);
 }	
 </style>
 	
