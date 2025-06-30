@@ -16,7 +16,7 @@ actions:
 <hr>
 
 <h3>Forums</h3>
-<img src="/assets/web/forums.jpeg" class="morph pic" alt="forum" style="float: right; margin-right: 270px; width: 300px;" />
+<img src="/assets/web/forums.webp" class="morph pic" alt="forum" style="float: right; margin-right: 270px; width: 300px;" />
 <ul class="podcast-links">
   <li><a href="https://forum.puppylinux.com/viewforum.php?f=228" title="">Main forum</a></li>
   <li><a href="https://oldforum.puppylinux.com/index.php" title="">Murga forum(old forum)</a></li>	
