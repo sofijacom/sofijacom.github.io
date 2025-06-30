@@ -44,7 +44,7 @@ actions:
 
 
 <h5>KLV 64 bit.</h5>
-<img src="/assets/img/KLV.png" class="easy-zoom-effect pics" alt="klv" style="float: left; margin-right: 40px; width: 300px;">
+<img src="/assets/img/KLV.png" class="anime pics" alt="klv" style="float: left; margin-right: 40px; width: 300px;">
 <ul>
   <li><a href="https://github.com/sofijacom/KLV-Spectrwm-CE" title="">KLV-Spectrwm-CE</a></li>
   <li><a href="https://github.com/sofijacom/KLV-BspwmCE" title="">KLV-BspwmCE</a></li>
@@ -102,6 +102,17 @@ actions:
 .morph:hover {
   border-radius: 50%;
   transform: rotate(360deg); /* transform: rotate (360deg) scale (1.25); */	
+}	
+</style>
+
+<style>
+.anime {
+  transition: all 0.5s ease;
+ /* image-rendering: pixelated; */ /* Image sharpness */	
+}
+
+.anime:hover {
+  transform: rotate (360deg) scale (1.25);	
 }	
 </style>
 
