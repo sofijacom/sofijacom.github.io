@@ -229,7 +229,7 @@ img.anime:hover {
 <style>
 .links {
     float: left;
-    margin-left: 310px;
+    margin-left: 300px;
 }	
 </style>
 
