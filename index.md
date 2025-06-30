@@ -167,7 +167,7 @@ img.anime:hover {
 </style>
 
 <style>
-.animate2{
+.animate2 {
   position:relative;
   margin:0 auto;/* устанваливаем блок div по центру страницы*/
   width:300px; /* Ширина */
