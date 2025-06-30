@@ -58,12 +58,12 @@ actions:
 
 <h5>KLF-Rawhide-CE.</h5>
 <figure style="width: 300px; margin-right: 40px;" class="align-left">
-  <div class="animate8">	  
+  <div class="animate pics">	  
     <img class="first" src="/assets/img/F.png" alt="klf" />   
     <img class="second" src="/assets/img/Fedora.png" alt="klf" />    
-</div>
+  </div>
 </figure>
-<br><br><br><br><br><br>
+<!-- <br><br><br><br><br><br> -->
 <ul>
   <li><a href="https://github.com/sofijacom/KLF-Rawhide-CE" title="">KLF-Rawhide-CE</a></li>
 </ul>
@@ -167,13 +167,13 @@ img.anime:hover {
 </style>
 
 <style>
-.animate8 { 
+.animate { 
  position: relative; 
  margin: 0 auto;/* устанваливаем блок div по центру страницы*/
  width: 300px; /* Ширина */
  height: auto;  /* Высота */				
 }
-.animate8 img { 
+.animate img { 
  position: absolute; /* абсолютное позиционирование*/
  left: 0; /* выравниваем картинки по левому верхнему углу div-а*/ 
  top: 0; /* выравниваем картинки по левому верхнему углу div-а */  
@@ -182,15 +182,15 @@ img.anime:hover {
  -o-transition: all 1s ease;
  transition: all 1s ease;
 }
-.animate8 img.first {
+.animate img.first {
  opacity: 0;
  filter: alpha(opacity=0);
 }
-.animate8:hover img.first {
+.animate:hover img.first {
  opacity: 1;
  filter: alpha(opacity=100);
 }
- .animate8:hover img.second, .animate8 img.second:hover {
+ .animate:hover img.second, .animate img.second:hover {
  opacity: 0;
  filter: alpha(opacity=0);
  -moz-transform: scale(0, 1);
@@ -219,7 +219,9 @@ img.anime:hover {
 
 <style>
 .pics {
-  border: 2px solid #dce0e7;   
+  border: 2px solid #dce0e7;
+  float: left;	
+  margin-right: 40px;	
   -webkit-box-shadow: 5px 5px 5px #111;
           box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);  
 }	
