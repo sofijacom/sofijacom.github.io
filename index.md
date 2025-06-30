@@ -65,7 +65,7 @@ actions:
 </figure>
 <br><br><br><br><br><br><br>
 <ul>
-  <li><a href="https://github.com/sofijacom/KLF-Rawhide-CE" style="float: right;" title="">KLF-Rawhide-CE</a></li>
+  <li><a href="https://github.com/sofijacom/KLF-Rawhide-CE" style="float: left;" title="">KLF-Rawhide-CE</a></li>
 </ul>
 
  
