@@ -57,17 +57,18 @@ actions:
 
 
 <h5>KLF-Rawhide-CE.</h5>
-<figure style="width: 300px; margin-right: 40px;" class="align-left">
+<figure style="width: 300px; margin-right: 40px;" class="align-center">
   <div class="animate">	  
     <img class="first" src="/assets/img/F.png" alt="klf" />   
     <img class="second" src="/assets/img/Fedora.png" alt="klf" />    
   </div>
 </figure>
 <br><br><br><br><br><br><br>
+<p align="center">
 <ul>
-  <p align="center"><li><a href="https://github.com/sofijacom/KLF-Rawhide-CE" title="">KLF-Rawhide-CE</a></li></p>
+  <li><a href="https://github.com/sofijacom/KLF-Rawhide-CE" title="">KLF-Rawhide-CE</a></li> 
 </ul>
-
+</p>
  
 <h3>Assemblies from <span style="color:#ff0000;font-style:italic;font-weight:700;font-size:16px">@Josejp2424</span></h3>
 <h5>KLA-Manjaro.</h5>
@@ -126,7 +127,7 @@ img.anime:hover {
 }
 
 .easy-zoom-effect:hover {
-  transform: scale(1.25);	
+  transform: scale(1.20);	
 }	
 </style>
 
