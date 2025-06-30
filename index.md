@@ -64,7 +64,7 @@ actions:
   </div>
 </figure>	
 <br><br><br><br><br><br><br>
-<ul>
+<ul class="links">
   <li><a href="https://github.com/sofijacom/KLF-Rawhide-CE" title="">KLF-Rawhide-CE</a></li> 
 </ul>
 
@@ -95,6 +95,12 @@ actions:
 
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=sofijacom&label=Profile%20views&color=blueviolet&size=24&style=flat" alt="sofijacom" /> </p>
 
+<style>
+.links {	
+  float: left;
+  margin-left: 150px;
+}	
+</style>
 
 <style>
 .morph {
