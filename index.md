@@ -106,13 +106,13 @@ actions:
 </style>
 
 <style>
-.anime {
+img.anime {
   transition: all 0.5s ease;
  /* image-rendering: pixelated; */ /* Image sharpness */	
 }
 
-.anime:hover {
-  transform: rotate(360deg) scale(1.25);	
+img.anime:hover {
+  transform: rotate(360deg) scale(1.20);	
 }	
 </style>
 
