@@ -101,7 +101,7 @@ actions:
 
 .morph:hover {
   border-radius: 50%;
-  transform: rotate(360deg); /* transform: rotate (360deg) scale (1.25); */	
+  transform: rotate(360deg); /* transform: rotate(360deg) scale(1.25); */	
 }	
 </style>
 
@@ -112,7 +112,7 @@ actions:
 }
 
 .anime:hover {
-  transform: rotate (360deg) scale (1.25);	
+  transform: rotate(360deg) scale(1.25);	
 }	
 </style>
 
