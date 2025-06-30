@@ -59,8 +59,11 @@ actions:
 <h5>KLF-Rawhide-CE.</h5>
 <figure style="width: 300px; margin-right: 40px;" class="align-left">
   <div class="animate2 pics">
+	  
     <img class="first" src="/assets/img/F.png" alt="klf" />
+    
     <img class="second" src="/assets/img/Fedora.png" alt="klf" />
+    
 </div>
 </figure>
 <br><br><br><br><br><br>
@@ -167,6 +170,14 @@ img.anime:hover {
 </style>
 
 <style>
+.animate2:hover img.second, .animate2 img.second:hover {
+  opacity:0;
+  filter:alpha (opacity=0);
+  -moz-transition: all 2s ease;
+  -webkit-transition: all 2s ease;
+  -o-transition: all 2s ease;
+  transition: all 2s ease;
+}	
 .animate2:hover img.second, .animate2 img.second:hover {
   opacity:0;
   filter:alpha (opacity=0);
