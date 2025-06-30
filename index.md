@@ -170,6 +170,19 @@ img.anime:hover {
 </style>
 
 <style>
+.animate2{
+  position:relative;
+  margin:0 auto;/* устанваливаем блок div по центру страницы*/
+  width:300px; /* Ширина */
+  height: auto;  /* Высота */                
+}
+
+.animate2 img {
+  position:absolute; /* абсолютное позиционирование*/
+  left: 0; /* выравниваем картинки по левому верхнему углу div-а*/
+  top: 0; /* выравниваем картинки по левому верхнему углу div-а */  
+}
+	
 .animate2:hover img.second, .animate2 img.second:hover {
   opacity:0;
   filter:alpha (opacity=0);
@@ -177,7 +190,8 @@ img.anime:hover {
   -webkit-transition: all 2s ease;
   -o-transition: all 2s ease;
   transition: all 2s ease;
-}	
+}
+	
 .animate2:hover img.second, .animate2 img.second:hover {
   opacity:0;
   filter:alpha (opacity=0);
