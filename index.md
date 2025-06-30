@@ -66,7 +66,7 @@ actions:
 <br><br><br><br><br><br>
 <ul class="links">
   <li><a href="https://github.com/sofijacom/KLF-Rawhide-CE" title="">KLF-Rawhide-CE</a></li> 
-</ul><br><br>
+</ul><br>
 
  
 <h3>Assemblies from <span style="color:#ff0000;font-style:italic;font-weight:700;font-size:16px">@Josejp2424</span></h3>
