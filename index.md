@@ -220,8 +220,7 @@ img.anime:hover {
 <style>
 .pics {
   border: 2px solid #dce0e7;
-  float: left;	
-  margin-right: 40px;	
+	
   -webkit-box-shadow: 5px 5px 5px #111;
           box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);  
 }	
