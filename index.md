@@ -107,7 +107,7 @@ actions:
 
 <style>
 img.anime {
-  transition: all 0.5s ease;
+  transition: all 1s ease;
  /* image-rendering: pixelated; */ /* Image sharpness */	
 }
 
