@@ -16,7 +16,7 @@ actions:
 <hr>
 
 <h3>Forums</h3>
-<img src="/assets/web/forums.jpeg" class="morph pic" alt="forum" style="float: right; margin-right: 270px; width: 300px;">
+<img src="/assets/web/forums.jpeg" class="morph pic" alt="forum" style="float: right; margin-right: 270px; width: 300px;" />
 <ul class="podcast-links">
   <li><a href="https://forum.puppylinux.com/viewforum.php?f=228" title="">Main forum</a></li>
   <li><a href="https://oldforum.puppylinux.com/index.php" title="">Murga forum(old forum)</a></li>	
@@ -32,7 +32,7 @@ actions:
 <h3>Assemblies from <span style="color:#ff0000;font-style:italic;font-weight:700;font-size:16px">@Sofiya</span></h3>
 <h5>KLA 64 bit.</h5>
 <figure style="width: 300px; margin-right: 40px;" class="align-left">
-  <img src="/assets/img/KLA.jpg" class="easy-zoom-effect pics" alt="kla">	
+  <img src="/assets/img/KLA.jpg" class="easy-zoom-effect pics" alt="kla" />	
 </figure>
 <br><br><br>
 <ul>
@@ -44,7 +44,7 @@ actions:
 
 
 <h5>KLV 64 bit.</h5>
-<img src="/assets/img/KLV.png" class="anime pics" alt="klv" style="float: left; margin-right: 40px; width: 300px;">
+<img src="/assets/img/KLV.png" class="anime pics" alt="klv" style="float: left; margin-right: 40px; width: 300px;" />
 <ul>
   <li><a href="https://github.com/sofijacom/KLV-Spectrwm-CE" title="">KLV-Spectrwm-CE</a></li>
   <li><a href="https://github.com/sofijacom/KLV-BspwmCE" title="">KLV-BspwmCE</a></li>
@@ -59,8 +59,8 @@ actions:
 <h5>KLF-Rawhide-CE.</h5>
 <figure style="width: 300px; margin-right: 40px;" class="align-left">
   <div class="animate">	  
-    <img class="first" src="/assets/img/F.png" alt="klf">   
-    <img class="second" src="/assets/img/Fedora.png" alt="klf" style="float: left;">    
+    <img class="first" src="/assets/img/F.png" alt="klf" />   
+    <img class="second" src="/assets/img/Fedora.png" alt="klf" />    
   </div>
 </figure>	
 <br><br><br><br><br><br><br>
