@@ -58,14 +58,14 @@ actions:
 
 <h5>KLF-Rawhide-CE.</h5>
 <figure style="width: 300px; margin-right: 40px;" class="align-left">
-  <div class="animate pics">	  
+  <div class="animate">	  
     <img class="first" src="/assets/img/F.png" alt="klf" />   
     <img class="second" src="/assets/img/Fedora.png" alt="klf" />    
   </div>
 </figure>
 <br><br><br><br><br><br><br>
 <ul>
-  <li><a href="https://github.com/sofijacom/KLF-Rawhide-CE" title="">KLF-Rawhide-CE</a></li>
+  <li><a href="https://github.com/sofijacom/KLF-Rawhide-CE" style="float: right;" title="">KLF-Rawhide-CE</a></li>
 </ul>
 
  
