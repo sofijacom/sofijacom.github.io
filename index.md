@@ -31,7 +31,7 @@ actions:
 <h3>Assemblies from <span style="color:#ff0000;font-style:italic;font-weight:700;font-size:16px">@Sofiya</span></h3>
 <h5>KLA 64 bit.</h5>
 <figure style="width: 300px; margin-right: 40px;" class="align-left">
-  <img src="/assets/img/KLA.jpg" class="easy-zoom-effect pics" alt="kla" />	
+  <img src="/assets/img/KLA.webp" class="easy-zoom-effect pics" alt="kla" />	
 </figure>
 <br><br><br>
 <ul>
@@ -43,7 +43,7 @@ actions:
 
 
 <h5>KLV 64 bit.</h5>
-<img src="/assets/img/KLV.png" class="anime pics" alt="klv" style="float: left; margin-right: 40px; width: 300px;" />
+<img src="/assets/img/KLV.webp" class="anime pics" alt="klv" style="float: left; margin-right: 40px; width: 300px;" />
 <ul>
   <li><a href="https://github.com/sofijacom/KLV-Spectrwm-CE" title="">KLV-Spectrwm-CE</a></li>
   <li><a href="https://github.com/sofijacom/KLV-BspwmCE" title="">KLV-BspwmCE</a></li>
@@ -58,8 +58,8 @@ actions:
 <h5>KLF-Rawhide-CE.</h5>
 <figure style="width: 300px; margin-right: 40px;" class="align-left">
   <div class="animate">	  
-    <img class="first" src="/assets/img/F.png" alt="klf" />   
-    <img class="second" src="/assets/img/Fedora.png" alt="klf" />    
+    <img class="first" src="/assets/img/F.webp" alt="klf" />   
+    <img class="second" src="/assets/img/Fedora.webp" alt="klf" />    
   </div>
 </figure>	
 <br><br><br><br><br><br>
@@ -71,10 +71,10 @@ actions:
 <h3>Assemblies from <span style="color:#ff0000;font-style:italic;font-weight:700;font-size:16px">@Josejp2424</span></h3>
 <h5>KLA-Manjaro.</h5>
  <figure style="width: 300px; margin-right: 40px;" class="align-left">
-  <div class="focus pic"><img src="/assets/img/manjaro-mate.png" alt="manjaro mate"></div>
+  <div class="focus pic"><img src="/assets/img/manjaro-mate.webp" alt="manjaro mate"></div>
  </figure>	
 <figure style="width: 300px; margin-right: 90px;" class="align-right">
-  <div class="scale"><img src="/assets/img/manjaro-2.png" class="scale" alt="manjaro"></div>	
+  <div class="scale"><img src="/assets/img/manjaro-2.webp" class="scale" alt="manjaro"></div>	
 </figure>
 <br><br><br><br>
 <ul>
