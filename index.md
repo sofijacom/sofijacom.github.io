@@ -66,7 +66,7 @@ actions:
 <br><br><br><br><br><br>
 <ul class="links">
   <li><a href="https://github.com/sofijacom/KLF-Rawhide-CE" title="">KLF-Rawhide-CE</a></li> 
-</ul>
+</ul><br><br>
 
  
 <h3>Assemblies from <span style="color:#ff0000;font-style:italic;font-weight:700;font-size:16px">@Josejp2424</span></h3>
@@ -95,12 +95,6 @@ actions:
 
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=sofijacom&label=Profile%20views&color=blueviolet&size=24&style=flat" alt="sofijacom" /> </p>
 
-<style>
-.links {	
-  float: left;
-  margin-left: 150px;
-}	
-</style>
 
 <style>
 .morph {
@@ -231,3 +225,11 @@ img.anime:hover {
           box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);  
 }	
 </style>
+
+<style>
+.links {
+    float: left;
+    margin-left: 310px;
+}	
+</style>
+
