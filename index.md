@@ -58,7 +58,7 @@ actions:
 
 <h5>KLF-Rawhide-CE.</h5>
 <figure style="width: 300px; margin-right: 40px;" class="align-left">
-  <div class="animate2 pics">	  
+  <div class="animate2">	  
     <img class="first" src="/assets/img/F.png" alt="klf" />   
     <img class="second" src="/assets/img/Fedora.png" alt="klf" />    
 </div>
@@ -168,21 +168,21 @@ img.anime:hover {
 
 <style>
 .animate2 {
-  position:relative;
-  margin:0 auto;/* устанваливаем блок div по центру страницы*/
-  width:300px; /* Ширина */
+  position: relative;
+  margin: 0 auto;/* устанваливаем блок div по центру страницы*/
+  width: 300px; /* Ширина */
   height: auto;  /* Высота */                
 }
 
 .animate2 img {
-  position:absolute; /* абсолютное позиционирование*/
+  position: absolute; /* абсолютное позиционирование*/
   left: 0; /* выравниваем картинки по левому верхнему углу div-а*/
   top: 0; /* выравниваем картинки по левому верхнему углу div-а */  
 }
 	
 /*.animate2:hover img.second, .animate2 img.second:hover {
-  opacity:0;
-  filter:alpha (opacity=0);
+  opacity: 0;
+  filter: alpha (opacity=0);
   -moz-transition: all 2s ease;
   -webkit-transition: all 2s ease;
   -o-transition: all 2s ease;
@@ -190,13 +190,13 @@ img.anime:hover {
 } */
 	
 .animate2:hover img.second, .animate2 img.second:hover {
-  opacity:0;
-  filter:alpha (opacity=0);
-  -moz-transform:scale (0, 1);
-  -webkit-transform:scale (0, 1);
-  -o-transform:scale (0, 1);
-  -ms-transform:scale (0, 1);
-  transform:scale (0, 1); /* уменьшаем ширину картинки до 0 */
+  opacity: 0;
+  filter: alpha (opacity=0);
+  -moz-transform: scale (0, 1);
+  -webkit-transform: scale (0, 1);
+  -o-transform: scale (0, 1);
+  -ms-transform: scale (0, 1);
+  transform: scale (0, 1); /* уменьшаем ширину картинки до 0 */
 }	
 </style>
 	
