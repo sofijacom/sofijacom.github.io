@@ -267,6 +267,24 @@ p {
   "colors/dark-typography";
 ```
 
+```yaml
+version: '3.8'
+services:
+  artalk:
+    container_name: artalk
+    image: artalk/artalk-go
+    restart: unless-stopped
+    ports:
+      - 8080:23366
+    volumes:
+      - ./data:/data
+    environment:
+      - TZ=America/New_York
+      - ATK_LOCALE=en
+      - ATK_SITE_DEFAULT=Artalk Blog
+      - ATK_SITE_URL=https://your_domain
+```
+
 ## Pygments.
 highlighter: pygments
 
