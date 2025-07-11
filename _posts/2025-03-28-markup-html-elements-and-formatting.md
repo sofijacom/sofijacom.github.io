@@ -225,12 +225,14 @@ This element styles large blocks of code.
 
 ### Common
 
+0.text
 ```text
 This is a common code snippet, without syntax highlight.
 ```
 
 ### Specific Language
 
+1.js
 ```js
 function testInput(re, str) {
   const midString = re.test(str) ? "contains" : "does not contain";
@@ -238,6 +240,7 @@ function testInput(re, str) {
 }
 ```
 
+2.bash
 ```bash
 if [ $? -ne 0 ]; then
   echo "The command was not successful.";
@@ -245,8 +248,7 @@ if [ $? -ne 0 ]; then
 fi;
 ```
 
-### css Language
-
+3.css
 ```css
 h3 { 
   font-family: Tahoma;
@@ -267,6 +269,7 @@ p {
   "colors/dark-typography";
 ```
 
+4.yaml
 ```yaml
 version: '3.8'
 services:
