@@ -135,6 +135,37 @@ layout: default
     initiallyVisible: false
   });
 </script>
+
+<!-- Site Stat by GoatCounter -->
+<script data-goatcounter="https://sofiya.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<script>
+    var t = setInterval(function() {
+        if (window.goatcounter && window.goatcounter.visit_count) {
+            clearInterval(t)
+            var today = new Date();
+            var yesterday = new Date(today)
+            yesterday.setDate(yesterday.getDate() - 1)
+            var today_cnt = new XMLHttpRequest();
+            today_cnt.addEventListener('load', function() {
+                document.querySelector('#gc_today').innerText = JSON.parse(this.responseText).count.replace(/\s/g, "");
+            })
+            today_cnt.open('GET', 'https://sofiya.goatcounter.com/counter/TOTAL.json?start=' + today.toISOString().slice(0, 10))
+            today_cnt.send()
+            var yesterday_cnt = new XMLHttpRequest();
+            yesterday_cnt.addEventListener('load', function() {
+                document.querySelector('#gc_yesterday').innerText = JSON.parse(this.responseText).count.replace(/\s/g, "");
+            })
+            yesterday_cnt.open('GET', 'https://sofiya.goatcounter.com/counter/TOTAL.json?start=' + yesterday.toISOString().slice(0, 10) + '&end=' + today.toISOString().slice(0, 10))
+            yesterday_cnt.send()
+            var total_cnt = new XMLHttpRequest();
+            total_cnt.addEventListener('load', function() {
+                document.querySelector('#gc_total').innerText = JSON.parse(this.responseText).count.replace(/\s/g, "");
+            })
+            total_cnt.open('GET', 'https://sofiya.goatcounter.com/counter/TOTAL.json')
+            total_cnt.send()
+        }
+    })
+
 	 
    </body>
 </html>
