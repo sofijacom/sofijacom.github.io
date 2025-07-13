@@ -36,21 +36,6 @@ layout: default
      <script>
     clock33();
   </script>
-
-<style>
-  goatcounter.visit_count({append: '#stats', style: `
-    div { border-color: #fff; background-color: #222; color: #fff; }
-`})
-	
-</style>
-	 
-<script>
-    // Append to the <body>; can use a CSS selector to append somewhere else.
-    window.goatcounter.visit_count({append: 'body'})
-</script>
-<script data-goatcounter="https://MYCODE.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
-
 	 
 {% include page-intro.html %}
 
@@ -99,7 +84,22 @@ layout: default
     {% endif %}
        {% if page.comments != false %}
 	 {% include  giscus.html %}
-   {% endif %}	      
+   {% endif %}
+
+<style>
+  goatcounter.visit_count({append: '#stats', style: `
+    div { border-color: #fff; background-color: #222; color: #fff; }
+`})
+	
+</style>
+	 
+<script>
+    // Append to the <body>; can use a CSS selector to append somewhere else.
+    window.goatcounter.visit_count({append: 'body'})
+</script>
+<script data-goatcounter="https://MYCODE.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+	      
       </div>    
   </div> 	
 </main>
