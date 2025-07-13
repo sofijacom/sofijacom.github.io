@@ -97,18 +97,7 @@ actions:
 <iframe src="https://sofiya.goatcounter.com?hideui=1"></iframe>
 <div><p align="center"> Number of visitors: </p><div id="stats"></div></div> -->
 
-<div>
-
-<script>
-    // Append to the <body>; can use a CSS selector to append somewhere else.
-    window.goatcounter.visit_count({append: 'body'})
-</script>
-<script data-goatcounter="https://sofiya.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
-
-</div>
-
-
+{% include  goatcounter.html %}
 
 <style>
 .morph {
