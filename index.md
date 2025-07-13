@@ -94,9 +94,17 @@ actions:
 
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=sofijacom&label=Profile%20views&color=blueviolet&size=24&style=flat" alt="sofijacom" /> </p>
 
-
+<!--
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 <span id="busuanzi_container_site_pv">Total visits to this site: <span id="busuanzi_value_site_pv"></span></span>
+-->
+<script defer src="https://busuanzi.9420.ltd/js"></script>
+
+Total page views: <span id="busuanzi_page_pv"></span> times
+Total visitors: <span id="busuanzi_page_uv"></span> people
+Total site views: <span id="busuanzi_site_pv"></span> times
+Total site visitors: <span id="busuanzi_site_uv"></span> people
+
 
 <style>
 .morph {
