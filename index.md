@@ -95,8 +95,6 @@ actions:
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=sofijacom&label=Profile%20views&color=blueviolet&size=24&style=flat" alt="sofijacom" /> </p>
 
 
-<h3>IP: {{ ip }}</h3>
-
 <style>
 .morph {
   transition: all 0.5s ease; /* transform 1s ease */
