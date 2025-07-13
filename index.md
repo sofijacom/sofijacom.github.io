@@ -95,9 +95,6 @@ actions:
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=sofijacom&label=Profile%20views&color=blueviolet&size=24&style=flat" alt="sofijacom" /> </p>
 
 
-<script data-goatcounter="https://sofiya.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
-
 <style>
 .morph {
   transition: all 0.5s ease; /* transform 1s ease */
