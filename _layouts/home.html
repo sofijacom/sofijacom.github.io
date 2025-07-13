@@ -36,7 +36,15 @@ layout: default
      <script>
     clock33();
   </script>
-	 	 
+
+<script>
+    // Append to the <body>; can use a CSS selector to append somewhere else.
+    window.goatcounter.visit_count({append: 'body'})
+</script>
+<script data-goatcounter="https://MYCODE.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+
+	 
 {% include page-intro.html %}
 
 <p align="center">
@@ -135,13 +143,6 @@ layout: default
     initiallyVisible: false
   });
 </script>
-
-<script>
-    // Append to the <body>; can use a CSS selector to append somewhere else.
-    window.goatcounter.visit_count({append: 'site-footer'})
-</script>
-<script data-goatcounter="https://sofiya.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
-	 
+ 
    </body>
 </html>
