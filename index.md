@@ -93,11 +93,10 @@ actions:
 </p>
 
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=sofijacom&label=Profile%20views&color=blueviolet&size=24&style=flat" alt="sofijacom" /> </p>
-<!--
-<iframe src="https://sofiya.goatcounter.com?hideui=1"></iframe>
-<div><p align="center"> Number of visitors: </p><div id="stats"></div></div> -->
 
+<!--
 {% include  goatcounter.html %}
+-->
 
 <style>
 .morph {
