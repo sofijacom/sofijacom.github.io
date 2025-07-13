@@ -15,7 +15,7 @@ def count_ip(request, ip):
         else:
             _ip['count'] += 1
             if _ip['count'] >= MAX_REQ:
-                return render(request, 'index.html', status=429)
+                return render(request, 'index.md', status=429)
             return IP_LIST
     else:
         now = time.time()
@@ -38,6 +38,6 @@ def get_client_ip(req):
 def index(request):
     ip = get_client_ip(request)
     IP_LIST = count_ip(request, ip)
-    return render(request, 'index.html', context={
+    return render(request, 'index.md', context={
         'ip': IP_LIST,
     })
