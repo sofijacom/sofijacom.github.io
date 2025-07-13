@@ -136,19 +136,25 @@ layout: default
   });
 </script>
 
-<style>
-  goatcounter.visit_count({append: '#stats', style: `
-    div { border-color: #fff; background-color: #222; color: #fff; }
-`})
-	
-</style>
-	 
+<div>Number of visitors: <div id="stats"></div></div>
+
 <script>
-    // Append to the <body>; can use a CSS selector to append somewhere else.
-    window.goatcounter.visit_count({append: 'body'})
+    let r = new XMLHttpRequest();
+    r.addEventListener('load', function() {
+        document.querySelector('#stats').innerText = JSON.parse(this.responseText).count
+    })
+
+    // Should be exact (encoded) path as it appears in the UI. This uses
+    // GoatCounter's count.js
+    let path = window.goatcounter.get_data()['p']
+
+    // Or alternatively, do it manually. Will return HTTP status 404 if the
+    // path is not found).
+    //let path = location.pathname
+
+    r.open('GET', 'https://sofiya.goatcounter.com/counter/' + encodeURIComponent(path) + '.json')
+    r.send()
 </script>
-<script data-goatcounter="https://MYCODE.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
 	 
    </body>
 </html>
