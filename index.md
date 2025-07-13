@@ -96,7 +96,7 @@ actions:
 <!--
 <iframe src="https://sofiya.goatcounter.com?hideui=1"></iframe>
 <div><p align="center"> Number of visitors: </p><div id="stats"></div></div> -->
-
+{% include  goatcounter.html %}
 
 <style>
 .morph {
