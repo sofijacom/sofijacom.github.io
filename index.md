@@ -97,25 +97,14 @@ actions:
 <iframe src="https://sofiya.goatcounter.com?hideui=1"></iframe>
 <div><p align="center"> Number of visitors: </p><div id="stats"></div></div> -->
 
-<div> Number of visitors: <div id="stats"></div>
+<div>
 
 <script>
-    let r = new XMLHttpRequest();
-    r.addEventListener('load', function() {
-        document.querySelector('#stats').innerText = JSON.parse(this.responseText).count
-    })
-
-    // Should be exact (encoded) path as it appears in the UI. This uses
-    // GoatCounter's count.js
-    let path = window.goatcounter.get_data()['p']
-
-    // Or alternatively, do it manually. Will return HTTP status 404 if the
-    // path is not found).
-    //let path = location.pathname
-
-    r.open('GET', 'https://sofiya.goatcounter.com/counter/' + encodeURIComponent(path) + '.json')
-    r.send()
+    // Append to the <body>; can use a CSS selector to append somewhere else.
+    window.goatcounter.visit_count({append: 'body'})
 </script>
+<script data-goatcounter="https://sofiya.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
 
 </div>
 
