@@ -105,6 +105,7 @@ actions:
         }
     }, 100)
 </script>
+
 <script data-goatcounter="https://sofiya.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
 
