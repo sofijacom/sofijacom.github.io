@@ -94,9 +94,8 @@ actions:
 
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=sofijacom&label=Profile%20views&color=blueviolet&size=24&style=flat" alt="sofijacom" /> </p>
 
-<p align="center">
-  <div>Number of visitors: <div id="stats"></div></div>
-</p>
+
+<div><p align="center"> Number of visitors: </p><div id="stats"></div></div>
 
 <script>
     let r = new XMLHttpRequest();
