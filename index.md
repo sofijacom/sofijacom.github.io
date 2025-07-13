@@ -100,6 +100,7 @@ actions:
     // Append to the <body>; can use a CSS selector to append somewhere else.
     window.goatcounter.visit_count({append: 'body'})
 </script>
+
 <script data-goatcounter="https://sofiya.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
 
