@@ -98,11 +98,16 @@ actions:
 <div><p align="center"> Number of visitors: </p><div id="stats"></div></div> -->
 
 <script>
-    // Append to the <body>; can use a CSS selector to append somewhere else.
-    window.goatcounter.visit_count({append: 'body'})
+    var t = setInterval(function() {
+        if (window.goatcounter && window.goatcounter.visit_count) {
+            clearInterval(t)
+            window.goatcounter.visit_count({append: 'body'})
+        }
+    }, 100)
 </script>
 <script data-goatcounter="https://sofiya.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
+
 
 
 <style>
