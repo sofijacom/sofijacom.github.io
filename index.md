@@ -103,12 +103,9 @@ default: Default mode, displays the full data.
 
 <script defer data-style="short" src="https://busuanzi.9420.ltd/js"></script>
 
-<h3 class="page__comments-title">
-Total page views: <span id="busuanzi_page_pv"></span> times •
-Total visitors: <span id="busuanzi_page_uv"></span> people •
-Total site views: <span id="busuanzi_site_pv"></span> times •
-Total site visitors: <span id="busuanzi_site_uv"></span> people
-<h3 class="page__comments-title"></h3>	
+<h3 class="page__comments-title" align="center">
+Total page views: <span id="busuanzi_page_pv"></span> times • Total visitors: <span id="busuanzi_page_uv"></span> people • Total site views: <span id="busuanzi_site_pv"></span> times • Total site visitors: <span id="busuanzi_site_uv"></span> people
+<h3 class="page__comments-title"></h3>
 </h3>
 
 
