@@ -94,7 +94,9 @@ actions:
 
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=sofijacom&label=Profile%20views&color=blueviolet&size=24&style=flat" alt="sofijacom" /> </p>
 
-<div>Number of visitors: <div id="stats" align="center"></div></div>
+<p align="center">
+  <div>Number of visitors: <div id="stats"></div></div>
+</p>
 
 <script>
     let r = new XMLHttpRequest();
@@ -110,7 +112,7 @@ actions:
     // path is not found).
     //let path = location.pathname
 
-    r.open('GET', 'https://MYCODE.goatcounter.com/counter/' + encodeURIComponent(path) + '.json')
+    r.open('GET', 'https://sofiya.goatcounter.com/' + encodeURIComponent(path) + '.json')
     r.send()
 </script>
 
