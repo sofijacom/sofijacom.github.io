@@ -18,6 +18,8 @@ group :jekyll_plugins do
   gem 'jekyll_pre'
 end
 
+gem 'jekyll-metrics'
+
 gem 'jekyll-feed'
 
 gem 'jekyll-target-blank'
