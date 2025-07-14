@@ -120,8 +120,8 @@ google_analytics: G-Y3XDRGQR98
 
 jekyll_metrics:
 #  template: _includes/metrics.html.liquid
-  yandex_metrica_id: 11111111,
-  google_analytics_id: 22-222222222-2
+  yandex_metrica_id: 103331334,
+#  google_analytics_id: G-Y3XDRGQR98
 
 # jekyll-multiple-languages-plugin settings:
 # languages: ["en", "ru"]
