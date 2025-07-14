@@ -100,7 +100,6 @@ short: Displays in short form, e.g. 1024 will be shown as 1k.
 comma: Separates data with commas, e.g. 1024 will be shown as 1,024.
 default: Default mode, displays the full data.
 -->
-{% include  goatcounter.html %}
 
 <script defer data-style="short" src="https://busuanzi.9420.ltd/js"></script>
 
