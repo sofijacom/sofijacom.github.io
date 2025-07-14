@@ -74,6 +74,7 @@ plugins: # previsously gems
   - jekyll-paginate
   - jekyll-remote-theme
   - jekyll-archives
+  - jekyll-metrics
   - jekyll-gzip
   - jekyll-target-blank
   - jekyll-email-protect
@@ -116,6 +117,10 @@ paginate: 5  # amount of posts to show per page
 paginate_path: /page:num/
 
 google_analytics: G-Y3XDRGQR98
+
+jekyll_metrics:
+  yandex_metrica_id: 11111111,
+  google_analytics_id: 22-222222222-2
 
 # jekyll-multiple-languages-plugin settings:
 # languages: ["en", "ru"]
