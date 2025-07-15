@@ -9,7 +9,8 @@
     https://github.com/mmistakes/jekyll-theme-basically-basic/blob/master/LICENSE •
 -->		
 <html lang="{{ page.lang | default: site.lang | default: 'en-US' }}" class="no-js">
-  {% include head.html %}	
+  {% include head.html %}
+  {% include yandex-analytics.html %}	
 
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %} {{ page.title | slugify }}">
 	  
