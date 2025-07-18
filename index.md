@@ -96,6 +96,7 @@ actions:
 <p align="center">
 	<a href="https://github.com/sofijacom/sofijacom.github.io/blob/master/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=MIT&logoColor=d9e0ee&colorA=363a4f&colorB=b7bdf8" alt=""/></a>
 </p>
+
 <!--
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=sofijacom&label=Profile%20views&color=blueviolet&size=24&style=flat" alt="sofijacom" /> </p>
 -->
