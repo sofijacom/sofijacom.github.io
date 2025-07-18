@@ -30,7 +30,7 @@ actions:
 
 
 > <h3>Assemblies from <span style="color:#ff0000;font-style:italic;font-weight:700;font-size:16px">@Sofiya</span></h3>
-{: .prompt-tip }
+{: .prompt-info }
 
 <h5>KLA 64 bit.</h5>
 <figure style="width: 300px; margin-right: 40px;" class="align-left">
