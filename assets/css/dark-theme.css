@@ -621,7 +621,7 @@ blockquote, q {
 blockquote {
   font-style: italic !important;
  /* border-left: 4px solid !important; */
-  margin: 20px !important;
+ /* margin: 20px !important; */
   padding: 10px !important;
   box-shadow: 2px 2px 5px rgba(0,0,0,0.1) !important;
   font-family: 'Georgia', serif !important;
