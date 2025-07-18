@@ -633,7 +633,7 @@ blockquote.prompt-tip::before {
     font: normal 400 1em/1 "Font Awesome 6 Free";
 }
 blockquote.prompt-tip {
-    background-color: #7bf79033;
+    background-color: #7bf79026;
     border: 1px solid #0fa40f;
 }
 blockquote.prompt-tip {
@@ -646,7 +646,7 @@ blockquote.prompt-info::before {
     transform: rotate(180deg);
 }
 blockquote.prompt-info {
-    background-color: #073b68cc;
+    background-color: #073b6842;
     border: 1px solid #0c8bbd;
 }
 blockquote.prompt-info {
@@ -658,7 +658,7 @@ blockquote.prompt-warning::before {
     font: normal 900 1em/1 "Font Awesome 6 Free";
 }
 blockquote.prompt-warning {
-    background-color: #765b03;
+    background-color: #765b0345;
     border: 1px solid #c3bd2b;  
 }
 blockquote.prompt-warning {
@@ -670,7 +670,7 @@ blockquote.prompt-danger::before {
     font: normal 900 1em/1 "Font Awesome 6 Free";
 }
 blockquote.prompt-danger {
-    background-color: #c915258f;
+    background-color: #c9152530;
     border: 1px solid #eb1212;  
 }
 blockquote.prompt-danger {
@@ -682,7 +682,7 @@ blockquote.prompt-important::before {
     font: normal 900 1em/1 "Font Awesome 6 Free";
 }
 blockquote.prompt-important {
-    background-color: #4d2e6c;
+    background-color: #4d2e6c42;
     border: 1px solid #a74fff;
 }
 blockquote.prompt-important {
