@@ -83,21 +83,18 @@ plugins: # previsously gems
  # - jekyll-multiple-languages-plugin
  # - jekyll-brotli
 
-whitelist:
-  - jekyll-sitemap
+#whitelist:
+#  - jekyll-sitemap
 
 # Jekyll Feed 
-#feed:
-#  path: atom.xml
+feed:
+  path: atom.xml
 
 feed: # When in config.yml is true then all posts in feed will be without <content>
   excerpt_only: true 
 
 #feed:
 # path: /blog/feed.atom
-
-feed:
- path: /feed.xslt.xml
 
 #feed:
 #  categories:
