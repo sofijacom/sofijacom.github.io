@@ -291,6 +291,8 @@ services:
 ## Pygments.
 highlighter: pygments
 
+- [Pygments](https://sofijacom.github.io/assets/css/pygments-themes/)
+
 {% highlight ruby %}
 /**
  * Does a thing
