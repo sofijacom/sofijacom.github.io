@@ -115,7 +115,7 @@ Total page views :: <span id="busuanzi_page_pv" style="color: #d20f39"></span> t
 
 <style>
 .morph {
-  transition: all 0.5s ease; /* transform 1s ease */
+  transition: all 1s ease; /* transform 1s ease */
  /* image-rendering: pixelated; */ /* Image sharpness */	
 }
 
