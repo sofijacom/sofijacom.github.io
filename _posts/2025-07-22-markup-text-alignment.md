@@ -3,9 +3,6 @@ title: "Markup: Text Alignment and Transformations"
 categories:
   - Markup
 tags:
-  - alignment
-  - content
-  - css
   - markup
 last_modified_at: 2025-07-22T22:49:03-03:00
 ---
