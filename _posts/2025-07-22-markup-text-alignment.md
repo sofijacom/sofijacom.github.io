@@ -1,5 +1,6 @@
 ---
 title: "Markup: Text Alignment and Transformations"
+comments: true
 categories:
   - Markup
 tags:
