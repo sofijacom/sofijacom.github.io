@@ -2,7 +2,7 @@
 layout: home
 comments: true
 paginate: false
-image: /assets/images/fon-1.webp
+image: /assets/images/fon-2.webp
 actions:
   - label: "Get Started"
     icon: github
