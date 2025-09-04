@@ -106,7 +106,7 @@ default: Default mode, displays the full data.
 -->
 
 <!--<script defer src="https://busuanzi.9420.ltd/js"></script>-->
-<script defer data-style="default" src="/assets/js/site.js"></script>  <!--short,comma,default-->
+<script defer data-style="default" src="/assets/js/site.js"></script>  <!--short,comma,default, https://github.com/soxft/busuanzi/wiki/usage-->
 <!-- https://github.com/soxft/busuanzi -->
 <h4 class="page__comments-title" align="center">
 Total page views :: <span id="busuanzi_page_pv" style="color: #d20f39"></span> times • Total visitors :: <span id="busuanzi_page_uv" style="color: #40a02b"></span> people • Total site views :: <span id="busuanzi_site_pv" style="color: #04b"></span> times • Total site visitors :: <span id="busuanzi_site_uv" style="color: #FF9800"></span> people
