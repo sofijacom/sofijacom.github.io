@@ -98,14 +98,14 @@ actions:
 <!--
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=sofijacom&label=Profile%20views&color=blueviolet&size=24&style=flat" alt="sofijacom" /> </p>
 -->
+
 <!--
 data-style=""
 short: Displays in short form, e.g. 1024 will be shown as 1k.
 comma: Separates data with commas, e.g. 1024 will be shown as 1,024.
 default: Default mode, displays the full data.
 -->
-
-<!--<script defer data-style="default" src="/assets/js/site.js"></script>-->  <!--short,comma,default, https://github.com/soxft/busuanzi/wiki/usage-->
+<!--<script defer data-style="default" src="/assets/js/site.js"></script>-->  <!--https://github.com/soxft/busuanzi/wiki/usage-->
 <!-- https://github.com/soxft/busuanzi -->
 <!--<script defer data-style="short" src="https://busuanzi.9420.ltd/js"></script>-->
 <script defer data-api="https://busuanzi.9420.ltd/api" src="https://busuanzi.9420.ltd/js"></script>
