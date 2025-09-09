@@ -341,16 +341,14 @@ $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
 Example **multi-line math** using the math linebreak (`\\`):
 
 <pre>
-{{< math >}}
 $$f(k;p_{0}^{*}) = \begin{cases}p_{0}^{*} & \text{if }k=1, \\
 1-p_{0}^{*} & \text{if }k=0.\end{cases}$$
-{{< /math >}}
 </pre>
 
-{{< math >}}
+renders as
+
 $$f(k;p_{0}^{*}) = \begin{cases}p_{0}^{*} & \text{if }k=1, \\
 1-p_{0}^{*} & \text{if }k=0.\end{cases}$$
-{{< /math >}}
 
 
 ## Quote element
