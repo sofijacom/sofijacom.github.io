@@ -338,9 +338,19 @@ When $a \ne 0$, there are two solutions to $ax^2 + bx + c = 0$ and they are
 $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
 
 
+Example **multi-line math** using the math linebreak (`\\`):
 
-$$ f(k;p_{0}^{*}) = \begin{cases}p_{0}^{*} & \text{if }k=1, \\
-1-p_{0}^{*} & \text{if }k=0.\end{cases} $$
+<pre>
+{{< math >}}
+$$f(k;p_{0}^{*}) = \begin{cases}p_{0}^{*} & \text{if }k=1, \\
+1-p_{0}^{*} & \text{if }k=0.\end{cases}$$
+{{< /math >}}
+</pre>
+
+{{< math >}}
+$$f(k;p_{0}^{*}) = \begin{cases}p_{0}^{*} & \text{if }k=1, \\
+1-p_{0}^{*} & \text{if }k=0.\end{cases}$$
+{{< /math >}}
 
 
 ## Quote element
