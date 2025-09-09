@@ -338,6 +338,11 @@ When $a \ne 0$, there are two solutions to $ax^2 + bx + c = 0$ and they are
 $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
 
 
+
+$$ f(k;p_{0}^{*}) = \begin{cases}p_{0}^{*} & \text{if }k=1, \\
+1-p_{0}^{*} & \text{if }k=0.\end{cases} $$
+
+
 ## Quote element
 
 <q>Developers, developers, developers&#8230;</q> &#8211;Steve Ballmer
