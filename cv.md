@@ -15,7 +15,7 @@ _I am an IT technology engineer. Ability and desire for constant self-learning. 
 
 <p align="center">
   
-<img src="https://readme-typing-svg.herokuapp.com?font=Roboto+Slab&color=5a5f77&size=24&center=true&vCenter=true&width=450&lines=Thank+you+for+visiting+." alt="thank-you" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Roboto+Slab&color=5a5f77&size=24&center=true&vCenter=true&width=450&duration=5000&lines=Thank+you+for+visiting+." alt="thank-you" />
   
 </p> 
 
