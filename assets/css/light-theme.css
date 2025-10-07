@@ -651,7 +651,7 @@ blockquote.prompt-tip {
 }
 
 blockquote.prompt-info::before {
-    content: "";
+    content: " info";
     color: #0070cb;
     font: normal 900 1em/1 "Font Awesome 6 Free";
     transform: rotate(180deg);
