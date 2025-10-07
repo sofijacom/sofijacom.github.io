@@ -655,7 +655,7 @@ blockquote.prompt-info::before {
     content: " info";
     color: #0070cb;
     font: normal 900 1em/1 "Font Awesome 6 Free";
-   /* transform: rotate(180deg); */
+    transform: rotate(180deg);
     letter-spacing: .050em;
 }
 blockquote.prompt-info {
