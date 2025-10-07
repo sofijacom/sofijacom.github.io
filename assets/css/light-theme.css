@@ -643,6 +643,10 @@ blockquote.prompt-tip::before {
 }
 blockquote.prompt-tip::after {
     content: "TIP";
+    font-size: .95rem;
+    font-weight: 600;
+    letter-spacing: .025em;
+    margin-bottom: .5rem;
     color: #03b303;
 }
 blockquote.prompt-tip {
