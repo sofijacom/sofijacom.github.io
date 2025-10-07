@@ -647,6 +647,7 @@ blockquote.prompt-tip {
 }
 blockquote.prompt-tip {
     border-left: solid 0.25rem #03b303;
+    border-radius: 6px;
 }
 
 blockquote.prompt-info::before {
@@ -661,6 +662,7 @@ blockquote.prompt-info {
 }
 blockquote.prompt-info {
     border-left: solid 0.25rem #0070cb;
+    border-radius: 6px;
 }
 
 blockquote.prompt-warning::before {
@@ -674,6 +676,7 @@ blockquote.prompt-warning {
 }
 blockquote.prompt-warning {
     border-left: solid 0.25rem #ef9c03;
+    border-radius: 6px;
 }
 
 blockquote.prompt-danger::before {
@@ -687,6 +690,7 @@ blockquote.prompt-danger {
 }
 blockquote.prompt-danger {
     border-left: solid 0.25rem #df3c30;
+    border-radius: 6px;
 }
 
 blockquote.prompt-important::before {
@@ -700,4 +704,5 @@ blockquote.prompt-important {
 }
 blockquote.prompt-important {
     border-left: solid 0.25rem #aa55ff;
+    border-radius: 6px;
 }
