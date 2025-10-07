@@ -628,9 +628,10 @@ blockquote {
 }
 
 blockquote.prompt-tip::before {
-    content: "";
+    content: " tip";
     color: #0fa40fcf;
     font: normal 400 1em/1 "Font Awesome 6 Free";
+    letter-spacing: .050em;
 }
 blockquote.prompt-tip {
     background-color: #7bf79026;
@@ -640,11 +641,13 @@ blockquote.prompt-tip {
     border-left: solid 0.25rem #0fa40fcf;
     border-radius: 6px;
 }
+
 blockquote.prompt-info::before {
-    content: "";
+    content: " info";
     color: #0075d1;
     font: normal 900 1em/1 "Font Awesome 6 Free";
     transform: rotate(180deg);
+    letter-spacing: .050em;
 }
 blockquote.prompt-info {
     background-color: #073b6842;
@@ -654,10 +657,12 @@ blockquote.prompt-info {
     border-left: solid 0.25rem #0075d1;
     border-radius: 6px;
 }
+
 blockquote.prompt-warning::before {
-    content: "";
+    content: " warning";
     color: #ffa500cc;
     font: normal 900 1em/1 "Font Awesome 6 Free";
+    letter-spacing: .050em;
 }
 blockquote.prompt-warning {
     background-color: #765b0345;
@@ -667,10 +672,12 @@ blockquote.prompt-warning {
     border-left: solid 0.25rem #ffa500cc;
     border-radius: 6px;
 }
+
 blockquote.prompt-danger::before {
-    content: "";
+    content: " danger";
     color: #cd0202;
     font: normal 900 1em/1 "Font Awesome 6 Free";
+    letter-spacing: .050em;
 }
 blockquote.prompt-danger {
     background-color: #c9152530;
@@ -680,10 +687,12 @@ blockquote.prompt-danger {
     border-left: solid 0.25rem #cd0202;
     border-radius: 6px;
 }
+
 blockquote.prompt-important::before {
-    content: "";
+    content: " important";
     color: #aa55ff;
     font: normal 900 1em/1 "Font Awesome 6 Free";
+    letter-spacing: .050em;
 }
 blockquote.prompt-important {
     background-color: #4d2e6c42;
