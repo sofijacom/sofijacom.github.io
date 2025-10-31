@@ -34,10 +34,11 @@ actions:
 <figure style="width: 300px; margin-right: 40px;" class="align-left">
   <img src="/assets/img/KLA.webp" class="easy-zoom-effect pics" alt="kla" />	
 </figure>
-<br><br><br>
+<br><br>
 <ul>
   <li><a href="https://github.com/sofijacom/KLA-OT2baseCE" title="">KLA-OT2baseCE</a></li>
   <li><a href="https://github.com/sofijacom/KLA-Hyprland" title="">KLA-HyprlandCE</a></li>
+  <li><a href="https://github.com/sofijacom/KLA-Manjaro-KDE-plasma-CE" title="">KLA-Manjaro-KDE-plasma</a></li>
   <li><a href="https://github.com/sofijacom/KLA-Manjaro-Openbox" title="">KLA-Manjaro-Openbox</a></li>
   <li><a href="https://github.com/sofijacom/KLA-plasma-KDE-CE" title="">KLA-plasma-KDE-CE</a></li>	
 </ul>
