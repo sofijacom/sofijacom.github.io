@@ -301,8 +301,10 @@ section {
 
 /* Footer */
 footer {
-    background: #34495e;
-    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Oxygen, Ubuntu, Cantarell, open sans, helvetica neue, sans-serif;
+    font-size: 12px;    
+    background: #151b24;
+    color: #a5adcb;
     padding: 2rem 0;
     text-align: center;
     margin-top: 4rem;
