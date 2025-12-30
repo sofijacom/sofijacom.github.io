@@ -404,9 +404,9 @@ footer a:hover {
 }
 
 .page__comments-title {
-    margin-top: 2rem;
+  /*  margin-top: 2rem; */
     margin-bottom: 10px;
-    padding-top: 2rem;
+  /*  padding-top: 2rem; */
     font-size: .75em;
     border-top: 1px solid #c2c3c5;
     text-transform: uppercase;
