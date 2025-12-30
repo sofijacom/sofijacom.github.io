@@ -141,11 +141,11 @@ layout: xlibre
             </section>
 
 		<div class="container-giscus">
-		 <section class="giscuss">
-		    {% if page.comments != false %}
-	        {% include  giscus.html %}
-            {% endif %}
-		</div>
+		    <section class="comment">
+		       {% if page.comments != false %}
+	            {% include  giscus.html %}
+              {% endif %}
+		  </div>
 		</section>
     </main>
 
