@@ -139,9 +139,12 @@ layout: xlibre
                     </div>
                 </div>
             </section>
-		       {% if page.comments != false %}
-	 {% include  giscus.html %}
-   {% endif %}
+
+		<div class="container-giscus">
+		    {% if page.comments != false %}
+	        {% include  giscus.html %}
+            {% endif %}
+		</div>
     </main>
 
     <footer>
