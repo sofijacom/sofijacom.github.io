@@ -386,3 +386,19 @@ footer a:hover {
         padding: 1.5rem 1rem;
     }
 }
+
+/* giscus section */
+.container-giscus {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+/* giscus section */
+.comment {
+    text-align: left;
+    padding: 3rem 0;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 3rem;
+}
