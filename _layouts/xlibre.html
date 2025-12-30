@@ -139,6 +139,9 @@ layout: xlibre
                     </div>
                 </div>
             </section>
+		       {% if page.comments != false %}
+	 {% include  giscus.html %}
+   {% endif %}
     </main>
 
     <footer>
@@ -149,9 +152,6 @@ layout: xlibre
                 <a href="https://github.com/xlibre-void/xlibre/blob/main/LICENSE">License MIT</a>
             </p>
         </div>
-       {% if page.comments != false %}
-	 {% include  giscus.html %}
-   {% endif %}
     </footer>  
 </body>
 </html>
