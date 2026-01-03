@@ -242,12 +242,12 @@ section {
 
 .btn {
     display: inline-block;
-    background: #e6e9ef;
-    color: #000000;
+    background: #0477a4;
+    color: #fff;
     padding: 0.4rem 1.2rem;
     text-decoration: none;
     border-radius: 10px;
-    border: 1px solid #000000;
+   /* border: 1px solid #000000; */
     font-weight: 500;
     transition: background 0.5s ease;
 }
