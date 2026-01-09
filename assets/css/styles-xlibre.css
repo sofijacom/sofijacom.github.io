@@ -181,6 +181,11 @@ section {
     text-align: center;
 }
 
+.alternative-methods p {
+    font-size: 1.1rem;
+    text-align: center;
+}
+
 .method {
     margin-bottom: 2.5rem;
 }
