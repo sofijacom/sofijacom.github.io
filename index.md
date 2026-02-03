@@ -87,6 +87,22 @@ actions:
   <li><a href="https://forum.puppylinux.com/viewtopic.php?t=14608" title="">KLA-Manjaro-Mate</a></li>
 </ul>
  
+
+> <h3>Builds with XLibre xserver style="color:#ff0000;font-style:italic;font-weight:700;font-size:16px">@Sofiya</span></h3>
+{: .prompt-info }
+
+ <figure style="width: 300px; margin-right: 40px;" class="align-left">
+  <div class="focus pic"><img src="/assets/img/KLV-Cinnamon-XLibre.webp" alt="KLV-Cinnamon-XLibre"></div>
+ </figure>	
+<figure style="width: 300px; margin-right: 90px;" class="align-right">
+  <div class="scale"><img src="/assets/img/KLV-Airedale-XLibre.webp" class="scale" alt="KLV-Airedale-XLibre"></div>	
+</figure>
+<br><br><br><br>
+<ul>
+  <li><a href="https://github.com/sofijacom/KLV-Cinnamon-XLibre-CE" title="">KLV-Cinnamon-XLibre-CE</a></li>
+  <li><a href="https://github.com/sofijacom/KLV-Airedale-XLibre-CE" title="">KLV-Airedale-XLibre-CE</a></li>
+</ul>
+
   
 <p align="center"> 
   <img src="https://github.com/user-attachments/assets/6c640e94-03b1-4425-8345-e8bde37252a5" alt="" />  
