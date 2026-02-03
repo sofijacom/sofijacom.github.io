@@ -88,13 +88,14 @@ actions:
 </ul>
  
 
-> <h3>Builds with XLibre xserver style="color:#ff0000;font-style:italic;font-weight:700;font-size:16px">@Sofiya</span></h3>
+> <h3>Builds with XLibre xserver <span style="color:#ff0000;font-style:italic;font-weight:700;font-size:16px">@Sofiya</span></h3>
 {: .prompt-info }
 
+<h5>XLibre-CE.</h5>
  <figure style="width: 300px; margin-right: 40px;" class="align-left">
   <div class="focus pic"><img src="/assets/img/KLV-Cinnamon-XLibre.webp" alt="KLV-Cinnamon-XLibre"></div>
  </figure>	
-<figure style="width: 300px; margin-right: 90px;" class="align-right">
+<figure style="width: 300px; margin-right: 100px;" class="align-right">
   <div class="scale"><img src="/assets/img/KLV-Airedale-XLibre.webp" class="scale" alt="KLV-Airedale-XLibre"></div>	
 </figure>
 <br><br><br><br>
