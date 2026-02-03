@@ -69,6 +69,19 @@ actions:
   <li><a href="https://github.com/sofijacom/KLF-Rawhide-CE" title="">KLF-Rawhide-CE</a></li> 
 </ul><br>
 
+
+<h5>KLV-Airedale-32-CE ( i686 ).</h5>
+<figure style="width: 300px; margin-right: 40px;" class="align-left">
+  <div class="animate">	  
+    <img class="first" src="/assets/img/KLV-Airedale-32-CE.webp" alt="klv" />   
+    <img class="second" src="/assets/img/KLV-Airedale-32-CE.webp" alt="klv" />    
+  </div>
+</figure>	
+<br><br><br><br><br><br>
+<ul class="links">
+  <li><a href="https://github.com/sofijacom/KLF-Rawhide-CE" title="">KLF-Rawhide-CE</a></li> 
+</ul><br>
+
  
 > <h3>Assemblies from <span style="color:#ff0000;font-style:italic;font-weight:700;font-size:16px">@Josejp2424</span></h3>
 {: .prompt-info }
@@ -87,6 +100,7 @@ actions:
   <li><a href="https://forum.puppylinux.com/viewtopic.php?t=14608" title="">KLA-Manjaro-Mate</a></li>
 </ul>
  
+<br><br>
 
 > <h3>Builds with XLibre xserver <span style="color:#ff0000;font-style:italic;font-weight:700;font-size:16px">@Sofiya</span></h3>
 {: .prompt-info }
