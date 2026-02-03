@@ -79,7 +79,7 @@ actions:
 </figure>	
 <br><br><br><br><br><br>
 <ul class="links">
-  <li><a href="https://github.com/sofijacom/KLF-Rawhide-CE" title="">KLF-Rawhide-CE</a></li> 
+  <li><a href="https://github.com/sofijacom/KLV-Airedale-32-CE" title="">KLV-Airedale-32-CE</a></li> 
 </ul><br>
 
  
@@ -100,7 +100,7 @@ actions:
   <li><a href="https://forum.puppylinux.com/viewtopic.php?t=14608" title="">KLA-Manjaro-Mate</a></li>
 </ul>
  
-<br><br>
+<br>
 
 > <h3>Builds with XLibre xserver <span style="color:#ff0000;font-style:italic;font-weight:700;font-size:16px">@Sofiya</span></h3>
 {: .prompt-info }
