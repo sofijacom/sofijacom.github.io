@@ -112,7 +112,7 @@ actions:
 <figure style="width: 300px; margin-right: 100px;" class="align-right">
   <div class="scale"><img src="/assets/img/KLV-Airedale-XLibre.webp" class="scale" alt="KLV-Airedale-XLibre"></div>	
 </figure>
-<br><br><br><br>
+<br><br><br>
 <ul>
   <li><a href="https://github.com/sofijacom/KLV-Cinnamon-XLibre-CE" title="">KLV-Cinnamon-XLibre-CE</a></li>
   <li><a href="https://github.com/sofijacom/KLV-Airedale-XLibre-CE" title="">KLV-Airedale-XLibre-CE</a></li>
