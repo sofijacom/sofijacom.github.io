@@ -100,7 +100,7 @@ actions:
   <li><a href="https://forum.puppylinux.com/viewtopic.php?t=14608" title="">KLA-Manjaro-Mate</a></li>
 </ul>
  
-
+<br>
 > <h3>Builds with XLibre xserver from <span style="color:#ff0000;font-style:italic;font-weight:700;font-size:16px">@Sofiya</span></h3>
 {: .prompt-info }
 
