@@ -102,7 +102,7 @@ actions:
  
 <br>
 
-> <h3>Builds with XLibre xserver <span style="color:#ff0000;font-style:italic;font-weight:700;font-size:16px">@Sofiya</span></h3>
+> <h3>Builds with XLibre xserver from <span style="color:#ff0000;font-style:italic;font-weight:700;font-size:16px">@Sofiya</span></h3>
 {: .prompt-info }
 
 <h5>XLibre-CE.</h5>
