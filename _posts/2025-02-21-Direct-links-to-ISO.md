@@ -54,3 +54,10 @@ last_modified_at: 2025-02-21T14:25:52-03:00
 ##### KLF-Rawhide-CE
 - URL: <https://github.com/sofijacom/KLF-Rawhide-CE/releases/tag/KLF-Rawhide-CE-1.2>
 
+### KLV. Builds with XLibre xserver
+
+##### KLV-Cinnamon-XLibre-CE
+- URL: <https://github.com/sofijacom/KLV-Cinnamon-XLibre-CE/releases/tag/KLV-Cinnamon-XLibre-CE>
+
+##### KLV-Airedale-XLibre-CE
+- URL: <https://github.com/sofijacom/KLV-Airedale-XLibre-CE/releases/tag/KLV-Airedale-XLibre-CE-1.1>
