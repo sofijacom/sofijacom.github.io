@@ -20,7 +20,7 @@ body {
 
 /* Header */
 header {
-    background: linear-gradient(135deg, #34495E 0%, rgb(255 255 255) 100%);
+    background: linear-gradient(1deg, #34495E 0%, rgb(255 255 255) 100%);
     color: #000000;
     padding: 3rem 0;
     text-align: center;
