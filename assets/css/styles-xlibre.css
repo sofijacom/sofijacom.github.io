@@ -19,30 +19,13 @@ body {
 }
 
 /* Header */
-/*header {
-    background: linear-gradient(1deg, #34495E 0%, rgb(255 255 255) 100%);
+header {
+   /* background: linear-gradient(1deg, #34495E 0%, rgb(255 255 255) 100%); */
+    background-image: linear-gradient(#34495E, #fff);
     color: #000000;
     padding: 3rem 0;
     text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-} */
-
-header {
-  grid-column-gap: 40px;
-  grid-row-gap: 40px;
-  outline-offset: -1px;
-  background-image: linear-gradient(#34495E, #fff);
-  border-radius: 18px;
-  outline: 1px solid #0000000d;
-  flex-flow: column;
-  justify-content: flex-start;
-  align-items: center;
-  width: 100%;
-  max-width: 1536px;
-  padding-top: 200px;
-  padding-bottom: 120px;
-  display: flex;
-  position: relative;
+   /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
 }
 
 header h1 {
