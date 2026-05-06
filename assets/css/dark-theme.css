@@ -703,31 +703,44 @@ blockquote.prompt-important {
     border-radius: 6px;
 }
 
-/* Изображения коментариев
+/* Изображения коментариев */
 .comment-form {
     margin-top: 0;
+    /* margin-bottom: 50px; */
+    border-top: 1px solid #c2c3c5;
+    font-size: 16px;
+    background: url(/assets/images/comment-dots.png) 0 5px no-repeat;
+    line-height: 32px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    background-size: 24px;
+}
+
+/*.comment-form {
+    margin-top: 0;
     margin-bottom: 50px;
+    border-top: 1px solid #c2c3c5;
 }
 
 .comment-form h2 {
-    font-size: 24px;
-    line-height: 60px;
-    margin-bottom: 20px;
-    background: url('/assets/images/comment-dots.png') 0 5px no-repeat;
-    padding-left: 60px;
+    font-size: 21px !important;
+    line-height: 60px !important;
+    margin-bottom: 20px !important;
+    background: url('/assets/images/comment-dots.png') 0 5px no-repeat !important;
+    padding-left: 60px !important;
 }
 
 .comment-form h2 a {
-    text-decoration: none;
-    border-bottom: 1px dashed;
+    text-decoration: none !important;
+    border-bottom: 1px dashed !important;
 }
 
 .comment-form h2 a:hover {
-    color: #00A0DF;
+    color: #00A0DF !important;
 }
 
 h2 {
-    font-weight: 400;
-    text-transform: uppercase;
+    font-weight: 400 !important;
+    text-transform: uppercase !important;
 }
- Изображения коментариев */
+Изображения коментариев */
