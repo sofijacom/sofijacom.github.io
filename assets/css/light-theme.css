@@ -711,3 +711,27 @@ blockquote.prompt-important {
     border-left: solid 0.25rem #aa55ff;
     border-radius: 6px;
 }
+
+/* Изображения коментариев */
+.comment-form {
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.comment-form h2 {
+    font-size: 36px;
+    line-height: 60px;
+    margin-bottom: 20px;
+    background: url('/assets/images/comment-dots.png') 0 5px no-repeat;
+    padding-left: 60px;
+}
+
+.comment-form h2 a {
+    text-decoration: none;
+    border-bottom: 1px dashed;
+}
+
+.comment-form h2 a:hover {
+    color: #00A0DF;
+}
+/* Изображения коментариев */
