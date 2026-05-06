@@ -445,4 +445,9 @@ footer a:hover {
 .comment-form h2 a:hover {
     color: #00A0DF;
 }
+
+h2 {
+    font-weight: 400;
+    text-transform: uppercase;
+}
 /* Изображения коментариев */
