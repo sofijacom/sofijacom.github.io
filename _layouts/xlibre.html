@@ -155,6 +155,7 @@ layout: xlibre
 
             <div class="container-giscus">
             <section class="comment-form">
+				<h2 class="commentShowForm"><a href="#" onclick="return commentShowForm()">Leave a comment</a></h2>
              {% if page.comments != false %}
               {% include  giscus.html %}
              {% endif %}
