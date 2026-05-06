@@ -250,7 +250,8 @@ section {
 
 .btn {
     display: inline-block;
-    background: #0477a4;
+   /* background: #0477a4; */
+    background: #09c;
     color: #fff;
     padding: 0.4rem 1.2rem;
     text-decoration: none;
