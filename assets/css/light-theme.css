@@ -712,14 +712,15 @@ blockquote.prompt-important {
     border-radius: 6px;
 }
 
-/* Изображения коментариев
+/* Изображения коментариев */
 .comment-form {
     margin-top: 0;
     margin-bottom: 50px;
+    border-top: 1px solid #c2c3c5;
 }
 
 .comment-form h2 {
-    font-size: 24px;
+    font-size: 21px;
     line-height: 60px;
     margin-bottom: 20px;
     background: url('/assets/images/comment-dots.png') 0 5px no-repeat;
@@ -739,4 +740,4 @@ h2 {
     font-weight: 400;
     text-transform: uppercase;
 }
- Изображения коментариев */
+/* Изображения коментариев */
