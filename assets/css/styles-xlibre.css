@@ -414,7 +414,7 @@ footer a:hover {
 }
 
 .page__comments-title {
-   /* margin-top: 2rem; */
+    margin-top: 1rem;
     margin-bottom: 10px;
     padding-top: 2rem;
     font-size: .75em;
@@ -430,7 +430,7 @@ footer a:hover {
 }
 
 .comment-form h2 {
-    font-size: 36px;
+    font-size: 24px;
     line-height: 60px;
     margin-bottom: 20px;
     background: url('/assets/images/comment-dots.png') 0 5px no-repeat;
