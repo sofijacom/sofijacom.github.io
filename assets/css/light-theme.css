@@ -715,6 +715,18 @@ blockquote.prompt-important {
 /* Изображения коментариев */
 .comment-form {
     margin-top: 0;
+    /* margin-bottom: 50px; */
+    border-top: 1px solid #c2c3c5;
+    font-size: 16px;
+    background: url(/assets/images/comment-dots.png) 0 5px no-repeat;
+    line-height: 32px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    background-size: 24px;
+}
+
+/*.comment-form {
+    margin-top: 0;
     margin-bottom: 50px;
     border-top: 1px solid #c2c3c5;
 }
@@ -740,4 +752,4 @@ h2 {
     font-weight: 400 !important;
     text-transform: uppercase !important;
 }
-/* Изображения коментариев */
+Изображения коментариев */
