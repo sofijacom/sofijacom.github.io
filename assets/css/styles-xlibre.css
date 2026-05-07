@@ -433,7 +433,7 @@ footer a:hover {
     font-size: 16px;
     line-height: 40px;
     margin-bottom: 20px;
-    background: url('/assets/images/comment-dots.png') 0 5px no-repeat;
+    background: url('/assets/images/comment-dots.png') 0 20px no-repeat;
     background-size: 32px;
     padding-left: 40px;
     border-top: 1px solid #c2c3c5;
