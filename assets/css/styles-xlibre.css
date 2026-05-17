@@ -20,9 +20,9 @@ body {
 
 /* Header */
 header {
-   /* background: linear-gradient(1deg, #34495E 0%, rgb(255 255 255) 100%); */
-    background-image: linear-gradient(#34495E, rgb(255 255 255) 100%);
-    color: #000000;
+    background: linear-gradient(1deg, #34495E 0%, rgb(255 255 255) 100%);
+   /* background-image: linear-gradient(#34495E, rgb(255 255 255) 100%); */
+    color: #cbd6ec;
     padding: 3rem 0;
     text-align: center;
    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
