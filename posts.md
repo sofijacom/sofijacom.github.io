@@ -50,6 +50,6 @@ actions:
 ### Embedding Audio
 
 <audio controls>
-  <source src="/path/to/your/audiofile.mp3" type="audio/mpeg">
+  <source src="/assets/audio/audiofile.ogg" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
