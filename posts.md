@@ -46,3 +46,10 @@ actions:
 ```html
  <iframe src="https://www.youtube.com/embed/video-id" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ```
+
+### Embedding Audio
+
+<audio controls>
+  <source src="/path/to/your/audiofile.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
