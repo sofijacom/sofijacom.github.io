@@ -757,11 +757,11 @@ h2 {
 Изображения коментариев */
 
 audio {
-    display: block;
-    width: 100%;
-    border: 1px solid rgb(238, 238, 238);
-    border-radius: 8px;
-    overflow: hidden;
-    height: 2.5rem;
-    margin-bottom: 20px;
+    display: block !important;
+    width: 100% !important;
+    border: 1px solid rgb(238, 238, 238) !important;
+    border-radius: 8px !important;
+    overflow: hidden !important;
+    height: 2.5rem !important;
+    margin-bottom: 20px !important;
 }
