@@ -1,4 +1,4 @@
-This is the (official?) website for Kennel Linux built with the [Jekyll](https://jekyllrb.com/) static site generator.
+This is the (official) website for Kennel Linux built with the [Jekyll](https://jekyllrb.com/) static site generator.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/65968cf8-808f-4f4d-8e55-0953ae5c72c2" />
