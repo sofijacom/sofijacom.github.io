@@ -147,7 +147,8 @@ section {
 }
 
 .code-block h4 {
-    background: #34495e;
+   /* background: #34495e; */
+    background: #6f8ba6;
     color: white;
     padding: 1rem 1.5rem;
     margin: 0;
@@ -158,7 +159,8 @@ section {
 .code-block pre {
     margin: 0;
     padding: 1.5rem;
-    background: #2c3e50;
+   /* background: #2c3e50; */
+    background: #304357;
     overflow-x: auto;
 }
 
@@ -195,7 +197,8 @@ section {
 
 .method h4 {
     font-size: 1.3rem;
-    color: #0697ef;
+   /* color: #0697ef; */
+    color: #051728;
     margin-bottom: 1rem;
 }
 
