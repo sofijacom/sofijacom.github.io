@@ -7,8 +7,8 @@ layout: void-package
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>📦 Void Linux — Custom Packages by Sofija</title>
-  <link rel="stylesheet" href="/assets/style.css">
+  <title>📦 Void Custom Packages — Sofija</title>
+  <link rel="stylesheet" href="/void-package/style.css">
 </head>
 <body>
   <div class="container">
@@ -18,11 +18,11 @@ layout: void-package
     </header>
 
     <section class="install">
-      <h2>🔧 Как использовать</h2>
+      <h2>🔧 Как подключить</h2>
       <p>Добавьте репозиторий в вашу систему:</p>
-      <pre>xbps-install -S -r /tmp/test --repository=https://sofijacom.github.io/repo/x86_64</pre>
-      <p>Или установите пакет напрямую:</p>
-      <pre>sudo xbps-install -S --repository=https://sofijacom.github.io/repo/x86_64 google-chrome</pre>
+      <pre>sudo xbps-install -S --repository=https://sofijacom.github.io/void-package/repo/x86_64 пакет</pre>
+      <p>Пример:</p>
+      <pre>sudo xbps-install -S --repository=https://sofijacom.github.io/void-package/repo/x86_64 google-chrome</pre>
     </section>
 
     <section class="packages">
@@ -31,10 +31,18 @@ layout: void-package
         <li><strong>google-chrome</strong> — Google Chrome (проприетарный)</li>
         <li><strong>brave-browser</strong> — Приватный браузер</li>
         <li><strong>github-desktop</strong> — Официальный клиент GitHub</li>
-        <li><strong>mullvad-browser</strong> — Анонимный браузер от Mullvad</li>
-        <li><strong>zoneminder</strong> — Пакет для домашней автоматизации</li>
+        <li><strong>mullvad-browser</strong> — Анонимный браузер</li>
+        <li><strong>zoneьштвук</strong> — Домашняя автоматизация</li>
       </ul>
-      <p>Подпись: <code>sofija@void-custom-packages</code></p>
+    </section>
+
+    <section class="repo">
+      <h2>📂 Репозиторий</h2>
+      <p>Файлы доступны по:</p>
+      <ul>
+        <li><a href="/void-package/repo/x86_64/repodata">repodata</a> — метаданные</li>
+        <li><a href="/void-package/repo/x86_64/">Все пакеты (.xbps, .sig2)</a></li>
+      </ul>
     </section>
 
     <footer>
@@ -48,4 +56,3 @@ layout: void-package
   </script>
 </body>
 </html>
-
