@@ -63,4 +63,4 @@ navigation_pages:
   - archive.md
   - discussion.md
   - xlibre.md
-  #- void-package.md
+  - void-package.md
