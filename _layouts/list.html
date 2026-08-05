@@ -1,0 +1,348 @@
+{{ define "main" }}
+<div class="mb-3">
+	<h1 class="text-3xl font-semibold tracking-tight mb-2">Packages</h1>
+	<p class="text-[#a89984]">Custom XBPS packages built and published via GitHub Actions.</p>
+	<div class="flex items-center gap-2 mt-3">
+		<!-- <a
+			href="https://git.ch-naseem.com/sofijacom/void-package"
+			target="_blank"
+			rel="noopener"
+			class="flex items-center gap-1.5 text-xs font-mono bg-[#282828] border border-[#504945] hover:border-[#d79921]/50 text-[#a89984] px-3 py-1.5 rounded-md transition-colors"
+		>
+			<img
+				src="https://cdn.simpleicons.org/forgejo/a89984"
+				width="12"
+				height="12"
+				alt=""
+			/>
+			Forgejo
+		</a> -->
+		<a
+			href="https://github.com/sofijacom/void-package"
+			target="_blank"
+			rel="noopener"
+			class="flex items-center gap-1.5 text-xs font-mono bg-[#282828] border border-[#504945] hover:border-[#d79921]/50 text-[#a89984] px-3 py-1.5 rounded-md transition-colors"
+		>
+			<img
+				src="https://cdn.simpleicons.org/github/a89984"
+				width="12"
+				height="12"
+				alt=""
+			/>
+			GitHub
+		</a>
+	</div>
+</div>
+
+{{/* Build status */}}
+  <div class="flex items-center justify-between mb-3">
+    <h2 class="text-lg font-semibold">Build Status</h2>
+    <a href="https://github.com/sofijacom/void-package/actions/workflows/build-workflows.yml"
+       target="_blank" rel="noopener"
+       class="text-[#d79921] text-sm hover:underline font-mono">Actions →</a>
+  </div>
+
+  <div id="ci-card" class="bg-[#282828] border border-[#504945] rounded-xl p-5">
+    <p class="text-[#504945] font-mono text-sm">// fetching...</p>
+  </div>
+
+  <div class="flex items-center justify-between my-3">
+    <h2 class="text-lg font-semibold">Find binary packages</h2>
+    <a href="https://github.com/sofijacom/void-package/tree/main/srcpkgs"
+       target="_blank" rel="noopener"
+       class="text-[#d79921] text-sm hover:underline font-mono">Templates →</a>
+  </div>
+<div class="relative mb-3">
+	<input
+		id="pkg-search"
+		type="text"
+		placeholder="Search packages..."
+		autocomplete="off"
+		autofocus="on"
+		class="w-full bg-[#282828] border-3 border-[#504945] focus:border-[#d79921] outline-none rounded-md px-4 py-2.5 text-[#ebdbb2] placeholder-[#a89984] font-mono text-sm transition-colors"
+	/>
+</div>
+
+<div class="bg-[#282828] border border-[#504945] rounded-md overflow-hidden">
+	<table class="w-full text-sm table-fixed">
+		<thead>
+			<tr class="border-b border-[#504945]">
+				<th class="text-left px-4 py-3 text-[#d79921] font-semibold w-2/3">
+					Package
+				</th>
+				<th class="text-left px-4 py-3 text-[#d79921] font-semibold w-1/3">
+					Version
+				</th>
+			</tr>
+		</thead>
+		<tbody id="pkg-table"></tbody>
+	</table>
+	<p
+		id="pkg-empty"
+		class="hidden text-center text-[#a89984] font-mono text-sm py-8"
+	>
+		// no results
+	</p>
+	<div
+		id="pkg-pagination"
+		class="hidden items-center justify-between px-4 py-3 border-t border-[#504945]"
+	>
+		<span id="pkg-info" class="text-[#a89984] font-mono text-xs"></span>
+		<div class="flex items-center gap-1">
+			<button
+				id="pkg-prev"
+				class="px-3 py-1.5 rounded-md text-xs font-mono text-[#a89984] hover:text-[#ebdbb2] hover:bg-[#3c3836] disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
+			>
+				← prev
+			</button>
+			<span id="pkg-pages" class="flex gap-1"></span>
+			<button
+				id="pkg-next"
+				class="px-3 py-1.5 rounded-md text-xs font-mono text-[#a89984] hover:text-[#ebdbb2] hover:bg-[#3c3836] disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
+			>
+				next →
+			</button>
+		</div>
+	</div>
+</div>
+<div class="bg-[#282828] border border-[#504945] rounded-md p-5 mt-3 text-sm">
+	<p class="font-mono text-xs text-[#d79921] mb-3">// install</p>
+	<p class="text-[#a89984] mb-2">Add the repository:</p>
+	<pre
+		class="bg-[#1d2021] border border-[#504945] rounded-md px-4 py-3 font-mono text-xs text-[#ebdbb2] overflow-x-auto mb-4"
+	><code>printf "repository=https://github.com/sofijacom/void-package/releases/latest/download/" | sudo tee /etc/xbps.d/sofijacom-void-repository.conf</code></pre>
+	<p class="text-[#a89984] mb-2">Then install packages:</p>
+	<pre
+		class="bg-[#1d2021] border border-[#504945] rounded-md px-4 py-3 font-mono text-xs text-[#ebdbb2] overflow-x-auto"
+	><code>sudo xbps-install -Su
+sudo xbps-install brave-browser github-desktop google-chrome librewolf zen-browser</code></pre>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.min.js"></script>
+<script>
+	(() => {
+		const RAW_URL =
+			"https://raw.githubusercontent.com/sofijacom/void-package/main/PACKAGES.md";
+		const TEMPLATE_BASE =
+			"https://git.ch-naseem.com/sofijacom/void-package/src/branch/main/srcpkgs";
+		const PAGE_SIZE = 13;
+		const WINDOW_SIZE = 4;
+
+		const el = (id) => document.getElementById(id);
+		const tbody = el("pkg-table");
+		const empty = el("pkg-empty");
+		const pagination = el("pkg-pagination");
+		const info = el("pkg-info");
+		const pages = el("pkg-pages");
+		const prevBtn = el("pkg-prev");
+		const nextBtn = el("pkg-next");
+		const search = el("pkg-search");
+
+		let results = [];
+		let currentPage = 1;
+		let fuse;
+
+		function parseMd(md) {
+			return md
+				.split("\n")
+				.filter(
+					(l) =>
+						l.startsWith("|") && !l.includes("---") && !l.includes("Package"),
+				)
+				.map((l) => {
+					const [, name, version] = l.split("|").map((s) => s.trim());
+					return { name, version };
+				})
+				.filter((p) => p.name);
+		}
+
+		function pageWindow(current, total) {
+			let start = Math.max(1, current - 1);
+			let end = start + WINDOW_SIZE - 1;
+			if (end > total) {
+				end = total;
+				start = Math.max(1, end - WINDOW_SIZE + 1);
+			}
+			return Array.from({ length: end - start + 1 }, (_, i) => start + i);
+		}
+
+		function render() {
+			const total = Math.ceil(results.length / PAGE_SIZE);
+			const start = (currentPage - 1) * PAGE_SIZE;
+			const slice = results.slice(start, start + PAGE_SIZE);
+
+			const hasResults = results.length > 0;
+			empty.classList.toggle("hidden", hasResults);
+			pagination.classList.toggle("hidden", !hasResults);
+			pagination.classList.toggle("flex", hasResults);
+
+			tbody.innerHTML = slice
+				.map(
+					(p) => `
+        <tr data-href="${TEMPLATE_BASE}/${p.name}/template"
+          class="border-b border-[#3c3836] last:border-0 hover:bg-[#3c3836]/40 cursor-pointer transition-colors"
+          title="View template for ${p.name}">
+          <td class="px-4 py-3 font-mono text-[#ebdbb2]">${p.name}</td>
+          <td class="px-4 py-3 font-mono text-[#a89984]">${p.version}</td>
+        </tr>`,
+				)
+				.join("");
+
+			if (!hasResults) return;
+
+			info.textContent = `${start + 1}–${Math.min(start + PAGE_SIZE, results.length)} of ${results.length}`;
+			prevBtn.disabled = currentPage === 1;
+			nextBtn.disabled = currentPage === total;
+
+			pages.innerHTML = pageWindow(currentPage, total)
+				.map(
+					(n) => `
+        <button data-page="${n}"
+          class="w-7 h-7 rounded-md text-xs font-mono transition-colors ${
+						n === currentPage
+							? "bg-[#d79921] text-[#1d2021] font-bold"
+							: "text-[#a89984] hover:text-[#ebdbb2] hover:bg-[#3c3836]"
+					}">
+          ${n}
+        </button>`,
+				)
+				.join("");
+		}
+
+		tbody.addEventListener("click", (e) => {
+			const row = e.target.closest("tr[data-href]");
+			if (row) window.open(row.dataset.href, "_blank");
+		});
+
+		pages.addEventListener("click", (e) => {
+			const btn = e.target.closest("button[data-page]");
+			if (btn) {
+				currentPage = +btn.dataset.page;
+				render();
+			}
+		});
+
+		prevBtn.addEventListener("click", () => {
+			if (currentPage > 1) {
+				currentPage--;
+				render();
+			}
+		});
+
+		nextBtn.addEventListener("click", () => {
+			const total = Math.ceil(results.length / PAGE_SIZE);
+			if (currentPage < total) {
+				currentPage++;
+				render();
+			}
+		});
+
+		search.addEventListener("input", (e) => {
+			currentPage = 1;
+			const q = e.target.value.trim();
+			results = q ? fuse.search(q).map((r) => r.item) : fuse._docs;
+			render();
+		});
+
+		fetch(RAW_URL)
+			.then((r) => r.text())
+			.then((md) => {
+				const packages = parseMd(md);
+				fuse = new Fuse(packages, { keys: ["name"], threshold: 0.35 });
+				results = packages;
+				render();
+			});
+	})();
+
+	(() => {
+		const ORG  = "noid-linux";
+		const REPO = "xbps-repo";
+		const WF   = "build.yaml";
+		const N    = 7;
+
+		const STATUS_META = {
+			success:     { dot: "bg-[#98971a]",              label: "passing",   text: "text-[#98971a]",  border: "border-[#98971a]/40" },
+			failure:     { dot: "bg-[#cc241d]",              label: "failing",   text: "text-[#cc241d]",  border: "border-[#cc241d]/40" },
+			cancelled:   { dot: "bg-[#a89984]",              label: "cancelled", text: "text-[#a89984]",  border: "border-[#504945]"    },
+			skipped:     { dot: "bg-[#a89984]",              label: "skipped",   text: "text-[#a89984]",  border: "border-[#504945]"    },
+			in_progress: { dot: "bg-[#d79921] animate-pulse", label: "running",  text: "text-[#d79921]",  border: "border-[#d79921]/40" },
+			queued:      { dot: "bg-[#d79921] animate-pulse", label: "queued",   text: "text-[#d79921]",  border: "border-[#d79921]/40" },
+		};
+
+		function meta(run) {
+			const key = run.conclusion ?? run.status ?? "queued";
+			return STATUS_META[key] ?? STATUS_META.cancelled;
+		}
+
+		function reltime(iso) {
+			const s = Math.round((Date.now() - new Date(iso)) / 1000);
+			if (s < 60)    return `${s}s ago`;
+			if (s < 3600)  return `${Math.floor(s / 60)}m ago`;
+			if (s < 86400) return `${Math.floor(s / 3600)}h ago`;
+			return `${Math.floor(s / 86400)}d ago`;
+		}
+
+		function duration(run) {
+			if (!run.updated_at || !run.created_at) return null;
+			const s = Math.round((new Date(run.updated_at) - new Date(run.created_at)) / 1000);
+			return s < 60 ? `${s}s` : `${Math.floor(s / 60)}m ${s % 60}s`;
+		}
+
+		async function initCI() {
+			const card = document.getElementById("ci-card");
+			try {
+				const res  = await fetch(
+					`https://api.github.com/repos/${ORG}/${REPO}/actions/workflows/${WF}/runs?per_page=${N}`,
+					{ headers: { Accept: "application/vnd.github+json" } }
+				);
+				const data = await res.json();
+				const runs = data.workflow_runs ?? [];
+
+				if (!runs.length) {
+					card.innerHTML = `<p class="text-[#a89984] font-mono text-sm">// no runs found</p>`;
+					return;
+				}
+
+				const latest = runs[0];
+				const m      = meta(latest);
+				const dur    = duration(latest);
+
+				const dots = runs.map(r => {
+					const rm = meta(r);
+					return `<a href="${r.html_url}" target="_blank" rel="noopener"
+					           title="#${r.run_number} · ${rm.label} · ${reltime(r.updated_at ?? r.created_at)}"
+					           class="inline-block w-3 h-3 rounded-full ${rm.dot} hover:scale-125 transition-transform"></a>`;
+				}).join("");
+
+				card.className = `bg-[#282828] border ${m.border} rounded-xl p-5 transition-colors`;
+				card.innerHTML = `
+					<div class="flex items-center justify-between gap-4 flex-wrap">
+						<div class="flex items-center gap-3">
+							<span class="w-3 h-3 rounded-full ${m.dot} shrink-0"></span>
+							<span class="font-semibold text-[#ebdbb2] text-sm">Build Packages</span>
+							<span class="text-xs font-mono font-semibold px-2 py-0.5 rounded bg-[#1d2021] ${m.text}">${m.label}</span>
+						</div>
+						<a href="${latest.html_url}" target="_blank" rel="noopener"
+						   class="text-xs font-mono text-[#a89984] hover:text-[#d79921] transition-colors">
+							#${latest.run_number} →
+						</a>
+					</div>
+					<div class="mt-3 flex flex-wrap gap-x-5 gap-y-1 text-xs font-mono text-[#a89984]">
+						<span>last run: <span class="text-[#d5c4a1]">${reltime(latest.updated_at ?? latest.created_at)}</span></span>
+						${dur ? `<span>duration: <span class="text-[#d5c4a1]">${dur}</span></span>` : ""}
+						<span>branch: <span class="text-[#d5c4a1]">${latest.head_branch}</span></span>
+					</div>
+					<div class="mt-4 flex items-center gap-2">
+						<span class="text-[#504945] text-xs font-mono shrink-0">recent</span>
+						<div class="flex items-center gap-1.5">${dots}</div>
+					</div>`;
+			} catch {
+				card.innerHTML = `<p class="text-[#a89984] font-mono text-sm">// failed to fetch build data</p>`;
+			}
+		}
+
+		initCI();
+	})();
+</script>
+{{ end }}
