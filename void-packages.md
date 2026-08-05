@@ -1,5 +1,5 @@
 ---
-layout: void-packages
-title: Void-packages
+layout: void-package
+title: Void-package
 comments: true
 ---
