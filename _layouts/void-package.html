@@ -13,41 +13,7 @@ layout: void-package
 <body>
   <div class="container">
     <header>
-      <h1>📦 Void Linux — Custom Packages</h1>
-      <p>Автор: <a href="https://github.com/sofijacom" target="_blank">Sofija</a></p>
-    </header>
-
-    <section class="install">
-      <h2>🔧 Как подключить</h2>
-      <p>Добавьте репозиторий в вашу систему:</p>
-      <pre>printf "repository=https://github.com/sofijacom/void-package/releases/latest/download/" | sudo tee /etc/xbps.d/sofijacom-void-repository.conf</pre>
-    </section>
-
-    <!--<section class="packages">
-      <h2>📦 Доступные пакеты (x86_64)</h2>
-      <ul>
-        <li><strong>google-chrome</strong> — Google Chrome (проприетарный)</li>
-        <li><strong>brave-browser</strong> — Приватный браузер</li>
-        <li><strong>github-desktop</strong> — Официальный клиент GitHub</li>
-        <li><strong>mullvad-browser</strong> — Анонимный браузер</li>
-        <li><strong>zoneminder</strong> — Домашняя автоматизация</li>
-      </ul>
-    </section> -->
-
-    <section class="repo">
-      <h2>📂 Репозиторий</h2>
-      <p>Файлы доступны по:</p>
-      <ul>
-        <li><a href="https://github.com/sofijacom/void-package/releases">repodata</a> — метаданные</li>
-      </ul>
-    </section>
-
-    <footer>
-      <p>Обновлено: <span id="date"></span></p>
-      <p>Исходный код: <a href="https://github.com/sofijacom/void-package" target="_blank">GitHub</a></p>
-    </footer>
-  </div>
-
+  
   <script>
     document.getElementById("date").textContent = new Date().toISOString().split('T')[0];
   </script>
