@@ -1,5 +1,5 @@
 ---
-layout: void-package
+layout: list
 title: Void-package
 comments: true
 ---
