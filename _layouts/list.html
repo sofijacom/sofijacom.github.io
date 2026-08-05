@@ -146,20 +146,6 @@ layout: list
 	<h1 class="text-3xl font-semibold tracking-tight mb-2">Packages</h1>
 	<p class="text-[#a89984]">Custom XBPS packages built and published via GitHub Actions.</p>
 	<div class="flex items-center gap-2 mt-3">
-		<!-- <a
-			href="https://git.ch-naseem.com/sofijacom/void-package"
-			target="_blank"
-			rel="noopener"
-			class="flex items-center gap-1.5 text-xs font-mono bg-[#282828] border border-[#504945] hover:border-[#d79921]/50 text-[#a89984] px-3 py-1.5 rounded-md transition-colors"
-		>
-			<img
-				src="https://cdn.simpleicons.org/forgejo/a89984"
-				width="12"
-				height="12"
-				alt=""
-			/>
-			Forgejo
-		</a> -->
 		<a
 			href="https://github.com/sofijacom/void-package"
 			target="_blank"
@@ -398,9 +384,9 @@ sudo xbps-install brave-browser github-desktop google-chrome librewolf zen-brows
 	})();
 
 	(() => {
-		const ORG  = "noid-linux";
-		const REPO = "xbps-repo";
-		const WF   = "build.yaml";
+		const ORG  = "sofijacom";
+		const REPO = "void-package";
+		const WF   = "build-workflows.yml";
 		const N    = 7;
 
 		const STATUS_META = {
@@ -487,4 +473,3 @@ sudo xbps-install brave-browser github-desktop google-chrome librewolf zen-brows
 		initCI();
 	})();
 </script>
-{{ end }}
