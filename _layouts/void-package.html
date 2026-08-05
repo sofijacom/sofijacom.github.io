@@ -20,12 +20,10 @@ layout: void-package
     <section class="install">
       <h2>🔧 Как подключить</h2>
       <p>Добавьте репозиторий в вашу систему:</p>
-      <pre>sudo xbps-install -S --repository=https://sofijacom.github.io/void-package/repo/x86_64 пакет</pre>
-      <p>Пример:</p>
-      <pre>sudo xbps-install -S --repository=https://sofijacom.github.io/void-package/repo/x86_64 google-chrome</pre>
+      <pre>printf "repository=https://github.com/sofijacom/void-package/releases/latest/download/" | sudo tee /etc/xbps.d/sofijacom-void-repository.conf</pre>
     </section>
 
-    <section class="packages">
+    <!--<section class="packages">
       <h2>📦 Доступные пакеты (x86_64)</h2>
       <ul>
         <li><strong>google-chrome</strong> — Google Chrome (проприетарный)</li>
@@ -34,14 +32,13 @@ layout: void-package
         <li><strong>mullvad-browser</strong> — Анонимный браузер</li>
         <li><strong>zoneminder</strong> — Домашняя автоматизация</li>
       </ul>
-    </section>
+    </section> -->
 
     <section class="repo">
       <h2>📂 Репозиторий</h2>
       <p>Файлы доступны по:</p>
       <ul>
-        <li><a href="/void-package/repo/x86_64/repodata">repodata</a> — метаданные</li>
-        <li><a href="/void-package/repo/x86_64/">Все пакеты (.xbps, .sig2)</a></li>
+        <li><a href="https://github.com/sofijacom/void-package/releases">repodata</a> — метаданные</li>
       </ul>
     </section>
 
