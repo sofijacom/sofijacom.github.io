@@ -2,21 +2,50 @@
 layout: void-packages
 ---
 
-<!-- docs/index.html -->
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
-  <title>Void Packages</title>
-  <style>
-    body { font-family: sans-serif; padding: 2rem; }
-    a { display: block; margin: 1rem 0; color: #0066cc; }
-  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>📦 Void Linux — Custom Packages by Sofija</title>
+  <link rel="stylesheet" href="/assets/style.css">
 </head>
 <body>
-  <h1>📦 Repo Void-packages </h1>
-  <p>Automatically built packages for Void Linux.</p>
-  <p><a href="x86_64">Packages (x86_64)</a></p>
-  <h2>How to use:</h2>
-  <pre>sudo xbps-install -S -R https://sofijacom.github.io/void-packages.html/x86_64 void-packages</pre>
+  <div class="container">
+    <header>
+      <h1>📦 Void Linux — Custom Packages</h1>
+      <p>Автор: <a href="https://github.com/sofijacom" target="_blank">Sofija</a></p>
+    </header>
+
+    <section class="install">
+      <h2>🔧 Как использовать</h2>
+      <p>Добавьте репозиторий в вашу систему:</p>
+      <pre>xbps-install -S -r /tmp/test --repository=https://sofijacom.github.io/repo/x86_64</pre>
+      <p>Или установите пакет напрямую:</p>
+      <pre>sudo xbps-install -S --repository=https://sofijacom.github.io/repo/x86_64 google-chrome</pre>
+    </section>
+
+    <section class="packages">
+      <h2>📦 Доступные пакеты (x86_64)</h2>
+      <ul>
+        <li><strong>google-chrome</strong> — Google Chrome (проприетарный)</li>
+        <li><strong>brave-browser</strong> — Приватный браузер</li>
+        <li><strong>github-desktop</strong> — Официальный клиент GitHub</li>
+        <li><strong>mullvad-browser</strong> — Анонимный браузер от Mullvad</li>
+        <li><strong>zoneplus</strong> — Пакет для домашней автоматизации</li>
+      </ul>
+      <p>Подпись: <code>sofija@void-custom-packages</code></p>
+    </section>
+
+    <footer>
+      <p>Обновлено: <span id="date"></span></p>
+      <p>Исходный код: <a href="https://github.com/sofijacom/void-package" target="_blank">GitHub</a></p>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById("date").textContent = new Date().toISOString().split('T')[0];
+  </script>
 </body>
 </html>
+
