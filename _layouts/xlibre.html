@@ -95,10 +95,11 @@ layout: xlibre
                             <pre><code>sudo mkdir -p /etc/xbps.d</code></pre>
                             <pre><code>Architecture: ⮞ x86_64-glibc, x86_64-musl, i686-glibc</code></pre>
                             <pre><code>printf "repository=https://github.com/xlibre-void/xlibre/releases/latest/download/" | sudo tee /etc/xbps.d/99-repository-xlibre.conf</code></pre>
-							
+                        </div>
+                        <div class="code-block">
                             <h4>3. Add the repository to your sources</h4>
                             <pre><code>sudo mkdir -p /etc/xbps.d</code></pre>
-                            <h4>Architecture: ⮞ aarch64-glibc, aarch64-musl, armv7l-glibc, armv6l-musl</h4>
+                            <pre><code>Architecture: ⮞ aarch64-glibc, aarch64-musl, armv7l-glibc, armv6l-musl</code></pre>
                             <pre><code>⮞ aarch64</code></pre>
                             <pre><code>echo repository=https://github.com/xlibre-void/xlibre-xserver/releases/download/repository-aarch64 | sudo tee /etc/xbps.d/99-repository-aarch64.conf</code></pre>
                             <pre><code>⮞ aarch64-musl</code></pre>
@@ -106,8 +107,8 @@ layout: xlibre
                             <pre><code>⮞ armv7l</code></pre>
                             <pre><code>echo repository=https://github.com/xlibre-void/xlibre-xserver/releases/download/repository-armv7l | sudo tee /etc/xbps.d/99-repository-armv7l.conf</code></pre>
                             <pre><code>⮞ armv6l-musl</code></pre>
-                            <pre><code>echo repository=https://github.com/xlibre-void/xlibre-xserver/releases/download/repository-armv6l-musl | sudo tee /etc/xbps.d/99-repository-armv6l-musl.conf</code></pre>
-                        </div>
+                            <pre><code>echo repository=https://github.com/xlibre-void/xlibre-xserver/releases/download/repository-armv6l-musl | sudo tee /etc/xbps.d/99-repository-armv6l-musl.conf</code></pre>                        
+                        </div>	
                         <div class="code-block">
                             <h4>4. Synchronize the repository</h4>
                             <pre><code>sudo xbps-install -S</code></pre>
