@@ -89,24 +89,23 @@ layout: xlibre
                         <div class="code-block">
                             <h4>1. Add the repository key</h4>
                             <pre><code>sudo wget -O /var/db/xbps/keys/00:ca:42:57:c9:c0:9a:ec:94:b4:7d:97:e5:a9:aa:1e.plist https://github.com/xlibre-void/xlibre/raw/refs/heads/main/repo-keys/x86_64/00:ca:42:57:c9:c0:9a:ec:94:b4:7d:97:e5:a9:aa:1e.plist</code></pre>
-                           <!-- <p class="note" style="font-size: 0.9em; color: #ffffff; margin-top: 0.5em;">Replace <code>00:ca:42:57:c9:c0:9a:ec:94:b4:7d:97:e5:a9:aa:1e.plist</code> with <code>00:ca:42:57:c9:c0:9a:ec:94:b4:7d:97:e5:a9:aa:1e.plist</code> for x86_x64.xbps architecture.</p> -->
                         </div>
                         <div class="code-block">
                             <h4>2. Add the repository to your sources</h4>
                             <pre><code>sudo mkdir -p /etc/xbps.d</code></pre>
-                            <pre><code>⮞ Architecture: x86_64-glibc, x86_64-musl, i686-glibc</code></pre>
+                            <pre><code>Architecture: ⮞ x86_64-glibc, x86_64-musl, i686-glibc</code></pre>
                             <pre><code>printf "repository=https://github.com/xlibre-void/xlibre/releases/latest/download/" | sudo tee /etc/xbps.d/99-repository-xlibre.conf</code></pre>
 							
                             <h4>3. Add the repository to your sources</h4>
                             <pre><code>sudo mkdir -p /etc/xbps.d</code></pre>
-                            <pre><code>⮞ Architecture: aarch64-glibc, aarch64-musl, armv7l-glibc, armv6l-musl</code></pre>
-                            <pre><code>⮞ aarch64 ⮜</code></pre>
+                            <pre><code>Architecture: ⮞ aarch64-glibc, aarch64-musl, armv7l-glibc, armv6l-musl</code></pre>
+                            <pre><code>⮞ aarch64</code></pre>
                             <pre><code>echo repository=https://github.com/xlibre-void/xlibre-xserver/releases/download/repository-aarch64 | sudo tee /etc/xbps.d/99-repository-aarch64.conf</code></pre>
-                            <pre><code>⮞ aarch64-musl ⮜</code></pre>
+                            <pre><code>⮞ aarch64-musl</code></pre>
                             <pre><code>echo repository=https://github.com/xlibre-void/xlibre-xserver/releases/download/repository-aarch64-musl | sudo tee /etc/xbps.d/99-repository-aarch64-musl.conf</code></pre>
-                            <pre><code>⮞ armv7l ⮜</code></pre>
+                            <pre><code>⮞ armv7l</code></pre>
                             <pre><code>echo repository=https://github.com/xlibre-void/xlibre-xserver/releases/download/repository-armv7l | sudo tee /etc/xbps.d/99-repository-armv7l.conf</code></pre>
-                            <pre><code>⮞ armv6l-musl ⮜</code></pre>
+                            <pre><code>⮞ armv6l-musl</code></pre>
                             <pre><code>echo repository=https://github.com/xlibre-void/xlibre-xserver/releases/download/repository-armv6l-musl | sudo tee /etc/xbps.d/99-repository-armv6l-musl.conf</code></pre>
                         </div>
                         <div class="code-block">
