@@ -99,11 +99,12 @@ section {
 .philosophy-item {
     text-align: center;
     padding: 1.5rem;
-    border-radius: 8px;
+    border-radius: 14px;
    /* background: #f8f9fa; */
    /* background: linear-gradient(180deg, rgb(204, 204, 204) 0%, rgb(245, 245, 245) 19%, rgb(255, 255, 255) 100%); */
     background: linear-gradient(180deg, #bcc0cc78 0%, rgb(245, 245, 245) 19%, rgb(255, 255, 255) 100%);
     transition: transform 0.3s ease;
+    border-top: 3px solid rgba(111, 139, 166, 0.5);
 }
 
 .philosophy-item:hover {
@@ -231,11 +232,12 @@ section {
 .support-item {
     text-align: center;
     padding: 2rem;
-    border-radius: 8px;
+    border-radius: 14px;
    /* background: #f8f9fa; */
    /* background: linear-gradient(180deg, rgb(204, 204, 204) 0%, rgb(245, 245, 245) 19%, rgb(255, 255, 255) 100%); */
     background: linear-gradient(180deg, #bcc0cc78 0%, rgb(245, 245, 245) 19%, rgb(255, 255, 255) 100%);
     transition: transform 0.3s ease;
+    border-top: 3px solid rgba(111, 139, 166, 0.5);
 }
 
 .support-item:hover {
@@ -294,11 +296,13 @@ section {
 .reason {
     text-align: center;
     padding: 1.5rem;
-    border-radius: 8px;
+    border-radius: 14px;
+   /* border-top: 3px solid rgba(139, 91, 49); */
    /* background: #f8f9fa; */
    /* background: linear-gradient(180deg, rgb(204, 204, 204) 0%, rgb(245, 245, 245) 19%, rgb(255, 255, 255) 100%); */
     background: linear-gradient(180deg, #bcc0cc78 0%, rgb(245, 245, 245) 19%, rgb(255, 255, 255) 100%);
     transition: transform 0.3s ease;
+    border-top: 3px solid rgba(111, 139, 166, 0.5);
 }
 
 .reason:hover {
